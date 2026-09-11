@@ -1,0 +1,66 @@
+COMMAND: python -m unittest discover -s question1 -v
+test_actual_wedge_triangle_counterexample (test_solve.GeometryTests.test_actual_wedge_triangle_counterexample) ... ok
+test_empty (test_solve.GeometryTests.test_empty) ... ok
+test_invalid_input (test_solve.GeometryTests.test_invalid_input) ... ok
+test_negative_coordinates (test_solve.GeometryTests.test_negative_coordinates) ... ok
+test_parallel_duplicates (test_solve.GeometryTests.test_parallel_duplicates) ... ok
+test_point (test_solve.GeometryTests.test_point) ... ok
+test_random_true_source_containment (test_solve.GeometryTests.test_random_true_source_containment) ... ok
+test_rectangle (test_solve.GeometryTests.test_rectangle) ... ok
+test_segment (test_solve.GeometryTests.test_segment) ... ok
+test_unbounded_wedge (test_solve.GeometryTests.test_unbounded_wedge) ... ok
+test_wraparound_and_backward_rejection (test_solve.GeometryTests.test_wraparound_and_backward_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.223s
+
+OK
+EXIT_CODE: 0
+
+COMMAND: python -m unittest discover -s question2 -v
+test_collinear_and_sideways_rejected (test_strategy.StrategyTests.test_collinear_and_sideways_rejected) ... ok
+test_collinear_measurements_unbounded (test_strategy.StrategyTests.test_collinear_measurements_unbounded) ... ok
+test_continuous_conditions_against_dense_geometry (test_strategy.StrategyTests.test_continuous_conditions_against_dense_geometry) ... ok
+test_frame_invariance (test_strategy.StrategyTests.test_frame_invariance) ... ok
+test_no_guarantee_for_perpendicular_move (test_strategy.StrategyTests.test_no_guarantee_for_perpendicular_move) ... ok
+test_recommended_and_reflection (test_strategy.StrategyTests.test_recommended_and_reflection) ... ok
+test_reflected_objective (test_strategy.StrategyTests.test_reflected_objective) ... ok
+test_vectorized_diameter_matches_question1 (test_strategy.StrategyTests.test_vectorized_diameter_matches_question1) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.091s
+
+OK
+EXIT_CODE: 0
+
+COMMAND: python -m unittest discover -s question3/tests -v
+test_complete_over_real_loopback_http (test_baseline.HttpTests.test_complete_over_real_loopback_http) ... ok
+test_appendix_199_seconds_and_clear_channel (test_baseline.PhysicsTests.test_appendix_199_seconds_and_clear_channel) ... ok
+test_bias_fixed_at_same_location_and_bounded (test_baseline.PhysicsTests.test_bias_fixed_at_same_location_and_bounded) ... ok
+test_no_truth_fields (test_baseline.PhysicsTests.test_no_truth_fields) ... ok
+test_radius_and_near_and_clear_boundaries (test_baseline.PhysicsTests.test_radius_and_near_and_clear_boundaries) ... ok
+test_rounding_stress_enveloped (test_baseline.PhysicsTests.test_rounding_stress_enveloped) ... ok
+test_deadline_incomplete (test_baseline.ProtocolTests.test_deadline_incomplete) ... ok
+test_failed_http_status_not_accepted (test_baseline.ProtocolTests.test_failed_http_status_not_accepted) ... ok
+test_idempotency_and_conflict (test_baseline.ProtocolTests.test_idempotency_and_conflict) ... ok
+test_invalid_coordinate_no_effect (test_baseline.ProtocolTests.test_invalid_coordinate_no_effect) ... ok
+test_lost_response_same_id_exactly_once (test_baseline.ProtocolTests.test_lost_response_same_id_exactly_once) ... ok
+test_rejected_clock_zero_does_not_reset (test_baseline.ProtocolTests.test_rejected_clock_zero_does_not_reset) ... ok
+test_uncertain_action_blocks_new_actions (test_baseline.ProtocolTests.test_uncertain_action_blocks_new_actions) ... ok
+test_unknown_field_rejected_without_id_consumption (test_baseline.ProtocolTests.test_unknown_field_rejected_without_id_consumption) ... ok
+test_virtual_guard (test_baseline.ProtocolTests.test_virtual_guard) ... ok
+test_full_cases_stop_certificate (test_baseline.StrategyTests.test_full_cases_stop_certificate) ... ok
+test_late_eleventh_source_not_omitted (test_baseline.StrategyTests.test_late_eleventh_source_not_omitted) ... ok
+test_localization_contract_violation_incomplete (test_baseline.StrategyTests.test_localization_contract_violation_incomplete) ... ok
+test_optical_failure_is_not_success (test_baseline.StrategyTests.test_optical_failure_is_not_success) ... ok
+test_optical_grid_covers_polygon (test_baseline.StrategyTests.test_optical_grid_covers_polygon) ... ok
+test_q2_extended_error_certificate (test_baseline.StrategyTests.test_q2_extended_error_certificate) ... ok
+test_seven_station_cover (test_baseline.StrategyTests.test_seven_station_cover) ... ok
+test_strategy_does_not_import_simulator (test_baseline.StrategyTests.test_strategy_does_not_import_simulator) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.899s
+
+OK
+EXIT_CODE: 0
+

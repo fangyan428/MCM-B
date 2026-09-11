@@ -1,0 +1,105 @@
+{
+  "kind": "SELF_DEVELOPMENT_ONLY",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "config": {
+    "name": "baseline_v1",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0
+  },
+  "code_sha256": {
+    "question3/__init__.py": "f62b0abcce0bf1263b263b006344fc9c3254afbb0c627decaa37866cbd22ce4a",
+    "question3/cases.py": "f65edff0b35d467057e831c492eb48fe63083dd02da7380574bceded2cb1e828",
+    "question3/geometry.py": "fd71b32a10733f7b495ebd4ad927f2e4bb303870728d6560b93de110de498cb9",
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question3/run_self.py": "ababc3e8b38375208a9a8143da3b833b54d69a99bec2abdfe90411d4aad699d3",
+    "question3/simulator.py": "f4d97f6901e7794b278a996a9ceb425fabdd5b45c75fabaf15309d34b638e6cd",
+    "question3/strategy.py": "bf56d6687d1461a24e6abd9ed56837668b3687c9778dfff3768a4709b5f66440",
+    "question1/solve.py": "2c98cdc298eb3bb04bfddeaad1259939c9972fc0b32c15a034a045f94f3df033",
+    "question2/strategy.py": "1bc14e5cbdf88d9b5adbad965b65321b9061a437522e7e8a4789739bead6e500"
+  },
+  "cases": [
+    {
+      "case_id": "dev_0_spatial_hash",
+      "kind": "SELF_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09028443399984099,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 657.9045965,
+      "metrics": {
+        "virtual_time_s": 10526.473544,
+        "components": {
+          "movement_s": 9859.47354561497,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2273.0,
+          "localization": 5743.755554785771,
+          "optical": 2509.7179908291973
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      }
+    },
+    {
+      "case_id": "dev_1_spatial_hash",
+      "kind": "SELF_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05769226999836974,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 580.112596,
+      "metrics": {
+        "virtual_time_s": 6381.238556,
+        "components": {
+          "movement_s": 5691.238555267958,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2351.0,
+          "localization": 2378.83811464883,
+          "optical": 1651.4004406191316
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      }
+    }
+  ],
+  "official_rehearsals_run": 0,
+  "formal_tests_run": 0,
+  "note": "No innovation comparisons or held-out cases run; awaiting human review."
+}

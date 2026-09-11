@@ -1,0 +1,70 @@
+{
+  "parameters": {
+    "error_deg": 1,
+    "min_angle_deg": 20,
+    "initial_range": [
+      5,
+      1500
+    ]
+  },
+  "search_scenarios": 1275,
+  "candidates_evaluated": 335,
+  "validation_scenarios": 36421,
+  "recommendation": [
+    800.0,
+    605.0
+  ],
+  "mirror": [
+    800.0,
+    -605.0
+  ],
+  "sampled_search_worst": 134.28437385825887,
+  "comparisons": [
+    {
+      "name": "recommended",
+      "local_point": [
+        800.0,
+        605.0
+      ],
+      "move_distance": 1003.0079760400712,
+      "move_and_detection_seconds": 205.60159520801423,
+      "sampled_worst_diameter": 134.28437385825887,
+      "worst_source": [
+        1499.771542734587,
+        26.178609655925268
+      ],
+      "worst_second_error_deg": 1.0
+    },
+    {
+      "name": "balanced",
+      "local_point": [
+        500,
+        500
+      ],
+      "move_distance": 707.1067811865476,
+      "move_and_detection_seconds": 146.4213562373095,
+      "sampled_worst_diameter": 234.69474598617754,
+      "worst_source": [
+        1499.771542734587,
+        26.178609655925268
+      ],
+      "worst_second_error_deg": 1.0
+    },
+    {
+      "name": "forward_biased",
+      "local_point": [
+        750,
+        400
+      ],
+      "move_distance": 850.0,
+      "move_and_detection_seconds": 175.0,
+      "sampled_worst_diameter": 200.669885169175,
+      "worst_source": [
+        1499.771542734587,
+        26.178609655925268
+      ],
+      "worst_second_error_deg": 1.0
+    }
+  ],
+  "caveat": "Sampled minimax on a conservative full-sector candidate region; not continuous global optimum."
+}

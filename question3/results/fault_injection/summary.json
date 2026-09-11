@@ -1,0 +1,26 @@
+[
+  {
+    "fault": "lost_measure_response",
+    "expected": "complete",
+    "actual": "complete",
+    "failure": null
+  },
+  {
+    "fault": "second_point_no_signal",
+    "expected": "incomplete",
+    "actual": "incomplete",
+    "failure": "Incomplete: Guaranteed-reception second point returned no_signal"
+  },
+  {
+    "fault": "all_clear_feedback_failed",
+    "expected": "incomplete",
+    "actual": "incomplete",
+    "failure": "Incomplete: All optical covering points failed: model/protocol inconsistency"
+  },
+  {
+    "fault": "zero_real_budget",
+    "expected": "incomplete",
+    "actual": "incomplete",
+    "failure": "ProtocolError: Real deadline guard reached; completion not certified"
+  }
+]

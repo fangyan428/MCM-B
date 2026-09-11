@@ -1,0 +1,205 @@
+{
+  "summary": {
+    "case_id": "clustered_16",
+    "kind": "SELF_DEVELOPMENT",
+    "rounding": "bounded",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.0017053659994417103,
+    "total": 16,
+    "cleared": 16,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 139.9375,
+    "metrics": {
+      "virtual_time_s": 2239.0,
+      "components": {
+        "movement_s": 1800.0000000000002,
+        "switch_s": 59.0,
+        "detection_s": 300.0,
+        "optical_s": 48.0,
+        "laser_s": 32.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2159.0,
+        "near": 80.0
+      },
+      "counts": {
+        "measure": 60,
+        "clear": 16,
+        "clear_success": 16,
+        "clear_failure": 0,
+        "retries": 0
+      }
+    }
+  },
+  "strategy": {
+    "status": "complete",
+    "failure": null,
+    "exit_confirmed": true,
+    "cleared_channels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "absent_channels": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "negative_station_ids": {
+      "1": [
+        0
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0
+      ],
+      "4": [
+        0
+      ],
+      "5": [
+        0
+      ],
+      "6": [
+        0
+      ],
+      "7": [
+        0
+      ],
+      "8": [
+        0
+      ],
+      "9": [
+        0
+      ],
+      "10": [
+        0
+      ],
+      "11": [
+        0
+      ],
+      "12": [
+        0
+      ],
+      "13": [
+        0
+      ],
+      "14": [
+        0
+      ],
+      "15": [
+        0
+      ],
+      "16": [
+        0
+      ],
+      "17": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "18": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "19": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "station_positions": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1500.0,
+        0.0
+      ],
+      [
+        750.0000000000001,
+        1299.038105676658
+      ],
+      [
+        -749.9999999999997,
+        1299.038105676658
+      ],
+      [
+        -1500.0,
+        1.8369701987210297e-13
+      ],
+      [
+        -750.0000000000007,
+        -1299.0381056766576
+      ],
+      [
+        750.0000000000001,
+        -1299.038105676658
+      ]
+    ],
+    "regions": [],
+    "metrics": {
+      "virtual_time_s": 2239.0,
+      "components": {
+        "movement_s": 1800.0000000000002,
+        "switch_s": 59.0,
+        "detection_s": 300.0,
+        "optical_s": 48.0,
+        "laser_s": 32.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2159.0,
+        "near": 80.0
+      },
+      "counts": {
+        "measure": 60,
+        "clear": 16,
+        "clear_success": 16,
+        "clear_failure": 0,
+        "retries": 0
+      }
+    }
+  }
+}

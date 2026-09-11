@@ -1,0 +1,128 @@
+{
+  "kind": "SELF_POST_RUN_AUDIT",
+  "runs": 52,
+  "actions_checked": 6251,
+  "all_stopping_certificates_valid": true,
+  "all_physics_and_time_checks_passed": true,
+  "mean_virtual_s": 8460.035395923076,
+  "mean_case_average_per_clear_s": 647.8263947456679,
+  "pooled_virtual_per_clear_s": 642.2216650919709,
+  "total_cleared_over_runs": 685,
+  "worst_total_case": {
+    "case_id": "dev_0_negative",
+    "kind": "SELF_DEVELOPMENT",
+    "rounding": "bounded",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.0630525430005946,
+    "total": 16,
+    "cleared": 16,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 671.8444695,
+    "metrics": {
+      "virtual_time_s": 10749.511512,
+      "components": {
+        "movement_s": 10010.511511318804,
+        "switch_s": 94.0,
+        "detection_s": 475.0,
+        "optical_s": 138.0,
+        "laser_s": 32.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2273.0,
+        "localization": 5769.044305829123,
+        "optical": 2707.4672054896782
+      },
+      "counts": {
+        "measure": 95,
+        "clear": 46,
+        "clear_success": 16,
+        "clear_failure": 30,
+        "retries": 0
+      }
+    }
+  },
+  "worst_per_clear_case": {
+    "case_id": "dev_3_negative",
+    "kind": "SELF_DEVELOPMENT",
+    "rounding": "bounded",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.046080558000539895,
+    "total": 11,
+    "cleared": 11,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 752.0482659090908,
+    "metrics": {
+      "virtual_time_s": 8272.530925,
+      "components": {
+        "movement_s": 7510.53092608247,
+        "switch_s": 108.0,
+        "detection_s": 545.0,
+        "optical_s": 87.0,
+        "laser_s": 22.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2387.0,
+        "localization": 4093.1851561524986,
+        "optical": 1792.3457699299718
+      },
+      "counts": {
+        "measure": 109,
+        "clear": 29,
+        "clear_success": 11,
+        "clear_failure": 18,
+        "retries": 0
+      }
+    }
+  },
+  "most_failed_clear_case": {
+    "case_id": "dev_6_negative",
+    "kind": "SELF_DEVELOPMENT",
+    "rounding": "bounded",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.06702809099988372,
+    "total": 16,
+    "cleared": 16,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 604.21747675,
+    "metrics": {
+      "virtual_time_s": 9667.479628,
+      "components": {
+        "movement_s": 9024.479624203519,
+        "switch_s": 76.0,
+        "detection_s": 385.0,
+        "optical_s": 150.0,
+        "laser_s": 32.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2165.0,
+        "localization": 4810.9250531564385,
+        "optical": 2691.554571047077
+      },
+      "counts": {
+        "measure": 77,
+        "clear": 50,
+        "clear_success": 16,
+        "clear_failure": 34,
+        "retries": 0
+      }
+    }
+  },
+  "component_means": {
+    "movement_s": 7783.054626589018,
+    "switch_s": 96.0,
+    "detection_s": 485.0,
+    "optical_s": 69.63461538461539,
+    "laser_s": 26.346153846153847
+  },
+  "min_wall_s": 0.0017548969990457408,
+  "max_wall_s": 0.06702809099988372
+}

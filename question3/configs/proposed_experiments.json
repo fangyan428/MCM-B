@@ -1,0 +1,19 @@
+{
+  "status": "PROPOSED_AWAITING_HUMAN_REVIEW",
+  "baseline": "baseline_v1",
+  "recommended_order": ["joint_route", "adaptive_second_point"],
+  "deferred": ["failed_clear_feedback"],
+  "development_layout_seeds_already_used": [0,1,2,3,4,5,6,7,8,9,10,11],
+  "proposed_heldout_layout_seeds_not_generated_or_run": {"start": 10000, "stop_exclusive": 10050},
+  "proposed_error_modes": ["spatial_hash", "smooth", "positive", "negative"],
+  "required_comparisons": ["baseline", "each_approved_candidate_alone", "combined_approved_candidates", "mechanism_ablation"],
+  "proposed_acceptance": {
+    "missed_sources": 0,
+    "false_complete": 0,
+    "median_paired_time_improvement_at_least": 0.05,
+    "max_per_case_time_regression_at_most": 0.10,
+    "timeouts": 0
+  },
+  "official_rehearsal": "Separate Windows stage after self comparison and review",
+  "formal_tests": "Not authorized; no mode implemented"
+}

@@ -1,0 +1,2 @@
+{"type": "request", "path": "/enter", "payload": {"arena_id": "default", "robot_id": "SELF", "request_id": "193352cab80c475cb1b1669a6d786b5e-1"}, "attempt": 0, "phase": "control"}
+{"type": "response", "path": "/enter", "request_id": "193352cab80c475cb1b1669a6d786b5e-1", "http_status": 200, "response": {"accepted": true, "real_timestamp_ms": 1789108828179, "virtual_time_s": 0.0, "max_virtual_duration_s": 360000, "max_real_duration_s": 1200, "remaining_real_duration_s": 0}, "attempt": 0}

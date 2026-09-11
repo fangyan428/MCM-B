@@ -1,0 +1,19 @@
+{
+  "stage": "ROUND1_DEVELOPMENT_COMPARISON_NOT_FINAL_VALIDATION",
+  "modules": {
+    "A": "Second-point local cost proxy: actual movement plus sampled continuation cost, with analytic safe candidates",
+    "B": "Nearest task start scheduling, forcing a coverage station after at most two localizations",
+    "C": "Whole-cell legal-prior exclusions and failed-clear exclusions, geometric covering area per time"
+  },
+  "variants": ["baseline", "A", "B", "C", "AB", "AC", "BC", "ABC"],
+  "offline_config_budget_per_variant": 1,
+  "post_result_tuning_allowed_this_round": false,
+  "scenario_manifest": "Same previous development_cases: 12 layouts times 4 fields plus 4 constructed cases",
+  "rounding_batches": ["bounded", "pre_round_stress"],
+  "final_validation_seeds_10000_10049": "NOT GENERATED OR RUN",
+  "comparison_order": ["clearance", "stop_certificate", "failures_and_timeouts", "paired_virtual_time", "tails_and_components"],
+  "failed_run_ranking": "All-case penalty = max(360000, spent_virtual_time), plus report raw time; never drop failures",
+  "human_checkpoint": "Pause after this first factorial comparison; no next mechanism implementation yet",
+  "official_rehearsal": "NOT RUN",
+  "formal_tests": "NOT AUTHORIZED"
+}

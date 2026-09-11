@@ -1,0 +1,950 @@
+{
+  "summary": {
+    "variant": "AC",
+    "case_id": "dev_9_spatial_hash",
+    "kind": "SELF_ROUND1_DEVELOPMENT",
+    "rounding": "bounded",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.05916363799769897,
+    "total": 13,
+    "cleared": 13,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 645.6589032307693,
+    "metrics": {
+      "virtual_time_s": 8393.565742,
+      "components": {
+        "movement_s": 7675.56574433429,
+        "switch_s": 104.0,
+        "detection_s": 525.0,
+        "optical_s": 63.0,
+        "laser_s": 26.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2351.0,
+        "localization": 4252.141539785677,
+        "optical": 1790.4242045486133
+      },
+      "counts": {
+        "measure": 105,
+        "clear": 21,
+        "clear_success": 13,
+        "clear_failure": 8,
+        "retries": 0
+      }
+    },
+    "false_complete": false,
+    "timeout": false,
+    "penalized_virtual_s": 8393.565742
+  },
+  "strategy": {
+    "status": "complete",
+    "failure": null,
+    "exit_confirmed": true,
+    "cleared_channels": [
+      1,
+      2,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      16,
+      18,
+      19,
+      20
+    ],
+    "absent_channels": [
+      3,
+      4,
+      7,
+      10,
+      13,
+      15,
+      17
+    ],
+    "negative_station_ids": {
+      "1": [],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "5": [],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "7": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "8": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "9": [
+        0,
+        1
+      ],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "11": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "12": [],
+      "13": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "14": [
+        0
+      ],
+      "15": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "16": [],
+      "17": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "18": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "19": [
+        0
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "station_positions": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1500.0,
+        0.0
+      ],
+      [
+        750.0000000000001,
+        1299.038105676658
+      ],
+      [
+        -749.9999999999997,
+        1299.038105676658
+      ],
+      [
+        -1500.0,
+        1.8369701987210297e-13
+      ],
+      [
+        -750.0000000000007,
+        -1299.0381056766576
+      ],
+      [
+        750.0000000000001,
+        -1299.038105676658
+      ]
+    ],
+    "regions": [
+      {
+        "diameter": 38.209045758646916,
+        "vertices": [
+          [
+            -57.41027288282277,
+            523.7870833230702
+          ],
+          [
+            -39.6170169236618,
+            533.7415892148703
+          ],
+          [
+            -41.45511578956556,
+            558.5054378335573
+          ],
+          [
+            -60.161225349576654,
+            548.8856118018043
+          ]
+        ],
+        "bbox_widths": [
+          33.112805798765066,
+          19.50788572877626
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.793280292537121,
+        "channel": 1,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          529.2606862519484,
+          852.0024213510878
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 723.2830446011877,
+          "offset": [
+            800,
+            -605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 3,
+          "failed_clear_excluded_cells": 23,
+          "remaining_cells": 6
+        }
+      },
+      {
+        "diameter": 37.65938418547708,
+        "vertices": [
+          [
+            980.6182826746862,
+            -677.4832989299065
+          ],
+          [
+            993.9287264476897,
+            -660.1211102799213
+          ],
+          [
+            972.0343784756197,
+            -640.8152500872068
+          ],
+          [
+            958.8178014532696,
+            -656.856794772296
+          ]
+        ],
+        "bbox_widths": [
+          23.363439575742973,
+          29.900655775193243
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 13.86869327618902,
+        "channel": 2,
+        "first_position": [
+          1500.0,
+          0.0
+        ],
+        "second_position": [
+          528.59749475078,
+          -249.80426896980572
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 485.3506888119447,
+          "offset": [
+            800,
+            -605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 0,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 32
+        }
+      },
+      {
+        "diameter": 36.90497443326828,
+        "vertices": [
+          [
+            -621.8838447069777,
+            -39.942949181966455
+          ],
+          [
+            -598.8532617883641,
+            -38.463718918985904
+          ],
+          [
+            -592.7950352205612,
+            -17.2313155863144
+          ],
+          [
+            -616.4271636844766,
+            -17.918252283391393
+          ]
+        ],
+        "bbox_widths": [
+          30.11523647985598,
+          21.746616051057316
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 13.225422268603712,
+        "channel": 5,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          -770.9485491417906,
+          -641.6099551722745
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 639.0811089478343,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 30
+        }
+      },
+      {
+        "diameter": 46.77513861694898,
+        "vertices": [
+          [
+            207.2391546720515,
+            -1368.4095809718244
+          ],
+          [
+            230.77557817173346,
+            -1370.1152742809372
+          ],
+          [
+            222.5669730507597,
+            -1335.2954372050265
+          ],
+          [
+            200.4855189746115,
+            -1334.47223980757
+          ]
+        ],
+        "bbox_widths": [
+          32.196983552340726,
+          34.317947295309224
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 11.764265957852302,
+        "channel": 6,
+        "first_position": [
+          -750.0000000000007,
+          -1299.0381056766576
+        ],
+        "second_position": [
+          81.93836374794319,
+          -738.7671364801502
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 489.7823013561282,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 9,
+          "failed_clear_excluded_cells": 31,
+          "remaining_cells": 24
+        }
+      },
+      {
+        "diameter": 41.85203664713592,
+        "vertices": [
+          [
+            -1102.9621754666928,
+            45.76329285453468
+          ],
+          [
+            -1073.130838289958,
+            49.20170636353967
+          ],
+          [
+            -1084.2605906821605,
+            62.76334889235961
+          ],
+          [
+            -1113.9873957632356,
+            58.275552458001684
+          ]
+        ],
+        "bbox_widths": [
+          39.30262390198175,
+          14.911285993817597
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.334104257956652,
+        "channel": 8,
+        "first_position": [
+          -1500.0,
+          1.8369701987210297e-13
+        ],
+        "second_position": [
+          -627.1849016184497,
+          -494.1849896923259
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 533.692065857163,
+          "offset": [
+            800,
+            -605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 19,
+          "remaining_cells": 11
+        }
+      },
+      {
+        "diameter": 53.17536995709956,
+        "vertices": [
+          [
+            887.6653625331953,
+            1269.7638729768257
+          ],
+          [
+            883.3866302683933,
+            1275.5304457964826
+          ],
+          [
+            836.3799598318799,
+            1283.8147604875246
+          ],
+          [
+            839.4021088689605,
+            1280.026946364492
+          ]
+        ],
+        "bbox_widths": [
+          53.02420113573682,
+          4.844224030173542
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 13.475514674542854,
+        "channel": 9,
+        "first_position": [
+          750.0000000000001,
+          1299.038105676658
+        ],
+        "second_position": [
+          1419.8623045553218,
+          552.5064633895856
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 805.2598414933396,
+          "offset": [
+            800,
+            -605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 0,
+          "failed_clear_excluded_cells": 18,
+          "remaining_cells": 14
+        }
+      },
+      {
+        "diameter": 37.77669535488396,
+        "vertices": [
+          [
+            -228.5142031146428,
+            -1464.4130584948348
+          ],
+          [
+            -204.96164348598955,
+            -1471.8821083914938
+          ],
+          [
+            -192.01477164617086,
+            -1454.6729242855936
+          ],
+          [
+            -215.368408052214,
+            -1448.1590619444048
+          ]
+        ],
+        "bbox_widths": [
+          32.1990546596403,
+          20.189432594213496
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.91131256611732,
+        "channel": 11,
+        "first_position": [
+          -750.0000000000007,
+          -1299.0381056766576
+        ],
+        "second_position": [
+          189.43820556466244,
+          -947.6396737998978
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 755.4150204622944,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 23,
+          "remaining_cells": 7
+        }
+      },
+      {
+        "diameter": 56.599187509335835,
+        "vertices": [
+          [
+            -326.3929815354447,
+            -1068.5838238518272
+          ],
+          [
+            -283.00718151739324,
+            -1058.0435990163646
+          ],
+          [
+            -277.98276655753114,
+            -1039.259446407299
+          ],
+          [
+            -320.0863851676047,
+            -1047.936545131146
+          ]
+        ],
+        "bbox_widths": [
+          41.518659638592226,
+          38.80755673322857
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 14.207888560998475,
+        "channel": 12,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          198.6045077427087,
+          -941.039982946674
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 432.3854732411708,
+          "offset": [
+            850,
+            450
+          ],
+          "sampled_worst_diameter": 154.29775964626242,
+          "max_source_distance": 957.3950261188191,
+          "proxy_cells": 12,
+          "continuation_proxy_s": 294.67900522376385
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 21,
+          "failed_clear_excluded_cells": 22,
+          "remaining_cells": 21
+        }
+      },
+      {
+        "diameter": 45.58824969670277,
+        "vertices": [
+          [
+            1226.6416629175712,
+            896.6329079639627
+          ],
+          [
+            1256.2725715413967,
+            913.1083299971411
+          ],
+          [
+            1250.2625485797337,
+            935.6244746283578
+          ],
+          [
+            1220.2673863689483,
+            917.5409445688055
+          ]
+        ],
+        "bbox_widths": [
+          30.999502822475165,
+          33.809749502387135
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 11.467531165901656,
+        "channel": 14,
+        "first_position": [
+          1500.0,
+          0.0
+        ],
+        "second_position": [
+          698.4526558296641,
+          602.9484679916527
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 680.4373283067197,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 8,
+          "failed_clear_excluded_cells": 34,
+          "remaining_cells": 22
+        }
+      },
+      {
+        "diameter": 46.66071789856845,
+        "vertices": [
+          [
+            332.2120396112827,
+            -924.0192671481066
+          ],
+          [
+            360.7005655967596,
+            -902.5009081672995
+          ],
+          [
+            352.5086753109568,
+            -882.0041606495565
+          ],
+          [
+            324.2379456307552,
+            -901.8400093322891
+          ]
+        ],
+        "bbox_widths": [
+          32.081172870729574,
+          34.26965211639025
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 11.735658026235804,
+        "channel": 16,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          849.4689930170217,
+          -533.317381961855
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 593.1422415771876,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 9,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 55
+        }
+      },
+      {
+        "diameter": 31.771854224192776,
+        "vertices": [
+          [
+            1228.3783830994514,
+            -1178.9221405282558
+          ],
+          [
+            1246.7439562597824,
+            -1174.3107311845397
+          ],
+          [
+            1249.182903232739,
+            -1154.9091718890602
+          ],
+          [
+            1231.428931957893,
+            -1160.035270827481
+          ]
+        ],
+        "bbox_widths": [
+          26.341701383669772,
+          18.096337813370347
+        ],
+        "planned_clear_calls": 1,
+        "covering_radius": 15.979382607300941,
+        "channel": 18,
+        "first_position": [
+          750.0000000000001,
+          -1299.038105676658
+        ],
+        "second_position": [
+          1308.603812726266,
+          -682.2222657311529
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 508.295427709976,
+          "offset": [
+            700,
+            450
+          ],
+          "sampled_worst_diameter": 195.94607243756317,
+          "max_source_distance": 930.8606699550029,
+          "proxy_cells": 14,
+          "continuation_proxy_s": 306.57213399100056
+        },
+        "evidence": {
+          "fine_cells": 16,
+          "prior_excluded_cells": 0,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 16
+        }
+      },
+      {
+        "diameter": 56.8879841012001,
+        "vertices": [
+          [
+            977.6867131924059,
+            942.4720691260135
+          ],
+          [
+            989.6027479367286,
+            920.970548477552
+          ],
+          [
+            1014.9393869233714,
+            952.601500011297
+          ],
+          [
+            1002.8784197871308,
+            976.2878086412553
+          ]
+        ],
+        "bbox_widths": [
+          42.61628907117688,
+          38.11535723715278
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 14.293636152834512,
+        "channel": 19,
+        "first_position": [
+          1500.0,
+          0.0
+        ],
+        "second_position": [
+          590.3131800503351,
+          422.4865555374112
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 634.1682513640284,
+          "offset": [
+            800,
+            605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 15,
+          "failed_clear_excluded_cells": 24,
+          "remaining_cells": 25
+        }
+      },
+      {
+        "diameter": 39.556929334985924,
+        "vertices": [
+          [
+            -995.9412081278276,
+            -897.3051723893246
+          ],
+          [
+            -986.102508995547,
+            -881.1328943880118
+          ],
+          [
+            -999.2363820312089,
+            -857.8857293775374
+          ],
+          [
+            -1010.0268271586505,
+            -874.2970026991145
+          ]
+        ],
+        "bbox_widths": [
+          35.646372837028025,
+          17.622194165609876
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.53203596108347,
+        "channel": 20,
+        "first_position": [
+          -750.0000000000007,
+          -1299.0381056766576
+        ],
+        "second_position": [
+          -634.2233691338602,
+          -302.7345516604705
+        ],
+        "selection": {
+          "mode": "cost_proxy",
+          "score_s": 704.0720308348751,
+          "offset": [
+            800,
+            -605
+          ],
+          "sampled_worst_diameter": 135.02615374849327,
+          "max_source_distance": 999.0782479833672,
+          "proxy_cells": 10,
+          "continuation_proxy_s": 285.81564959667344
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 6,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 26
+        }
+      }
+    ],
+    "metrics": {
+      "virtual_time_s": 8393.565742,
+      "components": {
+        "movement_s": 7675.56574433429,
+        "switch_s": 104.0,
+        "detection_s": 525.0,
+        "optical_s": 63.0,
+        "laser_s": 26.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2351.0,
+        "localization": 4252.141539785677,
+        "optical": 1790.4242045486133
+      },
+      "counts": {
+        "measure": 105,
+        "clear": 21,
+        "clear_success": 13,
+        "clear_failure": 8,
+        "retries": 0
+      }
+    },
+    "modules": {
+      "A": true,
+      "B": false,
+      "C": true
+    }
+  }
+}

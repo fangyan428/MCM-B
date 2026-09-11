@@ -1,0 +1,482 @@
+{
+  "locked_code_unchanged": true,
+  "batches": {
+    "round2_dev": {
+      "runs": 312,
+      "audited_actions": 36634,
+      "failed": 0,
+      "variants": {
+        "AB": {
+          "pending_at_coverage_mean": 2.4038461538461537,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1892.0698015561236,
+            "near": 1.6346153846153846,
+            "optical": 1770.0466081883608,
+            "search": 1727.9180055225177
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H0": {
+          "pending_at_coverage_mean": 12.846153846153847,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1594.1471992986978,
+            "near": 1.6346153846153846,
+            "optical": 1823.0714299784725,
+            "search": 2303.923076923077
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H05": {
+          "pending_at_coverage_mean": 12.51923076923077,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1634.648889360166,
+            "near": 1.6346153846153846,
+            "optical": 1815.893636979353,
+            "search": 2298.1774827751283
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H1": {
+          "pending_at_coverage_mean": 11.538461538461538,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1819.4353486295004,
+            "near": 1.6346153846153846,
+            "optical": 1816.8319885858716,
+            "search": 2327.5176219790037
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "P1": {
+          "pending_at_coverage_mean": 5.423076923076923,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 2131.83169579221,
+            "near": 1.6346153846153846,
+            "optical": 1766.3180486396034,
+            "search": 1766.224924028325
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "T": {
+          "pending_at_coverage_mean": 2.576923076923077,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1900.0821627901096,
+            "near": 1.6346153846153846,
+            "optical": 1750.471683044811,
+            "search": 1707.188010088388
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        }
+      },
+      "pairs": {
+        "AB->T": {
+          "mean_saved_s": 32.29255917307693,
+          "median_gain": 0.0,
+          "wins": 14,
+          "losses": 13,
+          "ties": 25,
+          "worst_gain": -0.17026896013000004,
+          "worst_case": "boundary_minR_16",
+          "worst_times_s": [
+            6835.226433,
+            7999.05333
+          ]
+        },
+        "T->H0": {
+          "mean_saved_s": -363.399849673077,
+          "median_gain": -0.06253563458802613,
+          "wins": 3,
+          "losses": 48,
+          "ties": 1,
+          "worst_gain": -0.20618915089089151,
+          "worst_case": "dev_1_negative",
+          "worst_times_s": [
+            4540.689425,
+            5476.930322
+          ]
+        },
+        "H0->H05": {
+          "mean_saved_s": -27.578303346153795,
+          "median_gain": -0.004076794599499722,
+          "wins": 20,
+          "losses": 29,
+          "ties": 3,
+          "worst_gain": -0.2206879786819127,
+          "worst_case": "boundary_minR_16",
+          "worst_times_s": [
+            6223.390568,
+            7596.818053
+          ]
+        },
+        "H05->H1": {
+          "mean_saved_s": -215.06495026923074,
+          "median_gain": -0.029251404180369533,
+          "wins": 4,
+          "losses": 39,
+          "ties": 9,
+          "worst_gain": -0.1377026031906925,
+          "worst_case": "dev_2_smooth",
+          "worst_times_s": [
+            6497.42297,
+            7392.135027
+          ]
+        },
+        "P1->H1": {
+          "mean_saved_s": -299.41029076923076,
+          "median_gain": -0.06509891225413278,
+          "wins": 10,
+          "losses": 41,
+          "ties": 1,
+          "worst_gain": -0.24838605168386207,
+          "worst_case": "dev_10_negative",
+          "worst_times_s": [
+            5118.949391,
+            6390.425019
+          ]
+        }
+      }
+    },
+    "round2_dev_rounding": {
+      "runs": 312,
+      "audited_actions": 36609,
+      "failed": 0,
+      "variants": {
+        "AB": {
+          "pending_at_coverage_mean": 2.480769230769231,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1861.6541570607553,
+            "near": 1.6346153846153846,
+            "optical": 1773.9210694933254,
+            "search": 1727.8584978675567
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H0": {
+          "pending_at_coverage_mean": 12.846153846153847,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1594.2220900836558,
+            "near": 1.6346153846153846,
+            "optical": 1823.2154623323208,
+            "search": 2303.923076923077
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H05": {
+          "pending_at_coverage_mean": 12.557692307692308,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1639.2494268172927,
+            "near": 1.6346153846153846,
+            "optical": 1815.9108460600785,
+            "search": 2294.932775455876
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "H1": {
+          "pending_at_coverage_mean": 11.634615384615385,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1810.4479861847879,
+            "near": 1.6346153846153846,
+            "optical": 1817.933933148752,
+            "search": 2325.1807095261565
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "P1": {
+          "pending_at_coverage_mean": 5.346153846153846,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 2140.6669070169887,
+            "near": 1.6346153846153846,
+            "optical": 1765.31666555869,
+            "search": 1779.4133608291506
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        },
+        "T": {
+          "pending_at_coverage_mean": 2.576923076923077,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1900.1716238434722,
+            "near": 1.6346153846153846,
+            "optical": 1750.820886692811,
+            "search": 1707.2294024840726
+          },
+          "cleared_across_runs": 685,
+          "total_across_runs": 685
+        }
+      },
+      "pairs": {
+        "AB->T": {
+          "mean_saved_s": 5.21181125,
+          "median_gain": 0.0,
+          "wins": 14,
+          "losses": 14,
+          "ties": 24,
+          "worst_gain": -0.17133511454609085,
+          "worst_case": "boundary_minR_16",
+          "worst_times_s": [
+            6826.665305,
+            7996.312787
+          ]
+        },
+        "T->H0": {
+          "mean_saved_s": -363.1387152884615,
+          "median_gain": -0.06253563458802613,
+          "wins": 3,
+          "losses": 48,
+          "ties": 1,
+          "worst_gain": -0.20561003776910414,
+          "worst_case": "dev_1_negative",
+          "worst_times_s": [
+            4542.961322,
+            5477.039771
+          ]
+        },
+        "H0->H05": {
+          "mean_saved_s": -28.73241942307695,
+          "median_gain": -0.004092782653215443,
+          "wins": 20,
+          "losses": 29,
+          "ties": 3,
+          "worst_gain": -0.22066725490683825,
+          "worst_case": "boundary_minR_16",
+          "worst_times_s": [
+            6223.465931,
+            7596.781074
+          ]
+        },
+        "H05->H1": {
+          "mean_saved_s": -203.46958073076922,
+          "median_gain": -0.020958531982503636,
+          "wins": 5,
+          "losses": 38,
+          "ties": 9,
+          "worst_gain": -0.1377114088924769,
+          "worst_case": "dev_2_smooth",
+          "worst_times_s": [
+            6497.372681,
+            7392.135027
+          ]
+        },
+        "P1->H1": {
+          "mean_saved_s": -268.1656953653846,
+          "median_gain": -0.05513253471438473,
+          "wins": 11,
+          "losses": 40,
+          "ties": 1,
+          "worst_gain": -0.24845242652320354,
+          "worst_case": "dev_10_negative",
+          "worst_times_s": [
+            5118.738379,
+            6390.50135
+          ]
+        }
+      }
+    },
+    "round2_holdout_main": {
+      "runs": 800,
+      "audited_actions": 94063,
+      "failed": 0,
+      "variants": {
+        "AB": {
+          "pending_at_coverage_mean": 2.235,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1869.9179532141945,
+            "optical": 1742.946423682481,
+            "search": 1820.929920390212
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "H0": {
+          "pending_at_coverage_mean": 12.735,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1635.0276293463692,
+            "optical": 1806.9931064805503,
+            "search": 2298.1772203972155
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "H05": {
+          "pending_at_coverage_mean": 11.91,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1688.5155368466058,
+            "optical": 1801.7630139450312,
+            "search": 2311.272019590975
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "T": {
+          "pending_at_coverage_mean": 2.33,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1874.6971878626362,
+            "optical": 1744.626783705037,
+            "search": 1806.8653429460674
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        }
+      },
+      "pairs": {
+        "AB->T": {
+          "mean_saved_s": 7.604982985000024,
+          "median_gain": 0.0,
+          "wins": 69,
+          "losses": 72,
+          "ties": 59,
+          "worst_gain": -0.28475343007922316,
+          "worst_case": "holdout_10035_spatial_hash",
+          "worst_times_s": [
+            5203.83243,
+            6685.641564
+          ]
+        },
+        "T->H0": {
+          "mean_saved_s": -314.0086413200001,
+          "median_gain": -0.057910379752855734,
+          "wins": 28,
+          "losses": 172,
+          "ties": 0,
+          "worst_gain": -0.2792161634029069,
+          "worst_case": "holdout_10031_positive",
+          "worst_times_s": [
+            4507.906486,
+            5766.58684
+          ]
+        },
+        "H0->H05": {
+          "mean_saved_s": -61.352614024999966,
+          "median_gain": -0.010734738424259982,
+          "wins": 73,
+          "losses": 126,
+          "ties": 1,
+          "worst_gain": -0.13108523532358052,
+          "worst_case": "holdout_10046_negative",
+          "worst_times_s": [
+            5590.014468,
+            6322.78283
+          ]
+        }
+      }
+    },
+    "round2_holdout_rounding": {
+      "runs": 800,
+      "audited_actions": 94058,
+      "failed": 0,
+      "variants": {
+        "AB": {
+          "pending_at_coverage_mean": 2.275,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1880.377345281883,
+            "optical": 1744.7189811946246,
+            "search": 1818.9227706310649
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "H0": {
+          "pending_at_coverage_mean": 12.735,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1634.990793847804,
+            "optical": 1807.0719573252497,
+            "search": 2298.1769975818597
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "H05": {
+          "pending_at_coverage_mean": 11.905,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1688.163384007581,
+            "optical": 1801.2264714913501,
+            "search": 2313.8700714949105
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        },
+        "T": {
+          "pending_at_coverage_mean": 2.325,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1874.3205045267518,
+            "optical": 1744.7450174252276,
+            "search": 1807.4151386223084
+          },
+          "cleared_across_runs": 2548,
+          "total_across_runs": 2548
+        }
+      },
+      "pairs": {
+        "AB->T": {
+          "mean_saved_s": 17.538436549999982,
+          "median_gain": 0.0,
+          "wins": 74,
+          "losses": 73,
+          "ties": 53,
+          "worst_gain": -0.28475343007922316,
+          "worst_case": "holdout_10035_spatial_hash",
+          "worst_times_s": [
+            5203.83243,
+            6685.641564
+          ]
+        },
+        "T->H0": {
+          "mean_saved_s": -313.759087515,
+          "median_gain": -0.0586749930643502,
+          "wins": 28,
+          "losses": 172,
+          "ties": 0,
+          "worst_gain": -0.2792278206635972,
+          "worst_case": "holdout_10031_positive",
+          "worst_times_s": [
+            4507.978854,
+            5766.731965
+          ]
+        },
+        "H0->H05": {
+          "mean_saved_s": -63.02017830999999,
+          "median_gain": -0.010980748548911401,
+          "wins": 69,
+          "losses": 130,
+          "ties": 1,
+          "worst_gain": -0.1310582859709586,
+          "worst_case": "holdout_10046_negative",
+          "worst_times_s": [
+            5589.986452,
+            6322.600495
+          ]
+        }
+      }
+    }
+  },
+  "heldout_pairing_and_lock_verified": true
+}

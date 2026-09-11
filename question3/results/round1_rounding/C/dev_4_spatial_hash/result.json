@@ -1,0 +1,784 @@
+{
+  "summary": {
+    "variant": "C",
+    "case_id": "dev_4_spatial_hash",
+    "kind": "SELF_ROUND1_DEVELOPMENT",
+    "rounding": "pre_round_stress",
+    "status": "complete",
+    "failure": null,
+    "elapsed_wall_s": 0.052762012997845886,
+    "total": 11,
+    "cleared": 11,
+    "remaining_channels": [],
+    "clearance_ratio": 1.0,
+    "average_virtual_per_cleared": 718.1892040909091,
+    "metrics": {
+      "virtual_time_s": 7900.081245,
+      "components": {
+        "movement_s": 7216.0812461655605,
+        "switch_s": 99.0,
+        "detection_s": 500.0,
+        "optical_s": 63.0,
+        "laser_s": 22.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2333.0,
+        "localization": 3853.4554745469245,
+        "optical": 1713.6257716186378
+      },
+      "counts": {
+        "measure": 100,
+        "clear": 21,
+        "clear_success": 11,
+        "clear_failure": 10,
+        "retries": 0
+      }
+    },
+    "false_complete": false,
+    "timeout": false,
+    "penalized_virtual_s": 7900.081245
+  },
+  "strategy": {
+    "status": "complete",
+    "failure": null,
+    "exit_confirmed": true,
+    "cleared_channels": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      10,
+      13,
+      15,
+      16,
+      17
+    ],
+    "absent_channels": [
+      3,
+      6,
+      8,
+      11,
+      12,
+      14,
+      18,
+      19,
+      20
+    ],
+    "negative_station_ids": {
+      "1": [
+        0,
+        1
+      ],
+      "2": [
+        0
+      ],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "4": [
+        0,
+        1
+      ],
+      "5": [],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "7": [],
+      "8": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "9": [],
+      "10": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "11": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "12": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "13": [],
+      "14": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "15": [],
+      "16": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "17": [],
+      "18": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "19": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "20": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "station_positions": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1500.0,
+        0.0
+      ],
+      [
+        750.0000000000001,
+        1299.038105676658
+      ],
+      [
+        -749.9999999999997,
+        1299.038105676658
+      ],
+      [
+        -1500.0,
+        1.8369701987210297e-13
+      ],
+      [
+        -750.0000000000007,
+        -1299.0381056766576
+      ],
+      [
+        750.0000000000001,
+        -1299.038105676658
+      ]
+    ],
+    "regions": [
+      {
+        "diameter": 47.745875941524936,
+        "vertices": [
+          [
+            541.2699790194081,
+            1143.8801571749798
+          ],
+          [
+            540.4268335634652,
+            1131.5283381933823
+          ],
+          [
+            571.2577472350837,
+            1156.1711837839878
+          ],
+          [
+            572.3802584093894,
+            1167.0057579140914
+          ]
+        ],
+        "bbox_widths": [
+          46.967266526511196,
+          9.267500039315195
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.623070032898019,
+        "channel": 1,
+        "first_position": [
+          750.0000000000001,
+          1299.038105676658
+        ],
+        "second_position": [
+          485.81270208698277,
+          331.448279551239
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 30
+        }
+      },
+      {
+        "diameter": 88.01716189327637,
+        "vertices": [
+          [
+            935.1086143225378,
+            -1224.5008734599157
+          ],
+          [
+            994.1250236631215,
+            -1206.0797529364866
+          ],
+          [
+            1007.4362672482301,
+            -1174.343806061514
+          ],
+          [
+            951.1288647206511,
+            -1189.7741789078113
+          ]
+        ],
+        "bbox_widths": [
+          75.04711002476529,
+          46.59227967680523
+        ],
+        "planned_clear_calls": 6,
+        "covering_radius": 17.091632053762215,
+        "channel": 2,
+        "first_position": [
+          1500.0,
+          0.0
+        ],
+        "second_position": [
+          1731.395760864725,
+          -975.9513317035
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 96,
+          "prior_excluded_cells": 36,
+          "failed_clear_excluded_cells": 47,
+          "remaining_cells": 13
+        }
+      },
+      {
+        "diameter": 46.93806760975439,
+        "vertices": [
+          [
+            -225.12999845071428,
+            1299.8039711439903
+          ],
+          [
+            -202.99931258947473,
+            1299.7865897403863
+          ],
+          [
+            -211.10841169593968,
+            1333.52450514266
+          ],
+          [
+            -234.73286070161282,
+            1334.3721953466568
+          ]
+        ],
+        "bbox_widths": [
+          32.36201840270712,
+          34.38646786476661
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 11.805002666538721,
+        "channel": 4,
+        "first_position": [
+          750.0000000000001,
+          1299.038105676658
+        ],
+        "second_position": [
+          -60.95225097210687,
+          708.7996397637078
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 9,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 55
+        }
+      },
+      {
+        "diameter": 35.17954485219047,
+        "vertices": [
+          [
+            -294.3089369589548,
+            731.1944147564033
+          ],
+          [
+            -268.2921539387489,
+            740.5430842390663
+          ],
+          [
+            -275.6905868584026,
+            760.9643237439195
+          ],
+          [
+            -302.0527699898946,
+            750.4335432705979
+          ]
+        ],
+        "bbox_widths": [
+          21.71680381615522,
+          28.384568585813565
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.97151206914659,
+        "channel": 5,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          -850.769596041902,
+          531.2401476269456
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 0,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 32
+        }
+      },
+      {
+        "diameter": 38.10277284771825,
+        "vertices": [
+          [
+            482.45993877853147,
+            -223.59232872698175
+          ],
+          [
+            505.2471296946269,
+            -234.15287618917205
+          ],
+          [
+            520.3214112134217,
+            -219.31095000665553
+          ],
+          [
+            497.5724138466164,
+            -209.7224454464106
+          ]
+        ],
+        "bbox_widths": [
+          32.89388983814831,
+          19.671099721307037
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.820434483829565,
+        "channel": 7,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          976.3537068301806,
+          229.6920528859579
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 30
+        }
+      },
+      {
+        "diameter": 98.10354732501801,
+        "vertices": [
+          [
+            -427.1083917356776,
+            1298.6755836176683
+          ],
+          [
+            -415.27190269934596,
+            1262.6852832520524
+          ],
+          [
+            -382.7500168895829,
+            1317.8634513712634
+          ],
+          [
+            -394.57568084207236,
+            1358.5809160962365
+          ]
+        ],
+        "bbox_widths": [
+          85.4870036693842,
+          48.79230383232069
+        ],
+        "planned_clear_calls": 8,
+        "covering_radius": 16.21668866931113,
+        "channel": 9,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          -814.5098491192553,
+          585.3193194212269
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 128,
+          "prior_excluded_cells": 54,
+          "failed_clear_excluded_cells": 58,
+          "remaining_cells": 16
+        }
+      },
+      {
+        "diameter": 45.67981282449196,
+        "vertices": [
+          [
+            145.50424738311432,
+            -1604.6776651621115
+          ],
+          [
+            167.58038959922877,
+            -1612.2123501195406
+          ],
+          [
+            169.174892685333,
+            -1577.1661549548974
+          ],
+          [
+            148.2364439054979,
+            -1570.8305054931998
+          ]
+        ],
+        "bbox_widths": [
+          31.09156600391907,
+          33.8495368579363
+        ],
+        "planned_clear_calls": 4,
+        "covering_radius": 11.490421614525411,
+        "channel": 10,
+        "first_position": [
+          -750.0000000000007,
+          -1299.0381056766576
+        ],
+        "second_position": [
+          196.88036110435564,
+          -968.2170335623139
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 64,
+          "prior_excluded_cells": 9,
+          "failed_clear_excluded_cells": 33,
+          "remaining_cells": 22
+        }
+      },
+      {
+        "diameter": 37.470597573553384,
+        "vertices": [
+          [
+            115.92115735869153,
+            558.0451862151866
+          ],
+          [
+            133.5974019527529,
+            546.1739588254131
+          ],
+          [
+            139.3783280575052,
+            569.8075868014
+          ],
+          [
+            120.76842588557908,
+            581.3799676248648
+          ]
+        ],
+        "bbox_widths": [
+          31.510147693825502,
+          20.70378649368222
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 13.008354306921884,
+        "channel": 13,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          -413.68363704611744,
+          913.7236170967105
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 2,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 30
+        }
+      },
+      {
+        "diameter": 38.57793362462773,
+        "vertices": [
+          [
+            -418.837500868419,
+            -348.03442057489224
+          ],
+          [
+            -399.3499760296672,
+            -331.84119670732724
+          ],
+          [
+            -404.00696375903965,
+            -312.4210504480213
+          ],
+          [
+            -424.34949965680175,
+            -328.152057594091
+          ]
+        ],
+        "bbox_widths": [
+          33.84768326859114,
+          18.960318493620033
+        ],
+        "planned_clear_calls": 2,
+        "covering_radius": 12.707380660881947,
+        "channel": 15,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          -245.7330880449205,
+          -972.4403577803153
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 32,
+          "prior_excluded_cells": 3,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 29
+        }
+      },
+      {
+        "diameter": 90.42687203102483,
+        "vertices": [
+          [
+            550.9533197678221,
+            -1553.4498017514657
+          ],
+          [
+            589.4495663618434,
+            -1560.9780468004478
+          ],
+          [
+            556.0197419950917,
+            -1507.1766459110365
+          ],
+          [
+            521.2223614021974,
+            -1501.6310360188609
+          ]
+        ],
+        "bbox_widths": [
+          77.54495535358205,
+          47.134743532393706
+        ],
+        "planned_clear_calls": 6,
+        "covering_radius": 17.489686809091733,
+        "channel": 16,
+        "first_position": [
+          -750.0000000000007,
+          -1299.0381056766576
+        ],
+        "second_position": [
+          143.38131446642092,
+          -843.0832537864196
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 96,
+          "prior_excluded_cells": 36,
+          "failed_clear_excluded_cells": 31,
+          "remaining_cells": 29
+        }
+      },
+      {
+        "diameter": 98.79930129727985,
+        "vertices": [
+          [
+            988.8548063370275,
+            -957.430668192771
+          ],
+          [
+            1019.5252749920375,
+            -987.1264810764908
+          ],
+          [
+            1017.8191482680833,
+            -918.541425566994
+          ],
+          [
+            989.5127185600783,
+            -892.995995083646
+          ]
+        ],
+        "bbox_widths": [
+          86.20568720532674,
+          48.93767127419557
+        ],
+        "planned_clear_calls": 8,
+        "covering_radius": 16.303279571103335,
+        "channel": 17,
+        "first_position": [
+          0.0,
+          0.0
+        ],
+        "second_position": [
+          997.5652278786541,
+          -104.34853198492434
+        ],
+        "selection": {
+          "mode": "fixed",
+          "offset": [
+            800.0,
+            605.0
+          ]
+        },
+        "evidence": {
+          "fine_cells": 128,
+          "prior_excluded_cells": 54,
+          "failed_clear_excluded_cells": 0,
+          "remaining_cells": 74
+        }
+      }
+    ],
+    "metrics": {
+      "virtual_time_s": 7900.081245,
+      "components": {
+        "movement_s": 7216.0812461655605,
+        "switch_s": 99.0,
+        "detection_s": 500.0,
+        "optical_s": 63.0,
+        "laser_s": 22.0
+      },
+      "phases": {
+        "control": 0.0,
+        "search": 2333.0,
+        "localization": 3853.4554745469245,
+        "optical": 1713.6257716186378
+      },
+      "counts": {
+        "measure": 100,
+        "clear": 21,
+        "clear_success": 11,
+        "clear_failure": 10,
+        "retries": 0
+      }
+    },
+    "modules": {
+      "A": false,
+      "B": false,
+      "C": true
+    }
+  }
+}

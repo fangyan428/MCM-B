@@ -1,0 +1,13 @@
+test_collinear_and_sideways_rejected (test_strategy.StrategyTests.test_collinear_and_sideways_rejected) ... ok
+test_collinear_measurements_unbounded (test_strategy.StrategyTests.test_collinear_measurements_unbounded) ... ok
+test_continuous_conditions_against_dense_geometry (test_strategy.StrategyTests.test_continuous_conditions_against_dense_geometry) ... ok
+test_frame_invariance (test_strategy.StrategyTests.test_frame_invariance) ... ok
+test_no_guarantee_for_perpendicular_move (test_strategy.StrategyTests.test_no_guarantee_for_perpendicular_move) ... ok
+test_recommended_and_reflection (test_strategy.StrategyTests.test_recommended_and_reflection) ... ok
+test_reflected_objective (test_strategy.StrategyTests.test_reflected_objective) ... ok
+test_vectorized_diameter_matches_question1 (test_strategy.StrategyTests.test_vectorized_diameter_matches_question1) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.094s
+
+OK

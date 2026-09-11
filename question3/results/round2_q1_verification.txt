@@ -1,0 +1,16 @@
+test_actual_wedge_triangle_counterexample (test_solve.GeometryTests.test_actual_wedge_triangle_counterexample) ... ok
+test_empty (test_solve.GeometryTests.test_empty) ... ok
+test_invalid_input (test_solve.GeometryTests.test_invalid_input) ... ok
+test_negative_coordinates (test_solve.GeometryTests.test_negative_coordinates) ... ok
+test_parallel_duplicates (test_solve.GeometryTests.test_parallel_duplicates) ... ok
+test_point (test_solve.GeometryTests.test_point) ... ok
+test_random_true_source_containment (test_solve.GeometryTests.test_random_true_source_containment) ... ok
+test_rectangle (test_solve.GeometryTests.test_rectangle) ... ok
+test_segment (test_solve.GeometryTests.test_segment) ... ok
+test_unbounded_wedge (test_solve.GeometryTests.test_unbounded_wedge) ... ok
+test_wraparound_and_backward_rejection (test_solve.GeometryTests.test_wraparound_and_backward_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.247s
+
+OK

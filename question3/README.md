@@ -1,14 +1,16 @@
-# 全向源第三问基线（当前停在人工审查节点）
+# 全向源第三问：基线、模块对照与前瞻消融
 
 入口文稿：[基线建模、证据与三个创新候选](docs/基线建模与审查.md)。第二问复核：[复核补充](../question2/第二问_复核补充.md)。
 
-当前只实现baseline_v1；创新候选尚未获批、未实施。官方演练0次，正式测试0次；未运行项目中的exe。
+当前实现baseline_v1、A/B/C三个可配置模块及第二轮前瞻消融。第一轮八种组合见[第一轮结果与审查](docs/第一轮模块对照与审查.md)；第二轮开发与锁参后的新布局验证见[第二轮审查](docs/第二轮前瞻消融与新案例审查.md)。以[STATUS](STATUS.md)为当前节点，旧报告保留阶段历史。官方演练0次，正式测试0次；未运行项目中的exe。
 
 ## 文件分工
 
 | 文件 | 职责 |
 |---|---|
 | strategy.py | 搜索、定位、清除、停止证书；不读取真值 |
+| modules.py | A局部代价选点与C合法证据覆盖；B在公共策略调度循环 |
+| lookahead.py | 第二轮可选调度：数值平局、任务成本、终点区域一步前瞻 |
 | geometry.py | 七站覆盖、第二点证书、复用第一问求交、光学网格 |
 | interface.py | HTTP、幂等重试、接受状态、计时、JSONL日志 |
 | simulator.py / cases.py | 自建全向环境及隐藏案例；策略不导入 |
@@ -24,6 +26,34 @@
 | results/verification.txt | 实际测试命令与输出 |
 
 `evaluator_hidden_case.json`只供评估与复现，不得传给策略或用于行动决策。开发结果使用同批布局的多种误差场，不是留出测试结果。此前smoke、baseline_dev、rounding_stress目录保留为开发轨迹。
+
+## 复现第一轮八种配置
+
+在项目根目录运行，输出目录必须是新的，避免覆盖已有结果：
+
+```bash
+python -m question3.run_matrix --output question3/results/my_round1_main
+python -m question3.analyze_matrix question3/results/my_round1_main
+python -m question3.run_matrix --output question3/results/my_round1_rounding --rounding pre_round_stress
+python -m question3.analyze_matrix question3/results/my_round1_rounding
+```
+
+八份配置位于`configs/round1/`，每个配置仅用一套固定参数。上述命令只使用已有development_cases；留出案例必须通过配置锁和独立生成器。两个结果目录均包含每例原始JSONL、评估结果、运行时代码快照、完整对照JSON及配对CSV。A/B/C全关闭时与旧基线52例metrics完全一致。
+
+模块名称及收益限于第一轮结论；旧`configs/proposed_experiments.json`为上一审查阶段的历史提案，当前以`docs/round1_protocol.json`和第一轮报告为准。当前`run_http.py`仍默认基线配置，未因开发实验自行将候选投入官方演练。
+
+## 复现第二轮（自建环境）
+
+第二轮开发配置在`configs/round2/`。代码和四份验证配置在生成新布局前锁定，锁文件为`results/round2_lock.json`；随后才生成`results/round2_holdout_cases.json`。不要在看过验证结果后改配置并把重跑称为新验证。
+
+```bash
+python -m question3.run_matrix --config-dir question3/configs/round2 --stage SELF_ROUND2_DEVELOPMENT --output question3/results/my_round2_dev
+python -m question3.analyze_matrix question3/results/my_round2_dev --reference AB
+python -m question3.run_matrix --config-dir question3/configs/round2_holdout --fixtures question3/results/round2_holdout_cases.json --lock question3/results/round2_lock.json --stage SELF_ROUND2_HELDOUT --output question3/results/my_round2_holdout
+python -m question3.analyze_matrix question3/results/my_round2_holdout --reference AB
+```
+
+舍入压力批次使用同样命令，增加`--rounding pre_round_stress`并使用新输出目录和明确的压力阶段名。已有完整结果位于`results/round2_dev`、`round2_dev_rounding`、`round2_holdout_main`、`round2_holdout_rounding`。每个目录保存配置、逐例动作、策略决策、评估真值、汇总、配对表及代码快照。未来代码发生变化后，应在独立目录恢复该批`code_snapshot`中的文件再复现，以免违反代码锁。
 
 ## Ubuntu自建开发
 

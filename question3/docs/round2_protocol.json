@@ -1,0 +1,21 @@
+{
+  "stage": "ROUND2_PREDECLARED_DEVELOPMENT_THEN_CONFIG_LOCK_THEN_HELDOUT",
+  "development_variants": ["AB", "T", "H0", "H05", "H1", "P1"],
+  "definitions": {
+    "AB": "Unchanged round1 recommendation",
+    "T": "AB plus 1e-7 metre stable routing tie tolerance only",
+    "H0": "T plus full task cost and sampled terminal region, no next-anchor term",
+    "H05": "H0 plus next-anchor term at weight 0.5",
+    "H1": "H0 plus next-anchor term at weight 1",
+    "P1": "H1 with terminal-region samples replaced by their geometric mean; no probability assumption"
+  },
+  "tuning_budget": "Only the two preregistered lookahead weights; no post-holdout changes",
+  "selection_before_holdout": "Select H05 or H1 by zero failures first, then lower development mean on bounded batch; tie-break with lower p95. Retain AB, T, H0 as controls. P1 remains a development ablation.",
+  "heldout_variants": "AB, T, H0, selected H; exact files locked before fixture generation",
+  "heldout_layout_seeds": {"start": 10000, "stop_exclusive": 10050},
+  "error_modes": ["spatial_hash", "smooth", "positive", "negative"],
+  "rounding_batches": ["bounded", "pre_round_stress"],
+  "acceptance_assessment": "Zero missed sources, false completion and timeouts; report >=5% paired median gain and <=10% worst per-case regression as proposed targets, not contest rules. Never discard failures.",
+  "stop_after_holdout": true,
+  "no_official_or_formal_tests": true
+}

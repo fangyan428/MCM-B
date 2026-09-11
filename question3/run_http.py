@@ -15,13 +15,16 @@ def main():
     p.add_argument('--url');p.add_argument('--robot-id',default='SELF')
     p.add_argument('--confirm-rehearsal-ui',action='store_true',help='Human confirms Q3 rehearsal, NOT formal UI')
     p.add_argument('--output',required=True)
+    p.add_argument('--config',type=Path,default=Path(__file__).with_name('configs')/'baseline.json',
+                   help='Strategy JSON; pass configs/round1/AB.json to run the approved AB candidate')
     args=p.parse_args()
     if args.mode=='official-rehearsal' and (not args.confirm_rehearsal_ui or args.robot_id=='SELF'):
         p.error('Confirm official Q3 REHEARSAL UI and supply team robot-id. Formal mode is not implemented.')
     url=args.url or ('http://127.0.0.1:2027' if args.mode=='self-http' else 'http://127.0.0.1:2026')
+    config=json.loads(args.config.read_text(encoding='utf-8'))
     out=Path(args.output)
     out.mkdir(parents=True,exist_ok=False)
-    config=json.loads(Path(__file__).with_name('configs').joinpath('baseline.json').read_text())
+    (out/'config.json').write_text(json.dumps(config,ensure_ascii=False,indent=2),encoding='utf-8')
     log=JsonlLog(out/'actions.jsonl');events=JsonlLog(out/'strategy.jsonl')
     client=Client(HttpTransport(url),args.robot_id,log,config['real_time_reserve_s'])
     start=time.perf_counter()

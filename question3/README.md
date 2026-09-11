@@ -40,7 +40,7 @@ python -m question3.analyze_matrix question3/results/my_round1_rounding
 
 八份配置位于`configs/round1/`，每个配置仅用一套固定参数。上述命令只使用已有development_cases；留出案例必须通过配置锁和独立生成器。两个结果目录均包含每例原始JSONL、评估结果、运行时代码快照、完整对照JSON及配对CSV。A/B/C全关闭时与旧基线52例metrics完全一致。
 
-模块名称及收益限于第一轮结论；旧`configs/proposed_experiments.json`为上一审查阶段的历史提案，当前以`docs/round1_protocol.json`和第一轮报告为准。当前`run_http.py`仍默认基线配置，未因开发实验自行将候选投入官方演练。
+模块名称及收益限于第一轮结论；旧`configs/proposed_experiments.json`为上一审查阶段的历史提案，当前以`docs/round1_protocol.json`和第一轮报告为准。`run_http.py`默认仍为基线；用户已选保留AB，运行AB必须显式传`--config question3/configs/round1/AB.json`。该入口补丁不改变策略。
 
 ## 复现第二轮（自建环境）
 
@@ -89,7 +89,7 @@ python -m question3.run_http --mode self-http --url http://127.0.0.1:2027 --outp
 3. 在项目根目录终端执行下列演练命令，将队号替换为真实robot_id：
 
 ```text
-python -m question3.run_http --mode official-rehearsal --confirm-rehearsal-ui --robot-id YOUR_TEAM_ID --output question3/results/windows_rehearsal_001
+python -m question3.run_http --mode official-rehearsal --confirm-rehearsal-ui --robot-id YOUR_TEAM_ID --config question3/configs/round1/AB.json --output question3/results/windows_rehearsal_001
 ```
 
 4. 同一电脑连接127.0.0.1:2026；如官方端口改动，传`--url`。不要让Ubuntu和Windows同时登录同一官方账号。
@@ -104,3 +104,9 @@ python -m question3.run_http --mode official-rehearsal --confirm-rehearsal-ui --
 JSONL保存每次请求、响应、重试；strategy日志保存覆盖检查及定位区域。每局result包含停止证书和计时分解，summary包含代码SHA256与环境信息。独立审计在策略结束后核对真值；不会在运行中修正策略。
 
 故障后的incomplete可能意味着部分源已经清除，但系统没有足够证据确认完整成功。不要手工将其改为complete，也不要把无返回值的正式接口动作随意用新ID重发。
+
+## AB演练入口补充
+
+用户已选择保留AB并准备Windows官方演练。HTTP入口新增`--config`，把实际配置另存为输出目录的`config.json`。未指定仍运行旧基线。两项CLI检查已在Ubuntu通过，包括AB经真实本机HTTP完整清除及演练未确认时拒绝运行；Windows与官方服务尚未实测。
+
+该补丁发生在第二轮验证结束后，只修改HTTP启动入口；历史`round2_lock.json`不重写，历史验证结果仍对应各批代码快照。由于锁也包含run_http.py，若现在直接重跑旧锁会报告该文件哈希变化；请恢复历史code_snapshot到独立目录复现。

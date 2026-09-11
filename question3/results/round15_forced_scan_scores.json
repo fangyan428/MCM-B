@@ -1,0 +1,3007 @@
+{
+  "kind": "OFFLINE_PUBLIC_ENTRY_SCORE_DIAGNOSTIC_NOT_POLICY_RESULT",
+  "batches": {
+    "dev_main": {
+      "forced_scans_with_ready_cache": 121,
+      "closer_cache_bypassed": 56,
+      "affected_cases": 32,
+      "records": [
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -892.4649186309904,
+            -758.7094622227272
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 394.1407004437685,
+          "cache_entry_m": 661.6065393250414,
+          "entry_score_gap_s": -53.49316777625457
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1007.6413679750224,
+            -38.094817155392285
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 123.3866427328213,
+          "cache_entry_m": 985.624016908335,
+          "entry_score_gap_s": -172.44747483510272
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -1469.0358439633592,
+            258.0598532793482
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1155.3252787990566,
+          "cache_entry_m": 282.14871216682377,
+          "entry_score_gap_s": 174.63531332644658
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 2,
+          "position": [
+            -11.198498344350188,
+            1410.907290656156
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 720.9539504158495,
+          "cache_entry_m": 1599.7374351069934,
+          "entry_score_gap_s": -175.7566969382288
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 2,
+          "position": [
+            54.697061059467714,
+            302.62447071553373
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 842.0113219654096,
+          "cache_entry_m": 779.7448344054444,
+          "entry_score_gap_s": 12.453297511993037
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 3,
+          "position": [
+            570.9372498313444,
+            1317.9275923733514
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 1184.3878771419202,
+          "cache_entry_m": 417.85530353678445,
+          "entry_score_gap_s": 153.30651472102713
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 1,
+          "position": [
+            248.49433394402007,
+            1085.8894124542442
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1395.4991933743497,
+          "cache_entry_m": 1322.4410390607493,
+          "entry_score_gap_s": 14.611630862720085
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 5,
+          "position": [
+            90.21129489185728,
+            -1184.4259950913836
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 685.7069132370386,
+          "cache_entry_m": 286.31030970156206,
+          "entry_score_gap_s": 79.87932070709532
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1060.873460987342,
+            -90.6533928275334
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 111.0416617170558,
+          "cache_entry_m": 1568.5620673697515,
+          "entry_score_gap_s": -291.50408113053913
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -1741.954943704095,
+            -32.14371387327184
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1509.546974691604,
+          "cache_entry_m": 103.18017236290623,
+          "entry_score_gap_s": 281.27336046573953
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -836.9242321794741,
+            -1351.13064324265
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1449.2776337682794,
+          "cache_entry_m": 1501.8162445172686,
+          "entry_score_gap_s": -10.507722149797837
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -280.11504340467985,
+            732.6411904742565
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 371.65829920684126,
+          "cache_entry_m": 459.89981298996736,
+          "entry_score_gap_s": -17.64830275662522
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -424.0066953042814,
+            1621.1862510451115
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2599.1571866247855,
+          "cache_entry_m": 89.73749685935591,
+          "entry_score_gap_s": 501.88393795308593
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -640.2196253758891,
+            -1624.8407678765911
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1367.3937467039952,
+          "cache_entry_m": 3239.4863337097454,
+          "entry_score_gap_s": -374.41851740115004
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "station_id": 1,
+          "position": [
+            416.35251954883023,
+            168.66505826134
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 728.4429651167566,
+          "cache_entry_m": 493.64023496652993,
+          "entry_score_gap_s": 46.96054603004533
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1317.7102202398203,
+            396.09032915172065
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 440.4824375981389,
+          "cache_entry_m": 262.66163170394395,
+          "entry_score_gap_s": 35.564161178838994
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 2,
+          "position": [
+            51.364366417578324,
+            525.022424854074
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 680.5076988448058,
+          "cache_entry_m": 762.6564913625907,
+          "entry_score_gap_s": -16.42975850355699
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -775.3445806479427,
+            511.5956753226356
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 509.2919448654099,
+          "cache_entry_m": 1358.9305186786082,
+          "entry_score_gap_s": -169.92771476263965
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -1486.7913963248793,
+            25.534669479305308
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 2280.180203273593,
+          "cache_entry_m": 1906.0296133419406,
+          "entry_score_gap_s": 74.83011798633052
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 1,
+          "position": [
+            1260.881543713616,
+            602.8620087788382
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 617.9857567540301,
+          "cache_entry_m": 604.2673210882076,
+          "entry_score_gap_s": 2.743687133164508
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -379.5569748623354,
+            334.1163848239765
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 665.7895956144524,
+          "cache_entry_m": 422.1531265996064,
+          "entry_score_gap_s": 48.7272938029692
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -801.7034056073185,
+            336.4940532395744
+          ],
+          "cached_channel": 15,
+          "scan_entry_m": 466.63576353672624,
+          "cache_entry_m": 1114.5892007691762,
+          "entry_score_gap_s": -129.59068744649
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 2,
+          "position": [
+            -1665.220801267775,
+            -382.2375477717335
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2608.232346109432,
+          "cache_entry_m": 2458.1473668244707,
+          "entry_score_gap_s": 30.016995856992253
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -1133.6651628113002,
+            -1269.47041791445
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 642.9369057838672,
+          "cache_entry_m": 283.37896474769525,
+          "entry_score_gap_s": 71.9115882072344
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 1,
+          "position": [
+            890.4827419625934,
+            384.012371966289
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 449.95982725189924,
+          "cache_entry_m": 541.1076400085365,
+          "entry_score_gap_s": -18.229562551327444
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 2,
+          "position": [
+            1053.2076612372393,
+            856.8726174946958
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 504.5573987708124,
+          "cache_entry_m": 294.54416920313275,
+          "entry_score_gap_s": 42.002645913535936
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 5,
+          "position": [
+            -927.5949861629946,
+            -754.2973355823682
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 426.2465207954331,
+          "cache_entry_m": 680.4347511090784,
+          "entry_score_gap_s": -50.837646062729064
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 4,
+          "position": [
+            -1027.3650998506794,
+            -50.54251120173114
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 109.94143516320378,
+          "cache_entry_m": 995.8748241726418,
+          "entry_score_gap_s": -177.18667780188758
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 3,
+          "position": [
+            -1750.017679558256,
+            248.22913980527105
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 1391.8857811588966,
+          "cache_entry_m": 1766.3746372302073,
+          "entry_score_gap_s": -74.89777121426214
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 2,
+          "position": [
+            -1.6393227163010504,
+            1408.1622248218187
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 711.6938901824267,
+          "cache_entry_m": 1620.8535522484945,
+          "entry_score_gap_s": -181.83193241321356
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "station_id": 1,
+          "position": [
+            547.6230080145456,
+            107.67494962852679
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 587.3313252770341,
+          "cache_entry_m": 1022.6515460244455,
+          "entry_score_gap_s": -87.06404414948227
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "station_id": 4,
+          "position": [
+            -269.9898106570826,
+            -67.14902896355552
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 857.6429420049814,
+          "cache_entry_m": 607.9915582870399,
+          "entry_score_gap_s": 49.930276743588294
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 2,
+          "position": [
+            320.390904490368,
+            657.7345040681353
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 398.51846339407945,
+          "cache_entry_m": 1198.9498007018713,
+          "entry_score_gap_s": -160.08626746155838
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 6,
+          "position": [
+            1082.9123771448121,
+            -701.6369957534607
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 587.5052981387491,
+          "cache_entry_m": 2563.9521153229794,
+          "entry_score_gap_s": -395.28936343684603
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 3,
+          "position": [
+            -1112.9603788073773,
+            1252.1959581756328
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 616.6398447566377,
+          "cache_entry_m": 375.4953005407204,
+          "entry_score_gap_s": 48.228908843183454
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 2,
+          "position": [
+            138.18420963845463,
+            563.5192410375678
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 590.5650886100653,
+          "cache_entry_m": 885.4575471443346,
+          "entry_score_gap_s": -58.97849170685386
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 3,
+          "position": [
+            -218.34519362485537,
+            1298.8563280189514
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 473.0679081719338,
+          "cache_entry_m": 195.12806300541286,
+          "entry_score_gap_s": 55.58796903330419
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 1,
+          "position": [
+            496.6022458504289,
+            -226.85434153595568
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 668.0917823876722,
+          "cache_entry_m": 1280.512860236233,
+          "entry_score_gap_s": -122.48421556971218
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 6,
+          "position": [
+            172.59186436599066,
+            -1711.0747063242395
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 833.6047547214122,
+          "cache_entry_m": 919.2001034370011,
+          "entry_score_gap_s": -17.11906974311778
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 2,
+          "position": [
+            444.6918067854219,
+            592.7812076180368
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 399.27310823081626,
+          "cache_entry_m": 2044.3363654742807,
+          "entry_score_gap_s": -329.0126514486929
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 3,
+          "position": [
+            196.06943665445613,
+            805.0382216657833
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 777.2193312469965,
+          "cache_entry_m": 2128.44096083311,
+          "entry_score_gap_s": -270.2443259172227
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 4,
+          "position": [
+            -522.1423168692083,
+            1613.1553985208952
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 1722.1230286733098,
+          "cache_entry_m": 2791.949299840702,
+          "entry_score_gap_s": -213.96525423347848
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 1,
+          "position": [
+            -781.1675774936251,
+            1257.3747547541034
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 2283.52055111857,
+          "cache_entry_m": 2444.2300037816703,
+          "entry_score_gap_s": -32.141890532620074
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 2,
+          "position": [
+            1148.99113218384,
+            735.7176093554148
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 633.1533656949971,
+          "cache_entry_m": 829.2379926796668,
+          "entry_score_gap_s": -39.216925396933945
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 3,
+          "position": [
+            425.6581394811024,
+            1314.6369001195133
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1045.1317118922223,
+          "cache_entry_m": 416.0599006851173,
+          "entry_score_gap_s": 125.81436224142098
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 1,
+          "position": [
+            523.9180053524353,
+            1395.1953617358577
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1519.1674238538508,
+          "cache_entry_m": 521.5678966259374,
+          "entry_score_gap_s": 199.51990544558268
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 4,
+          "position": [
+            178.73479885964164,
+            650.9614574800896
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1457.214893171969,
+          "cache_entry_m": 302.2535225187608,
+          "entry_score_gap_s": 230.99227413064165
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 5,
+          "position": [
+            -776.2627691542177,
+            -1013.1216939428397
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 217.26322522446858,
+          "cache_entry_m": 1836.7966504066692,
+          "entry_score_gap_s": -323.9066850364401
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "station_id": 1,
+          "position": [
+            405.77155348162626,
+            157.061985429225
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 736.1779849657305,
+          "cache_entry_m": 327.4370029872961,
+          "entry_score_gap_s": 81.74819639568688
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "station_id": 2,
+          "position": [
+            1076.812542265578,
+            494.9577113277877
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 703.0404579855759,
+          "cache_entry_m": 2127.592658932942,
+          "entry_score_gap_s": -284.9104401894732
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "station_id": 2,
+          "position": [
+            49.165957092809364,
+            532.2479006840581
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 677.4237672295926,
+          "cache_entry_m": 755.2053150820146,
+          "entry_score_gap_s": -15.556309570484405
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "station_id": 1,
+          "position": [
+            994.896857061959,
+            956.081476228689
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 964.8930598724324,
+          "cache_entry_m": 247.44731442321807,
+          "entry_score_gap_s": 143.4891490898429
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 1,
+          "position": [
+            1266.6167938078006,
+            606.4008885913692
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 622.7177161224845,
+          "cache_entry_m": 589.8966920443322,
+          "entry_score_gap_s": 6.564204815630456
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 3,
+          "position": [
+            -388.1064730470948,
+            333.6718641420944
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 663.9202253991181,
+          "cache_entry_m": 406.729235318087,
+          "entry_score_gap_s": 51.438198016206215
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 4,
+          "position": [
+            -809.2445854828906,
+            343.31985270628854
+          ],
+          "cached_channel": 15,
+          "scan_entry_m": 466.44399777372973,
+          "cache_entry_m": 1084.1932965136257,
+          "entry_score_gap_s": -123.54985974797918
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 2,
+          "position": [
+            -1680.930435154132,
+            -376.40144251763365
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2618.647864566429,
+          "cache_entry_m": 2470.198603337243,
+          "entry_score_gap_s": 29.68985224583712
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "station_id": 2,
+          "position": [
+            1512.4243937132724,
+            853.3968618321397
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 957.5848491800771,
+          "cache_entry_m": 793.2303631007369,
+          "entry_score_gap_s": 32.870897215868034
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "station_id": 6,
+          "position": [
+            870.6960792043301,
+            387.1360128404632
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1395.8633582174753,
+          "cache_entry_m": 527.0388363351215,
+          "entry_score_gap_s": 173.76490437647075
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 6,
+          "position": [
+            315.39971596731357,
+            -852.3372969690076
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 275.5507697234659,
+          "cache_entry_m": 409.15863357835167,
+          "entry_score_gap_s": -26.72157277097715
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 1,
+          "position": [
+            859.8096581491419,
+            -928.3276946586604
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 965.4627005126806,
+          "cache_entry_m": 978.6403287635311,
+          "entry_score_gap_s": -2.6355256501700977
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 3,
+          "position": [
+            -16.801083437215546,
+            1407.2629934783572
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 696.6080752445962,
+          "cache_entry_m": 1696.608474825364,
+          "entry_score_gap_s": -200.00007991615357
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 4,
+          "position": [
+            -1735.4216066213073,
+            251.33097080342418
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 660.1377089025665,
+          "cache_entry_m": 1255.5499787954045,
+          "entry_score_gap_s": -119.0824539785676
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 5,
+          "position": [
+            -902.715400020143,
+            -767.7549801899075
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 397.99310971761116,
+          "cache_entry_m": 814.6636367643273,
+          "entry_score_gap_s": -83.33410540934322
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 3,
+          "position": [
+            140.7518945751928,
+            1245.7386756169076
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 753.8261146571272,
+          "cache_entry_m": 974.8109449675201,
+          "entry_score_gap_s": -44.19696606207858
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 4,
+          "position": [
+            -266.1438953953255,
+            -75.71769813382441
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 862.1873220057232,
+          "cache_entry_m": 469.1610844723479,
+          "entry_score_gap_s": 78.60524750667506
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 6,
+          "position": [
+            107.00849466930083,
+            -1172.816171758482
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 496.8799523672846,
+          "cache_entry_m": 310.15041986147025,
+          "entry_score_gap_s": 37.34590650116287
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 1,
+          "position": [
+            1415.3158757504784,
+            -1008.1588754979821
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 1049.127078078782,
+          "cache_entry_m": 1412.1754914611115,
+          "entry_score_gap_s": -72.6096826764659
+        },
+        {
+          "case_id": "dev_2_positive",
+          "station_id": 5,
+          "position": [
+            -1114.3500027440177,
+            1260.7608992890619
+          ],
+          "cached_channel": 20,
+          "scan_entry_m": 2302.1598328939344,
+          "cache_entry_m": 146.41311248964718,
+          "entry_score_gap_s": 431.1493440808575
+        },
+        {
+          "case_id": "dev_2_positive",
+          "station_id": 6,
+          "position": [
+            -834.8419293041145,
+            -1363.337570906646
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1450.4934906349636,
+          "cache_entry_m": 2253.578063199871,
+          "entry_score_gap_s": -160.61691451298148
+        },
+        {
+          "case_id": "dev_4_positive",
+          "station_id": 3,
+          "position": [
+            -301.59098650786666,
+            726.535729746295
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 359.7916519395169,
+          "cache_entry_m": 518.2168993683285,
+          "entry_score_gap_s": -31.685049485762327
+        },
+        {
+          "case_id": "dev_5_positive",
+          "station_id": 2,
+          "position": [
+            169.49479144465883,
+            802.0566818701095
+          ],
+          "cached_channel": 15,
+          "scan_entry_m": 429.0844624212556,
+          "cache_entry_m": 919.1325670267553,
+          "entry_score_gap_s": -98.00962092109994
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 2,
+          "position": [
+            324.59485600543485,
+            949.1726473543591
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 239.2261803310826,
+          "cache_entry_m": 329.97697366337707,
+          "entry_score_gap_s": -18.150158666458896
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 1,
+          "position": [
+            1014.9808185330198,
+            667.5655398156714
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 676.5707429678386,
+          "cache_entry_m": 856.2721135474427,
+          "entry_score_gap_s": -35.94027411592083
+        },
+        {
+          "case_id": "dev_7_positive",
+          "station_id": 4,
+          "position": [
+            -1313.109519262427,
+            393.25138251467285
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 435.92641705549676,
+          "cache_entry_m": 252.9114470242657,
+          "entry_score_gap_s": 36.60299400624621
+        },
+        {
+          "case_id": "dev_8_positive",
+          "station_id": 2,
+          "position": [
+            43.51804987132387,
+            528.4394932206401
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 684.1891223905424,
+          "cache_entry_m": 723.1541428299979,
+          "entry_score_gap_s": -7.793004087891108
+        },
+        {
+          "case_id": "dev_8_positive",
+          "station_id": 3,
+          "position": [
+            -769.782626286468,
+            495.30026608797715
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 521.9064203925172,
+          "cache_entry_m": 1370.0128634368423,
+          "entry_score_gap_s": -169.621288608865
+        },
+        {
+          "case_id": "dev_8_positive",
+          "station_id": 6,
+          "position": [
+            -1506.5578035813494,
+            16.644449717975185
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 2294.1073741032255,
+          "cache_entry_m": 1953.8974521013424,
+          "entry_score_gap_s": 68.04198440037662
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 1,
+          "position": [
+            1256.069413573341,
+            624.5985526627353
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 638.2025878691211,
+          "cache_entry_m": 1087.9329752531162,
+          "entry_score_gap_s": -89.94607747679902
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 4,
+          "position": [
+            -1031.394255086079,
+            276.59114890041064
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 292.001197139565,
+          "cache_entry_m": 215.67423377706726,
+          "entry_score_gap_s": 15.265392672499553
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 3,
+          "position": [
+            -955.2208384225717,
+            504.56492835022993
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 612.2585816303097,
+          "cache_entry_m": 1370.6925097693527,
+          "entry_score_gap_s": -151.6867856278086
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 5,
+          "position": [
+            -430.35257126837996,
+            -760.4573057147692
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 251.36125385550403,
+          "cache_entry_m": 1103.283504557302,
+          "entry_score_gap_s": -170.38445014035958
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 6,
+          "position": [
+            -1675.796394426316,
+            -405.8314098379033
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 2309.3511932408614,
+          "cache_entry_m": 2173.696708464058,
+          "entry_score_gap_s": 27.130896955360733
+        },
+        {
+          "case_id": "dev_11_positive",
+          "station_id": 1,
+          "position": [
+            978.5523628695528,
+            36.558518126884245
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 150.94182875772,
+          "cache_entry_m": 572.6412421385195,
+          "entry_score_gap_s": -84.33988267615989
+        },
+        {
+          "case_id": "dev_11_positive",
+          "station_id": 2,
+          "position": [
+            1043.919742982431,
+            856.2581392854003
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 495.6750883234664,
+          "cache_entry_m": 325.01280820434766,
+          "entry_score_gap_s": 34.13245602382375
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 5,
+          "position": [
+            -916.027517031925,
+            -752.8830054380518
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 417.13032184869684,
+          "cache_entry_m": 680.6711576400711,
+          "entry_score_gap_s": -52.708167158274854
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 1,
+          "position": [
+            533.6395868165646,
+            -1235.7620353411005
+          ],
+          "cached_channel": 20,
+          "scan_entry_m": 1369.968958141338,
+          "cache_entry_m": 449.6982167751161,
+          "entry_score_gap_s": 184.05414827324435
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 4,
+          "position": [
+            307.1795272473861,
+            -874.9338710758728
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 1678.2870663335157,
+          "cache_entry_m": 744.6618684999906,
+          "entry_score_gap_s": 186.725039566705
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 3,
+          "position": [
+            150.35744151170042,
+            1260.1116771093605
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 768.027533195394,
+          "cache_entry_m": 954.6692405243483,
+          "entry_score_gap_s": -37.32834146579087
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 4,
+          "position": [
+            -288.81195487484655,
+            -71.42223928448506
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 839.2327347492088,
+          "cache_entry_m": 517.4496277682655,
+          "entry_score_gap_s": 64.35662139618867
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 6,
+          "position": [
+            -225.1511183069482,
+            -1183.1540243483917
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 814.8762088391752,
+          "cache_entry_m": 1519.9941003256351,
+          "entry_score_gap_s": -141.02357829729198
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 3,
+          "position": [
+            -1092.705610284657,
+            1274.1459136365004
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 609.1292206132431,
+          "cache_entry_m": 333.11606504117356,
+          "entry_score_gap_s": 55.202631114413904
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 5,
+          "position": [
+            -1693.692623162734,
+            613.6988262465659
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1949.6843311390664,
+          "cache_entry_m": 266.835080031212,
+          "entry_score_gap_s": 336.56985022157085
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 6,
+          "position": [
+            -857.5027502583544,
+            -1366.0299086050327
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1473.050207829609,
+          "cache_entry_m": 2251.120174499835,
+          "entry_score_gap_s": -155.61399333404515
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 2,
+          "position": [
+            137.6905955984155,
+            560.262928683793
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 593.1879878992776,
+          "cache_entry_m": 850.9872261575357,
+          "entry_score_gap_s": -51.55984765165162
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 3,
+          "position": [
+            -228.09987202648927,
+            1311.3344476644415
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 474.79480201057595,
+          "cache_entry_m": 156.48155865624258,
+          "entry_score_gap_s": 63.66264867086668
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 1,
+          "position": [
+            567.6936572383772,
+            -1546.7989337307708
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 1644.1342101765856,
+          "cache_entry_m": 449.1394011770117,
+          "entry_score_gap_s": 238.99896179991478
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 6,
+          "position": [
+            173.6671800085045,
+            -1730.5144514880024
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 850.3432579557372,
+          "cache_entry_m": 926.1668158252992,
+          "entry_score_gap_s": -15.164711573912404
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 2,
+          "position": [
+            453.4205084427273,
+            569.4612130560549
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 419.2558114763142,
+          "cache_entry_m": 2048.792730622568,
+          "entry_score_gap_s": -325.90738382925076
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 3,
+          "position": [
+            185.94539071888877,
+            811.0253394071966
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 766.0431601482833,
+          "cache_entry_m": 2150.8777934659474,
+          "entry_score_gap_s": -276.96692666353283
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 4,
+          "position": [
+            -778.4354873142152,
+            1273.7118240078507
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 1320.0184741398664,
+          "cache_entry_m": 2478.807931610217,
+          "entry_score_gap_s": -231.75789149407015
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 1,
+          "position": [
+            -502.95529572601504,
+            1614.2669590900773
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 2292.617774530308,
+          "cache_entry_m": 2812.8616251021754,
+          "entry_score_gap_s": -104.04877011437347
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 2,
+          "position": [
+            342.7996326422339,
+            949.4387983908257
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 221.10012693492848,
+          "cache_entry_m": 367.96097317484237,
+          "entry_score_gap_s": -29.372169247982775
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 1,
+          "position": [
+            982.2586701240544,
+            870.5893967791231
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 882.2136844546172,
+          "cache_entry_m": 846.9910743581394,
+          "entry_score_gap_s": 7.044522019295573
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 3,
+          "position": [
+            999.5336168833778,
+            655.1532731867237
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 1594.2992132120398,
+          "cache_entry_m": 828.0169454456553,
+          "entry_score_gap_s": 153.2564535532769
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 6,
+          "position": [
+            430.04561442951683,
+            1306.2645411925057
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2284.386370229142,
+          "cache_entry_m": 117.62534999212413,
+          "entry_score_gap_s": 433.3522040474036
+        },
+        {
+          "case_id": "dev_7_negative",
+          "station_id": 4,
+          "position": [
+            -1323.864037192205,
+            405.3313800016873
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 451.48691332358106,
+          "cache_entry_m": 274.61915671235124,
+          "entry_score_gap_s": 35.373551322245966
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 2,
+          "position": [
+            847.1038767553948,
+            722.0081742248816
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 380.3152954056909,
+          "cache_entry_m": 563.4962136279137,
+          "entry_score_gap_s": -36.63618364444456
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 1,
+          "position": [
+            1656.3374467193876,
+            681.0046699976356
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 863.763186784935,
+          "cache_entry_m": 2419.457888907709,
+          "entry_score_gap_s": -311.1389404245548
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 6,
+          "position": [
+            418.0287478717634,
+            -155.49823009943682
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 831.4284111448741,
+          "cache_entry_m": 1359.2353081276092,
+          "entry_score_gap_s": -105.56137939654703
+        },
+        {
+          "case_id": "dev_9_negative",
+          "station_id": 1,
+          "position": [
+            998.4380420366232,
+            952.5021335048998
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 960.873687606706,
+          "cache_entry_m": 243.27886377385568,
+          "entry_score_gap_s": 143.51896476657006
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 1,
+          "position": [
+            1261.4575456521986,
+            599.8826034118885
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 615.207119303448,
+          "cache_entry_m": 612.8973017476764,
+          "entry_score_gap_s": 0.46196351115434026
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 3,
+          "position": [
+            -369.9007743997211,
+            339.9793673874844
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 662.895128870881,
+          "cache_entry_m": 424.04118102948684,
+          "entry_score_gap_s": 47.77078956827883
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 4,
+          "position": [
+            -814.4501885592598,
+            332.684880179592
+          ],
+          "cached_channel": 15,
+          "scan_entry_m": 455.1048394447028,
+          "cache_entry_m": 1070.818513671949,
+          "entry_score_gap_s": -123.14273484544924
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 2,
+          "position": [
+            -1682.0458269866892,
+            -371.7837467080087
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2617.2255834809157,
+          "cache_entry_m": 2438.9661594790255,
+          "entry_score_gap_s": 35.65188480037805
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 2,
+          "position": [
+            771.2734389508507,
+            937.7904845746491
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 211.93803307794656,
+          "cache_entry_m": 913.7115429862458,
+          "entry_score_gap_s": -140.35470198165984
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 1,
+          "position": [
+            1519.6478974748484,
+            857.6698093143301
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 944.110409216315,
+          "cache_entry_m": 1027.2389793603513,
+          "entry_score_gap_s": -16.62571402880726
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "station_id": 4,
+          "position": [
+            -341.75453420066736,
+            -1773.5096603452816
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 1938.7650644245812,
+          "cache_entry_m": 702.1611318793169,
+          "entry_score_gap_s": 247.32078650905288
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "station_id": 3,
+          "position": [
+            -1769.3661294434733,
+            -368.0079849487784
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 1805.0648395131266,
+          "cache_entry_m": 1376.4446807398997,
+          "entry_score_gap_s": 85.72403175464538
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "station_id": 2,
+          "position": [
+            -1760.35421082287,
+            334.1642418197862
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 2409.439364194678,
+          "cache_entry_m": 1379.1737479329752,
+          "entry_score_gap_s": 206.05312325234058
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "station_id": 1,
+          "position": [
+            52.27548620680188,
+            -0.9493135850174576
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1072.7249338433112,
+          "cache_entry_m": 19.82545354903093,
+          "entry_score_gap_s": 210.57989605885604
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "station_id": 6,
+          "position": [
+            190.43510280633967,
+            -3.396045605869984
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 1039.7332263006338,
+          "cache_entry_m": 19.749012764688466,
+          "entry_score_gap_s": 203.99684270718905
+        }
+      ]
+    },
+    "dev_rounding": {
+      "forced_scans_with_ready_cache": 128,
+      "closer_cache_bypassed": 57,
+      "affected_cases": 37,
+      "records": [
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -892.4649186309904,
+            -758.7094622227272
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 394.1407004437685,
+          "cache_entry_m": 661.6065393250414,
+          "entry_score_gap_s": -53.49316777625457
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1007.6413679750224,
+            -38.094817155392285
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 123.3866427328213,
+          "cache_entry_m": 985.624016908335,
+          "entry_score_gap_s": -172.44747483510272
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -1469.0358439633592,
+            258.0598532793482
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1155.3252787990566,
+          "cache_entry_m": 282.14871216682377,
+          "entry_score_gap_s": 174.63531332644658
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "station_id": 2,
+          "position": [
+            -11.198498344350188,
+            1410.907290656156
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 720.9539504158495,
+          "cache_entry_m": 1599.7374351069934,
+          "entry_score_gap_s": -175.7566969382288
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 2,
+          "position": [
+            54.697061059467714,
+            302.62447071553373
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 842.0113219654096,
+          "cache_entry_m": 779.7448344054444,
+          "entry_score_gap_s": 12.453297511993037
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 3,
+          "position": [
+            570.9372498313444,
+            1317.9275923733514
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 1184.3878771419202,
+          "cache_entry_m": 417.85530353678445,
+          "entry_score_gap_s": 153.30651472102713
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 1,
+          "position": [
+            248.49433394402007,
+            1085.8894124542442
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1395.4991933743497,
+          "cache_entry_m": 1322.4410390607493,
+          "entry_score_gap_s": 14.611630862720085
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "station_id": 5,
+          "position": [
+            90.21129489185728,
+            -1184.4259950913836
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 685.7069132370386,
+          "cache_entry_m": 286.31030970156206,
+          "entry_score_gap_s": 79.87932070709532
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1060.873460987342,
+            -90.6533928275334
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 111.0416617170558,
+          "cache_entry_m": 1568.5620673697515,
+          "entry_score_gap_s": -291.50408113053913
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -1741.954943704095,
+            -32.14371387327184
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1509.546974691604,
+          "cache_entry_m": 103.18017236290623,
+          "entry_score_gap_s": 281.27336046573953
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -836.9242321794741,
+            -1351.13064324265
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1449.2776337682794,
+          "cache_entry_m": 1501.8162445172686,
+          "entry_score_gap_s": -10.507722149797837
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -280.11504340467985,
+            732.6411904742565
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 371.65829920684126,
+          "cache_entry_m": 459.89981298996736,
+          "entry_score_gap_s": -17.64830275662522
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -424.0066953042814,
+            1621.1862510451115
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2599.1571866247855,
+          "cache_entry_m": 89.73749685935591,
+          "entry_score_gap_s": 501.88393795308593
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -640.2196253758891,
+            -1624.8407678765911
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1367.3937467039952,
+          "cache_entry_m": 3239.4863337097454,
+          "entry_score_gap_s": -374.41851740115004
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "station_id": 1,
+          "position": [
+            416.35251954883023,
+            168.66505826134
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 728.4429651167566,
+          "cache_entry_m": 493.64023496652993,
+          "entry_score_gap_s": 46.96054603004533
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -1317.7102202398203,
+            396.09032915172065
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 440.4824375981389,
+          "cache_entry_m": 262.66163170394395,
+          "entry_score_gap_s": 35.564161178838994
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 2,
+          "position": [
+            51.364366417578324,
+            525.022424854074
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 680.5076988448058,
+          "cache_entry_m": 762.6564913625907,
+          "entry_score_gap_s": -16.42975850355699
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -775.3445806479427,
+            511.5956753226356
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 509.2919448654099,
+          "cache_entry_m": 1358.9305186786082,
+          "entry_score_gap_s": -169.92771476263965
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "station_id": 6,
+          "position": [
+            -1486.7913963248793,
+            25.534669479305308
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 2280.180203273593,
+          "cache_entry_m": 1906.0296133419406,
+          "entry_score_gap_s": 74.83011798633052
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 1,
+          "position": [
+            1260.881543713616,
+            602.8620087788382
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 617.9857567540301,
+          "cache_entry_m": 604.2673210882076,
+          "entry_score_gap_s": 2.743687133164508
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 3,
+          "position": [
+            -379.5569748623354,
+            334.1163848239765
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 665.7895956144524,
+          "cache_entry_m": 422.1531265996064,
+          "entry_score_gap_s": 48.7272938029692
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 4,
+          "position": [
+            -801.7034056073185,
+            336.4940532395744
+          ],
+          "cached_channel": 15,
+          "scan_entry_m": 466.63576353672624,
+          "cache_entry_m": 1114.5892007691762,
+          "entry_score_gap_s": -129.59068744649
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "station_id": 2,
+          "position": [
+            -1665.220801267775,
+            -382.2375477717335
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2608.232346109432,
+          "cache_entry_m": 2458.1473668244707,
+          "entry_score_gap_s": 30.016995856992253
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 5,
+          "position": [
+            -1133.6651628113002,
+            -1269.47041791445
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 642.9369057838672,
+          "cache_entry_m": 283.37896474769525,
+          "entry_score_gap_s": 71.9115882072344
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 1,
+          "position": [
+            890.4827419625934,
+            384.012371966289
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 449.95982725189924,
+          "cache_entry_m": 541.1076400085365,
+          "entry_score_gap_s": -18.229562551327444
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "station_id": 2,
+          "position": [
+            1053.2076612372393,
+            856.8726174946958
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 504.5573987708124,
+          "cache_entry_m": 294.54416920313275,
+          "entry_score_gap_s": 42.002645913535936
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 5,
+          "position": [
+            -927.5949861629946,
+            -754.2973355823682
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 426.2465207954331,
+          "cache_entry_m": 680.4347511090784,
+          "entry_score_gap_s": -50.837646062729064
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 4,
+          "position": [
+            -1027.3650998506794,
+            -50.54251120173114
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 109.94143516320378,
+          "cache_entry_m": 995.8748241726418,
+          "entry_score_gap_s": -177.18667780188758
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 3,
+          "position": [
+            -1750.017679558256,
+            248.22913980527105
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 1391.8857811588966,
+          "cache_entry_m": 1766.3746372302073,
+          "entry_score_gap_s": -74.89777121426214
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "station_id": 2,
+          "position": [
+            -1.6393227163010504,
+            1408.1622248218187
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 711.6938901824267,
+          "cache_entry_m": 1620.8535522484945,
+          "entry_score_gap_s": -181.83193241321356
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "station_id": 1,
+          "position": [
+            547.6230080145456,
+            107.67494962852679
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 587.3313252770341,
+          "cache_entry_m": 1022.6515460244455,
+          "entry_score_gap_s": -87.06404414948227
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "station_id": 4,
+          "position": [
+            -269.9898106570826,
+            -67.14902896355552
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 857.6429420049814,
+          "cache_entry_m": 607.9915582870399,
+          "entry_score_gap_s": 49.930276743588294
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 2,
+          "position": [
+            320.390904490368,
+            657.7345040681353
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 398.51846339407945,
+          "cache_entry_m": 1198.9498007018713,
+          "entry_score_gap_s": -160.08626746155838
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 6,
+          "position": [
+            1082.9123771448121,
+            -701.6369957534607
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 587.5052981387491,
+          "cache_entry_m": 2563.9521153229794,
+          "entry_score_gap_s": -395.28936343684603
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "station_id": 3,
+          "position": [
+            -1112.9603788073773,
+            1252.1959581756328
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 616.6398447566377,
+          "cache_entry_m": 375.4953005407204,
+          "entry_score_gap_s": 48.228908843183454
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 2,
+          "position": [
+            138.18420963845463,
+            563.5192410375678
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 590.5650886100653,
+          "cache_entry_m": 885.4575471443346,
+          "entry_score_gap_s": -58.97849170685386
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 3,
+          "position": [
+            -218.34519362485537,
+            1298.8563280189514
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 473.0679081719338,
+          "cache_entry_m": 195.12806300541286,
+          "entry_score_gap_s": 55.58796903330419
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "station_id": 1,
+          "position": [
+            496.56264473512266,
+            -226.94101152295502
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 668.1584633927612,
+          "cache_entry_m": 1280.4263123343014,
+          "entry_score_gap_s": -122.45356978830804
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 6,
+          "position": [
+            172.59186436599066,
+            -1711.0747063242395
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 833.6047547214122,
+          "cache_entry_m": 919.2001034370011,
+          "entry_score_gap_s": -17.11906974311778
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 2,
+          "position": [
+            444.6918067854219,
+            592.7812076180368
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 399.27310823081626,
+          "cache_entry_m": 2044.3363654742807,
+          "entry_score_gap_s": -329.0126514486929
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 3,
+          "position": [
+            196.06943665445613,
+            805.0382216657833
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 777.2193312469965,
+          "cache_entry_m": 2128.44096083311,
+          "entry_score_gap_s": -270.2443259172227
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 4,
+          "position": [
+            -522.1423168692083,
+            1613.1553985208952
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 1722.1230286733098,
+          "cache_entry_m": 2791.949299840702,
+          "entry_score_gap_s": -213.96525423347848
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "station_id": 1,
+          "position": [
+            -781.1675774936251,
+            1257.3747547541034
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 2283.52055111857,
+          "cache_entry_m": 2444.2300037816703,
+          "entry_score_gap_s": -32.141890532620074
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 2,
+          "position": [
+            1148.99113218384,
+            735.7176093554148
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 633.1533656949971,
+          "cache_entry_m": 829.2379926796668,
+          "entry_score_gap_s": -39.216925396933945
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 3,
+          "position": [
+            425.6581394811024,
+            1314.6369001195133
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1045.1317118922223,
+          "cache_entry_m": 416.0599006851173,
+          "entry_score_gap_s": 125.81436224142098
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 1,
+          "position": [
+            523.9180053524353,
+            1395.1953617358577
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1519.1674238538508,
+          "cache_entry_m": 521.5678966259374,
+          "entry_score_gap_s": 199.51990544558268
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 4,
+          "position": [
+            178.73479885964164,
+            650.9614574800896
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 1457.214893171969,
+          "cache_entry_m": 302.2535225187608,
+          "entry_score_gap_s": 230.99227413064165
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "station_id": 5,
+          "position": [
+            -776.2627691542177,
+            -1013.1216939428397
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 217.26322522446858,
+          "cache_entry_m": 1836.7966504066692,
+          "entry_score_gap_s": -323.9066850364401
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "station_id": 1,
+          "position": [
+            405.77155348162626,
+            157.061985429225
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 736.1779849657305,
+          "cache_entry_m": 327.4370029872961,
+          "entry_score_gap_s": 81.74819639568688
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "station_id": 2,
+          "position": [
+            1076.812542265578,
+            494.9577113277877
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 703.0404579855759,
+          "cache_entry_m": 2127.592658932942,
+          "entry_score_gap_s": -284.9104401894732
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "station_id": 2,
+          "position": [
+            49.165957092809364,
+            532.2479006840581
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 677.4237672295926,
+          "cache_entry_m": 755.2053150820146,
+          "entry_score_gap_s": -15.556309570484405
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "station_id": 1,
+          "position": [
+            994.896857061959,
+            956.081476228689
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 964.8930598724324,
+          "cache_entry_m": 247.44731442321807,
+          "entry_score_gap_s": 143.4891490898429
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 1,
+          "position": [
+            866.314543476448,
+            182.33834692742673
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 316.48923864331493,
+          "cache_entry_m": 481.86955921136206,
+          "entry_score_gap_s": -33.076064113609426
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 3,
+          "position": [
+            131.7487258733646,
+            1375.315856331493
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 801.7556928265104,
+          "cache_entry_m": 2206.101891649091,
+          "entry_score_gap_s": -280.8692397645162
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 4,
+          "position": [
+            -388.1064730470948,
+            333.6718641420944
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 808.9184031687944,
+          "cache_entry_m": 570.8397806897842,
+          "entry_score_gap_s": 47.615724495802034
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "station_id": 5,
+          "position": [
+            -934.5757167226457,
+            498.6852603698929
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 1519.230993570274,
+          "cache_entry_m": 1351.5308437186977,
+          "entry_score_gap_s": 33.54002997031525
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "station_id": 2,
+          "position": [
+            1512.4243937132724,
+            853.3968618321397
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 957.5848491800771,
+          "cache_entry_m": 793.2303631007369,
+          "entry_score_gap_s": 32.870897215868034
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "station_id": 6,
+          "position": [
+            870.6960792043301,
+            387.1360128404632
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 1395.8633582174753,
+          "cache_entry_m": 527.0388363351215,
+          "entry_score_gap_s": 173.76490437647075
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 6,
+          "position": [
+            316.5552672470334,
+            -855.5417475724873
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 273.1066582262719,
+          "cache_entry_m": 402.3732807732116,
+          "entry_score_gap_s": -25.85332450938794
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 1,
+          "position": [
+            859.9392846674627,
+            -928.254539922075
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 965.3567598036176,
+          "cache_entry_m": 1144.248530893176,
+          "entry_score_gap_s": -35.77835421791167
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 3,
+          "position": [
+            -16.801083437215546,
+            1407.2629934783572
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 696.6080752445962,
+          "cache_entry_m": 1626.7505540886234,
+          "entry_score_gap_s": -186.02849576880544
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 4,
+          "position": [
+            -1735.123806907726,
+            251.23183136429998
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 659.8245924836662,
+          "cache_entry_m": 1278.4186958027308,
+          "entry_score_gap_s": -123.71882066381292
+        },
+        {
+          "case_id": "dev_0_positive",
+          "station_id": 5,
+          "position": [
+            -38.25529210762029,
+            -219.34608130204916
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 919.1058645348824,
+          "cache_entry_m": 1008.1326551290808,
+          "entry_score_gap_s": -17.805358118839695
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 3,
+          "position": [
+            140.78339536636372,
+            1245.6143538732572
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 753.8107433463504,
+          "cache_entry_m": 974.6873111039189,
+          "entry_score_gap_s": -44.1753135515137
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 4,
+          "position": [
+            -266.0967173115353,
+            -75.75448019722889
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 862.2375486389891,
+          "cache_entry_m": 469.13134610735307,
+          "entry_score_gap_s": 78.62124050632721
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 6,
+          "position": [
+            107.00849466930083,
+            -1172.816171758482
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 496.8799523672846,
+          "cache_entry_m": 310.0250351641104,
+          "entry_score_gap_s": 37.37098344063484
+        },
+        {
+          "case_id": "dev_1_positive",
+          "station_id": 1,
+          "position": [
+            1415.3217759885297,
+            -1008.0100305332602
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 1048.985679248672,
+          "cache_entry_m": 1412.149209916807,
+          "entry_score_gap_s": -72.63270613362697
+        },
+        {
+          "case_id": "dev_2_positive",
+          "station_id": 2,
+          "position": [
+            342.73184398079957,
+            687.1185868702024
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 361.6060060728371,
+          "cache_entry_m": 1612.996096758452,
+          "entry_score_gap_s": -250.27801813712298
+        },
+        {
+          "case_id": "dev_2_positive",
+          "station_id": 6,
+          "position": [
+            1107.4539094657807,
+            -701.8146513465824
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 609.271167424391,
+          "cache_entry_m": 2253.163130070788,
+          "entry_score_gap_s": -328.7783925292794
+        },
+        {
+          "case_id": "dev_3_positive",
+          "station_id": 2,
+          "position": [
+            82.48150497002831,
+            914.026791230228
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 483.78511090289004,
+          "cache_entry_m": 253.6799981732987,
+          "entry_score_gap_s": 46.021022545918264
+        },
+        {
+          "case_id": "dev_4_positive",
+          "station_id": 2,
+          "position": [
+            122.04686364433168,
+            583.3069327249177
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 588.9463419683821,
+          "cache_entry_m": 829.330631199329,
+          "entry_score_gap_s": -48.076857846189384
+        },
+        {
+          "case_id": "dev_4_positive",
+          "station_id": 6,
+          "position": [
+            1009.0070813040546,
+            -905.5821570893987
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 451.76074649460486,
+          "cache_entry_m": 2555.4009624880823,
+          "entry_score_gap_s": -420.72804319869545
+        },
+        {
+          "case_id": "dev_4_positive",
+          "station_id": 1,
+          "position": [
+            580.602293245817,
+            -1526.5794973852467
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 1620.744836473714,
+          "cache_entry_m": 2919.648808922847,
+          "entry_score_gap_s": -259.7807944898266
+        },
+        {
+          "case_id": "dev_4_positive",
+          "station_id": 3,
+          "position": [
+            -231.80866927312638,
+            1297.1473944089807
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 462.1699124945668,
+          "cache_entry_m": 193.31938498004885,
+          "entry_score_gap_s": 53.77010550290358
+        },
+        {
+          "case_id": "dev_5_positive",
+          "station_id": 5,
+          "position": [
+            -425.2591555286466,
+            1619.1803139515478
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2597.087615032707,
+          "cache_entry_m": 100.85918609017781,
+          "entry_score_gap_s": 499.24568578850585
+        },
+        {
+          "case_id": "dev_5_positive",
+          "station_id": 6,
+          "position": [
+            170.16111383360635,
+            -1701.965655371732
+          ],
+          "cached_channel": 11,
+          "scan_entry_m": 826.7153575094491,
+          "cache_entry_m": 921.6798800182867,
+          "entry_score_gap_s": -18.99290450176752
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 2,
+          "position": [
+            324.6324402534087,
+            949.2823082008714
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 239.17731821085036,
+          "cache_entry_m": 329.9916760970999,
+          "entry_score_gap_s": -18.16287157724991
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 1,
+          "position": [
+            1014.9808185330198,
+            667.5655398156714
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 676.5707429678386,
+          "cache_entry_m": 856.3549629264656,
+          "entry_score_gap_s": -35.95684399172542
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 3,
+          "position": [
+            158.63293704453451,
+            664.0829547167159
+          ],
+          "cached_channel": 2,
+          "scan_entry_m": 785.018495562187,
+          "cache_entry_m": 1161.845405105307,
+          "entry_score_gap_s": -75.365381908624
+        },
+        {
+          "case_id": "dev_6_positive",
+          "station_id": 6,
+          "position": [
+            408.52729878699097,
+            1324.192330321294
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 2303.6223898240723,
+          "cache_entry_m": 128.72393935136432,
+          "entry_score_gap_s": 434.97969009454164
+        },
+        {
+          "case_id": "dev_7_positive",
+          "station_id": 4,
+          "position": [
+            -1313.1969563622738,
+            393.1837824785164
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 435.90317868551585,
+          "cache_entry_m": 252.92520370375587,
+          "entry_score_gap_s": 36.595594996352
+        },
+        {
+          "case_id": "dev_8_positive",
+          "station_id": 2,
+          "position": [
+            829.9726730294972,
+            732.097603788917
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 360.8230254521674,
+          "cache_entry_m": 582.5351775090085,
+          "entry_score_gap_s": -44.342430411368206
+        },
+        {
+          "case_id": "dev_9_positive",
+          "station_id": 1,
+          "position": [
+            1013.5781892462257,
+            967.5028876518924
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 973.8976627584647,
+          "cache_entry_m": 245.33236766196427,
+          "entry_score_gap_s": 145.7130590193001
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 1,
+          "position": [
+            850.1000295632341,
+            179.53819695092756
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 328.3351304848825,
+          "cache_entry_m": 559.4064465783813,
+          "entry_score_gap_s": -46.21426321869976
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 3,
+          "position": [
+            125.41819997769579,
+            1353.6187566046187
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 785.5764889622787,
+          "cache_entry_m": 1362.9424069383158,
+          "entry_score_gap_s": -115.47318359520742
+        },
+        {
+          "case_id": "dev_10_positive",
+          "station_id": 4,
+          "position": [
+            -941.1126330494245,
+            512.323173172703
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 544.3249006740027,
+          "cache_entry_m": 22.087349118802003,
+          "entry_score_gap_s": 104.44751031104015
+        },
+        {
+          "case_id": "dev_11_positive",
+          "station_id": 1,
+          "position": [
+            978.59414221859,
+            36.55999478592211
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 150.90165145371037,
+          "cache_entry_m": 572.9385640565971,
+          "entry_score_gap_s": -84.40738252057734
+        },
+        {
+          "case_id": "dev_11_positive",
+          "station_id": 2,
+          "position": [
+            1043.7602557377115,
+            856.3502497438778
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 495.4982589824098,
+          "cache_entry_m": 324.8942339408358,
+          "entry_score_gap_s": 34.120805008314804
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 5,
+          "position": [
+            -915.912522248971,
+            -752.7885971421135
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 417.0829930120027,
+          "cache_entry_m": 680.530239588845,
+          "entry_score_gap_s": -52.68944931536846
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 1,
+          "position": [
+            533.4868394723221,
+            -1235.9278454044995
+          ],
+          "cached_channel": 20,
+          "scan_entry_m": 1370.1844613495114,
+          "cache_entry_m": 449.7215587643775,
+          "entry_score_gap_s": 184.09258051702676
+        },
+        {
+          "case_id": "dev_0_negative",
+          "station_id": 4,
+          "position": [
+            307.0512844366163,
+            -875.0572895192557
+          ],
+          "cached_channel": 5,
+          "scan_entry_m": 1678.2419793335373,
+          "cache_entry_m": 744.698655625407,
+          "entry_score_gap_s": 186.70866474162605
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 3,
+          "position": [
+            150.43447364784862,
+            1260.058213245264
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 768.0791384471515,
+          "cache_entry_m": 954.4655643137573,
+          "entry_score_gap_s": -37.27728517332116
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 4,
+          "position": [
+            -288.8481133832479,
+            -71.43118116569242
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 839.1974684992084,
+          "cache_entry_m": 517.6159469310742,
+          "entry_score_gap_s": 64.31630431362684
+        },
+        {
+          "case_id": "dev_1_negative",
+          "station_id": 6,
+          "position": [
+            -225.293877494804,
+            -1183.147011940626
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 815.012402107972,
+          "cache_entry_m": 1520.1725763269096,
+          "entry_score_gap_s": -141.03203484378753
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 3,
+          "position": [
+            -1092.48323036422,
+            1274.1402577958718
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 608.9328786682057,
+          "cache_entry_m": 333.1865531878984,
+          "entry_score_gap_s": 55.149265096061455
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 5,
+          "position": [
+            -1693.692623162734,
+            613.6988262465659
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1949.6843311390664,
+          "cache_entry_m": 266.8635105632306,
+          "entry_score_gap_s": 336.56416411516716
+        },
+        {
+          "case_id": "dev_2_negative",
+          "station_id": 6,
+          "position": [
+            -857.5622963423775,
+            -1366.1090475310145
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1473.1286574364892,
+          "cache_entry_m": 2251.2749169683257,
+          "entry_score_gap_s": -155.6292519063673
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 2,
+          "position": [
+            137.77020433062435,
+            560.1648623264687
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 593.1994351647502,
+          "cache_entry_m": 851.1134167232254,
+          "entry_score_gap_s": -51.58279631169505
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 3,
+          "position": [
+            -228.07655226468478,
+            1311.4875919183573
+          ],
+          "cached_channel": 9,
+          "scan_entry_m": 474.91995179702604,
+          "cache_entry_m": 156.56876111455733,
+          "entry_score_gap_s": 63.670238136493744
+        },
+        {
+          "case_id": "dev_4_negative",
+          "station_id": 1,
+          "position": [
+            567.6936572383772,
+            -1546.7989337307708
+          ],
+          "cached_channel": 10,
+          "scan_entry_m": 1644.1342101765856,
+          "cache_entry_m": 449.19203374339435,
+          "entry_score_gap_s": 238.98843528663824
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 2,
+          "position": [
+            183.18490260732872,
+            799.828839107103
+          ],
+          "cached_channel": 12,
+          "scan_entry_m": 417.5076705266031,
+          "cache_entry_m": 607.1106571031416,
+          "entry_score_gap_s": -37.92059731530772
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 3,
+          "position": [
+            -403.27264475585866,
+            1636.5856856375672
+          ],
+          "cached_channel": 12,
+          "scan_entry_m": 681.1784302365937,
+          "cache_entry_m": 1498.1831616264592,
+          "entry_score_gap_s": -163.4009462779731
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 5,
+          "position": [
+            -801.7358165825715,
+            -596.052356358843
+          ],
+          "cached_channel": 12,
+          "scan_entry_m": 447.53642491322313,
+          "cache_entry_m": 1169.7998984483306,
+          "entry_score_gap_s": -144.45269470702152
+        },
+        {
+          "case_id": "dev_5_negative",
+          "station_id": 6,
+          "position": [
+            -648.7067758974143,
+            -1633.3674630795153
+          ],
+          "cached_channel": 12,
+          "scan_entry_m": 1378.9198710431176,
+          "cache_entry_m": 1968.7217158879614,
+          "entry_score_gap_s": -117.96036896896877
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 2,
+          "position": [
+            1169.2973679958166,
+            724.5886339494137
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 656.1616527919032,
+          "cache_entry_m": 220.7873531383622,
+          "entry_score_gap_s": 87.0748599307082
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 1,
+          "position": [
+            982.7259514560886,
+            667.471376589072
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 682.4660749478951,
+          "cache_entry_m": 802.4428697932112,
+          "entry_score_gap_s": -23.995358969063226
+        },
+        {
+          "case_id": "dev_6_negative",
+          "station_id": 6,
+          "position": [
+            159.11374806168968,
+            -516.9670230777424
+          ],
+          "cached_channel": 18,
+          "scan_entry_m": 609.7985959875471,
+          "cache_entry_m": 1170.3945188958087,
+          "entry_score_gap_s": -112.11918458165232
+        },
+        {
+          "case_id": "dev_7_negative",
+          "station_id": 2,
+          "position": [
+            513.8053292766793,
+            453.23174817142313
+          ],
+          "cached_channel": 4,
+          "scan_entry_m": 523.3172757913583,
+          "cache_entry_m": 795.4737338156483,
+          "entry_score_gap_s": -54.431291604858
+        },
+        {
+          "case_id": "dev_7_negative",
+          "station_id": 4,
+          "position": [
+            -1332.5332413753508,
+            398.7901598518213
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 449.559381917896,
+          "cache_entry_m": 275.58143996290505,
+          "entry_score_gap_s": 34.79558839099819
+        },
+        {
+          "case_id": "dev_7_negative",
+          "station_id": 1,
+          "position": [
+            1073.786134958389,
+            486.1534305416508
+          ],
+          "cached_channel": 16,
+          "scan_entry_m": 488.84355166036096,
+          "cache_entry_m": 2419.3632552041718,
+          "entry_score_gap_s": -386.1039407087622
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 2,
+          "position": [
+            63.74800780908198,
+            542.9029818818855
+          ],
+          "cached_channel": 13,
+          "scan_entry_m": 659.4228201431706,
+          "cache_entry_m": 716.427828425257,
+          "entry_score_gap_s": -11.40100165641727
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 3,
+          "position": [
+            -786.0121628405956,
+            524.8261482830003
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 501.961327839668,
+          "cache_entry_m": 1368.7758423686607,
+          "entry_score_gap_s": -173.36290290579853
+        },
+        {
+          "case_id": "dev_8_negative",
+          "station_id": 6,
+          "position": [
+            -1485.4662666570887,
+            28.351505943818502
+          ],
+          "cached_channel": 19,
+          "scan_entry_m": 2280.2265056603837,
+          "cache_entry_m": 1898.474691351379,
+          "entry_score_gap_s": 76.35036286180093
+        },
+        {
+          "case_id": "dev_9_negative",
+          "station_id": 1,
+          "position": [
+            998.3326266884346,
+            952.5074311478954
+          ],
+          "cached_channel": 14,
+          "scan_entry_m": 960.8928295359552,
+          "cache_entry_m": 243.38387249610113,
+          "entry_score_gap_s": 143.5017914079708
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 4,
+          "position": [
+            -828.2024597953717,
+            338.28825661224204
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 450.03080387154387,
+          "cache_entry_m": 191.56070422924597,
+          "entry_score_gap_s": 51.69401992845958
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 3,
+          "position": [
+            -936.6111858923775,
+            525.5658417961104
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 584.2108353752859,
+          "cache_entry_m": 228.97894530816203,
+          "entry_score_gap_s": 71.04637801342479
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 5,
+          "position": [
+            -451.9901479603325,
+            -767.985295254545
+          ],
+          "cached_channel": 1,
+          "scan_entry_m": 234.02851625934468,
+          "cache_entry_m": 1793.2545463847043,
+          "entry_score_gap_s": -311.8452060250719
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 6,
+          "position": [
+            -1667.2350400746946,
+            -371.1912841816065
+          ],
+          "cached_channel": 1,
+          "scan_entry_m": 2309.8555440587297,
+          "cache_entry_m": 2400.4806727938508,
+          "entry_score_gap_s": -18.12502574702421
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 1,
+          "position": [
+            479.85664974973025,
+            -157.28926686845074
+          ],
+          "cached_channel": 1,
+          "scan_entry_m": 664.0405528611615,
+          "cache_entry_m": 950.3276750834342,
+          "entry_score_gap_s": -57.25742444445454
+        },
+        {
+          "case_id": "dev_10_negative",
+          "station_id": 2,
+          "position": [
+            856.3301868825689,
+            165.45759586280192
+          ],
+          "cached_channel": 1,
+          "scan_entry_m": 860.539111198905,
+          "cache_entry_m": 756.2242076529833,
+          "entry_score_gap_s": 20.86298070918433
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 2,
+          "position": [
+            771.3515945696115,
+            937.8856456593595
+          ],
+          "cached_channel": 7,
+          "scan_entry_m": 211.99866549143067,
+          "cache_entry_m": 913.8290075740191,
+          "entry_score_gap_s": -140.3660684165177
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 1,
+          "position": [
+            1513.7620989500697,
+            858.0253364520266
+          ],
+          "cached_channel": 20,
+          "scan_entry_m": 941.989091005664,
+          "cache_entry_m": 476.31967138604284,
+          "entry_score_gap_s": 93.13388392392423
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 6,
+          "position": [
+            430.03835309905,
+            90.18951715541576
+          ],
+          "cached_channel": 20,
+          "scan_entry_m": 1072.6781512553682,
+          "cache_entry_m": 966.8186638422845,
+          "entry_score_gap_s": 21.171897482616735
+        },
+        {
+          "case_id": "dev_11_negative",
+          "station_id": 3,
+          "position": [
+            -1138.8119333057566,
+            -1263.3258658881143
+          ],
+          "cached_channel": 17,
+          "scan_entry_m": 2310.6295889661765,
+          "cache_entry_m": 274.76507237321437,
+          "entry_score_gap_s": 407.1729033185924
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "station_id": 5,
+          "position": [
+            -1760.2590516925738,
+            334.1142378447677
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1773.8428650126489,
+          "cache_entry_m": 1379.0843192058492,
+          "entry_score_gap_s": 78.95170916135994
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "station_id": 6,
+          "position": [
+            -996.366412062903,
+            -1511.0966817695637
+          ],
+          "cached_channel": 6,
+          "scan_entry_m": 1648.7080292891549,
+          "cache_entry_m": 3003.981193374161,
+          "entry_score_gap_s": -271.0546328170013
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "station_id": 1,
+          "position": [
+            52.5134968163993,
+            -0.9535482832649688
+          ],
+          "cached_channel": 3,
+          "scan_entry_m": 1072.4869270836434,
+          "cache_entry_m": 19.58740527043511,
+          "entry_score_gap_s": 210.57990436264168
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "station_id": 6,
+          "position": [
+            190.61238265507572,
+            -3.399170298738044
+          ],
+          "cached_channel": 8,
+          "scan_entry_m": 1039.666882551612,
+          "cache_entry_m": 19.741226257028767,
+          "entry_score_gap_s": 203.98513125891662
+        }
+      ]
+    }
+  }
+}

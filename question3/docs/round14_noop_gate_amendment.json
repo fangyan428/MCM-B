@@ -1,0 +1,11 @@
+{
+  "kind": "PRE_FRESH_VALIDATION_NOOP_STRATUM_GATE_CORRECTION",
+  "created_utc": "2026-09-11T12:37:11.345986+00:00",
+  "original_protocol_retained": "round14_protocol.json",
+  "reason": "The pre-existing outer generator places all sources at radial1600..1800 while reception radius<=1500. Hence origin scan has no signal, current remains origin, align_first_entry returns unchanged cover and locks phase0. All future behavior is identical. A strictly lower outer mean is mathematically inapplicable, not evidence of failure on an affected task.",
+  "ordinary_gate": "All complete/audited; PHASE strictly lower mean and p95<=REF in both new ordinary models; every regression reported.",
+  "outer_gate": "All complete/audited; every normalized accepted action and every metric identical to REF in both new outer models. Zero phase and no later rotation. Stronger than mean nonregression.",
+  "timing": "Written after development geometry review, before any round14 fresh fixture generation or inspection.",
+  "official_runs": 0,
+  "formal_runs": 0
+}

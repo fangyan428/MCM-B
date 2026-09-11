@@ -1,0 +1,17 @@
+{
+  "kind": "USER_AUTHORIZED_END_OF_AUTONOMOUS_OPTIMIZATION",
+  "selected": "round19_BOTH",
+  "source_and_config_match_frozen_lock": true,
+  "all_four_fresh_gates_passed": true,
+  "self_matrix_runs": 2824,
+  "audited_actions": 343093,
+  "tests_passed": 162,
+  "forged_certificate_rejections": 2,
+  "actual_self_http_cases": 2,
+  "extracted_package_cases": 8,
+  "package_sha256": "1065bcdd215ccdf200df3808ed0062435f17c64eadbe231dee0cbeb8e590c780",
+  "old_round16_preserved": true,
+  "official_runs": 0,
+  "formal_runs": 0,
+  "limits": "No global optimality or per-case dominance claim. Windows/official not run. No further optimization round will start without new user request; formal tests require explicit authorization."
+}

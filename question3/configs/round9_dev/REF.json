@@ -1,0 +1,21 @@
+{
+  "name": "round9_REF",
+  "error_deg": 1.005,
+  "second_offset": [
+    800.0,
+    605.0
+  ],
+  "min_angle_deg": 20.0,
+  "optical_cell_m": 28.0,
+  "max_optical_points": 2000,
+  "real_time_reserve_s": 5.0,
+  "modules": {
+    "A": true,
+    "B": true,
+    "C": false,
+    "S": true
+  },
+  "search_radius_m": 1125,
+  "shared_batch_limit": 19,
+  "count_stop": "detected_16"
+}

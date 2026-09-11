@@ -1,0 +1,11 @@
+{
+  "stage": "Additional development phase BEFORE heldout; triggered by retained clustered-case regression",
+  "reason": "Fixed compact rings improve mean but cause 64%-154% relative regression on clustered_16. Do not hide or discard this case.",
+  "new_mechanism": "E: only after the initial origin scan, if all 20 channels returned accepted no_signal (no first bearings, no near clears), use the original 1500 m ring. Otherwise keep the configured certified compact ring. Switch happens before any non-origin station is visited; all future station certificates use the selected ring.",
+  "legal_prior": "No origin reception proves sources are outside at least the origin-centred radius-1000 disk. The larger ring is a heuristic time choice within an independently certified cover, not inference of source coordinates.",
+  "new_configs": ["ABSR1125E", "ABSR1200E"],
+  "controls": ["AB", "ABS", "ABSG", "ABSR1125", "ABSR1200"],
+  "budget": "One binary feedback rule; same two radii already declared. No batch-size or further radius search. Keep previous 936 runs, separately label this phase.",
+  "holdout_selection": "Select by the original round4 mean/simplicity rule across all tested development candidates. Lock AB, ABS, selected candidate, its E-off ablation, and ABSG as the lower-regression control (deduplicate; at most 5). Generate seeds 20000-20049 only after lock. No further algorithm changes after unseen cases.",
+  "official_or_formal_tests": false
+}

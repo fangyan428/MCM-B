@@ -1,0 +1,13 @@
+test_auditor_rejects_forged_station_phase (question3.tests.test_ring_phase.RingPhaseTests.test_auditor_rejects_forged_station_phase) ... ok
+test_deadline_after_phase_selection_is_incomplete (question3.tests.test_ring_phase.RingPhaseTests.test_deadline_after_phase_selection_is_incomplete) ... ok
+test_invalid_phase_mode_or_nonjoint_before_enter (question3.tests.test_ring_phase.RingPhaseTests.test_invalid_phase_mode_or_nonjoint_before_enter) ... ok
+test_late_channel_still_requires_complete_certificate (question3.tests.test_ring_phase.RingPhaseTests.test_late_channel_still_requires_complete_certificate) ... ok
+test_no_outer_scan_does_not_invent_phase_event (question3.tests.test_ring_phase.RingPhaseTests.test_no_outer_scan_does_not_invent_phase_event) ... ok
+test_radial_alignment_attains_continuous_entry_minimum (question3.tests.test_ring_phase.RingPhaseTests.test_radial_alignment_attains_continuous_entry_minimum) ... ok
+test_rotated_boundary_coverage_retains_strict_margin (question3.tests.test_ring_phase.RingPhaseTests.test_rotated_boundary_coverage_retains_strict_margin) ... ok
+test_shift_occurs_once_before_any_outer_search_evidence (question3.tests.test_ring_phase.RingPhaseTests.test_shift_occurs_once_before_any_outer_search_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.315s
+
+OK

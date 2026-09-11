@@ -1,0 +1,9 @@
+test_cached_jobs_not_remeasured_and_late_source_found (question3.tests.test_opportunity_timing.OpportunityTimingTests.test_cached_jobs_not_remeasured_and_late_source_found) ... ok
+test_deadline_between_schedule_and_execution_is_incomplete (question3.tests.test_opportunity_timing.OpportunityTimingTests.test_deadline_between_schedule_and_execution_is_incomplete) ... ok
+test_no_op_and_invalid_timing (question3.tests.test_opportunity_timing.OpportunityTimingTests.test_no_op_and_invalid_timing) ... ok
+test_scheduler_sees_only_original_catalog_jobs (question3.tests.test_opportunity_timing.OpportunityTimingTests.test_scheduler_sees_only_original_catalog_jobs) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.350s
+
+OK

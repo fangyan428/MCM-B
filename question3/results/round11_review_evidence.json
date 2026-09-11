@@ -1,0 +1,4100 @@
+{
+  "batches": {
+    "dev_main": {
+      "runs": 104,
+      "complete": 104,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 12036,
+      "deleted_proven_failures": 28,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4423.729515942307,
+          "raw_all_case_mean_virtual_s": 4423.729515942307,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.77638323045835,
+          "pooled_virtual_per_clear_s": 335.8159632540146,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 18,
+          "wall_p95_s": 0.11555041474821333,
+          "wall_max_s": 0.1743330200042692,
+          "mean_failed_clears": 9.846153846153847,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.825669324574,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 69.0576923076923,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4426.780009673077,
+          "raw_all_case_mean_virtual_s": 4426.780009673077,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5535.436300833332,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 341.007080908265,
+          "pooled_virtual_per_clear_s": 336.0475335810219,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.11364936240242964,
+          "wall_max_s": 0.13731501299480442,
+          "mean_failed_clears": 10.384615384615385,
+          "max_failed_clears": 40,
+          "mean_components": {
+            "movement_s": 3776.260778445837,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 70.67307692307692,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "boundary_minR_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "clustered_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_negative",
+          "skipped": 4,
+          "saved_s": 25.84361600000011
+        },
+        {
+          "case_id": "dev_0_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_negative",
+          "skipped": 2,
+          "saved_s": 11.755260999999336
+        },
+        {
+          "case_id": "dev_10_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "skipped": 2,
+          "saved_s": 11.775652999999693
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.940997000000607
+        },
+        {
+          "case_id": "dev_11_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_negative",
+          "skipped": 1,
+          "saved_s": 5.941290000000208
+        },
+        {
+          "case_id": "dev_1_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "skipped": 1,
+          "saved_s": 6.13455600000043
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.921675999999934
+        },
+        {
+          "case_id": "dev_2_negative",
+          "skipped": 2,
+          "saved_s": 9.921076999999968
+        },
+        {
+          "case_id": "dev_2_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "skipped": 1,
+          "saved_s": 5.773858999999902
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.904638999999406
+        },
+        {
+          "case_id": "dev_3_negative",
+          "skipped": 1,
+          "saved_s": 6.000640000000203
+        },
+        {
+          "case_id": "dev_3_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.843971000000238
+        },
+        {
+          "case_id": "dev_4_negative",
+          "skipped": 2,
+          "saved_s": 10.422332000000097
+        },
+        {
+          "case_id": "dev_4_positive",
+          "skipped": 1,
+          "saved_s": 3.9378420000002734
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "skipped": 1,
+          "saved_s": 6.010844000000361
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_negative",
+          "skipped": 2,
+          "saved_s": 11.825167999999394
+        },
+        {
+          "case_id": "dev_6_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_negative",
+          "skipped": 1,
+          "saved_s": 5.822462000000087
+        },
+        {
+          "case_id": "dev_7_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "skipped": 1,
+          "saved_s": 5.849790999999641
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "near_at_origin",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "dev_rounding": {
+      "runs": 104,
+      "complete": 104,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 12010,
+      "deleted_proven_failures": 26,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4370.509459403846,
+          "raw_all_case_mean_virtual_s": 4370.509459403846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.56846160809397,
+          "pooled_virtual_per_clear_s": 331.7759005678832,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 18,
+          "wall_p95_s": 0.1148727952993795,
+          "wall_max_s": 0.13436984300642507,
+          "mean_failed_clears": 9.807692307692308,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3722.8940737891307,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.9423076923077,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4373.294164153846,
+          "raw_all_case_mean_virtual_s": 4373.294164153846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.7791536556506,
+          "pooled_virtual_per_clear_s": 331.9872942131387,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10598181254972584,
+          "wall_max_s": 0.12151418900612043,
+          "mean_failed_clears": 10.307692307692308,
+          "max_failed_clears": 40,
+          "mean_components": {
+            "movement_s": 3724.1787785550778,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 70.4423076923077,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "boundary_minR_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "clustered_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_negative",
+          "skipped": 4,
+          "saved_s": 25.849938000000293
+        },
+        {
+          "case_id": "dev_0_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_negative",
+          "skipped": 2,
+          "saved_s": 11.812731999999869
+        },
+        {
+          "case_id": "dev_10_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "skipped": 1,
+          "saved_s": 5.780226000000312
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.940997000000607
+        },
+        {
+          "case_id": "dev_11_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_negative",
+          "skipped": 1,
+          "saved_s": 5.941290000000208
+        },
+        {
+          "case_id": "dev_1_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "skipped": 1,
+          "saved_s": 6.13455600000043
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.921675999999934
+        },
+        {
+          "case_id": "dev_2_negative",
+          "skipped": 2,
+          "saved_s": 9.920546000000286
+        },
+        {
+          "case_id": "dev_2_positive",
+          "skipped": 1,
+          "saved_s": 3.9391200000000026
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "skipped": 1,
+          "saved_s": 5.773858999999902
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.904638999999406
+        },
+        {
+          "case_id": "dev_3_negative",
+          "skipped": 1,
+          "saved_s": 5.924600999999711
+        },
+        {
+          "case_id": "dev_3_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.843971000000238
+        },
+        {
+          "case_id": "dev_4_negative",
+          "skipped": 2,
+          "saved_s": 10.422332000000097
+        },
+        {
+          "case_id": "dev_4_positive",
+          "skipped": 1,
+          "saved_s": 3.9378549999992174
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "skipped": 1,
+          "saved_s": 6.010843999999906
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_negative",
+          "skipped": 1,
+          "saved_s": 5.8956740000003265
+        },
+        {
+          "case_id": "dev_6_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "skipped": 1,
+          "saved_s": 5.849790999999641
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "near_at_origin",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "adverse_main": {
+      "runs": 24,
+      "complete": 24,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 2976,
+      "deleted_proven_failures": 4,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 12,
+          "complete": 12,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4768.003060833334,
+          "raw_all_case_mean_virtual_s": 4768.003060833334,
+          "p95_virtual_s": 5766.4413789499995,
+          "cvar_worst10_s": 5782.8515835,
+          "max_virtual_s": 5946.953629,
+          "max_virtual_case": "outer_holdout_140018_negative",
+          "mean_case_average_per_clear_s": 330.51161549709246,
+          "pooled_virtual_per_clear_s": 326.9487813142858,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_110019_negative",
+          "worse_than_baseline": 0,
+          "wins": 3,
+          "wall_p95_s": 0.09727380584990897,
+          "wall_max_s": 0.09906960700027412,
+          "mean_failed_clears": 12.25,
+          "max_failed_clears": 25,
+          "mean_components": {
+            "movement_s": 4077.336392741232,
+            "switch_s": 96.0,
+            "detection_s": 485.0,
+            "optical_s": 80.5,
+            "laser_s": 29.166666666666668
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 12,
+          "complete": 12,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4769.601692416666,
+          "raw_all_case_mean_virtual_s": 4769.601692416666,
+          "p95_virtual_s": 5774.7367196,
+          "cvar_worst10_s": 5790.9375039999995,
+          "max_virtual_s": 5952.945348,
+          "max_virtual_case": "outer_holdout_140018_negative",
+          "mean_case_average_per_clear_s": 330.62226632097065,
+          "pooled_virtual_per_clear_s": 327.0584017657143,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_110019_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10215571320186426,
+          "wall_max_s": 0.11215901200193912,
+          "mean_failed_clears": 12.583333333333334,
+          "max_failed_clears": 27,
+          "mean_components": {
+            "movement_s": 4077.935024451252,
+            "switch_s": 96.0,
+            "detection_s": 485.0,
+            "optical_s": 81.5,
+            "laser_s": 29.166666666666668
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "holdout_110019_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_110035_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_130011_positive",
+          "skipped": 1,
+          "saved_s": 3.0117380000001504
+        },
+        {
+          "case_id": "holdout_130023_negative",
+          "skipped": 2,
+          "saved_s": 10.180121999999756
+        },
+        {
+          "case_id": "holdout_130023_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_40002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_40032_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_120008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_120008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_140018_negative",
+          "skipped": 1,
+          "saved_s": 5.991719000000558
+        },
+        {
+          "case_id": "outer_holdout_50000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "structured_dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "adverse_rounding": {
+      "runs": 24,
+      "complete": 24,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 2955,
+      "deleted_proven_failures": 5,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 12,
+          "complete": 12,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4814.651267333334,
+          "raw_all_case_mean_virtual_s": 4814.651267333334,
+          "p95_virtual_s": 5861.0258287999995,
+          "cvar_worst10_s": 5868.833209,
+          "max_virtual_s": 5946.907011,
+          "max_virtual_case": "outer_holdout_140018_negative",
+          "mean_case_average_per_clear_s": 333.2926626196848,
+          "pooled_virtual_per_clear_s": 330.14751547428574,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_110035_positive",
+          "worse_than_baseline": 0,
+          "wins": 4,
+          "wall_p95_s": 0.1172565401520842,
+          "wall_max_s": 0.12243311099882703,
+          "mean_failed_clears": 13.5,
+          "max_failed_clears": 30,
+          "mean_components": {
+            "movement_s": 4133.317932225208,
+            "switch_s": 93.75,
+            "detection_s": 474.1666666666667,
+            "optical_s": 84.25,
+            "laser_s": 29.166666666666668
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 12,
+          "complete": 12,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4817.488733416667,
+          "raw_all_case_mean_virtual_s": 4817.488733416667,
+          "p95_virtual_s": 5870.29793205,
+          "cvar_worst10_s": 5877.8070955,
+          "max_virtual_s": 5952.89873,
+          "max_virtual_case": "outer_holdout_140018_negative",
+          "mean_case_average_per_clear_s": 333.4878572381144,
+          "pooled_virtual_per_clear_s": 330.3420845771429,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_110019_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10126497649835073,
+          "wall_max_s": 0.10691900399979204,
+          "mean_failed_clears": 13.916666666666666,
+          "max_failed_clears": 32,
+          "mean_components": {
+            "movement_s": 4134.90539837041,
+            "switch_s": 93.75,
+            "detection_s": 474.1666666666667,
+            "optical_s": 85.5,
+            "laser_s": 29.166666666666668
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "holdout_110019_negative",
+          "skipped": 1,
+          "saved_s": 5.920777000000271
+        },
+        {
+          "case_id": "holdout_110035_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_130011_positive",
+          "skipped": 1,
+          "saved_s": 11.956054000000222
+        },
+        {
+          "case_id": "holdout_130023_negative",
+          "skipped": 2,
+          "saved_s": 10.1810430000005
+        },
+        {
+          "case_id": "holdout_130023_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_40002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_40032_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_120008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_120008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_140018_negative",
+          "skipped": 1,
+          "saved_s": 5.991718999999648
+        },
+        {
+          "case_id": "outer_holdout_50000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "structured_dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "holdout_main": {
+      "runs": 400,
+      "complete": 400,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 46838,
+      "deleted_proven_failures": 42,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 200,
+          "complete": 200,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4285.952714669999,
+          "raw_all_case_mean_virtual_s": 4285.952714669999,
+          "p95_virtual_s": 5241.05405405,
+          "cvar_worst10_s": 5288.582939850001,
+          "max_virtual_s": 6177.506017,
+          "max_virtual_case": "holdout_150024_positive",
+          "mean_case_average_per_clear_s": 346.5776109624174,
+          "pooled_virtual_per_clear_s": 342.87621717359997,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_150000_positive",
+          "worse_than_baseline": 0,
+          "wins": 33,
+          "wall_p95_s": 0.1199505273500108,
+          "wall_max_s": 0.14912103499955265,
+          "mean_failed_clears": 9.43,
+          "max_failed_clears": 32,
+          "mean_components": {
+            "movement_s": 3625.937713956504,
+            "switch_s": 93.925,
+            "detection_s": 475.3,
+            "optical_s": 65.79,
+            "laser_s": 25.0
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 200,
+          "complete": 200,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4287.092847540001,
+          "raw_all_case_mean_virtual_s": 4287.092847540001,
+          "p95_virtual_s": 5241.05405405,
+          "cvar_worst10_s": 5289.87208345,
+          "max_virtual_s": 6177.506017,
+          "max_virtual_case": "holdout_150024_positive",
+          "mean_case_average_per_clear_s": 346.66730078212277,
+          "pooled_virtual_per_clear_s": 342.9674278032,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_150000_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.11214085429783148,
+          "wall_max_s": 0.265516886000114,
+          "mean_failed_clears": 9.64,
+          "max_failed_clears": 33,
+          "mean_components": {
+            "movement_s": 3626.447846803294,
+            "switch_s": 93.925,
+            "detection_s": 475.3,
+            "optical_s": 66.42,
+            "laser_s": 25.0
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "holdout_150000_negative",
+          "skipped": 1,
+          "saved_s": 5.885753999999906
+        },
+        {
+          "case_id": "holdout_150000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150000_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150000_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_negative",
+          "skipped": 1,
+          "saved_s": 5.799170000000231
+        },
+        {
+          "case_id": "holdout_150001_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.879224999999678
+        },
+        {
+          "case_id": "holdout_150003_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150006_negative",
+          "skipped": 1,
+          "saved_s": 5.829029999999875
+        },
+        {
+          "case_id": "holdout_150006_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150006_smooth",
+          "skipped": 2,
+          "saved_s": 9.979935999999725
+        },
+        {
+          "case_id": "holdout_150006_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.744231999999101
+        },
+        {
+          "case_id": "holdout_150013_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_negative",
+          "skipped": 1,
+          "saved_s": 5.928431000000273
+        },
+        {
+          "case_id": "holdout_150014_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150015_negative",
+          "skipped": 1,
+          "saved_s": 5.805108000000018
+        },
+        {
+          "case_id": "holdout_150015_positive",
+          "skipped": 1,
+          "saved_s": 3.9390059999996083
+        },
+        {
+          "case_id": "holdout_150015_smooth",
+          "skipped": 1,
+          "saved_s": 5.7415289999999
+        },
+        {
+          "case_id": "holdout_150015_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150017_negative",
+          "skipped": 1,
+          "saved_s": 5.890237000000525
+        },
+        {
+          "case_id": "holdout_150017_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150017_smooth",
+          "skipped": 2,
+          "saved_s": 9.524586000000454
+        },
+        {
+          "case_id": "holdout_150017_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_negative",
+          "skipped": 1,
+          "saved_s": 5.837822000000415
+        },
+        {
+          "case_id": "holdout_150029_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_negative",
+          "skipped": 1,
+          "saved_s": 5.8202259999998205
+        },
+        {
+          "case_id": "holdout_150031_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150032_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150032_positive",
+          "skipped": 1,
+          "saved_s": 7.355550000000221
+        },
+        {
+          "case_id": "holdout_150032_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150032_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_negative",
+          "skipped": 1,
+          "saved_s": 5.916960999999901
+        },
+        {
+          "case_id": "holdout_150035_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_spatial_hash",
+          "skipped": 1,
+          "saved_s": 4.877669000000424
+        },
+        {
+          "case_id": "holdout_150036_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150036_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150036_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150036_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150037_negative",
+          "skipped": 1,
+          "saved_s": 5.956981000000269
+        },
+        {
+          "case_id": "holdout_150037_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150037_smooth",
+          "skipped": 1,
+          "saved_s": 5.929920999999922
+        },
+        {
+          "case_id": "holdout_150037_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150038_negative",
+          "skipped": 2,
+          "saved_s": 9.939633999999842
+        },
+        {
+          "case_id": "holdout_150038_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150038_smooth",
+          "skipped": 1,
+          "saved_s": 5.938282999999501
+        },
+        {
+          "case_id": "holdout_150038_spatial_hash",
+          "skipped": 2,
+          "saved_s": 11.882716000000073
+        },
+        {
+          "case_id": "holdout_150039_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150041_negative",
+          "skipped": 3,
+          "saved_s": 15.279507000000194
+        },
+        {
+          "case_id": "holdout_150041_positive",
+          "skipped": 1,
+          "saved_s": 4.238478000000214
+        },
+        {
+          "case_id": "holdout_150041_smooth",
+          "skipped": 2,
+          "saved_s": 10.316474000000198
+        },
+        {
+          "case_id": "holdout_150041_spatial_hash",
+          "skipped": 2,
+          "saved_s": 10.190258999999969
+        },
+        {
+          "case_id": "holdout_150042_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150044_negative",
+          "skipped": 1,
+          "saved_s": 5.825559000000794
+        },
+        {
+          "case_id": "holdout_150044_positive",
+          "skipped": 1,
+          "saved_s": 5.38184100000035
+        },
+        {
+          "case_id": "holdout_150044_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150044_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_negative",
+          "skipped": 1,
+          "saved_s": 5.820643000000018
+        },
+        {
+          "case_id": "holdout_150046_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.782900000000154
+        },
+        {
+          "case_id": "holdout_150047_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150048_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150048_positive",
+          "skipped": 1,
+          "saved_s": 3.7927679999993416
+        },
+        {
+          "case_id": "holdout_150048_smooth",
+          "skipped": 1,
+          "saved_s": 6.11915399999998
+        },
+        {
+          "case_id": "holdout_150048_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.876984000000448
+        },
+        {
+          "case_id": "holdout_150049_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "holdout_rounding": {
+      "runs": 400,
+      "complete": 400,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 46754,
+      "deleted_proven_failures": 44,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 200,
+          "complete": 200,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4259.01438537,
+          "raw_all_case_mean_virtual_s": 4259.01438537,
+          "p95_virtual_s": 5211.77356565,
+          "cvar_worst10_s": 5263.1103889000005,
+          "max_virtual_s": 5854.639397,
+          "max_virtual_case": "holdout_150026_positive",
+          "mean_case_average_per_clear_s": 344.452582275844,
+          "pooled_virtual_per_clear_s": 340.7211508296,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_150000_positive",
+          "worse_than_baseline": 0,
+          "wins": 33,
+          "wall_p95_s": 0.12037598399765556,
+          "wall_max_s": 0.30743121699924814,
+          "mean_failed_clears": 9.35,
+          "max_failed_clears": 35,
+          "mean_components": {
+            "movement_s": 3600.074384659759,
+            "switch_s": 93.765,
+            "detection_s": 474.625,
+            "optical_s": 65.55,
+            "laser_s": 25.0
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 200,
+          "complete": 200,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4260.191831460001,
+          "raw_all_case_mean_virtual_s": 4260.191831460001,
+          "p95_virtual_s": 5211.77356565,
+          "cvar_worst10_s": 5264.09362715,
+          "max_virtual_s": 5854.639397,
+          "max_virtual_case": "holdout_150026_positive",
+          "mean_case_average_per_clear_s": 344.54523077122843,
+          "pooled_virtual_per_clear_s": 340.81534651680005,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "holdout_150000_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.12863937004804027,
+          "wall_max_s": 0.1998312130017439,
+          "mean_failed_clears": 9.57,
+          "max_failed_clears": 37,
+          "mean_components": {
+            "movement_s": 3600.5918307326647,
+            "switch_s": 93.765,
+            "detection_s": 474.625,
+            "optical_s": 66.21,
+            "laser_s": 25.0
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "holdout_150000_negative",
+          "skipped": 1,
+          "saved_s": 5.884814999999435
+        },
+        {
+          "case_id": "holdout_150000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150000_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150000_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_negative",
+          "skipped": 1,
+          "saved_s": 6.02784100000008
+        },
+        {
+          "case_id": "holdout_150001_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150001_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150002_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.879224999999678
+        },
+        {
+          "case_id": "holdout_150003_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150003_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150004_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150005_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150006_negative",
+          "skipped": 1,
+          "saved_s": 5.829029999999875
+        },
+        {
+          "case_id": "holdout_150006_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150006_smooth",
+          "skipped": 2,
+          "saved_s": 9.979935999999725
+        },
+        {
+          "case_id": "holdout_150006_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150007_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150009_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150010_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150011_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150012_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.744231999999101
+        },
+        {
+          "case_id": "holdout_150013_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150013_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150014_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150015_negative",
+          "skipped": 1,
+          "saved_s": 5.943970000000263
+        },
+        {
+          "case_id": "holdout_150015_positive",
+          "skipped": 1,
+          "saved_s": 3.9390059999996083
+        },
+        {
+          "case_id": "holdout_150015_smooth",
+          "skipped": 1,
+          "saved_s": 5.7415289999999
+        },
+        {
+          "case_id": "holdout_150015_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150016_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150017_negative",
+          "skipped": 1,
+          "saved_s": 5.889898999999787
+        },
+        {
+          "case_id": "holdout_150017_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150017_smooth",
+          "skipped": 2,
+          "saved_s": 9.524586000000454
+        },
+        {
+          "case_id": "holdout_150017_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150018_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150019_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150020_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150021_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150022_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150023_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150024_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150025_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150026_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150027_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150028_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150029_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_negative",
+          "skipped": 1,
+          "saved_s": 5.8105860000000575
+        },
+        {
+          "case_id": "holdout_150030_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150030_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_negative",
+          "skipped": 2,
+          "saved_s": 10.463445999999749
+        },
+        {
+          "case_id": "holdout_150031_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150031_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150032_negative",
+          "skipped": 1,
+          "saved_s": 5.829165999999532
+        },
+        {
+          "case_id": "holdout_150032_positive",
+          "skipped": 1,
+          "saved_s": 7.353390999999647
+        },
+        {
+          "case_id": "holdout_150032_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150032_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150033_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150034_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_negative",
+          "skipped": 2,
+          "saved_s": 10.288502000000335
+        },
+        {
+          "case_id": "holdout_150035_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150035_spatial_hash",
+          "skipped": 1,
+          "saved_s": 4.877669000000424
+        },
+        {
+          "case_id": "holdout_150036_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150036_positive",
+          "skipped": 1,
+          "saved_s": 4.143186000000242
+        },
+        {
+          "case_id": "holdout_150036_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150036_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150037_negative",
+          "skipped": 1,
+          "saved_s": 5.956980999999814
+        },
+        {
+          "case_id": "holdout_150037_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150037_smooth",
+          "skipped": 1,
+          "saved_s": 5.929920999999922
+        },
+        {
+          "case_id": "holdout_150037_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150038_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150038_positive",
+          "skipped": 1,
+          "saved_s": 3.725319000000127
+        },
+        {
+          "case_id": "holdout_150038_smooth",
+          "skipped": 1,
+          "saved_s": 5.938282999999501
+        },
+        {
+          "case_id": "holdout_150038_spatial_hash",
+          "skipped": 2,
+          "saved_s": 11.882716000000073
+        },
+        {
+          "case_id": "holdout_150039_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150039_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150040_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150041_negative",
+          "skipped": 3,
+          "saved_s": 15.279575000000477
+        },
+        {
+          "case_id": "holdout_150041_positive",
+          "skipped": 1,
+          "saved_s": 3.940596999999798
+        },
+        {
+          "case_id": "holdout_150041_smooth",
+          "skipped": 2,
+          "saved_s": 10.316474000000198
+        },
+        {
+          "case_id": "holdout_150041_spatial_hash",
+          "skipped": 2,
+          "saved_s": 10.190258999999969
+        },
+        {
+          "case_id": "holdout_150042_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150042_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150043_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150044_negative",
+          "skipped": 1,
+          "saved_s": 5.825558999999885
+        },
+        {
+          "case_id": "holdout_150044_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150044_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150044_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150045_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_negative",
+          "skipped": 1,
+          "saved_s": 5.803042999999889
+        },
+        {
+          "case_id": "holdout_150046_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150046_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.782900000000154
+        },
+        {
+          "case_id": "holdout_150047_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150047_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150048_negative",
+          "skipped": 2,
+          "saved_s": 9.771437999999762
+        },
+        {
+          "case_id": "holdout_150048_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150048_smooth",
+          "skipped": 1,
+          "saved_s": 6.11915399999998
+        },
+        {
+          "case_id": "holdout_150048_spatial_hash",
+          "skipped": 2,
+          "saved_s": 9.876984000000448
+        },
+        {
+          "case_id": "holdout_150049_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "holdout_150049_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "outer_main": {
+      "runs": 160,
+      "complete": 160,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 21826,
+      "deleted_proven_failures": 36,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 80,
+          "complete": 80,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4028.7638336749997,
+          "raw_all_case_mean_virtual_s": 4028.7638336749997,
+          "p95_virtual_s": 5107.193158149999,
+          "cvar_worst10_s": 5198.864580875,
+          "max_virtual_s": 5434.059607,
+          "max_virtual_case": "outer_holdout_160010_spatial_hash",
+          "mean_case_average_per_clear_s": 337.59965162046745,
+          "pooled_virtual_per_clear_s": 330.2265437438524,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "outer_holdout_160000_negative",
+          "worse_than_baseline": 0,
+          "wins": 14,
+          "wall_p95_s": 0.12197733134671579,
+          "wall_max_s": 0.1459816599963233,
+          "mean_failed_clears": 6.7375,
+          "max_failed_clears": 35,
+          "mean_components": {
+            "movement_s": 3245.176332897771,
+            "switch_s": 116.125,
+            "detection_s": 586.25,
+            "optical_s": 56.8125,
+            "laser_s": 24.4
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 80,
+          "complete": 80,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4031.3869014375,
+          "raw_all_case_mean_virtual_s": 4031.3869014375,
+          "p95_virtual_s": 5107.193158149999,
+          "cvar_worst10_s": 5200.63470325,
+          "max_virtual_s": 5434.059607,
+          "max_virtual_case": "outer_holdout_160010_spatial_hash",
+          "mean_case_average_per_clear_s": 337.7891101197196,
+          "pooled_virtual_per_clear_s": 330.44154929815573,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "outer_holdout_160000_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.11704454069767961,
+          "wall_max_s": 0.12209166600223398,
+          "mean_failed_clears": 7.1875,
+          "max_failed_clears": 45,
+          "mean_components": {
+            "movement_s": 3246.449400674055,
+            "switch_s": 116.125,
+            "detection_s": 586.25,
+            "optical_s": 58.1625,
+            "laser_s": 24.4
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "outer_holdout_160000_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160001_negative",
+          "skipped": 4,
+          "saved_s": 23.543654999999944
+        },
+        {
+          "case_id": "outer_holdout_160001_positive",
+          "skipped": 2,
+          "saved_s": 16.648678999999902
+        },
+        {
+          "case_id": "outer_holdout_160001_smooth",
+          "skipped": 4,
+          "saved_s": 22.45568800000001
+        },
+        {
+          "case_id": "outer_holdout_160001_spatial_hash",
+          "skipped": 3,
+          "saved_s": 17.792472999999973
+        },
+        {
+          "case_id": "outer_holdout_160002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_positive",
+          "skipped": 1,
+          "saved_s": 3.938140999999632
+        },
+        {
+          "case_id": "outer_holdout_160004_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_negative",
+          "skipped": 2,
+          "saved_s": 11.96855400000004
+        },
+        {
+          "case_id": "outer_holdout_160005_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.882170999999744
+        },
+        {
+          "case_id": "outer_holdout_160006_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160006_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160006_smooth",
+          "skipped": 1,
+          "saved_s": 3.794162999999571
+        },
+        {
+          "case_id": "outer_holdout_160006_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160008_negative",
+          "skipped": 2,
+          "saved_s": 10.222838000000593
+        },
+        {
+          "case_id": "outer_holdout_160008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160008_smooth",
+          "skipped": 1,
+          "saved_s": 5.994907999999668
+        },
+        {
+          "case_id": "outer_holdout_160008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_negative",
+          "skipped": 1,
+          "saved_s": 5.720218000000386
+        },
+        {
+          "case_id": "outer_holdout_160010_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160013_negative",
+          "skipped": 10,
+          "saved_s": 58.46831400000019
+        },
+        {
+          "case_id": "outer_holdout_160013_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160013_smooth",
+          "skipped": 1,
+          "saved_s": 5.96554900000001
+        },
+        {
+          "case_id": "outer_holdout_160013_spatial_hash",
+          "skipped": 3,
+          "saved_s": 17.450070000000323
+        },
+        {
+          "case_id": "outer_holdout_160014_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "outer_rounding": {
+      "runs": 160,
+      "complete": 160,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 21814,
+      "deleted_proven_failures": 28,
+      "passed_gate": true,
+      "stats": [
+        {
+          "variant": "P",
+          "runs": 80,
+          "complete": 80,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4047.3591073625003,
+          "raw_all_case_mean_virtual_s": 4047.3591073625003,
+          "p95_virtual_s": 5118.8706031,
+          "cvar_worst10_s": 5191.352542500001,
+          "max_virtual_s": 5434.059607,
+          "max_virtual_case": "outer_holdout_160010_spatial_hash",
+          "mean_case_average_per_clear_s": 339.21687441607764,
+          "pooled_virtual_per_clear_s": 331.75074650512295,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "outer_holdout_160000_negative",
+          "worse_than_baseline": 0,
+          "wins": 14,
+          "wall_p95_s": 0.11684916554986557,
+          "wall_max_s": 0.1413228050005273,
+          "mean_failed_clears": 6.8875,
+          "max_failed_clears": 33,
+          "mean_components": {
+            "movement_s": 3264.3841064874514,
+            "switch_s": 115.9375,
+            "detection_s": 585.375,
+            "optical_s": 57.2625,
+            "laser_s": 24.4
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 80,
+          "complete": 80,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4049.3624472625,
+          "raw_all_case_mean_virtual_s": 4049.3624472625,
+          "p95_virtual_s": 5118.8706031,
+          "cvar_worst10_s": 5192.7953503749995,
+          "max_virtual_s": 5434.059607,
+          "max_virtual_case": "outer_holdout_160010_spatial_hash",
+          "mean_case_average_per_clear_s": 339.36621448601545,
+          "pooled_virtual_per_clear_s": 331.91495469364753,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "outer_holdout_160000_negative",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.12213799565179215,
+          "wall_max_s": 0.13402484599646414,
+          "mean_failed_clears": 7.2375,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3265.337446376388,
+            "switch_s": 115.9375,
+            "detection_s": 585.375,
+            "optical_s": 58.3125,
+            "laser_s": 24.4
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "outer_holdout_160000_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160000_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160001_negative",
+          "skipped": 4,
+          "saved_s": 23.632089000000178
+        },
+        {
+          "case_id": "outer_holdout_160001_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160001_smooth",
+          "skipped": 4,
+          "saved_s": 22.46602800000028
+        },
+        {
+          "case_id": "outer_holdout_160001_spatial_hash",
+          "skipped": 3,
+          "saved_s": 17.792472999999973
+        },
+        {
+          "case_id": "outer_holdout_160002_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160002_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160003_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_negative",
+          "skipped": 1,
+          "saved_s": 5.821428999999625
+        },
+        {
+          "case_id": "outer_holdout_160004_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160004_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_negative",
+          "skipped": 2,
+          "saved_s": 11.967732999999953
+        },
+        {
+          "case_id": "outer_holdout_160005_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160005_spatial_hash",
+          "skipped": 1,
+          "saved_s": 5.882170999999744
+        },
+        {
+          "case_id": "outer_holdout_160006_negative",
+          "skipped": 1,
+          "saved_s": 5.905690999999933
+        },
+        {
+          "case_id": "outer_holdout_160006_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160006_smooth",
+          "skipped": 1,
+          "saved_s": 3.794162999999571
+        },
+        {
+          "case_id": "outer_holdout_160006_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160007_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160008_negative",
+          "skipped": 2,
+          "saved_s": 10.223775000000387
+        },
+        {
+          "case_id": "outer_holdout_160008_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160008_smooth",
+          "skipped": 1,
+          "saved_s": 5.994907999999668
+        },
+        {
+          "case_id": "outer_holdout_160008_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160009_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_negative",
+          "skipped": 1,
+          "saved_s": 5.721034000000145
+        },
+        {
+          "case_id": "outer_holdout_160010_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160010_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160011_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160012_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160013_negative",
+          "skipped": 3,
+          "saved_s": 17.650079000000005
+        },
+        {
+          "case_id": "outer_holdout_160013_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160013_smooth",
+          "skipped": 1,
+          "saved_s": 5.96554900000001
+        },
+        {
+          "case_id": "outer_holdout_160013_spatial_hash",
+          "skipped": 3,
+          "saved_s": 17.450070000000323
+        },
+        {
+          "case_id": "outer_holdout_160014_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160014_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160015_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160016_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160017_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160018_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "outer_holdout_160019_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    }
+  },
+  "official_runs": 0,
+  "formal_runs": 0,
+  "total_runs": 1376,
+  "total_audited_actions": 167209,
+  "all_gates_passed": true,
+  "legacy_exact_comparisons": 128,
+  "fresh_validation_runs": 1120,
+  "fresh_layouts": 70
+}

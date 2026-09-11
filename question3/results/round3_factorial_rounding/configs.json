@@ -1,0 +1,150 @@
+{
+  "AB": {
+    "name": "round3_AB",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false
+    }
+  },
+  "ABD": {
+    "name": "round3_ABD",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "D": true
+    }
+  },
+  "ABO": {
+    "name": "round3_ABO",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "O": true
+    }
+  },
+  "ABOD": {
+    "name": "round3_ABOD",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "O": true,
+      "D": true
+    }
+  },
+  "ABS": {
+    "name": "round3_ABS",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    }
+  },
+  "ABSD": {
+    "name": "round3_ABSD",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true,
+      "D": true
+    }
+  },
+  "ABSO": {
+    "name": "round3_ABSO",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true,
+      "O": true
+    }
+  },
+  "ABSOD": {
+    "name": "round3_ABSOD",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true,
+      "O": true,
+      "D": true
+    }
+  }
+}

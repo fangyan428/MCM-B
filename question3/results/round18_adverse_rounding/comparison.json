@@ -1,0 +1,80 @@
+{
+  "reference": "REF",
+  "kind": "SELF_ROUND18_REUSED_ADVERSE_NOT_NEW_VALIDATION",
+  "rounding": "pre_round_stress",
+  "stats": [
+    {
+      "variant": "DOMAIN",
+      "runs": 18,
+      "complete": 18,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean_clearance_ratio": 1.0,
+      "mean_virtual_s": 4020.2824423888887,
+      "raw_all_case_mean_virtual_s": 4020.2824423888887,
+      "p95_virtual_s": 5022.66389455,
+      "cvar_worst10_s": 5061.0041464999995,
+      "max_virtual_s": 5115.775935,
+      "max_virtual_case": "holdout_130023_smooth",
+      "mean_case_average_per_clear_s": 284.7837453516993,
+      "pooled_virtual_per_clear_s": 282.67610923046874,
+      "median_paired_improvement": 0.08638453420247855,
+      "worst_case_improvement": -0.5588092882962898,
+      "worst_regression_case": "structured_dev_5_positive",
+      "worse_than_baseline": 1,
+      "wins": 16,
+      "wall_p95_s": 0.23694923880102578,
+      "wall_max_s": 0.2422629560023779,
+      "mean_failed_clears": 12.88888888888889,
+      "max_failed_clears": 39,
+      "mean_components": {
+        "movement_s": 3346.1713299703893,
+        "switch_s": 92.94444444444444,
+        "detection_s": 471.3888888888889,
+        "optical_s": 81.33333333333333,
+        "laser_s": 28.444444444444443
+      }
+    },
+    {
+      "variant": "REF",
+      "runs": 18,
+      "complete": 18,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean_clearance_ratio": 1.0,
+      "mean_virtual_s": 4346.3060389444445,
+      "raw_all_case_mean_virtual_s": 4346.3060389444445,
+      "p95_virtual_s": 5695.18294675,
+      "cvar_worst10_s": 5730.6314525,
+      "max_virtual_s": 5781.272175,
+      "max_virtual_case": "holdout_130023_smooth",
+      "mean_case_average_per_clear_s": 307.8932155940502,
+      "pooled_virtual_per_clear_s": 305.59964336328125,
+      "median_paired_improvement": 0.0,
+      "worst_case_improvement": 0.0,
+      "worst_regression_case": "dev_5_spatial_hash",
+      "worse_than_baseline": 0,
+      "wins": 0,
+      "wall_p95_s": 0.11712440580195106,
+      "wall_max_s": 0.12312871399626601,
+      "mean_failed_clears": 12.5,
+      "max_failed_clears": 32,
+      "mean_components": {
+        "movement_s": 3673.3615928950044,
+        "switch_s": 92.94444444444444,
+        "detection_s": 471.3888888888889,
+        "optical_s": 80.16666666666667,
+        "laser_s": 28.444444444444443
+      }
+    }
+  ],
+  "effects": [],
+  "interactions": [],
+  "failures": [],
+  "notes": [
+    "All runs retained. Failure/timeout/noncertified runs ranked with >=360000s penalty.",
+    "Percentiles include all cases; experiment kind identifies development versus held-out fixtures."
+  ]
+}

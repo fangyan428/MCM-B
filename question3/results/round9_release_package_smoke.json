@@ -1,0 +1,28 @@
+{
+  "rows": [
+    {
+      "case_id": "dev_0_spatial_hash",
+      "virtual_time_s": 4224.888675,
+      "certificate": "source_count_upper_bound",
+      "late_decisions": 8
+    },
+    {
+      "case_id": "clustered_16",
+      "virtual_time_s": 903.160054,
+      "certificate": "source_count_upper_bound",
+      "late_decisions": 1
+    },
+    {
+      "case_id": "late_channel20_after_ten",
+      "virtual_time_s": 2992.378266,
+      "certificate": "seven_station_channel_cover",
+      "late_decisions": 2
+    }
+  ],
+  "source_lock_matches": true,
+  "packaged_adverse_actions_audited": 994,
+  "kind": "SELF_UNPACKED_ROUND9_RELEASE_NOT_OFFICIAL",
+  "archive_sha256": "879c3a388762f96307d3b09c510d15adf4dcd743566426f9afd2dcdade1d909e",
+  "official_runs": 0,
+  "formal_runs": 0
+}

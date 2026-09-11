@@ -1,0 +1,1894 @@
+{
+  "batches": {
+    "dev_main": {
+      "runs": 208,
+      "complete": 208,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 24002,
+      "variants": {
+        "DOMAIN": {
+          "additional_skips": 6,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 3,
+              "saved_s": 20.969444999999723
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 3,
+              "saved_s": 20.414316000000326
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        },
+        "RANGE": {
+          "additional_skips": 1,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 1,
+              "saved_s": 10.66265999999996
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        },
+        "BOTH": {
+          "additional_skips": 7,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 3,
+              "saved_s": 20.969444999999723
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 1,
+              "saved_s": 10.66265999999996
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 3,
+              "saved_s": 20.414316000000326
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        }
+      },
+      "stats": [
+        {
+          "variant": "BOTH",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4422.72862323077,
+          "raw_all_case_mean_virtual_s": 4422.72862323077,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.7080021191166,
+          "pooled_virtual_per_clear_s": 335.7399830773723,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 3,
+          "wall_p95_s": 0.10264142694941254,
+          "wall_max_s": 0.11070699099946069,
+          "mean_failed_clears": 9.711538461538462,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.2286227612663,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 68.65384615384616,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "DOMAIN",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4422.933674384615,
+          "raw_all_case_mean_virtual_s": 4422.933674384615,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.72664313310264,
+          "pooled_virtual_per_clear_s": 335.7555490043796,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 2,
+          "wall_p95_s": 0.10682197604983223,
+          "wall_max_s": 0.12826641299761832,
+          "mean_failed_clears": 9.73076923076923,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.3759816047477,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 68.71153846153847,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "RANGE",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4423.524464788462,
+          "raw_all_case_mean_virtual_s": 4423.524464788462,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.7577422164723,
+          "pooled_virtual_per_clear_s": 335.8003973270074,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 1,
+          "wall_p95_s": 0.11566748679688313,
+          "wall_max_s": 0.1313805979953031,
+          "mean_failed_clears": 9.826923076923077,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.6783104810925,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 69.0,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4423.729515942307,
+          "raw_all_case_mean_virtual_s": 4423.729515942307,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.77638323045835,
+          "pooled_virtual_per_clear_s": 335.8159632540146,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.1097916840979451,
+          "wall_max_s": 0.12137791800341802,
+          "mean_failed_clears": 9.846153846153847,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.825669324574,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 69.0576923076923,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "additive_interaction_s": 0.0,
+      "trajectories_and_existing_halfplane_proofs_preserved": true
+    },
+    "dev_rounding": {
+      "runs": 208,
+      "complete": 208,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 23954,
+      "variants": {
+        "DOMAIN": {
+          "additional_skips": 6,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 3,
+              "saved_s": 20.964661999999407
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 3,
+              "saved_s": 20.41878899999938
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        },
+        "RANGE": {
+          "additional_skips": 1,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 1,
+              "saved_s": 10.66265999999996
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        },
+        "BOTH": {
+          "additional_skips": 7,
+          "pairs": [
+            {
+              "case_id": "boundary_minR_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "clustered_16",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_negative",
+              "additional_skips": 3,
+              "saved_s": 20.964661999999407
+            },
+            {
+              "case_id": "dev_0_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_0_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_10_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_11_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_1_smooth",
+              "additional_skips": 1,
+              "saved_s": 10.66265999999996
+            },
+            {
+              "case_id": "dev_1_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_negative",
+              "additional_skips": 3,
+              "saved_s": 20.41878899999938
+            },
+            {
+              "case_id": "dev_2_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_2_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_3_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_4_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_5_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_6_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_7_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_8_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_negative",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_positive",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_smooth",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "dev_9_spatial_hash",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "late_channel20_after_ten",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            },
+            {
+              "case_id": "near_at_origin",
+              "additional_skips": 0,
+              "saved_s": 0.0
+            }
+          ]
+        }
+      },
+      "stats": [
+        {
+          "variant": "BOTH",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4369.508572653846,
+          "raw_all_case_mean_virtual_s": 4369.508572653846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.5000808693484,
+          "pooled_virtual_per_clear_s": 331.6999208437956,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 3,
+          "wall_p95_s": 0.10112071144867513,
+          "wall_max_s": 0.11379933700663969,
+          "mean_failed_clears": 9.673076923076923,
+          "max_failed_clears": 34,
+          "mean_components": {
+            "movement_s": 3722.2970332253835,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.53846153846153,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "DOMAIN",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4369.713623807692,
+          "raw_all_case_mean_virtual_s": 4369.713623807692,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.51872188333436,
+          "pooled_virtual_per_clear_s": 331.7154867708029,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 2,
+          "wall_p95_s": 0.10122319620277265,
+          "wall_max_s": 0.11861440900247544,
+          "mean_failed_clears": 9.692307692307692,
+          "max_failed_clears": 34,
+          "mean_components": {
+            "movement_s": 3722.444392068865,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.59615384615384,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "RANGE",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4370.30440825,
+          "raw_all_case_mean_virtual_s": 4370.30440825,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.5498205941079,
+          "pooled_virtual_per_clear_s": 331.7603346408759,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 1,
+          "wall_p95_s": 0.10461517000112504,
+          "wall_max_s": 0.11798887800250668,
+          "mean_failed_clears": 9.788461538461538,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3722.7467149456493,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.88461538461539,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4370.509459403846,
+          "raw_all_case_mean_virtual_s": 4370.509459403846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.56846160809397,
+          "pooled_virtual_per_clear_s": 331.7759005678832,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10488033035144326,
+          "wall_max_s": 0.13221477899787715,
+          "mean_failed_clears": 9.807692307692308,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3722.8940737891307,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.9423076923077,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "additive_interaction_s": 9.094947017729282e-13,
+      "trajectories_and_existing_halfplane_proofs_preserved": true
+    }
+  },
+  "official_runs": 0,
+  "formal_runs": 0,
+  "development_selected": "BOTH",
+  "legacy_exact_comparisons": 104,
+  "total_runs": 416,
+  "total_audited_actions": 47956,
+  "fresh_validation_runs": 0,
+  "fresh_layouts": 0
+}

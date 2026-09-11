@@ -1,0 +1,12 @@
+test_actual_skip_modes_keep_complete_clearance_and_measurements (question3.tests.test_radius_priors.RadiusPriorTests.test_actual_skip_modes_keep_complete_clearance_and_measurements) ... ok
+test_deadline_after_radius_skip_is_incomplete (question3.tests.test_radius_priors.RadiusPriorTests.test_deadline_after_radius_skip_is_incomplete) ... ok
+test_domain_tangent_and_uncertain_boundary_are_retained (question3.tests.test_radius_priors.RadiusPriorTests.test_domain_tangent_and_uncertain_boundary_are_retained) ... ok
+test_forged_smaller_radius_rejected_by_independent_audit (question3.tests.test_radius_priors.RadiusPriorTests.test_forged_smaller_radius_rejected_by_independent_audit) ... ok
+test_invalid_or_disabled_parent_rejected_before_enter (question3.tests.test_radius_priors.RadiusPriorTests.test_invalid_or_disabled_parent_rejected_before_enter) ... ok
+test_received_upper_bound_is_1500_not_minimum_radius (question3.tests.test_radius_priors.RadiusPriorTests.test_received_upper_bound_is_1500_not_minimum_radius) ... ok
+test_second_received_circle_and_mode_isolation (question3.tests.test_radius_priors.RadiusPriorTests.test_second_received_circle_and_mode_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.095s
+
+OK

@@ -1,0 +1,11 @@
+test_cluster_recovers_fifteen_shared_targets (question3.tests.test_domain_shared.DomainSharedTests.test_cluster_recovers_fifteen_shared_targets) ... ok
+test_each_channel_uses_own_first_range_and_exclusions (question3.tests.test_domain_shared.DomainSharedTests.test_each_channel_uses_own_first_range_and_exclusions) ... ok
+test_failed_shared_measurement_is_incomplete (question3.tests.test_domain_shared.DomainSharedTests.test_failed_shared_measurement_is_incomplete) ... ok
+test_invalid_configuration_before_enter (question3.tests.test_domain_shared.DomainSharedTests.test_invalid_configuration_before_enter) ... ok
+test_old_eligibility_metadata_preserved (question3.tests.test_domain_shared.DomainSharedTests.test_old_eligibility_metadata_preserved) ... ok
+test_shared_retains_no_move_and_complete_late_source (question3.tests.test_domain_shared.DomainSharedTests.test_shared_retains_no_move_and_complete_late_source) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.355s
+
+OK

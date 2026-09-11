@@ -1,0 +1,134 @@
+{
+  "AB": {
+    "name": "round4_AB",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false
+    }
+  },
+  "ABS": {
+    "name": "round4_ABS",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    }
+  },
+  "ABSG": {
+    "name": "round4_ABSG",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "shared_selection": "cost_gate"
+  },
+  "ABSR1125": {
+    "name": "round4_ABSR1125",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125
+  },
+  "ABSR1125E": {
+    "name": "round4_ABSR1125E",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125,
+    "empty_origin_radius_m": 1500.0
+  },
+  "ABSR1200": {
+    "name": "round4_ABSR1200",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1200
+  },
+  "ABSR1200E": {
+    "name": "round4_ABSR1200E",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1200,
+    "empty_origin_radius_m": 1500.0
+  }
+}

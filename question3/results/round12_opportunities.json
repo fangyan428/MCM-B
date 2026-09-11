@@ -1,0 +1,29 @@
+{
+  "kind": "SELF_ROUND12_PUBLIC_GEOMETRY_OPPORTUNITY_AUDIT",
+  "batches": {
+    "dev_main": {
+      "regions": 684,
+      "all_planned_points": 2256,
+      "single_halfplane_possible_skips": 62,
+      "pair_additional_possible_skips": 0
+    },
+    "dev_rounding": {
+      "regions": 684,
+      "all_planned_points": 2233,
+      "single_halfplane_possible_skips": 60,
+      "pair_additional_possible_skips": 0
+    },
+    "adverse_main": {
+      "regions": 175,
+      "all_planned_points": 539,
+      "single_halfplane_possible_skips": 11,
+      "pair_additional_possible_skips": 0
+    },
+    "adverse_rounding": {
+      "regions": 175,
+      "all_planned_points": 562,
+      "single_halfplane_possible_skips": 13,
+      "pair_additional_possible_skips": 0
+    }
+  }
+}

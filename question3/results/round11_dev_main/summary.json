@@ -1,0 +1,4618 @@
+{
+  "kind": "SELF_ROUND11_DEVELOPMENT",
+  "rounding": "bounded",
+  "cases": [
+    {
+      "variant": "P",
+      "case_id": "dev_0_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08099542600393761,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 264.0555421875,
+      "metrics": {
+        "virtual_time_s": 4224.888675,
+        "components": {
+          "movement_s": 3726.8886753063853,
+          "switch_s": 64.0,
+          "detection_s": 330.0,
+          "optical_s": 72.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1002.7613144782991,
+          "localization": 1059.0541532377306,
+          "localization_shared": 48.0,
+          "optical": 2115.0732075903543
+        },
+        "counts": {
+          "measure": 66,
+          "clear": 24,
+          "clear_success": 16,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4224.888675,
+      "audited_actions": 90,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_0_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08583060200180626,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 264.0555421875,
+      "metrics": {
+        "virtual_time_s": 4224.888675,
+        "components": {
+          "movement_s": 3726.8886753063853,
+          "switch_s": 64.0,
+          "detection_s": 330.0,
+          "optical_s": 72.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1002.7613144782991,
+          "localization": 1059.0541532377306,
+          "localization_shared": 48.0,
+          "optical": 2115.0732075903543
+        },
+        "counts": {
+          "measure": 66,
+          "clear": 24,
+          "clear_success": 16,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4224.888675,
+      "audited_actions": 90,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_1_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.056186606001574546,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 356.0225112727273,
+      "metrics": {
+        "virtual_time_s": 3916.247624,
+        "components": {
+          "movement_s": 3211.247623530105,
+          "switch_s": 101.0,
+          "detection_s": 510.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1613.8863688718886,
+          "localization": 739.203692275978,
+          "localization_shared": 30.0,
+          "optical": 1533.1575623822387
+        },
+        "counts": {
+          "measure": 102,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3916.247624,
+      "audited_actions": 126,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_1_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05290950200287625,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 355.1205407272727,
+      "metrics": {
+        "virtual_time_s": 3906.325948,
+        "components": {
+          "movement_s": 3207.3259473653316,
+          "switch_s": 101.0,
+          "detection_s": 510.0,
+          "optical_s": 66.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1613.8863688718886,
+          "localization": 739.203692275978,
+          "localization_shared": 30.0,
+          "optical": 1523.235886217465
+        },
+        "counts": {
+          "measure": 102,
+          "clear": 22,
+          "clear_success": 11,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3906.325948,
+      "audited_actions": 124,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_2_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07865725699957693,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 264.7926205625,
+      "metrics": {
+        "virtual_time_s": 4236.681929,
+        "components": {
+          "movement_s": 3671.68192582994,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 84.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1039.071239253743,
+          "localization": 1091.5594742874737,
+          "localization_shared": 36.0,
+          "optical": 2070.051212288723
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 28,
+          "clear_success": 16,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4236.681929,
+      "audited_actions": 103,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_2_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08499196499906247,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 265.1616605,
+      "metrics": {
+        "virtual_time_s": 4242.586568,
+        "components": {
+          "movement_s": 3674.586564490089,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1039.071239253743,
+          "localization": 1091.5594742874737,
+          "localization_shared": 36.0,
+          "optical": 2075.9558509488725
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4242.586568,
+      "audited_actions": 104,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_3_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05158688400115352,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 395.84204772727276,
+      "metrics": {
+        "virtual_time_s": 4354.262525,
+        "components": {
+          "movement_s": 3613.2625206523085,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.3081612594096,
+          "localization": 1642.2905713588414,
+          "localization_shared": 18.0,
+          "optical": 1359.6637880340563
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4354.262525,
+      "audited_actions": 132,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_3_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.053721158001280855,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 395.31077763636364,
+      "metrics": {
+        "virtual_time_s": 4348.418554,
+        "components": {
+          "movement_s": 3610.418549642062,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.3081612594096,
+          "localization": 1642.2905713588414,
+          "localization_shared": 18.0,
+          "optical": 1353.8198170238097
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4348.418554,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_4_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0536932760005584,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 365.27355600000004,
+      "metrics": {
+        "virtual_time_s": 4018.009116,
+        "components": {
+          "movement_s": 3340.009114276405,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1530.8814587539634,
+          "localization": 1121.6280051066897,
+          "localization_shared": 12.0,
+          "optical": 1353.4996504157518
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4018.009116,
+      "audited_actions": 121,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_4_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05521685200073989,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 365.27355600000004,
+      "metrics": {
+        "virtual_time_s": 4018.009116,
+        "components": {
+          "movement_s": 3340.009114276405,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1530.8814587539634,
+          "localization": 1121.6280051066897,
+          "localization_shared": 12.0,
+          "optical": 1353.4996504157518
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4018.009116,
+      "audited_actions": 121,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_5_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10240907900151797,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 367.7346661428572,
+      "metrics": {
+        "virtual_time_s": 5148.285326,
+        "components": {
+          "movement_s": 4503.285326873233,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 48.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1793.0441356198517,
+          "localization": 1090.1764800014312,
+          "optical": 2247.0647112519514,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 16,
+          "clear_success": 14,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5148.285326,
+      "audited_actions": 111,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_5_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11051146999670891,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 367.7346661428572,
+      "metrics": {
+        "virtual_time_s": 5148.285326,
+        "components": {
+          "movement_s": 4503.285326873233,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 48.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1793.0441356198517,
+          "localization": 1090.1764800014312,
+          "optical": 2247.0647112519514,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 16,
+          "clear_success": 14,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5148.285326,
+      "audited_actions": 111,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_6_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10387800200260244,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 302.8628080625,
+      "metrics": {
+        "virtual_time_s": 4845.804929,
+        "components": {
+          "movement_s": 4302.804928418528,
+          "switch_s": 73.0,
+          "detection_s": 375.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1443.014270834544,
+          "localization": 1365.5203259394802,
+          "optical": 2025.270331644504,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4845.804929,
+      "audited_actions": 96,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_6_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08632764699723339,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 302.8628080625,
+      "metrics": {
+        "virtual_time_s": 4845.804929,
+        "components": {
+          "movement_s": 4302.804928418528,
+          "switch_s": 73.0,
+          "detection_s": 375.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1443.014270834544,
+          "localization": 1365.5203259394802,
+          "optical": 2025.270331644504,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4845.804929,
+      "audited_actions": 96,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_7_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.060562498998478986,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 413.79594391666666,
+      "metrics": {
+        "virtual_time_s": 4965.551327,
+        "components": {
+          "movement_s": 4273.55132542613,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 51.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1343.570365862397,
+          "localization": 1694.6582850329678,
+          "localization_shared": 12.0,
+          "optical": 1915.322674530766
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 17,
+          "clear_success": 12,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4965.551327,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_7_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.062376219997531734,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 413.79594391666666,
+      "metrics": {
+        "virtual_time_s": 4965.551327,
+        "components": {
+          "movement_s": 4273.55132542613,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 51.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1343.570365862397,
+          "localization": 1694.6582850329678,
+          "localization_shared": 12.0,
+          "optical": 1915.322674530766
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 17,
+          "clear_success": 12,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4965.551327,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_8_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06099841800460126,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 334.81499572727273,
+      "metrics": {
+        "virtual_time_s": 3682.964953,
+        "components": {
+          "movement_s": 3061.964951439381,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1438.4767176815037,
+          "localization": 874.0639934431929,
+          "localization_shared": 18.0,
+          "optical": 1352.4242403146845
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3682.964953,
+      "audited_actions": 106,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_8_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06925728500209516,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 334.81499572727273,
+      "metrics": {
+        "virtual_time_s": 3682.964953,
+        "components": {
+          "movement_s": 3061.964951439381,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1438.4767176815037,
+          "localization": 874.0639934431929,
+          "localization_shared": 18.0,
+          "optical": 1352.4242403146845
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3682.964953,
+      "audited_actions": 106,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_9_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0736134899998433,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 336.9533566153846,
+      "metrics": {
+        "virtual_time_s": 4380.393636,
+        "components": {
+          "movement_s": 3683.393634832194,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1288.749599098476,
+          "localization": 1508.307384849953,
+          "optical": 1577.3366508837657,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4380.393636,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_9_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07401791000302183,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 336.9533566153846,
+      "metrics": {
+        "virtual_time_s": 4380.393636,
+        "components": {
+          "movement_s": 3683.393634832194,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1288.749599098476,
+          "localization": 1508.307384849953,
+          "optical": 1577.3366508837657,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4380.393636,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_10_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08601558900409145,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 336.6922559285714,
+      "metrics": {
+        "virtual_time_s": 4713.691583,
+        "components": {
+          "movement_s": 4113.691587855973,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 69.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1504.0196406156244,
+          "localization": 955.9684061330676,
+          "localization_shared": 36.0,
+          "optical": 2217.7035411072816
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 23,
+          "clear_success": 14,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4713.691583,
+      "audited_actions": 107,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_10_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10045826799614588,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 337.4023271428572,
+      "metrics": {
+        "virtual_time_s": 4723.63258,
+        "components": {
+          "movement_s": 4117.632585154216,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 75.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1504.0196406156244,
+          "localization": 955.9684061330676,
+          "localization_shared": 36.0,
+          "optical": 2227.644538405525
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 25,
+          "clear_success": 14,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4723.63258,
+      "audited_actions": 109,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_11_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08015733000502223,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 328.28757046153845,
+      "metrics": {
+        "virtual_time_s": 4267.738416,
+        "components": {
+          "movement_s": 3610.738415741723,
+          "switch_s": 92.0,
+          "detection_s": 470.0,
+          "optical_s": 69.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1390.3787653034803,
+          "localization": 1261.6923062989556,
+          "optical": 1597.667344139286,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 23,
+          "clear_success": 13,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4267.738416,
+      "audited_actions": 117,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_11_spatial_hash",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07999146799556911,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 328.28757046153845,
+      "metrics": {
+        "virtual_time_s": 4267.738416,
+        "components": {
+          "movement_s": 3610.738415741723,
+          "switch_s": 92.0,
+          "detection_s": 470.0,
+          "optical_s": 69.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1390.3787653034803,
+          "localization": 1261.6923062989556,
+          "optical": 1597.667344139286,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 23,
+          "clear_success": 13,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4267.738416,
+      "audited_actions": 117,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_0_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13148039600491757,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 276.774481,
+      "metrics": {
+        "virtual_time_s": 4428.391696,
+        "components": {
+          "movement_s": 3915.3916954379415,
+          "switch_s": 64.0,
+          "detection_s": 330.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1051.953525459992,
+          "localization": 1387.3320330437666,
+          "localization_shared": 42.0,
+          "optical": 1947.1061369341828
+        },
+        "counts": {
+          "measure": 66,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4428.391696,
+      "audited_actions": 95,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_0_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08988663199852454,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 276.774481,
+      "metrics": {
+        "virtual_time_s": 4428.391696,
+        "components": {
+          "movement_s": 3915.3916954379415,
+          "switch_s": 64.0,
+          "detection_s": 330.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1051.953525459992,
+          "localization": 1387.3320330437666,
+          "localization_shared": 42.0,
+          "optical": 1947.1061369341828
+        },
+        "counts": {
+          "measure": 66,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4428.391696,
+      "audited_actions": 95,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_1_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.059190107000176795,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 362.20805390909095,
+      "metrics": {
+        "virtual_time_s": 3984.288593,
+        "components": {
+          "movement_s": 3279.2885954995677,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 66.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1566.9665978576306,
+          "localization": 1092.4803327672532,
+          "localization_shared": 24.0,
+          "optical": 1300.841664874684
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 22,
+          "clear_success": 11,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3984.288593,
+      "audited_actions": 125,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_1_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06934351699601393,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 361.65036699999996,
+      "metrics": {
+        "virtual_time_s": 3978.154037,
+        "components": {
+          "movement_s": 3276.154039797761,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 63.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1566.9665978576306,
+          "localization": 1092.4803327672532,
+          "localization_shared": 24.0,
+          "optical": 1294.7071091728776
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 21,
+          "clear_success": 11,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3978.154037,
+      "audited_actions": 124,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_2_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09695920699596172,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 262.2269826875,
+      "metrics": {
+        "virtual_time_s": 4195.631723,
+        "components": {
+          "movement_s": 3462.631718602862,
+          "switch_s": 106.0,
+          "detection_s": 535.0,
+          "optical_s": 60.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.832225013754,
+          "localization": 964.1912751852027,
+          "localization_shared": 48.0,
+          "optical": 1845.6082184039058
+        },
+        "counts": {
+          "measure": 107,
+          "clear": 20,
+          "clear_success": 16,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4195.631723,
+      "audited_actions": 127,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_2_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09100306199979968,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 262.587848875,
+      "metrics": {
+        "virtual_time_s": 4201.405582,
+        "components": {
+          "movement_s": 3465.4055781106645,
+          "switch_s": 106.0,
+          "detection_s": 535.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.832225013754,
+          "localization": 964.1912751852027,
+          "localization_shared": 48.0,
+          "optical": 1851.3820779117082
+        },
+        "counts": {
+          "measure": 107,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4201.405582,
+      "audited_actions": 128,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_3_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07094696299463976,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 395.43438599999996,
+      "metrics": {
+        "virtual_time_s": 4349.778246,
+        "components": {
+          "movement_s": 3611.7782474455234,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1336.3716513463912,
+          "localization": 1639.53477934985,
+          "localization_shared": 18.0,
+          "optical": 1355.8718167492825
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4349.778246,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_3_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06866880699817557,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 395.43438599999996,
+      "metrics": {
+        "virtual_time_s": 4349.778246,
+        "components": {
+          "movement_s": 3611.7782474455234,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1336.3716513463912,
+          "localization": 1639.53477934985,
+          "localization_shared": 18.0,
+          "optical": 1355.8718167492825
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4349.778246,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_4_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06453661399427801,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 366.0389607272727,
+      "metrics": {
+        "virtual_time_s": 4026.428568,
+        "components": {
+          "movement_s": 3375.4285684908637,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1493.279531831048,
+          "localization": 1209.3667743666742,
+          "localization_shared": 18.0,
+          "optical": 1305.7822622931403
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4026.428568,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_4_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06262027900083922,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 366.5854010909091,
+      "metrics": {
+        "virtual_time_s": 4032.439412,
+        "components": {
+          "movement_s": 3378.4394128851504,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1493.279531831048,
+          "localization": 1209.3667743666742,
+          "localization_shared": 18.0,
+          "optical": 1311.7931066874273
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4032.439412,
+      "audited_actions": 114,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_5_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08360552600061055,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 375.00951442857144,
+      "metrics": {
+        "virtual_time_s": 5250.133202,
+        "components": {
+          "movement_s": 4617.133200267345,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 54.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1759.6594933708457,
+          "localization": 1228.6769239331925,
+          "optical": 2249.796782963307,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 18,
+          "clear_success": 14,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5250.133202,
+      "audited_actions": 110,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_5_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08300126899848692,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 375.00951442857144,
+      "metrics": {
+        "virtual_time_s": 5250.133202,
+        "components": {
+          "movement_s": 4617.133200267345,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 54.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1759.6594933708457,
+          "localization": 1228.6769239331925,
+          "optical": 2249.796782963307,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 18,
+          "clear_success": 14,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5250.133202,
+      "audited_actions": 110,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_6_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1743330200042692,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 316.890895375,
+      "metrics": {
+        "virtual_time_s": 5070.254326,
+        "components": {
+          "movement_s": 4520.254326665941,
+          "switch_s": 72.0,
+          "detection_s": 365.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1435.127471611377,
+          "localization": 1149.9118934127014,
+          "localization_shared": 18.0,
+          "optical": 2467.2149616418633
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5070.254326,
+      "audited_actions": 100,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_6_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12818621000042185,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 316.890895375,
+      "metrics": {
+        "virtual_time_s": 5070.254326,
+        "components": {
+          "movement_s": 4520.254326665941,
+          "switch_s": 72.0,
+          "detection_s": 365.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1435.127471611377,
+          "localization": 1149.9118934127014,
+          "localization_shared": 18.0,
+          "optical": 2467.2149616418633
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5070.254326,
+      "audited_actions": 100,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_7_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13731501299480442,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 364.96659266666666,
+      "metrics": {
+        "virtual_time_s": 4379.599112,
+        "components": {
+          "movement_s": 3672.599111826655,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 60.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1778.9000251989817,
+          "localization": 1042.0452123198468,
+          "localization_shared": 12.0,
+          "optical": 1546.6538743078274
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 20,
+          "clear_success": 12,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4379.599112,
+      "audited_actions": 124,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_7_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0902360289983335,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 364.47911008333335,
+      "metrics": {
+        "virtual_time_s": 4373.749321,
+        "components": {
+          "movement_s": 3669.749319913229,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 57.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1778.9000251989817,
+          "localization": 1042.0452123198468,
+          "localization_shared": 12.0,
+          "optical": 1540.8040823944007
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 19,
+          "clear_success": 12,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4373.749321,
+      "audited_actions": 123,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_8_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.073928532001446,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 343.6114899090909,
+      "metrics": {
+        "virtual_time_s": 3779.726389,
+        "components": {
+          "movement_s": 3119.7263870640713,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 75.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1433.7499967625918,
+          "localization": 906.884512298591,
+          "optical": 1427.0918780028885,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 25,
+          "clear_success": 11,
+          "clear_failure": 14,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3779.726389,
+      "audited_actions": 119,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_8_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10842231000424363,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 343.6114899090909,
+      "metrics": {
+        "virtual_time_s": 3779.726389,
+        "components": {
+          "movement_s": 3119.7263870640713,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 75.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1433.7499967625918,
+          "localization": 906.884512298591,
+          "optical": 1427.0918780028885,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 25,
+          "clear_success": 11,
+          "clear_failure": 14,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3779.726389,
+      "audited_actions": 119,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_9_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08568409599683946,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 370.43060984615386,
+      "metrics": {
+        "virtual_time_s": 4815.597928,
+        "components": {
+          "movement_s": 4112.5979271963815,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 42.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1539.944300499919,
+          "localization": 1442.959843666903,
+          "optical": 1826.6937830295612,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 14,
+          "clear_success": 13,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4815.597928,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_9_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09031434599455679,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 370.43060984615386,
+      "metrics": {
+        "virtual_time_s": 4815.597928,
+        "components": {
+          "movement_s": 4112.5979271963815,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 42.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1539.944300499919,
+          "localization": 1442.959843666903,
+          "optical": 1826.6937830295612,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 14,
+          "clear_success": 13,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4815.597928,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_10_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0935033560017473,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 339.8942086428571,
+      "metrics": {
+        "virtual_time_s": 4758.518921,
+        "components": {
+          "movement_s": 4137.518918844776,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 90.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1510.0719038607008,
+          "localization": 960.1716274045651,
+          "localization_shared": 36.0,
+          "optical": 2252.2753875795097
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 30,
+          "clear_success": 14,
+          "clear_failure": 16,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4758.518921,
+      "audited_actions": 114,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_10_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08450061999610625,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 340.7353267142857,
+      "metrics": {
+        "virtual_time_s": 4770.294574,
+        "components": {
+          "movement_s": 4143.2945712178425,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 96.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1510.0719038607008,
+          "localization": 960.1716274045651,
+          "localization_shared": 36.0,
+          "optical": 2264.051039952577
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 32,
+          "clear_success": 14,
+          "clear_failure": 18,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4770.294574,
+      "audited_actions": 116,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_11_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07599966800626134,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 351.40785015384614,
+      "metrics": {
+        "virtual_time_s": 4568.302052,
+        "components": {
+          "movement_s": 3883.302050958646,
+          "switch_s": 99.0,
+          "detection_s": 500.0,
+          "optical_s": 60.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1404.7848279218197,
+          "localization": 1034.1024809169783,
+          "localization_shared": 24.0,
+          "optical": 2105.414742119848
+        },
+        "counts": {
+          "measure": 100,
+          "clear": 20,
+          "clear_success": 13,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4568.302052,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_11_smooth",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07028310399618931,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 351.40785015384614,
+      "metrics": {
+        "virtual_time_s": 4568.302052,
+        "components": {
+          "movement_s": 3883.302050958646,
+          "switch_s": 99.0,
+          "detection_s": 500.0,
+          "optical_s": 60.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1404.7848279218197,
+          "localization": 1034.1024809169783,
+          "localization_shared": 24.0,
+          "optical": 2105.414742119848
+        },
+        "counts": {
+          "measure": 100,
+          "clear": 20,
+          "clear_success": 13,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4568.302052,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_0_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08830196099734167,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 286.9899798125,
+      "metrics": {
+        "virtual_time_s": 4591.839677,
+        "components": {
+          "movement_s": 4071.83967638587,
+          "switch_s": 70.0,
+          "detection_s": 355.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 928.150472820184,
+          "localization": 1507.9509462015062,
+          "localization_shared": 36.0,
+          "optical": 2119.73825736418
+        },
+        "counts": {
+          "measure": 71,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4591.839677,
+      "audited_actions": 92,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_0_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10098997900058748,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 286.9899798125,
+      "metrics": {
+        "virtual_time_s": 4591.839677,
+        "components": {
+          "movement_s": 4071.83967638587,
+          "switch_s": 70.0,
+          "detection_s": 355.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 928.150472820184,
+          "localization": 1507.9509462015062,
+          "localization_shared": 36.0,
+          "optical": 2119.73825736418
+        },
+        "counts": {
+          "measure": 71,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4591.839677,
+      "audited_actions": 92,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_1_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06141470099828439,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 336.6807031818182,
+      "metrics": {
+        "virtual_time_s": 3703.487735,
+        "components": {
+          "movement_s": 3040.4877365287202,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1455.8929364088071,
+          "localization": 841.2068288084804,
+          "localization_shared": 24.0,
+          "optical": 1382.3879713114327
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3703.487735,
+      "audited_actions": 115,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_1_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08722124800260644,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 336.6807031818182,
+      "metrics": {
+        "virtual_time_s": 3703.487735,
+        "components": {
+          "movement_s": 3040.4877365287202,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1455.8929364088071,
+          "localization": 841.2068288084804,
+          "localization_shared": 24.0,
+          "optical": 1382.3879713114327
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3703.487735,
+      "audited_actions": 115,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_2_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09504901400214294,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 298.0688690625,
+      "metrics": {
+        "virtual_time_s": 4769.101905,
+        "components": {
+          "movement_s": 4142.101907322594,
+          "switch_s": 88.0,
+          "detection_s": 450.0,
+          "optical_s": 57.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1368.8324458575896,
+          "localization": 1518.0957030556017,
+          "localization_shared": 30.0,
+          "optical": 1852.1737584094042
+        },
+        "counts": {
+          "measure": 90,
+          "clear": 19,
+          "clear_success": 16,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4769.101905,
+      "audited_actions": 109,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_2_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10477112200169358,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 298.0688690625,
+      "metrics": {
+        "virtual_time_s": 4769.101905,
+        "components": {
+          "movement_s": 4142.101907322594,
+          "switch_s": 88.0,
+          "detection_s": 450.0,
+          "optical_s": 57.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1368.8324458575896,
+          "localization": 1518.0957030556017,
+          "localization_shared": 30.0,
+          "optical": 1852.1737584094042
+        },
+        "counts": {
+          "measure": 90,
+          "clear": 19,
+          "clear_success": 16,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4769.101905,
+      "audited_actions": 109,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_3_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06498521900357446,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 391.27717545454544,
+      "metrics": {
+        "virtual_time_s": 4304.04893,
+        "components": {
+          "movement_s": 3587.0489276422877,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1346.5385217466428,
+          "localization": 1635.9859236562475,
+          "localization_shared": 18.0,
+          "optical": 1303.5244822393984
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4304.04893,
+      "audited_actions": 124,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_3_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08081185100309085,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 391.27717545454544,
+      "metrics": {
+        "virtual_time_s": 4304.04893,
+        "components": {
+          "movement_s": 3587.0489276422877,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1346.5385217466428,
+          "localization": 1635.9859236562475,
+          "localization_shared": 18.0,
+          "optical": 1303.5244822393984
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4304.04893,
+      "audited_actions": 124,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_4_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08753200200590072,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 402.20712736363635,
+      "metrics": {
+        "virtual_time_s": 4424.278401,
+        "components": {
+          "movement_s": 3779.2784008863414,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1703.1653412681644,
+          "localization": 1366.3665703949143,
+          "optical": 1342.7464892232622,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4424.278401,
+      "audited_actions": 112,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_4_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06745152800431242,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 402.565113,
+      "metrics": {
+        "virtual_time_s": 4428.216243,
+        "components": {
+          "movement_s": 3780.2162428369434,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1703.1653412681644,
+          "localization": 1366.3665703949143,
+          "optical": 1346.6843311738637,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4428.216243,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_5_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1060799440019764,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 345.40060735714286,
+      "metrics": {
+        "virtual_time_s": 4835.608503,
+        "components": {
+          "movement_s": 4181.608501815519,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 51.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1592.287637195036,
+          "localization": 1514.4498931739004,
+          "localization_shared": 18.0,
+          "optical": 1710.8709714465829
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 17,
+          "clear_success": 14,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4835.608503,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_5_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07690532199922018,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 345.40060735714286,
+      "metrics": {
+        "virtual_time_s": 4835.608503,
+        "components": {
+          "movement_s": 4181.608501815519,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 51.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1592.287637195036,
+          "localization": 1514.4498931739004,
+          "localization_shared": 18.0,
+          "optical": 1710.8709714465829
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 17,
+          "clear_success": 14,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4835.608503,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_6_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0988673270039726,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 308.356594875,
+      "metrics": {
+        "virtual_time_s": 4933.705518,
+        "components": {
+          "movement_s": 4371.70551780711,
+          "switch_s": 77.0,
+          "detection_s": 390.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 857.7843869723836,
+          "localization": 1715.2030852472171,
+          "optical": 2342.718045587509,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 78,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4933.705518,
+      "audited_actions": 99,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_6_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09406730599584989,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 308.356594875,
+      "metrics": {
+        "virtual_time_s": 4933.705518,
+        "components": {
+          "movement_s": 4371.70551780711,
+          "switch_s": 77.0,
+          "detection_s": 390.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 857.7843869723836,
+          "localization": 1715.2030852472171,
+          "optical": 2342.718045587509,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 78,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4933.705518,
+      "audited_actions": 99,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_7_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07238389700069092,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 398.133891,
+      "metrics": {
+        "virtual_time_s": 4777.606692,
+        "components": {
+          "movement_s": 4121.606692088878,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1550.2567930331556,
+          "localization": 1650.024975893602,
+          "optical": 1571.3249231621205,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4777.606692,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_7_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07343902099819388,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 398.133891,
+      "metrics": {
+        "virtual_time_s": 4777.606692,
+        "components": {
+          "movement_s": 4121.606692088878,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1550.2567930331556,
+          "localization": 1650.024975893602,
+          "optical": 1571.3249231621205,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4777.606692,
+      "audited_actions": 113,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_8_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06241685599525226,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 335.1629330909091,
+      "metrics": {
+        "virtual_time_s": 3686.792264,
+        "components": {
+          "movement_s": 3059.7922644799287,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1435.545382376011,
+          "localization": 874.0689219037272,
+          "localization_shared": 18.0,
+          "optical": 1359.177960200191
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3686.792264,
+      "audited_actions": 108,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_8_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06937107800331432,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 335.1629330909091,
+      "metrics": {
+        "virtual_time_s": 3686.792264,
+        "components": {
+          "movement_s": 3059.7922644799287,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1435.545382376011,
+          "localization": 874.0689219037272,
+          "localization_shared": 18.0,
+          "optical": 1359.177960200191
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3686.792264,
+      "audited_actions": 108,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_9_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07474010800069664,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 350.78472746153847,
+      "metrics": {
+        "virtual_time_s": 4560.201457,
+        "components": {
+          "movement_s": 3857.2014564313777,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 54.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1386.6091819700735,
+          "localization": 1588.0774861855566,
+          "optical": 1579.5147882757483,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 18,
+          "clear_success": 13,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4560.201457,
+      "audited_actions": 122,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_9_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08300521700584795,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 350.78472746153847,
+      "metrics": {
+        "virtual_time_s": 4560.201457,
+        "components": {
+          "movement_s": 3857.2014564313777,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 54.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1386.6091819700735,
+          "localization": 1588.0774861855566,
+          "optical": 1579.5147882757483,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 18,
+          "clear_success": 13,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4560.201457,
+      "audited_actions": 122,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_10_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0877740379946772,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 299.4033593571429,
+      "metrics": {
+        "virtual_time_s": 4191.647031,
+        "components": {
+          "movement_s": 3621.647030875019,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 57.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1266.7105903720815,
+          "localization": 1064.1083145067346,
+          "localization_shared": 30.0,
+          "optical": 1830.8281259962025
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 19,
+          "clear_success": 14,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4191.647031,
+      "audited_actions": 100,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_10_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09063554100430338,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 299.4033593571429,
+      "metrics": {
+        "virtual_time_s": 4191.647031,
+        "components": {
+          "movement_s": 3621.647030875019,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 57.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1266.7105903720815,
+          "localization": 1064.1083145067346,
+          "localization_shared": 30.0,
+          "optical": 1830.8281259962025
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 19,
+          "clear_success": 14,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4191.647031,
+      "audited_actions": 100,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_11_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09148263400129508,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 351.5073726923077,
+      "metrics": {
+        "virtual_time_s": 4569.595845,
+        "components": {
+          "movement_s": 3903.595843223103,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1411.0348089664144,
+          "localization": 1632.5886871583573,
+          "localization_shared": 18.0,
+          "optical": 1507.9723470983317
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4569.595845,
+      "audited_actions": 115,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_11_positive",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08813649900548626,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 351.5073726923077,
+      "metrics": {
+        "virtual_time_s": 4569.595845,
+        "components": {
+          "movement_s": 3903.595843223103,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1411.0348089664144,
+          "localization": 1632.5886871583573,
+          "localization_shared": 18.0,
+          "optical": 1507.9723470983317
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4569.595845,
+      "audited_actions": 115,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_0_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12170912500005215,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 291.8185656875,
+      "metrics": {
+        "virtual_time_s": 4669.097051,
+        "components": {
+          "movement_s": 4092.097055762455,
+          "switch_s": 64.0,
+          "detection_s": 325.0,
+          "optical_s": 156.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1037.4166102788527,
+          "localization": 1450.3682970082614,
+          "localization_shared": 30.0,
+          "optical": 2151.312148475342
+        },
+        "counts": {
+          "measure": 65,
+          "clear": 52,
+          "clear_success": 16,
+          "clear_failure": 36,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4669.097051,
+      "audited_actions": 117,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_0_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12003798200021265,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 293.4337916875,
+      "metrics": {
+        "virtual_time_s": 4694.940667,
+        "components": {
+          "movement_s": 4105.940672470448,
+          "switch_s": 64.0,
+          "detection_s": 325.0,
+          "optical_s": 168.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1037.4166102788527,
+          "localization": 1450.3682970082614,
+          "localization_shared": 30.0,
+          "optical": 2177.1557651833355
+        },
+        "counts": {
+          "measure": 65,
+          "clear": 56,
+          "clear_success": 16,
+          "clear_failure": 40,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4694.940667,
+      "audited_actions": 121,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_1_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07600481799454428,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 368.5002581818182,
+      "metrics": {
+        "virtual_time_s": 4053.50284,
+        "components": {
+          "movement_s": 3342.5028393946754,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1447.413756532697,
+          "localization": 979.0137957958825,
+          "optical": 1615.0752870660965,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4053.50284,
+      "audited_actions": 127,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_1_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07586193000315689,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 367.9601409090909,
+      "metrics": {
+        "virtual_time_s": 4047.56155,
+        "components": {
+          "movement_s": 3339.561549790886,
+          "switch_s": 102.0,
+          "detection_s": 515.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1447.413756532697,
+          "localization": 979.0137957958825,
+          "optical": 1609.1339974623072,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 103,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4047.56155,
+      "audited_actions": 126,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_2_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09074000699911267,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 280.656156,
+      "metrics": {
+        "virtual_time_s": 4490.498496,
+        "components": {
+          "movement_s": 3880.498491457146,
+          "switch_s": 72.0,
+          "detection_s": 365.0,
+          "optical_s": 141.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1166.9182321369685,
+          "localization": 1191.6403191537484,
+          "localization_shared": 42.0,
+          "optical": 2089.9399401664286
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 47,
+          "clear_success": 16,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4490.498496,
+      "audited_actions": 120,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_2_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09057680999831064,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 281.2762233125,
+      "metrics": {
+        "virtual_time_s": 4500.419573,
+        "components": {
+          "movement_s": 3884.4195675538585,
+          "switch_s": 72.0,
+          "detection_s": 365.0,
+          "optical_s": 147.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1166.9182321369685,
+          "localization": 1191.6403191537484,
+          "localization_shared": 42.0,
+          "optical": 2099.861016263141
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 49,
+          "clear_success": 16,
+          "clear_failure": 33,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4500.419573,
+      "audited_actions": 122,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_3_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06046364299982088,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 402.16074618181824,
+      "metrics": {
+        "virtual_time_s": 4423.768208,
+        "components": {
+          "movement_s": 3655.768208855629,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 99.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1328.2971223809118,
+          "localization": 1646.7166835540074,
+          "localization_shared": 18.0,
+          "optical": 1430.7544029207097
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 33,
+          "clear_success": 11,
+          "clear_failure": 22,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4423.768208,
+      "audited_actions": 141,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_3_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06523383600142552,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 401.6152334545455,
+      "metrics": {
+        "virtual_time_s": 4417.767568,
+        "components": {
+          "movement_s": 3652.767569108029,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1328.2971223809118,
+          "localization": 1646.7166835540074,
+          "localization_shared": 18.0,
+          "optical": 1424.7537631731095
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4417.767568,
+      "audited_actions": 140,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_4_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06393560400465503,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 411.0196325454545,
+      "metrics": {
+        "virtual_time_s": 4521.215958,
+        "components": {
+          "movement_s": 3822.215953274144,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1688.3702343464283,
+          "localization": 1154.2230699320319,
+          "localization_shared": 18.0,
+          "optical": 1660.6226489956841
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4521.215958,
+      "audited_actions": 129,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_4_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06112052800017409,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 411.96711727272725,
+      "metrics": {
+        "virtual_time_s": 4531.63829,
+        "components": {
+          "movement_s": 3826.6382854715685,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 102.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1688.3702343464283,
+          "localization": 1154.2230699320319,
+          "localization_shared": 18.0,
+          "optical": 1671.0449811931087
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 34,
+          "clear_success": 11,
+          "clear_failure": 23,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4531.63829,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_5_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07631222700001672,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 374.9382627857143,
+      "metrics": {
+        "virtual_time_s": 5249.135679,
+        "components": {
+          "movement_s": 4583.135678207586,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 87.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1686.1748790797246,
+          "localization": 1251.8260093915305,
+          "localization_shared": 18.0,
+          "optical": 2293.134789736332
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 29,
+          "clear_success": 14,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5249.135679,
+      "audited_actions": 121,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_5_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07640984099998605,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 374.9382627857143,
+      "metrics": {
+        "virtual_time_s": 5249.135679,
+        "components": {
+          "movement_s": 4583.135678207586,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 87.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1686.1748790797246,
+          "localization": 1251.8260093915305,
+          "localization_shared": 18.0,
+          "optical": 2293.134789736332
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 29,
+          "clear_success": 14,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5249.135679,
+      "audited_actions": 121,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_6_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08672660799493315,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 364.5802121875,
+      "metrics": {
+        "virtual_time_s": 5833.283395,
+        "components": {
+          "movement_s": 5154.283394524527,
+          "switch_s": 81.0,
+          "detection_s": 410.0,
+          "optical_s": 156.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1576.9273488931467,
+          "localization": 1478.797366381814,
+          "localization_shared": 36.0,
+          "optical": 2741.558679249566
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 52,
+          "clear_success": 16,
+          "clear_failure": 36,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5833.283395,
+      "audited_actions": 134,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_6_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08691820799867855,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 365.3192851875,
+      "metrics": {
+        "virtual_time_s": 5845.108563,
+        "components": {
+          "movement_s": 5160.108561918331,
+          "switch_s": 81.0,
+          "detection_s": 410.0,
+          "optical_s": 162.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1576.9273488931467,
+          "localization": 1478.797366381814,
+          "localization_shared": 36.0,
+          "optical": 2753.3838466433717
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 54,
+          "clear_success": 16,
+          "clear_failure": 38,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 5845.108563,
+      "audited_actions": 136,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_7_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06752873299410567,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 410.04851183333335,
+      "metrics": {
+        "virtual_time_s": 4920.582142,
+        "components": {
+          "movement_s": 4222.582142717969,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 87.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1557.9368714655825,
+          "localization": 1677.201316019917,
+          "optical": 1679.4439552324698,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 29,
+          "clear_success": 12,
+          "clear_failure": 17,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4920.582142,
+      "audited_actions": 127,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_7_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0722449550012243,
+      "total": 12,
+      "cleared": 12,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 409.5633066666667,
+      "metrics": {
+        "virtual_time_s": 4914.75968,
+        "components": {
+          "movement_s": 4219.759681251455,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 84.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1557.9368714655825,
+          "localization": 1677.201316019917,
+          "optical": 1673.6214937659554,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 28,
+          "clear_success": 12,
+          "clear_failure": 16,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4914.75968,
+      "audited_actions": 126,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_8_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06173839999974007,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 324.4915654545455,
+      "metrics": {
+        "virtual_time_s": 3569.40722,
+        "components": {
+          "movement_s": 2855.4072238469507,
+          "switch_s": 99.0,
+          "detection_s": 500.0,
+          "optical_s": 93.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1240.7952158555747,
+          "localization": 955.615091426569,
+          "localization_shared": 18.0,
+          "optical": 1354.996916564807
+        },
+        "counts": {
+          "measure": 100,
+          "clear": 31,
+          "clear_success": 11,
+          "clear_failure": 20,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3569.40722,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_8_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06129895400226815,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 324.4915654545455,
+      "metrics": {
+        "virtual_time_s": 3569.40722,
+        "components": {
+          "movement_s": 2855.4072238469507,
+          "switch_s": 99.0,
+          "detection_s": 500.0,
+          "optical_s": 93.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1240.7952158555747,
+          "localization": 955.615091426569,
+          "localization_shared": 18.0,
+          "optical": 1354.996916564807
+        },
+        "counts": {
+          "measure": 100,
+          "clear": 31,
+          "clear_success": 11,
+          "clear_failure": 20,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3569.40722,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_9_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07417099900339963,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 365.4273425384615,
+      "metrics": {
+        "virtual_time_s": 4750.555453,
+        "components": {
+          "movement_s": 4023.555451687958,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1531.0066630270644,
+          "localization": 1258.4030586627441,
+          "localization_shared": 18.0,
+          "optical": 1943.1457299981496
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4750.555453,
+      "audited_actions": 128,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_9_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.073850927001331,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 365.4273425384615,
+      "metrics": {
+        "virtual_time_s": 4750.555453,
+        "components": {
+          "movement_s": 4023.555451687958,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1531.0066630270644,
+          "localization": 1258.4030586627441,
+          "localization_shared": 18.0,
+          "optical": 1943.1457299981496
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4750.555453,
+      "audited_actions": 128,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_10_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09055392700247467,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 346.8921145714286,
+      "metrics": {
+        "virtual_time_s": 4856.489604,
+        "components": {
+          "movement_s": 4196.489605004862,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 129.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1505.322635183225,
+          "localization": 963.2594610419188,
+          "localization_shared": 36.0,
+          "optical": 2351.907508779718
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 43,
+          "clear_success": 14,
+          "clear_failure": 29,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4856.489604,
+      "audited_actions": 127,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_10_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08311286999378353,
+      "total": 14,
+      "cleared": 14,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 347.73177607142856,
+      "metrics": {
+        "virtual_time_s": 4868.244865,
+        "components": {
+          "movement_s": 4202.244867122322,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 135.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1505.322635183225,
+          "localization": 963.2594610419188,
+          "localization_shared": 36.0,
+          "optical": 2363.662770897178
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 45,
+          "clear_success": 14,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4868.244865,
+      "audited_actions": 129,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "dev_11_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07140435400651768,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 349.84853184615383,
+      "metrics": {
+        "virtual_time_s": 4548.030914,
+        "components": {
+          "movement_s": 3852.0309127981045,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 78.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1340.6477770694796,
+          "localization": 1680.460873218647,
+          "localization_shared": 24.0,
+          "optical": 1502.9222625099785
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 26,
+          "clear_success": 13,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4548.030914,
+      "audited_actions": 125,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "dev_11_negative",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0687328179992619,
+      "total": 13,
+      "cleared": 13,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 349.84853184615383,
+      "metrics": {
+        "virtual_time_s": 4548.030914,
+        "components": {
+          "movement_s": 3852.0309127981045,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 78.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1340.6477770694796,
+          "localization": 1680.460873218647,
+          "localization_shared": 24.0,
+          "optical": 1502.9222625099785
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 26,
+          "clear_success": 13,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 4548.030914,
+      "audited_actions": 125,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "boundary_minR_16",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08186002200091025,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 415.6062943125,
+      "metrics": {
+        "virtual_time_s": 6649.700709,
+        "components": {
+          "movement_s": 5883.700707061322,
+          "switch_s": 113.0,
+          "detection_s": 570.0,
+          "optical_s": 51.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2649.104084664911,
+          "localization": 1082.2763713374698,
+          "localization_shared": 24.0,
+          "optical": 2894.320251058941
+        },
+        "counts": {
+          "measure": 114,
+          "clear": 17,
+          "clear_success": 16,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 6649.700709,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "boundary_minR_16",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07751445800386136,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 415.6062943125,
+      "metrics": {
+        "virtual_time_s": 6649.700709,
+        "components": {
+          "movement_s": 5883.700707061322,
+          "switch_s": 113.0,
+          "detection_s": 570.0,
+          "optical_s": 51.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2649.104084664911,
+          "localization": 1082.2763713374698,
+          "localization_shared": 24.0,
+          "optical": 2894.320251058941
+        },
+        "counts": {
+          "measure": 114,
+          "clear": 17,
+          "clear_success": 16,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 6649.700709,
+      "audited_actions": 131,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "late_channel20_after_ten",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05169615000340855,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 272.0343878181818,
+      "metrics": {
+        "virtual_time_s": 2992.378266,
+        "components": {
+          "movement_s": 2417.3782648825177,
+          "switch_s": 85.0,
+          "detection_s": 435.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1867.3055655355936,
+          "localization": 343.8663395418647,
+          "localization_shared": 54.0,
+          "optical": 727.2063598050594
+        },
+        "counts": {
+          "measure": 87,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 2992.378266,
+      "audited_actions": 98,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "late_channel20_after_ten",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05515431499952683,
+      "total": 11,
+      "cleared": 11,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 272.0343878181818,
+      "metrics": {
+        "virtual_time_s": 2992.378266,
+        "components": {
+          "movement_s": 2417.3782648825177,
+          "switch_s": 85.0,
+          "detection_s": 435.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1867.3055655355936,
+          "localization": 343.8663395418647,
+          "localization_shared": 54.0,
+          "optical": 727.2063598050594
+        },
+        "counts": {
+          "measure": 87,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 2992.378266,
+      "audited_actions": 98,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "near_at_origin",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.047848982001596596,
+      "total": 10,
+      "cleared": 10,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 393.9558473,
+      "metrics": {
+        "virtual_time_s": 3939.558473,
+        "components": {
+          "movement_s": 3260.5584754359606,
+          "switch_s": 100.0,
+          "detection_s": 505.0,
+          "optical_s": 54.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1741.7435730155316,
+          "near": 5.0,
+          "localization": 1037.2849065743485,
+          "optical": 1149.5299958460805,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 101,
+          "clear": 18,
+          "clear_success": 10,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3939.558473,
+      "audited_actions": 119,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "near_at_origin",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04943528600415448,
+      "total": 10,
+      "cleared": 10,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 393.9558473,
+      "metrics": {
+        "virtual_time_s": 3939.558473,
+        "components": {
+          "movement_s": 3260.5584754359606,
+          "switch_s": 100.0,
+          "detection_s": 505.0,
+          "optical_s": 54.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1741.7435730155316,
+          "near": 5.0,
+          "localization": 1037.2849065743485,
+          "optical": 1149.5299958460805,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 101,
+          "clear": 18,
+          "clear_success": 10,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 3939.558473,
+      "audited_actions": 119,
+      "audit": "pass"
+    },
+    {
+      "variant": "REF",
+      "case_id": "clustered_16",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07121506799740018,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 56.447503375,
+      "metrics": {
+        "virtual_time_s": 903.160054,
+        "components": {
+          "movement_s": 512.1600516045071,
+          "switch_s": 51.0,
+          "detection_s": 260.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "localization": 172.43316977093235,
+          "localization_shared": 90.0,
+          "optical": 200.7268818335748
+        },
+        "counts": {
+          "measure": 52,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 903.160054,
+      "audited_actions": 68,
+      "audit": "pass"
+    },
+    {
+      "variant": "P",
+      "case_id": "clustered_16",
+      "kind": "SELF_ROUND11_DEVELOPMENT",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07149561500409618,
+      "total": 16,
+      "cleared": 16,
+      "remaining_channels": [],
+      "clearance_ratio": 1.0,
+      "average_virtual_per_cleared": 56.447503375,
+      "metrics": {
+        "virtual_time_s": 903.160054,
+        "components": {
+          "movement_s": 512.1600516045071,
+          "switch_s": 51.0,
+          "detection_s": 260.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "localization": 172.43316977093235,
+          "localization_shared": 90.0,
+          "optical": 200.7268818335748
+        },
+        "counts": {
+          "measure": 52,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "penalized_virtual_s": 903.160054,
+      "audited_actions": 68,
+      "audit": "pass"
+    }
+  ],
+  "configs": {
+    "P": {
+      "name": "round11_P",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "shared_batch_limit": 19,
+      "count_stop": "detected_16",
+      "second_point_opportunity": "current_if_certified",
+      "opportunity_timing": "after_schedule",
+      "clear_skip": "separating_halfplane"
+    },
+    "REF": {
+      "name": "round11_REF",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "shared_batch_limit": 19,
+      "count_stop": "detected_16",
+      "second_point_opportunity": "current_if_certified",
+      "opportunity_timing": "after_schedule"
+    }
+  },
+  "case_sha256": {
+    "dev_0_spatial_hash": "637032605d3a5478bc7c9594a9ea843b0c16ced8c89b4d646a70e2b213e5969a",
+    "dev_1_spatial_hash": "1d8a501462098b32cbb75ac265ff7d31a170f374b50b1631662163def6720287",
+    "dev_2_spatial_hash": "393ce4e5207f07fe9ade03cddc846aaa5eb2bebc6c2230568e8233ceaba4da3c",
+    "dev_3_spatial_hash": "f21672f7c4926ff9cb444f46e5f70cd8a0ad0cf62c525ffdcd28495214d68d4e",
+    "dev_4_spatial_hash": "65b9e8e1568ed2f18df7e3ff0b703ab2446016204707b869e76714ef10dbb352",
+    "dev_5_spatial_hash": "f602b7a9c199ca531f9a9dc914dfbdfdb7f3d4d3646b471738f16a7bbc972684",
+    "dev_6_spatial_hash": "c85b6709a0fb05dadd33b0b5a4af0400c2aa2127182ad2164db4ef2033c1a136",
+    "dev_7_spatial_hash": "7f37c60a33a0abbde71d9823c8fad15611625506de4da9c2e944e548e688176b",
+    "dev_8_spatial_hash": "055ac81c28ddb278af8557f2d5e3fe45c026d059e8749241638947b204b62ac5",
+    "dev_9_spatial_hash": "51dd38275ddb1cee1585963f2d41bdcd3b058c8ba79e3d65f926169dc4016dcb",
+    "dev_10_spatial_hash": "35c2fb325fa19b31da4aae325de88ae69b25a158a80ec9efa56f89ba7e6dd482",
+    "dev_11_spatial_hash": "c1466c8700ea975ba16dc86abfdb8ee17ec6f7200db3f95d7e50624316ab4549",
+    "dev_0_smooth": "db191b19f4fee305f68a525ff372f91f02967860459dae1f07ee3fc978f0c0b9",
+    "dev_1_smooth": "8420ce800d9a876f20439a50b143157792f78160bf573e47e8dc4ebfe20e7bca",
+    "dev_2_smooth": "d31bcf9327d292905b9fd20b04f51af47983ebc206a3196de4e55bbdd0622e52",
+    "dev_3_smooth": "46b43b544864efcc66d7612383deec85712bfbb4e6163cf68742d9ed3a36e347",
+    "dev_4_smooth": "3beb8f6d1ef9047e19ac3724682377b42a0ecfeb00ef81bf1a7e60c2a6042417",
+    "dev_5_smooth": "585bce1bddc9a51f1c8f97d89ccddc9e9cecf0f2b445c8e8ec5cc4d52bcbad57",
+    "dev_6_smooth": "238b62bf5d0a2d6fce303d6b331cf09b40b85f149e1811f59db81fa6c1c7eb27",
+    "dev_7_smooth": "e1db45160a7ef544cbe4dfd78fa5005dfc19ef79865d93b655f19da7499d9d2f",
+    "dev_8_smooth": "e512766e3955c6346d6988558a5682a82e8944277bf059bb3cdc2fbe868e4bee",
+    "dev_9_smooth": "316a7de8884960e52a1d9062d40addb6a86a5900f383cc5b6a1fa0a5a3f0fb2d",
+    "dev_10_smooth": "556aca15d5b7b3f29615b501c544e336d2ef776943230e10fb9cad805c160b4e",
+    "dev_11_smooth": "736643efad24c134c5ae876dfbaa72395616fee3789dff0169f72997fde42ce4",
+    "dev_0_positive": "a0a6edcb4bf082b991153d812161d7867e65237ecda3c5adfa5d0fd764c18b78",
+    "dev_1_positive": "eba061d8f24add7de1aaa3665cc54e103f3696a808f18f6dcb3578a50ea75adb",
+    "dev_2_positive": "34ae81c6a81b3f0afd533bfa8e8a751c9dc9e6f74518ec40f6b2601a9ba041be",
+    "dev_3_positive": "cfd53244b3221bb1c468932bf8e612d4f017de08e244fc0e3ae63a3a805bc349",
+    "dev_4_positive": "eb1c25f6e189378b8334e9898ee356ac556b1f084f30a07fd53c0ccef221a786",
+    "dev_5_positive": "fb78936336ca6d071e6228083986afd62be0daf496cd71a57d26d4e797499607",
+    "dev_6_positive": "87f06434fb6266558ba3f31d2a05131f4590f813a345a7f631c967446a74bc70",
+    "dev_7_positive": "5e2844b86a1dacd2cf2080b4e011c373e1864db6639b45d5675f0ce224ad0d43",
+    "dev_8_positive": "48afd64448f9a30e4ab109ac9a808c354597c67b9e5b14a513fdff4b66c2a0f0",
+    "dev_9_positive": "263dae495c9dd01c39ec8386beaf39cb4f5d693a1a1038f205e4fbd0ac7d4148",
+    "dev_10_positive": "42163041298380bec3736b87f39547fb5b153a66762b78744668068d228596b7",
+    "dev_11_positive": "df49a6a21c4e9c1f7b2f5d62bef638fb07412ca56a86f26e5e32dadcfeb35948",
+    "dev_0_negative": "fc0f9e089e150b636ff6e4fba487949499caae949b4caa37ca87990a9485c5ae",
+    "dev_1_negative": "580e9015997fb0e34cfd05ee97ef88d8974b483fd6af695c0ae5816150c99371",
+    "dev_2_negative": "7596d3378eccee6aa83d11311e0ed116ebeb297c41cfde9e78819b6db39d0d35",
+    "dev_3_negative": "a950f10fdf2040abfd1c2a45b0f5539a8b9a417134828fd3ebabde80ab2c61d1",
+    "dev_4_negative": "87f64ad2fdfd1ea730f5144570a47f17f27fce18db4ba3164c10d17ff79a66a7",
+    "dev_5_negative": "3a1b50094960f4d744632cc9f8060b9b6dcc2069d2d8eb7d6f79d0546b76c5f5",
+    "dev_6_negative": "8131ff649303ded83a0e7da24c2eec7082359997392273e8f8620cd9135c2217",
+    "dev_7_negative": "b24452bdd1b0f43248b323f3f4f23aeae66154a1cc61cadad6268599f58076e0",
+    "dev_8_negative": "9cd0e4d824ece69dc12b932c9293d5167c1811fc1bce6ba1e22cc85c0f647ce0",
+    "dev_9_negative": "a57ef092cc6d94bca1c0e1174a7a778aa7f09feb78593c6f8b6799c74a02cf62",
+    "dev_10_negative": "1337017cae87b53091155cad89f90d4234f7577c21b826d5bfd25a08e8b7f9f0",
+    "dev_11_negative": "9f62fbe4f94922baf0e90b0eb32eccafaba73f8992ce6d3f6e54a43073480fc4",
+    "boundary_minR_16": "2b5f7237c4dfe157f201ab8f36e5789b9df09fc7a0c7f96c1b95431ce5051b2b",
+    "late_channel20_after_ten": "c8fd101b7ede7ac80a6743534c44b5a374f4b2fb45401f0229153bedb347941e",
+    "near_at_origin": "c07a11a3fb52ab0921a8aa039343b2c2f32ca23bf188a8e5fcaac793f5b699fc",
+    "clustered_16": "4a483bec3e7817b50fcffa0b3b5e9d3ccb176a81b0c1e7ecc666d603963889b1"
+  },
+  "code_sha256": {
+    "question3/optical_order.py": "1dd3c521750a11055167066d89b7f862b5f48607debb21b4705d1a302ee8b244",
+    "question3/cases.py": "f65edff0b35d467057e831c492eb48fe63083dd02da7380574bceded2cb1e828",
+    "question3/self_server.py": "da8ebe8ca8b575405db8a32229d08b627af466c0e85d1e3fe4815e49e3844c64",
+    "question3/order_routing.py": "425b8a06d931e33c61f5cd9b3474e014954acdae1f9d899f38bd4a14a56e63ce",
+    "question3/lookahead.py": "de405e2f02a78d84d0c1e9e97fa013d2fde280d0130d106c3cb36a77595a12a8",
+    "question3/strategy.py": "9b31267c7b4755a923b4e0b9493deaeecc40aff92a77940b4e80a360c2340dfc",
+    "question3/run_self.py": "ababc3e8b38375208a9a8143da3b833b54d69a99bec2abdfe90411d4aad699d3",
+    "question3/geometry.py": "bb68096316e796678b5cf3dbc3d760e0b776b823725e01b8188ec374f4be6424",
+    "question3/simulator.py": "648d99f3a842182682b093294f827d50ddfd0c216b154b3b2ee94ad208a172e2",
+    "question3/optical_shortcut.py": "a2a9b18c4d9fc588687e516362613953da9508c06bd576bb9d834315c9473a90",
+    "question3/run_http.py": "2885a8b1624fec4500dca9534f53bd4629f6fa8864157e5935e0f4db637ca1c6",
+    "question3/analyze_matrix.py": "9b0d3961d354d3e9258304018e27b228f4588cc614f367f785bac87068b9d7cd",
+    "question3/__init__.py": "f62b0abcce0bf1263b263b006344fc9c3254afbb0c627decaa37866cbd22ce4a",
+    "question3/cached_routing.py": "8f50d8bb9ae2de124913cfb7405417bde05f1effa00bb94a9113c0011c3f774d",
+    "question3/shared_cost.py": "2f91457fcbf1466c9bd68df085a6ef10ce1f9b85aa6709d0278c45e7d2b3dd7d",
+    "question3/current_point.py": "4fe47feef2d3797c4c9cc74706ad0ef5fce3d80c25184d526ee91c1ac20ab72a",
+    "question3/modules.py": "8f81b282b16d338ea7dd78e582752819c3c1b204c2c9d1e7d6dc50d1b79372ed",
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question3/run_faults.py": "1622d3314b22c9aab0a1dcb0b2172833b1ebb0f0dd2861e72dc3c6b686f1be00",
+    "question3/clear_skip.py": "b8c6d39dc6ef9d2a1a40c25f90890fd01d1919327e1b41e8d91a07eb534a7514",
+    "question3/shared_measurement.py": "f78a2593dd98d3583076283f9276fe7fe9b013cbcaf0b45483cd81b5c57de2f7",
+    "question3/make_holdout.py": "0515ad796994b3a9dca4f09599de1199b2c59b301438ae8bcfdcdeb6d439e89e",
+    "question3/run_matrix.py": "5339ea425235217b477425ecf3e31a03606b86b273b5090e6faf52270fe7e08f",
+    "question3/audit.py": "0f621e3e1c990bbd62b3f3a35185ad64b561bfc8198c9944b51fa41f868b427f",
+    "question1/solve.py": "2c98cdc298eb3bb04bfddeaad1259939c9972fc0b32c15a034a045f94f3df033",
+    "question2/strategy.py": "9361ac88d7782a2da0d4bda646299dec55ade0d7e562fb09fcd40c97aad79f02"
+  },
+  "catalog_startup_wall_s": 0.0030781309978920035,
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+  "official_rehearsals_run": 0,
+  "formal_tests_run": 0,
+  "unseen_validation_cases_run": 0,
+  "config_dir": "question3/configs/round11_dev"
+}

@@ -1,0 +1,694 @@
+{
+  "batches": {
+    "dev_main": {
+      "runs": 104,
+      "complete": 104,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 12008,
+      "deleted_proven_failures": 0,
+      "passed_gate": false,
+      "stats": [
+        {
+          "variant": "Q",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4423.729515942307,
+          "raw_all_case_mean_virtual_s": 4423.729515942307,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.77638323045835,
+          "pooled_virtual_per_clear_s": 335.8159632540146,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.09478532334906048,
+          "wall_max_s": 0.10265698200237239,
+          "mean_failed_clears": 9.846153846153847,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.825669324574,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 69.0576923076923,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4423.729515942307,
+          "raw_all_case_mean_virtual_s": 4423.729515942307,
+          "p95_virtual_s": 5249.58456435,
+          "cvar_worst10_s": 5533.4654395,
+          "max_virtual_s": 6649.700709,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 340.77638323045835,
+          "pooled_virtual_per_clear_s": 335.8159632540146,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.09640116800146642,
+          "wall_max_s": 0.12644415599788772,
+          "mean_failed_clears": 9.846153846153847,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3774.825669324574,
+            "switch_s": 91.28846153846153,
+            "detection_s": 462.21153846153845,
+            "optical_s": 69.0576923076923,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "boundary_minR_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "clustered_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "near_at_origin",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    },
+    "dev_rounding": {
+      "runs": 104,
+      "complete": 104,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 11984,
+      "deleted_proven_failures": 0,
+      "passed_gate": false,
+      "stats": [
+        {
+          "variant": "Q",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4370.509459403846,
+          "raw_all_case_mean_virtual_s": 4370.509459403846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.56846160809397,
+          "pooled_virtual_per_clear_s": 331.7759005678832,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10149237170371635,
+          "wall_max_s": 0.11315818900038721,
+          "mean_failed_clears": 9.807692307692308,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3722.8940737891307,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.9423076923077,
+            "laser_s": 26.346153846153847
+          }
+        },
+        {
+          "variant": "REF",
+          "runs": 52,
+          "complete": 52,
+          "failed": 0,
+          "timeouts": 0,
+          "false_complete": 0,
+          "mean_clearance_ratio": 1.0,
+          "mean_virtual_s": 4370.509459403846,
+          "raw_all_case_mean_virtual_s": 4370.509459403846,
+          "p95_virtual_s": 5241.8404527,
+          "cvar_worst10_s": 5369.844896333333,
+          "max_virtual_s": 6183.473885,
+          "max_virtual_case": "boundary_minR_16",
+          "mean_case_average_per_clear_s": 337.56846160809397,
+          "pooled_virtual_per_clear_s": 331.7759005678832,
+          "median_paired_improvement": 0.0,
+          "worst_case_improvement": 0.0,
+          "worst_regression_case": "boundary_minR_16",
+          "worse_than_baseline": 0,
+          "wins": 0,
+          "wall_p95_s": 0.10562442969967377,
+          "wall_max_s": 0.11542918199847918,
+          "mean_failed_clears": 9.807692307692308,
+          "max_failed_clears": 36,
+          "mean_components": {
+            "movement_s": 3722.8940737891307,
+            "switch_s": 91.07692307692308,
+            "detection_s": 461.25,
+            "optical_s": 68.9423076923077,
+            "laser_s": 26.346153846153847
+          }
+        }
+      ],
+      "pairs": [
+        {
+          "case_id": "boundary_minR_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "clustered_16",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_0_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_negative",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_positive",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "skipped": 0,
+          "saved_s": -0.0
+        },
+        {
+          "case_id": "near_at_origin",
+          "skipped": 0,
+          "saved_s": -0.0
+        }
+      ],
+      "measurement_success_and_schedule_trajectories_identical": true
+    }
+  },
+  "official_runs": 0,
+  "formal_runs": 0,
+  "total_runs": 208,
+  "total_audited_actions": 23992,
+  "all_gates_passed": false,
+  "legacy_exact_comparisons": 104,
+  "fresh_validation_runs": 0,
+  "fresh_layouts": 0
+}

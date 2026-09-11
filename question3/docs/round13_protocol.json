@@ -1,0 +1,25 @@
+{
+  "kind": "SELF_ROUND13_PRE_DEVELOPMENT",
+  "reference": "round11_P",
+  "mechanism": "Execution-only containing-circle separation. Published domain1800 and received-distance upper1500, separate and combined ablations; no actual source radius or location used.",
+  "variants": [
+    "REF",
+    "DOMAIN",
+    "RANGE",
+    "BOTH"
+  ],
+  "selection": "Select lowest bounded mean among new variants passing both development models: all complete/audited, failure-only action subsequence, same measurement/success/schedule trajectory, no individual virtual regression >1e-5, strictly lower mean and p95<=REF. Exact ties prefer fewer active prior families, then lexical name. Lock before new fixtures; same gates in each fresh ordinary/outer model. No alternate promotion after validation.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      170000,
+      170050
+    ],
+    "outer": [
+      180000,
+      180020
+    ]
+  },
+  "fresh_seed_note": "Reserved but not generated in round12.",
+  "official_runs": 0,
+  "formal_runs": 0
+}

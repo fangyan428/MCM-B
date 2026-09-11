@@ -1,0 +1,49 @@
+test_complete_over_real_loopback_http (test_baseline.HttpTests.test_complete_over_real_loopback_http) ... ok
+test_appendix_199_seconds_and_clear_channel (test_baseline.PhysicsTests.test_appendix_199_seconds_and_clear_channel) ... ok
+test_bias_fixed_at_same_location_and_bounded (test_baseline.PhysicsTests.test_bias_fixed_at_same_location_and_bounded) ... ok
+test_no_truth_fields (test_baseline.PhysicsTests.test_no_truth_fields) ... ok
+test_radius_and_near_and_clear_boundaries (test_baseline.PhysicsTests.test_radius_and_near_and_clear_boundaries) ... ok
+test_rounding_stress_enveloped (test_baseline.PhysicsTests.test_rounding_stress_enveloped) ... ok
+test_deadline_incomplete (test_baseline.ProtocolTests.test_deadline_incomplete) ... ok
+test_failed_http_status_not_accepted (test_baseline.ProtocolTests.test_failed_http_status_not_accepted) ... ok
+test_idempotency_and_conflict (test_baseline.ProtocolTests.test_idempotency_and_conflict) ... ok
+test_invalid_coordinate_no_effect (test_baseline.ProtocolTests.test_invalid_coordinate_no_effect) ... ok
+test_lost_response_same_id_exactly_once (test_baseline.ProtocolTests.test_lost_response_same_id_exactly_once) ... ok
+test_rejected_clock_zero_does_not_reset (test_baseline.ProtocolTests.test_rejected_clock_zero_does_not_reset) ... ok
+test_uncertain_action_blocks_new_actions (test_baseline.ProtocolTests.test_uncertain_action_blocks_new_actions) ... ok
+test_unknown_field_rejected_without_id_consumption (test_baseline.ProtocolTests.test_unknown_field_rejected_without_id_consumption) ... ok
+test_virtual_guard (test_baseline.ProtocolTests.test_virtual_guard) ... ok
+test_full_cases_stop_certificate (test_baseline.StrategyTests.test_full_cases_stop_certificate) ... ok
+test_late_eleventh_source_not_omitted (test_baseline.StrategyTests.test_late_eleventh_source_not_omitted) ... ok
+test_localization_contract_violation_incomplete (test_baseline.StrategyTests.test_localization_contract_violation_incomplete) ... ok
+test_optical_failure_is_not_success (test_baseline.StrategyTests.test_optical_failure_is_not_success) ... ok
+test_optical_grid_covers_polygon (test_baseline.StrategyTests.test_optical_grid_covers_polygon) ... ok
+test_q2_extended_error_certificate (test_baseline.StrategyTests.test_q2_extended_error_certificate) ... ok
+test_seven_station_cover (test_baseline.StrategyTests.test_seven_station_cover) ... ok
+test_strategy_does_not_import_simulator (test_baseline.StrategyTests.test_strategy_does_not_import_simulator) ... ok
+test_explicit_AB_over_real_http (test_http_cli.HttpCliTests.test_explicit_AB_over_real_http) ... ok
+test_rehearsal_requires_explicit_ui_confirmation (test_http_cli.HttpCliTests.test_rehearsal_requires_explicit_ui_confirmation) ... ok
+test_all_modes_complete (test_lookahead.LookaheadTests.test_all_modes_complete) ... ok
+test_material_distance_not_overridden (test_lookahead.LookaheadTests.test_material_distance_not_overridden) ... ok
+test_old_AB_unchanged (test_lookahead.LookaheadTests.test_old_AB_unchanged) ... ok
+test_sampling_fallback_is_not_infeasibility (test_lookahead.LookaheadTests.test_sampling_fallback_is_not_infeasibility) ... ok
+test_tie_cluster_regression (test_lookahead.LookaheadTests.test_tie_cluster_regression) ... ok
+test_tie_fix_real_station_geometry (test_lookahead.LookaheadTests.test_tie_fix_real_station_geometry) ... ok
+test_ABC_over_real_loopback_without_truth_fields (test_modules.ModuleTests.test_ABC_over_real_loopback_without_truth_fields) ... ok
+test_A_all_candidates_analytically_safe (test_modules.ModuleTests.test_A_all_candidates_analytically_safe) ... ok
+test_A_uses_current_position (test_modules.ModuleTests.test_A_uses_current_position) ... ok
+test_B_no_search_starvation (test_modules.ModuleTests.test_B_no_search_starvation) ... ok
+test_C_retains_true_cell_until_success (test_modules.ModuleTests.test_C_retains_true_cell_until_success) ... ok
+test_C_whole_cell_cover_not_centre_heuristic (test_modules.ModuleTests.test_C_whole_cell_cover_not_centre_heuristic) ... ok
+test_all_combinations_same_complete_contract (test_modules.ModuleTests.test_all_combinations_same_complete_contract) ... ok
+test_combined_budget_failure_not_complete (test_modules.ModuleTests.test_combined_budget_failure_not_complete) ... ok
+test_default_baseline_frozen_time (test_modules.ModuleTests.test_default_baseline_frozen_time) ... ok
+test_boundary_has_margin_and_fallback (test_optical_shortcut.SingleCircleTests.test_boundary_has_margin_and_fallback) ... ok
+test_collinear_and_translated (test_optical_shortcut.SingleCircleTests.test_collinear_and_translated) ... ok
+test_diameter_circle_counterexample (test_optical_shortcut.SingleCircleTests.test_diameter_circle_counterexample) ... ok
+test_single_circle_covers_all_convex_combinations (test_optical_shortcut.SingleCircleTests.test_single_circle_covers_all_convex_combinations) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 3.136s
+
+OK

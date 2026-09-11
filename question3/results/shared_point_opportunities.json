@@ -1,0 +1,1210 @@
+{
+  "kind": "POST_HOC_PUBLIC_LOG_OPPORTUNITY_NOT_PERFORMANCE_VALIDATION",
+  "cases": [
+    {
+      "case_id": "holdout_10000_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10000_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10000_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10000_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10001_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10001_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10001_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10001_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10002_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10002_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10002_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10002_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10003_negative",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 12
+    },
+    {
+      "case_id": "holdout_10003_positive",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10003_smooth",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10003_spatial_hash",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 12
+    },
+    {
+      "case_id": "holdout_10004_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10004_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10004_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10004_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10005_negative",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10005_positive",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10005_smooth",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10005_spatial_hash",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 8,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10006_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10006_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10006_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10006_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10007_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10007_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10007_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10007_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10008_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10008_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10008_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10008_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10009_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10009_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10009_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10009_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10010_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10010_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10010_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10010_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10011_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10011_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10011_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10011_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10012_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10012_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10012_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10012_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10013_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10013_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10013_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10013_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10014_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10014_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10014_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10014_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10015_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10015_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10015_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10015_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10016_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10016_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10016_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10016_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10017_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10017_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10017_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10017_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10018_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10018_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10018_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10018_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10019_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10019_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10019_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10019_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10020_negative",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10020_positive",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10020_smooth",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10020_spatial_hash",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10021_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10021_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10021_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10021_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 11
+    },
+    {
+      "case_id": "holdout_10022_negative",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10022_positive",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10022_smooth",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10022_spatial_hash",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10023_negative",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10023_positive",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 11
+    },
+    {
+      "case_id": "holdout_10023_smooth",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10023_spatial_hash",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10024_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10024_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10024_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10024_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10025_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10025_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10025_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10025_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10026_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10026_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10026_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10026_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10027_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10027_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10027_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10027_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10028_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10028_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10028_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10028_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10029_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10029_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10029_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10029_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10030_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 13
+    },
+    {
+      "case_id": "holdout_10030_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 8,
+      "compatible_other_channels": 11
+    },
+    {
+      "case_id": "holdout_10030_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 13
+    },
+    {
+      "case_id": "holdout_10030_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 9,
+      "compatible_other_channels": 16
+    },
+    {
+      "case_id": "holdout_10031_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10031_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10031_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10031_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10032_negative",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10032_positive",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10032_smooth",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10032_spatial_hash",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10033_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10033_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10033_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10033_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10034_negative",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10034_positive",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 9
+    },
+    {
+      "case_id": "holdout_10034_smooth",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10034_spatial_hash",
+      "second_measurements": 14,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10035_negative",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10035_positive",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10035_smooth",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10035_spatial_hash",
+      "second_measurements": 16,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10036_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10036_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10036_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10036_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10037_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10037_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10037_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10037_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10038_negative",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10038_positive",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10038_smooth",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10038_spatial_hash",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10039_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10039_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 0,
+      "compatible_other_channels": 0
+    },
+    {
+      "case_id": "holdout_10039_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 0,
+      "compatible_other_channels": 0
+    },
+    {
+      "case_id": "holdout_10039_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10040_negative",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 9,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10040_positive",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10040_smooth",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 7,
+      "compatible_other_channels": 10
+    },
+    {
+      "case_id": "holdout_10040_spatial_hash",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 6,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10041_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10041_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10041_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10041_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10042_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10042_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10042_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 8
+    },
+    {
+      "case_id": "holdout_10042_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10043_negative",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10043_positive",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10043_smooth",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10043_spatial_hash",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10044_negative",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10044_positive",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10044_smooth",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10044_spatial_hash",
+      "second_measurements": 11,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10045_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10045_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10045_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10045_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 1,
+      "compatible_other_channels": 1
+    },
+    {
+      "case_id": "holdout_10046_negative",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10046_positive",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10046_smooth",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10046_spatial_hash",
+      "second_measurements": 12,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10047_negative",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10047_positive",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10047_smooth",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10047_spatial_hash",
+      "second_measurements": 13,
+      "points_compatible_with_other_pending": 5,
+      "compatible_other_channels": 7
+    },
+    {
+      "case_id": "holdout_10048_negative",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 5
+    },
+    {
+      "case_id": "holdout_10048_positive",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 4,
+      "compatible_other_channels": 6
+    },
+    {
+      "case_id": "holdout_10048_smooth",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10048_spatial_hash",
+      "second_measurements": 15,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 3
+    },
+    {
+      "case_id": "holdout_10049_negative",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 3,
+      "compatible_other_channels": 4
+    },
+    {
+      "case_id": "holdout_10049_positive",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10049_smooth",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    },
+    {
+      "case_id": "holdout_10049_spatial_hash",
+      "second_measurements": 10,
+      "points_compatible_with_other_pending": 2,
+      "compatible_other_channels": 2
+    }
+  ],
+  "totals": {
+    "second_measurements": 2548,
+    "points_compatible_with_other_pending": 772,
+    "compatible_other_channels": 1055
+  }
+}

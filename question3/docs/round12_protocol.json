@@ -1,0 +1,22 @@
+{
+  "kind": "SELF_ROUND12_PRE_DEVELOPMENT",
+  "reference": "round11_P",
+  "mechanism": "Keep single-halfplane proofs; add nonnegative two-halfplane separation witnesses only at clear execution. No ordering change and no parameter sweep.",
+  "variants": [
+    "REF",
+    "Q"
+  ],
+  "selection": "Both development models: complete/audited, original measurement/success/schedule trajectories equal, only additional failed clears removed, no individual virtual regression >1e-5; mean strictly lower in both models. Only then lock for fresh ordinary/outer batches, same gates for each.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      170000,
+      170050
+    ],
+    "outer": [
+      180000,
+      180020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

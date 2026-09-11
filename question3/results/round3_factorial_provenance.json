@@ -1,0 +1,64 @@
+{
+  "kind": "SELF_ROUND3_DEVELOPMENT_POST_RUN_PROVENANCE",
+  "same_scenarios": true,
+  "same_configs": true,
+  "same_code": true,
+  "current_experiment_code_matches_snapshot": true,
+  "AB_and_ABD_metrics_unchanged": true,
+  "all_shared_plans_used": true,
+  "checks": [
+    {
+      "batch": "round3_factorial_main",
+      "runs": 416,
+      "fully_cleared_and_audited": 416,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 49197
+    },
+    {
+      "batch": "round3_factorial_rounding",
+      "runs": 416,
+      "fully_cleared_and_audited": 416,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 49165
+    }
+  ],
+  "code_sha256": {
+    "question3/cases.py": "f65edff0b35d467057e831c492eb48fe63083dd02da7380574bceded2cb1e828",
+    "question3/self_server.py": "da8ebe8ca8b575405db8a32229d08b627af466c0e85d1e3fe4815e49e3844c64",
+    "question3/order_routing.py": "425b8a06d931e33c61f5cd9b3474e014954acdae1f9d899f38bd4a14a56e63ce",
+    "question3/lookahead.py": "de405e2f02a78d84d0c1e9e97fa013d2fde280d0130d106c3cb36a77595a12a8",
+    "question3/strategy.py": "29429cfca82a13b41961b874dc7774fc2f54b955ae9bed089f42bdec8318c14c",
+    "question3/run_self.py": "ababc3e8b38375208a9a8143da3b833b54d69a99bec2abdfe90411d4aad699d3",
+    "question3/geometry.py": "a65a762c07efaa4961960ca998f11d1aad7b893d03ba40e7eff964007ab51f13",
+    "question3/simulator.py": "648d99f3a842182682b093294f827d50ddfd0c216b154b3b2ee94ad208a172e2",
+    "question3/optical_shortcut.py": "a2a9b18c4d9fc588687e516362613953da9508c06bd576bb9d834315c9473a90",
+    "question3/run_http.py": "2885a8b1624fec4500dca9534f53bd4629f6fa8864157e5935e0f4db637ca1c6",
+    "question3/analyze_matrix.py": "9b0d3961d354d3e9258304018e27b228f4588cc614f367f785bac87068b9d7cd",
+    "question3/__init__.py": "f62b0abcce0bf1263b263b006344fc9c3254afbb0c627decaa37866cbd22ce4a",
+    "question3/modules.py": "8613e9cf916d0550dde26218a849f6a35eea29c12e145bd4e09e147bf17a68dc",
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question3/run_faults.py": "1622d3314b22c9aab0a1dcb0b2172833b1ebb0f0dd2861e72dc3c6b686f1be00",
+    "question3/shared_measurement.py": "98f7825f553747497f2d15a2c0244085162debfea8b655825c3bad661176320e",
+    "question3/make_holdout.py": "0515ad796994b3a9dca4f09599de1199b2c59b301438ae8bcfdcdeb6d439e89e",
+    "question3/run_matrix.py": "5339ea425235217b477425ecf3e31a03606b86b273b5090e6faf52270fe7e08f",
+    "question3/audit.py": "c856ef1eb6abbe1df7533f82744ccd9432e12c642704b796fd5ef9d3b514b3e2",
+    "question1/solve.py": "2c98cdc298eb3bb04bfddeaad1259939c9972fc0b32c15a034a045f94f3df033",
+    "question2/strategy.py": "9361ac88d7782a2da0d4bda646299dec55ade0d7e562fb09fcd40c97aad79f02"
+  },
+  "config_sha256": {
+    "question3/configs/round3_factorial/AB.json": "60cea144cd6c1222a9d188b0a4bd5612f44ff49036e8655e633f150882ccda2b",
+    "question3/configs/round3_factorial/ABD.json": "12b8e9e4a1ceee3e3c3203bbf2349fbdcc870044f2113ca0f58f33e3085302a9",
+    "question3/configs/round3_factorial/ABO.json": "6d481246e6e41d947205b5e2c46403171891900dbd44d5bd3872f8f0666a0abb",
+    "question3/configs/round3_factorial/ABOD.json": "4add1095a5d335646b16d427c8c39ba75413c1664e69a5d8663f6dd29736bfb6",
+    "question3/configs/round3_factorial/ABS.json": "d5ddd8b1da5259328022358669e7c1c17ed8ebae6dab239b4550207c4f3bc06e",
+    "question3/configs/round3_factorial/ABSD.json": "22a8a373efe5fff1b8ac08d30615597d97b1ae84dc423150c4d8178c59367666",
+    "question3/configs/round3_factorial/ABSO.json": "501a4d84e5cabf749ecdf8885787ff167d09dcc478a0668b481dade879f8dcfa",
+    "question3/configs/round3_factorial/ABSOD.json": "9f7cb74278f83788feab22d924879104b1d0afbea8f3c5996067231c0f4ccdc9"
+  },
+  "protocol_sha256": "c1c5dc875a87a6e66cd45d4977e62aa1839a3f527de3b8ce65e7cad4a7f0c136",
+  "official_runs_this_round": 0,
+  "formal_runs_this_round": 0,
+  "new_heldout_runs_this_round": 0
+}

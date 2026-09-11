@@ -1,0 +1,1393 @@
+{
+  "selected": "ABSR1125E",
+  "code_lock_unchanged": true,
+  "batches": {
+    "round4_dev_main": {
+      "kind": "SELF_PROBLEM3_ROUND4_DEVELOPMENT",
+      "runs": 468,
+      "configurations": 9,
+      "complete": 468,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 55137,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1892.0698015561236,
+            "near": 1.6346153846153846,
+            "optical": 1770.0466081883608,
+            "search": 1727.9180055225177
+          }
+        },
+        "ABR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1638.4100966739356,
+            "near": 0.09615384615384616,
+            "optical": 1720.6382415455623,
+            "search": 1477.7627184272228
+          }
+        },
+        "ABR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1723.9666615545111,
+            "near": 0.09615384615384616,
+            "optical": 1745.152058704015,
+            "search": 1533.924848309757
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 160,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1493.4391193194112,
+            "localization_shared": 18.46153846153846,
+            "near": 1.6346153846153846,
+            "optical": 1802.030026545982,
+            "search": 1758.2809878293056
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 136,
+          "gate_choices": 136,
+          "gate_rejections": 40,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1542.4182152474873,
+            "localization_shared": 15.692307692307692,
+            "near": 1.6346153846153846,
+            "optical": 1789.9347526031647,
+            "search": 1727.5312554068698
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 165,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1308.7014239808489,
+            "localization_shared": 19.03846153846154,
+            "near": 0.09615384615384616,
+            "optical": 1793.0146870715803,
+            "search": 1480.2276989912777
+          }
+        },
+        "ABSR1125G": {
+          "ring_switches": 0,
+          "shared_measurements": 131,
+          "gate_choices": 131,
+          "gate_rejections": 42,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1402.1315893565104,
+            "localization_shared": 15.115384615384615,
+            "near": 0.09615384615384616,
+            "optical": 1733.3154017282775,
+            "search": 1493.3712855077122
+          }
+        },
+        "ABSR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 169,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1297.0635701077845,
+            "localization_shared": 19.5,
+            "near": 0.09615384615384616,
+            "optical": 1828.7452875055071,
+            "search": 1513.1462021556486
+          }
+        },
+        "ABSR1200G": {
+          "ring_switches": 0,
+          "shared_measurements": 134,
+          "gate_choices": 134,
+          "gate_rejections": 39,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1441.5871741205685,
+            "localization_shared": 15.461538461538462,
+            "near": 0.09615384615384616,
+            "optical": 1719.856301682956,
+            "search": 1521.855114779279
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 317.8227426923077,
+          "median_gain": 0.06116248135771607,
+          "wins": 43,
+          "losses": 8,
+          "ties": 1,
+          "worst_gain": -0.11056605106568917,
+          "worst_case": "dev_6_smooth",
+          "worst_times_s": [
+            5695.973465,
+            6325.754758
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -3.3648584807692887,
+          "median_gain": 0.0,
+          "wins": 13,
+          "losses": 16,
+          "ties": 23,
+          "worst_gain": -0.14453275222602646,
+          "worst_case": "dev_6_negative",
+          "worst_times_s": [
+            5666.798704,
+            6485.836717
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 472.7678627307692,
+          "median_gain": 0.10280923585541507,
+          "wins": 46,
+          "losses": 6,
+          "ties": 0,
+          "worst_gain": -0.6458150250925545,
+          "worst_case": "clustered_16",
+          "worst_times_s": [
+            2431.0,
+            4000.976326
+          ]
+        },
+        {
+          "before": "ABR1125",
+          "after": "ABSR1125",
+          "mean_saved_s": 235.82878511538462,
+          "median_gain": 0.043421718647468854,
+          "wins": 41,
+          "losses": 11,
+          "ties": 0,
+          "worst_gain": -0.13793525923120598,
+          "worst_case": "dev_4_negative",
+          "worst_times_s": [
+            3994.549197,
+            4545.538376
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125G",
+          "mean_saved_s": -42.951389557692295,
+          "median_gain": 0.0,
+          "wins": 10,
+          "losses": 23,
+          "ties": 19,
+          "worst_gain": -0.11376176731985144,
+          "worst_case": "dev_11_negative",
+          "worst_times_s": [
+            4542.429642,
+            5059.184466
+          ]
+        }
+      ]
+    },
+    "round4_dev_rounding": {
+      "kind": "SELF_PROBLEM3_ROUND4_DEVELOPMENT_ROUNDING",
+      "runs": 468,
+      "configurations": 9,
+      "complete": 468,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 54981,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1861.6541570607556,
+            "near": 1.6346153846153846,
+            "optical": 1773.9210694933254,
+            "search": 1727.858497867557
+          }
+        },
+        "ABR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1607.6268669590572,
+            "near": 0.09615384615384616,
+            "optical": 1722.7422604943536,
+            "search": 1461.3801577080835
+          }
+        },
+        "ABR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1684.3839704326338,
+            "near": 0.09615384615384616,
+            "optical": 1747.7507795888282,
+            "search": 1512.9001224628687
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 154,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1480.217674264422,
+            "localization_shared": 17.76923076923077,
+            "near": 1.6346153846153846,
+            "optical": 1792.7533295192309,
+            "search": 1751.5099347464502
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 133,
+          "gate_choices": 133,
+          "gate_rejections": 40,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1538.7368259863954,
+            "localization_shared": 15.346153846153847,
+            "near": 1.6346153846153846,
+            "optical": 1766.5104938432107,
+            "search": 1718.5118643785443
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 159,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1287.1416644698513,
+            "localization_shared": 18.346153846153847,
+            "near": 0.09615384615384616,
+            "optical": 1781.953887944049,
+            "search": 1472.3930248143665
+          }
+        },
+        "ABSR1125G": {
+          "ring_switches": 0,
+          "shared_measurements": 128,
+          "gate_choices": 128,
+          "gate_rejections": 41,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1390.1694281719074,
+            "localization_shared": 14.76923076923077,
+            "near": 0.09615384615384616,
+            "optical": 1728.2717400384608,
+            "search": 1470.5607165829658
+          }
+        },
+        "ABSR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 163,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1320.107927583975,
+            "localization_shared": 18.807692307692307,
+            "near": 0.09615384615384616,
+            "optical": 1787.374558533702,
+            "search": 1483.740485413635
+          }
+        },
+        "ABSR1200G": {
+          "ring_switches": 0,
+          "shared_measurements": 131,
+          "gate_choices": 131,
+          "gate_rejections": 39,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1449.5357890912314,
+            "localization_shared": 15.115384615384615,
+            "near": 0.09615384615384616,
+            "optical": 1710.7766153481268,
+            "search": 1487.5557150307118
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 321.183555,
+          "median_gain": 0.062116028463563955,
+          "wins": 42,
+          "losses": 9,
+          "ties": 1,
+          "worst_gain": -0.11056204095921984,
+          "worst_case": "dev_6_smooth",
+          "worst_times_s": [
+            5695.994887,
+            6325.755707
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": 3.1448314807691986,
+          "median_gain": 0.0,
+          "wins": 14,
+          "losses": 19,
+          "ties": 19,
+          "worst_gain": -0.24254399045100716,
+          "worst_case": "dev_8_positive",
+          "worst_times_s": [
+            3980.671907,
+            4946.159956
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 483.9539000192308,
+          "median_gain": 0.10719476893189456,
+          "wins": 46,
+          "losses": 6,
+          "ties": 0,
+          "worst_gain": -0.6458865104895104,
+          "worst_case": "clustered_16",
+          "worst_times_s": [
+            2431.0,
+            4001.150107
+          ]
+        },
+        {
+          "before": "ABR1125",
+          "after": "ABSR1125",
+          "mean_saved_s": 231.91455436538462,
+          "median_gain": 0.031451792130598344,
+          "wins": 40,
+          "losses": 12,
+          "ties": 0,
+          "worst_gain": -0.15599299237709063,
+          "worst_case": "dev_4_positive",
+          "worst_times_s": [
+            3951.41125,
+            4567.803715
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125G",
+          "mean_saved_s": -43.93638421153845,
+          "median_gain": 0.0,
+          "wins": 12,
+          "losses": 23,
+          "ties": 17,
+          "worst_gain": -0.11008076734646055,
+          "worst_case": "dev_7_smooth",
+          "worst_times_s": [
+            4471.660217,
+            4963.904005
+          ]
+        }
+      ]
+    },
+    "round4_adapt_main": {
+      "kind": "SELF_PROBLEM3_ROUND4_ADAPT_DEVELOPMENT",
+      "runs": 364,
+      "configurations": 7,
+      "complete": 364,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 43082,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1892.0698015561236,
+            "near": 1.6346153846153846,
+            "optical": 1770.0466081883608,
+            "search": 1727.9180055225177
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 160,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1493.4391193194112,
+            "localization_shared": 18.46153846153846,
+            "near": 1.6346153846153846,
+            "optical": 1802.030026545982,
+            "search": 1758.2809878293056
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 136,
+          "gate_choices": 136,
+          "gate_rejections": 40,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1542.4182152474873,
+            "localization_shared": 15.692307692307692,
+            "near": 1.6346153846153846,
+            "optical": 1789.9347526031647,
+            "search": 1727.5312554068698
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 165,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1308.7014239808489,
+            "localization_shared": 19.03846153846154,
+            "near": 0.09615384615384616,
+            "optical": 1793.0146870715803,
+            "search": 1480.2276989912777
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 2,
+          "shared_measurements": 156,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1291.8055991339022,
+            "localization_shared": 18.0,
+            "near": 1.6346153846153846,
+            "optical": 1763.2227632742538,
+            "search": 1493.3783462769652
+          }
+        },
+        "ABSR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 169,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1297.0635701077845,
+            "localization_shared": 19.5,
+            "near": 0.09615384615384616,
+            "optical": 1828.7452875055071,
+            "search": 1513.1462021556486
+          }
+        },
+        "ABSR1200E": {
+          "ring_switches": 2,
+          "shared_measurements": 161,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1277.6421865566626,
+            "localization_shared": 18.576923076923077,
+            "near": 1.6346153846153846,
+            "optical": 1796.8505949063647,
+            "search": 1524.3797184068828
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 317.8227426923077,
+          "median_gain": 0.06116248135771607,
+          "wins": 43,
+          "losses": 8,
+          "ties": 1,
+          "worst_gain": -0.11056605106568917,
+          "worst_case": "dev_6_smooth",
+          "worst_times_s": [
+            5695.973465,
+            6325.754758
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -3.3648584807692887,
+          "median_gain": 0.0,
+          "wins": 13,
+          "losses": 16,
+          "ties": 23,
+          "worst_gain": -0.14453275222602646,
+          "worst_case": "dev_6_negative",
+          "worst_times_s": [
+            5666.798704,
+            6485.836717
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 472.7678627307692,
+          "median_gain": 0.10280923585541507,
+          "wins": 46,
+          "losses": 6,
+          "ties": 0,
+          "worst_gain": -0.6458150250925545,
+          "worst_case": "clustered_16",
+          "worst_times_s": [
+            2431.0,
+            4000.976326
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": 33.037101365384615,
+          "median_gain": 0.0,
+          "wins": 2,
+          "losses": 0,
+          "ties": 50,
+          "worst_gain": 0.0,
+          "worst_case": "dev_0_negative",
+          "worst_times_s": [
+            5007.970913,
+            5007.970913
+          ]
+        }
+      ]
+    },
+    "round4_adapt_rounding": {
+      "kind": "SELF_PROBLEM3_ROUND4_ADAPT_DEVELOPMENT_ROUNDING",
+      "runs": 364,
+      "configurations": 7,
+      "complete": 364,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 42962,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1861.6541570607556,
+            "near": 1.6346153846153846,
+            "optical": 1773.9210694933254,
+            "search": 1727.858497867557
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 154,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1480.217674264422,
+            "localization_shared": 17.76923076923077,
+            "near": 1.6346153846153846,
+            "optical": 1792.7533295192309,
+            "search": 1751.5099347464502
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 133,
+          "gate_choices": 133,
+          "gate_rejections": 40,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1538.7368259863954,
+            "localization_shared": 15.346153846153847,
+            "near": 1.6346153846153846,
+            "optical": 1766.5104938432107,
+            "search": 1718.5118643785443
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 159,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1287.1416644698513,
+            "localization_shared": 18.346153846153847,
+            "near": 0.09615384615384616,
+            "optical": 1781.953887944049,
+            "search": 1472.3930248143665
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 2,
+          "shared_measurements": 151,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1262.956781878841,
+            "localization_shared": 17.423076923076923,
+            "near": 1.6346153846153846,
+            "optical": 1763.2045904653958,
+            "search": 1488.8934926694944
+          }
+        },
+        "ABSR1200": {
+          "ring_switches": 0,
+          "shared_measurements": 163,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1320.107927583975,
+            "localization_shared": 18.807692307692307,
+            "near": 0.09615384615384616,
+            "optical": 1787.374558533702,
+            "search": 1483.740485413635
+          }
+        },
+        "ABSR1200E": {
+          "ring_switches": 2,
+          "shared_measurements": 154,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 685,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1289.9540146962643,
+            "localization_shared": 17.76923076923077,
+            "near": 1.6346153846153846,
+            "optical": 1764.6395717562496,
+            "search": 1496.4024548473224
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 321.183555,
+          "median_gain": 0.062116028463563955,
+          "wins": 42,
+          "losses": 9,
+          "ties": 1,
+          "worst_gain": -0.11056204095921984,
+          "worst_case": "dev_6_smooth",
+          "worst_times_s": [
+            5695.994887,
+            6325.755707
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": 3.1448314807691986,
+          "median_gain": 0.0,
+          "wins": 14,
+          "losses": 19,
+          "ties": 19,
+          "worst_gain": -0.24254399045100716,
+          "worst_case": "dev_8_positive",
+          "worst_times_s": [
+            3980.671907,
+            4946.159956
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 483.9539000192308,
+          "median_gain": 0.10719476893189456,
+          "wins": 46,
+          "losses": 6,
+          "ties": 0,
+          "worst_gain": -0.6458865104895104,
+          "worst_case": "clustered_16",
+          "worst_times_s": [
+            2431.0,
+            4001.150107
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": 25.818327596153853,
+          "median_gain": 0.0,
+          "wins": 1,
+          "losses": 1,
+          "ties": 50,
+          "worst_gain": -0.03601433782969887,
+          "worst_case": "boundary_minR_16",
+          "worst_times_s": [
+            6319.623953,
+            6547.221025
+          ]
+        }
+      ]
+    },
+    "round4_holdout_main": {
+      "kind": "SELF_PROBLEM3_ROUND4_HELDOUT",
+      "runs": 1000,
+      "configurations": 5,
+      "complete": 1000,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 117925,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1876.0367552821137,
+            "optical": 1783.633771753741,
+            "search": 1716.6158599856626
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 599,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1483.2452197905777,
+            "localization_shared": 17.97,
+            "optical": 1857.5221556771762,
+            "search": 1696.949225655285
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 413,
+          "gate_choices": 413,
+          "gate_rejections": 218,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1610.7431222821335,
+            "localization_shared": 12.39,
+            "optical": 1837.8716835947887,
+            "search": 1685.4733746225745
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 584,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1259.4461448192449,
+            "localization_shared": 17.52,
+            "optical": 1753.1525918224831,
+            "search": 1457.997705911362
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 0,
+          "shared_measurements": 584,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1259.4461448192449,
+            "localization_shared": 17.52,
+            "optical": 1753.1525918224831,
+            "search": 1457.997705911362
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 320.5997858,
+          "median_gain": 0.05811509919598212,
+          "wins": 177,
+          "losses": 22,
+          "ties": 1,
+          "worst_gain": -0.12673631780540262,
+          "worst_case": "holdout_20031_negative",
+          "worst_times_s": [
+            5152.612671,
+            5805.635828
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -90.79157927500005,
+          "median_gain": -0.009010919522914884,
+          "wins": 49,
+          "losses": 122,
+          "ties": 29,
+          "worst_gain": -0.2655294881967669,
+          "worst_case": "holdout_20034_spatial_hash",
+          "worst_times_s": [
+            3874.841446,
+            4903.726112
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 567.57015881,
+          "median_gain": 0.11030239053805901,
+          "wins": 191,
+          "losses": 9,
+          "ties": 0,
+          "worst_gain": -0.12304670672194518,
+          "worst_case": "holdout_20034_spatial_hash",
+          "worst_times_s": [
+            3874.841446,
+            4351.627925
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": 0.0,
+          "median_gain": 0.0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 200,
+          "worst_gain": 0.0,
+          "worst_case": "holdout_20000_negative",
+          "worst_times_s": [
+            4250.596523,
+            4250.596523
+          ]
+        }
+      ]
+    },
+    "round4_holdout_rounding": {
+      "kind": "SELF_PROBLEM3_ROUND4_HELDOUT_ROUNDING",
+      "runs": 1000,
+      "configurations": 5,
+      "complete": 1000,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 117859,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1875.449088536516,
+            "optical": 1780.7681913886395,
+            "search": 1717.0836183120327
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 607,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1487.0778705077953,
+            "localization_shared": 18.21,
+            "optical": 1861.0541574821355,
+            "search": 1682.7309404829184
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 407,
+          "gate_choices": 407,
+          "gate_rejections": 230,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1617.5705459307487,
+            "localization_shared": 12.21,
+            "optical": 1831.1924574609711,
+            "search": 1686.674579099629
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 581,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1243.76364993521,
+            "localization_shared": 17.43,
+            "optical": 1770.0211943484435,
+            "search": 1439.9333628489458
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 0,
+          "shared_measurements": 581,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 2616,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1243.76364993521,
+            "localization_shared": 17.43,
+            "optical": 1770.0211943484435,
+            "search": 1439.9333628489458
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 324.227929755,
+          "median_gain": 0.06395906108096361,
+          "wins": 172,
+          "losses": 27,
+          "ties": 1,
+          "worst_gain": -0.14088910815482802,
+          "worst_case": "holdout_20031_positive",
+          "worst_times_s": [
+            4994.795128,
+            5698.507359
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -98.57461386000003,
+          "median_gain": -0.009379832489198048,
+          "wins": 52,
+          "losses": 119,
+          "ties": 29,
+          "worst_gain": -0.2656934057971707,
+          "worst_case": "holdout_20034_spatial_hash",
+          "worst_times_s": [
+            3874.346113,
+            4903.734327
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 577.92476141,
+          "median_gain": 0.11518055599183519,
+          "wins": 191,
+          "losses": 9,
+          "ties": 0,
+          "worst_gain": -0.12319028762002593,
+          "worst_case": "holdout_20034_spatial_hash",
+          "worst_times_s": [
+            3874.346113,
+            4351.627925
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": 0.0,
+          "median_gain": 0.0,
+          "wins": 0,
+          "losses": 0,
+          "ties": 200,
+          "worst_gain": 0.0,
+          "worst_case": "holdout_20000_negative",
+          "worst_times_s": [
+            4262.592018,
+            4262.592018
+          ]
+        }
+      ]
+    },
+    "round4_outer_main": {
+      "kind": "SELF_PROBLEM3_ROUND4_OUTER_TARGETED_HELDOUT",
+      "runs": 400,
+      "configurations": 5,
+      "complete": 400,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 53563,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1945.5174075703337,
+            "optical": 1648.5896020627638,
+            "search": 2392.048307433557
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 375,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1354.133382261322,
+            "localization_shared": 28.125,
+            "optical": 1407.7260396157296,
+            "search": 2393.1110751204706
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 356,
+          "gate_choices": 356,
+          "gate_rejections": 28,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1433.6342672625647,
+            "localization_shared": 26.7,
+            "optical": 1348.3320420451919,
+            "search": 2399.7631328691705
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 373,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1133.7564878087678,
+            "localization_shared": 27.975,
+            "optical": 1222.2093719843947,
+            "search": 2078.7505558799007
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 80,
+          "shared_measurements": 375,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1354.133382261322,
+            "localization_shared": 28.125,
+            "optical": 1407.7260396157296,
+            "search": 2393.1110751204706
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 803.0598203,
+          "median_gain": 0.15838472890822952,
+          "wins": 75,
+          "losses": 5,
+          "ties": 0,
+          "worst_gain": -0.022170507011736396,
+          "worst_case": "outer_holdout_30000_positive",
+          "worst_times_s": [
+            5260.131351,
+            5376.75113
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -25.333945200000024,
+          "median_gain": 0.0,
+          "wins": 37,
+          "losses": 32,
+          "ties": 11,
+          "worst_gain": -0.07604165603645474,
+          "worst_case": "outer_holdout_30014_positive",
+          "worst_times_s": [
+            6449.77734,
+            6940.22909
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 720.4040808249999,
+          "median_gain": 0.13338251419058017,
+          "wins": 75,
+          "losses": 5,
+          "ties": 0,
+          "worst_gain": -0.09821617618260481,
+          "worst_case": "outer_holdout_30010_smooth",
+          "worst_times_s": [
+            5239.144925,
+            5753.713706
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": -720.4040808249999,
+          "median_gain": -0.15392038293074717,
+          "wins": 5,
+          "losses": 75,
+          "ties": 0,
+          "worst_gain": -0.46190404391080797,
+          "worst_case": "outer_holdout_30010_negative",
+          "worst_times_s": [
+            4587.391063,
+            6706.325546
+          ]
+        }
+      ]
+    },
+    "round4_outer_rounding": {
+      "kind": "SELF_PROBLEM3_ROUND4_OUTER_TARGETED_HELDOUT_ROUNDING",
+      "runs": 400,
+      "configurations": 5,
+      "complete": 400,
+      "timeouts": 0,
+      "false_complete": 0,
+      "actions_audited": 53532,
+      "variants": {
+        "AB": {
+          "ring_switches": 0,
+          "shared_measurements": 0,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1940.6056550065762,
+            "optical": 1645.4284583230594,
+            "search": 2387.046173520105
+          }
+        },
+        "ABS": {
+          "ring_switches": 0,
+          "shared_measurements": 369,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1374.1540203354357,
+            "localization_shared": 27.675,
+            "optical": 1390.2234314363134,
+            "search": 2380.909989735372
+          }
+        },
+        "ABSG": {
+          "ring_switches": 0,
+          "shared_measurements": 353,
+          "gate_choices": 353,
+          "gate_rejections": 27,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1444.4456486176932,
+            "localization_shared": 26.475,
+            "optical": 1334.3791453214235,
+            "search": 2387.6804283232022
+          }
+        },
+        "ABSR1125": {
+          "ring_switches": 0,
+          "shared_measurements": 373,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1115.4068683275777,
+            "localization_shared": 27.975,
+            "optical": 1237.230194235211,
+            "search": 2072.2790028131335
+          }
+        },
+        "ABSR1125E": {
+          "ring_switches": 80,
+          "shared_measurements": 369,
+          "gate_choices": 0,
+          "gate_rejections": 0,
+          "cleared_across_runs": 1044,
+          "mean_phases": {
+            "control": 0.0,
+            "localization": 1374.1540203354357,
+            "localization_shared": 27.675,
+            "optical": 1390.2234314363134,
+            "search": 2380.909989735372
+          }
+        }
+      },
+      "pairs": [
+        {
+          "before": "AB",
+          "after": "ABS",
+          "mean_saved_s": 800.1178452875,
+          "median_gain": 0.1533766355142932,
+          "wins": 77,
+          "losses": 3,
+          "ties": 0,
+          "worst_gain": -0.009251772669617742,
+          "worst_case": "outer_holdout_30006_negative",
+          "worst_times_s": [
+            6683.033534,
+            6744.863441
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSG",
+          "mean_saved_s": -20.01778079999994,
+          "median_gain": 0.0,
+          "wins": 37,
+          "losses": 29,
+          "ties": 14,
+          "worst_gain": -0.07895574339354616,
+          "worst_case": "outer_holdout_30014_positive",
+          "worst_times_s": [
+            6447.63783,
+            6956.715868
+          ]
+        },
+        {
+          "before": "ABS",
+          "after": "ABSR1125",
+          "mean_saved_s": 720.071375975,
+          "median_gain": 0.14317443522419632,
+          "wins": 77,
+          "losses": 3,
+          "ties": 0,
+          "worst_gain": -0.09821617618260481,
+          "worst_case": "outer_holdout_30010_smooth",
+          "worst_times_s": [
+            5239.144925,
+            5753.713706
+          ]
+        },
+        {
+          "before": "ABSR1125",
+          "after": "ABSR1125E",
+          "mean_saved_s": -720.071375975,
+          "median_gain": -0.16709915356963057,
+          "wins": 3,
+          "losses": 77,
+          "ties": 0,
+          "worst_gain": -0.44846555888176387,
+          "worst_case": "outer_holdout_30017_positive",
+          "worst_times_s": [
+            3866.821007,
+            5600.957051
+          ]
+        }
+      ]
+    }
+  },
+  "adoption_checks": [
+    {
+      "batch": "round4_holdout_main",
+      "pass_criteria": true,
+      "mean_reduction_fraction": 0.16520138261678285
+    },
+    {
+      "batch": "round4_holdout_rounding",
+      "pass_criteria": true,
+      "mean_reduction_fraction": 0.1678954348804187
+    },
+    {
+      "batch": "round4_outer_main",
+      "pass_criteria": true,
+      "mean_reduction_fraction": 0.13415285398968246
+    },
+    {
+      "batch": "round4_outer_rounding",
+      "pass_criteria": true,
+      "mean_reduction_fraction": 0.13395397462935055
+    }
+  ],
+  "adopt_selected": true,
+  "total_runs": 4464,
+  "total_audited_actions": 539041
+}

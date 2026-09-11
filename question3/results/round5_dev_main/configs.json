@@ -1,0 +1,136 @@
+{
+  "AB": {
+    "name": "round5_AB",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false
+    }
+  },
+  "ABS": {
+    "name": "round5_ABS",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    }
+  },
+  "ABS_BATCH": {
+    "name": "round5_ABS_BATCH",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "shared_batch_limit": 19
+  },
+  "COMPACT": {
+    "name": "round5_COMPACT",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125
+  },
+  "COMPACT_BATCH": {
+    "name": "round5_COMPACT_BATCH",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125,
+    "shared_batch_limit": 19
+  },
+  "REF": {
+    "name": "round5_REF",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125,
+    "empty_origin_radius_m": 1500.0
+  },
+  "REF_BATCH": {
+    "name": "round5_REF_BATCH",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125,
+    "empty_origin_radius_m": 1500.0,
+    "shared_batch_limit": 19
+  }
+}

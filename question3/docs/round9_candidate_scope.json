@@ -1,0 +1,9 @@
+{
+  "kind": "ROUND9_CANDIDATE_SCOPE_CLARIFICATION_BEFORE_NEW_VALIDATION",
+  "reason": "Initial protocol wording said qualifying variants without distinguishing controls. Only newly introduced JL/ZL are candidates in this timing study. REF/J/Z are unchanged controls; Z already failed round8 independent validation and is not re-selected from the same development results.",
+  "eligible": [
+    "JL",
+    "ZL"
+  ],
+  "selection": "ZL has lowest main development mean among new eligible candidates; both mean/P95 gates pass. Original protocol is retained. No new validation data generated or inspected at this amendment."
+}

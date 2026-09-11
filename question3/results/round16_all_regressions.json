@@ -1,0 +1,2443 @@
+{
+  "kind": "POST_RUN_DIAGNOSTIC_NOT_NEW_VALIDATION",
+  "batches": {
+    "dev_main": [
+      {
+        "case": "dev_8_smooth",
+        "ref_s": 3779.726389,
+        "free_s": 4169.548887,
+        "delta_s": 389.822498,
+        "increase_pct": 10.31351102911804,
+        "components_delta_s": {
+          "movement_s": 392.82249927818157,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_positive",
+        "ref_s": 3686.792264,
+        "free_s": 3903.375384,
+        "delta_s": 216.58311999999978,
+        "increase_pct": 5.8745680388570864,
+        "components_delta_s": {
+          "movement_s": 213.58311975470951,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_spatial_hash",
+        "ref_s": 3682.964953,
+        "free_s": 3893.883251,
+        "delta_s": 210.91829800000005,
+        "increase_pct": 5.726861392699223,
+        "components_delta_s": {
+          "movement_s": 210.9182969460344,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_negative",
+        "ref_s": 3569.40722,
+        "free_s": 3745.852189,
+        "delta_s": 176.44496900000013,
+        "increase_pct": 4.943256908635951,
+        "components_delta_s": {
+          "movement_s": 176.44496872439322,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_9_positive",
+        "ref_s": 4560.201457,
+        "free_s": 4744.065994,
+        "delta_s": 183.86453699999947,
+        "increase_pct": 4.031938911772492,
+        "components_delta_s": {
+          "movement_s": 174.86453847651774,
+          "switch_s": 2.0,
+          "detection_s": 10.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_2_negative",
+        "ref_s": 4470.08418,
+        "free_s": 4625.494678,
+        "delta_s": 155.4104980000002,
+        "increase_pct": 3.4766794481261964,
+        "components_delta_s": {
+          "movement_s": 99.41049898896108,
+          "switch_s": 8.0,
+          "detection_s": 45.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_4_spatial_hash",
+        "ref_s": 4018.009116,
+        "free_s": 4157.351659,
+        "delta_s": 139.34254299999975,
+        "increase_pct": 3.467949897005651,
+        "components_delta_s": {
+          "movement_s": 151.3425414648391,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_1_negative",
+        "ref_s": 4047.56155,
+        "free_s": 4179.926928,
+        "delta_s": 132.36537799999996,
+        "increase_pct": 3.2702499113324235,
+        "components_delta_s": {
+          "movement_s": 135.36537551805714,
+          "switch_s": -5.0,
+          "detection_s": -25.0,
+          "optical_s": 27.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "dev_rounding": [
+      {
+        "case": "dev_8_smooth",
+        "ref_s": 3779.731029,
+        "free_s": 4169.565466,
+        "delta_s": 389.834437,
+        "increase_pct": 10.313814237282859,
+        "components_delta_s": {
+          "movement_s": 392.83443830983697,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_negative",
+        "ref_s": 3808.476986,
+        "free_s": 4050.174518,
+        "delta_s": 241.69753199999968,
+        "increase_pct": 6.346304123366964,
+        "components_delta_s": {
+          "movement_s": 232.69753405238725,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 9.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_spatial_hash",
+        "ref_s": 3682.964953,
+        "free_s": 3893.883251,
+        "delta_s": 210.91829800000005,
+        "increase_pct": 5.726861392699223,
+        "components_delta_s": {
+          "movement_s": 210.9182969460344,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_8_positive",
+        "ref_s": 3371.454022,
+        "free_s": 3536.984524,
+        "delta_s": 165.53050200000007,
+        "increase_pct": 4.909765962099777,
+        "components_delta_s": {
+          "movement_s": 165.53050212963853,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_10_positive",
+        "ref_s": 3745.629671,
+        "free_s": 3892.666135,
+        "delta_s": 147.0364639999998,
+        "increase_pct": 3.925547288841935,
+        "components_delta_s": {
+          "movement_s": 150.03646148761663,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_4_spatial_hash",
+        "ref_s": 4018.009116,
+        "free_s": 4157.351659,
+        "delta_s": 139.34254299999975,
+        "increase_pct": 3.467949897005651,
+        "components_delta_s": {
+          "movement_s": 151.3425414648391,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_1_negative",
+        "ref_s": 4047.643773,
+        "free_s": 4114.864248,
+        "delta_s": 67.22047500000008,
+        "increase_pct": 1.6607310022783484,
+        "components_delta_s": {
+          "movement_s": 73.22047687284066,
+          "switch_s": -5.0,
+          "detection_s": -25.0,
+          "optical_s": 24.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "dev_3_positive",
+        "ref_s": 4506.049771,
+        "free_s": 4529.741581,
+        "delta_s": 23.69181000000026,
+        "increase_pct": 0.5257778143613834,
+        "components_delta_s": {
+          "movement_s": 14.691809445307626,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "adverse_main": [
+      {
+        "case": "holdout_130023_negative",
+        "ref_s": 5618.749538,
+        "free_s": 5894.038735,
+        "delta_s": 275.28919700000006,
+        "increase_pct": 4.899474431778805,
+        "components_delta_s": {
+          "movement_s": 288.2891957588272,
+          "switch_s": -4.0,
+          "detection_s": -15.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_130023_smooth",
+        "ref_s": 5514.163573,
+        "free_s": 5781.254819,
+        "delta_s": 267.09124599999996,
+        "increase_pct": 4.843730920638767,
+        "components_delta_s": {
+          "movement_s": 283.0912442787758,
+          "switch_s": -4.0,
+          "detection_s": -15.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_190049_negative",
+        "ref_s": 3799.301534,
+        "free_s": 3886.002509,
+        "delta_s": 86.70097499999974,
+        "increase_pct": 2.282024056898657,
+        "components_delta_s": {
+          "movement_s": 53.7009783817698,
+          "switch_s": 8.0,
+          "detection_s": 40.0,
+          "optical_s": -15.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_190046_smooth",
+        "ref_s": 4006.017541,
+        "free_s": 4050.387892,
+        "delta_s": 44.37035100000003,
+        "increase_pct": 1.1075925291361477,
+        "components_delta_s": {
+          "movement_s": 41.370351444064,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "adverse_rounding": [
+      {
+        "case": "holdout_130023_smooth",
+        "ref_s": 5514.180929,
+        "free_s": 5781.272175,
+        "delta_s": 267.09124599999996,
+        "increase_pct": 4.843715674894211,
+        "components_delta_s": {
+          "movement_s": 283.0912442787758,
+          "switch_s": -4.0,
+          "detection_s": -15.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_130023_negative",
+        "ref_s": 5337.902622,
+        "free_s": 5467.329359,
+        "delta_s": 129.42673700000068,
+        "increase_pct": 2.424673999607485,
+        "components_delta_s": {
+          "movement_s": 158.42673432076845,
+          "switch_s": -7.0,
+          "detection_s": -25.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_190049_negative",
+        "ref_s": 3736.458716,
+        "free_s": 3810.586409,
+        "delta_s": 74.12769299999991,
+        "increase_pct": 1.9839023694434355,
+        "components_delta_s": {
+          "movement_s": 68.12769470437343,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_190046_smooth",
+        "ref_s": 4006.027247,
+        "free_s": 4050.397598,
+        "delta_s": 44.37035100000003,
+        "increase_pct": 1.1075898456064603,
+        "components_delta_s": {
+          "movement_s": 41.370351444064,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "holdout_main": [
+      {
+        "case": "holdout_210032_positive",
+        "ref_s": 3747.963379,
+        "free_s": 4209.261387,
+        "delta_s": 461.29800799999975,
+        "increase_pct": 12.30796465580941,
+        "components_delta_s": {
+          "movement_s": 485.298007848673,
+          "switch_s": -6.0,
+          "detection_s": -30.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210000_negative",
+        "ref_s": 4157.145275,
+        "free_s": 4651.396578,
+        "delta_s": 494.251303,
+        "increase_pct": 11.88919968643627,
+        "components_delta_s": {
+          "movement_s": 512.2513027863474,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210032_smooth",
+        "ref_s": 3808.562797,
+        "free_s": 4120.899918,
+        "delta_s": 312.337121,
+        "increase_pct": 8.200918237347366,
+        "components_delta_s": {
+          "movement_s": 285.33711970167815,
+          "switch_s": 3.0,
+          "detection_s": 15.0,
+          "optical_s": 9.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210044_smooth",
+        "ref_s": 5294.850005,
+        "free_s": 5679.99073,
+        "delta_s": 385.1407250000002,
+        "increase_pct": 7.273874134986014,
+        "components_delta_s": {
+          "movement_s": 370.14072659453814,
+          "switch_s": 3.0,
+          "detection_s": 15.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210021_spatial_hash",
+        "ref_s": 4034.285151,
+        "free_s": 4319.263975,
+        "delta_s": 284.9788239999998,
+        "increase_pct": 7.06392367751596,
+        "components_delta_s": {
+          "movement_s": 179.97882685336708,
+          "switch_s": 15.0,
+          "detection_s": 75.0,
+          "optical_s": 15.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_negative",
+        "ref_s": 3529.105167,
+        "free_s": 3773.580761,
+        "delta_s": 244.475594,
+        "increase_pct": 6.927410276294554,
+        "components_delta_s": {
+          "movement_s": 247.4755978201365,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210031_positive",
+        "ref_s": 3967.151556,
+        "free_s": 4233.474178,
+        "delta_s": 266.3226220000006,
+        "increase_pct": 6.7131950529394135,
+        "components_delta_s": {
+          "movement_s": 281.3226230567384,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210021_positive",
+        "ref_s": 4051.360246,
+        "free_s": 4255.589068,
+        "delta_s": 204.22882200000004,
+        "increase_pct": 5.040993878577926,
+        "components_delta_s": {
+          "movement_s": 111.228820790785,
+          "switch_s": 15.0,
+          "detection_s": 75.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_spatial_hash",
+        "ref_s": 3785.077851,
+        "free_s": 3972.921823,
+        "delta_s": 187.84397200000012,
+        "increase_pct": 4.962750553476014,
+        "components_delta_s": {
+          "movement_s": 169.84396847257403,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": -12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210024_smooth",
+        "ref_s": 3732.447986,
+        "free_s": 3898.577985,
+        "delta_s": 166.12999899999977,
+        "increase_pct": 4.450966219037356,
+        "components_delta_s": {
+          "movement_s": 127.12999894881614,
+          "switch_s": 7.0,
+          "detection_s": 35.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210012_positive",
+        "ref_s": 4554.739717,
+        "free_s": 4756.355705,
+        "delta_s": 201.61598799999956,
+        "increase_pct": 4.426509537910439,
+        "components_delta_s": {
+          "movement_s": 210.61598843484808,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_spatial_hash",
+        "ref_s": 4153.86743,
+        "free_s": 4335.721705,
+        "delta_s": 181.8542749999997,
+        "increase_pct": 4.37795086301056,
+        "components_delta_s": {
+          "movement_s": 188.85427319574228,
+          "switch_s": -2.0,
+          "detection_s": -5.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210018_smooth",
+        "ref_s": 4068.038681,
+        "free_s": 4244.918302,
+        "delta_s": 176.87962100000004,
+        "increase_pct": 4.348031935539987,
+        "components_delta_s": {
+          "movement_s": 161.87961789354767,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 9.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_negative",
+        "ref_s": 4237.800896,
+        "free_s": 4414.818327,
+        "delta_s": 177.01743100000022,
+        "increase_pct": 4.177105893933919,
+        "components_delta_s": {
+          "movement_s": 178.01743721799767,
+          "switch_s": -2.0,
+          "detection_s": -5.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210029_positive",
+        "ref_s": 3949.387824,
+        "free_s": 4108.312748,
+        "delta_s": 158.92492400000037,
+        "increase_pct": 4.02403944819576,
+        "components_delta_s": {
+          "movement_s": 176.92492053494152,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210018_positive",
+        "ref_s": 3986.549258,
+        "free_s": 4136.142472,
+        "delta_s": 149.59321400000044,
+        "increase_pct": 3.752448654680607,
+        "components_delta_s": {
+          "movement_s": 140.59321461037462,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210036_spatial_hash",
+        "ref_s": 4041.45495,
+        "free_s": 4188.077312,
+        "delta_s": 146.62236200000052,
+        "increase_pct": 3.6279598266955926,
+        "components_delta_s": {
+          "movement_s": 158.62235832173292,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210004_positive",
+        "ref_s": 4068.228078,
+        "free_s": 4192.696654,
+        "delta_s": 124.46857600000021,
+        "increase_pct": 3.059527971725484,
+        "components_delta_s": {
+          "movement_s": 112.46857729612793,
+          "switch_s": 2.0,
+          "detection_s": 10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_smooth",
+        "ref_s": 4008.123587,
+        "free_s": 4130.712551,
+        "delta_s": 122.58896399999958,
+        "increase_pct": 3.0585125767480292,
+        "components_delta_s": {
+          "movement_s": 134.58896366171894,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_positive",
+        "ref_s": 3517.266733,
+        "free_s": 3621.654357,
+        "delta_s": 104.38762399999996,
+        "increase_pct": 2.967862033908464,
+        "components_delta_s": {
+          "movement_s": 113.38762411687912,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_positive",
+        "ref_s": 4473.130942,
+        "free_s": 4594.301021,
+        "delta_s": 121.17007900000044,
+        "increase_pct": 2.7088426556505674,
+        "components_delta_s": {
+          "movement_s": 79.17007792583445,
+          "switch_s": 7.0,
+          "detection_s": 35.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210005_positive",
+        "ref_s": 3333.345013,
+        "free_s": 3420.812991,
+        "delta_s": 87.46797799999968,
+        "increase_pct": 2.6240301456607718,
+        "components_delta_s": {
+          "movement_s": 84.46797687620847,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_smooth",
+        "ref_s": 3556.481538,
+        "free_s": 3640.690534,
+        "delta_s": 84.20899599999984,
+        "increase_pct": 2.367761370338939,
+        "components_delta_s": {
+          "movement_s": 93.20899529945382,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_negative",
+        "ref_s": 4759.581693,
+        "free_s": 4838.181042,
+        "delta_s": 78.59934900000007,
+        "increase_pct": 1.6513919514313136,
+        "components_delta_s": {
+          "movement_s": 48.5993496661431,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210013_negative",
+        "ref_s": 3969.830752,
+        "free_s": 4035.212104,
+        "delta_s": 65.38135200000033,
+        "increase_pct": 1.6469556533880159,
+        "components_delta_s": {
+          "movement_s": 77.38134924119413,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210038_positive",
+        "ref_s": 3969.651345,
+        "free_s": 4031.483061,
+        "delta_s": 61.83171599999969,
+        "increase_pct": 1.5576107478023182,
+        "components_delta_s": {
+          "movement_s": 55.83171589497124,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210039_spatial_hash",
+        "ref_s": 3950.350368,
+        "free_s": 4007.582097,
+        "delta_s": 57.23172900000009,
+        "increase_pct": 1.4487760241118863,
+        "components_delta_s": {
+          "movement_s": 39.23172609894527,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_negative",
+        "ref_s": 3972.828492,
+        "free_s": 4028.518863,
+        "delta_s": 55.690370999999686,
+        "increase_pct": 1.4017814036559217,
+        "components_delta_s": {
+          "movement_s": 61.69037345753395,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_smooth",
+        "ref_s": 4849.210738,
+        "free_s": 4906.939762,
+        "delta_s": 57.72902400000021,
+        "increase_pct": 1.1904828871968087,
+        "components_delta_s": {
+          "movement_s": 33.72902451584196,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_positive",
+        "ref_s": 4245.168705,
+        "free_s": 4295.635879,
+        "delta_s": 50.46717400000034,
+        "increase_pct": 1.1888143324094491,
+        "components_delta_s": {
+          "movement_s": 60.46717545539059,
+          "switch_s": -3.0,
+          "detection_s": -10.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210001_negative",
+        "ref_s": 4505.431474,
+        "free_s": 4557.716952,
+        "delta_s": 52.285477999999785,
+        "increase_pct": 1.1604987957697155,
+        "components_delta_s": {
+          "movement_s": 70.28547869007616,
+          "switch_s": -4.0,
+          "detection_s": -20.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210001_smooth",
+        "ref_s": 4516.196179,
+        "free_s": 4566.475715,
+        "delta_s": 50.27953600000001,
+        "increase_pct": 1.1133160298437916,
+        "components_delta_s": {
+          "movement_s": 29.279538109380155,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 21.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_smooth",
+        "ref_s": 4258.047026,
+        "free_s": 4303.836864,
+        "delta_s": 45.78983799999969,
+        "increase_pct": 1.0753718246981014,
+        "components_delta_s": {
+          "movement_s": 58.78983828590481,
+          "switch_s": -3.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210013_positive",
+        "ref_s": 3938.559079,
+        "free_s": 3977.482579,
+        "delta_s": 38.923499999999876,
+        "increase_pct": 0.9882675166036137,
+        "components_delta_s": {
+          "movement_s": 53.9235012691629,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -9.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210029_negative",
+        "ref_s": 4029.670037,
+        "free_s": 4063.474018,
+        "delta_s": 33.80398100000002,
+        "increase_pct": 0.8388771460098532,
+        "components_delta_s": {
+          "movement_s": 39.803976762515504,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210043_smooth",
+        "ref_s": 5027.563089,
+        "free_s": 5064.033696,
+        "delta_s": 36.4706070000002,
+        "increase_pct": 0.7254132142030301,
+        "components_delta_s": {
+          "movement_s": 61.470606759646216,
+          "switch_s": -4.0,
+          "detection_s": -15.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210005_spatial_hash",
+        "ref_s": 3560.134735,
+        "free_s": 3584.69522,
+        "delta_s": 24.56048499999997,
+        "increase_pct": 0.6898751544019754,
+        "components_delta_s": {
+          "movement_s": 18.560483330278657,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210031_smooth",
+        "ref_s": 4510.498109,
+        "free_s": 4540.655216,
+        "delta_s": 30.157106999999996,
+        "increase_pct": 0.6685981519386042,
+        "components_delta_s": {
+          "movement_s": 30.157107711774643,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210049_negative",
+        "ref_s": 3625.134099,
+        "free_s": 3647.735037,
+        "delta_s": 22.600938000000042,
+        "increase_pct": 0.6234510885055222,
+        "components_delta_s": {
+          "movement_s": 16.60093895208138,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210027_smooth",
+        "ref_s": 3937.261373,
+        "free_s": 3955.563432,
+        "delta_s": 18.3020590000001,
+        "increase_pct": 0.4648423679846969,
+        "components_delta_s": {
+          "movement_s": 51.30205978152708,
+          "switch_s": -5.0,
+          "detection_s": -25.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210017_spatial_hash",
+        "ref_s": 4213.810946,
+        "free_s": 4227.184301,
+        "delta_s": 13.373355000000629,
+        "increase_pct": 0.3173696013271554,
+        "components_delta_s": {
+          "movement_s": 22.37335360775114,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210013_smooth",
+        "ref_s": 3926.605312,
+        "free_s": 3929.580086,
+        "delta_s": 2.9747739999997975,
+        "increase_pct": 0.0757594350241586,
+        "components_delta_s": {
+          "movement_s": 14.97477299067259,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "holdout_rounding": [
+      {
+        "case": "holdout_210032_positive",
+        "ref_s": 4046.28885,
+        "free_s": 4540.99347,
+        "delta_s": 494.70462000000043,
+        "increase_pct": 12.226132101271038,
+        "components_delta_s": {
+          "movement_s": 488.70462079941944,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_negative",
+        "ref_s": 3532.053945,
+        "free_s": 3960.012536,
+        "delta_s": 427.95859100000007,
+        "increase_pct": 12.116422842460306,
+        "components_delta_s": {
+          "movement_s": 451.9585933246967,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": -12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210000_negative",
+        "ref_s": 4157.025662,
+        "free_s": 4651.262354,
+        "delta_s": 494.2366920000004,
+        "increase_pct": 11.889190305412178,
+        "components_delta_s": {
+          "movement_s": 512.2366920714294,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210018_positive",
+        "ref_s": 3630.635573,
+        "free_s": 3941.065819,
+        "delta_s": 310.4302459999999,
+        "increase_pct": 8.550300347095718,
+        "components_delta_s": {
+          "movement_s": 304.4302473926823,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210034_negative",
+        "ref_s": 3896.02276,
+        "free_s": 4216.595978,
+        "delta_s": 320.57321800000045,
+        "increase_pct": 8.22821728074301,
+        "components_delta_s": {
+          "movement_s": 320.5732200840034,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210044_smooth",
+        "ref_s": 5294.850005,
+        "free_s": 5679.99073,
+        "delta_s": 385.1407250000002,
+        "increase_pct": 7.273874134986014,
+        "components_delta_s": {
+          "movement_s": 370.14072659453814,
+          "switch_s": 3.0,
+          "detection_s": 15.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210039_negative",
+        "ref_s": 3764.348802,
+        "free_s": 4030.270766,
+        "delta_s": 265.9219640000001,
+        "increase_pct": 7.064222206473425,
+        "components_delta_s": {
+          "movement_s": 277.92196849484117,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210021_spatial_hash",
+        "ref_s": 4034.285151,
+        "free_s": 4319.263975,
+        "delta_s": 284.9788239999998,
+        "increase_pct": 7.06392367751596,
+        "components_delta_s": {
+          "movement_s": 179.97882685336708,
+          "switch_s": 15.0,
+          "detection_s": 75.0,
+          "optical_s": 15.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210031_positive",
+        "ref_s": 3967.21213,
+        "free_s": 4233.53438,
+        "delta_s": 266.32225000000017,
+        "increase_pct": 6.71308317460706,
+        "components_delta_s": {
+          "movement_s": 281.32224978839486,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_negative",
+        "ref_s": 3255.380818,
+        "free_s": 3467.512696,
+        "delta_s": 212.1318779999997,
+        "increase_pct": 6.5163460086469005,
+        "components_delta_s": {
+          "movement_s": 233.13188123546615,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210023_positive",
+        "ref_s": 3763.939001,
+        "free_s": 4003.359248,
+        "delta_s": 239.42024700000002,
+        "increase_pct": 6.3608960436497775,
+        "components_delta_s": {
+          "movement_s": 221.42024228662922,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": -12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210045_negative",
+        "ref_s": 4082.040017,
+        "free_s": 4297.117219,
+        "delta_s": 215.07720199999994,
+        "increase_pct": 5.268865594268868,
+        "components_delta_s": {
+          "movement_s": 152.0772034412944,
+          "switch_s": 10.0,
+          "detection_s": 50.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210021_positive",
+        "ref_s": 4051.39343,
+        "free_s": 4255.379251,
+        "delta_s": 203.98582100000021,
+        "increase_pct": 5.0349546279438995,
+        "components_delta_s": {
+          "movement_s": 110.98582288135367,
+          "switch_s": 15.0,
+          "detection_s": 75.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_spatial_hash",
+        "ref_s": 3785.077851,
+        "free_s": 3972.921823,
+        "delta_s": 187.84397200000012,
+        "increase_pct": 4.962750553476014,
+        "components_delta_s": {
+          "movement_s": 169.84396847257403,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": -12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210029_positive",
+        "ref_s": 3949.472808,
+        "free_s": 4130.369403,
+        "delta_s": 180.8965949999997,
+        "increase_pct": 4.580271944994219,
+        "components_delta_s": {
+          "movement_s": 195.89659235131057,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210024_smooth",
+        "ref_s": 3732.447986,
+        "free_s": 3898.571657,
+        "delta_s": 166.12367099999983,
+        "increase_pct": 4.450796678831459,
+        "components_delta_s": {
+          "movement_s": 127.12367091037277,
+          "switch_s": 7.0,
+          "detection_s": 35.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210012_positive",
+        "ref_s": 4554.688554,
+        "free_s": 4756.51531,
+        "delta_s": 201.82675599999948,
+        "increase_pct": 4.431186756397465,
+        "components_delta_s": {
+          "movement_s": 210.8267531738352,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_spatial_hash",
+        "ref_s": 4153.86743,
+        "free_s": 4335.721705,
+        "delta_s": 181.8542749999997,
+        "increase_pct": 4.37795086301056,
+        "components_delta_s": {
+          "movement_s": 188.85427319574228,
+          "switch_s": -2.0,
+          "detection_s": -5.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210018_smooth",
+        "ref_s": 4068.038681,
+        "free_s": 4244.918302,
+        "delta_s": 176.87962100000004,
+        "increase_pct": 4.348031935539987,
+        "components_delta_s": {
+          "movement_s": 161.87961789354767,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 9.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_negative",
+        "ref_s": 4366.294969,
+        "free_s": 4529.604291,
+        "delta_s": 163.30932200000007,
+        "increase_pct": 3.7402265114810263,
+        "components_delta_s": {
+          "movement_s": 187.30932092039893,
+          "switch_s": -4.0,
+          "detection_s": -20.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210036_spatial_hash",
+        "ref_s": 4041.45495,
+        "free_s": 4188.077312,
+        "delta_s": 146.62236200000052,
+        "increase_pct": 3.6279598266955926,
+        "components_delta_s": {
+          "movement_s": 158.62235832173292,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210004_positive",
+        "ref_s": 4068.079111,
+        "free_s": 4192.588408,
+        "delta_s": 124.5092969999996,
+        "increase_pct": 3.0606409954843095,
+        "components_delta_s": {
+          "movement_s": 112.50929675124462,
+          "switch_s": 2.0,
+          "detection_s": 10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210015_smooth",
+        "ref_s": 4008.123587,
+        "free_s": 4130.712551,
+        "delta_s": 122.58896399999958,
+        "increase_pct": 3.0585125767480292,
+        "components_delta_s": {
+          "movement_s": 134.58896366171894,
+          "switch_s": -2.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_positive",
+        "ref_s": 3517.145776,
+        "free_s": 3621.579309,
+        "delta_s": 104.43353300000035,
+        "increase_pct": 2.969269392034435,
+        "components_delta_s": {
+          "movement_s": 113.43353542339719,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_positive",
+        "ref_s": 4470.601556,
+        "free_s": 4591.641513,
+        "delta_s": 121.03995699999996,
+        "increase_pct": 2.707464655121239,
+        "components_delta_s": {
+          "movement_s": 79.03995738313779,
+          "switch_s": 7.0,
+          "detection_s": 35.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210011_smooth",
+        "ref_s": 3556.481538,
+        "free_s": 3640.690534,
+        "delta_s": 84.20899599999984,
+        "increase_pct": 2.367761370338939,
+        "components_delta_s": {
+          "movement_s": 93.20899529945382,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210001_positive",
+        "ref_s": 4251.561373,
+        "free_s": 4338.966128,
+        "delta_s": 87.40475500000048,
+        "increase_pct": 2.0558271969228548,
+        "components_delta_s": {
+          "movement_s": 81.4047563372942,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210036_positive",
+        "ref_s": 3968.917193,
+        "free_s": 4049.082881,
+        "delta_s": 80.16568799999959,
+        "increase_pct": 2.0198377567913983,
+        "components_delta_s": {
+          "movement_s": 104.16568749674116,
+          "switch_s": -3.0,
+          "detection_s": -15.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210043_negative",
+        "ref_s": 4937.293489,
+        "free_s": 5031.35327,
+        "delta_s": 94.05978099999993,
+        "increase_pct": 1.9050879031104806,
+        "components_delta_s": {
+          "movement_s": -1.9402230734394834,
+          "switch_s": 15.0,
+          "detection_s": 75.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210039_spatial_hash",
+        "ref_s": 3950.350368,
+        "free_s": 4007.582097,
+        "delta_s": 57.23172900000009,
+        "increase_pct": 1.4487760241118863,
+        "components_delta_s": {
+          "movement_s": 39.23172609894527,
+          "switch_s": 1.0,
+          "detection_s": 5.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210007_smooth",
+        "ref_s": 4849.210738,
+        "free_s": 4906.939762,
+        "delta_s": 57.72902400000021,
+        "increase_pct": 1.1904828871968087,
+        "components_delta_s": {
+          "movement_s": 33.72902451584196,
+          "switch_s": 5.0,
+          "detection_s": 25.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_positive",
+        "ref_s": 4245.078071,
+        "free_s": 4295.585282,
+        "delta_s": 50.5072110000001,
+        "increase_pct": 1.1897828533481425,
+        "components_delta_s": {
+          "movement_s": 60.50721163850449,
+          "switch_s": -3.0,
+          "detection_s": -10.0,
+          "optical_s": 3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210001_smooth",
+        "ref_s": 4516.189229,
+        "free_s": 4566.477397,
+        "delta_s": 50.28816800000004,
+        "increase_pct": 1.113508877729985,
+        "components_delta_s": {
+          "movement_s": 29.28817071706044,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 21.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210008_smooth",
+        "ref_s": 4258.047026,
+        "free_s": 4303.836864,
+        "delta_s": 45.78983799999969,
+        "increase_pct": 1.0753718246981014,
+        "components_delta_s": {
+          "movement_s": 58.78983828590481,
+          "switch_s": -3.0,
+          "detection_s": -10.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210043_smooth",
+        "ref_s": 5027.588069,
+        "free_s": 5064.093107,
+        "delta_s": 36.50503799999933,
+        "increase_pct": 0.7260944512357481,
+        "components_delta_s": {
+          "movement_s": 61.505038754136876,
+          "switch_s": -4.0,
+          "detection_s": -15.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210005_spatial_hash",
+        "ref_s": 3560.159602,
+        "free_s": 3584.689359,
+        "delta_s": 24.52975699999979,
+        "increase_pct": 0.6890072283899817,
+        "components_delta_s": {
+          "movement_s": 18.52975453858153,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 6.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210031_smooth",
+        "ref_s": 4510.50463,
+        "free_s": 4540.661737,
+        "delta_s": 30.157106999999996,
+        "increase_pct": 0.6685971853220396,
+        "components_delta_s": {
+          "movement_s": 30.157107711774643,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210049_negative",
+        "ref_s": 3625.08184,
+        "free_s": 3647.598921,
+        "delta_s": 22.517080999999962,
+        "increase_pct": 0.6211468318188418,
+        "components_delta_s": {
+          "movement_s": 16.517083899966565,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": 12.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210027_smooth",
+        "ref_s": 3937.261373,
+        "free_s": 3955.563432,
+        "delta_s": 18.3020590000001,
+        "increase_pct": 0.4648423679846969,
+        "components_delta_s": {
+          "movement_s": 51.30205978152708,
+          "switch_s": -5.0,
+          "detection_s": -25.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210017_spatial_hash",
+        "ref_s": 4213.810946,
+        "free_s": 4227.184301,
+        "delta_s": 13.373355000000629,
+        "increase_pct": 0.3173696013271554,
+        "components_delta_s": {
+          "movement_s": 22.37335360775114,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -3.0,
+          "laser_s": 0.0
+        }
+      },
+      {
+        "case": "holdout_210013_smooth",
+        "ref_s": 3926.666509,
+        "free_s": 3929.574359,
+        "delta_s": 2.907850000000053,
+        "increase_pct": 0.07405390789707589,
+        "components_delta_s": {
+          "movement_s": 14.90785014513449,
+          "switch_s": -1.0,
+          "detection_s": -5.0,
+          "optical_s": -6.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "outer_main": [
+      {
+        "case": "outer_holdout_220010_positive",
+        "ref_s": 4808.793923,
+        "free_s": 4813.604628,
+        "delta_s": 4.810704999999871,
+        "increase_pct": 0.10003974129544346,
+        "components_delta_s": {
+          "movement_s": 4.810704598229222,
+          "switch_s": 0.0,
+          "detection_s": 0.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      }
+    ],
+    "outer_rounding": [
+      {
+        "case": "outer_holdout_220002_negative",
+        "ref_s": 4825.293128,
+        "free_s": 4840.08715,
+        "delta_s": 14.79402200000004,
+        "increase_pct": 0.3065932287958706,
+        "components_delta_s": {
+          "movement_s": 38.794018283225796,
+          "switch_s": -4.0,
+          "detection_s": -20.0,
+          "optical_s": 0.0,
+          "laser_s": 0.0
+        }
+      }
+    ]
+  },
+  "representatives": [
+    {
+      "batch": "holdout_main",
+      "case": "holdout_210032_positive",
+      "first_different_task_zero_based": 3,
+      "sequences": {
+        "REF": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          }
+        ],
+        "FREE": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          }
+        ]
+      }
+    },
+    {
+      "batch": "holdout_main",
+      "case": "holdout_210044_smooth",
+      "first_different_task_zero_based": 3,
+      "sequences": {
+        "REF": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 13,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          }
+        ],
+        "FREE": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 13,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          }
+        ]
+      }
+    },
+    {
+      "batch": "adverse_main",
+      "case": "holdout_130023_smooth",
+      "first_different_task_zero_based": 6,
+      "sequences": {
+        "REF": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 9,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          }
+        ],
+        "FREE": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 8,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 20,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 18,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 9,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          }
+        ]
+      }
+    },
+    {
+      "batch": "adverse_main",
+      "case": "outer_holdout_120008_spatial_hash",
+      "first_different_task_zero_based": 11,
+      "sequences": {
+        "REF": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 13,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": true
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 9,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          }
+        ],
+        "FREE": [
+          {
+            "task": "scan",
+            "id": 0,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 1,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 15,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 2,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 10,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 11,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 4,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 3,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 14,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 7,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 13,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 16,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 17,
+            "forced": false
+          },
+          {
+            "task": "scan",
+            "id": 6,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 12,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 5,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 9,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 19,
+            "forced": false
+          },
+          {
+            "task": "localize",
+            "id": 2,
+            "forced": false
+          }
+        ]
+      }
+    }
+  ]
+}

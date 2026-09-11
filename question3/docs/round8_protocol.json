@@ -1,0 +1,22 @@
+{
+  "kind": "SELF_ROUND8_PRE_DEVELOPMENT",
+  "reference": "round7_K",
+  "mechanisms": {
+    "J": "Add exact current position if Q2 analytic candidate conditions hold, and unchanged A proxy beats existing catalog.",
+    "Z": "Always use exact current position if analytically admissible; ablates time proxy versus zero-movement preference."
+  },
+  "budget": "No parameter sweep; same52 existing scenarios and deterministic fields; both rounding modes.",
+  "selection": "Complete/audited, lower mean and no higher p95 versus REF in both development models. Select lowest bounded mean among qualifying variants. Lock before new ordinary/outer validation; require the same gates in each fresh batch. No retuning on validation.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      110000,
+      110050
+    ],
+    "outer": [
+      120000,
+      120020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

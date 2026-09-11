@@ -1,0 +1,186 @@
+{
+  "kind": "OFFLINE_PUBLIC_GEOMETRY_DIAGNOSTIC_NOT_STRATEGY_TRIAL",
+  "rows": [
+    {
+      "batch": "dev_main",
+      "additional_failed_clear_calls_with_public_radius_separation": 7,
+      "cases": 3,
+      "details": [
+        {
+          "case_id": "dev_1_smooth",
+          "channel": 17,
+          "point": [
+            630.3736580548524,
+            1393.7084588737955
+          ],
+          "circle_indices": [
+            1
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            655.3533418030529,
+            -1699.225120083654
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            675.1547395719028,
+            -1710.7683230374703
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            687.7509808877085,
+            -1689.1605261647464
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1197.6740699311674,
+            -1389.895405147433
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1198.61266487525,
+            -1411.654194916225
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1174.0750868776388,
+            -1412.7126566640202
+          ],
+          "circle_indices": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "batch": "dev_rounding",
+      "additional_failed_clear_calls_with_public_radius_separation": 7,
+      "cases": 3,
+      "details": [
+        {
+          "case_id": "dev_1_smooth",
+          "channel": 17,
+          "point": [
+            630.3736580548524,
+            1393.7084588737955
+          ],
+          "circle_indices": [
+            1
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            655.1669935744112,
+            -1699.1140039136574
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            674.9598746436607,
+            -1710.6522420668502
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_0_negative",
+          "channel": 14,
+          "point": [
+            687.5541833855334,
+            -1689.0477603628292
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1197.9277066479217,
+            -1390.0905178294493
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1198.870496195012,
+            -1411.8583094853095
+          ],
+          "circle_indices": [
+            0
+          ]
+        },
+        {
+          "case_id": "dev_2_negative",
+          "channel": 2,
+          "point": [
+            -1174.3294278241442,
+            -1412.9212130218864
+          ],
+          "circle_indices": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "batch": "adverse_main",
+      "additional_failed_clear_calls_with_public_radius_separation": 0,
+      "cases": 0,
+      "details": []
+    },
+    {
+      "batch": "adverse_rounding",
+      "additional_failed_clear_calls_with_public_radius_separation": 0,
+      "cases": 0,
+      "details": []
+    }
+  ],
+  "notes": "Published domain1800 and detection upper radius1500, using known first/second points. Existing accepted clear calls only; no proposed policy executed."
+}

@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "case_id": "dev_0_spatial_hash",
+      "status": "complete",
+      "virtual_time_s": 4919.731465
+    },
+    {
+      "case_id": "clustered_16",
+      "status": "complete",
+      "virtual_time_s": 2483.570081
+    },
+    {
+      "case_id": "late_channel20_after_ten",
+      "status": "complete",
+      "virtual_time_s": 2992.378266
+    }
+  ],
+  "package_code_hashes_match": true,
+  "packaged_adverse_actions_audited": 714,
+  "kind": "SELF_UNPACKED_RELEASE_SMOKE_NOT_OFFICIAL",
+  "archive_sha256": "f5c79ad5990c08be1ff63b15837a4e191e421e25a72e011cdcd8a2ca27ad88ec",
+  "official_runs": 0,
+  "formal_runs": 0
+}

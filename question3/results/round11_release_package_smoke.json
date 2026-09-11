@@ -1,0 +1,30 @@
+{
+  "kind": "SELF_EXTRACTED_RELEASE_SMOKE",
+  "zip_sha256": "a8be7f0abfc3f660b411034e397deef75f821a39e7b478721ef1d5c81487e13a",
+  "code_and_config_match_lock": true,
+  "cases": [
+    {
+      "case": "dev_1_spatial_hash",
+      "virtual_s": 3906.325948,
+      "skips": 2,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 124
+    },
+    {
+      "case": "late_channel20_after_ten",
+      "virtual_s": 2992.378266,
+      "skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 98
+    },
+    {
+      "case": "clustered_16",
+      "virtual_s": 903.160054,
+      "skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 68
+    }
+  ],
+  "official_runs": 0,
+  "formal_runs": 0
+}

@@ -1,0 +1,13 @@
+test_auditor_rejects_forged_sixteen_certificate (question3.tests.test_count_stop.CountStopTests.test_auditor_rejects_forged_sixteen_certificate) ... ok
+test_count_mode_real_self_http (question3.tests.test_count_stop.CountStopTests.test_count_mode_real_self_http) ... ok
+test_deadline_after_discovery_cannot_complete (question3.tests.test_count_stop.CountStopTests.test_deadline_after_discovery_cannot_complete) ... ok
+test_fewer_than_sixteen_keep_coverage_and_late_source (question3.tests.test_count_stop.CountStopTests.test_fewer_than_sixteen_keep_coverage_and_late_source) ... ok
+test_last_success_retry_counts_distinct_channels_once (question3.tests.test_count_stop.CountStopTests.test_last_success_retry_counts_distinct_channels_once) ... ok
+test_sixteen_detected_are_not_sixteen_cleared (question3.tests.test_count_stop.CountStopTests.test_sixteen_detected_are_not_sixteen_cleared) ... ok
+test_sixteen_successes_stop_on_action_prefix (question3.tests.test_count_stop.CountStopTests.test_sixteen_successes_stop_on_action_prefix) ... ok
+test_unrecognized_bound_mode_before_enter (question3.tests.test_count_stop.CountStopTests.test_unrecognized_bound_mode_before_enter) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.106s
+
+OK

@@ -1,0 +1,70 @@
+[
+  {
+    "case_id": "dev_0_spatial_hash",
+    "stopping_certificate": {
+      "method": "source_count_upper_bound",
+      "source_upper_bound": 16,
+      "successful_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        20
+      ],
+      "inferred_absent_channels": [
+        11,
+        15,
+        17,
+        19
+      ]
+    },
+    "kind": "SELF_REAL_LOOPBACK_HTTP_NOT_OFFICIAL",
+    "status": "complete",
+    "virtual_time_s": 4428.550582
+  },
+  {
+    "case_id": "clustered_16",
+    "stopping_certificate": {
+      "method": "source_count_upper_bound",
+      "source_upper_bound": 16,
+      "successful_channels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "inferred_absent_channels": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "kind": "SELF_REAL_LOOPBACK_HTTP_NOT_OFFICIAL",
+    "status": "complete",
+    "virtual_time_s": 902.117327
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "kind": "SELF_ROUND19_PRE_DEVELOPMENT",
+  "reference": "round16_FREE",
+  "variants": [
+    "REF",
+    "PRIMARY",
+    "SHARED",
+    "BOTH"
+  ],
+  "mechanism": "PRIMARY reuses round18 domain second-point rule. SHARED independently checks each known eligible channel with its own published-domain range bound at the actual primary point, only after legacy full-sector eligibility fails. BOTH activates both, no other edits.",
+  "development": "Same 52 fixed configurations and two rounding models; zero numeric parameter sweep.",
+  "selection": "Eligible variants must complete/audit and strictly improve mean with p95<=REF in both development models. Select minimum mean of normalized mean virtual times across the two models, tie fewer new modules then lexical name. No fallback promotion after fresh validation.",
+  "adoption": "Frozen selected variant must complete/audit, mean strictly lower and p95<=REF in all four fresh ordinary/outer model batches. Compare all four locked variants for mechanism evidence; keep every regression.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      250000,
+      250050
+    ],
+    "outer": [
+      260000,
+      260020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

@@ -1,0 +1,397 @@
+{
+  "selected": "K",
+  "code_lock_unchanged": true,
+  "prior_DK_rejected": true,
+  "batches": {
+    "round7_k_holdout_main": {
+      "runs": 400,
+      "complete": 400,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 46717,
+      "count_certificates": 24,
+      "saturation_events": 24,
+      "source_count_groups": {
+        "10": {
+          "runs": 28,
+          "reference_mean_s": 4273.471769214286,
+          "candidate_mean_s": 4273.471769214286,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "11": {
+          "runs": 8,
+          "reference_mean_s": 3887.202225,
+          "candidate_mean_s": 3887.202225,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "12": {
+          "runs": 32,
+          "reference_mean_s": 4266.2671925,
+          "candidate_mean_s": 4266.2671925,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "13": {
+          "runs": 40,
+          "reference_mean_s": 4475.920376725,
+          "candidate_mean_s": 4475.920376725,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "14": {
+          "runs": 24,
+          "reference_mean_s": 4540.3396365,
+          "candidate_mean_s": 4540.3396365,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "15": {
+          "runs": 44,
+          "reference_mean_s": 4673.12751731818,
+          "candidate_mean_s": 4673.12751731818,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "16": {
+          "runs": 24,
+          "reference_mean_s": 4817.343003000001,
+          "candidate_mean_s": 4676.997233166667,
+          "mean_saved_s": 140.34576983333326,
+          "wins": 21,
+          "losses": 0
+        }
+      },
+      "wins": 21,
+      "losses": 0,
+      "ties": 179,
+      "mean_saved_s": 16.84149237999999,
+      "worst_gain": 0.0,
+      "worst_case": "holdout_90000_negative",
+      "mean_phases": {
+        "REF": {
+          "control": 0.0,
+          "localization": 1250.1235691199477,
+          "localization_shared": 22.2,
+          "optical": 1771.552805615216,
+          "search": 1438.6945582128624
+        },
+        "K": {
+          "control": 0.0,
+          "localization": 1259.2329116594024,
+          "localization_shared": 22.14,
+          "optical": 1771.6080568571124,
+          "search": 1412.7484720563684
+        }
+      }
+    },
+    "round7_k_holdout_rounding": {
+      "runs": 400,
+      "complete": 400,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 46693,
+      "count_certificates": 24,
+      "saturation_events": 24,
+      "source_count_groups": {
+        "10": {
+          "runs": 28,
+          "reference_mean_s": 4215.896997321429,
+          "candidate_mean_s": 4215.896997321429,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "11": {
+          "runs": 8,
+          "reference_mean_s": 3952.4140796250003,
+          "candidate_mean_s": 3952.4140796250003,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "12": {
+          "runs": 32,
+          "reference_mean_s": 4302.807968625,
+          "candidate_mean_s": 4302.807968625,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "13": {
+          "runs": 40,
+          "reference_mean_s": 4508.411923025,
+          "candidate_mean_s": 4508.411923025,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "14": {
+          "runs": 24,
+          "reference_mean_s": 4556.260511041667,
+          "candidate_mean_s": 4556.260511041667,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "15": {
+          "runs": 44,
+          "reference_mean_s": 4719.031703068183,
+          "candidate_mean_s": 4719.031703068183,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "16": {
+          "runs": 24,
+          "reference_mean_s": 4796.466317541667,
+          "candidate_mean_s": 4625.053179125,
+          "mean_saved_s": 171.4131384166667,
+          "wins": 20,
+          "losses": 0
+        }
+      },
+      "wins": 20,
+      "losses": 0,
+      "ties": 180,
+      "mean_saved_s": 20.569576610000002,
+      "worst_gain": 0.0,
+      "worst_case": "holdout_90000_negative",
+      "mean_phases": {
+        "REF": {
+          "control": 0.0,
+          "localization": 1252.9332791861264,
+          "localization_shared": 22.17,
+          "optical": 1772.549667158183,
+          "search": 1451.3150496776577
+        },
+        "K": {
+          "control": 0.0,
+          "localization": 1259.630767274724,
+          "localization_shared": 22.11,
+          "optical": 1771.870651551704,
+          "search": 1424.787000642172
+        }
+      }
+    },
+    "round7_k_outer_main": {
+      "runs": 160,
+      "complete": 160,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 21260,
+      "count_certificates": 12,
+      "saturation_events": 12,
+      "source_count_groups": {
+        "10": {
+          "runs": 20,
+          "reference_mean_s": 3754.7450969000006,
+          "candidate_mean_s": 3754.7450969000006,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "11": {
+          "runs": 12,
+          "reference_mean_s": 3684.673638166667,
+          "candidate_mean_s": 3684.673638166667,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "12": {
+          "runs": 12,
+          "reference_mean_s": 3319.100837583333,
+          "candidate_mean_s": 3319.100837583333,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "13": {
+          "runs": 4,
+          "reference_mean_s": 3339.9703747500002,
+          "candidate_mean_s": 3339.9703747500002,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "14": {
+          "runs": 12,
+          "reference_mean_s": 4868.003692916666,
+          "candidate_mean_s": 4868.003692916666,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "15": {
+          "runs": 8,
+          "reference_mean_s": 4488.1133815,
+          "candidate_mean_s": 4488.1133815,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "16": {
+          "runs": 12,
+          "reference_mean_s": 5813.664618,
+          "candidate_mean_s": 5793.04947075,
+          "mean_saved_s": 20.61514724999999,
+          "wins": 8,
+          "losses": 0
+        }
+      },
+      "wins": 8,
+      "losses": 0,
+      "ties": 72,
+      "mean_saved_s": 3.0922720874999983,
+      "worst_gain": 0.0,
+      "worst_case": "outer_holdout_100000_negative",
+      "mean_phases": {
+        "REF": {
+          "control": 0.0,
+          "localization": 809.4115977089084,
+          "localization_shared": 42.675,
+          "optical": 1288.312911947556,
+          "search": 2066.9130388163962
+        },
+        "K": {
+          "control": 0.0,
+          "localization": 810.0882812296305,
+          "localization_shared": 42.675,
+          "optical": 1289.4429794695714,
+          "search": 2062.0140156983252
+        }
+      }
+    },
+    "round7_k_outer_rounding": {
+      "runs": 160,
+      "complete": 160,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "audited_actions": 21314,
+      "count_certificates": 12,
+      "saturation_events": 12,
+      "source_count_groups": {
+        "10": {
+          "runs": 20,
+          "reference_mean_s": 3758.7123054000003,
+          "candidate_mean_s": 3758.7123054000003,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "11": {
+          "runs": 12,
+          "reference_mean_s": 3783.2452840000005,
+          "candidate_mean_s": 3783.2452840000005,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "12": {
+          "runs": 12,
+          "reference_mean_s": 3325.742275916667,
+          "candidate_mean_s": 3325.742275916667,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "13": {
+          "runs": 4,
+          "reference_mean_s": 3347.79712375,
+          "candidate_mean_s": 3347.79712375,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "14": {
+          "runs": 12,
+          "reference_mean_s": 4841.711544666667,
+          "candidate_mean_s": 4841.711544666667,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "15": {
+          "runs": 8,
+          "reference_mean_s": 4559.732240625,
+          "candidate_mean_s": 4559.732240625,
+          "mean_saved_s": 0.0,
+          "wins": 0,
+          "losses": 0
+        },
+        "16": {
+          "runs": 12,
+          "reference_mean_s": 5816.468245833334,
+          "candidate_mean_s": 5812.301579166667,
+          "mean_saved_s": 4.166666666666667,
+          "wins": 8,
+          "losses": 0
+        }
+      },
+      "wins": 8,
+      "losses": 0,
+      "ties": 72,
+      "mean_saved_s": 0.625,
+      "worst_gain": 0.0,
+      "worst_case": "outer_holdout_100000_negative",
+      "mean_phases": {
+        "REF": {
+          "control": 0.0,
+          "localization": 819.2430471192387,
+          "localization_shared": 42.3,
+          "optical": 1295.0656620660584,
+          "search": 2071.5075496528525
+        },
+        "K": {
+          "control": 0.0,
+          "localization": 819.2180471192387,
+          "localization_shared": 42.3,
+          "optical": 1295.0656620660584,
+          "search": 2070.9075496528526
+        }
+      }
+    }
+  },
+  "official_runs": 0,
+  "formal_runs": 0,
+  "new_independent_layouts": 70,
+  "adoption_checks": [
+    {
+      "batch": "round7_k_holdout_main",
+      "passed": true,
+      "mean_gain": 0.0037571056053055107
+    },
+    {
+      "batch": "round7_k_holdout_rounding",
+      "passed": true,
+      "mean_gain": 0.004572065555034421
+    },
+    {
+      "batch": "round7_k_outer_main",
+      "passed": true,
+      "mean_gain": 0.0007349756053072198
+    },
+    {
+      "batch": "round7_k_outer_rounding",
+      "passed": true,
+      "mean_gain": 0.0001478199656042012
+    }
+  ],
+  "adopt_selected": true,
+  "final_independent_validation_runs": 1120,
+  "total_round7_runs": 5568,
+  "total_round7_audited_actions": 664270,
+  "fewer_than_16_exact_comparisons": 488
+}

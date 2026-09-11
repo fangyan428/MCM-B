@@ -1,0 +1,1612 @@
+{
+  "kind": "POST_HOC_PUBLIC_LOG_DIAGNOSTIC_NOT_NEW_VALIDATION",
+  "cases": [
+    {
+      "case_id": "holdout_10000_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1846.143671051192,
+      "optical_internal_move_s": 112.6086116556778
+    },
+    {
+      "case_id": "holdout_10000_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 1,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1844.1479285675373,
+      "optical_internal_move_s": 21.19742565388718
+    },
+    {
+      "case_id": "holdout_10000_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1842.4079597206255,
+      "optical_internal_move_s": 25.0388370627822
+    },
+    {
+      "case_id": "holdout_10000_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1856.039698608333,
+      "optical_internal_move_s": 18.936755197497526
+    },
+    {
+      "case_id": "holdout_10001_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1556.4276319244864,
+      "optical_internal_move_s": 101.4191782506538
+    },
+    {
+      "case_id": "holdout_10001_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1550.725495730675,
+      "optical_internal_move_s": 16.70238198605503
+    },
+    {
+      "case_id": "holdout_10001_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 1,
+      "single_circle_but_grid_multiple": 0,
+      "optical_approach_move_s": 1593.136660433653,
+      "optical_internal_move_s": 28.67837041777287
+    },
+    {
+      "case_id": "holdout_10001_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1591.5648704720047,
+      "optical_internal_move_s": 41.65694005868557
+    },
+    {
+      "case_id": "holdout_10002_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1695.7690148923164,
+      "optical_internal_move_s": 50.554536857991195
+    },
+    {
+      "case_id": "holdout_10002_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1746.7587513489384,
+      "optical_internal_move_s": 39.75135803787136
+    },
+    {
+      "case_id": "holdout_10002_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1741.928982918863,
+      "optical_internal_move_s": 40.50867620555204
+    },
+    {
+      "case_id": "holdout_10002_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1730.0553272687596,
+      "optical_internal_move_s": 36.56334159197854
+    },
+    {
+      "case_id": "holdout_10003_negative",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1901.1296665274476,
+      "optical_internal_move_s": 36.93836490615577
+    },
+    {
+      "case_id": "holdout_10003_positive",
+      "polygons": 16,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1962.067584352858,
+      "optical_internal_move_s": 23.09676184776182
+    },
+    {
+      "case_id": "holdout_10003_smooth",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1919.740900458697,
+      "optical_internal_move_s": 30.624854124659702
+    },
+    {
+      "case_id": "holdout_10003_spatial_hash",
+      "polygons": 16,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1977.5005010056284,
+      "optical_internal_move_s": 5.191008232779653
+    },
+    {
+      "case_id": "holdout_10004_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1673.629719985337,
+      "optical_internal_move_s": 70.96335548887343
+    },
+    {
+      "case_id": "holdout_10004_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1673.7412655070166,
+      "optical_internal_move_s": 17.15874563714877
+    },
+    {
+      "case_id": "holdout_10004_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1696.6381830602375,
+      "optical_internal_move_s": 17.464660461937168
+    },
+    {
+      "case_id": "holdout_10004_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1717.8379498671954,
+      "optical_internal_move_s": 21.865899271947853
+    },
+    {
+      "case_id": "holdout_10005_negative",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2195.442229584718,
+      "optical_internal_move_s": 77.48288630340413
+    },
+    {
+      "case_id": "holdout_10005_positive",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 2124.0968964766744,
+      "optical_internal_move_s": 12.378788825768524
+    },
+    {
+      "case_id": "holdout_10005_smooth",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 2103.623644381995,
+      "optical_internal_move_s": 16.831930667685697
+    },
+    {
+      "case_id": "holdout_10005_spatial_hash",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2154.280226612215,
+      "optical_internal_move_s": 50.63725415240764
+    },
+    {
+      "case_id": "holdout_10006_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1178.5742187918058,
+      "optical_internal_move_s": 23.905724523620453
+    },
+    {
+      "case_id": "holdout_10006_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1221.4712026232055,
+      "optical_internal_move_s": 24.7788379234143
+    },
+    {
+      "case_id": "holdout_10006_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1186.1888953263158,
+      "optical_internal_move_s": 15.077514247508507
+    },
+    {
+      "case_id": "holdout_10006_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1157.0863045503938,
+      "optical_internal_move_s": 11.959241219802788
+    },
+    {
+      "case_id": "holdout_10007_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1576.9479572114226,
+      "optical_internal_move_s": 138.14224035241315
+    },
+    {
+      "case_id": "holdout_10007_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1563.7158336611662,
+      "optical_internal_move_s": 34.423984984940894
+    },
+    {
+      "case_id": "holdout_10007_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1577.1367233192425,
+      "optical_internal_move_s": 35.68542705808401
+    },
+    {
+      "case_id": "holdout_10007_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1661.2364511049043,
+      "optical_internal_move_s": 23.000655361281368
+    },
+    {
+      "case_id": "holdout_10008_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1377.2823776068258,
+      "optical_internal_move_s": 41.56946852455212
+    },
+    {
+      "case_id": "holdout_10008_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1450.8863046951085,
+      "optical_internal_move_s": 13.258166134073935
+    },
+    {
+      "case_id": "holdout_10008_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1371.8214666777292,
+      "optical_internal_move_s": 8.764444718771465
+    },
+    {
+      "case_id": "holdout_10008_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1290.7199700040405,
+      "optical_internal_move_s": 11.721020030218332
+    },
+    {
+      "case_id": "holdout_10009_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1634.544219540627,
+      "optical_internal_move_s": 75.08820736714796
+    },
+    {
+      "case_id": "holdout_10009_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1612.502632730049,
+      "optical_internal_move_s": 21.740650824937685
+    },
+    {
+      "case_id": "holdout_10009_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1603.0114576406238,
+      "optical_internal_move_s": 34.39741905018906
+    },
+    {
+      "case_id": "holdout_10009_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1518.9612464445497,
+      "optical_internal_move_s": 3.846086839060166
+    },
+    {
+      "case_id": "holdout_10010_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1811.60303651835,
+      "optical_internal_move_s": 99.87284603642041
+    },
+    {
+      "case_id": "holdout_10010_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1742.3403111060934,
+      "optical_internal_move_s": 18.592237753440262
+    },
+    {
+      "case_id": "holdout_10010_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1819.6173611337524,
+      "optical_internal_move_s": 32.003673465754375
+    },
+    {
+      "case_id": "holdout_10010_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1829.9253618549824,
+      "optical_internal_move_s": 60.8253942975127
+    },
+    {
+      "case_id": "holdout_10011_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 1,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1561.3939899896866,
+      "optical_internal_move_s": 92.78227271933797
+    },
+    {
+      "case_id": "holdout_10011_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1571.6516532203707,
+      "optical_internal_move_s": 31.823341102819576
+    },
+    {
+      "case_id": "holdout_10011_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 0,
+      "optical_approach_move_s": 1473.384719853906,
+      "optical_internal_move_s": 14.67295639399197
+    },
+    {
+      "case_id": "holdout_10011_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1566.6894122917276,
+      "optical_internal_move_s": 39.56243266801043
+    },
+    {
+      "case_id": "holdout_10012_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1713.0584857329768,
+      "optical_internal_move_s": 89.12339320998602
+    },
+    {
+      "case_id": "holdout_10012_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1670.0344346783827,
+      "optical_internal_move_s": 18.75773069896755
+    },
+    {
+      "case_id": "holdout_10012_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1619.6599955361276,
+      "optical_internal_move_s": 35.77480977167054
+    },
+    {
+      "case_id": "holdout_10012_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1741.9184142381873,
+      "optical_internal_move_s": 48.97466628610295
+    },
+    {
+      "case_id": "holdout_10013_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1533.321952149351,
+      "optical_internal_move_s": 32.8402685882111
+    },
+    {
+      "case_id": "holdout_10013_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1485.1705988976496,
+      "optical_internal_move_s": 20.78983249305669
+    },
+    {
+      "case_id": "holdout_10013_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1450.841718575861,
+      "optical_internal_move_s": 19.512287495631266
+    },
+    {
+      "case_id": "holdout_10013_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1483.636909705235,
+      "optical_internal_move_s": 23.673258539159345
+    },
+    {
+      "case_id": "holdout_10014_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1619.6775153750732,
+      "optical_internal_move_s": 50.16779506192464
+    },
+    {
+      "case_id": "holdout_10014_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1671.0094401084784,
+      "optical_internal_move_s": 17.441442069783204
+    },
+    {
+      "case_id": "holdout_10014_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1633.9049130473113,
+      "optical_internal_move_s": 24.44240518393454
+    },
+    {
+      "case_id": "holdout_10014_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1635.69241968409,
+      "optical_internal_move_s": 11.549802576632548
+    },
+    {
+      "case_id": "holdout_10015_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1314.2626869731976,
+      "optical_internal_move_s": 77.34298307641782
+    },
+    {
+      "case_id": "holdout_10015_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1309.1430746257245,
+      "optical_internal_move_s": 23.00135544896378
+    },
+    {
+      "case_id": "holdout_10015_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1344.4798391530946,
+      "optical_internal_move_s": 38.465642577157425
+    },
+    {
+      "case_id": "holdout_10015_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1337.8602845151993,
+      "optical_internal_move_s": 43.547918897461514
+    },
+    {
+      "case_id": "holdout_10016_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1603.6543792497307,
+      "optical_internal_move_s": 72.78039578590706
+    },
+    {
+      "case_id": "holdout_10016_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1620.5073936318588,
+      "optical_internal_move_s": 17.699861230077836
+    },
+    {
+      "case_id": "holdout_10016_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1601.7052195497577,
+      "optical_internal_move_s": 23.902318440709543
+    },
+    {
+      "case_id": "holdout_10016_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1630.6967498445338,
+      "optical_internal_move_s": 21.96558065879055
+    },
+    {
+      "case_id": "holdout_10017_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1870.4919978062067,
+      "optical_internal_move_s": 70.4324142870078
+    },
+    {
+      "case_id": "holdout_10017_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1850.3947507319351,
+      "optical_internal_move_s": 30.126888945324406
+    },
+    {
+      "case_id": "holdout_10017_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1826.771702844205,
+      "optical_internal_move_s": 49.21777694455591
+    },
+    {
+      "case_id": "holdout_10017_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1886.6407675631633,
+      "optical_internal_move_s": 31.806319173825244
+    },
+    {
+      "case_id": "holdout_10018_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1662.734011878446,
+      "optical_internal_move_s": 51.698366791698234
+    },
+    {
+      "case_id": "holdout_10018_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1653.71905695048,
+      "optical_internal_move_s": 23.39464745444949
+    },
+    {
+      "case_id": "holdout_10018_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1637.5345453777052,
+      "optical_internal_move_s": 40.18931913985206
+    },
+    {
+      "case_id": "holdout_10018_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1648.9766718996664,
+      "optical_internal_move_s": 10.149326367211877
+    },
+    {
+      "case_id": "holdout_10019_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1598.2011455977897,
+      "optical_internal_move_s": 59.72216046324766
+    },
+    {
+      "case_id": "holdout_10019_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1659.1709731971603,
+      "optical_internal_move_s": 36.23411989803541
+    },
+    {
+      "case_id": "holdout_10019_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1575.0815275342086,
+      "optical_internal_move_s": 9.200014055199972
+    },
+    {
+      "case_id": "holdout_10019_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1601.314366145517,
+      "optical_internal_move_s": 25.7916334234499
+    },
+    {
+      "case_id": "holdout_10020_negative",
+      "polygons": 15,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1958.7264574941182,
+      "optical_internal_move_s": 77.35098564267788
+    },
+    {
+      "case_id": "holdout_10020_positive",
+      "polygons": 15,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1948.0145665914251,
+      "optical_internal_move_s": 16.354839143629867
+    },
+    {
+      "case_id": "holdout_10020_smooth",
+      "polygons": 15,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1951.336692303354,
+      "optical_internal_move_s": 46.38787461371028
+    },
+    {
+      "case_id": "holdout_10020_spatial_hash",
+      "polygons": 15,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1953.7512439401028,
+      "optical_internal_move_s": 50.62609640420549
+    },
+    {
+      "case_id": "holdout_10021_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1880.7384642118063,
+      "optical_internal_move_s": 64.46631819251172
+    },
+    {
+      "case_id": "holdout_10021_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1769.1569927198798,
+      "optical_internal_move_s": 16.04279266737184
+    },
+    {
+      "case_id": "holdout_10021_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1864.189014455396,
+      "optical_internal_move_s": 22.7500063586829
+    },
+    {
+      "case_id": "holdout_10021_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1894.9050297444255,
+      "optical_internal_move_s": 13.723290275331314
+    },
+    {
+      "case_id": "holdout_10022_negative",
+      "polygons": 15,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 2041.504883761381,
+      "optical_internal_move_s": 189.57124924836376
+    },
+    {
+      "case_id": "holdout_10022_positive",
+      "polygons": 15,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2103.8659231697434,
+      "optical_internal_move_s": 34.40544834270956
+    },
+    {
+      "case_id": "holdout_10022_smooth",
+      "polygons": 15,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2053.517523080413,
+      "optical_internal_move_s": 64.92179242140563
+    },
+    {
+      "case_id": "holdout_10022_spatial_hash",
+      "polygons": 15,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 2021.9897796620644,
+      "optical_internal_move_s": 49.331041336369076
+    },
+    {
+      "case_id": "holdout_10023_negative",
+      "polygons": 15,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1959.7264178478674,
+      "optical_internal_move_s": 51.06534698616983
+    },
+    {
+      "case_id": "holdout_10023_positive",
+      "polygons": 15,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1997.7629895943232,
+      "optical_internal_move_s": 27.560568952899658
+    },
+    {
+      "case_id": "holdout_10023_smooth",
+      "polygons": 15,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1824.1083037418343,
+      "optical_internal_move_s": 11.356842115805389
+    },
+    {
+      "case_id": "holdout_10023_spatial_hash",
+      "polygons": 15,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1962.2028759058082,
+      "optical_internal_move_s": 30.56363063921513
+    },
+    {
+      "case_id": "holdout_10024_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1526.485968955653,
+      "optical_internal_move_s": 90.8944016399232
+    },
+    {
+      "case_id": "holdout_10024_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1386.6940432071444,
+      "optical_internal_move_s": 21.47693545344193
+    },
+    {
+      "case_id": "holdout_10024_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1434.6850192629302,
+      "optical_internal_move_s": 35.986533212454205
+    },
+    {
+      "case_id": "holdout_10024_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1453.395603657619,
+      "optical_internal_move_s": 38.55750964014907
+    },
+    {
+      "case_id": "holdout_10025_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1637.4435532515142,
+      "optical_internal_move_s": 59.13175916763182
+    },
+    {
+      "case_id": "holdout_10025_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1656.3975972892613,
+      "optical_internal_move_s": 28.755019631793967
+    },
+    {
+      "case_id": "holdout_10025_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1645.607790623185,
+      "optical_internal_move_s": 28.840434617736157
+    },
+    {
+      "case_id": "holdout_10025_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1678.1247444770938,
+      "optical_internal_move_s": 41.75301708287757
+    },
+    {
+      "case_id": "holdout_10026_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1824.4267171378149,
+      "optical_internal_move_s": 46.21921537540351
+    },
+    {
+      "case_id": "holdout_10026_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1865.4485210610774,
+      "optical_internal_move_s": 32.01480480300943
+    },
+    {
+      "case_id": "holdout_10026_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1791.5192158657778,
+      "optical_internal_move_s": 39.03706060831964
+    },
+    {
+      "case_id": "holdout_10026_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1770.8751717857463,
+      "optical_internal_move_s": 24.912148522698097
+    },
+    {
+      "case_id": "holdout_10027_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1445.080668839596,
+      "optical_internal_move_s": 77.19666115637833
+    },
+    {
+      "case_id": "holdout_10027_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1448.4357860920136,
+      "optical_internal_move_s": 14.499655996571985
+    },
+    {
+      "case_id": "holdout_10027_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1465.5700711269803,
+      "optical_internal_move_s": 51.67939150306798
+    },
+    {
+      "case_id": "holdout_10027_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1420.6504691215205,
+      "optical_internal_move_s": 25.045852046879823
+    },
+    {
+      "case_id": "holdout_10028_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1527.8628499830234,
+      "optical_internal_move_s": 51.26036783808373
+    },
+    {
+      "case_id": "holdout_10028_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1567.7078092586364,
+      "optical_internal_move_s": 20.787803796170433
+    },
+    {
+      "case_id": "holdout_10028_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1576.6059198564744,
+      "optical_internal_move_s": 34.749961068154235
+    },
+    {
+      "case_id": "holdout_10028_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1574.696681638106,
+      "optical_internal_move_s": 23.236825640443627
+    },
+    {
+      "case_id": "holdout_10029_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1357.0807627194913,
+      "optical_internal_move_s": 65.61501791522834
+    },
+    {
+      "case_id": "holdout_10029_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1399.331910980706,
+      "optical_internal_move_s": 5.124638227993504
+    },
+    {
+      "case_id": "holdout_10029_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1331.730899434917,
+      "optical_internal_move_s": 24.335996479912524
+    },
+    {
+      "case_id": "holdout_10029_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1452.6887443735527,
+      "optical_internal_move_s": 14.900497413562615
+    },
+    {
+      "case_id": "holdout_10030_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1809.9650990248986,
+      "optical_internal_move_s": 87.34282524796795
+    },
+    {
+      "case_id": "holdout_10030_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1764.5600567928666,
+      "optical_internal_move_s": 9.021378455318144
+    },
+    {
+      "case_id": "holdout_10030_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1795.8093652828998,
+      "optical_internal_move_s": 57.053273134759614
+    },
+    {
+      "case_id": "holdout_10030_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1798.48609391516,
+      "optical_internal_move_s": 24.191042732608516
+    },
+    {
+      "case_id": "holdout_10031_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1496.2794057998562,
+      "optical_internal_move_s": 108.71513051129361
+    },
+    {
+      "case_id": "holdout_10031_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1509.3889833460266,
+      "optical_internal_move_s": 14.070161560706394
+    },
+    {
+      "case_id": "holdout_10031_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1560.8617629704254,
+      "optical_internal_move_s": 48.956461733441756
+    },
+    {
+      "case_id": "holdout_10031_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1483.5703307125216,
+      "optical_internal_move_s": 61.85456026723922
+    },
+    {
+      "case_id": "holdout_10032_negative",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1220.5983635098582,
+      "optical_internal_move_s": 53.455616199823815
+    },
+    {
+      "case_id": "holdout_10032_positive",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1224.3581330071142,
+      "optical_internal_move_s": 16.869789696393596
+    },
+    {
+      "case_id": "holdout_10032_smooth",
+      "polygons": 10,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1221.6203004372853,
+      "optical_internal_move_s": 61.52274666197666
+    },
+    {
+      "case_id": "holdout_10032_spatial_hash",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1189.318394695168,
+      "optical_internal_move_s": 22.317640561393265
+    },
+    {
+      "case_id": "holdout_10033_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1744.8777763099065,
+      "optical_internal_move_s": 45.25275814370601
+    },
+    {
+      "case_id": "holdout_10033_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1697.454677081296,
+      "optical_internal_move_s": 26.871476068859984
+    },
+    {
+      "case_id": "holdout_10033_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1717.7628980192405,
+      "optical_internal_move_s": 16.656559262236186
+    },
+    {
+      "case_id": "holdout_10033_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1772.9519387859652,
+      "optical_internal_move_s": 9.140775394728927
+    },
+    {
+      "case_id": "holdout_10034_negative",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1763.8785168983554,
+      "optical_internal_move_s": 84.26271686194755
+    },
+    {
+      "case_id": "holdout_10034_positive",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1810.774821137844,
+      "optical_internal_move_s": 14.052367539133202
+    },
+    {
+      "case_id": "holdout_10034_smooth",
+      "polygons": 14,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1801.666229509399,
+      "optical_internal_move_s": 19.788143284999144
+    },
+    {
+      "case_id": "holdout_10034_spatial_hash",
+      "polygons": 14,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1817.0781408917708,
+      "optical_internal_move_s": 25.094255589324867
+    },
+    {
+      "case_id": "holdout_10035_negative",
+      "polygons": 16,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1968.5130383052995,
+      "optical_internal_move_s": 92.36828462687467
+    },
+    {
+      "case_id": "holdout_10035_positive",
+      "polygons": 16,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2047.487598957479,
+      "optical_internal_move_s": 22.917927914200607
+    },
+    {
+      "case_id": "holdout_10035_smooth",
+      "polygons": 16,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 2077.862801190606,
+      "optical_internal_move_s": 32.61759637068092
+    },
+    {
+      "case_id": "holdout_10035_spatial_hash",
+      "polygons": 16,
+      "single_circle_certifiable": 8,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1975.860490975996,
+      "optical_internal_move_s": 30.944175856067183
+    },
+    {
+      "case_id": "holdout_10036_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1552.7688686940014,
+      "optical_internal_move_s": 104.47352979218698
+    },
+    {
+      "case_id": "holdout_10036_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1643.5563912318823,
+      "optical_internal_move_s": 39.16904567928689
+    },
+    {
+      "case_id": "holdout_10036_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1522.4567901228522,
+      "optical_internal_move_s": 14.092507544129399
+    },
+    {
+      "case_id": "holdout_10036_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1465.59848382153,
+      "optical_internal_move_s": 23.64048549051557
+    },
+    {
+      "case_id": "holdout_10037_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1412.111820083316,
+      "optical_internal_move_s": 77.48924958410228
+    },
+    {
+      "case_id": "holdout_10037_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1439.5116143698706,
+      "optical_internal_move_s": 26.75053167756175
+    },
+    {
+      "case_id": "holdout_10037_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1411.4038636352434,
+      "optical_internal_move_s": 37.286162490166035
+    },
+    {
+      "case_id": "holdout_10037_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1393.5518857981963,
+      "optical_internal_move_s": 18.549816911696805
+    },
+    {
+      "case_id": "holdout_10038_negative",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1248.1013281593334,
+      "optical_internal_move_s": 56.20060140788939
+    },
+    {
+      "case_id": "holdout_10038_positive",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1194.8880337213247,
+      "optical_internal_move_s": 12.13907431929378
+    },
+    {
+      "case_id": "holdout_10038_smooth",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1260.5500014684535,
+      "optical_internal_move_s": 28.315443166271272
+    },
+    {
+      "case_id": "holdout_10038_spatial_hash",
+      "polygons": 10,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1228.1774524552366,
+      "optical_internal_move_s": 4.522252695284543
+    },
+    {
+      "case_id": "holdout_10039_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 2,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1439.7417421059774,
+      "optical_internal_move_s": 34.968717806206534
+    },
+    {
+      "case_id": "holdout_10039_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1388.15351111367,
+      "optical_internal_move_s": 16.283676657494656
+    },
+    {
+      "case_id": "holdout_10039_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1342.711239071944,
+      "optical_internal_move_s": 17.79361473704021
+    },
+    {
+      "case_id": "holdout_10039_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1416.0424999140923,
+      "optical_internal_move_s": 18.898145700752522
+    },
+    {
+      "case_id": "holdout_10040_negative",
+      "polygons": 15,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1864.205306355594,
+      "optical_internal_move_s": 65.79509192271253
+    },
+    {
+      "case_id": "holdout_10040_positive",
+      "polygons": 15,
+      "single_circle_certifiable": 10,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1722.3840796185887,
+      "optical_internal_move_s": 18.454137613953677
+    },
+    {
+      "case_id": "holdout_10040_smooth",
+      "polygons": 15,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1785.2215208897426,
+      "optical_internal_move_s": 49.946621669521214
+    },
+    {
+      "case_id": "holdout_10040_spatial_hash",
+      "polygons": 15,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1716.2927680620041,
+      "optical_internal_move_s": 10.073810698914787
+    },
+    {
+      "case_id": "holdout_10041_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1667.4679378781216,
+      "optical_internal_move_s": 57.69661430705404
+    },
+    {
+      "case_id": "holdout_10041_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1682.5443548959383,
+      "optical_internal_move_s": 13.463734659664723
+    },
+    {
+      "case_id": "holdout_10041_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1693.1583205421773,
+      "optical_internal_move_s": 34.95279902799757
+    },
+    {
+      "case_id": "holdout_10041_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1638.7000523015158,
+      "optical_internal_move_s": 8.022340883504576
+    },
+    {
+      "case_id": "holdout_10042_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1550.7767642775975,
+      "optical_internal_move_s": 80.7989639882563
+    },
+    {
+      "case_id": "holdout_10042_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1638.640234521823,
+      "optical_internal_move_s": 18.423170064715507
+    },
+    {
+      "case_id": "holdout_10042_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1573.7998361764116,
+      "optical_internal_move_s": 80.16741231472885
+    },
+    {
+      "case_id": "holdout_10042_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1561.1663286970813,
+      "optical_internal_move_s": 22.00756745673136
+    },
+    {
+      "case_id": "holdout_10043_negative",
+      "polygons": 10,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1174.1044239279413,
+      "optical_internal_move_s": 25.188001637954645
+    },
+    {
+      "case_id": "holdout_10043_positive",
+      "polygons": 10,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1197.1303838178485,
+      "optical_internal_move_s": 7.705112783372252
+    },
+    {
+      "case_id": "holdout_10043_smooth",
+      "polygons": 10,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1174.7929385931945,
+      "optical_internal_move_s": 19.31224192101923
+    },
+    {
+      "case_id": "holdout_10043_spatial_hash",
+      "polygons": 10,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1194.4228397349077,
+      "optical_internal_move_s": 3.8746265566852136
+    },
+    {
+      "case_id": "holdout_10044_negative",
+      "polygons": 11,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 1,
+      "optical_approach_move_s": 1391.6189745190516,
+      "optical_internal_move_s": 64.34127216906656
+    },
+    {
+      "case_id": "holdout_10044_positive",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1376.2344087586496,
+      "optical_internal_move_s": 16.37082824181911
+    },
+    {
+      "case_id": "holdout_10044_smooth",
+      "polygons": 11,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1396.2754614240894,
+      "optical_internal_move_s": 47.87355234372539
+    },
+    {
+      "case_id": "holdout_10044_spatial_hash",
+      "polygons": 11,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1379.3817845063566,
+      "optical_internal_move_s": 30.104293751132708
+    },
+    {
+      "case_id": "holdout_10045_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1417.0853630638208,
+      "optical_internal_move_s": 58.18286251051028
+    },
+    {
+      "case_id": "holdout_10045_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1413.3887147101395,
+      "optical_internal_move_s": 11.422018610897975
+    },
+    {
+      "case_id": "holdout_10045_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1554.590308356885,
+      "optical_internal_move_s": 70.94718515392472
+    },
+    {
+      "case_id": "holdout_10045_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1502.4666782369961,
+      "optical_internal_move_s": 14.742742627254444
+    },
+    {
+      "case_id": "holdout_10046_negative",
+      "polygons": 12,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1321.917233918289,
+      "optical_internal_move_s": 36.55390922828065
+    },
+    {
+      "case_id": "holdout_10046_positive",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1499.206080388541,
+      "optical_internal_move_s": 12.557810549005897
+    },
+    {
+      "case_id": "holdout_10046_smooth",
+      "polygons": 12,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1473.9154336929357,
+      "optical_internal_move_s": 12.47922609890704
+    },
+    {
+      "case_id": "holdout_10046_spatial_hash",
+      "polygons": 12,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1468.1063210667876,
+      "optical_internal_move_s": 25.9818884820228
+    },
+    {
+      "case_id": "holdout_10047_negative",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1526.115463568743,
+      "optical_internal_move_s": 79.65855042296388
+    },
+    {
+      "case_id": "holdout_10047_positive",
+      "polygons": 13,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1536.800440445937,
+      "optical_internal_move_s": 15.630466968302969
+    },
+    {
+      "case_id": "holdout_10047_smooth",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1533.292245821872,
+      "optical_internal_move_s": 61.21043677401526
+    },
+    {
+      "case_id": "holdout_10047_spatial_hash",
+      "polygons": 13,
+      "single_circle_certifiable": 5,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1525.1170761070143,
+      "optical_internal_move_s": 28.984400821427965
+    },
+    {
+      "case_id": "holdout_10048_negative",
+      "polygons": 15,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1970.2072333661654,
+      "optical_internal_move_s": 53.160419334370395
+    },
+    {
+      "case_id": "holdout_10048_positive",
+      "polygons": 15,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1924.4396181711736,
+      "optical_internal_move_s": 12.599583884810336
+    },
+    {
+      "case_id": "holdout_10048_smooth",
+      "polygons": 15,
+      "single_circle_certifiable": 9,
+      "single_circle_but_grid_multiple": 6,
+      "optical_approach_move_s": 1970.23827617179,
+      "optical_internal_move_s": 24.969660837817827
+    },
+    {
+      "case_id": "holdout_10048_spatial_hash",
+      "polygons": 15,
+      "single_circle_certifiable": 7,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1972.0145677815642,
+      "optical_internal_move_s": 28.654411145525096
+    },
+    {
+      "case_id": "holdout_10049_negative",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 4,
+      "optical_approach_move_s": 1174.7144281827445,
+      "optical_internal_move_s": 47.87904489975081
+    },
+    {
+      "case_id": "holdout_10049_positive",
+      "polygons": 10,
+      "single_circle_certifiable": 6,
+      "single_circle_but_grid_multiple": 5,
+      "optical_approach_move_s": 1129.4730518383492,
+      "optical_internal_move_s": 14.80255226423442
+    },
+    {
+      "case_id": "holdout_10049_smooth",
+      "polygons": 10,
+      "single_circle_certifiable": 3,
+      "single_circle_but_grid_multiple": 3,
+      "optical_approach_move_s": 1173.3720024937415,
+      "optical_internal_move_s": 18.493320356204627
+    },
+    {
+      "case_id": "holdout_10049_spatial_hash",
+      "polygons": 10,
+      "single_circle_certifiable": 4,
+      "single_circle_but_grid_multiple": 2,
+      "optical_approach_move_s": 1125.9829972744537,
+      "optical_internal_move_s": 4.027511313207602
+    }
+  ],
+  "summary": {
+    "polygons": 2548,
+    "single_circle_certifiable": 964,
+    "single_circle_but_grid_multiple": 590
+  },
+  "mean_optical_approach_move_s": 1615.9495624357858,
+  "mean_optical_internal_move_s": 37.28686124669557
+}

@@ -1,0 +1,144 @@
+{
+  "kind": "SELF_ROUND5_PRE_HELDOUT_LOCK",
+  "created_utc": "2026-09-11T10:28:31.547344+00:00",
+  "selected_variant": "COMPACT_BATCH",
+  "selection": "Batch resolves original cluster regression from +64.6% to +2.2%; compact batch reduces structured mean 38.5% while retaining a +24.54% easy-near-station regression. Choose lower mean and lower structured p95; record tradeoff explicitly. REF_BATCH retained as conservative comparator. No holdout data generated yet.",
+  "adoption": "All runs complete and audited; candidate mean and p95 <= REF in each fresh ordinary/outer rounding batch, with strict mean improvement. No per-case superiority claimed; retain worst regressions. Do not retune on validation.",
+  "code_sha256": {
+    "question3/cases.py": "f65edff0b35d467057e831c492eb48fe63083dd02da7380574bceded2cb1e828",
+    "question3/self_server.py": "da8ebe8ca8b575405db8a32229d08b627af466c0e85d1e3fe4815e49e3844c64",
+    "question3/order_routing.py": "425b8a06d931e33c61f5cd9b3474e014954acdae1f9d899f38bd4a14a56e63ce",
+    "question3/lookahead.py": "de405e2f02a78d84d0c1e9e97fa013d2fde280d0130d106c3cb36a77595a12a8",
+    "question3/strategy.py": "5d29cde800acb1f75e1ae0c1fca60513f9f107358d4a10a1eb99351410766048",
+    "question3/run_self.py": "ababc3e8b38375208a9a8143da3b833b54d69a99bec2abdfe90411d4aad699d3",
+    "question3/geometry.py": "bb68096316e796678b5cf3dbc3d760e0b776b823725e01b8188ec374f4be6424",
+    "question3/simulator.py": "648d99f3a842182682b093294f827d50ddfd0c216b154b3b2ee94ad208a172e2",
+    "question3/optical_shortcut.py": "a2a9b18c4d9fc588687e516362613953da9508c06bd576bb9d834315c9473a90",
+    "question3/run_http.py": "2885a8b1624fec4500dca9534f53bd4629f6fa8864157e5935e0f4db637ca1c6",
+    "question3/analyze_matrix.py": "9b0d3961d354d3e9258304018e27b228f4588cc614f367f785bac87068b9d7cd",
+    "question3/__init__.py": "f62b0abcce0bf1263b263b006344fc9c3254afbb0c627decaa37866cbd22ce4a",
+    "question3/shared_cost.py": "2f91457fcbf1466c9bd68df085a6ef10ce1f9b85aa6709d0278c45e7d2b3dd7d",
+    "question3/modules.py": "8613e9cf916d0550dde26218a849f6a35eea29c12e145bd4e09e147bf17a68dc",
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question3/run_faults.py": "1622d3314b22c9aab0a1dcb0b2172833b1ebb0f0dd2861e72dc3c6b686f1be00",
+    "question3/shared_measurement.py": "f78a2593dd98d3583076283f9276fe7fe9b013cbcaf0b45483cd81b5c57de2f7",
+    "question3/make_holdout.py": "0515ad796994b3a9dca4f09599de1199b2c59b301438ae8bcfdcdeb6d439e89e",
+    "question3/run_matrix.py": "5339ea425235217b477425ecf3e31a03606b86b273b5090e6faf52270fe7e08f",
+    "question3/audit.py": "9edf719005d3e1f62051db448aa0a0404d0d5cf341a42f7601a081e91b9d36f8",
+    "question1/solve.py": "2c98cdc298eb3bb04bfddeaad1259939c9972fc0b32c15a034a045f94f3df033",
+    "question2/strategy.py": "9361ac88d7782a2da0d4bda646299dec55ade0d7e562fb09fcd40c97aad79f02"
+  },
+  "configs": {
+    "AB": {
+      "name": "round5_AB",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false
+      }
+    },
+    "REF_BATCH": {
+      "name": "round5_REF_BATCH",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "empty_origin_radius_m": 1500.0,
+      "shared_batch_limit": 19
+    },
+    "COMPACT_BATCH": {
+      "name": "round5_COMPACT_BATCH",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "shared_batch_limit": 19
+    },
+    "COMPACT": {
+      "name": "round5_COMPACT",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125
+    },
+    "REF": {
+      "name": "round5_REF",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "empty_origin_radius_m": 1500.0
+    }
+  },
+  "seed_start": 40000,
+  "seed_stop_exclusive": 40050,
+  "outer_seed_range": [
+    50000,
+    50020
+  ],
+  "error_modes": [
+    "spatial_hash",
+    "smooth",
+    "positive",
+    "negative"
+  ],
+  "official_runs": 0,
+  "formal_runs": 0
+}

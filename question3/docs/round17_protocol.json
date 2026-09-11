@@ -1,0 +1,23 @@
+{
+  "kind": "SELF_ROUND17_PRE_DEVELOPMENT",
+  "reference": "round16_FREE",
+  "mechanism": "Only replace nearest scan station with first station of shortest open path over all remaining stations; compare its entry distance against every known localization entry as before. Recompute at each scheduling decision. No endpoint or hidden source prior.",
+  "variants": [
+    "REF",
+    "ROUTE"
+  ],
+  "development": "Same 52 configurations, two rounding models, no numeric parameter tuning.",
+  "gate": "Both development models complete/audited; mean strictly lower and p95<=REF. If either fails, reject without generating fresh layouts. If passed, freeze code/configs, then same gates on each fresh ordinary and outer model. Retain every regression.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      230000,
+      230050
+    ],
+    "outer": [
+      240000,
+      240020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

@@ -1,0 +1,143 @@
+{
+  "kind": "POST_RUN_FAILURE_ATTRIBUTION_NOT_NEW_POLICY_RESULT",
+  "cases": [
+    {
+      "case_id": "holdout_190046_smooth",
+      "ref_s": 4006.017541,
+      "phase_s": 5126.141077,
+      "phase_event": {
+        "type": "ring_phase_selected",
+        "phase_rad": 0.21969665550889744,
+        "station_id": 1,
+        "position": [
+          732.5433127516487,
+          163.57760277208797
+        ],
+        "old_station": [
+          1125.0,
+          0.0
+        ],
+        "new_station": [
+          1097.9590535814827,
+          245.17527742098036
+        ],
+        "visited_before": [
+          0
+        ],
+        "local_movement_saved_s": 10.153368080079463
+      },
+      "public_queue_before_first_outer": {
+        "known": [
+          2,
+          10,
+          13,
+          16
+        ],
+        "cleared": [
+          2
+        ],
+        "pending": [
+          10,
+          13,
+          16
+        ],
+        "cached": []
+      },
+      "components_delta_s": {
+        "movement_s": 1078.1235364065242,
+        "switch_s": 6.0,
+        "detection_s": 30.0,
+        "optical_s": 6.0,
+        "laser_s": 0.0
+      },
+      "phases_delta_s": {
+        "control": 0.0,
+        "localization": 458.4903047614515,
+        "localization_shared": 0.0,
+        "optical": 770.1078365845976,
+        "search": -108.4746049395244
+      },
+      "counts_delta": {
+        "measure": 6,
+        "clear": 2,
+        "clear_success": 0,
+        "clear_failure": 2,
+        "retries": 0
+      }
+    },
+    {
+      "case_id": "holdout_190049_negative",
+      "ref_s": 3799.301534,
+      "phase_s": 4789.135525,
+      "phase_event": {
+        "type": "ring_phase_selected",
+        "phase_rad": -6.1534166063883955,
+        "station_id": 4,
+        "position": [
+          -630.8483688796396,
+          -82.32701956074415
+        ],
+        "old_station": [
+          -1125.0,
+          1.3777276490407724e-13
+        ],
+        "new_station": [
+          -1115.5408328983476,
+          -145.58039063163997
+        ],
+        "visited_before": [
+          0
+        ],
+        "local_movement_saved_s": 2.4320517815575045
+      },
+      "public_queue_before_first_outer": {
+        "known": [
+          1,
+          3,
+          10,
+          11,
+          16,
+          17,
+          20
+        ],
+        "cleared": [
+          11,
+          16
+        ],
+        "pending": [
+          1,
+          3,
+          10,
+          17,
+          20
+        ],
+        "cached": [
+          1,
+          3
+        ]
+      },
+      "components_delta_s": {
+        "movement_s": 995.8339945271878,
+        "switch_s": 4.0,
+        "detection_s": 20.0,
+        "optical_s": -30.0,
+        "laser_s": 0.0
+      },
+      "phases_delta_s": {
+        "control": 0.0,
+        "localization": 778.0269842562616,
+        "localization_shared": -12.0,
+        "optical": -51.28950747688168,
+        "search": 275.09651774780605
+      },
+      "counts_delta": {
+        "measure": 4,
+        "clear": -10,
+        "clear_success": 0,
+        "clear_failure": -10,
+        "retries": 0
+      }
+    }
+  ],
+  "next_hypothesis": "Keep the fixed ring; compare ending a known/cached localization batch before resuming search with the current nearest/forced-two interleaving. Published <=16 sources permits a finite batch, but total-time benefit remains untested."
+}

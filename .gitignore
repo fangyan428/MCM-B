@@ -5,3 +5,15 @@ __pycache__/
 .env.*
 .codex/
 .agents/
+
+# Local paper evidence bundle (both spellings are excluded).
+/paper_evidence/
+/paper-evidence/
+
+# Large generated per-case traces stay in the local evidence archive.
+# Keep reports, aggregate results, fixtures, locks and source snapshots in Git.
+/question3/results/**/actions.jsonl
+/question3/results/**/strategy.jsonl
+/question3/results/**/result.json
+/question3/results/**/evaluator_hidden_case.json
+/question3/releases/*.zip

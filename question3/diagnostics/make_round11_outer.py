@@ -1,0 +1,29 @@
+"""Evaluator-only fresh outer layouts, generated after the round-11 code/config lock."""
+import hashlib
+import json
+import math
+from pathlib import Path
+import random
+
+
+def main():
+    root=Path('question3/results');lock=json.loads((root/'round11_lock.json').read_text())
+    for p,h in lock['code_sha256'].items():
+        if hashlib.sha256(Path(p).read_bytes()).hexdigest()!=h:raise RuntimeError('Lock changed: '+p)
+    out=root/'round11_outer_holdout_cases.json'
+    if out.exists():raise RuntimeError('Do not overwrite validation fixtures')
+    cases=[]
+    for seed in range(*lock['outer_seed_range']):
+        rng=random.Random(seed);n=rng.randint(10,16);channels=rng.sample(range(1,21),n)
+        centre=rng.uniform(0,2*math.pi);sources=[]
+        for c in channels:
+            radius=rng.uniform(1600,1800)
+            angle=centre+rng.uniform(-.06,.06) if seed%2 else rng.uniform(0,2*math.pi)
+            sources.append(dict(channel=c,x=radius*math.cos(angle),y=radius*math.sin(angle),radius=rng.uniform(1000,1500)))
+        for mode in lock['error_modes']:
+            cases.append(dict(id=f'outer_holdout_{seed}_{mode}',seed=seed,error_mode=mode,sources=sources))
+    out.write_text(json.dumps(cases,indent=2),encoding='utf-8')
+    print(len(cases),hashlib.sha256(out.read_bytes()).hexdigest())
+
+
+if __name__=='__main__':main()

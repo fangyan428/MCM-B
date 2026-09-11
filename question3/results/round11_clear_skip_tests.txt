@@ -1,0 +1,12 @@
+test_deadline_after_a_skip_is_incomplete (question3.tests.test_clear_skip.ClearSkipTests.test_deadline_after_a_skip_is_incomplete) ... ok
+test_exhausted_skip_plan_never_claims_success (question3.tests.test_clear_skip.ClearSkipTests.test_exhausted_skip_plan_never_claims_success) ... ok
+test_independent_audit_rejects_forged_skip_witness (question3.tests.test_clear_skip.ClearSkipTests.test_independent_audit_rejects_forged_skip_witness) ... ok
+test_invalid_and_dynamic_plan_config_before_enter (question3.tests.test_clear_skip.ClearSkipTests.test_invalid_and_dynamic_plan_config_before_enter) ... ok
+test_rotation_translation_normal_scaling (question3.tests.test_clear_skip.ClearSkipTests.test_rotation_translation_normal_scaling) ... ok
+test_same_success_positions_and_measurements_on_fixed_cases (question3.tests.test_clear_skip.ClearSkipTests.test_same_success_positions_and_measurements_on_fixed_cases) ... ok
+test_strict_disk_separation_and_inconclusive_corner (question3.tests.test_clear_skip.ClearSkipTests.test_strict_disk_separation_and_inconclusive_corner) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.709s
+
+OK

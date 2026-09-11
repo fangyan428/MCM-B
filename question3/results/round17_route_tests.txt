@@ -1,0 +1,12 @@
+test_deadline_on_scan_never_reports_complete (question3.tests.test_scan_route.ScanRouteTests.test_deadline_on_scan_never_reports_complete) ... ok
+test_empty_singleton_and_duplicate_rejection (question3.tests.test_scan_route.ScanRouteTests.test_empty_singleton_and_duplicate_rejection) ... ok
+test_exact_cost_against_exhaustive_permutations (question3.tests.test_scan_route.ScanRouteTests.test_exact_cost_against_exhaustive_permutations) ... ok
+test_greedy_counterexample_and_deterministic_tie (question3.tests.test_scan_route.ScanRouteTests.test_greedy_counterexample_and_deterministic_tie) ... ok
+test_incompatible_or_unknown_config_rejected (question3.tests.test_scan_route.ScanRouteTests.test_incompatible_or_unknown_config_rejected) ... ok
+test_longer_first_scan_still_competes_with_localization (question3.tests.test_scan_route.ScanRouteTests.test_longer_first_scan_still_competes_with_localization) ... ok
+test_real_controller_logs_valid_routes_and_retains_late_source (question3.tests.test_scan_route.ScanRouteTests.test_real_controller_logs_valid_routes_and_retains_late_source) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.249s
+
+OK

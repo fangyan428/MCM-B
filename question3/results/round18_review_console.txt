@@ -1,0 +1,28 @@
+{
+  "total_runs": 1400,
+  "total_audited_actions": 167130,
+  "legacy_exact": 140,
+  "fresh_validation_runs": 1120,
+  "fresh_layouts": 70,
+  "official_runs": 0,
+  "formal_runs": 0,
+  "adoption_checks": [
+    {
+      "batch": "holdout_main",
+      "passed": true
+    },
+    {
+      "batch": "holdout_rounding",
+      "passed": true
+    },
+    {
+      "batch": "outer_main",
+      "passed": false
+    },
+    {
+      "batch": "outer_rounding",
+      "passed": false
+    }
+  ],
+  "adopt_selected": false
+}

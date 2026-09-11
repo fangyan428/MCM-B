@@ -1,0 +1,37 @@
+{
+  "kind": "SELF_EXTRACTED_RELEASE_SMOKE",
+  "zip_sha256": "0c4ba5f6f5524f78900c1dc375452e57c61e8f685874acc7b1dfabf9d50f9382",
+  "code_and_config_match_lock": true,
+  "cases": [
+    {
+      "case": "dev_0_negative",
+      "virtual_s": 4648.127606,
+      "radius_skips": 3,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 114
+    },
+    {
+      "case": "dev_1_smooth",
+      "virtual_s": 3967.491377,
+      "radius_skips": 1,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 123
+    },
+    {
+      "case": "late_channel20_after_ten",
+      "virtual_s": 2992.378266,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 98
+    },
+    {
+      "case": "clustered_16",
+      "virtual_s": 903.160054,
+      "radius_skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 68
+    }
+  ],
+  "official_runs": 0,
+  "formal_runs": 0
+}

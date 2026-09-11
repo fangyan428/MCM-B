@@ -1,0 +1,24 @@
+{
+  "kind": "SELF_ROUND7_PRE_DEVELOPMENT",
+  "mechanism": "Re-evaluate existing certified single-circle clear D under compact ring + full shared batch; test D and V interaction, keep failed I off.",
+  "variants": [
+    "REF",
+    "D",
+    "V",
+    "DV"
+  ],
+  "development": "Existing52 x four configs x two rounding modes; no tuned numerical thresholds. Known adverse cases may be reused as development, not unseen.",
+  "selection": "Complete/audited, lower mean and no higher p95 versus REF in both development models; then lock before new validation. Reject candidates failing this gate; do not weaken it after results.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      70000,
+      70050
+    ],
+    "outer": [
+      80000,
+      80020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

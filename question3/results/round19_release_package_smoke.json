@@ -1,0 +1,81 @@
+{
+  "kind": "SELF_EXTRACTED_RELEASE_SMOKE",
+  "zip_sha256": "1065bcdd215ccdf200df3808ed0062435f17c64eadbe231dee0cbeb8e590c780",
+  "code_and_config_match_lock": true,
+  "cases": [
+    {
+      "domain_shared": 0,
+      "tasks": 20,
+      "case": "dev_0_negative",
+      "virtual_s": 3928.834117,
+      "radius_skips": 2,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 104
+    },
+    {
+      "domain_shared": 0,
+      "tasks": 18,
+      "case": "dev_1_smooth",
+      "virtual_s": 3642.040927,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 118
+    },
+    {
+      "domain_shared": 0,
+      "tasks": 18,
+      "case": "late_channel20_after_ten",
+      "virtual_s": 2425.745978,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 103
+    },
+    {
+      "domain_shared": 15,
+      "tasks": 18,
+      "case": "clustered_16",
+      "virtual_s": 735.54876,
+      "radius_skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 68
+    },
+    {
+      "domain_shared": 0,
+      "tasks": 22,
+      "case": "holdout_250019_negative",
+      "virtual_s": 5021.960626,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 126
+    },
+    {
+      "domain_shared": 0,
+      "tasks": 22,
+      "case": "holdout_250022_positive",
+      "virtual_s": 4031.726364,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 108
+    },
+    {
+      "domain_shared": 3,
+      "tasks": 23,
+      "case": "outer_holdout_260006_negative",
+      "virtual_s": 4929.427794,
+      "radius_skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 165
+    },
+    {
+      "domain_shared": 14,
+      "tasks": 21,
+      "case": "outer_holdout_260007_negative",
+      "virtual_s": 2330.164574,
+      "radius_skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 158
+    }
+  ],
+  "official_runs": 0,
+  "formal_runs": 0
+}

@@ -1,0 +1,18 @@
+{
+  "name": "round4_ABR1125",
+  "error_deg": 1.005,
+  "second_offset": [
+    800.0,
+    605.0
+  ],
+  "min_angle_deg": 20.0,
+  "optical_cell_m": 28.0,
+  "max_optical_points": 2000,
+  "real_time_reserve_s": 5.0,
+  "modules": {
+    "A": true,
+    "B": true,
+    "C": false
+  },
+  "search_radius_m": 1125
+}

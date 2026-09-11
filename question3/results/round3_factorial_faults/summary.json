@@ -1,0 +1,17 @@
+[
+  {
+    "fault": "shared_no_signal",
+    "status": "incomplete",
+    "failure": "Incomplete: Guaranteed-reception second point returned no_signal"
+  },
+  {
+    "fault": "deadline_with_cached_source",
+    "status": "incomplete",
+    "failure": "ProtocolError: Real deadline guard reached; completion not certified"
+  },
+  {
+    "fault": "shared_response_lost",
+    "status": "complete",
+    "failure": null
+  }
+]

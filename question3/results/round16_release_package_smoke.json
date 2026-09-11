@@ -1,0 +1,57 @@
+{
+  "kind": "SELF_EXTRACTED_RELEASE_SMOKE",
+  "zip_sha256": "320e1adff9e0a21d9dbc3f0b58243fdba97ebf9f8d8d94a1499956507d892d18",
+  "code_and_config_match_lock": true,
+  "cases": [
+    {
+      "tasks": 20,
+      "case": "dev_0_negative",
+      "virtual_s": 4206.849533,
+      "radius_skips": 3,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 107
+    },
+    {
+      "tasks": 18,
+      "case": "dev_1_smooth",
+      "virtual_s": 3657.653015,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 116
+    },
+    {
+      "tasks": 18,
+      "case": "late_channel20_after_ten",
+      "virtual_s": 2526.399605,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 102
+    },
+    {
+      "tasks": 18,
+      "case": "clustered_16",
+      "virtual_s": 903.160054,
+      "radius_skips": 0,
+      "certificate": "source_count_upper_bound",
+      "audit_actions": 68
+    },
+    {
+      "tasks": 20,
+      "case": "holdout_210032_positive",
+      "virtual_s": 4209.261387,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 108
+    },
+    {
+      "tasks": 21,
+      "case": "holdout_210044_smooth",
+      "virtual_s": 5679.99073,
+      "radius_skips": 0,
+      "certificate": "seven_station_channel_cover",
+      "audit_actions": 117
+    }
+  ],
+  "official_runs": 0,
+  "formal_runs": 0
+}

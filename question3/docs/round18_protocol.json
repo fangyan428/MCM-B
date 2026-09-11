@@ -1,0 +1,25 @@
+{
+  "kind": "SELF_ROUND18_PRE_DEVELOPMENT",
+  "reference": "round16_FREE",
+  "mechanism": "At actual localization only, use published radius-1800 domain to bound first range U; certify old and U/1500-scaled offsets and current point over [5,U]. Preserve original scheduler and full-sector shared eligibility. No fitted scale or numeric search.",
+  "variants": [
+    "REF",
+    "DOMAIN"
+  ],
+  "gate": "Both development models complete/audited, mean strictly lower and p95<=REF; otherwise reject without fresh generation. If passed freeze then same per-batch gates for fresh ordinary/outer. Retain failures, regressions and all-case metrics.",
+  "range_bound": "Add 1e-5m outward margin then ceil to 1m, capped at published 1500m. Outside-domain first point or bound<=5: full-range fallback.",
+  "scoring": "Same 31x3x3 diameter surrogate on [5.001,U], old plus deterministically scaled catalog; no parameter sweep. Current-if-certified rule preserved using tightened certificate. Computational overhead reported.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      230000,
+      230050
+    ],
+    "outer": [
+      240000,
+      240020
+    ]
+  },
+  "seed_note": "Reserved in round17 but never generated.",
+  "official_runs": 0,
+  "formal_runs": 0
+}

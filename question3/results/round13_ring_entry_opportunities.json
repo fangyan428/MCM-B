@@ -1,0 +1,1291 @@
+{
+  "kind": "OFFLINE_FIRST_RING_ENTRY_BOUND_NOT_POLICY_RESULT",
+  "batches": {
+    "dev_main": {
+      "cases": 52,
+      "cases_with_positive_local_bound": 50,
+      "mean_local_bound_s": 33.76607893054247,
+      "maximum": {
+        "case_id": "dev_6_spatial_hash",
+        "previous_position": [
+          984.2850062694753,
+          -462.80540041579826
+        ],
+        "original_station": [
+          1125.0,
+          0.0
+        ],
+        "local_move_saving_bound_s": 89.27707357171548
+      },
+      "rows": [
+        {
+          "case_id": "dev_0_spatial_hash",
+          "previous_position": [
+            -892.4649186309904,
+            -758.7094622227272
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 69.55192029226473
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "previous_position": [
+            -806.979419841767,
+            213.8440311333649
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 18.61276398928309
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "previous_position": [
+            -909.3972145325956,
+            1072.3362631133746
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 15.892839107008104
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "previous_position": [
+            105.44060839559211,
+            907.90244821128
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 50.171729976740416
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "previous_position": [
+            -280.11504340467985,
+            732.6411904742565
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 6.204544881599657
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "previous_position": [
+            -856.806485792013,
+            -235.31502558223448
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 24.065067206521597
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "previous_position": [
+            984.2850062694753,
+            -462.80540041579826
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 89.27707357171548
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "previous_position": [
+            416.35251954883023,
+            168.66505826134
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 10.532306751794295
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "previous_position": [
+            51.364366417578324,
+            525.022424854074
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 16.607339559708386
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "previous_position": [
+            -48.73835915029916,
+            531.054716604429
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 17.36263930064656
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "previous_position": [
+            1260.881543713616,
+            602.8620087788382
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 69.07864613825393
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "previous_position": [
+            -1091.3443423748436,
+            335.6202525851175
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 64.1036631606232
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "previous_position": [
+            -927.5949861629946,
+            -754.2973355823682
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 71.13452596071713
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "previous_position": [
+            547.6230080145456,
+            107.67494962852679
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 4.0879213205608265
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "previous_position": [
+            320.390904490368,
+            657.7345040681353
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 1.0273079323916705
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "previous_position": [
+            96.64571343089032,
+            896.218511695432
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 49.752693120020034
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "previous_position": [
+            138.18420963845463,
+            563.5192410375678
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 9.155908208756932
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "previous_position": [
+            -801.52199217967,
+            -595.8932193649111
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 64.26380867827785
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "previous_position": [
+            1148.99113218384,
+            735.7176093554148
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 78.75993285688351
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "previous_position": [
+            -592.3615123833367,
+            -608.8166188383823
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 18.224160774252777
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "previous_position": [
+            49.165957092809364,
+            532.2479006840581
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 17.38753528426714
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "previous_position": [
+            -50.5612975463263,
+            527.6483090086942
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 16.889442466338778
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "previous_position": [
+            1266.6167938078006,
+            606.4008885913692
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 68.68484992551035
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "previous_position": [
+            980.3118245650857,
+            35.40443217704831
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.9815572242340522
+        },
+        {
+          "case_id": "dev_0_positive",
+          "previous_position": [
+            315.39971596731357,
+            -852.3372969690076
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 11.8743801980125
+        },
+        {
+          "case_id": "dev_1_positive",
+          "previous_position": [
+            218.81783370671982,
+            1072.5075737679788
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 65.40926141689764
+        },
+        {
+          "case_id": "dev_2_positive",
+          "previous_position": [
+            307.0851736704912,
+            654.7119902684245
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 1.4496388457828857
+        },
+        {
+          "case_id": "dev_3_positive",
+          "previous_position": [
+            81.2372519789589,
+            900.5500158780126
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 53.21685420465434
+        },
+        {
+          "case_id": "dev_4_positive",
+          "previous_position": [
+            1008.823960617361,
+            -905.4173957785761
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 44.211660348628186
+        },
+        {
+          "case_id": "dev_5_positive",
+          "previous_position": [
+            169.49479144465883,
+            802.0566818701095
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 24.770959864033852
+        },
+        {
+          "case_id": "dev_6_positive",
+          "previous_position": [
+            182.36672384241223,
+            -526.4439076230499
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 3.910390920130749
+        },
+        {
+          "case_id": "dev_7_positive",
+          "previous_position": [
+            -1088.0159818489512,
+            810.7466287104078
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 63.701013852228925
+        },
+        {
+          "case_id": "dev_8_positive",
+          "previous_position": [
+            43.51804987132387,
+            528.4394932206401
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 17.883497404426407
+        },
+        {
+          "case_id": "dev_9_positive",
+          "previous_position": [
+            -63.52860452774032,
+            516.4151685351179
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 14.503318839441045
+        },
+        {
+          "case_id": "dev_10_positive",
+          "previous_position": [
+            1256.069413573341,
+            624.5985526627353
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 72.08152386997872
+        },
+        {
+          "case_id": "dev_11_positive",
+          "previous_position": [
+            978.5523628695528,
+            36.558518126884245
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 1.0353725834298473
+        },
+        {
+          "case_id": "dev_0_negative",
+          "previous_position": [
+            -916.027517031925,
+            -752.8830054380518
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 71.28144757761336
+        },
+        {
+          "case_id": "dev_1_negative",
+          "previous_position": [
+            555.6009078026295,
+            90.03638173263047
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 2.8645173686359158
+        },
+        {
+          "case_id": "dev_2_negative",
+          "previous_position": [
+            -1075.280728833632,
+            -84.13464804120176
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 10.258927627277851
+        },
+        {
+          "case_id": "dev_3_negative",
+          "previous_position": [
+            99.3444464288869,
+            925.427260668967
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 54.29380276046214
+        },
+        {
+          "case_id": "dev_4_negative",
+          "previous_position": [
+            137.6905955984155,
+            560.262928683793
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 9.024468474873265
+        },
+        {
+          "case_id": "dev_5_negative",
+          "previous_position": [
+            -798.1176166474397,
+            -593.7178826885473
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 63.46567414782173
+        },
+        {
+          "case_id": "dev_6_negative",
+          "previous_position": [
+            -802.1920658968642,
+            -1009.9606991741376
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 15.510668243928041
+        },
+        {
+          "case_id": "dev_7_negative",
+          "previous_position": [
+            -1077.7486007499072,
+            831.5311996537221
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 59.682497553098685
+        },
+        {
+          "case_id": "dev_8_negative",
+          "previous_position": [
+            847.1038767553948,
+            722.0081742248816
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 73.67310213055376
+        },
+        {
+          "case_id": "dev_9_negative",
+          "previous_position": [
+            -45.68071723666338,
+            518.2989310804531
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 16.90495115737401
+        },
+        {
+          "case_id": "dev_10_negative",
+          "previous_position": [
+            1261.4575456521986,
+            599.8826034118885
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 68.67540750514976
+        },
+        {
+          "case_id": "dev_11_negative",
+          "previous_position": [
+            771.2734389508507,
+            937.7904845746491
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 24.544965336111638
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "previous_position": [
+            0.0,
+            0.0
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "previous_position": [
+            52.27548620680188,
+            -0.9493135850174576
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0018078045990023383
+        },
+        {
+          "case_id": "near_at_origin",
+          "previous_position": [
+            148.36609118866514,
+            998.1894983408254
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 59.79581666469382
+        },
+        {
+          "case_id": "clustered_16",
+          "previous_position": [
+            0.0,
+            0.0
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0
+        }
+      ]
+    },
+    "dev_rounding": {
+      "cases": 52,
+      "cases_with_positive_local_bound": 50,
+      "mean_local_bound_s": 28.998423597027855,
+      "maximum": {
+        "case_id": "dev_6_spatial_hash",
+        "previous_position": [
+          984.2850062694753,
+          -462.80540041579826
+        ],
+        "original_station": [
+          1125.0,
+          0.0
+        ],
+        "local_move_saving_bound_s": 89.27707357171548
+      },
+      "rows": [
+        {
+          "case_id": "dev_0_spatial_hash",
+          "previous_position": [
+            -892.4649186309904,
+            -758.7094622227272
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 69.55192029226473
+        },
+        {
+          "case_id": "dev_1_spatial_hash",
+          "previous_position": [
+            -806.979419841767,
+            213.8440311333649
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 18.61276398928309
+        },
+        {
+          "case_id": "dev_2_spatial_hash",
+          "previous_position": [
+            -909.3972145325956,
+            1072.3362631133746
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 15.892839107008104
+        },
+        {
+          "case_id": "dev_3_spatial_hash",
+          "previous_position": [
+            105.44060839559211,
+            907.90244821128
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 50.171729976740416
+        },
+        {
+          "case_id": "dev_4_spatial_hash",
+          "previous_position": [
+            -280.11504340467985,
+            732.6411904742565
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 6.204544881599657
+        },
+        {
+          "case_id": "dev_5_spatial_hash",
+          "previous_position": [
+            -856.806485792013,
+            -235.31502558223448
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 24.065067206521597
+        },
+        {
+          "case_id": "dev_6_spatial_hash",
+          "previous_position": [
+            984.2850062694753,
+            -462.80540041579826
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 89.27707357171548
+        },
+        {
+          "case_id": "dev_7_spatial_hash",
+          "previous_position": [
+            416.35251954883023,
+            168.66505826134
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 10.532306751794295
+        },
+        {
+          "case_id": "dev_8_spatial_hash",
+          "previous_position": [
+            51.364366417578324,
+            525.022424854074
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 16.607339559708386
+        },
+        {
+          "case_id": "dev_9_spatial_hash",
+          "previous_position": [
+            -48.73835915029916,
+            531.054716604429
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 17.36263930064656
+        },
+        {
+          "case_id": "dev_10_spatial_hash",
+          "previous_position": [
+            1260.881543713616,
+            602.8620087788382
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 69.07864613825393
+        },
+        {
+          "case_id": "dev_11_spatial_hash",
+          "previous_position": [
+            -1091.3443423748436,
+            335.6202525851175
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 64.1036631606232
+        },
+        {
+          "case_id": "dev_0_smooth",
+          "previous_position": [
+            -927.5949861629946,
+            -754.2973355823682
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 71.13452596071713
+        },
+        {
+          "case_id": "dev_1_smooth",
+          "previous_position": [
+            547.6230080145456,
+            107.67494962852679
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 4.0879213205608265
+        },
+        {
+          "case_id": "dev_2_smooth",
+          "previous_position": [
+            320.390904490368,
+            657.7345040681353
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 1.0273079323916705
+        },
+        {
+          "case_id": "dev_3_smooth",
+          "previous_position": [
+            96.64571343089032,
+            896.218511695432
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 49.752693120020034
+        },
+        {
+          "case_id": "dev_4_smooth",
+          "previous_position": [
+            138.18420963845463,
+            563.5192410375678
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 9.155908208756932
+        },
+        {
+          "case_id": "dev_5_smooth",
+          "previous_position": [
+            -801.52199217967,
+            -595.8932193649111
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 64.26380867827785
+        },
+        {
+          "case_id": "dev_6_smooth",
+          "previous_position": [
+            1148.99113218384,
+            735.7176093554148
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 78.75993285688351
+        },
+        {
+          "case_id": "dev_7_smooth",
+          "previous_position": [
+            -592.3615123833367,
+            -608.8166188383823
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 18.224160774252777
+        },
+        {
+          "case_id": "dev_8_smooth",
+          "previous_position": [
+            49.165957092809364,
+            532.2479006840581
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 17.38753528426714
+        },
+        {
+          "case_id": "dev_9_smooth",
+          "previous_position": [
+            -50.5612975463263,
+            527.6483090086942
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 16.889442466338778
+        },
+        {
+          "case_id": "dev_10_smooth",
+          "previous_position": [
+            687.1759647909182,
+            -1054.1583647873615
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 2.9428353660762583
+        },
+        {
+          "case_id": "dev_11_smooth",
+          "previous_position": [
+            980.3118245650857,
+            35.40443217704831
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.9815572242340522
+        },
+        {
+          "case_id": "dev_0_positive",
+          "previous_position": [
+            316.5552672470334,
+            -855.5417475724873
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 12.066821483860839
+        },
+        {
+          "case_id": "dev_1_positive",
+          "previous_position": [
+            218.63064249073568,
+            1072.545748349163
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 65.44735644769358
+        },
+        {
+          "case_id": "dev_2_positive",
+          "previous_position": [
+            -900.6707390701981,
+            1045.6192707664281
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 18.113538211107265
+        },
+        {
+          "case_id": "dev_3_positive",
+          "previous_position": [
+            646.4534580739545,
+            -1049.2365636747738
+          ],
+          "original_station": [
+            562.5000000000001,
+            -974.2785792574934
+          ],
+          "local_move_saving_bound_s": 1.0302865630723574
+        },
+        {
+          "case_id": "dev_4_positive",
+          "previous_position": [
+            122.04686364433168,
+            583.3069327249177
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 11.976921225732758
+        },
+        {
+          "case_id": "dev_5_positive",
+          "previous_position": [
+            -864.5730296400378,
+            -251.85054640966894
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 27.55879597605881
+        },
+        {
+          "case_id": "dev_6_positive",
+          "previous_position": [
+            -790.3244897721787,
+            -1030.7487855400936
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 12.170317232871678
+        },
+        {
+          "case_id": "dev_7_positive",
+          "previous_position": [
+            -1088.0159818489512,
+            810.7466287104078
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 63.701013852228925
+        },
+        {
+          "case_id": "dev_8_positive",
+          "previous_position": [
+            -773.6011340504766,
+            497.4666291445357
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 63.23971539708619
+        },
+        {
+          "case_id": "dev_9_positive",
+          "previous_position": [
+            -63.52860452774032,
+            516.4151685351179
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 14.503318839441045
+        },
+        {
+          "case_id": "dev_10_positive",
+          "previous_position": [
+            -429.425840532906,
+            -759.1783112582225
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 0.030208281856698705
+        },
+        {
+          "case_id": "dev_11_positive",
+          "previous_position": [
+            978.59414221859,
+            36.55999478592211
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 1.0356981930065898
+        },
+        {
+          "case_id": "dev_0_negative",
+          "previous_position": [
+            -915.912522248971,
+            -752.7885971421135
+          ],
+          "original_station": [
+            -562.5000000000005,
+            -974.2785792574932
+          ],
+          "local_move_saving_bound_s": 71.30173863789616
+        },
+        {
+          "case_id": "dev_1_negative",
+          "previous_position": [
+            555.6855838380508,
+            90.05013750920654
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 2.8653770215915073
+        },
+        {
+          "case_id": "dev_2_negative",
+          "previous_position": [
+            -1075.280728833632,
+            -84.13464804120176
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 10.258927627277851
+        },
+        {
+          "case_id": "dev_3_negative",
+          "previous_position": [
+            99.35719826026974,
+            925.5465234016074
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 54.312755950453166
+        },
+        {
+          "case_id": "dev_4_negative",
+          "previous_position": [
+            137.77020433062435,
+            560.1648623264687
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 9.011513039786497
+        },
+        {
+          "case_id": "dev_5_negative",
+          "previous_position": [
+            183.18490260732872,
+            799.828839107103
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 22.60916712836713
+        },
+        {
+          "case_id": "dev_6_negative",
+          "previous_position": [
+            1169.2973679958166,
+            724.5886339494137
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 81.11162808394874
+        },
+        {
+          "case_id": "dev_7_negative",
+          "previous_position": [
+            513.8053292766793,
+            453.23174817142313
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 16.69117993594448
+        },
+        {
+          "case_id": "dev_8_negative",
+          "previous_position": [
+            63.74800780908198,
+            542.9029818818855
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 16.21113101687713
+        },
+        {
+          "case_id": "dev_9_negative",
+          "previous_position": [
+            -47.63958819302032,
+            542.9746271004132
+          ],
+          "original_station": [
+            -562.4999999999998,
+            974.2785792574936
+          ],
+          "local_move_saving_bound_s": 18.340708498450816
+        },
+        {
+          "case_id": "dev_10_negative",
+          "previous_position": [
+            -828.2024597953717,
+            338.28825661224204
+          ],
+          "original_station": [
+            -1125.0,
+            1.3777276490407724e-13
+          ],
+          "local_move_saving_bound_s": 43.931649061791674
+        },
+        {
+          "case_id": "dev_11_negative",
+          "previous_position": [
+            771.3515945696115,
+            937.8856456593595
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 24.53246344023149
+        },
+        {
+          "case_id": "boundary_minR_16",
+          "previous_position": [
+            0.0,
+            0.0
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0
+        },
+        {
+          "case_id": "late_channel20_after_ten",
+          "previous_position": [
+            52.5134968163993,
+            -0.9535482832649688
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0018161051848437637
+        },
+        {
+          "case_id": "near_at_origin",
+          "previous_position": [
+            148.36609118866514,
+            998.1894983408254
+          ],
+          "original_station": [
+            562.5000000000001,
+            974.2785792574934
+          ],
+          "local_move_saving_bound_s": 59.79581666469382
+        },
+        {
+          "case_id": "clustered_16",
+          "previous_position": [
+            0.0,
+            0.0
+          ],
+          "original_station": [
+            1125.0,
+            0.0
+          ],
+          "local_move_saving_bound_s": 0.0
+        }
+      ]
+    }
+  }
+}

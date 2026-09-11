@@ -1,0 +1,29 @@
+{
+  "selected": "BOTH",
+  "total_runs": 2824,
+  "total_audited_actions": 343093,
+  "legacy_exact": 292,
+  "fresh_validation_runs": 2240,
+  "fresh_layouts": 70,
+  "official_runs": 0,
+  "formal_runs": 0,
+  "adoption_checks": [
+    {
+      "batch": "holdout_main",
+      "passed": true
+    },
+    {
+      "batch": "holdout_rounding",
+      "passed": true
+    },
+    {
+      "batch": "outer_main",
+      "passed": true
+    },
+    {
+      "batch": "outer_rounding",
+      "passed": true
+    }
+  ],
+  "adopt_selected": true
+}

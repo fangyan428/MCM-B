@@ -1,0 +1,12 @@
+test_batch_selections_clear_at_most_sixteen_distinct_targets_between_scans (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_batch_selections_clear_at_most_sixteen_distinct_targets_between_scans) ... ok
+test_cached_batch_filters_only_ready_jobs_without_mutating_evidence (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_cached_batch_filters_only_ready_jobs_without_mutating_evidence) ... ok
+test_deadline_during_batch_is_not_complete (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_deadline_during_batch_is_not_complete) ... ok
+test_explicit_current_equals_omitted_setting (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_explicit_current_equals_omitted_setting) ... ok
+test_invalid_and_incompatible_mode_before_enter (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_invalid_and_incompatible_mode_before_enter) ... ok
+test_known_batch_keeps_all_known_jobs_and_returns_to_search (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_known_batch_keeps_all_known_jobs_and_returns_to_search) ... ok
+test_late_channel_and_absence_certificate_not_replaced_by_queue_exhaustion (question3.tests.test_batch_scheduling.BatchSchedulingTests.test_late_channel_and_absence_certificate_not_replaced_by_queue_exhaustion) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.540s
+
+OK

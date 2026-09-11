@@ -1,0 +1,12 @@
+test_certified_sector_reception_and_angle_dense_extremes (question3.tests.test_domain_range.DomainRangeTests.test_certified_sector_reception_and_angle_dense_extremes) ... ok
+test_contradictory_domain_second_reading_never_completes (question3.tests.test_domain_range.DomainRangeTests.test_contradictory_domain_second_reading_never_completes) ... ok
+test_full_range_fallback_exact_and_current_opportunity (question3.tests.test_domain_range.DomainRangeTests.test_full_range_fallback_exact_and_current_opportunity) ... ok
+test_invalid_configuration_before_enter (question3.tests.test_domain_range.DomainRangeTests.test_invalid_configuration_before_enter) ... ok
+test_old_invalid_offset_can_be_valid_on_domain_but_not_assumed_globally (question3.tests.test_domain_range.DomainRangeTests.test_old_invalid_offset_can_be_valid_on_domain_but_not_assumed_globally) ... ok
+test_range_bound_encloses_dense_boundary_rays_and_wraparound (question3.tests.test_domain_range.DomainRangeTests.test_range_bound_encloses_dense_boundary_rays_and_wraparound) ... ok
+test_whole_workflow_still_clears_late_and_boundary_sources (question3.tests.test_domain_range.DomainRangeTests.test_whole_workflow_still_clears_late_and_boundary_sources) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.503s
+
+OK

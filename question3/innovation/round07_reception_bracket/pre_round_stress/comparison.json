@@ -1,0 +1,75 @@
+{
+  "BASE": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3829.597875711538,
+    "p95": 4339.9296251,
+    "maximum": 5078.232525,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.0,
+      "near_at_origin"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3829.597875711538,
+    "movement_detection_etc": {
+      "movement_s": 3184.0017210846777,
+      "switch_s": 90.1923076923077,
+      "detection_s": 457.11538461538464,
+      "optical_s": 71.9423076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1008.9811544148023,
+      "localization_shared": 26.076923076923077,
+      "near": 0.09615384615384616,
+      "optical": 1502.1054822794451,
+      "search": 1292.3381613135073
+    },
+    "mean_per_cleared": 297.52566955817724,
+    "wall_p95": 0.159383010554302,
+    "clear_failure_mean": 10.807692307692308,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "RECEPTION_BRACKET": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 24185.929573634618,
+    "p95": 29592.21394635,
+    "maximum": 30658.137727,
+    "worst_case": "clustered_16",
+    "worst_paired_regression": [
+      40.688254580805804,
+      "clustered_16"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 24185.929573634618,
+    "movement_detection_etc": {
+      "movement_s": 22448.987263535597,
+      "switch_s": 90.11538461538461,
+      "detection_s": 1574.6153846153845,
+      "optical_s": 45.86538461538461,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "bracket_optical": 3378.061828436624,
+      "control": 0.0,
+      "near": 0.09615384615384616,
+      "reception_range": 19511.93677171327,
+      "search": 1295.8348172318574
+    },
+    "mean_per_cleared": 1837.5119847417013,
+    "wall_p95": 0.033881082353036614,
+    "clear_failure_mean": 2.1153846153846154,
+    "mean_change_pct": 531.5527206401764,
+    "significant": false
+  }
+}

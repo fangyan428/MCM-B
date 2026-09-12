@@ -1,0 +1,27 @@
+{
+  "stage": "SELF_DEVELOPMENT",
+  "mechanism": "Batch all geometrically certified pending second measurements at the current point; cached once; each channel charged separately.",
+  "variants": [
+    "REF",
+    "COMPACT",
+    "ABS",
+    "REF_BATCH",
+    "COMPACT_BATCH",
+    "ABS_BATCH",
+    "AB"
+  ],
+  "development": "Existing 52 configurations, both rounding models. No parameter sweep.",
+  "primary_reference": "REF=round4 recommended",
+  "selection": "Require all complete and audited. Compare all-case mean, p95, worst paired regression and known cluster; promote only supported lower time. Prefer no empty-origin fallback if batch resolves its motivating failure. Lock before fresh validation. If candidate fails, retain REF.",
+  "new_seed_ranges": {
+    "ordinary": [
+      40000,
+      40050
+    ],
+    "outer": [
+      50000,
+      50020
+    ]
+  },
+  "limits": "No official/formal execution; batch bound 19 is channel count bound, not tuned threshold; no hidden truth used."
+}

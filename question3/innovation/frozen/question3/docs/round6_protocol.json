@@ -1,0 +1,21 @@
+{
+  "kind": "SELF_ROUND6_PRE_DEVELOPMENT",
+  "mechanism": "Only reorder cached jobs when original scheduler chose a cached job; minimize full optical traversal plus transit to nearest unvisited station. Keep scan/uncached/forced decisions.",
+  "configs": [
+    "REF",
+    "I"
+  ],
+  "development": "52 existing cases x both rounding models; reused round5 structured and ordinary/outer fixtures are development if inspected, never fresh validation.",
+  "selection": "Require complete/audited; development mean lower without higher P95 in both rounding models. If passed, lock before new ordinary/outer fixtures; require same criteria in each fresh validation batch. Do not retune on fresh cases.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      70000,
+      70050
+    ],
+    "outer": [
+      80000,
+      80020
+    ]
+  },
+  "prohibited": "No official exe/rehearsal/formal execution. Do not claim global route optimality."
+}

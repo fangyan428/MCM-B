@@ -1,0 +1,23 @@
+{
+  "kind": "SELF_ROUND15_PRE_DEVELOPMENT",
+  "reference": "round13_BOTH",
+  "mechanism": "Keep fixed ring. Compare current interleaving, drain cached tasks before scanning, and drain all known tasks before scanning. Mutually exclusive batch boundary policies, not a batch-length parameter sweep.",
+  "variants": [
+    "REF",
+    "CACHE",
+    "KNOWN"
+  ],
+  "selection": "Choose lowest bounded mean among new variants with complete/audited runs and strictly lower mean,p95<=REF in BOTH development models. Every regression retained. Only then freeze before fresh ordinary/outer validation, same gates in each fresh model. No fallback promotion after validation.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      210000,
+      210050
+    ],
+    "outer": [
+      220000,
+      220020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

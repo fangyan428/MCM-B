@@ -1,0 +1,61 @@
+{
+  "BASE": {
+    "name": "round19_BOTH",
+    "error_deg": 1.005,
+    "second_offset": [
+      800.0,
+      605.0
+    ],
+    "min_angle_deg": 20.0,
+    "optical_cell_m": 28.0,
+    "max_optical_points": 2000,
+    "real_time_reserve_s": 5.0,
+    "modules": {
+      "A": true,
+      "B": true,
+      "C": false,
+      "S": true
+    },
+    "search_radius_m": 1125,
+    "shared_batch_limit": 19,
+    "count_stop": "detected_16",
+    "second_point_opportunity": "current_if_certified",
+    "opportunity_timing": "after_schedule",
+    "clear_skip": "separating_halfplane",
+    "clear_radius_priors": "both",
+    "search_interleaving": "nearest_finite",
+    "second_range_prior": "domain",
+    "shared_range_prior": "domain"
+  },
+  "GATED_TOUR_MULTI_PARALLAX": {
+    "baseline_config": {
+      "name": "round19_BOTH",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "shared_batch_limit": 19,
+      "count_stop": "detected_16",
+      "second_point_opportunity": "current_if_certified",
+      "opportunity_timing": "after_schedule",
+      "clear_skip": "separating_halfplane",
+      "clear_radius_priors": "both",
+      "search_interleaving": "nearest_finite",
+      "second_range_prior": "domain",
+      "shared_range_prior": "domain"
+    },
+    "mechanism": "gated_tour_multi_parallax"
+  }
+}

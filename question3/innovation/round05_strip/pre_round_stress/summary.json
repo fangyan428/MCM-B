@@ -1,0 +1,5044 @@
+{
+  "rows": [
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12889587400422897,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3619.753087,
+        "components": {
+          "movement_s": 3154.753088724362,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 69.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 716.0623040554996,
+          "localization": 1117.0058893114565,
+          "localization_shared": 42.0,
+          "optical": 1744.6848953574065
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 23,
+          "clear_success": 16,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 84,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3619.753087
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.032290980001562275,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 8091.65117,
+        "components": {
+          "movement_s": 6206.651179142687,
+          "switch_s": 39.0,
+          "detection_s": 200.0,
+          "optical_s": 1614.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 475.6830451077293,
+          "single_bearing_sweep": 7615.968134034989
+        },
+        "counts": {
+          "measure": 40,
+          "clear": 538,
+          "clear_success": 16,
+          "clear_failure": 522,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 578,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8091.65117
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.020309400002588518,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4972.714443,
+        "components": {
+          "movement_s": 3526.7144329832886,
+          "switch_s": 87.0,
+          "detection_s": 440.0,
+          "optical_s": 897.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1581.3761664284891,
+          "single_bearing_sweep": 3391.3382665547992
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 299,
+          "clear_success": 11,
+          "clear_failure": 288,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 387,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4972.714443
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10877842600166332,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3754.84244,
+        "components": {
+          "movement_s": 3100.842442346866,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 57.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.0122761101977,
+          "localization": 880.9632560128709,
+          "localization_shared": 24.0,
+          "optical": 1515.8669102237973
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 19,
+          "clear_success": 11,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3754.84244
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.20662996700411895,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3654.881717,
+        "components": {
+          "movement_s": 3092.881712612688,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 884.2390209936518,
+          "localization": 739.4338119341934,
+          "localization_shared": 42.0,
+          "optical": 1989.208879684842
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 102,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3654.881717
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06420800499472534,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 8816.898841,
+        "components": {
+          "movement_s": 6490.898807610146,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 1809.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1201.5702283218702,
+          "single_bearing_sweep": 7615.328579288293
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 603,
+          "clear_success": 16,
+          "clear_failure": 587,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 684,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8816.898841
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04164907999802381,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 6556.560981,
+        "components": {
+          "movement_s": 4531.561049393177,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 1422.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1330.1157426154043,
+          "single_bearing_sweep": 5226.445306777769
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 474,
+          "clear_success": 11,
+          "clear_failure": 463,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 571,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6556.560981
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.16403461600566516,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3953.406879,
+        "components": {
+          "movement_s": 3212.4068751155714,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.5438921334955,
+          "localization": 1475.470104249881,
+          "localization_shared": 12.0,
+          "optical": 1131.3928787321947
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3953.406879
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13416413300001295,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3988.187975,
+        "components": {
+          "movement_s": 3319.1879699994897,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1664.6590594570746,
+          "localization": 879.8387415206682,
+          "localization_shared": 18.0,
+          "optical": 1425.6901690217462
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3988.187975
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.021861262001038995,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 6599.253349,
+        "components": {
+          "movement_s": 4910.253326703096,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 1158.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1663.6324390648178,
+          "single_bearing_sweep": 4935.620887638275
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 386,
+          "clear_success": 11,
+          "clear_failure": 375,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 471,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6599.253349
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025586536001355853,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 7181.81779,
+        "components": {
+          "movement_s": 5402.81776298491,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 1266.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1794.6671270366464,
+          "single_bearing_sweep": 5387.1506359482455
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 422,
+          "clear_success": 14,
+          "clear_failure": 408,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 503,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7181.81779
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10147565499937627,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3839.956457,
+        "components": {
+          "movement_s": 3179.9564531476303,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1644.4341071779822,
+          "localization": 716.0937355110999,
+          "optical": 1455.4286104585487,
+          "localization_shared": 24.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 10,
+        "localization": 14,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3839.956457
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1378742590022739,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4358.238787,
+        "components": {
+          "movement_s": 3874.2387890295163,
+          "switch_s": 62.0,
+          "detection_s": 315.0,
+          "optical_s": 75.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 830.8075961814855,
+          "localization": 1840.7334114516223,
+          "optical": 1668.6977813964077,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 63,
+          "clear": 25,
+          "clear_success": 16,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 88,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 13,
+        "localization": 16,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4358.238787
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03580174999660812,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 10416.618145,
+        "components": {
+          "movement_s": 7838.618236976809,
+          "switch_s": 46.0,
+          "detection_s": 235.0,
+          "optical_s": 2265.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 843.956644737983,
+          "single_bearing_sweep": 9572.661592238801
+        },
+        "counts": {
+          "measure": 47,
+          "clear": 755,
+          "clear_success": 16,
+          "clear_failure": 739,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 802,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 10416.618145
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02279937799903564,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 6169.594273,
+        "components": {
+          "movement_s": 4334.594271327702,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 1254.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1447.3663742590738,
+          "single_bearing_sweep": 4722.227897068629
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 418,
+          "clear_success": 12,
+          "clear_failure": 406,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 511,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "finite_optical_fallback": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6169.594273
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1001666199954343,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4181.190224,
+        "components": {
+          "movement_s": 3483.190222040535,
+          "switch_s": 104.0,
+          "detection_s": 525.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1495.5313571893184,
+          "localization": 1522.9264896720017,
+          "localization_shared": 12.0,
+          "optical": 1150.7323751792148
+        },
+        "counts": {
+          "measure": 105,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 10,
+        "localization": 12,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4181.190224
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08603322899580235,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3772.149177,
+        "components": {
+          "movement_s": 3151.149175635104,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1450.1381817369893,
+          "localization": 610.8779464584608,
+          "localization_shared": 24.0,
+          "optical": 1687.1330474396536
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 106,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3772.149177
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03204165000352077,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 6176.302456,
+        "components": {
+          "movement_s": 4433.302488227856,
+          "switch_s": 89.0,
+          "detection_s": 450.0,
+          "optical_s": 1182.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1336.2816126176492,
+          "single_bearing_sweep": 4840.020875610218
+        },
+        "counts": {
+          "measure": 90,
+          "clear": 394,
+          "clear_success": 11,
+          "clear_failure": 383,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 484,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6176.302456
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03018238899676362,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 7134.941389,
+        "components": {
+          "movement_s": 5102.941405214764,
+          "switch_s": 90.0,
+          "detection_s": 455.0,
+          "optical_s": 1461.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1142.4806950958027,
+          "single_bearing_sweep": 5992.460710118964
+        },
+        "counts": {
+          "measure": 91,
+          "clear": 487,
+          "clear_success": 13,
+          "clear_failure": 474,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 578,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7134.941389
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.18288767299964093,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3922.14265,
+        "components": {
+          "movement_s": 3222.1426494960187,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1148.558326552506,
+          "localization": 1314.1080445345203,
+          "optical": 1453.4762784089917,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 13,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.14265
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08683868500520475,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3958.257349,
+        "components": {
+          "movement_s": 3346.2573535552588,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 75.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 919.98117151579,
+          "localization": 922.6265802922833,
+          "localization_shared": 36.0,
+          "optical": 2079.6496017471854
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 25,
+          "clear_success": 14,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 110,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3958.257349
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03035640699818032,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 7892.18081,
+        "components": {
+          "movement_s": 5822.180806868941,
+          "switch_s": 70.0,
+          "detection_s": 355.0,
+          "optical_s": 1617.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 912.7567392286193,
+          "single_bearing_sweep": 6979.424067640362
+        },
+        "counts": {
+          "measure": 71,
+          "clear": 539,
+          "clear_success": 14,
+          "clear_failure": 525,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 610,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7892.18081
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05582901900197612,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 7812.244975,
+        "components": {
+          "movement_s": 5618.245018321067,
+          "switch_s": 79.0,
+          "detection_s": 400.0,
+          "optical_s": 1689.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1141.867886052597,
+          "single_bearing_sweep": 6670.377132268511
+        },
+        "counts": {
+          "measure": 80,
+          "clear": 563,
+          "clear_success": 13,
+          "clear_failure": 550,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 643,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7812.244975
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1293824900058098,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3490.939214,
+        "components": {
+          "movement_s": 2836.939213609192,
+          "switch_s": 92.0,
+          "detection_s": 470.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1098.8084009738375,
+          "localization": 932.5833534262059,
+          "optical": 1441.5474592091477,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3490.939214
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1457962749991566,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3612.327574,
+        "components": {
+          "movement_s": 3123.327572476709,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 93.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 719.8995312539206,
+          "localization": 1053.7375187840896,
+          "localization_shared": 54.0,
+          "optical": 1784.690522438699
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 31,
+          "clear_success": 16,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 92,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3612.327574
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.047665247999248095,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 9017.486081,
+        "components": {
+          "movement_s": 6805.486120596739,
+          "switch_s": 39.0,
+          "detection_s": 200.0,
+          "optical_s": 1941.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 473.2246736265136,
+          "single_bearing_sweep": 8544.261446970242
+        },
+        "counts": {
+          "measure": 40,
+          "clear": 647,
+          "clear_success": 16,
+          "clear_failure": 631,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 687,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9017.486081
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02949767999962205,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 5318.68883,
+        "components": {
+          "movement_s": 3827.6888019813446,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 960.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1647.08380441916,
+          "single_bearing_sweep": 3671.604997562197
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 320,
+          "clear_success": 11,
+          "clear_failure": 309,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 405,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5318.68883
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09176651500456501,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3642.040927,
+        "components": {
+          "movement_s": 2982.040927194144,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1658.3458103379432,
+          "localization": 598.247472138188,
+          "localization_shared": 24.0,
+          "optical": 1361.4476447180132
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 118,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3642.040927
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.16693748100078665,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3566.607977,
+        "components": {
+          "movement_s": 2828.607975678524,
+          "switch_s": 105.0,
+          "detection_s": 535.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1283.9713615394187,
+          "localization": 837.2153262150764,
+          "localization_shared": 54.0,
+          "optical": 1391.4212879240283
+        },
+        "counts": {
+          "measure": 107,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "certified_clear_skip": 1,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3566.607977
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04013998900336446,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 8113.873406,
+        "components": {
+          "movement_s": 6021.87342699547,
+          "switch_s": 73.0,
+          "detection_s": 370.0,
+          "optical_s": 1617.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1263.4869854776935,
+          "single_bearing_sweep": 6850.386441517758
+        },
+        "counts": {
+          "measure": 74,
+          "clear": 539,
+          "clear_success": 16,
+          "clear_failure": 523,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 613,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8113.873406
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.030028369998035487,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 6259.557765,
+        "components": {
+          "movement_s": 4339.5578003742,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 1317.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.862803696778,
+          "single_bearing_sweep": 4924.694996677416
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 439,
+          "clear_success": 11,
+          "clear_failure": 428,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 536,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6259.557765
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.18093186999612954,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3922.039996,
+        "components": {
+          "movement_s": 3187.03999828423,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 66.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.7186852449875,
+          "localization": 1473.2376139505914,
+          "localization_shared": 12.0,
+          "optical": 1102.0836990886505
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 22,
+          "clear_success": 11,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 130,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.039996
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09349046999705024,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3744.63619,
+        "components": {
+          "movement_s": 3093.6361894474417,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1463.3898434799448,
+          "localization": 1064.0748547353994,
+          "localization_shared": 18.0,
+          "optical": 1199.1714912320965
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3744.63619
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.046470137996948324,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 7206.790189,
+        "components": {
+          "movement_s": 5262.790241485443,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 1413.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1666.34716693787,
+          "single_bearing_sweep": 5540.443074547571
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 471,
+          "clear_success": 11,
+          "clear_failure": 460,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 556,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7206.790189
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03365818400197895,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 6842.247396,
+        "components": {
+          "movement_s": 5012.247375340069,
+          "switch_s": 77.0,
+          "detection_s": 390.0,
+          "optical_s": 1335.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1814.9076114513416,
+          "single_bearing_sweep": 5027.339763888718
+        },
+        "counts": {
+          "measure": 78,
+          "clear": 445,
+          "clear_success": 14,
+          "clear_failure": 431,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 523,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6842.247396
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.15049842900043586,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4325.368598,
+        "components": {
+          "movement_s": 3683.368598523073,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1615.6035697920784,
+          "localization": 903.6717356089168,
+          "optical": 1788.0932931220782,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4325.368598
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.16270714500569738,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4357.726436,
+        "components": {
+          "movement_s": 3793.7264319574065,
+          "switch_s": 71.0,
+          "detection_s": 365.0,
+          "optical_s": 96.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1312.3164822334306,
+          "localization": 1060.1836396264546,
+          "localization_shared": 30.0,
+          "optical": 1955.2263100975213
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 32,
+          "clear_success": 16,
+          "clear_failure": 16,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 105,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 11,
+        "localization": 16,
+        "shared_cache_store": 5,
+        "shared_cache_use": 5,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4357.726436
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0346837650067755,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 9679.353752,
+        "components": {
+          "movement_s": 6990.353749794621,
+          "switch_s": 67.0,
+          "detection_s": 340.0,
+          "optical_s": 2250.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1209.176622312778,
+          "single_bearing_sweep": 8470.177127481838
+        },
+        "counts": {
+          "measure": 68,
+          "clear": 750,
+          "clear_success": 16,
+          "clear_failure": 734,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 818,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9679.353752
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.024857743999746162,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 6387.232227,
+        "components": {
+          "movement_s": 4627.232268579131,
+          "switch_s": 86.0,
+          "detection_s": 435.0,
+          "optical_s": 1215.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1242.1387310006696,
+          "single_bearing_sweep": 5145.093537578461
+        },
+        "counts": {
+          "measure": 87,
+          "clear": 405,
+          "clear_success": 12,
+          "clear_failure": 393,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 492,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "finite_optical_fallback": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6387.232227
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11081529000512091,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4056.26023,
+        "components": {
+          "movement_s": 3358.260229957259,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1546.9992867212138,
+          "localization": 1013.5706599733142,
+          "localization_shared": 18.0,
+          "optical": 1477.6902832627318
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 12,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 9,
+        "localization": 12,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4056.26023
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06756881299952511,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4086.724703,
+        "components": {
+          "movement_s": 3411.7247021539924,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 90.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1499.3460233943233,
+          "localization": 1030.7871418675034,
+          "optical": 1538.5915368921655,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 30,
+          "clear_success": 11,
+          "clear_failure": 19,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 124,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4086.724703
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03199333900556667,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 6275.677378,
+        "components": {
+          "movement_s": 4454.677411093828,
+          "switch_s": 89.0,
+          "detection_s": 450.0,
+          "optical_s": 1260.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1279.3015918219096,
+          "single_bearing_sweep": 4996.375819271906
+        },
+        "counts": {
+          "measure": 90,
+          "clear": 420,
+          "clear_success": 11,
+          "clear_failure": 409,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 510,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6275.677378
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03689545900124358,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 7551.864143,
+        "components": {
+          "movement_s": 5426.864027188972,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 1542.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1523.7442809575518,
+          "single_bearing_sweep": 6028.119746231424
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 514,
+          "clear_success": 13,
+          "clear_failure": 501,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 607,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7551.864143
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11411257900181226,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4071.728078,
+        "components": {
+          "movement_s": 3365.728080598245,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1531.733793838006,
+          "localization": 1183.194164278922,
+          "optical": 1350.800122481317,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 13,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4071.728078
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0889671230033855,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3849.493879,
+        "components": {
+          "movement_s": 3249.493876509666,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 69.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 849.779589953819,
+          "localization": 1130.445861876687,
+          "localization_shared": 36.0,
+          "optical": 1833.2684246791603
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 23,
+          "clear_success": 14,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 107,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3849.493879
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03473767700052122,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 9318.152503,
+        "components": {
+          "movement_s": 6837.152442925762,
+          "switch_s": 66.0,
+          "detection_s": 335.0,
+          "optical_s": 2052.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1021.7248801801813,
+          "single_bearing_sweep": 8296.427562745559
+        },
+        "counts": {
+          "measure": 67,
+          "clear": 684,
+          "clear_success": 14,
+          "clear_failure": 670,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 751,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9318.152503
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026718005996372085,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 7847.757046,
+        "components": {
+          "movement_s": 5734.757073153514,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 1578.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1296.0448076779894,
+          "single_bearing_sweep": 6551.71226547554
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 526,
+          "clear_success": 13,
+          "clear_failure": 513,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 611,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7847.757046
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0994423860029201,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3902.782462,
+        "components": {
+          "movement_s": 3224.782461276349,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 60.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1327.9446549110194,
+          "localization": 1198.5994144766053,
+          "localization_shared": 18.0,
+          "optical": 1358.2383918887251
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 20,
+          "clear_success": 13,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 119,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3902.782462
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1225668169936398,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3337.211374,
+        "components": {
+          "movement_s": 2895.2113726137604,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 556.5702405865744,
+          "localization": 968.2799326423244,
+          "localization_shared": 36.0,
+          "optical": 1776.3611993848624
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 79,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "source_upper_bound_saturated": 1,
+        "certified_clear_skip": 2,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3337.211374
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04779086400230881,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 7769.820768,
+        "components": {
+          "movement_s": 5992.820726759224,
+          "switch_s": 39.0,
+          "detection_s": 200.0,
+          "optical_s": 1506.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 476.2374435617493,
+          "single_bearing_sweep": 7293.583283197468
+        },
+        "counts": {
+          "measure": 40,
+          "clear": 502,
+          "clear_success": 16,
+          "clear_failure": 486,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 542,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7769.820768
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02273963599873241,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4724.374005,
+        "components": {
+          "movement_s": 3398.373959671349,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 795.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1401.0582121673515,
+          "single_bearing_sweep": 3323.315747504001
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 265,
+          "clear_success": 11,
+          "clear_failure": 254,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 350,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4724.374005
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11865675499575445,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3409.88536,
+        "components": {
+          "movement_s": 2755.885358531765,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.4034920595782,
+          "localization": 832.0863003317038,
+          "localization_shared": 24.0,
+          "optical": 1216.3955661404834
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3409.88536
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.14823795200209133,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3690.468713,
+        "components": {
+          "movement_s": 3017.4687127570814,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 60.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1221.9666826758726,
+          "localization": 849.0584396877127,
+          "localization_shared": 48.0,
+          "optical": 1571.4435903934973
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 20,
+          "clear_success": 16,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 117,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 8,
+        "localization": 16,
+        "shared_cache_store": 8,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 8,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3690.468713
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.030859564001730178,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 7451.681731,
+        "components": {
+          "movement_s": 5605.681732334526,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 1329.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1202.6975322142694,
+          "single_bearing_sweep": 6248.984200120258
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 443,
+          "clear_success": 16,
+          "clear_failure": 427,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 524,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7451.681731
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.022082518000388518,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 5590.703571,
+        "components": {
+          "movement_s": 3982.7036023269857,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 1017.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1649.8336458337005,
+          "single_bearing_sweep": 3940.869956493287
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 339,
+          "clear_success": 11,
+          "clear_failure": 328,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 434,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5590.703571
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10690824299672386,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4128.503707,
+        "components": {
+          "movement_s": 3426.503706208788,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1649.087940895896,
+          "localization": 1207.9168246187096,
+          "optical": 1259.4989406941825,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4128.503707
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07436135299940361,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3989.334175,
+        "components": {
+          "movement_s": 3365.3341751793287,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1548.4426939382347,
+          "localization": 1094.8681176308482,
+          "localization_shared": 12.0,
+          "optical": 1334.0233636102457
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 108,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3989.334175
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019624018998001702,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 5810.324581,
+        "components": {
+          "movement_s": 4349.324572230496,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 930.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1662.160903541476,
+          "single_bearing_sweep": 4148.163668689017
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 310,
+          "clear_success": 11,
+          "clear_failure": 299,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 395,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5810.324581
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.023331280004640575,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 6414.276686,
+        "components": {
+          "movement_s": 4917.276695737725,
+          "switch_s": 80.0,
+          "detection_s": 405.0,
+          "optical_s": 984.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1683.597425981894,
+          "single_bearing_sweep": 4730.679269755831
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 328,
+          "clear_success": 14,
+          "clear_failure": 314,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 409,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6414.276686
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10031774399976712,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4016.51064,
+        "components": {
+          "movement_s": 3371.510638595894,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 48.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1634.8778612148076,
+          "localization": 744.1300350661543,
+          "optical": 1619.5027423149324,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 16,
+          "clear_success": 14,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 111,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4016.51064
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11623581599997124,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4306.380454,
+        "components": {
+          "movement_s": 3706.3804549147126,
+          "switch_s": 81.0,
+          "detection_s": 415.0,
+          "optical_s": 72.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1222.9233919866656,
+          "localization": 908.9192112361491,
+          "localization_shared": 36.0,
+          "optical": 2138.5378516918977
+        },
+        "counts": {
+          "measure": 83,
+          "clear": 24,
+          "clear_success": 16,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 107,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4306.380454
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.031642989997635596,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 8137.139283,
+        "components": {
+          "movement_s": 6129.139305277121,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 1629.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 960.7583484378581,
+          "single_bearing_sweep": 7176.380956839288
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 543,
+          "clear_success": 16,
+          "clear_failure": 527,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 601,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8137.139283
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.020464532004552893,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4793.959956,
+        "components": {
+          "movement_s": 3429.9599900914254,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 831.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1401.525973636657,
+          "single_bearing_sweep": 3392.434016454768
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 277,
+          "clear_success": 12,
+          "clear_failure": 265,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 362,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "finite_optical_fallback": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4793.959956
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11078875000384869,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4116.962328,
+        "components": {
+          "movement_s": 3466.962327263449,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1436.4012845528462,
+          "localization": 1502.175677094839,
+          "optical": 1172.3853656157646,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 112,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 11,
+        "localization": 12,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4116.962328
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0775625299938838,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3335.349168,
+        "components": {
+          "movement_s": 2678.349167286015,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1259.863714843878,
+          "localization": 821.3357241932205,
+          "localization_shared": 18.0,
+          "optical": 1236.1497282489167
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3335.349168
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.028043281999998726,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 5750.088988,
+        "components": {
+          "movement_s": 4199.088977182584,
+          "switch_s": 88.0,
+          "detection_s": 445.0,
+          "optical_s": 996.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1522.5107224705314,
+          "single_bearing_sweep": 4227.578254712052
+        },
+        "counts": {
+          "measure": 89,
+          "clear": 332,
+          "clear_success": 11,
+          "clear_failure": 321,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 421,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5750.088988
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02273314299964113,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 5892.273864,
+        "components": {
+          "movement_s": 4394.273847588359,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 915.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1584.4473012796125,
+          "single_bearing_sweep": 4307.826546308752
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 305,
+          "clear_success": 13,
+          "clear_failure": 292,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 398,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5892.273864
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0761807380040409,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4092.873898,
+        "components": {
+          "movement_s": 3383.8738993349175,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1594.2282136515828,
+          "localization": 1109.050466407912,
+          "optical": 1377.595219275423,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 11,
+        "localization": 13,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4092.873898
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08886584200081415,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3886.799746,
+        "components": {
+          "movement_s": 3307.799743846775,
+          "switch_s": 79.0,
+          "detection_s": 400.0,
+          "optical_s": 72.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 834.0576862805826,
+          "localization": 1225.2172490746368,
+          "localization_shared": 30.0,
+          "optical": 1797.5248084915543
+        },
+        "counts": {
+          "measure": 80,
+          "clear": 24,
+          "clear_success": 14,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 104,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 14,
+        "shared_cache_store": 5,
+        "shared_cache_use": 5,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3886.799746
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.029977924001286738,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 7217.36154,
+        "components": {
+          "movement_s": 5501.361545051595,
+          "switch_s": 64.0,
+          "detection_s": 325.0,
+          "optical_s": 1299.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1029.2274999102447,
+          "single_bearing_sweep": 6188.134045141367
+        },
+        "counts": {
+          "measure": 65,
+          "clear": 433,
+          "clear_success": 14,
+          "clear_failure": 419,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 498,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7217.36154
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.023274642997421324,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 6407.288243,
+        "components": {
+          "movement_s": 4645.288227719132,
+          "switch_s": 85.0,
+          "detection_s": 430.0,
+          "optical_s": 1221.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1223.5443055969276,
+          "single_bearing_sweep": 5183.743922122208
+        },
+        "counts": {
+          "measure": 86,
+          "clear": 407,
+          "clear_success": 13,
+          "clear_failure": 394,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 493,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6407.288243
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12089938700228231,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3783.944617,
+        "components": {
+          "movement_s": 3117.9446170075566,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1150.2336393490489,
+          "localization": 804.2693985825305,
+          "localization_shared": 24.0,
+          "optical": 1805.4415790759774
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3783.944617
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1153919880016474,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3929.001819,
+        "components": {
+          "movement_s": 3412.0018177896195,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 138.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 405.63050156101036,
+          "localization": 1565.0415569477884,
+          "localization_shared": 42.0,
+          "optical": 1916.3297592808224
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 46,
+          "clear_success": 16,
+          "clear_failure": 30,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 104,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 4,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3929.001819
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.039588681000168435,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 10197.824343,
+        "components": {
+          "movement_s": 7577.824234792245,
+          "switch_s": 39.0,
+          "detection_s": 200.0,
+          "optical_s": 2349.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 471.3878846937594,
+          "single_bearing_sweep": 9726.43635009849
+        },
+        "counts": {
+          "measure": 40,
+          "clear": 783,
+          "clear_success": 16,
+          "clear_failure": 767,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 823,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 10197.824343
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.043223364002187736,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 7836.288832,
+        "components": {
+          "movement_s": 5424.288834609929,
+          "switch_s": 87.0,
+          "detection_s": 440.0,
+          "optical_s": 1863.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1515.8593588722501,
+          "single_bearing_sweep": 6320.429475737696
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 621,
+          "clear_success": 11,
+          "clear_failure": 610,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 709,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7836.288832
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08699690300272778,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4062.851428,
+        "components": {
+          "movement_s": 3351.8514292191253,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 102.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1496.7188436108231,
+          "localization": 1105.1772630805426,
+          "optical": 1442.9553225277598,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 34,
+          "clear_success": 11,
+          "clear_failure": 23,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "certified_clear_skip": 5,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4062.851428
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.17358207199868048,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3859.981204,
+        "components": {
+          "movement_s": 3202.9811977622117,
+          "switch_s": 80.0,
+          "detection_s": 410.0,
+          "optical_s": 135.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1300.0842239108842,
+          "localization": 965.7678826002197,
+          "localization_shared": 36.0,
+          "optical": 1558.1290912511092
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 45,
+          "clear_success": 16,
+          "clear_failure": 29,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 127,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 6,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3859.981204
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03687159399851225,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 10234.20752,
+        "components": {
+          "movement_s": 7590.207459131405,
+          "switch_s": 61.0,
+          "detection_s": 310.0,
+          "optical_s": 2241.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1028.238964107659,
+          "single_bearing_sweep": 9205.968495023726
+        },
+        "counts": {
+          "measure": 62,
+          "clear": 747,
+          "clear_success": 16,
+          "clear_failure": 731,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 809,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 10234.20752
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02463259999785805,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 7441.609208,
+        "components": {
+          "movement_s": 5182.609205792757,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 1656.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1446.1267894016296,
+          "single_bearing_sweep": 5995.482416391109
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 552,
+          "clear_success": 11,
+          "clear_failure": 541,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 649,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7441.609208
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06499553700268734,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4202.346827,
+        "components": {
+          "movement_s": 3443.346828419062,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 90.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1444.071192021067,
+          "localization": 1452.4699754256615,
+          "localization_shared": 12.0,
+          "optical": 1293.8056609723344
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 30,
+          "clear_success": 11,
+          "clear_failure": 19,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 138,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4202.346827
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05379192300461,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3757.168538,
+        "components": {
+          "movement_s": 3058.1685353886587,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1466.8595183289328,
+          "localization": 976.8393558023969,
+          "localization_shared": 18.0,
+          "optical": 1295.4696612573298
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3757.168538
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.028113744003348984,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 8830.973605,
+        "components": {
+          "movement_s": 6241.973651462965,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 2058.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1638.6550767857893,
+          "single_bearing_sweep": 7192.318574677195
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 686,
+          "clear_success": 11,
+          "clear_failure": 675,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 771,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8830.973605
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.030477845000859816,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 8470.490222,
+        "components": {
+          "movement_s": 6115.490232011432,
+          "switch_s": 81.0,
+          "detection_s": 410.0,
+          "optical_s": 1836.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1558.7056686161927,
+          "single_bearing_sweep": 6911.784563395232
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 612,
+          "clear_success": 14,
+          "clear_failure": 598,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 694,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 8470.490222
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10934401999838883,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4172.324494,
+        "components": {
+          "movement_s": 3449.3244906365553,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 108.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1593.4094126417099,
+          "localization": 659.6161757647621,
+          "localization_shared": 36.0,
+          "optical": 1883.2989022300837
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 36,
+          "clear_success": 14,
+          "clear_failure": 22,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 134,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4172.324494
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11913090699817985,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4086.676087,
+        "components": {
+          "movement_s": 3471.6760876649787,
+          "switch_s": 72.0,
+          "detection_s": 370.0,
+          "optical_s": 141.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 954.9101844341682,
+          "localization": 1140.355405735734,
+          "localization_shared": 36.0,
+          "optical": 1955.410497495076
+        },
+        "counts": {
+          "measure": 74,
+          "clear": 47,
+          "clear_success": 16,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4086.676087
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03858095299801789,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 11137.925073,
+        "components": {
+          "movement_s": 8091.925067615462,
+          "switch_s": 59.0,
+          "detection_s": 300.0,
+          "optical_s": 2655.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1428.0502172132092,
+          "single_bearing_sweep": 9709.874850402273
+        },
+        "counts": {
+          "measure": 60,
+          "clear": 885,
+          "clear_success": 16,
+          "clear_failure": 869,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 945,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 11137.925073
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03013692400418222,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 9072.814455,
+        "components": {
+          "movement_s": 6478.814430375757,
+          "switch_s": 85.0,
+          "detection_s": 430.0,
+          "optical_s": 2055.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1214.5084042975964,
+          "single_bearing_sweep": 7858.306026078163
+        },
+        "counts": {
+          "measure": 86,
+          "clear": 685,
+          "clear_success": 12,
+          "clear_failure": 673,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 771,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "finite_optical_fallback": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9072.814455
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0921747829997912,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4249.417411,
+        "components": {
+          "movement_s": 3569.417411015235,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 75.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1273.1094617211147,
+          "localization": 1642.860891882663,
+          "localization_shared": 18.0,
+          "optical": 1315.4470574114575
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 25,
+          "clear_success": 12,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 9,
+        "localization": 12,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4249.417411
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06310367499827407,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3977.606033,
+        "components": {
+          "movement_s": 3263.6060297809827,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 129.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1454.5794285720858,
+          "localization": 599.1617981174539,
+          "localization_shared": 24.0,
+          "optical": 1899.8648030914417
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 43,
+          "clear_success": 11,
+          "clear_failure": 32,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 137,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3977.606033
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03004887799761491,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 9152.997656,
+        "components": {
+          "movement_s": 6512.997661106149,
+          "switch_s": 82.0,
+          "detection_s": 415.0,
+          "optical_s": 2121.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1285.2347475481774,
+          "single_bearing_sweep": 7867.762913557966
+        },
+        "counts": {
+          "measure": 83,
+          "clear": 707,
+          "clear_success": 11,
+          "clear_failure": 696,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 790,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9152.997656
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03294994000316365,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 9704.836113,
+        "components": {
+          "movement_s": 6823.836170990605,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 2298.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1522.6619483298648,
+          "single_bearing_sweep": 8182.174222660739
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 766,
+          "clear_success": 13,
+          "clear_failure": 753,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 859,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9704.836113
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12115449699922465,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4081.927102,
+        "components": {
+          "movement_s": 3354.927104024039,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1520.5696743571648,
+          "localization": 1152.3561921612259,
+          "optical": 1403.0012375056476,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 128,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4081.927102
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08005783800035715,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3554.268757,
+        "components": {
+          "movement_s": 2924.2687517356303,
+          "switch_s": 77.0,
+          "detection_s": 390.0,
+          "optical_s": 135.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1081.8673489572018,
+          "localization": 679.063619931208,
+          "localization_shared": 36.0,
+          "optical": 1757.33778284722
+        },
+        "counts": {
+          "measure": 78,
+          "clear": 45,
+          "clear_success": 14,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 123,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3554.268757
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.045495612001104746,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 11875.710852,
+        "components": {
+          "movement_s": 8467.710871041541,
+          "switch_s": 60.0,
+          "detection_s": 305.0,
+          "optical_s": 3015.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 794.5222597371157,
+          "single_bearing_sweep": 11081.188611304462
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 1005,
+          "clear_success": 14,
+          "clear_failure": 991,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 1066,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "finite_optical_fallback": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 11875.710852
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.037487764995603357,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 9451.126116,
+        "components": {
+          "movement_s": 6609.126170064701,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 2307.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1158.2524490292674,
+          "single_bearing_sweep": 8292.873721035461
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 769,
+          "clear_success": 13,
+          "clear_failure": 756,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 854,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "finite_optical_fallback": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 9451.126116
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11852442500094185,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3960.320141,
+        "components": {
+          "movement_s": 3260.320141240976,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 81.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1178.887561053434,
+          "localization": 1307.1406732938335,
+          "localization_shared": 24.0,
+          "optical": 1450.291906893709
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 27,
+          "clear_success": 13,
+          "clear_failure": 14,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 126,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3960.320141
+    },
+    {
+      "variant": "BASE",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12417483400349738,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 5078.232525,
+        "components": {
+          "movement_s": 4277.232521935483,
+          "switch_s": 112.0,
+          "detection_s": 570.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2210.3908636940046,
+          "localization": 603.1768423926383,
+          "localization_shared": 42.0,
+          "optical": 2222.664815848841
+        },
+        "counts": {
+          "measure": 114,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 143,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5078.232525
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.027281056994979735,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 7826.127042,
+        "components": {
+          "movement_s": 5809.126999400573,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 1398.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2380.6339303670256,
+          "single_bearing_sweep": 5445.493069033545
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 466,
+          "clear_success": 16,
+          "clear_failure": 450,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 564,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 7826.127042
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.016634962004900444,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3337.146149,
+        "components": {
+          "movement_s": 2335.1461051168026,
+          "switch_s": 79.0,
+          "detection_s": 400.0,
+          "optical_s": 501.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1787.3973210450906,
+          "single_bearing_sweep": 1549.748784071713
+        },
+        "counts": {
+          "measure": 80,
+          "clear": 167,
+          "clear_success": 11,
+          "clear_failure": 156,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 247,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "finite_optical_fallback": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3337.146149
+    },
+    {
+      "variant": "BASE",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.048620786001265515,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 2425.606448,
+        "components": {
+          "movement_s": 1823.606447262402,
+          "switch_s": 89.0,
+          "detection_s": 455.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1786.9245088261123,
+          "localization": 254.0465031042657,
+          "localization_shared": 54.0,
+          "optical": 330.63543533202414
+        },
+        "counts": {
+          "measure": 91,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 103,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 2,
+        "localization": 11,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 2425.606448
+    },
+    {
+      "variant": "BASE",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0770976839994546,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 3280.039257,
+        "components": {
+          "movement_s": 2592.0392583528264,
+          "switch_s": 100.0,
+          "detection_s": 505.0,
+          "optical_s": 63.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1481.69049579917,
+          "near": 5.0,
+          "localization": 714.3984155222345,
+          "optical": 1072.9503470314212,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 101,
+          "clear": 21,
+          "clear_success": 10,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 16,
+        "second_point_after_schedule": 8,
+        "localization": 9,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3280.039257
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01984561599965673,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 5817.524513,
+        "components": {
+          "movement_s": 4103.524502943725,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 1143.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1480.5631436945926,
+          "near": 5.0,
+          "single_bearing_sweep": 4331.961359249137
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 381,
+          "clear_success": 10,
+          "clear_failure": 371,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 473,
+      "event_counts": {
+        "schedule": 16,
+        "feasible_update": 9,
+        "finite_optical_fallback": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5817.524513
+    },
+    {
+      "variant": "STRIP",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025207953003700823,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3323.507552,
+        "components": {
+          "movement_s": 2404.507545889451,
+          "switch_s": 35.0,
+          "detection_s": 180.0,
+          "optical_s": 672.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "single_bearing_sweep": 2883.5075458894494
+        },
+        "counts": {
+          "measure": 36,
+          "clear": 224,
+          "clear_success": 16,
+          "clear_failure": 208,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 260,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 16,
+        "finite_optical_fallback": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3323.507552
+    },
+    {
+      "variant": "BASE",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06814751199999591,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 735.41428,
+        "components": {
+          "movement_s": 344.41428126613056,
+          "switch_s": 51.0,
+          "detection_s": 260.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "localization": 82.61333333333332,
+          "localization_shared": 90.0,
+          "optical": 122.80094793279717
+        },
+        "counts": {
+          "measure": 52,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 68,
+      "event_counts": {
+        "schedule": 18,
+        "source_upper_bound_saturated": 1,
+        "second_point_after_schedule": 1,
+        "localization": 16,
+        "shared_cache_store": 15,
+        "shared_cache_use": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 735.41428
+    }
+  ],
+  "aggregates": {
+    "BASE": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 3829.597875711538,
+      "p95": 4339.9296251,
+      "maximum": 5078.232525,
+      "worst_case": "boundary_minR_16",
+      "worst_paired_regression": [
+        0.0,
+        "near_at_origin"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 3829.597875711538,
+      "movement_detection_etc": {
+        "movement_s": 3184.0017210846777,
+        "switch_s": 90.1923076923077,
+        "detection_s": 457.11538461538464,
+        "optical_s": 71.9423076923077,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "control": 0.0,
+        "localization": 1008.9811544148023,
+        "localization_shared": 26.076923076923077,
+        "near": 0.09615384615384616,
+        "optical": 1502.1054822794451,
+        "search": 1292.3381613135073
+      },
+      "mean_per_cleared": 297.52566955817724,
+      "wall_p95": 0.17688948109753252,
+      "clear_failure_mean": 10.807692307692308,
+      "mean_change_pct": 0.0,
+      "significant": false
+    },
+    "STRIP": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 7448.266573173076,
+      "p95": 10316.29230125,
+      "maximum": 11875.710852,
+      "worst_case": "dev_10_negative",
+      "worst_paired_regression": [
+        3.5192317342546033,
+        "clustered_16"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 7448.266573173076,
+      "movement_detection_etc": {
+        "movement_s": 5420.651189414993,
+        "switch_s": 77.15384615384616,
+        "detection_s": 390.7692307692308,
+        "optical_s": 1533.3461538461538,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "control": 0.0,
+        "near": 0.09615384615384616,
+        "search": 1299.8499257403578,
+        "single_bearing_sweep": 6148.320494443868
+      },
+      "mean_per_cleared": 567.5535570821755,
+      "wall_p95": 0.04772177520062541,
+      "clear_failure_mean": 497.9423076923077,
+      "mean_change_pct": 94.49213246153658,
+      "significant": false
+    }
+  }
+}

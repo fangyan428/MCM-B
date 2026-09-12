@@ -1,0 +1,25 @@
+{
+  "kind": "SELF_ROUND9_PRE_DEVELOPMENT",
+  "mechanism": "Late-bind current-position opportunity after choosing task with original catalog; fixed task identity within decision, not global path identity.",
+  "variants": [
+    "REF",
+    "J",
+    "Z",
+    "JL",
+    "ZL"
+  ],
+  "development": "Same52 development scenarios x both rounding modes; round8 failures reused only as development diagnostics.",
+  "selection": "Select lowest bounded development mean among complete/audited variants with mean lower and p95 <= REF in both rounding models. Then lock and generate fresh ordinary/outer cases; same gates in every validation batch, no fallback promotion from comparators.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      130000,
+      130050
+    ],
+    "outer": [
+      140000,
+      140020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

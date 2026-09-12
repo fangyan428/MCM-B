@@ -1,0 +1,5228 @@
+{
+  "rows": [
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12953856099920813,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3619.753087,
+        "components": {
+          "movement_s": 3154.753088724362,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 69.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 716.0623040554996,
+          "localization": 1117.0058893114565,
+          "localization_shared": 42.0,
+          "optical": 1744.6848953574065
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 23,
+          "clear_success": 16,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 84,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3619.753087
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07947458900162019,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4229.139392,
+        "components": {
+          "movement_s": 3278.139391775655,
+          "switch_s": 141.0,
+          "detection_s": 730.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2147.0,
+          "adaptive_localization": 1302.3196075047485,
+          "optical": 769.8197842709059,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 146,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 55,
+        "certified_measure": 13,
+        "certified_clear": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4229.139392
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02756169400527142,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3809.967488,
+        "components": {
+          "movement_s": 2864.9674888619334,
+          "switch_s": 145.0,
+          "detection_s": 745.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1053.5790145115075,
+          "near": 5.0,
+          "optical": 562.3884743504249
+        },
+        "counts": {
+          "measure": 149,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 160,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 47,
+        "certified_measure": 9,
+        "certified_clear": 10,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3809.967488
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0737900960011757,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3754.84244,
+        "components": {
+          "movement_s": 3100.842442346866,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 57.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.0122761101977,
+          "localization": 880.9632560128709,
+          "localization_shared": 24.0,
+          "optical": 1515.8669102237973
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 19,
+          "clear_success": 11,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3754.84244
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.14331825699628098,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3654.881717,
+        "components": {
+          "movement_s": 3092.881712612688,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 884.2390209936518,
+          "localization": 739.4338119341934,
+          "localization_shared": 42.0,
+          "optical": 1989.208879684842
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 102,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3654.881717
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07202980099827982,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4283.337727,
+        "components": {
+          "movement_s": 3262.337725324456,
+          "switch_s": 146.0,
+          "detection_s": 795.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2159.0,
+          "adaptive_localization": 1619.6848376073367,
+          "near": 35.0,
+          "optical": 469.6528877171193
+        },
+        "counts": {
+          "measure": 159,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 175,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 53,
+        "certified_measure": 24,
+        "certified_clear": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4283.337727
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02684485500503797,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4263.102454,
+        "components": {
+          "movement_s": 3286.1024525732796,
+          "switch_s": 147.0,
+          "detection_s": 775.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1661.7318616520788,
+          "optical": 407.3705909212008,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 155,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 166,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 42,
+        "certified_measure": 15,
+        "certified_clear": 10,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4263.102454
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.16286414900241653,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3953.406879,
+        "components": {
+          "movement_s": 3212.4068751155714,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.5438921334955,
+          "localization": 1475.470104249881,
+          "localization_shared": 12.0,
+          "optical": 1131.3928787321947
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3953.406879
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07616908499767305,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3988.187975,
+        "components": {
+          "movement_s": 3319.1879699994897,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1664.6590594570746,
+          "localization": 879.8387415206682,
+          "localization_shared": 18.0,
+          "optical": 1425.6901690217462
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3988.187975
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025886360999720637,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3632.919671,
+        "components": {
+          "movement_s": 2708.919669738113,
+          "switch_s": 144.0,
+          "detection_s": 725.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 555.9083467802288,
+          "optical": 878.0113229578839,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 145,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 156,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 39,
+        "certified_measure": 5,
+        "certified_clear": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3632.919671
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05005343299853848,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4306.377679,
+        "components": {
+          "movement_s": 3324.3776812101,
+          "switch_s": 147.0,
+          "detection_s": 765.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1259.0224430018739,
+          "optical": 848.3552382082266,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 167,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 45,
+        "certified_measure": 13,
+        "certified_clear": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4306.377679
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10453106600471074,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3839.956457,
+        "components": {
+          "movement_s": 3179.9564531476303,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1644.4341071779822,
+          "localization": 716.0937355110999,
+          "optical": 1455.4286104585487,
+          "localization_shared": 24.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 10,
+        "localization": 14,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3839.956457
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11619945599522907,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4358.238787,
+        "components": {
+          "movement_s": 3874.2387890295163,
+          "switch_s": 62.0,
+          "detection_s": 315.0,
+          "optical_s": 75.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 830.8075961814855,
+          "localization": 1840.7334114516223,
+          "optical": 1668.6977813964077,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 63,
+          "clear": 25,
+          "clear_success": 16,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 88,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 13,
+        "localization": 16,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4358.238787
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07058553200477036,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4473.083917,
+        "components": {
+          "movement_s": 3471.0839170419713,
+          "switch_s": 147.0,
+          "detection_s": 775.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2177.0,
+          "adaptive_localization": 1554.6250353828364,
+          "optical": 736.4588816591341,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 155,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 171,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 59,
+        "certified_measure": 17,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4473.083917
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03455478099931497,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4137.040069,
+        "components": {
+          "movement_s": 3156.040067825844,
+          "switch_s": 146.0,
+          "detection_s": 775.0,
+          "optical_s": 36.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1146.0851017924974,
+          "optical": 796.9549660333475,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 155,
+          "clear": 12,
+          "clear_success": 12,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 167,
+      "event_counts": {
+        "survey_route": 19,
+        "schedule": 19,
+        "feasible_update": 42,
+        "certified_measure": 15,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4137.040069
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10327336799673503,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4181.190224,
+        "components": {
+          "movement_s": 3483.190222040535,
+          "switch_s": 104.0,
+          "detection_s": 525.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1495.5313571893184,
+          "localization": 1522.9264896720017,
+          "localization_shared": 12.0,
+          "optical": 1150.7323751792148
+        },
+        "counts": {
+          "measure": 105,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 10,
+        "localization": 12,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4181.190224
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06733656500000507,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3772.149177,
+        "components": {
+          "movement_s": 3151.149175635104,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1450.1381817369893,
+          "localization": 610.8779464584608,
+          "localization_shared": 24.0,
+          "optical": 1687.1330474396536
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 106,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3772.149177
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02592803899460705,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3912.71868,
+        "components": {
+          "movement_s": 2983.7186793375326,
+          "switch_s": 144.0,
+          "detection_s": 730.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 963.9260566352892,
+          "adaptive_localization": 749.7926227022427,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 146,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 157,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 37,
+        "certified_clear": 9,
+        "certified_measure": 6,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3912.71868
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04146724699967308,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4282.617516,
+        "components": {
+          "movement_s": 3268.6175156225454,
+          "switch_s": 149.0,
+          "detection_s": 800.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1503.8103388603326,
+          "optical": 574.8071767622133,
+          "near": 15.0
+        },
+        "counts": {
+          "measure": 160,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 173,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 45,
+        "certified_measure": 20,
+        "certified_clear": 10,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4282.617516
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.123898582001857,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3922.14265,
+        "components": {
+          "movement_s": 3222.1426494960187,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1148.558326552506,
+          "localization": 1314.1080445345203,
+          "optical": 1453.4762784089917,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 13,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.14265
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08082341800036374,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3958.257349,
+        "components": {
+          "movement_s": 3346.2573535552588,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 75.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 919.98117151579,
+          "localization": 922.6265802922833,
+          "localization_shared": 36.0,
+          "optical": 2079.6496017471854
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 25,
+          "clear_success": 14,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 110,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3958.257349
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04697104999650037,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3962.375131,
+        "components": {
+          "movement_s": 3005.3751313127646,
+          "switch_s": 147.0,
+          "detection_s": 740.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 708.7659411148361,
+          "optical": 1054.6091901979287,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 52,
+        "certified_measure": 8,
+        "certified_clear": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3962.375131
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04103004300122848,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4142.514056,
+        "components": {
+          "movement_s": 3179.514056599576,
+          "switch_s": 148.0,
+          "detection_s": 750.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1386.4045829252595,
+          "optical": 557.1094736743164,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 150,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 163,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 40,
+        "certified_measure": 10,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4142.514056
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12386878600227647,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3490.939214,
+        "components": {
+          "movement_s": 2836.939213609192,
+          "switch_s": 92.0,
+          "detection_s": 470.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1098.8084009738375,
+          "localization": 932.5833534262059,
+          "optical": 1441.5474592091477,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3490.939214
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10639529600302922,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3612.327574,
+        "components": {
+          "movement_s": 3123.327572476709,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 93.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 719.8995312539206,
+          "localization": 1053.7375187840896,
+          "localization_shared": 54.0,
+          "optical": 1784.690522438699
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 31,
+          "clear_success": 16,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 92,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3612.327574
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07663775700348197,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4237.150081,
+        "components": {
+          "movement_s": 3275.1500783939,
+          "switch_s": 142.0,
+          "detection_s": 740.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2147.0,
+          "adaptive_localization": 1444.2201502044477,
+          "near": 15.0,
+          "optical": 630.9299281894525
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 164,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 56,
+        "certified_measure": 15,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4237.150081
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0276068099992699,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3808.805889,
+        "components": {
+          "movement_s": 2863.8058904365284,
+          "switch_s": 145.0,
+          "detection_s": 745.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 840.0689685055223,
+          "near": 25.0,
+          "optical": 754.7369219310058
+        },
+        "counts": {
+          "measure": 149,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 160,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 43,
+        "certified_measure": 9,
+        "certified_clear": 6,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3808.805889
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08514156799355987,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3642.040927,
+        "components": {
+          "movement_s": 2982.040927194144,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1658.3458103379432,
+          "localization": 598.247472138188,
+          "localization_shared": 24.0,
+          "optical": 1361.4476447180132
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 118,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3642.040927
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10336366800038377,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3566.607977,
+        "components": {
+          "movement_s": 2828.607975678524,
+          "switch_s": 105.0,
+          "detection_s": 535.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1283.9713615394187,
+          "localization": 837.2153262150764,
+          "localization_shared": 54.0,
+          "optical": 1391.4212879240283
+        },
+        "counts": {
+          "measure": 107,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "certified_clear_skip": 1,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3566.607977
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07106748999649426,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4204.910497,
+        "components": {
+          "movement_s": 3189.910501768326,
+          "switch_s": 145.0,
+          "detection_s": 790.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2159.0,
+          "adaptive_localization": 1466.587399973319,
+          "optical": 574.3231017950078,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 158,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 174,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 58,
+        "certified_measure": 23,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4204.910497
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026308904998586513,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4175.073642,
+        "components": {
+          "movement_s": 3219.073642090083,
+          "switch_s": 146.0,
+          "detection_s": 755.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1448.2335579757755,
+          "optical": 537.840084114307
+        },
+        "counts": {
+          "measure": 151,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 39,
+        "certified_measure": 11,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4175.073642
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13046674899669597,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3922.039996,
+        "components": {
+          "movement_s": 3187.03999828423,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 66.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.7186852449875,
+          "localization": 1473.2376139505914,
+          "localization_shared": 12.0,
+          "optical": 1102.0836990886505
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 22,
+          "clear_success": 11,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 130,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.039996
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06306707500334596,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3744.63619,
+        "components": {
+          "movement_s": 3093.6361894474417,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1463.3898434799448,
+          "localization": 1064.0748547353994,
+          "localization_shared": 18.0,
+          "optical": 1199.1714912320965
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3744.63619
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.028060062002623454,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3664.265754,
+        "components": {
+          "movement_s": 2722.2657536864035,
+          "switch_s": 147.0,
+          "detection_s": 740.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 840.3487347186222,
+          "optical": 634.9170189677819
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 159,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 44,
+        "certified_measure": 8,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3664.265754
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05218500699993456,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4291.45023,
+        "components": {
+          "movement_s": 3309.4502308882034,
+          "switch_s": 147.0,
+          "detection_s": 765.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1248.4133666585622,
+          "optical": 849.0368642296401,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 167,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 46,
+        "certified_measure": 13,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4291.45023
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13623448900034418,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4325.368598,
+        "components": {
+          "movement_s": 3683.368598523073,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1615.6035697920784,
+          "localization": 903.6717356089168,
+          "optical": 1788.0932931220782,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4325.368598
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1257322350065806,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4357.726436,
+        "components": {
+          "movement_s": 3793.7264319574065,
+          "switch_s": 71.0,
+          "detection_s": 365.0,
+          "optical_s": 96.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1312.3164822334306,
+          "localization": 1060.1836396264546,
+          "localization_shared": 30.0,
+          "optical": 1955.2263100975213
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 32,
+          "clear_success": 16,
+          "clear_failure": 16,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 105,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 11,
+        "localization": 16,
+        "shared_cache_store": 5,
+        "shared_cache_use": 5,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4357.726436
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07080842099821893,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4321.618813,
+        "components": {
+          "movement_s": 3361.618811947987,
+          "switch_s": 145.0,
+          "detection_s": 735.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2177.0,
+          "adaptive_localization": 971.2336873748222,
+          "optical": 1168.3851245731648,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 147,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 163,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 51,
+        "certified_measure": 9,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4321.618813
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.032386940001742914,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4115.892699,
+        "components": {
+          "movement_s": 3144.8926983466354,
+          "switch_s": 146.0,
+          "detection_s": 765.0,
+          "optical_s": 36.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1272.9229041361027,
+          "near": 10.0,
+          "optical": 643.9697942105328
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 12,
+          "clear_success": 12,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 19,
+        "schedule": 19,
+        "feasible_update": 39,
+        "certified_measure": 13,
+        "certified_clear": 10,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4115.892699
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08536421800090466,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4056.26023,
+        "components": {
+          "movement_s": 3358.260229957259,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1546.9992867212138,
+          "localization": 1013.5706599733142,
+          "localization_shared": 18.0,
+          "optical": 1477.6902832627318
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 12,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 9,
+        "localization": 12,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4056.26023
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06658576100016944,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4086.724703,
+        "components": {
+          "movement_s": 3411.7247021539924,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 90.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1499.3460233943233,
+          "localization": 1030.7871418675034,
+          "optical": 1538.5915368921655,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 30,
+          "clear_success": 11,
+          "clear_failure": 19,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 124,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4086.724703
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026328271997044794,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3919.350884,
+        "components": {
+          "movement_s": 2990.3508826902143,
+          "switch_s": 144.0,
+          "detection_s": 730.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 785.4865874806342,
+          "adaptive_localization": 939.8642952095809,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 146,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 157,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 38,
+        "certified_clear": 10,
+        "certified_measure": 6,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3919.350884
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04192703300213907,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4264.154932,
+        "components": {
+          "movement_s": 3267.154932109317,
+          "switch_s": 147.0,
+          "detection_s": 785.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1273.745458489456,
+          "near": 10.0,
+          "optical": 791.4094736198617
+        },
+        "counts": {
+          "measure": 157,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 170,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 43,
+        "certified_measure": 17,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4264.154932
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11868862200208241,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4071.728078,
+        "components": {
+          "movement_s": 3365.728080598245,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1531.733793838006,
+          "localization": 1183.194164278922,
+          "optical": 1350.800122481317,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 13,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4071.728078
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0692974060002598,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3849.493879,
+        "components": {
+          "movement_s": 3249.493876509666,
+          "switch_s": 83.0,
+          "detection_s": 420.0,
+          "optical_s": 69.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 849.779589953819,
+          "localization": 1130.445861876687,
+          "localization_shared": 36.0,
+          "optical": 1833.2684246791603
+        },
+        "counts": {
+          "measure": 84,
+          "clear": 23,
+          "clear_success": 14,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 107,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3849.493879
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04830709499947261,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3959.453912,
+        "components": {
+          "movement_s": 3003.453911595505,
+          "switch_s": 146.0,
+          "detection_s": 740.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 607.8822579112363,
+          "optical": 1162.5716536842688
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 54,
+        "certified_measure": 8,
+        "certified_clear": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3959.453912
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04031084900634596,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4155.782034,
+        "components": {
+          "movement_s": 3181.782031943153,
+          "switch_s": 149.0,
+          "detection_s": 760.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1546.5720193664238,
+          "optical": 415.2100125767287,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 152,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 43,
+        "certified_measure": 12,
+        "certified_clear": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4155.782034
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.15021673499722965,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3902.782462,
+        "components": {
+          "movement_s": 3224.782461276349,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 60.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1327.9446549110194,
+          "localization": 1198.5994144766053,
+          "localization_shared": 18.0,
+          "optical": 1358.2383918887251
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 20,
+          "clear_success": 13,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 119,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3902.782462
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1550766759974067,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3337.211374,
+        "components": {
+          "movement_s": 2895.2113726137604,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 63.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 556.5702405865744,
+          "localization": 968.2799326423244,
+          "localization_shared": 36.0,
+          "optical": 1776.3611993848624
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 21,
+          "clear_success": 16,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 79,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "source_upper_bound_saturated": 1,
+        "certified_clear_skip": 2,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3337.211374
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07834395999816479,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4211.566203,
+        "components": {
+          "movement_s": 3259.5662031593656,
+          "switch_s": 142.0,
+          "detection_s": 730.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2147.0,
+          "adaptive_localization": 1391.3165025097278,
+          "optical": 668.2497006496378,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 146,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 56,
+        "certified_measure": 13,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4211.566203
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.031956259001162834,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3806.834589,
+        "components": {
+          "movement_s": 2867.8345895236644,
+          "switch_s": 144.0,
+          "detection_s": 740.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 738.6532150325132,
+          "optical": 879.1813744911512
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 159,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 47,
+        "certified_measure": 8,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3806.834589
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08801772400329355,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3409.88536,
+        "components": {
+          "movement_s": 2755.885358531765,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.4034920595782,
+          "localization": 832.0863003317038,
+          "localization_shared": 24.0,
+          "optical": 1216.3955661404834
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3409.88536
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.152011054000468,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3690.468713,
+        "components": {
+          "movement_s": 3017.4687127570814,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 60.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1221.9666826758726,
+          "localization": 849.0584396877127,
+          "localization_shared": 48.0,
+          "optical": 1571.4435903934973
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 20,
+          "clear_success": 16,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 117,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 8,
+        "localization": 16,
+        "shared_cache_store": 8,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 8,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3690.468713
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06594605600548675,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4236.635176,
+        "components": {
+          "movement_s": 3229.635176840617,
+          "switch_s": 147.0,
+          "detection_s": 780.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2159.0,
+          "adaptive_localization": 1675.9937022955453,
+          "optical": 391.64147454507076,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 156,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 172,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 55,
+        "certified_measure": 21,
+        "certified_clear": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4236.635176
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025916546997905243,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4167.538168,
+        "components": {
+          "movement_s": 3211.538166488383,
+          "switch_s": 146.0,
+          "detection_s": 755.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1440.0592741351254,
+          "optical": 538.4788923532578
+        },
+        "counts": {
+          "measure": 151,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 39,
+        "certified_measure": 11,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4167.538168
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10891756499768235,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4128.503707,
+        "components": {
+          "movement_s": 3426.503706208788,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1649.087940895896,
+          "localization": 1207.9168246187096,
+          "optical": 1259.4989406941825,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4128.503707
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07979427999816835,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3989.334175,
+        "components": {
+          "movement_s": 3365.3341751793287,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1548.4426939382347,
+          "localization": 1094.8681176308482,
+          "localization_shared": 12.0,
+          "optical": 1334.0233636102457
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 108,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3989.334175
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02850130399747286,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3657.139863,
+        "components": {
+          "movement_s": 2721.1398645968393,
+          "switch_s": 146.0,
+          "detection_s": 735.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 740.0330773427527,
+          "optical": 728.1067872540858
+        },
+        "counts": {
+          "measure": 147,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 158,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 43,
+        "certified_measure": 7,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3657.139863
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.048144027998205274,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4270.181425,
+        "components": {
+          "movement_s": 3288.181426556627,
+          "switch_s": 147.0,
+          "detection_s": 765.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1221.635059869034,
+          "optical": 854.5463666875927,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 167,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 46,
+        "certified_measure": 13,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4270.181425
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10620729100628523,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4016.51064,
+        "components": {
+          "movement_s": 3371.510638595894,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 48.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1634.8778612148076,
+          "localization": 744.1300350661543,
+          "optical": 1619.5027423149324,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 16,
+          "clear_success": 14,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 111,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4016.51064
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10846853999828454,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4306.380454,
+        "components": {
+          "movement_s": 3706.3804549147126,
+          "switch_s": 81.0,
+          "detection_s": 415.0,
+          "optical_s": 72.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1222.9233919866656,
+          "localization": 908.9192112361491,
+          "localization_shared": 36.0,
+          "optical": 2138.5378516918977
+        },
+        "counts": {
+          "measure": 83,
+          "clear": 24,
+          "clear_success": 16,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 107,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4306.380454
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06856445699668257,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4362.315674,
+        "components": {
+          "movement_s": 3390.3156743622408,
+          "switch_s": 147.0,
+          "detection_s": 745.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2177.0,
+          "adaptive_localization": 1441.2585572251776,
+          "optical": 744.057117137063
+        },
+        "counts": {
+          "measure": 149,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 54,
+        "certified_measure": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4362.315674
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.030344353996042628,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4106.956269,
+        "components": {
+          "movement_s": 3135.9562689123277,
+          "switch_s": 146.0,
+          "detection_s": 765.0,
+          "optical_s": 36.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1256.1879046577226,
+          "optical": 661.7683642546057
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 12,
+          "clear_success": 12,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 19,
+        "schedule": 19,
+        "feasible_update": 41,
+        "certified_measure": 13,
+        "certified_clear": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4106.956269
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09064929799933452,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4116.962328,
+        "components": {
+          "movement_s": 3466.962327263449,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1436.4012845528462,
+          "localization": 1502.175677094839,
+          "optical": 1172.3853656157646,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 112,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 11,
+        "localization": 12,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4116.962328
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08028424299845938,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3335.349168,
+        "components": {
+          "movement_s": 2678.349167286015,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1259.863714843878,
+          "localization": 821.3357241932205,
+          "localization_shared": 18.0,
+          "optical": 1236.1497282489167
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3335.349168
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025016141997184604,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3928.798597,
+        "components": {
+          "movement_s": 2987.79859925537,
+          "switch_s": 146.0,
+          "detection_s": 740.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 576.2816890817676,
+          "adaptive_localization": 1163.5169101736028
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 159,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 41,
+        "certified_clear": 11,
+        "certified_measure": 8,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3928.798597
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.039112883001507726,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4226.421241,
+        "components": {
+          "movement_s": 3228.4212400804,
+          "switch_s": 148.0,
+          "detection_s": 785.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1308.5854005430338,
+          "optical": 728.8358395373651
+        },
+        "counts": {
+          "measure": 157,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 170,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 45,
+        "certified_measure": 17,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4226.421241
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0733613980046357,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4092.873898,
+        "components": {
+          "movement_s": 3383.8738993349175,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1594.2282136515828,
+          "localization": 1109.050466407912,
+          "optical": 1377.595219275423,
+          "localization_shared": 12.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 11,
+        "localization": 13,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4092.873898
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09011417099827668,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3886.799746,
+        "components": {
+          "movement_s": 3307.799743846775,
+          "switch_s": 79.0,
+          "detection_s": 400.0,
+          "optical_s": 72.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 834.0576862805826,
+          "localization": 1225.2172490746368,
+          "localization_shared": 30.0,
+          "optical": 1797.5248084915543
+        },
+        "counts": {
+          "measure": 80,
+          "clear": 24,
+          "clear_success": 14,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 104,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 14,
+        "shared_cache_store": 5,
+        "shared_cache_use": 5,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3886.799746
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.046368413997697644,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3969.751197,
+        "components": {
+          "movement_s": 3019.7511955169807,
+          "switch_s": 145.0,
+          "detection_s": 735.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 1197.2048653408597,
+          "adaptive_localization": 583.5463301761213
+        },
+        "counts": {
+          "measure": 147,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 161,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 53,
+        "certified_clear": 14,
+        "certified_measure": 7,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3969.751197
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.039657178000197746,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4148.676301,
+        "components": {
+          "movement_s": 3185.6762994446253,
+          "switch_s": 148.0,
+          "detection_s": 750.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1481.5710094055116,
+          "optical": 478.10529003911364
+        },
+        "counts": {
+          "measure": 150,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 163,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 42,
+        "certified_measure": 10,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4148.676301
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11119805899943458,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3783.944617,
+        "components": {
+          "movement_s": 3117.9446170075566,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1150.2336393490489,
+          "localization": 804.2693985825305,
+          "localization_shared": 24.0,
+          "optical": 1805.4415790759774
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3783.944617
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11516972700337647,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3929.001819,
+        "components": {
+          "movement_s": 3412.0018177896195,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 138.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 405.63050156101036,
+          "localization": 1565.0415569477884,
+          "localization_shared": 42.0,
+          "optical": 1916.3297592808224
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 46,
+          "clear_success": 16,
+          "clear_failure": 30,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 104,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 4,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3929.001819
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06732230800116668,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4219.45631,
+        "components": {
+          "movement_s": 3267.456310030047,
+          "switch_s": 142.0,
+          "detection_s": 730.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2147.0,
+          "adaptive_localization": 1403.5744260755587,
+          "optical": 663.8818839544881,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 146,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 162,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 56,
+        "certified_measure": 13,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4219.45631
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.027501682001457084,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3815.514535,
+        "components": {
+          "movement_s": 2876.51453573697,
+          "switch_s": 144.0,
+          "detection_s": 740.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 752.1744589541178,
+          "optical": 874.3400767828523
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 159,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 47,
+        "certified_measure": 8,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3815.514535
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07767725399753544,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4062.851428,
+        "components": {
+          "movement_s": 3351.8514292191253,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 102.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1496.7188436108231,
+          "localization": 1105.1772630805426,
+          "optical": 1442.9553225277598,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 34,
+          "clear_success": 11,
+          "clear_failure": 23,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "certified_clear_skip": 5,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4062.851428
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1480337850007345,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3859.981204,
+        "components": {
+          "movement_s": 3202.9811977622117,
+          "switch_s": 80.0,
+          "detection_s": 410.0,
+          "optical_s": 135.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1300.0842239108842,
+          "localization": 965.7678826002197,
+          "localization_shared": 36.0,
+          "optical": 1558.1290912511092
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 45,
+          "clear_success": 16,
+          "clear_failure": 29,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 127,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 6,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3859.981204
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06372994300181745,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4169.262742,
+        "components": {
+          "movement_s": 3168.2627424626776,
+          "switch_s": 146.0,
+          "detection_s": 775.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2159.0,
+          "adaptive_localization": 1547.4346600181118,
+          "optical": 452.8280824445656,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 155,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 171,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 54,
+        "certified_measure": 20,
+        "certified_clear": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4169.262742
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025915275000443216,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4198.088855,
+        "components": {
+          "movement_s": 3237.0888539943426,
+          "switch_s": 146.0,
+          "detection_s": 760.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1466.6894435515658,
+          "optical": 542.399410442777
+        },
+        "counts": {
+          "measure": 152,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 163,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 40,
+        "certified_measure": 12,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4198.088855
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06529430000227876,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4202.346827,
+        "components": {
+          "movement_s": 3443.346828419062,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 90.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1444.071192021067,
+          "localization": 1452.4699754256615,
+          "localization_shared": 12.0,
+          "optical": 1293.8056609723344
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 30,
+          "clear_success": 11,
+          "clear_failure": 19,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 138,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4202.346827
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05499766299908515,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3757.168538,
+        "components": {
+          "movement_s": 3058.1685353886587,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1466.8595183289328,
+          "localization": 976.8393558023969,
+          "localization_shared": 18.0,
+          "optical": 1295.4696612573298
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3757.168538
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.028491534998465795,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3663.435497,
+        "components": {
+          "movement_s": 2727.4354971173175,
+          "switch_s": 146.0,
+          "detection_s": 735.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 746.7461164894046,
+          "optical": 727.6893806279139
+        },
+        "counts": {
+          "measure": 147,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 158,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 43,
+        "certified_measure": 7,
+        "certified_clear": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3663.435497
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.052195937001670245,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4289.178192,
+        "components": {
+          "movement_s": 3307.178193944105,
+          "switch_s": 147.0,
+          "detection_s": 765.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1238.918791199398,
+          "optical": 861.2594027447059
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 167,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 47,
+        "certified_measure": 13,
+        "certified_clear": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4289.178192
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1185333300018101,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4172.324494,
+        "components": {
+          "movement_s": 3449.3244906365553,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 108.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1593.4094126417099,
+          "localization": 659.6161757647621,
+          "localization_shared": 36.0,
+          "optical": 1883.2989022300837
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 36,
+          "clear_success": 14,
+          "clear_failure": 22,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 134,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4172.324494
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12179531099536689,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4086.676087,
+        "components": {
+          "movement_s": 3471.6760876649787,
+          "switch_s": 72.0,
+          "detection_s": 370.0,
+          "optical_s": 141.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 954.9101844341682,
+          "localization": 1140.355405735734,
+          "localization_shared": 36.0,
+          "optical": 1955.410497495076
+        },
+        "counts": {
+          "measure": 74,
+          "clear": 47,
+          "clear_success": 16,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 1,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4086.676087
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06561661600426305,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4335.454085,
+        "components": {
+          "movement_s": 3363.454085164011,
+          "switch_s": 147.0,
+          "detection_s": 745.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2177.0,
+          "adaptive_localization": 1417.832392350053,
+          "optical": 740.6216928139575
+        },
+        "counts": {
+          "measure": 149,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 54,
+        "certified_measure": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4335.454085
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03138816900172969,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4104.564327,
+        "components": {
+          "movement_s": 3133.5643284875896,
+          "switch_s": 146.0,
+          "detection_s": 765.0,
+          "optical_s": 36.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1256.79674800119,
+          "optical": 658.7675804864
+        },
+        "counts": {
+          "measure": 153,
+          "clear": 12,
+          "clear_success": 12,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 165,
+      "event_counts": {
+        "survey_route": 19,
+        "schedule": 19,
+        "feasible_update": 41,
+        "certified_measure": 13,
+        "certified_clear": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4104.564327
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09114303900423693,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4249.417411,
+        "components": {
+          "movement_s": 3569.417411015235,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 75.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1273.1094617211147,
+          "localization": 1642.860891882663,
+          "localization_shared": 18.0,
+          "optical": 1315.4470574114575
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 25,
+          "clear_success": 12,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 9,
+        "localization": 12,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4249.417411
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06797769099648576,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3977.606033,
+        "components": {
+          "movement_s": 3263.6060297809827,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 129.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1454.5794285720858,
+          "localization": 599.1617981174539,
+          "localization_shared": 24.0,
+          "optical": 1899.8648030914417
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 43,
+          "clear_success": 11,
+          "clear_failure": 32,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 137,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3977.606033
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.025358897000842262,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3935.96835,
+        "components": {
+          "movement_s": 2994.968350097491,
+          "switch_s": 146.0,
+          "detection_s": 740.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 575.9582574946267,
+          "adaptive_localization": 1171.010092602865
+        },
+        "counts": {
+          "measure": 148,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 159,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 41,
+        "certified_clear": 11,
+        "certified_measure": 8,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3935.96835
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03992560399638023,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4230.929993,
+        "components": {
+          "movement_s": 3232.9299946737574,
+          "switch_s": 148.0,
+          "detection_s": 785.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1317.2123527481028,
+          "optical": 724.717641925656
+        },
+        "counts": {
+          "measure": 157,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 170,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 45,
+        "certified_measure": 17,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4230.929993
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1232852369939792,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4081.927102,
+        "components": {
+          "movement_s": 3354.927104024039,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1520.5696743571648,
+          "localization": 1152.3561921612259,
+          "optical": 1403.0012375056476,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 128,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4081.927102
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08136638999712886,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3554.268757,
+        "components": {
+          "movement_s": 2924.2687517356303,
+          "switch_s": 77.0,
+          "detection_s": 390.0,
+          "optical_s": 135.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1081.8673489572018,
+          "localization": 679.063619931208,
+          "localization_shared": 36.0,
+          "optical": 1757.33778284722
+        },
+        "counts": {
+          "measure": 78,
+          "clear": 45,
+          "clear_success": 14,
+          "clear_failure": 31,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 123,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "certified_clear_skip": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3554.268757
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.049163417003001086,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3956.498468,
+        "components": {
+          "movement_s": 3006.498468378567,
+          "switch_s": 145.0,
+          "detection_s": 735.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "optical": 1199.2580053158704,
+          "adaptive_localization": 568.2404630626962
+        },
+        "counts": {
+          "measure": 147,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 161,
+      "event_counts": {
+        "survey_route": 21,
+        "schedule": 21,
+        "feasible_update": 53,
+        "certified_clear": 14,
+        "certified_measure": 7,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3956.498468
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0397932240011869,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4175.189234,
+        "components": {
+          "movement_s": 3212.189233660992,
+          "switch_s": 148.0,
+          "detection_s": 750.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 1507.44271905005,
+          "optical": 478.746514610942
+        },
+        "counts": {
+          "measure": 150,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 163,
+      "event_counts": {
+        "survey_route": 20,
+        "schedule": 20,
+        "feasible_update": 42,
+        "certified_measure": 10,
+        "certified_clear": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4175.189234
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12020225200103596,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3960.320141,
+        "components": {
+          "movement_s": 3260.320141240976,
+          "switch_s": 98.0,
+          "detection_s": 495.0,
+          "optical_s": 81.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1178.887561053434,
+          "localization": 1307.1406732938335,
+          "localization_shared": 24.0,
+          "optical": 1450.291906893709
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 27,
+          "clear_success": 13,
+          "clear_failure": 14,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 126,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3960.320141
+    },
+    {
+      "variant": "BASE",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11873180299880914,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 5078.232525,
+        "components": {
+          "movement_s": 4277.232521935483,
+          "switch_s": 112.0,
+          "detection_s": 570.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2210.3908636940046,
+          "localization": 603.1768423926383,
+          "localization_shared": 42.0,
+          "optical": 2222.664815848841
+        },
+        "counts": {
+          "measure": 114,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 143,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5078.232525
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05819673599762609,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 6103.526748,
+        "components": {
+          "movement_s": 4792.526752015206,
+          "switch_s": 151.0,
+          "detection_s": 1080.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2165.0,
+          "adaptive_localization": 3819.9801614076114,
+          "optical": 118.54659060759288
+        },
+        "counts": {
+          "measure": 216,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 232,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 96,
+        "certified_measure": 80,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 6103.526748
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02671126300265314,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 5196.623843,
+        "components": {
+          "movement_s": 4002.6238465614088,
+          "switch_s": 149.0,
+          "detection_s": 990.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2189.0,
+          "adaptive_localization": 2928.7674336071927,
+          "optical": 68.85641295421597,
+          "near": 10.0
+        },
+        "counts": {
+          "measure": 198,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 209,
+      "event_counts": {
+        "survey_route": 18,
+        "schedule": 18,
+        "feasible_update": 71,
+        "certified_measure": 58,
+        "certified_clear": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 5196.623843
+    },
+    {
+      "variant": "BASE",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04811598500236869,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 2425.606448,
+        "components": {
+          "movement_s": 1823.606447262402,
+          "switch_s": 89.0,
+          "detection_s": 455.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1786.9245088261123,
+          "localization": 254.0465031042657,
+          "localization_shared": 54.0,
+          "optical": 330.63543533202414
+        },
+        "counts": {
+          "measure": 91,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 103,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 2,
+        "localization": 11,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 2425.606448
+    },
+    {
+      "variant": "BASE",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0784292300013476,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 3280.039257,
+        "components": {
+          "movement_s": 2592.0392583528264,
+          "switch_s": 100.0,
+          "detection_s": 505.0,
+          "optical_s": 63.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1481.69049579917,
+          "near": 5.0,
+          "localization": 714.3984155222345,
+          "optical": 1072.9503470314212,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 101,
+          "clear": 21,
+          "clear_success": 10,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 16,
+        "second_point_after_schedule": 8,
+        "localization": 9,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3280.039257
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019802716000413056,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 3902.743723,
+        "components": {
+          "movement_s": 2999.743722918288,
+          "switch_s": 138.0,
+          "detection_s": 715.0,
+          "optical_s": 30.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2153.0,
+          "near": 5.0,
+          "adaptive_localization": 764.874043703242,
+          "optical": 979.8696792150463
+        },
+        "counts": {
+          "measure": 143,
+          "clear": 10,
+          "clear_success": 10,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 153,
+      "event_counts": {
+        "survey_route": 16,
+        "schedule": 16,
+        "feasible_update": 36,
+        "certified_measure": 9,
+        "certified_clear": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3902.743723
+    },
+    {
+      "variant": "SURVEY",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.05471449899778236,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 2555.088409,
+        "components": {
+          "movement_s": 1684.088411471142,
+          "switch_s": 131.0,
+          "detection_s": 660.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2045.0,
+          "adaptive_localization": 396.78439114466596,
+          "optical": 113.30402032647653
+        },
+        "counts": {
+          "measure": 132,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 148,
+      "event_counts": {
+        "survey_route": 23,
+        "schedule": 23,
+        "feasible_update": 64,
+        "certified_measure": 16,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 2555.088409
+    },
+    {
+      "variant": "BASE",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "pre_round_stress",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06757193699741038,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 735.41428,
+        "components": {
+          "movement_s": 344.41428126613056,
+          "switch_s": 51.0,
+          "detection_s": 260.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "localization": 82.61333333333332,
+          "localization_shared": 90.0,
+          "optical": 122.80094793279717
+        },
+        "counts": {
+          "measure": 52,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 68,
+      "event_counts": {
+        "schedule": 18,
+        "source_upper_bound_saturated": 1,
+        "second_point_after_schedule": 1,
+        "localization": 16,
+        "shared_cache_store": 15,
+        "shared_cache_use": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 735.41428
+    }
+  ],
+  "aggregates": {
+    "BASE": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 3829.597875711538,
+      "p95": 4339.9296251,
+      "maximum": 5078.232525,
+      "worst_case": "boundary_minR_16",
+      "worst_paired_regression": [
+        0.0,
+        "near_at_origin"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 3829.597875711538,
+      "movement_detection_etc": {
+        "movement_s": 3184.0017210846777,
+        "switch_s": 90.1923076923077,
+        "detection_s": 457.11538461538464,
+        "optical_s": 71.9423076923077,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "control": 0.0,
+        "localization": 1008.9811544148023,
+        "localization_shared": 26.076923076923077,
+        "near": 0.09615384615384616,
+        "optical": 1502.1054822794451,
+        "search": 1292.3381613135073
+      },
+      "mean_per_cleared": 297.52566955817724,
+      "wall_p95": 0.1510241785486869,
+      "clear_failure_mean": 10.807692307692308,
+      "mean_change_pct": 0.0,
+      "significant": false
+    },
+    "SURVEY": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 4124.950791557692,
+      "p95": 4412.16138335,
+      "maximum": 6103.526748,
+      "worst_case": "boundary_minR_16",
+      "worst_paired_regression": [
+        2.4743524547823577,
+        "clustered_16"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 4124.950791557692,
+      "movement_detection_etc": {
+        "movement_s": 3150.970022587911,
+        "switch_s": 145.6153846153846,
+        "detection_s": 762.5,
+        "optical_s": 39.51923076923077,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "adaptive_localization": 1252.8588109940642,
+        "control": 0.0,
+        "near": 5.096153846153846,
+        "optical": 688.3804423630775,
+        "search": 2178.6153846153848
+      },
+      "mean_per_cleared": 319.1220288213871,
+      "wall_p95": 0.07410338120062077,
+      "clear_failure_mean": 0.0,
+      "mean_change_pct": 7.712374129915078,
+      "significant": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "case_id": "dev_0_spatial_hash",
+    "rounding": "bounded",
+    "status": "complete",
+    "virtual_time_s": 3099.092357,
+    "total": 16,
+    "cleared": 16,
+    "self_port": 35709,
+    "official_runs": 0,
+    "audited_actions": 92,
+    "events": {
+      "belief_route": 20,
+      "schedule": 20,
+      "feasible_update": 49,
+      "certified_measure": 36,
+      "information_gate_skip": 5,
+      "certified_clear": 13,
+      "strategy_result": 1
+    }
+  },
+  {
+    "case_id": "clustered_16",
+    "rounding": "bounded",
+    "status": "complete",
+    "virtual_time_s": 709.489641,
+    "total": 16,
+    "cleared": 16,
+    "self_port": 37609,
+    "official_runs": 0,
+    "audited_actions": 68,
+    "events": {
+      "belief_route": 18,
+      "schedule": 18,
+      "feasible_update": 32,
+      "certified_measure": 16,
+      "certified_clear": 16,
+      "strategy_result": 1
+    }
+  }
+]

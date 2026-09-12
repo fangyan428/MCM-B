@@ -1,0 +1,5096 @@
+{
+  "rows": [
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1339800429996103,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3619.753087,
+        "components": {
+          "movement_s": 3154.753088724362,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 69.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 716.0623040554996,
+          "localization": 1117.0058893114565,
+          "localization_shared": 42.0,
+          "optical": 1744.6848953574065
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 23,
+          "clear_success": 16,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 84,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3619.753087
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026443299997481517,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28730.541688,
+        "components": {
+          "movement_s": 26955.541688551002,
+          "switch_s": 55.0,
+          "detection_s": 1640.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 473.6023107429798,
+          "reception_range": 24055.770474790657,
+          "bracket_optical": 4201.168903017358
+        },
+        "counts": {
+          "measure": 328,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 344,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28730.541688
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.017321080005785916,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20465.372748,
+        "components": {
+          "movement_s": 18879.372745331384,
+          "switch_s": 98.0,
+          "detection_s": 1430.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1572.983023495278,
+          "reception_range": 16133.666750822213,
+          "bracket_optical": 2758.7229710138945
+        },
+        "counts": {
+          "measure": 286,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 298,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20465.372748
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0785279609990539,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3754.84244,
+        "components": {
+          "movement_s": 3100.842442346866,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 57.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.0122761101977,
+          "localization": 880.9632560128709,
+          "localization_shared": 24.0,
+          "optical": 1515.8669102237973
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 19,
+          "clear_success": 11,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3754.84244
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.16475352799898246,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3654.881717,
+        "components": {
+          "movement_s": 3092.881712612688,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 884.2390209936518,
+          "localization": 739.4338119341934,
+          "localization_shared": 42.0,
+          "optical": 1989.208879684842
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 102,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3654.881717
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.03005076400586404,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 29762.566691,
+        "components": {
+          "movement_s": 27735.5666884908,
+          "switch_s": 96.0,
+          "detection_s": 1845.0,
+          "optical_s": 54.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1202.9922621417934,
+          "reception_range": 24342.46763003431,
+          "bracket_optical": 4217.106796314701
+        },
+        "counts": {
+          "measure": 369,
+          "clear": 18,
+          "clear_success": 16,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 387,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 29762.566691
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.020056461995409336,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20134.533205,
+        "components": {
+          "movement_s": 18491.533202015326,
+          "switch_s": 107.0,
+          "detection_s": 1475.0,
+          "optical_s": 39.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1327.64462226703,
+          "reception_range": 15858.37077522242,
+          "bracket_optical": 2948.5178045258717
+        },
+        "counts": {
+          "measure": 295,
+          "clear": 13,
+          "clear_success": 11,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 308,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20134.533205
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1412146570000914,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3953.406879,
+        "components": {
+          "movement_s": 3212.4068751155714,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.5438921334955,
+          "localization": 1475.470104249881,
+          "localization_shared": 12.0,
+          "optical": 1131.3928787321947
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3953.406879
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07694470900605666,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3988.187975,
+        "components": {
+          "movement_s": 3319.1879699994897,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1664.6590594570746,
+          "localization": 879.8387415206682,
+          "localization_shared": 18.0,
+          "optical": 1425.6901690217462
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3988.187975
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_4_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01835329399909824,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 21097.778537,
+        "components": {
+          "movement_s": 19526.778536825044,
+          "switch_s": 95.0,
+          "detection_s": 1415.0,
+          "optical_s": 39.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1535.098900322264,
+          "reception_range": 16554.47412469488,
+          "bracket_optical": 3008.2055118078993
+        },
+        "counts": {
+          "measure": 283,
+          "clear": 13,
+          "clear_success": 11,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 296,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21097.778537
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02247024799726205,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 26413.393693,
+        "components": {
+          "movement_s": 24581.393695629085,
+          "switch_s": 94.0,
+          "detection_s": 1665.0,
+          "optical_s": 45.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1790.0541806569643,
+          "reception_range": 21079.02167570388,
+          "bracket_optical": 3544.3178392682457
+        },
+        "counts": {
+          "measure": 333,
+          "clear": 15,
+          "clear_success": 14,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 348,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 26413.393693
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.21330063599452842,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3839.956457,
+        "components": {
+          "movement_s": 3179.9564531476303,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1644.4341071779822,
+          "localization": 716.0937355110999,
+          "optical": 1455.4286104585487,
+          "localization_shared": 24.0
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 10,
+        "localization": 14,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3839.956457
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13807176800037269,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4358.238787,
+        "components": {
+          "movement_s": 3874.2387890295163,
+          "switch_s": 62.0,
+          "detection_s": 315.0,
+          "optical_s": 75.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 830.8075961814855,
+          "localization": 1840.7334114516223,
+          "optical": 1668.6977813964077,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 63,
+          "clear": 25,
+          "clear_success": 16,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 88,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 13,
+        "localization": 16,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4358.238787
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_6_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.029833884997060522,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28880.182371,
+        "components": {
+          "movement_s": 27063.182370994935,
+          "switch_s": 62.0,
+          "detection_s": 1675.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 845.0201016068878,
+          "reception_range": 23791.19939199476,
+          "bracket_optical": 4243.96287739329
+        },
+        "counts": {
+          "measure": 335,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 351,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28880.182371
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019250293997174595,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 21758.95371,
+        "components": {
+          "movement_s": 20046.953709407193,
+          "switch_s": 104.0,
+          "detection_s": 1545.0,
+          "optical_s": 39.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1446.3812054149946,
+          "reception_range": 17351.584629299337,
+          "bracket_optical": 2960.9878746928653
+        },
+        "counts": {
+          "measure": 309,
+          "clear": 13,
+          "clear_success": 12,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 322,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "range_bracket": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21758.95371
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10282641199592035,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4181.190224,
+        "components": {
+          "movement_s": 3483.190222040535,
+          "switch_s": 104.0,
+          "detection_s": 525.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1495.5313571893184,
+          "localization": 1522.9264896720017,
+          "localization_shared": 12.0,
+          "optical": 1150.7323751792148
+        },
+        "counts": {
+          "measure": 105,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 120,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 10,
+        "localization": 12,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4181.190224
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07548281500203302,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3772.149177,
+        "components": {
+          "movement_s": 3151.149175635104,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1450.1381817369893,
+          "localization": 610.8779464584608,
+          "localization_shared": 24.0,
+          "optical": 1687.1330474396536
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 106,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3772.149177
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_8_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0318796579958871,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 19988.603596,
+        "components": {
+          "movement_s": 18435.60359515761,
+          "switch_s": 93.0,
+          "detection_s": 1405.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1237.409071063346,
+          "reception_range": 15968.28223295562,
+          "bracket_optical": 2782.912291138642
+        },
+        "counts": {
+          "measure": 281,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 292,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 19988.603596
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.021860028005903587,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23675.857441,
+        "components": {
+          "movement_s": 21882.857438749674,
+          "switch_s": 103.0,
+          "detection_s": 1625.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1149.9990684305524,
+          "reception_range": 19468.613040010463,
+          "bracket_optical": 3057.2453303086645
+        },
+        "counts": {
+          "measure": 325,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 338,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23675.857441
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12865839000005508,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3922.14265,
+        "components": {
+          "movement_s": 3222.1426494960187,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1148.558326552506,
+          "localization": 1314.1080445345203,
+          "optical": 1453.4762784089917,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 13,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.14265
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07978141099738423,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3958.257349,
+        "components": {
+          "movement_s": 3346.2573535552588,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 75.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 919.98117151579,
+          "localization": 922.6265802922833,
+          "localization_shared": 36.0,
+          "optical": 2079.6496017471854
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 25,
+          "clear_success": 14,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 110,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3958.257349
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_10_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02532695700210752,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25558.848051,
+        "components": {
+          "movement_s": 23786.84805030848,
+          "switch_s": 84.0,
+          "detection_s": 1615.0,
+          "optical_s": 45.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 916.0783445762081,
+          "reception_range": 20948.9302404011,
+          "bracket_optical": 3693.8394653311716
+        },
+        "counts": {
+          "measure": 323,
+          "clear": 15,
+          "clear_success": 14,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 338,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25558.848051
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0243877090033493,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23480.884796,
+        "components": {
+          "movement_s": 21747.884798136845,
+          "switch_s": 92.0,
+          "detection_s": 1570.0,
+          "optical_s": 45.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1139.0327019136444,
+          "reception_range": 19140.84238691927,
+          "bracket_optical": 3201.009709303941
+        },
+        "counts": {
+          "measure": 314,
+          "clear": 15,
+          "clear_success": 13,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 329,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23480.884796
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13011859999824082,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3490.939214,
+        "components": {
+          "movement_s": 2836.939213609192,
+          "switch_s": 92.0,
+          "detection_s": 470.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1098.8084009738375,
+          "localization": 932.5833534262059,
+          "optical": 1441.5474592091477,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3490.939214
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1324829930017586,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3612.352979,
+        "components": {
+          "movement_s": 3123.3529769811944,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 93.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 719.8995312539206,
+          "localization": 1053.7375187840896,
+          "localization_shared": 54.0,
+          "optical": 1784.715926943184
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 31,
+          "clear_success": 16,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 92,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3612.352979
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_0_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.028223704000993166,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28837.351527,
+        "components": {
+          "movement_s": 27059.351525736616,
+          "switch_s": 55.0,
+          "detection_s": 1640.0,
+          "optical_s": 51.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 470.35670686698495,
+          "reception_range": 24159.831423626292,
+          "bracket_optical": 4207.163395243336
+        },
+        "counts": {
+          "measure": 328,
+          "clear": 17,
+          "clear_success": 16,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 345,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28837.351527
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0245166720051202,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20752.894567,
+        "components": {
+          "movement_s": 19163.89455597441,
+          "switch_s": 98.0,
+          "detection_s": 1430.0,
+          "optical_s": 39.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1742.1259891525633,
+          "reception_range": 16246.002078864927,
+          "bracket_optical": 2764.7664879569284
+        },
+        "counts": {
+          "measure": 286,
+          "clear": 13,
+          "clear_success": 11,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 299,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20752.894567
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09121136699832277,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3642.040927,
+        "components": {
+          "movement_s": 2982.040927194144,
+          "switch_s": 94.0,
+          "detection_s": 475.0,
+          "optical_s": 69.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1658.3458103379432,
+          "localization": 598.247472138188,
+          "localization_shared": 24.0,
+          "optical": 1361.4476447180132
+        },
+        "counts": {
+          "measure": 95,
+          "clear": 23,
+          "clear_success": 11,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 118,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3642.040927
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10361407500022324,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3566.606217,
+        "components": {
+          "movement_s": 2828.606215799395,
+          "switch_s": 105.0,
+          "detection_s": 535.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1283.9713615394187,
+          "localization": 837.1991648316863,
+          "localization_shared": 54.0,
+          "optical": 1391.4356894282896
+        },
+        "counts": {
+          "measure": 107,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 7,
+        "localization": 16,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "certified_clear_skip": 1,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3566.606217
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_2_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02472459399723448,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 29361.152534,
+        "components": {
+          "movement_s": 27380.15253101771,
+          "switch_s": 88.0,
+          "detection_s": 1810.0,
+          "optical_s": 51.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1263.3336799429644,
+          "reception_range": 23889.96557353602,
+          "bracket_optical": 4207.853277538729
+        },
+        "counts": {
+          "measure": 362,
+          "clear": 17,
+          "clear_success": 16,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 379,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 29361.152534
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01782986800390063,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20145.497269,
+        "components": {
+          "movement_s": 18502.49726366453,
+          "switch_s": 107.0,
+          "detection_s": 1475.0,
+          "optical_s": 39.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.763319859769,
+          "reception_range": 15860.151815083427,
+          "bracket_optical": 2947.582128721332
+        },
+        "counts": {
+          "measure": 295,
+          "clear": 13,
+          "clear_success": 11,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 308,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20145.497269
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11782868499722099,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3922.025852,
+        "components": {
+          "movement_s": 3187.0258541771545,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 66.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.7186852449875,
+          "localization": 1473.2376139505914,
+          "localization_shared": 12.0,
+          "optical": 1102.0695549815748
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 22,
+          "clear_success": 11,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 130,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3922.025852
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06109616100002313,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3744.604509,
+        "components": {
+          "movement_s": 3093.604509158421,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1463.376507278927,
+          "localization": 1064.0565106473966,
+          "localization_shared": 18.0,
+          "optical": 1199.1714912320965
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3744.604509
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_4_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.017582813001354225,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 21194.357727,
+        "components": {
+          "movement_s": 19626.35772350911,
+          "switch_s": 95.0,
+          "detection_s": 1415.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1666.6229091343182,
+          "reception_range": 16527.99940731071,
+          "bracket_optical": 2999.7354070640818
+        },
+        "counts": {
+          "measure": 283,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 295,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21194.357727
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02194587000121828,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25754.287208,
+        "components": {
+          "movement_s": 23940.28720412461,
+          "switch_s": 91.0,
+          "detection_s": 1650.0,
+          "optical_s": 45.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1752.8429355386002,
+          "reception_range": 20455.617969858402,
+          "bracket_optical": 3545.826298727606
+        },
+        "counts": {
+          "measure": 330,
+          "clear": 15,
+          "clear_success": 14,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 345,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25754.287208
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1344233269992401,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4325.368598,
+        "components": {
+          "movement_s": 3683.368598523073,
+          "switch_s": 91.0,
+          "detection_s": 460.0,
+          "optical_s": 63.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1615.6035697920784,
+          "localization": 903.6717356089168,
+          "optical": 1788.0932931220782,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 92,
+          "clear": 21,
+          "clear_success": 14,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4325.368598
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11869448500510771,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4357.726436,
+        "components": {
+          "movement_s": 3793.7264319574065,
+          "switch_s": 71.0,
+          "detection_s": 365.0,
+          "optical_s": 96.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1312.3164822334306,
+          "localization": 1060.1836396264546,
+          "localization_shared": 30.0,
+          "optical": 1955.2263100975213
+        },
+        "counts": {
+          "measure": 73,
+          "clear": 32,
+          "clear_success": 16,
+          "clear_failure": 16,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 105,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 11,
+        "localization": 16,
+        "shared_cache_store": 5,
+        "shared_cache_use": 5,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4357.726436
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_6_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02353185699757887,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 29049.640692,
+        "components": {
+          "movement_s": 27102.640686589275,
+          "switch_s": 81.0,
+          "detection_s": 1780.0,
+          "optical_s": 54.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1207.3703772086515,
+          "reception_range": 23584.838527181975,
+          "bracket_optical": 4257.431782198653
+        },
+        "counts": {
+          "measure": 356,
+          "clear": 18,
+          "clear_success": 16,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 374,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 29049.640692
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01980087099946104,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 21690.100634,
+        "components": {
+          "movement_s": 20011.100630326782,
+          "switch_s": 98.0,
+          "detection_s": 1515.0,
+          "optical_s": 42.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1236.8066052250208,
+          "reception_range": 17486.365454982846,
+          "bracket_optical": 2966.9285701189165
+        },
+        "counts": {
+          "measure": 303,
+          "clear": 14,
+          "clear_success": 12,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 317,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "range_bracket": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21690.100634
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07794999200268649,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4056.28297,
+        "components": {
+          "movement_s": 3358.282968910059,
+          "switch_s": 103.0,
+          "detection_s": 520.0,
+          "optical_s": 51.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1546.9992867212138,
+          "localization": 1013.5795329572234,
+          "localization_shared": 18.0,
+          "optical": 1477.7041492316232
+        },
+        "counts": {
+          "measure": 104,
+          "clear": 17,
+          "clear_success": 12,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 9,
+        "localization": 12,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4056.28297
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06342194200260565,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4086.73078,
+        "components": {
+          "movement_s": 3411.7307828205776,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 90.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1499.3070641815034,
+          "localization": 1030.8271852067883,
+          "optical": 1538.596533432286,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 30,
+          "clear_success": 11,
+          "clear_failure": 19,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 124,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4086.73078
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_8_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01778170699981274,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20126.040972,
+        "components": {
+          "movement_s": 18525.040964805998,
+          "switch_s": 100.0,
+          "detection_s": 1440.0,
+          "optical_s": 39.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1277.9554200564532,
+          "reception_range": 16051.379057605907,
+          "bracket_optical": 2796.7064871436337
+        },
+        "counts": {
+          "measure": 288,
+          "clear": 13,
+          "clear_success": 11,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 301,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20126.040972
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.022226599001442082,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23742.322299,
+        "components": {
+          "movement_s": 21937.322296394515,
+          "switch_s": 105.0,
+          "detection_s": 1635.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1529.9036739552841,
+          "reception_range": 19155.184810960363,
+          "bracket_optical": 3057.2338114788713
+        },
+        "counts": {
+          "measure": 327,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 340,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23742.322299
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10603242900106125,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4071.728078,
+        "components": {
+          "movement_s": 3365.728080598245,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1531.733793838006,
+          "localization": 1183.194164278922,
+          "optical": 1350.800122481317,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 13,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 12,
+        "localization": 13,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4071.728078
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06464737000351306,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 3957.013278,
+        "components": {
+          "movement_s": 3327.013275750078,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 93.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 913.0290029961882,
+          "localization": 918.1787097841257,
+          "localization_shared": 36.0,
+          "optical": 2089.805562969764
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 31,
+          "clear_success": 14,
+          "clear_failure": 17,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 116,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3957.013278
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_10_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02358774300228106,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25581.730127,
+        "components": {
+          "movement_s": 23800.730126230457,
+          "switch_s": 84.0,
+          "detection_s": 1615.0,
+          "optical_s": 54.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 911.7268715199444,
+          "reception_range": 20955.70947226644,
+          "bracket_optical": 3714.2937824440723
+        },
+        "counts": {
+          "measure": 323,
+          "clear": 18,
+          "clear_success": 14,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 341,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25581.730127
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02013352700305404,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23552.273905,
+        "components": {
+          "movement_s": 21787.273902525754,
+          "switch_s": 96.0,
+          "detection_s": 1595.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1292.6830863755504,
+          "reception_range": 19052.829520556657,
+          "bracket_optical": 3206.761295593554
+        },
+        "counts": {
+          "measure": 319,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 335,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23552.273905
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_smooth",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09899646800477058,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3902.782462,
+        "components": {
+          "movement_s": 3224.782461276349,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 60.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1327.9446549110194,
+          "localization": 1198.5994144766053,
+          "localization_shared": 18.0,
+          "optical": 1358.2383918887251
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 20,
+          "clear_success": 13,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 119,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3902.782462
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10848002800048562,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3194.200465,
+        "components": {
+          "movement_s": 2755.200463881036,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 60.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 420.4181564779554,
+          "localization": 1101.060368659563,
+          "localization_shared": 42.0,
+          "optical": 1630.7219387435164
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 20,
+          "clear_success": 16,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 78,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3194.200465
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_0_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026526808003836777,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28726.076425,
+        "components": {
+          "movement_s": 26951.076419491656,
+          "switch_s": 55.0,
+          "detection_s": 1640.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 474.6915664577632,
+          "reception_range": 24051.3882553179,
+          "bracket_optical": 4199.996597715994
+        },
+        "counts": {
+          "measure": 328,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 344,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28726.076425
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.020354353000584524,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20239.234832,
+        "components": {
+          "movement_s": 18656.234830860943,
+          "switch_s": 98.0,
+          "detection_s": 1430.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1324.9872450388568,
+          "reception_range": 16163.593715635778,
+          "bracket_optical": 2750.6538701863087
+        },
+        "counts": {
+          "measure": 286,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 297,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20239.234832
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07434819899935974,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3409.799445,
+        "components": {
+          "movement_s": 2755.7994455375742,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.4033546082337,
+          "localization": 832.0104907787954,
+          "localization_shared": 24.0,
+          "optical": 1216.3856001505446
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 113,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3409.799445
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12804052600404248,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3641.384557,
+        "components": {
+          "movement_s": 3005.3845582279237,
+          "switch_s": 88.0,
+          "detection_s": 450.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1051.6887942573974,
+          "localization": 907.148537104162,
+          "localization_shared": 36.0,
+          "optical": 1646.547226866365
+        },
+        "counts": {
+          "measure": 90,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 112,
+      "event_counts": {
+        "schedule": 22,
+        "second_point_after_schedule": 10,
+        "localization": 16,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3641.384557
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_2_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026288828994438518,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 29357.714828,
+        "components": {
+          "movement_s": 27379.7148295709,
+          "switch_s": 88.0,
+          "detection_s": 1810.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1262.2201325300427,
+          "reception_range": 23895.51481458072,
+          "bracket_optical": 4199.979882460139
+        },
+        "counts": {
+          "measure": 362,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 378,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 29357.714828
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019184840995876584,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20143.910473,
+        "components": {
+          "movement_s": 18506.91047014993,
+          "switch_s": 107.0,
+          "detection_s": 1475.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1346.4400346040468,
+          "reception_range": 15863.928949533281,
+          "bracket_optical": 2933.5414860126
+        },
+        "counts": {
+          "measure": 295,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 306,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20143.910473
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12184968700603349,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3873.392455,
+        "components": {
+          "movement_s": 3162.39245303127,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1347.1315047886903,
+          "localization": 1461.3386189488315,
+          "localization_shared": 12.0,
+          "optical": 1052.9223292937484
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3873.392455
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06256684099935228,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3555.526603,
+        "components": {
+          "movement_s": 2910.5266024542225,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 48.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1472.532363989459,
+          "localization": 716.8462672611835,
+          "optical": 1348.1479712035796,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 16,
+          "clear_success": 11,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 112,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "certified_clear_skip": 1,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3555.526603
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_4_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.018196838995208964,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 21035.075688,
+        "components": {
+          "movement_s": 19470.075683077146,
+          "switch_s": 95.0,
+          "detection_s": 1415.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1475.1110052182048,
+          "reception_range": 16567.239309997523,
+          "bracket_optical": 2992.7253678614147
+        },
+        "counts": {
+          "measure": 283,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 294,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21035.075688
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.024633752000227105,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25728.84301,
+        "components": {
+          "movement_s": 23893.84300818033,
+          "switch_s": 95.0,
+          "detection_s": 1670.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1552.6175456255305,
+          "reception_range": 20636.87453114155,
+          "bracket_optical": 3539.3509314132475
+        },
+        "counts": {
+          "measure": 334,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 348,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25728.84301
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12436525399971288,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4010.073959,
+        "components": {
+          "movement_s": 3383.0739595081577,
+          "switch_s": 90.0,
+          "detection_s": 455.0,
+          "optical_s": 54.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1280.6250783538883,
+          "localization": 1170.9170615332232,
+          "localization_shared": 18.0,
+          "optical": 1540.5318196210465
+        },
+        "counts": {
+          "measure": 91,
+          "clear": 18,
+          "clear_success": 14,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 109,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 11,
+        "localization": 14,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4010.073959
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10786194400134264,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4495.308545,
+        "components": {
+          "movement_s": 3895.308543157761,
+          "switch_s": 81.0,
+          "detection_s": 415.0,
+          "optical_s": 72.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1270.050189050488,
+          "localization": 1229.486184592602,
+          "optical": 1965.772169514672,
+          "localization_shared": 30.0
+        },
+        "counts": {
+          "measure": 83,
+          "clear": 24,
+          "clear_success": 16,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 107,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 11,
+        "localization": 16,
+        "shared_cache_store": 5,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 5,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4495.308545
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_6_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02457818699622294,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28896.722193,
+        "components": {
+          "movement_s": 26996.722187353862,
+          "switch_s": 75.0,
+          "detection_s": 1745.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1026.3317401525576,
+          "reception_range": 23624.674518901582,
+          "bracket_optical": 4245.715928299723
+        },
+        "counts": {
+          "measure": 349,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 365,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28896.722193
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01964624900574563,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 21575.793278,
+        "components": {
+          "movement_s": 19914.793272511215,
+          "switch_s": 96.0,
+          "detection_s": 1505.0,
+          "optical_s": 36.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1393.465676722496,
+          "reception_range": 17229.15176813098,
+          "bracket_optical": 2953.175827657736
+        },
+        "counts": {
+          "measure": 301,
+          "clear": 12,
+          "clear_success": 12,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 313,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "range_bracket": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21575.793278
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0899152950005373,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4124.424206,
+        "components": {
+          "movement_s": 3474.424203327006,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 45.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1440.7215789319748,
+          "localization": 1502.4427455382422,
+          "optical": 1175.25987885679,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 15,
+          "clear_success": 12,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 112,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 11,
+        "localization": 12,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4124.424206
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.051354183997318614,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3794.266578,
+        "components": {
+          "movement_s": 3158.2665776537183,
+          "switch_s": 93.0,
+          "detection_s": 470.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1445.8890655577432,
+          "localization": 609.3225012898666,
+          "localization_shared": 24.0,
+          "optical": 1715.055010806108
+        },
+        "counts": {
+          "measure": 94,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 111,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3794.266578
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_8_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.018000721000134945,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20221.321853,
+        "components": {
+          "movement_s": 18644.321854310852,
+          "switch_s": 97.0,
+          "detection_s": 1425.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1317.223119911792,
+          "reception_range": 16121.1855010681,
+          "bracket_optical": 2782.9132333309626
+        },
+        "counts": {
+          "measure": 285,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 296,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20221.321853
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.022330995998345315,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23513.541883,
+        "components": {
+          "movement_s": 21708.541879534914,
+          "switch_s": 105.0,
+          "detection_s": 1635.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1537.3076469317152,
+          "reception_range": 18919.000421124336,
+          "bracket_optical": 3057.2338114788718
+        },
+        "counts": {
+          "measure": 327,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 340,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23513.541883
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07125140599964652,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4292.735239,
+        "components": {
+          "movement_s": 3586.7352374438356,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 45.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1610.5463127940588,
+          "localization": 1269.7307542115973,
+          "optical": 1394.4581704381792,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 15,
+          "clear_success": 13,
+          "clear_failure": 2,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 121,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 10,
+        "localization": 13,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4292.735239
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.06277822900301544,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4101.441063,
+        "components": {
+          "movement_s": 3552.4410649062206,
+          "switch_s": 76.0,
+          "detection_s": 385.0,
+          "optical_s": 60.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1035.319433939082,
+          "localization": 995.4662540095314,
+          "localization_shared": 36.0,
+          "optical": 2034.6553769576067
+        },
+        "counts": {
+          "measure": 77,
+          "clear": 20,
+          "clear_success": 14,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 97,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4101.441063
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_10_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.023878119005530607,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25829.181937,
+        "components": {
+          "movement_s": 24084.1819314385,
+          "switch_s": 80.0,
+          "detection_s": 1595.0,
+          "optical_s": 42.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1062.1002951337218,
+          "reception_range": 21081.16732167741,
+          "bracket_optical": 3685.914314627361
+        },
+        "counts": {
+          "measure": 319,
+          "clear": 14,
+          "clear_success": 14,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 333,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25829.181937
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02065311500336975,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23338.064736,
+        "components": {
+          "movement_s": 21581.064734216325,
+          "switch_s": 97.0,
+          "detection_s": 1595.0,
+          "optical_s": 39.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1145.8896388965038,
+          "reception_range": 19005.960656204457,
+          "bracket_optical": 3186.214439115369
+        },
+        "counts": {
+          "measure": 319,
+          "clear": 13,
+          "clear_success": 13,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 332,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23338.064736
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_positive",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.10626946399861481,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 3783.868107,
+        "components": {
+          "movement_s": 3117.8681063695876,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1150.2942335525931,
+          "localization": 804.2696804733226,
+          "localization_shared": 24.0,
+          "optical": 1805.3041923436724
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 13,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3783.868107
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09757606299535837,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3928.834117,
+        "components": {
+          "movement_s": 3411.8341161617814,
+          "switch_s": 57.0,
+          "detection_s": 290.0,
+          "optical_s": 138.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 405.64525939890905,
+          "localization": 1564.8960250752518,
+          "localization_shared": 42.0,
+          "optical": 1916.2928316876214
+        },
+        "counts": {
+          "measure": 58,
+          "clear": 46,
+          "clear_success": 16,
+          "clear_failure": 30,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 104,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 4,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3928.834117
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_0_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.026658946000679862,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28782.421878,
+        "components": {
+          "movement_s": 26980.421880548336,
+          "switch_s": 55.0,
+          "detection_s": 1640.0,
+          "optical_s": 75.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 473.5970710652107,
+          "reception_range": 24047.174008580114,
+          "bracket_optical": 4261.650800903005
+        },
+        "counts": {
+          "measure": 328,
+          "clear": 25,
+          "clear_success": 16,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 353,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28782.421878
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01853341399691999,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20628.75693,
+        "components": {
+          "movement_s": 19033.75692674609,
+          "switch_s": 98.0,
+          "detection_s": 1430.0,
+          "optical_s": 45.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1518.2830241680679,
+          "reception_range": 16332.838937205965,
+          "bracket_optical": 2777.63496537206
+        },
+        "counts": {
+          "measure": 286,
+          "clear": 15,
+          "clear_success": 11,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 301,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20628.75693
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0782497769978363,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4127.914108,
+        "components": {
+          "movement_s": 3413.914107014457,
+          "switch_s": 97.0,
+          "detection_s": 490.0,
+          "optical_s": 105.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1554.27241794493,
+          "localization": 1105.1650853128353,
+          "optical": 1450.4766037566917,
+          "localization_shared": 18.0
+        },
+        "counts": {
+          "measure": 98,
+          "clear": 35,
+          "clear_success": 11,
+          "clear_failure": 24,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 133,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "certified_clear_skip": 5,
+        "shared_cache_use": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4127.914108
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11715377300424734,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4312.539168,
+        "components": {
+          "movement_s": 3655.53916455079,
+          "switch_s": 80.0,
+          "detection_s": 410.0,
+          "optical_s": 135.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1223.398602591225,
+          "localization": 973.2241662634831,
+          "localization_shared": 42.0,
+          "optical": 2073.9163956960824
+        },
+        "counts": {
+          "measure": 82,
+          "clear": 45,
+          "clear_success": 16,
+          "clear_failure": 29,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 127,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "certified_clear_skip": 6,
+        "source_upper_bound_saturated": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4312.539168
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_2_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02631638100137934,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 29158.345763,
+        "components": {
+          "movement_s": 27233.34576004938,
+          "switch_s": 77.0,
+          "detection_s": 1750.0,
+          "optical_s": 66.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1023.6319014749339,
+          "reception_range": 23894.218767040384,
+          "bracket_optical": 4240.495091534061
+        },
+        "counts": {
+          "measure": 350,
+          "clear": 22,
+          "clear_success": 16,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 372,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 29158.345763
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.018055113003356382,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20155.157638,
+        "components": {
+          "movement_s": 18500.157633107723,
+          "switch_s": 107.0,
+          "detection_s": 1475.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1328.335856498248,
+          "reception_range": 15851.919241696347,
+          "bracket_optical": 2974.9025349131252
+        },
+        "counts": {
+          "measure": 295,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 312,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20155.157638
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.08098496700404212,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4034.31371,
+        "components": {
+          "movement_s": 3272.3137108501987,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 93.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1326.1665210028777,
+          "localization": 1489.6571851350166,
+          "localization_shared": 12.0,
+          "optical": 1206.490004712305
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 31,
+          "clear_success": 11,
+          "clear_failure": 20,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 139,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4034.31371
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.055490573999122716,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3757.329217,
+        "components": {
+          "movement_s": 3058.329210952914,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1466.9581856544082,
+          "localization": 976.8785691889261,
+          "localization_shared": 18.0,
+          "optical": 1295.4924561095804
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3757.329217
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_4_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.018295927002327517,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 21116.739487,
+        "components": {
+          "movement_s": 19542.739485456623,
+          "switch_s": 95.0,
+          "detection_s": 1415.0,
+          "optical_s": 42.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1641.1062478170793,
+          "reception_range": 16460.417686628967,
+          "bracket_optical": 3015.2155510105667
+        },
+        "counts": {
+          "measure": 283,
+          "clear": 14,
+          "clear_success": 11,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 297,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21116.739487
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02275531399936881,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 26019.976272,
+        "components": {
+          "movement_s": 24187.97626907647,
+          "switch_s": 92.0,
+          "detection_s": 1655.0,
+          "optical_s": 57.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1710.2219386597283,
+          "reception_range": 20738.09853749358,
+          "bracket_optical": 3571.655792923155
+        },
+        "counts": {
+          "measure": 331,
+          "clear": 19,
+          "clear_success": 14,
+          "clear_failure": 5,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 350,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 26019.976272
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_5_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.11507704200630542,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4290.327593,
+        "components": {
+          "movement_s": 3609.3275885317016,
+          "switch_s": 92.0,
+          "detection_s": 465.0,
+          "optical_s": 96.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1433.0805210032806,
+          "localization": 852.2021129443265,
+          "localization_shared": 24.0,
+          "optical": 1981.044954584094
+        },
+        "counts": {
+          "measure": 93,
+          "clear": 32,
+          "clear_success": 14,
+          "clear_failure": 18,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 125,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 10,
+        "localization": 14,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4290.327593
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1107789169982425,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4648.187392,
+        "components": {
+          "movement_s": 4000.187391458043,
+          "switch_s": 75.0,
+          "detection_s": 385.0,
+          "optical_s": 156.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 984.549726831825,
+          "localization": 1127.0801090108732,
+          "localization_shared": 42.0,
+          "optical": 2494.557555615344
+        },
+        "counts": {
+          "measure": 77,
+          "clear": 52,
+          "clear_success": 16,
+          "clear_failure": 36,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 129,
+      "event_counts": {
+        "schedule": 22,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4648.187392
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_6_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02518024100572802,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 28962.235675,
+        "components": {
+          "movement_s": 27053.235674829746,
+          "switch_s": 72.0,
+          "detection_s": 1730.0,
+          "optical_s": 75.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 947.7241633094352,
+          "reception_range": 23705.62805830073,
+          "bracket_optical": 4308.883453219584
+        },
+        "counts": {
+          "measure": 346,
+          "clear": 25,
+          "clear_success": 16,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 371,
+      "event_counts": {
+        "schedule": 22,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 28962.235675
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.020296242997574154,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 21611.849154,
+        "components": {
+          "movement_s": 19938.84915121062,
+          "switch_s": 96.0,
+          "detection_s": 1505.0,
+          "optical_s": 48.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1401.115575331482,
+          "reception_range": 17231.471200233394,
+          "bracket_optical": 2979.26237564574
+        },
+        "counts": {
+          "measure": 301,
+          "clear": 16,
+          "clear_success": 12,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 317,
+      "event_counts": {
+        "schedule": 19,
+        "feasible_update": 12,
+        "range_bracket": 12,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 21611.849154
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_7_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09385409300011816,
+      "total": 12,
+      "cleared": 12,
+      "metrics": {
+        "virtual_time_s": 4228.357971,
+        "components": {
+          "movement_s": 3542.357972124,
+          "switch_s": 96.0,
+          "detection_s": 485.0,
+          "optical_s": 81.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1449.1590750340094,
+          "localization": 1509.1482381871756,
+          "optical": 1264.0506589028153,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 27,
+          "clear_success": 12,
+          "clear_failure": 15,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 124,
+      "event_counts": {
+        "schedule": 19,
+        "second_point_after_schedule": 11,
+        "localization": 12,
+        "certified_clear_skip": 1,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4228.357971
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.0859202009960427,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3541.073186,
+        "components": {
+          "movement_s": 2824.073188169401,
+          "switch_s": 99.0,
+          "detection_s": 500.0,
+          "optical_s": 96.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1271.2707623779206,
+          "localization": 937.0509946113307,
+          "localization_shared": 18.0,
+          "optical": 1314.7514311801501
+        },
+        "counts": {
+          "measure": 100,
+          "clear": 32,
+          "clear_success": 11,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 8,
+        "localization": 11,
+        "shared_cache_store": 3,
+        "shared_cache_use": 3,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3541.073186
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_8_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019293845994980074,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20627.268865,
+        "components": {
+          "movement_s": 19020.26886296351,
+          "switch_s": 99.0,
+          "detection_s": 1435.0,
+          "optical_s": 51.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1410.8633995414489,
+          "reception_range": 16392.12820621523,
+          "bracket_optical": 2824.277257206826
+        },
+        "counts": {
+          "measure": 287,
+          "clear": 17,
+          "clear_success": 11,
+          "clear_failure": 6,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 304,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20627.268865
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.022855513001559302,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23775.345271,
+        "components": {
+          "movement_s": 21958.345267787143,
+          "switch_s": 105.0,
+          "detection_s": 1635.0,
+          "optical_s": 51.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1528.066398768284,
+          "reception_range": 19164.338949164816,
+          "bracket_optical": 3082.93991985404
+        },
+        "counts": {
+          "measure": 327,
+          "clear": 17,
+          "clear_success": 13,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 344,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23775.345271
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_9_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.1114297739986796,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4065.163046,
+        "components": {
+          "movement_s": 3338.163047068708,
+          "switch_s": 105.0,
+          "detection_s": 530.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1523.4527466002737,
+          "localization": 1054.1915171904066,
+          "localization_shared": 12.0,
+          "optical": 1475.5187832780275
+        },
+        "counts": {
+          "measure": 106,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 128,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 11,
+        "localization": 13,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4065.163046
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07649366899568122,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 4049.585085,
+        "components": {
+          "movement_s": 3389.5850875952037,
+          "switch_s": 84.0,
+          "detection_s": 425.0,
+          "optical_s": 123.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 913.4535572041283,
+          "localization": 926.2447910322547,
+          "localization_shared": 36.0,
+          "optical": 2173.886739358822
+        },
+        "counts": {
+          "measure": 85,
+          "clear": 41,
+          "clear_success": 14,
+          "clear_failure": 27,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 126,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 8,
+        "localization": 14,
+        "shared_cache_store": 6,
+        "certified_clear_skip": 2,
+        "shared_cache_use": 6,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4049.585085
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_10_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02325055700202938,
+      "total": 14,
+      "cleared": 14,
+      "metrics": {
+        "virtual_time_s": 25608.277034,
+        "components": {
+          "movement_s": 23812.27703079539,
+          "switch_s": 84.0,
+          "detection_s": 1615.0,
+          "optical_s": 69.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 911.8072141212524,
+          "reception_range": 20949.6244010794,
+          "bracket_optical": 3746.8454155947366
+        },
+        "counts": {
+          "measure": 323,
+          "clear": 23,
+          "clear_success": 14,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 346,
+      "event_counts": {
+        "schedule": 21,
+        "feasible_update": 14,
+        "range_bracket": 14,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 25608.277034
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.019880149004166014,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 23461.260662,
+        "components": {
+          "movement_s": 21672.26066123262,
+          "switch_s": 97.0,
+          "detection_s": 1600.0,
+          "optical_s": 66.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1318.3841397297917,
+          "reception_range": 18899.39659665057,
+          "bracket_optical": 3243.4799248522613
+        },
+        "counts": {
+          "measure": 320,
+          "clear": 22,
+          "clear_success": 13,
+          "clear_failure": 9,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 342,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 13,
+        "range_bracket": 13,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 23461.260662
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_11_negative",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.09569831600674661,
+      "total": 13,
+      "cleared": 13,
+      "metrics": {
+        "virtual_time_s": 4179.905398,
+        "components": {
+          "movement_s": 3480.905397659929,
+          "switch_s": 97.0,
+          "detection_s": 495.0,
+          "optical_s": 81.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1339.6042955282805,
+          "localization": 1514.050324858212,
+          "localization_shared": 24.0,
+          "optical": 1302.2507772734373
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 27,
+          "clear_success": 13,
+          "clear_failure": 14,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 126,
+      "event_counts": {
+        "schedule": 20,
+        "second_point_after_schedule": 9,
+        "localization": 13,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4179.905398
+    },
+    {
+      "variant": "BASE",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12841190399922198,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4845.719057,
+        "components": {
+          "movement_s": 4046.7190568672204,
+          "switch_s": 113.0,
+          "detection_s": 570.0,
+          "optical_s": 84.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2055.691231186015,
+          "localization": 636.703509059305,
+          "localization_shared": 42.0,
+          "optical": 2111.3243166219
+        },
+        "counts": {
+          "measure": 114,
+          "clear": 28,
+          "clear_success": 16,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 142,
+      "event_counts": {
+        "schedule": 23,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4845.719057
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "boundary_minR_16",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.024212568998336792,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 27772.63808,
+        "components": {
+          "movement_s": 25649.638081134806,
+          "switch_s": 113.0,
+          "detection_s": 1930.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 2053.0943391089904,
+          "reception_range": 22437.360014037753,
+          "bracket_optical": 3282.1837279880597
+        },
+        "counts": {
+          "measure": 386,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 402,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 27772.63808
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.018126807997759897,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 20246.433553,
+        "components": {
+          "movement_s": 18712.43354896878,
+          "switch_s": 89.0,
+          "detection_s": 1390.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1789.150345843786,
+          "reception_range": 16203.112890625,
+          "bracket_optical": 2254.1703125
+        },
+        "counts": {
+          "measure": 278,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 289,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 11,
+        "range_bracket": 11,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 20246.433553
+    },
+    {
+      "variant": "BASE",
+      "case_id": "late_channel20_after_ten",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.04937770099786576,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 2425.745978,
+        "components": {
+          "movement_s": 1823.7459772290306,
+          "switch_s": 89.0,
+          "detection_s": 455.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1786.9584621375511,
+          "localization": 254.0465031042657,
+          "localization_shared": 54.0,
+          "optical": 330.74101198721394
+        },
+        "counts": {
+          "measure": 91,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 103,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 2,
+        "localization": 11,
+        "shared_cache_store": 9,
+        "shared_cache_use": 9,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 2425.745978
+    },
+    {
+      "variant": "BASE",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07672101700154599,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 3280.039257,
+        "components": {
+          "movement_s": 2592.0392583528264,
+          "switch_s": 100.0,
+          "detection_s": 505.0,
+          "optical_s": 63.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1481.69049579917,
+          "near": 5.0,
+          "localization": 714.3984155222345,
+          "optical": 1072.9503470314212,
+          "localization_shared": 6.0
+        },
+        "counts": {
+          "measure": 101,
+          "clear": 21,
+          "clear_success": 10,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 122,
+      "event_counts": {
+        "schedule": 16,
+        "second_point_after_schedule": 8,
+        "localization": 9,
+        "shared_cache_store": 1,
+        "shared_cache_use": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3280.039257
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "near_at_origin",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.01544429599744035,
+      "total": 10,
+      "cleared": 10,
+      "metrics": {
+        "virtual_time_s": 17235.269672,
+        "components": {
+          "movement_s": 15806.269669786372,
+          "switch_s": 100.0,
+          "detection_s": 1270.0,
+          "optical_s": 39.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1483.3643449143954,
+          "near": 5.0,
+          "reception_range": 13345.32582741631,
+          "bracket_optical": 2401.5794974556648
+        },
+        "counts": {
+          "measure": 254,
+          "clear": 13,
+          "clear_success": 10,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 267,
+      "event_counts": {
+        "schedule": 16,
+        "feasible_update": 9,
+        "range_bracket": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 17235.269672
+    },
+    {
+      "variant": "RECEPTION_BRACKET",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02660723900044104,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 30658.149341,
+        "components": {
+          "movement_s": 28907.149340157022,
+          "switch_s": 51.0,
+          "detection_s": 1620.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "reception_range": 25337.72160578202,
+          "bracket_optical": 4880.427734374999
+        },
+        "counts": {
+          "measure": 324,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 340,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 16,
+        "range_bracket": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 30658.149341
+    },
+    {
+      "variant": "BASE",
+      "case_id": "clustered_16",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07080702900566394,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 735.54876,
+        "components": {
+          "movement_s": 344.54875868666585,
+          "switch_s": 51.0,
+          "detection_s": 260.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 440.0,
+          "localization": 82.61333333333332,
+          "localization_shared": 90.0,
+          "optical": 122.93542535333249
+        },
+        "counts": {
+          "measure": 52,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 68,
+      "event_counts": {
+        "schedule": 18,
+        "source_upper_bound_saturated": 1,
+        "second_point_after_schedule": 1,
+        "localization": 16,
+        "shared_cache_store": 15,
+        "shared_cache_use": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 735.54876
+    }
+  ],
+  "aggregates": {
+    "BASE": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 3855.119486673077,
+      "p95": 4419.920178099999,
+      "maximum": 4845.719057,
+      "worst_case": "boundary_minR_16",
+      "worst_paired_regression": [
+        0.0,
+        "near_at_origin"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 3855.119486673077,
+      "movement_detection_etc": {
+        "movement_s": 3209.8887168697984,
+        "switch_s": 90.13461538461539,
+        "detection_s": 456.9230769230769,
+        "optical_s": 71.82692307692308,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "control": 0.0,
+        "localization": 1030.8646994403155,
+        "localization_shared": 26.076923076923077,
+        "near": 0.09615384615384616,
+        "optical": 1524.1010679871206,
+        "search": 1273.9806417500547
+      },
+      "mean_per_cleared": 298.96621389060044,
+      "wall_p95": 0.1394860680502461,
+      "clear_failure_mean": 10.76923076923077,
+      "mean_change_pct": 0.0,
+      "significant": false
+    },
+    "RECEPTION_BRACKET": {
+      "runs": 52,
+      "complete": 52,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 24118.47639228846,
+      "p95": 29359.2617957,
+      "maximum": 30658.149341,
+      "worst_case": "clustered_16",
+      "worst_paired_regression": [
+        40.680648528317825,
+        "clustered_16"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 24118.47639228846,
+      "movement_detection_etc": {
+        "movement_s": 22380.13023605854,
+        "switch_s": 90.36538461538461,
+        "detection_s": 1575.7692307692307,
+        "optical_s": 45.86538461538461,
+        "laser_s": 26.346153846153847
+      },
+      "phase_means": {
+        "bracket_optical": 3378.140387381806,
+        "control": 0.0,
+        "near": 0.09615384615384616,
+        "reception_range": 19466.72217607975,
+        "search": 1273.5176725969889
+      },
+      "mean_per_cleared": 1832.5913317946715,
+      "wall_p95": 0.028948285449223468,
+      "clear_failure_mean": 2.1153846153846154,
+      "mean_change_pct": 525.6220196459442,
+      "significant": false
+    }
+  }
+}

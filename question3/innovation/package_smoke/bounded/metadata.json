@@ -1,0 +1,12 @@
+{
+  "stage": "self_package_reproduction",
+  "rounding": "bounded",
+  "distinct_layouts": 2,
+  "case_sha256": {
+    "dev_0_spatial_hash": "637032605d3a5478bc7c9594a9ea843b0c16ced8c89b4d646a70e2b213e5969a",
+    "dev_1_spatial_hash": "1d8a501462098b32cbb75ac265ff7d31a170f374b50b1631662163def6720287"
+  },
+  "official_runs": 0,
+  "formal_runs": 0,
+  "numeric_parameter_search_trials": 0
+}

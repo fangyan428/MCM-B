@@ -1,0 +1,189 @@
+{
+  "BASE": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3829.597875711538,
+    "p95": 4339.9296251,
+    "maximum": 5078.232525,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.0,
+      "near_at_origin"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3829.597875711538,
+    "movement_detection_etc": {
+      "movement_s": 3184.0017210846777,
+      "switch_s": 90.1923076923077,
+      "detection_s": 457.11538461538464,
+      "optical_s": 71.9423076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1008.9811544148023,
+      "localization_shared": 26.076923076923077,
+      "near": 0.09615384615384616,
+      "optical": 1502.1054822794451,
+      "search": 1292.3381613135073
+    },
+    "mean_per_cleared": 297.52566955817724,
+    "wall_p95": 0.16175289225102454,
+    "clear_failure_mean": 10.807692307692308,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "REFRESH": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 4159.668785403846,
+    "p95": 5031.0131535,
+    "maximum": 5540.435893,
+    "worst_case": "dev_6_spatial_hash",
+    "worst_paired_regression": [
+      0.9946543916839061,
+      "late_channel20_after_ten"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 4159.668785403846,
+    "movement_detection_etc": {
+      "movement_s": 3416.188016426447,
+      "switch_s": 90.3076923076923,
+      "detection_s": 587.3076923076923,
+      "optical_s": 39.51923076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "adaptive_localization": 2659.7351208333853,
+      "control": 0.0,
+      "near": 9.51923076923077,
+      "optical": 174.63265074005292,
+      "search": 1298.0125525453175,
+      "stationary_refinement": 17.76923076923077
+    },
+    "mean_per_cleared": 320.91300721617205,
+    "wall_p95": 0.026245360098619126,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 8.61894434884971,
+    "significant": false
+  },
+  "REFRESH_PARALLAX": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3996.8993466153847,
+    "p95": 4832.498241999999,
+    "maximum": 5178.073652,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      1.0497135300326343,
+      "late_channel20_after_ten"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3996.8993466153847,
+    "movement_detection_etc": {
+      "movement_s": 3317.918577433825,
+      "switch_s": 90.32692307692308,
+      "detection_s": 522.7884615384615,
+      "optical_s": 39.51923076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "adaptive_localization": 2437.748162477718,
+      "control": 0.0,
+      "near": 4.519230769230769,
+      "optical": 237.1712395440188,
+      "search": 1299.6914831043962,
+      "stationary_refinement": 17.76923076923077
+    },
+    "mean_per_cleared": 309.0156408564294,
+    "wall_p95": 0.026000279398795095,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 4.368643297118036,
+    "significant": false
+  },
+  "SHARED": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 4055.362669307692,
+    "p95": 4813.536347,
+    "maximum": 5412.984121,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.26310097971037316,
+      "dev_0_positive"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 4055.362669307692,
+    "movement_detection_etc": {
+      "movement_s": 3231.401130863239,
+      "switch_s": 114.0576923076923,
+      "detection_s": 644.0384615384615,
+      "optical_s": 39.51923076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "adaptive_localization": 2140.8028453197758,
+      "control": 0.0,
+      "multi_target_refinement": 109.38461538461539,
+      "near": 7.211538461538462,
+      "optical": 471.4440001647689,
+      "search": 1298.481208455617,
+      "stationary_refinement": 28.03846153846154
+    },
+    "mean_per_cleared": 312.7301943687122,
+    "wall_p95": 0.035274448951531645,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 5.895261093286641,
+    "significant": false
+  },
+  "SHARED_PARALLAX": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3895.495989673077,
+    "p95": 4641.01678095,
+    "maximum": 5266.887136,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.21124125607819777,
+      "dev_2_smooth"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3895.495989673077,
+    "movement_detection_etc": {
+      "movement_s": 3164.2459895692596,
+      "switch_s": 103.17307692307692,
+      "detection_s": 562.2115384615385,
+      "optical_s": 39.51923076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "adaptive_localization": 1979.7438213612868,
+      "control": 0.0,
+      "multi_target_refinement": 68.53846153846153,
+      "near": 3.6538461538461537,
+      "optical": 516.4924216453551,
+      "search": 1298.855900408772,
+      "stationary_refinement": 28.21153846153846
+    },
+    "mean_per_cleared": 300.7589884345887,
+    "wall_p95": 0.02457402620020729,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 1.7207580560738345,
+    "significant": false
+  }
+}

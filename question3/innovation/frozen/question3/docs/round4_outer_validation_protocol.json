@@ -1,0 +1,9 @@
+{
+  "purpose": "Supplement locked random holdout with branch-targeted unseen stress layouts before inspecting final random-holdout summaries. Uniform-area random layouts rarely exercise all-negative origin switching.",
+  "same_frozen_code_and_configs": "results/round4_lock.json; no strategy/config modifications",
+  "seeds": {"start": 30000, "stop_exclusive": 30020},
+  "generation": "10-16 unique channels, source radial distance uniform [1600,1800], receive radius uniform [1000,1500]. Alternating two families: independent full-circle angles, or angles within +/-0.06 rad around a random centre direction. Thus no source is receivable at the origin. Four same deterministic error fields per layout.",
+  "cases": "20 new layouts x 4 error fields = 80 configurations; same five locked variants in bounded and rounding batches",
+  "interpretation": "Targeted stress validation, report separately from the original 50-layout uniform-area holdout. No tuning/selection using either validation set; do not pool them as an estimate of the official distribution.",
+  "stop": "Finish these fixed validation batches, retain all failures and regressions; no new search after seeing outcomes."
+}

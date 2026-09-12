@@ -1,0 +1,42 @@
+{
+  "selected": "GATED_TOUR_MULTI_PARALLAX",
+  "replacement_gate_passed": true
+}
+bounded {
+  "base": 3323.5182303666666,
+  "candidate": 2982.184759572917,
+  "change": -10.270245177986947,
+  "p95": 3823.7151142499993,
+  "bootstrap": {
+    "layouts": 120,
+    "resamples": 20000,
+    "mean_change_pct_ci95": [
+      -11.348584084138022,
+      -9.138758633152179
+    ],
+    "p95_change_seconds_ci95": [
+      -789.2559745500007,
+      -534.0047547000004
+    ],
+    "bootstrap_fraction_mean_improvement_ge5": 1.0
+  }
+}
+pre_round_stress {
+  "base": 3319.486991266667,
+  "candidate": 2985.1889240291666,
+  "change": -10.07077503593219,
+  "p95": 3827.7323566499995,
+  "bootstrap": {
+    "layouts": 120,
+    "resamples": 20000,
+    "mean_change_pct_ci95": [
+      -11.152352809803467,
+      -8.950645885398067
+    ],
+    "p95_change_seconds_ci95": [
+      -794.4838380000006,
+      -531.2949466774983
+    ],
+    "bootstrap_fraction_mean_improvement_ge5": 1.0
+  }
+}

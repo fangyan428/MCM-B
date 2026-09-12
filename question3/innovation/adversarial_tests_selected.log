@@ -1,0 +1,15 @@
+test_certified_no_signal_never_reports_complete (__main__.Adversarial.test_certified_no_signal_never_reports_complete) ... ok
+test_complete_adversarial_families (__main__.Adversarial.test_complete_adversarial_families) ... ok
+test_coverage_certificate_independent (__main__.Adversarial.test_coverage_certificate_independent) ... ok
+test_deadline_never_reports_complete (__main__.Adversarial.test_deadline_never_reports_complete) ... ok
+test_extreme_bounded_geometry (__main__.Adversarial.test_extreme_bounded_geometry) ... ok
+test_information_gate_covers_outputs (__main__.Adversarial.test_information_gate_covers_outputs) ... ok
+test_policy_has_no_oracle_or_file_access (__main__.Adversarial.test_policy_has_no_oracle_or_file_access) ... ok
+test_rejected_clear_never_reports_complete (__main__.Adversarial.test_rejected_clear_never_reports_complete) ... ok
+test_same_point_error_is_fixed (__main__.Adversarial.test_same_point_error_is_fixed) ... ok
+test_wrap_and_near_boundary (__main__.Adversarial.test_wrap_and_near_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.953s
+
+OK

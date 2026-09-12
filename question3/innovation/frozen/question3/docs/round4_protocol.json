@@ -1,0 +1,16 @@
+{
+  "scope": "Problem 3 omnidirectional only; autonomous optimization; no official or formal execution",
+  "objective": "First complete clearance and certified stopping. Among successful candidates minimize all-case mean total virtual time, report paired median and ALL tail/regression metrics. Prior suggested 5%/10% levels remain diagnostic flags, not a proved guarantee.",
+  "mechanisms": {
+    "R": "Analytically certified six-station ring compression: test exactly 1125 and 1200 metres versus 1500. Minimum from outer boundary midpoint is 1800*cos(pi/6)-sqrt(1000^2-1800^2*sin(pi/6)^2). No further radius search.",
+    "G": "Rank certified shared channels by a paired proxy saving for completing the same secondary source after each possible primary optical endpoint. Compare direct approach plus shared optical proxy versus dedicated second point plus its optical proxy. Permit no-sharing. Maximum one per stop; no tuned threshold besides positive predicted saving.",
+    "controls": "AB and ABS remain unchanged. Do not revive O or add D in this round."
+  },
+  "development_variants": ["AB", "ABS", "ABR1125", "ABR1200", "ABSR1125", "ABSR1200", "ABSG", "ABSR1125G", "ABSR1200G"],
+  "development_cases": "Existing 52 development fixtures; bounded and pre_round_stress, identical paired layouts and deterministic error fields",
+  "budget": "One config per listed variant, two predeclared radii, one G implementation. No changes after inspecting full development outcomes.",
+  "selection_before_holdout": "Zero failure/timeout/false completion first; select lowest bounded development mean, with <=0.5% near ties favouring fewer new mechanisms. Retain AB and ABS and selected mechanism's meaningful ablations as locked controls. Max 5 validation variants.",
+  "holdout": {"seed_start": 20000, "seed_stop_exclusive": 20050, "error_modes": ["spatial_hash", "smooth", "positive", "negative"], "generate_only_after_code_and_config_lock": true, "batches": ["bounded", "pre_round_stress"]},
+  "adoption": "Only consider replacing the research recommendation if zero validation failures, positive mean and paired-median gains versus AB in both holdout batches, and no worse P95 in either batch. Always state worst relative regression and the prior 10% flag. Otherwise keep the previous verified candidate. Do not retune against heldout outcomes.",
+  "stop": "Complete this bounded development + ablation + genuinely unseen validation cycle and publish an evidence-based runnable recommendation, without asking for manual intervention. Formal testing remains prohibited without explicit authorization."
+}

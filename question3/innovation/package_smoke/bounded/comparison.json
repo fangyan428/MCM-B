@@ -1,0 +1,75 @@
+{
+  "BASE": {
+    "runs": 2,
+    "complete": 2,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3687.2977634999997,
+    "p95": 3748.0879723499997,
+    "maximum": 3754.84244,
+    "worst_case": "dev_1_spatial_hash",
+    "worst_paired_regression": [
+      0.0,
+      "dev_1_spatial_hash"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3687.2977634999997,
+    "movement_detection_etc": {
+      "movement_s": 3127.797765535614,
+      "switch_s": 77.0,
+      "detection_s": 392.5,
+      "optical_s": 63.0,
+      "laser_s": 27.0
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 998.9845726621637,
+      "localization_shared": 33.0,
+      "optical": 1630.2759027906018,
+      "search": 1025.0372900828486
+    },
+    "mean_per_cleared": 283.7919403323864,
+    "wall_p95": 0.13716428124462254,
+    "clear_failure_mean": 7.5,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "GATED_TOUR_MULTI_PARALLAX": {
+    "runs": 2,
+    "complete": 2,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3207.5269915,
+    "p95": 3305.11816255,
+    "maximum": 3315.961626,
+    "worst_case": "dev_1_spatial_hash",
+    "worst_paired_regression": [
+      -0.11688394946340286,
+      "dev_1_spatial_hash"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3207.5269915,
+    "movement_detection_etc": {
+      "movement_s": 2611.5269908899754,
+      "switch_s": 81.0,
+      "detection_s": 447.5,
+      "optical_s": 40.5,
+      "laser_s": 27.0
+    },
+    "phase_means": {
+      "adaptive_localization": 1809.1655446650277,
+      "control": 0.0,
+      "multi_target_refinement": 45.0,
+      "near": 12.5,
+      "optical": 416.9908320116011,
+      "search": 923.8706142133465
+    },
+    "mean_per_cleared": 247.57216461079543,
+    "wall_p95": 0.08031955640253727,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": -13.011446397119808,
+    "significant": true
+  }
+}

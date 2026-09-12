@@ -1,0 +1,37 @@
+{
+  "kind": "SELF_ROUND7_LEGAL_COUNT_PRIOR_PRE_EXPERIMENT",
+  "source_evidence": [
+    "question3/docs/题面_提取.txt:27",
+    "question3/docs/题面_提取.txt:65",
+    "question3/docs/附件2_提取.txt:25-27"
+  ],
+  "bound": 16,
+  "mechanisms": {
+    "U": "Terminate only on 16 distinct accepted successful clears, otherwise old flow. Action prefix => virtual time nonincrease under published model.",
+    "K": "When 16 channels observed, skip remaining discovery and clear all known ones; terminate only on 16 successful distinct clears. Count-certified absence, no fabricated station negatives. Time dominance not proven.",
+    "D": "Existing certified single-circle clearing."
+  },
+  "variants": [
+    "REF",
+    "D",
+    "U",
+    "DU",
+    "K",
+    "DK"
+  ],
+  "development": "Same 52 configs, both rounding modes; all known adverse layouts can be reused only as development.",
+  "selection": "Select lowest bounded development mean among configurations whose all-case means and p95 do not worsen REF in both rounding modes; require complete audited runs. All six go into fresh validation if a candidate qualifies, to preserve ablations.",
+  "validation": "Same mean/p95/full-clear gates in each new ordinary/outer rounding batch. No retuning or mode selection using hidden truth.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      70000,
+      70050
+    ],
+    "outer": [
+      80000,
+      80020
+    ]
+  },
+  "formal_runs": 0,
+  "official_runs": 0
+}

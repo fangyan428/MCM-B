@@ -1,0 +1,74 @@
+{
+  "BASE": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3829.597875711538,
+    "p95": 4339.9296251,
+    "maximum": 5078.232525,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.0,
+      "near_at_origin"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3829.597875711538,
+    "movement_detection_etc": {
+      "movement_s": 3184.0017210846777,
+      "switch_s": 90.1923076923077,
+      "detection_s": 457.11538461538464,
+      "optical_s": 71.9423076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1008.9811544148023,
+      "localization_shared": 26.076923076923077,
+      "near": 0.09615384615384616,
+      "optical": 1502.1054822794451,
+      "search": 1292.3381613135073
+    },
+    "mean_per_cleared": 297.52566955817724,
+    "wall_p95": 0.17688948109753252,
+    "clear_failure_mean": 10.807692307692308,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "STRIP": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 7448.266573173076,
+    "p95": 10316.29230125,
+    "maximum": 11875.710852,
+    "worst_case": "dev_10_negative",
+    "worst_paired_regression": [
+      3.5192317342546033,
+      "clustered_16"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 7448.266573173076,
+    "movement_detection_etc": {
+      "movement_s": 5420.651189414993,
+      "switch_s": 77.15384615384616,
+      "detection_s": 390.7692307692308,
+      "optical_s": 1533.3461538461538,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "near": 0.09615384615384616,
+      "search": 1299.8499257403578,
+      "single_bearing_sweep": 6148.320494443868
+    },
+    "mean_per_cleared": 567.5535570821755,
+    "wall_p95": 0.04772177520062541,
+    "clear_failure_mean": 497.9423076923077,
+    "mean_change_pct": 94.49213246153658,
+    "significant": false
+  }
+}

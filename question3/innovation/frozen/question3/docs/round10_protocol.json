@@ -1,0 +1,24 @@
+{
+  "kind": "SELF_ROUND10_PRE_DEVELOPMENT",
+  "reference": "round9_ZL",
+  "mechanism": "Only alter extra sharing after opportunistic current-point primary measurement: all vs one vs none. Retain ordinary-point sharing and all reception/clear/stop proofs.",
+  "variants": [
+    "REF",
+    "CS1",
+    "CS0"
+  ],
+  "budget": "Three structural ablations, no numeric sweep. Same52 development configurations, both rounding models. Prior failure cases reused as development.",
+  "selection": "Among new CS1/CS0, choose lowest bounded mean if complete/audited and means strictly lower and p95 <= REF in both development models. Lock before new ordinary/outer layouts if eligible; same gates per validation batch, no fallback promotion after validation.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      150000,
+      150050
+    ],
+    "outer": [
+      160000,
+      160020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

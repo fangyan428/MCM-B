@@ -1,0 +1,473 @@
+{
+  "rows": [
+    {
+      "variant": "BASE",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13865626500046346,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3619.753087,
+        "components": {
+          "movement_s": 3154.753088724362,
+          "switch_s": 59.0,
+          "detection_s": 305.0,
+          "optical_s": 69.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 716.0623040554996,
+          "localization": 1117.0058893114565,
+          "localization_shared": 42.0,
+          "optical": 1744.6848953574065
+        },
+        "counts": {
+          "measure": 61,
+          "clear": 23,
+          "clear_success": 16,
+          "clear_failure": 7,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 84,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3619.753087
+    },
+    {
+      "variant": "HOMING",
+      "case_id": "dev_0_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.023166027996921912,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4905.412844,
+        "components": {
+          "movement_s": 4275.412847052735,
+          "switch_s": 55.0,
+          "detection_s": 495.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 474.52087570547377,
+          "adaptive_localization": 4337.975678581609,
+          "near": 45.0,
+          "optical": 47.91629276565221
+        },
+        "counts": {
+          "measure": 99,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 20,
+        "feasible_update": 66,
+        "certified_measure": 59,
+        "certified_clear": 7,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4905.412844
+    },
+    {
+      "variant": "HOMING",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.015113275003386661,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4152.699264,
+        "components": {
+          "movement_s": 3339.6992614241412,
+          "switch_s": 98.0,
+          "detection_s": 660.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1571.8314131434247,
+          "adaptive_localization": 2510.2614478001733,
+          "near": 20.0,
+          "optical": 50.606400480542916
+        },
+        "counts": {
+          "measure": 132,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 143,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 51,
+        "certified_measure": 44,
+        "certified_clear": 7,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4152.699264
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_1_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.07768095999927027,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3754.84244,
+        "components": {
+          "movement_s": 3100.842442346866,
+          "switch_s": 95.0,
+          "detection_s": 480.0,
+          "optical_s": 57.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.0122761101977,
+          "localization": 880.9632560128709,
+          "localization_shared": 24.0,
+          "optical": 1515.8669102237973
+        },
+        "counts": {
+          "measure": 96,
+          "clear": 19,
+          "clear_success": 11,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 115,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 7,
+        "localization": 11,
+        "shared_cache_store": 4,
+        "shared_cache_use": 4,
+        "certified_clear_skip": 3,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3754.84244
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.13699368199741002,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 3654.881717,
+        "components": {
+          "movement_s": 3092.881712612688,
+          "switch_s": 74.0,
+          "detection_s": 375.0,
+          "optical_s": 81.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 884.2390209936518,
+          "localization": 739.4338119341934,
+          "localization_shared": 42.0,
+          "optical": 1989.208879684842
+        },
+        "counts": {
+          "measure": 75,
+          "clear": 27,
+          "clear_success": 16,
+          "clear_failure": 11,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 102,
+      "event_counts": {
+        "schedule": 21,
+        "second_point_after_schedule": 9,
+        "localization": 16,
+        "shared_cache_store": 7,
+        "certified_clear_skip": 1,
+        "shared_cache_use": 7,
+        "source_upper_bound_saturated": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3654.881717
+    },
+    {
+      "variant": "HOMING",
+      "case_id": "dev_2_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.02370087499730289,
+      "total": 16,
+      "cleared": 16,
+      "metrics": {
+        "virtual_time_s": 4913.728343,
+        "components": {
+          "movement_s": 4037.728346767834,
+          "switch_s": 96.0,
+          "detection_s": 700.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1204.918294741304,
+          "adaptive_localization": 3606.018976231396,
+          "optical": 67.79107579513447,
+          "near": 35.0
+        },
+        "counts": {
+          "measure": 140,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 156,
+      "event_counts": {
+        "schedule": 23,
+        "feasible_update": 68,
+        "certified_measure": 59,
+        "certified_clear": 9,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4913.728343
+    },
+    {
+      "variant": "HOMING",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.014886617995216511,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 4032.910257,
+        "components": {
+          "movement_s": 3185.9102565336484,
+          "switch_s": 107.0,
+          "detection_s": 685.0,
+          "optical_s": 33.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1337.8043944525127,
+          "adaptive_localization": 2623.397280670851,
+          "optical": 56.70858141028449,
+          "near": 15.0
+        },
+        "counts": {
+          "measure": 137,
+          "clear": 11,
+          "clear_success": 11,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 148,
+      "event_counts": {
+        "schedule": 18,
+        "feasible_update": 48,
+        "certified_measure": 40,
+        "certified_clear": 8,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4032.910257
+    },
+    {
+      "variant": "BASE",
+      "case_id": "dev_3_spatial_hash",
+      "stage": "development",
+      "rounding": "bounded",
+      "status": "complete",
+      "failure": null,
+      "elapsed_wall_s": 0.12273260299843969,
+      "total": 11,
+      "cleared": 11,
+      "metrics": {
+        "virtual_time_s": 3953.406879,
+        "components": {
+          "movement_s": 3212.4068751155714,
+          "switch_s": 107.0,
+          "detection_s": 540.0,
+          "optical_s": 72.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1334.5438921334955,
+          "localization": 1475.470104249881,
+          "localization_shared": 12.0,
+          "optical": 1131.3928787321947
+        },
+        "counts": {
+          "measure": 108,
+          "clear": 24,
+          "clear_success": 11,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "false_complete": false,
+      "timeout": false,
+      "success": true,
+      "audited_actions": 132,
+      "event_counts": {
+        "schedule": 18,
+        "second_point_after_schedule": 9,
+        "localization": 11,
+        "shared_cache_store": 2,
+        "shared_cache_use": 2,
+        "certified_clear_skip": 1,
+        "coverage_complete": 1,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3953.406879
+    }
+  ],
+  "aggregates": {
+    "BASE": {
+      "runs": 4,
+      "complete": 4,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 3745.72103075,
+      "p95": 3923.62221315,
+      "maximum": 3953.406879,
+      "worst_case": "dev_3_spatial_hash",
+      "worst_paired_regression": [
+        0.0,
+        "dev_3_spatial_hash"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 3745.72103075,
+      "movement_detection_etc": {
+        "movement_s": 3140.221029699872,
+        "switch_s": 83.75,
+        "detection_s": 425.0,
+        "optical_s": 69.75,
+        "laser_s": 27.0
+      },
+      "phase_means": {
+        "control": 0.0,
+        "localization": 1053.2182653771006,
+        "localization_shared": 30.0,
+        "optical": 1595.28839099956,
+        "search": 1067.214373323211
+      },
+      "mean_per_cleared": 288.8536533352273,
+      "wall_p95": 0.13840687755000544,
+      "clear_failure_mean": 9.75,
+      "mean_change_pct": 0.0,
+      "significant": false
+    },
+    "HOMING": {
+      "runs": 4,
+      "complete": 4,
+      "failed": 0,
+      "timeouts": 0,
+      "false_complete": 0,
+      "mean": 4501.187677,
+      "p95": 4912.48101815,
+      "maximum": 4913.728343,
+      "worst_case": "dev_2_spatial_hash",
+      "worst_paired_regression": [
+        0.35517885504879465,
+        "dev_0_spatial_hash"
+      ],
+      "clearance_ratio_mean": 1.0,
+      "raw_mean": 4501.187677,
+      "movement_detection_etc": {
+        "movement_s": 3709.6876779445897,
+        "switch_s": 89.0,
+        "detection_s": 635.0,
+        "optical_s": 40.5,
+        "laser_s": 27.0
+      },
+      "phase_means": {
+        "adaptive_localization": 3269.4133458210076,
+        "control": 0.0,
+        "near": 28.75,
+        "optical": 55.755587612903525,
+        "search": 1147.2687445106787
+      },
+      "mean_per_cleared": 339.4606610696023,
+      "wall_p95": 0.023620647947245742,
+      "clear_failure_mean": 0.0,
+      "mean_change_pct": 20.168791003069806,
+      "significant": false
+    }
+  }
+}

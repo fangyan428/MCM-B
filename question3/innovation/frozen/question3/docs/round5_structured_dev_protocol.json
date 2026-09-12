@@ -1,0 +1,28 @@
+{
+  "kind": "SELF_ROUND5_STRUCTURED_DEVELOPMENT_NOT_HOLDOUT",
+  "reason": "Challenge batch replacement of broad empty-origin fallback before selection",
+  "radii": [
+    1500.1,
+    1550,
+    1700
+  ],
+  "angles_deg": [
+    0,
+    30,
+    60,
+    137
+  ],
+  "reception_radii": [
+    1000,
+    1500
+  ],
+  "error_modes": [
+    "spatial_hash",
+    "smooth",
+    "positive",
+    "negative"
+  ],
+  "channel_count": 16,
+  "spread": "0.1m tangential spacing; not a random holdout",
+  "same_config_budget": true
+}

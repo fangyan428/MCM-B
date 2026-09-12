@@ -1,0 +1,75 @@
+{
+  "BASE": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3855.119486673077,
+    "p95": 4419.920178099999,
+    "maximum": 4845.719057,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.0,
+      "near_at_origin"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3855.119486673077,
+    "movement_detection_etc": {
+      "movement_s": 3209.8887168697984,
+      "switch_s": 90.13461538461539,
+      "detection_s": 456.9230769230769,
+      "optical_s": 71.82692307692308,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1030.8646994403155,
+      "localization_shared": 26.076923076923077,
+      "near": 0.09615384615384616,
+      "optical": 1524.1010679871206,
+      "search": 1273.9806417500547
+    },
+    "mean_per_cleared": 298.96621389060044,
+    "wall_p95": 0.13753161230306432,
+    "clear_failure_mean": 10.76923076923077,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "SURVEY": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 4125.012310596153,
+    "p95": 4412.0910224,
+    "maximum": 6103.431865,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      2.4737342157982836,
+      "clustered_16"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 4125.012310596153,
+    "movement_detection_etc": {
+      "movement_s": 3151.0123106912047,
+      "switch_s": 145.6346153846154,
+      "detection_s": 762.5,
+      "optical_s": 39.51923076923077,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "adaptive_localization": 1254.4524621184255,
+      "control": 0.0,
+      "near": 5.096153846153846,
+      "optical": 686.8483101112404,
+      "search": 2178.6153846153848
+    },
+    "mean_per_cleared": 319.12339671050995,
+    "wall_p95": 0.06998544495145323,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 7.0008938725785175,
+    "significant": false
+  }
+}

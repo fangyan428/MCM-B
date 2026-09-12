@@ -1,0 +1,74 @@
+{
+  "BASE": {
+    "runs": 4,
+    "complete": 4,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3745.72103075,
+    "p95": 3923.62221315,
+    "maximum": 3953.406879,
+    "worst_case": "dev_3_spatial_hash",
+    "worst_paired_regression": [
+      0.0,
+      "dev_3_spatial_hash"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3745.72103075,
+    "movement_detection_etc": {
+      "movement_s": 3140.221029699872,
+      "switch_s": 83.75,
+      "detection_s": 425.0,
+      "optical_s": 69.75,
+      "laser_s": 27.0
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1053.2182653771006,
+      "localization_shared": 30.0,
+      "optical": 1595.28839099956,
+      "search": 1067.214373323211
+    },
+    "mean_per_cleared": 288.8536533352273,
+    "wall_p95": 0.13840687755000544,
+    "clear_failure_mean": 9.75,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "HOMING": {
+    "runs": 4,
+    "complete": 4,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 4501.187677,
+    "p95": 4912.48101815,
+    "maximum": 4913.728343,
+    "worst_case": "dev_2_spatial_hash",
+    "worst_paired_regression": [
+      0.35517885504879465,
+      "dev_0_spatial_hash"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 4501.187677,
+    "movement_detection_etc": {
+      "movement_s": 3709.6876779445897,
+      "switch_s": 89.0,
+      "detection_s": 635.0,
+      "optical_s": 40.5,
+      "laser_s": 27.0
+    },
+    "phase_means": {
+      "adaptive_localization": 3269.4133458210076,
+      "control": 0.0,
+      "near": 28.75,
+      "optical": 55.755587612903525,
+      "search": 1147.2687445106787
+    },
+    "mean_per_cleared": 339.4606610696023,
+    "wall_p95": 0.023620647947245742,
+    "clear_failure_mean": 0.0,
+    "mean_change_pct": 20.168791003069806,
+    "significant": false
+  }
+}

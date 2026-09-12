@@ -1,0 +1,53 @@
+$ /home/fangyan/miniconda3/bin/python /tmp/q3-paper-export-_ifmck7u/innovation/validate.py
+test_certified_no_signal_never_reports_complete (innovation.test_adversarial.Adversarial.test_certified_no_signal_never_reports_complete) ... ok
+test_complete_adversarial_families (innovation.test_adversarial.Adversarial.test_complete_adversarial_families) ... ok
+test_coverage_certificate_independent (innovation.test_adversarial.Adversarial.test_coverage_certificate_independent) ... ok
+test_deadline_never_reports_complete (innovation.test_adversarial.Adversarial.test_deadline_never_reports_complete) ... ok
+test_extreme_bounded_geometry (innovation.test_adversarial.Adversarial.test_extreme_bounded_geometry) ... ok
+test_information_gate_covers_outputs (innovation.test_adversarial.Adversarial.test_information_gate_covers_outputs) ... ok
+test_policy_has_no_oracle_or_file_access (innovation.test_adversarial.Adversarial.test_policy_has_no_oracle_or_file_access) ... ok
+test_rejected_clear_never_reports_complete (innovation.test_adversarial.Adversarial.test_rejected_clear_never_reports_complete) ... ok
+test_same_point_error_is_fixed (innovation.test_adversarial.Adversarial.test_same_point_error_is_fixed) ... ok
+test_wrap_and_near_boundary (innovation.test_adversarial.Adversarial.test_wrap_and_near_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.159s
+
+OK
+
+$ /home/fangyan/miniconda3/bin/python /tmp/q3-paper-export-_ifmck7u/innovation/run_self.py --round replays/export_smoke --variants BASE,GATED_TOUR_MULTI_PARALLAX --fixtures /tmp/q3-paper-export-_ifmck7u/innovation/final_validation_cases.json --lock /tmp/q3-paper-export-_ifmck7u/innovation/validation_lock.json --limit 4 --stage replay_seen_validation
+1/4 final_uniform_910000_spatial_hash BASE=3426.4, GATED_TOUR_MULTI_PARALLAX=3307.1
+2/4 final_uniform_910000_smooth GATED_TOUR_MULTI_PARALLAX=3145.4, BASE=3450.9
+3/4 final_uniform_910000_positive BASE=3640.4, GATED_TOUR_MULTI_PARALLAX=3294.0
+4/4 final_uniform_910000_negative GATED_TOUR_MULTI_PARALLAX=3336.7, BASE=3546.4
+{
+  "BASE": {
+    "complete": 4,
+    "runs": 4,
+    "mean": 3516.0205724999996,
+    "mean_change_pct": 0.0,
+    "p95": 3626.2716937,
+    "maximum": 3640.369783,
+    "significant": false
+  },
+  "GATED_TOUR_MULTI_PARALLAX": {
+    "complete": 4,
+    "runs": 4,
+    "mean": 3270.8146930000003,
+    "mean_change_pct": -6.9739603180322245,
+    "p95": 3332.2910345,
+    "maximum": 3336.741863,
+    "significant": true
+  }
+}
+
+$ /home/fangyan/miniconda3/bin/python -m unittest question3.tests.test_http_cli question3.tests.test_innovation_http_cli -v
+test_explicit_AB_over_real_http (question3.tests.test_http_cli.HttpCliTests.test_explicit_AB_over_real_http) ... ok
+test_rehearsal_requires_explicit_ui_confirmation (question3.tests.test_http_cli.HttpCliTests.test_rehearsal_requires_explicit_ui_confirmation) ... ok
+test_candidate_requires_explicit_rehearsal_confirmation (question3.tests.test_innovation_http_cli.InnovationHttpCliTests.test_candidate_requires_explicit_rehearsal_confirmation) ... ok
+test_original_and_candidate_match_frozen_metrics (question3.tests.test_innovation_http_cli.InnovationHttpCliTests.test_original_and_candidate_match_frozen_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.809s
+
+OK

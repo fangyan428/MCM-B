@@ -1,0 +1,22 @@
+{
+  "kind": "SELF_ROUND14_PRE_DEVELOPMENT",
+  "reference": "round13_BOTH",
+  "mechanism": "After the first outer scan task is selected, align its station radially to current public position once; freeze all six outer stations thereafter. Origin unchanged. No numeric sweep.",
+  "variants": [
+    "REF",
+    "PHASE"
+  ],
+  "selection": "Both development models complete/audited, PHASE strictly lower mean and p95<=REF. Report every individual regression; local movement saving is NOT global dominance. Only then lock fresh ordinary/outer fixtures; same mean/p95/complete gates per fresh batch.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      190000,
+      190050
+    ],
+    "outer": [
+      200000,
+      200020
+    ]
+  },
+  "official_runs": 0,
+  "formal_runs": 0
+}

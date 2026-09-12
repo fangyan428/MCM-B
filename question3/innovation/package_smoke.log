@@ -1,0 +1,22 @@
+1/2 dev_0_spatial_hash BASE=3619.8, GATED_TOUR_MULTI_PARALLAX=3099.1
+2/2 dev_1_spatial_hash GATED_TOUR_MULTI_PARALLAX=3316.0, BASE=3754.8
+{
+  "BASE": {
+    "complete": 2,
+    "runs": 2,
+    "mean": 3687.2977634999997,
+    "mean_change_pct": 0.0,
+    "p95": 3748.0879723499997,
+    "maximum": 3754.84244,
+    "significant": false
+  },
+  "GATED_TOUR_MULTI_PARALLAX": {
+    "complete": 2,
+    "runs": 2,
+    "mean": 3207.5269915,
+    "mean_change_pct": -13.011446397119808,
+    "p95": 3305.11816255,
+    "maximum": 3315.961626,
+    "significant": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "SELF_ROUND3_DEVELOPMENT_FACTORIAL_NOT_HELDOUT",
+  "base": "Unchanged AB parameters; new modules disabled by default",
+  "modules": {
+    "S": "At each new dedicated second measurement, measure at most one other pending channel at the same point if the existing analytic reception and crossing-angle certificate holds. Lowest eligible channel ID, no retuning. Save its optical plan and later clear directly without revisiting the measuring point.",
+    "O": "Nearest station and nearest pending job form the same two-task set. Compare both orders using paired maximum regret of incremental movement over public terminal samples and one common next anchor. Execute only the first action and replan. Preserve forced search after two clear jobs.",
+    "D": "Previously implemented single convex-polygon covering circle with margin 1e-5 m; otherwise existing grid"
+  },
+  "variants": ["AB", "ABS", "ABO", "ABD", "ABSO", "ABSD", "ABOD", "ABSOD"],
+  "cases": "Existing 52 development fixtures, 16 layouts; same four fixed error fields and four targeted fixtures",
+  "batches": ["bounded", "pre_round_stress"],
+  "tuning_budget": "One fixed implementation/configuration per variant. No grid search, no changes after inspecting full matrix outcomes.",
+  "legacy_restriction": "S and O require joint B and nearest routing. They are not combined with rejected round2 H scoring modes. C is outside this round.",
+  "safety": "All twenty channels require clear success or seven accepted station negatives. Cached observations do not mean a source is cleared. Failure/timeout/noncertified results retained and ranked with >=360000 seconds.",
+  "selection": "Safety first, then all-case total virtual time, paired median, p95, worst10%, worst regression, and phase/action breakdown. No assumption that S+O+D is best.",
+  "stop": "After development factorial and targeted failure-path checks submit human review; no new heldout generation or official/formal execution in this round. Previously used 10000-10049 fixtures remain historical/exploratory."
+}

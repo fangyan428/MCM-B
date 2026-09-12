@@ -1,0 +1,76 @@
+{
+  "verified_utc": "2026-09-12T02:51:00.546828+00:00",
+  "upstream_commit": "a8f8c987bd2990f33857bcda85dc65b159fe91b1",
+  "copied_files_verified": 555,
+  "raw_checksum_index_verified": true,
+  "preserved_upstream_files": [
+    "question3/interface.py",
+    "question3/run_http.py",
+    "question3/strategy.py",
+    "question3/geometry.py",
+    "question3/modules.py",
+    "question3/configs/recommended_omni.json",
+    "question3/order_routing.py",
+    "question3/cached_routing.py",
+    "question3/scan_route.py"
+  ],
+  "frozen_adversarial_tests_passed": 10,
+  "http_cli_tests_passed": 4,
+  "self_http_scenarios": 3,
+  "isolated_metric_replays": [
+    {
+      "variant": "BASE",
+      "case_id": "final_uniform_910000_spatial_hash",
+      "virtual_time_s": 3426.434355,
+      "success": true
+    },
+    {
+      "variant": "GATED_TOUR_MULTI_PARALLAX",
+      "case_id": "final_uniform_910000_spatial_hash",
+      "virtual_time_s": 3307.069673,
+      "success": true
+    },
+    {
+      "variant": "GATED_TOUR_MULTI_PARALLAX",
+      "case_id": "final_uniform_910000_smooth",
+      "virtual_time_s": 3145.408852,
+      "success": true
+    },
+    {
+      "variant": "BASE",
+      "case_id": "final_uniform_910000_smooth",
+      "virtual_time_s": 3450.895631,
+      "success": true
+    },
+    {
+      "variant": "BASE",
+      "case_id": "final_uniform_910000_positive",
+      "virtual_time_s": 3640.369783,
+      "success": true
+    },
+    {
+      "variant": "GATED_TOUR_MULTI_PARALLAX",
+      "case_id": "final_uniform_910000_positive",
+      "virtual_time_s": 3294.038384,
+      "success": true
+    },
+    {
+      "variant": "GATED_TOUR_MULTI_PARALLAX",
+      "case_id": "final_uniform_910000_negative",
+      "virtual_time_s": 3336.741863,
+      "success": true
+    },
+    {
+      "variant": "BASE",
+      "case_id": "final_uniform_910000_negative",
+      "virtual_time_s": 3546.382521,
+      "success": true
+    }
+  ],
+  "exact_all_metrics_match": true,
+  "temporary_extraction_removed": true,
+  "official_runs": 0,
+  "formal_runs": 0,
+  "note": "Direct-file replay works without the repository or local paper_evidence. HTTP uses current shared client.",
+  "initial_sandbox_socket_failure_log": "EXPORT_VERIFICATION_sandbox.log"
+}

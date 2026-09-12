@@ -1,0 +1,74 @@
+{
+  "BASE": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 3855.119486673077,
+    "p95": 4419.920178099999,
+    "maximum": 4845.719057,
+    "worst_case": "boundary_minR_16",
+    "worst_paired_regression": [
+      0.0,
+      "near_at_origin"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 3855.119486673077,
+    "movement_detection_etc": {
+      "movement_s": 3209.8887168697984,
+      "switch_s": 90.13461538461539,
+      "detection_s": 456.9230769230769,
+      "optical_s": 71.82692307692308,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "localization": 1030.8646994403155,
+      "localization_shared": 26.076923076923077,
+      "near": 0.09615384615384616,
+      "optical": 1524.1010679871206,
+      "search": 1273.9806417500547
+    },
+    "mean_per_cleared": 298.96621389060044,
+    "wall_p95": 0.13951747280370908,
+    "clear_failure_mean": 10.76923076923077,
+    "mean_change_pct": 0.0,
+    "significant": false
+  },
+  "STRIP": {
+    "runs": 52,
+    "complete": 52,
+    "failed": 0,
+    "timeouts": 0,
+    "false_complete": 0,
+    "mean": 7408.854396499999,
+    "p95": 10316.292322149999,
+    "maximum": 11847.81395,
+    "worst_case": "dev_6_negative",
+    "worst_paired_regression": [
+      3.5184056200434624,
+      "clustered_16"
+    ],
+    "clearance_ratio_mean": 1.0,
+    "raw_mean": 7408.854396499999,
+    "movement_detection_etc": {
+      "movement_s": 5375.239014928384,
+      "switch_s": 77.4423076923077,
+      "detection_s": 392.21153846153845,
+      "optical_s": 1537.6153846153845,
+      "laser_s": 26.346153846153847
+    },
+    "phase_means": {
+      "control": 0.0,
+      "near": 0.09615384615384616,
+      "search": 1283.932269649709,
+      "single_bearing_sweep": 6124.825976047909
+    },
+    "mean_per_cleared": 564.2509611850063,
+    "wall_p95": 0.041037442153901794,
+    "clear_failure_mean": 499.36538461538464,
+    "mean_change_pct": 92.18222475624881,
+    "significant": false
+  }
+}

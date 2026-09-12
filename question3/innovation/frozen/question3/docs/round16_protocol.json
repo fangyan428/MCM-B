@@ -1,0 +1,23 @@
+{
+  "kind": "SELF_ROUND16_PRE_DEVELOPMENT",
+  "reference": "round13_BOTH",
+  "mechanism": "Remove forced scan after two localizations only; keep all existing task entries and nearest comparison, fixed stations, no cached/known priority.",
+  "variants": [
+    "REF",
+    "FREE"
+  ],
+  "selection": "Both development models complete/audited, mean strictly lower and p95<=REF. Report every regression. Only then lock before fresh ordinary/outer layouts; same gates in each fresh model, no post-validation retuning.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      210000,
+      210050
+    ],
+    "outer": [
+      220000,
+      220020
+    ]
+  },
+  "fresh_seed_note": "Reserved but not generated in round15.",
+  "official_runs": 0,
+  "formal_runs": 0
+}

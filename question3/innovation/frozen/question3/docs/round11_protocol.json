@@ -1,0 +1,24 @@
+{
+  "kind": "SELF_ROUND11_PRE_DEVELOPMENT",
+  "mechanism": "At execution only, skip clear disks strictly separated from a bearing halfplane. Preserve stored plan, task scheduling, and point order; no numeric sweep.",
+  "reference": "round9_ZL",
+  "variants": [
+    "REF",
+    "P"
+  ],
+  "proof_scope": "Same first-success endpoint, channel, and future public state when feedback is deterministic and no real-time deadline intervenes. Virtual time nonincrease for this workflow, not wall-time dominance.",
+  "selection": "All runs complete/audited; exact measurement and successful-clear trajectories equal REF; no individual virtual regression above 1e-5 seconds; strictly lower means in both development models before fresh lock. Same gates in each fresh ordinary/outer rounding batch.",
+  "fresh_seed_ranges": {
+    "ordinary": [
+      150000,
+      150050
+    ],
+    "outer": [
+      160000,
+      160020
+    ]
+  },
+  "fresh_seeds_note": "Reserved but never generated in round10.",
+  "official_runs": 0,
+  "formal_runs": 0
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_python": "3.13.12",
+  "experiment_numpy": "2.4.4",
+  "experiment_scipy": "1.17.1",
+  "plotting_only_temporary_matplotlib": "3.11.1",
+  "plotting_only_temporary_numpy": "2.5.3",
+  "temporary_dependencies_removed": true,
+  "algorithm_runtime_unchanged": true,
+  "artifact_build_initial_failure": "matplotlib absent in both runtimes; separate temporary plotting dependency installed after approval",
+  "network_use": "public package download only; no project data uploaded; no official simulator connections"
+}

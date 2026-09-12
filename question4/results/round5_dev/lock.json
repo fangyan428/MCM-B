@@ -1,0 +1,32 @@
+{
+  "code_sha256": {
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question4/__init__.py": "6fa0336b7cf9f3f07f811ee2ba39cc1d7f2edf13efba3511a87d3df313a17da0",
+    "question4/audit.py": "244e1dac59b7e891b87a177ae30a8fc11f03f3e63c2ad9cad0c79ba6bb049c90",
+    "question4/build_cover.py": "7dfc8a1f19448f5e75c0941adbf6653a66f4cf4058a2bd218599a553e6c81455",
+    "question4/cases.py": "e05df7b24f293ccf46ba529370c6c6a13e3289f01b220c098170eb98d8bfeac6",
+    "question4/certificates/compact22.json": "0623f57deaf4f6f5762a5ef2fb09c22b73a66f9c0247316216863198691148f8",
+    "question4/experiment.py": "1c5d0529d7499c08b4db40bfda62fc955bb5e74ac5b99b0a830c601678acfb43",
+    "question4/geometry.py": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+    "question4/routing.py": "267e8be6a8bbc48ce9befaed308bf3fc96421ee81ce05b7185659be81c7b9a92",
+    "question4/simulator.py": "e8521b114fc864619e50410b44e1abf1b497c86648775dc0c3d5c5f5a1a72dd8",
+    "question4/strategy.py": "f2279d8b54e98ee0f81ac136c005134c7738423068e502575b8a94fed8f516ac"
+  },
+  "configs": {
+    "REF25": {
+      "scheduling": "route",
+      "mesh_kind": "radial",
+      "scan_known": "certified"
+    },
+    "COMPACT22": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified"
+    }
+  },
+  "created_unix": 1789147839.4876938,
+  "stage": "development",
+  "generator_seed": 41000,
+  "generator_count": 24,
+  "rounding": "bounded"
+}

@@ -1,0 +1,411 @@
+START stage=development layouts=24 scenarios=96 configs=3 runs=288 workers=4
+RUN uniform_f492a7cb51638a1a__smooth__bounded HIST_ADAPT virtual_s=4791.058 penalized_s=4791.058 complete=16/16 audit=True wall_s=0.056
+RUN uniform_f492a7cb51638a1a__positive__bounded HIST_ADAPT virtual_s=5359.425 penalized_s=5359.425 complete=16/16 audit=True wall_s=0.070
+RUN uniform_f492a7cb51638a1a__spatial_hash__bounded HIST_ADAPT virtual_s=5287.007 penalized_s=5287.007 complete=16/16 audit=True wall_s=0.075
+RUN uniform_f492a7cb51638a1a__smooth__bounded WINDOW virtual_s=4533.334 penalized_s=4533.334 complete=16/16 audit=True wall_s=0.025
+RUN uniform_f492a7cb51638a1a__positive__bounded WINDOW virtual_s=4773.587 penalized_s=4773.587 complete=16/16 audit=True wall_s=0.020
+RUN uniform_f492a7cb51638a1a__spatial_hash__bounded WINDOW virtual_s=4398.688 penalized_s=4398.688 complete=16/16 audit=True wall_s=0.021
+RUN uniform_f492a7cb51638a1a__negative__bounded HIST_ADAPT virtual_s=5282.238 penalized_s=5282.238 complete=16/16 audit=True wall_s=0.102
+RUN uniform_f492a7cb51638a1a__smooth__bounded BASE25 virtual_s=4522.723 penalized_s=4522.723 complete=16/16 audit=True wall_s=0.050
+PROGRESS scenarios=1/96 runs=3/288 failed=0 elapsed_s=0.2
+RUN uniform_f492a7cb51638a1a__negative__bounded WINDOW virtual_s=4547.073 penalized_s=4547.073 complete=16/16 audit=True wall_s=0.030
+RUN uniform_f492a7cb51638a1a__positive__bounded BASE25 virtual_s=5461.885 penalized_s=5461.885 complete=16/16 audit=True wall_s=0.059
+PROGRESS scenarios=2/96 runs=6/288 failed=0 elapsed_s=0.2
+RUN uniform_f492a7cb51638a1a__spatial_hash__bounded BASE25 virtual_s=5070.143 penalized_s=5070.143 complete=16/16 audit=True wall_s=0.056
+PROGRESS scenarios=3/96 runs=9/288 failed=0 elapsed_s=0.2
+RUN outward_66d6380dc7940f96__spatial_hash__bounded HIST_ADAPT virtual_s=6164.906 penalized_s=6164.906 complete=13/13 audit=True wall_s=0.064
+RUN uniform_f492a7cb51638a1a__negative__bounded BASE25 virtual_s=5122.344 penalized_s=5122.344 complete=16/16 audit=True wall_s=0.070
+PROGRESS scenarios=4/96 runs=12/288 failed=0 elapsed_s=0.2
+RUN outward_66d6380dc7940f96__positive__bounded HIST_ADAPT virtual_s=6130.850 penalized_s=6130.850 complete=13/13 audit=True wall_s=0.067
+RUN outward_66d6380dc7940f96__negative__bounded HIST_ADAPT virtual_s=6163.039 penalized_s=6163.039 complete=13/13 audit=True wall_s=0.063
+RUN outward_66d6380dc7940f96__spatial_hash__bounded WINDOW virtual_s=7843.980 penalized_s=7843.980 complete=13/13 audit=True wall_s=0.022
+RUN outward_66d6380dc7940f96__negative__bounded WINDOW virtual_s=7908.120 penalized_s=7908.120 complete=13/13 audit=True wall_s=0.023
+RUN outward_66d6380dc7940f96__positive__bounded WINDOW virtual_s=7872.135 penalized_s=7872.135 complete=13/13 audit=True wall_s=0.026
+RUN outward_66d6380dc7940f96__spatial_hash__bounded BASE25 virtual_s=6195.786 penalized_s=6195.786 complete=13/13 audit=True wall_s=0.046
+PROGRESS scenarios=5/96 runs=15/288 failed=0 elapsed_s=0.3
+RUN outward_66d6380dc7940f96__smooth__bounded HIST_ADAPT virtual_s=6160.263 penalized_s=6160.263 complete=13/13 audit=True wall_s=0.067
+RUN outward_66d6380dc7940f96__negative__bounded BASE25 virtual_s=6216.570 penalized_s=6216.570 complete=13/13 audit=True wall_s=0.052
+PROGRESS scenarios=6/96 runs=18/288 failed=0 elapsed_s=0.4
+RUN outward_66d6380dc7940f96__smooth__bounded WINDOW virtual_s=7865.017 penalized_s=7865.017 complete=13/13 audit=True wall_s=0.024
+RUN outward_66d6380dc7940f96__positive__bounded BASE25 virtual_s=6201.410 penalized_s=6201.410 complete=13/13 audit=True wall_s=0.059
+PROGRESS scenarios=7/96 runs=21/288 failed=0 elapsed_s=0.4
+RUN inward_21c99444fea8e45f__spatial_hash__bounded BASE25 virtual_s=5561.219 penalized_s=5561.219 complete=13/13 audit=True wall_s=0.049
+RUN inward_21c99444fea8e45f__positive__bounded BASE25 virtual_s=5685.694 penalized_s=5685.694 complete=13/13 audit=True wall_s=0.057
+RUN outward_66d6380dc7940f96__smooth__bounded BASE25 virtual_s=6215.162 penalized_s=6215.162 complete=13/13 audit=True wall_s=0.057
+PROGRESS scenarios=8/96 runs=24/288 failed=0 elapsed_s=0.4
+RUN inward_21c99444fea8e45f__negative__bounded BASE25 virtual_s=5589.013 penalized_s=5589.013 complete=13/13 audit=True wall_s=0.067
+RUN inward_21c99444fea8e45f__spatial_hash__bounded HIST_ADAPT virtual_s=5635.189 penalized_s=5635.189 complete=13/13 audit=True wall_s=0.061
+RUN inward_21c99444fea8e45f__spatial_hash__bounded WINDOW virtual_s=7576.697 penalized_s=7576.697 complete=13/13 audit=True wall_s=0.019
+PROGRESS scenarios=9/96 runs=27/288 failed=0 elapsed_s=0.5
+RUN inward_21c99444fea8e45f__smooth__bounded BASE25 virtual_s=5557.803 penalized_s=5557.803 complete=13/13 audit=True wall_s=0.049
+RUN inward_21c99444fea8e45f__positive__bounded HIST_ADAPT virtual_s=5676.452 penalized_s=5676.452 complete=13/13 audit=True wall_s=0.067
+RUN inward_21c99444fea8e45f__positive__bounded WINDOW virtual_s=7661.656 penalized_s=7661.656 complete=13/13 audit=True wall_s=0.019
+PROGRESS scenarios=10/96 runs=30/288 failed=0 elapsed_s=0.5
+RUN inward_21c99444fea8e45f__negative__bounded HIST_ADAPT virtual_s=5661.167 penalized_s=5661.167 complete=13/13 audit=True wall_s=0.076
+RUN tangent_88ba52c10251115c__spatial_hash__bounded BASE25 virtual_s=6676.855 penalized_s=6676.855 complete=14/14 audit=True wall_s=0.049
+RUN inward_21c99444fea8e45f__smooth__bounded HIST_ADAPT virtual_s=5563.550 penalized_s=5563.550 complete=13/13 audit=True wall_s=0.048
+RUN inward_21c99444fea8e45f__negative__bounded WINDOW virtual_s=7655.010 penalized_s=7655.010 complete=13/13 audit=True wall_s=0.027
+PROGRESS scenarios=11/96 runs=33/288 failed=0 elapsed_s=0.6
+RUN inward_21c99444fea8e45f__smooth__bounded WINDOW virtual_s=7607.590 penalized_s=7607.590 complete=13/13 audit=True wall_s=0.020
+PROGRESS scenarios=12/96 runs=36/288 failed=0 elapsed_s=0.6
+RUN tangent_88ba52c10251115c__positive__bounded BASE25 virtual_s=6704.338 penalized_s=6704.338 complete=14/14 audit=True wall_s=0.047
+RUN tangent_88ba52c10251115c__spatial_hash__bounded HIST_ADAPT virtual_s=6294.004 penalized_s=6294.004 complete=14/14 audit=True wall_s=0.062
+RUN tangent_88ba52c10251115c__negative__bounded BASE25 virtual_s=6656.530 penalized_s=6656.530 complete=14/14 audit=True wall_s=0.048
+RUN tangent_88ba52c10251115c__smooth__bounded BASE25 virtual_s=6653.700 penalized_s=6653.700 complete=14/14 audit=True wall_s=0.054
+RUN tangent_88ba52c10251115c__spatial_hash__bounded WINDOW virtual_s=9540.801 penalized_s=9540.801 complete=14/14 audit=True wall_s=0.026
+PROGRESS scenarios=13/96 runs=39/288 failed=0 elapsed_s=0.6
+RUN tangent_88ba52c10251115c__positive__bounded HIST_ADAPT virtual_s=6281.320 penalized_s=6281.320 complete=14/14 audit=True wall_s=0.085
+RUN tangent_88ba52c10251115c__negative__bounded HIST_ADAPT virtual_s=6235.412 penalized_s=6235.412 complete=14/14 audit=True wall_s=0.062
+RUN cluster_a7e8790646ac1c86__spatial_hash__bounded HIST_ADAPT virtual_s=6510.174 penalized_s=6510.174 complete=13/13 audit=True wall_s=0.048
+RUN tangent_88ba52c10251115c__smooth__bounded HIST_ADAPT virtual_s=6275.225 penalized_s=6275.225 complete=14/14 audit=True wall_s=0.072
+RUN tangent_88ba52c10251115c__positive__bounded WINDOW virtual_s=9905.660 penalized_s=9905.660 complete=14/14 audit=True wall_s=0.036
+PROGRESS scenarios=14/96 runs=42/288 failed=0 elapsed_s=0.7
+RUN cluster_a7e8790646ac1c86__spatial_hash__bounded WINDOW virtual_s=8760.808 penalized_s=8760.808 complete=13/13 audit=True wall_s=0.024
+RUN tangent_88ba52c10251115c__negative__bounded WINDOW virtual_s=9534.997 penalized_s=9534.997 complete=14/14 audit=True wall_s=0.028
+PROGRESS scenarios=15/96 runs=45/288 failed=0 elapsed_s=0.7
+RUN tangent_88ba52c10251115c__smooth__bounded WINDOW virtual_s=9546.482 penalized_s=9546.482 complete=14/14 audit=True wall_s=0.033
+PROGRESS scenarios=16/96 runs=48/288 failed=0 elapsed_s=0.8
+RUN cluster_a7e8790646ac1c86__spatial_hash__bounded BASE25 virtual_s=6707.869 penalized_s=6707.869 complete=13/13 audit=True wall_s=0.044
+PROGRESS scenarios=17/96 runs=51/288 failed=0 elapsed_s=0.8
+RUN cluster_a7e8790646ac1c86__positive__bounded HIST_ADAPT virtual_s=6679.908 penalized_s=6679.908 complete=13/13 audit=True wall_s=0.052
+RUN cluster_a7e8790646ac1c86__negative__bounded HIST_ADAPT virtual_s=6521.737 penalized_s=6521.737 complete=13/13 audit=True wall_s=0.056
+RUN cluster_a7e8790646ac1c86__positive__bounded WINDOW virtual_s=9055.614 penalized_s=9055.614 complete=13/13 audit=True wall_s=0.024
+RUN cluster_a7e8790646ac1c86__smooth__bounded HIST_ADAPT virtual_s=6786.050 penalized_s=6786.050 complete=13/13 audit=True wall_s=0.050
+RUN cluster_a7e8790646ac1c86__negative__bounded WINDOW virtual_s=8803.151 penalized_s=8803.151 complete=13/13 audit=True wall_s=0.028
+RUN cluster_a7e8790646ac1c86__smooth__bounded WINDOW virtual_s=8771.323 penalized_s=8771.323 complete=13/13 audit=True wall_s=0.023
+RUN edge_d2849646f83f5b6c__spatial_hash__bounded HIST_ADAPT virtual_s=5505.162 penalized_s=5505.162 complete=15/15 audit=True wall_s=0.080
+RUN cluster_a7e8790646ac1c86__positive__bounded BASE25 virtual_s=6623.705 penalized_s=6623.705 complete=13/13 audit=True wall_s=0.044
+PROGRESS scenarios=18/96 runs=54/288 failed=0 elapsed_s=0.9
+RUN edge_d2849646f83f5b6c__spatial_hash__bounded WINDOW virtual_s=7085.603 penalized_s=7085.603 complete=15/15 audit=True wall_s=0.032
+RUN cluster_a7e8790646ac1c86__smooth__bounded BASE25 virtual_s=7037.730 penalized_s=7037.730 complete=13/13 audit=True wall_s=0.053
+RUN cluster_a7e8790646ac1c86__negative__bounded BASE25 virtual_s=6734.652 penalized_s=6734.652 complete=13/13 audit=True wall_s=0.077
+PROGRESS scenarios=19/96 runs=57/288 failed=0 elapsed_s=0.9
+PROGRESS scenarios=20/96 runs=60/288 failed=0 elapsed_s=0.9
+RUN edge_d2849646f83f5b6c__positive__bounded HIST_ADAPT virtual_s=5517.292 penalized_s=5517.292 complete=15/15 audit=True wall_s=0.098
+RUN edge_d2849646f83f5b6c__spatial_hash__bounded BASE25 virtual_s=5495.428 penalized_s=5495.428 complete=15/15 audit=True wall_s=0.071
+PROGRESS scenarios=21/96 runs=63/288 failed=0 elapsed_s=1.0
+RUN edge_d2849646f83f5b6c__smooth__bounded HIST_ADAPT virtual_s=5472.451 penalized_s=5472.451 complete=15/15 audit=True wall_s=0.076
+RUN edge_d2849646f83f5b6c__negative__bounded HIST_ADAPT virtual_s=5537.193 penalized_s=5537.193 complete=15/15 audit=True wall_s=0.087
+RUN edge_d2849646f83f5b6c__positive__bounded WINDOW virtual_s=7190.236 penalized_s=7190.236 complete=15/15 audit=True wall_s=0.030
+RUN uniform_e5ca39cddadc51f1__spatial_hash__bounded BASE25 virtual_s=6945.200 penalized_s=6945.200 complete=13/13 audit=True wall_s=0.055
+RUN edge_d2849646f83f5b6c__smooth__bounded WINDOW virtual_s=7103.905 penalized_s=7103.905 complete=15/15 audit=True wall_s=0.034
+RUN edge_d2849646f83f5b6c__negative__bounded WINDOW virtual_s=7163.747 penalized_s=7163.747 complete=15/15 audit=True wall_s=0.026
+RUN edge_d2849646f83f5b6c__negative__bounded BASE25 virtual_s=5526.819 penalized_s=5526.819 complete=15/15 audit=True wall_s=0.063
+RUN edge_d2849646f83f5b6c__positive__bounded BASE25 virtual_s=5530.720 penalized_s=5530.720 complete=15/15 audit=True wall_s=0.090
+PROGRESS scenarios=22/96 runs=66/288 failed=0 elapsed_s=1.1
+PROGRESS scenarios=23/96 runs=69/288 failed=0 elapsed_s=1.1
+RUN edge_d2849646f83f5b6c__smooth__bounded BASE25 virtual_s=5450.910 penalized_s=5450.910 complete=15/15 audit=True wall_s=0.072
+PROGRESS scenarios=24/96 runs=72/288 failed=0 elapsed_s=1.1
+RUN uniform_e5ca39cddadc51f1__spatial_hash__bounded HIST_ADAPT virtual_s=7056.744 penalized_s=7056.744 complete=13/13 audit=True wall_s=0.082
+RUN uniform_e5ca39cddadc51f1__negative__bounded BASE25 virtual_s=7096.578 penalized_s=7096.578 complete=13/13 audit=True wall_s=0.045
+RUN uniform_e5ca39cddadc51f1__spatial_hash__bounded WINDOW virtual_s=7738.432 penalized_s=7738.432 complete=13/13 audit=True wall_s=0.026
+PROGRESS scenarios=25/96 runs=75/288 failed=0 elapsed_s=1.2
+RUN uniform_e5ca39cddadc51f1__positive__bounded BASE25 virtual_s=7531.926 penalized_s=7531.926 complete=13/13 audit=True wall_s=0.059
+RUN uniform_e5ca39cddadc51f1__smooth__bounded BASE25 virtual_s=6919.724 penalized_s=6919.724 complete=13/13 audit=True wall_s=0.072
+RUN outward_8b29502470c08538__spatial_hash__bounded WINDOW virtual_s=8835.500 penalized_s=8835.500 complete=10/10 audit=True wall_s=0.029
+RUN outward_8b29502470c08538__spatial_hash__bounded BASE25 virtual_s=8816.892 penalized_s=8816.892 complete=10/10 audit=True wall_s=0.034
+RUN uniform_e5ca39cddadc51f1__negative__bounded HIST_ADAPT virtual_s=6990.235 penalized_s=6990.235 complete=13/13 audit=True wall_s=0.072
+RUN uniform_e5ca39cddadc51f1__positive__bounded HIST_ADAPT virtual_s=8140.485 penalized_s=8140.485 complete=13/13 audit=True wall_s=0.092
+RUN uniform_e5ca39cddadc51f1__negative__bounded WINDOW virtual_s=7630.058 penalized_s=7630.058 complete=13/13 audit=True wall_s=0.029
+RUN outward_8b29502470c08538__spatial_hash__bounded HIST_ADAPT virtual_s=8773.726 penalized_s=8773.726 complete=10/10 audit=True wall_s=0.037
+PROGRESS scenarios=26/96 runs=78/288 failed=0 elapsed_s=1.3
+PROGRESS scenarios=27/96 runs=81/288 failed=0 elapsed_s=1.3
+RUN uniform_e5ca39cddadc51f1__smooth__bounded HIST_ADAPT virtual_s=6986.693 penalized_s=6986.693 complete=13/13 audit=True wall_s=0.097
+RUN uniform_e5ca39cddadc51f1__positive__bounded WINDOW virtual_s=7779.378 penalized_s=7779.378 complete=13/13 audit=True wall_s=0.024
+PROGRESS scenarios=28/96 runs=84/288 failed=0 elapsed_s=1.3
+RUN outward_8b29502470c08538__negative__bounded WINDOW virtual_s=8861.251 penalized_s=8861.251 complete=10/10 audit=True wall_s=0.023
+RUN outward_8b29502470c08538__positive__bounded WINDOW virtual_s=8889.829 penalized_s=8889.829 complete=10/10 audit=True wall_s=0.033
+RUN uniform_e5ca39cddadc51f1__smooth__bounded WINDOW virtual_s=7726.022 penalized_s=7726.022 complete=13/13 audit=True wall_s=0.029
+RUN outward_8b29502470c08538__smooth__bounded WINDOW virtual_s=8837.207 penalized_s=8837.207 complete=10/10 audit=True wall_s=0.025
+PROGRESS scenarios=29/96 runs=87/288 failed=0 elapsed_s=1.4
+RUN outward_8b29502470c08538__negative__bounded BASE25 virtual_s=8823.321 penalized_s=8823.321 complete=10/10 audit=True wall_s=0.024
+RUN outward_8b29502470c08538__smooth__bounded BASE25 virtual_s=8803.884 penalized_s=8803.884 complete=10/10 audit=True wall_s=0.026
+RUN outward_8b29502470c08538__positive__bounded BASE25 virtual_s=8840.501 penalized_s=8840.501 complete=10/10 audit=True wall_s=0.035
+RUN outward_8b29502470c08538__negative__bounded HIST_ADAPT virtual_s=9558.550 penalized_s=9558.550 complete=10/10 audit=True wall_s=0.034
+PROGRESS scenarios=30/96 runs=90/288 failed=0 elapsed_s=1.4
+RUN inward_60fe3bae936f1262__spatial_hash__bounded HIST_ADAPT virtual_s=4475.419 penalized_s=4475.419 complete=16/16 audit=True wall_s=0.057
+RUN outward_8b29502470c08538__positive__bounded HIST_ADAPT virtual_s=8822.409 penalized_s=8822.409 complete=10/10 audit=True wall_s=0.037
+RUN outward_8b29502470c08538__smooth__bounded HIST_ADAPT virtual_s=8800.685 penalized_s=8800.685 complete=10/10 audit=True wall_s=0.040
+RUN inward_60fe3bae936f1262__spatial_hash__bounded WINDOW virtual_s=4632.754 penalized_s=4632.754 complete=16/16 audit=True wall_s=0.019
+PROGRESS scenarios=31/96 runs=93/288 failed=0 elapsed_s=1.4
+PROGRESS scenarios=32/96 runs=96/288 failed=0 elapsed_s=1.4
+RUN inward_60fe3bae936f1262__positive__bounded HIST_ADAPT virtual_s=4497.454 penalized_s=4497.454 complete=16/16 audit=True wall_s=0.055
+RUN inward_60fe3bae936f1262__spatial_hash__bounded BASE25 virtual_s=4941.872 penalized_s=4941.872 complete=16/16 audit=True wall_s=0.036
+PROGRESS scenarios=33/96 runs=99/288 failed=0 elapsed_s=1.5
+RUN inward_60fe3bae936f1262__positive__bounded WINDOW virtual_s=4680.426 penalized_s=4680.426 complete=16/16 audit=True wall_s=0.020
+RUN inward_60fe3bae936f1262__negative__bounded HIST_ADAPT virtual_s=4472.625 penalized_s=4472.625 complete=16/16 audit=True wall_s=0.071
+RUN tangent_c499ac156f7ec580__spatial_hash__bounded WINDOW virtual_s=6637.380 penalized_s=6637.380 complete=16/16 audit=True wall_s=0.035
+RUN inward_60fe3bae936f1262__smooth__bounded HIST_ADAPT virtual_s=4488.290 penalized_s=4488.290 complete=16/16 audit=True wall_s=0.076
+RUN inward_60fe3bae936f1262__positive__bounded BASE25 virtual_s=4947.307 penalized_s=4947.307 complete=16/16 audit=True wall_s=0.041
+PROGRESS scenarios=34/96 runs=102/288 failed=0 elapsed_s=1.5
+RUN inward_60fe3bae936f1262__negative__bounded WINDOW virtual_s=4733.245 penalized_s=4733.245 complete=16/16 audit=True wall_s=0.022
+RUN inward_60fe3bae936f1262__smooth__bounded WINDOW virtual_s=4604.765 penalized_s=4604.765 complete=16/16 audit=True wall_s=0.025
+RUN tangent_c499ac156f7ec580__positive__bounded WINDOW virtual_s=6740.519 penalized_s=6740.519 complete=16/16 audit=True wall_s=0.019
+RUN tangent_c499ac156f7ec580__spatial_hash__bounded BASE25 virtual_s=5943.244 penalized_s=5943.244 complete=16/16 audit=True wall_s=0.056
+RUN inward_60fe3bae936f1262__negative__bounded BASE25 virtual_s=5283.158 penalized_s=5283.158 complete=16/16 audit=True wall_s=0.038
+PROGRESS scenarios=35/96 runs=105/288 failed=0 elapsed_s=1.6
+RUN tangent_c499ac156f7ec580__positive__bounded BASE25 virtual_s=5993.345 penalized_s=5993.345 complete=16/16 audit=True wall_s=0.044
+RUN inward_60fe3bae936f1262__smooth__bounded BASE25 virtual_s=4965.444 penalized_s=4965.444 complete=16/16 audit=True wall_s=0.056
+PROGRESS scenarios=36/96 runs=108/288 failed=0 elapsed_s=1.6
+RUN tangent_c499ac156f7ec580__negative__bounded WINDOW virtual_s=7168.399 penalized_s=7168.399 complete=16/16 audit=True wall_s=0.029
+RUN tangent_c499ac156f7ec580__smooth__bounded WINDOW virtual_s=6655.084 penalized_s=6655.084 complete=16/16 audit=True wall_s=0.032
+RUN tangent_c499ac156f7ec580__spatial_hash__bounded HIST_ADAPT virtual_s=5665.700 penalized_s=5665.700 complete=16/16 audit=True wall_s=0.077
+PROGRESS scenarios=37/96 runs=111/288 failed=0 elapsed_s=1.7
+RUN tangent_c499ac156f7ec580__negative__bounded BASE25 virtual_s=5525.313 penalized_s=5525.313 complete=16/16 audit=True wall_s=0.050
+RUN tangent_c499ac156f7ec580__positive__bounded HIST_ADAPT virtual_s=5759.582 penalized_s=5759.582 complete=16/16 audit=True wall_s=0.061
+PROGRESS scenarios=38/96 runs=114/288 failed=0 elapsed_s=1.7
+RUN tangent_c499ac156f7ec580__smooth__bounded BASE25 virtual_s=5929.350 penalized_s=5929.350 complete=16/16 audit=True wall_s=0.066
+RUN cluster_b93ab5cfcfc9c055__spatial_hash__bounded HIST_ADAPT virtual_s=5545.002 penalized_s=5545.002 complete=13/13 audit=True wall_s=0.065
+RUN cluster_b93ab5cfcfc9c055__positive__bounded HIST_ADAPT virtual_s=5791.913 penalized_s=5791.913 complete=13/13 audit=True wall_s=0.066
+RUN tangent_c499ac156f7ec580__negative__bounded HIST_ADAPT virtual_s=5358.728 penalized_s=5358.728 complete=16/16 audit=True wall_s=0.069
+PROGRESS scenarios=39/96 runs=117/288 failed=0 elapsed_s=1.8
+RUN cluster_b93ab5cfcfc9c055__spatial_hash__bounded WINDOW virtual_s=7610.879 penalized_s=7610.879 complete=13/13 audit=True wall_s=0.030
+RUN cluster_b93ab5cfcfc9c055__positive__bounded WINDOW virtual_s=7555.830 penalized_s=7555.830 complete=13/13 audit=True wall_s=0.023
+RUN tangent_c499ac156f7ec580__smooth__bounded HIST_ADAPT virtual_s=6225.067 penalized_s=6225.067 complete=16/16 audit=True wall_s=0.079
+PROGRESS scenarios=40/96 runs=120/288 failed=0 elapsed_s=1.8
+RUN cluster_b93ab5cfcfc9c055__positive__bounded BASE25 virtual_s=6176.494 penalized_s=6176.494 complete=13/13 audit=True wall_s=0.055
+RUN cluster_b93ab5cfcfc9c055__negative__bounded HIST_ADAPT virtual_s=5556.788 penalized_s=5556.788 complete=13/13 audit=True wall_s=0.081
+PROGRESS scenarios=41/96 runs=123/288 failed=0 elapsed_s=1.9
+RUN cluster_b93ab5cfcfc9c055__spatial_hash__bounded BASE25 virtual_s=5993.242 penalized_s=5993.242 complete=13/13 audit=True wall_s=0.075
+PROGRESS scenarios=42/96 runs=126/288 failed=0 elapsed_s=1.9
+RUN cluster_b93ab5cfcfc9c055__negative__bounded WINDOW virtual_s=7779.404 penalized_s=7779.404 complete=13/13 audit=True wall_s=0.029
+RUN edge_9498d797101ef141__spatial_hash__bounded BASE25 virtual_s=8672.378 penalized_s=8672.378 complete=12/12 audit=True wall_s=0.042
+RUN edge_9498d797101ef141__positive__bounded BASE25 virtual_s=8907.049 penalized_s=8907.049 complete=12/12 audit=True wall_s=0.043
+RUN cluster_b93ab5cfcfc9c055__smooth__bounded HIST_ADAPT virtual_s=5602.436 penalized_s=5602.436 complete=13/13 audit=True wall_s=0.099
+RUN edge_9498d797101ef141__spatial_hash__bounded HIST_ADAPT virtual_s=9382.308 penalized_s=9382.308 complete=12/12 audit=True wall_s=0.042
+RUN cluster_b93ab5cfcfc9c055__negative__bounded BASE25 virtual_s=5578.401 penalized_s=5578.401 complete=13/13 audit=True wall_s=0.061
+PROGRESS scenarios=43/96 runs=129/288 failed=0 elapsed_s=2.0
+RUN cluster_b93ab5cfcfc9c055__smooth__bounded WINDOW virtual_s=7710.452 penalized_s=7710.452 complete=13/13 audit=True wall_s=0.026
+RUN edge_9498d797101ef141__spatial_hash__bounded WINDOW virtual_s=9341.996 penalized_s=9341.996 complete=12/12 audit=True wall_s=0.024
+PROGRESS scenarios=44/96 runs=132/288 failed=0 elapsed_s=2.0
+RUN edge_9498d797101ef141__negative__bounded BASE25 virtual_s=8896.716 penalized_s=8896.716 complete=12/12 audit=True wall_s=0.043
+RUN edge_9498d797101ef141__positive__bounded HIST_ADAPT virtual_s=10288.398 penalized_s=10288.398 complete=12/12 audit=True wall_s=0.085
+RUN edge_9498d797101ef141__smooth__bounded BASE25 virtual_s=8872.433 penalized_s=8872.433 complete=12/12 audit=True wall_s=0.036
+RUN cluster_b93ab5cfcfc9c055__smooth__bounded BASE25 virtual_s=5783.734 penalized_s=5783.734 complete=13/13 audit=True wall_s=0.070
+PROGRESS scenarios=45/96 runs=135/288 failed=0 elapsed_s=2.1
+RUN edge_9498d797101ef141__positive__bounded WINDOW virtual_s=9407.876 penalized_s=9407.876 complete=12/12 audit=True wall_s=0.033
+PROGRESS scenarios=46/96 runs=138/288 failed=0 elapsed_s=2.1
+RUN edge_9498d797101ef141__negative__bounded HIST_ADAPT virtual_s=8962.434 penalized_s=8962.434 complete=12/12 audit=True wall_s=0.059
+RUN edge_9498d797101ef141__smooth__bounded HIST_ADAPT virtual_s=8960.564 penalized_s=8960.564 complete=12/12 audit=True wall_s=0.050
+RUN uniform_145daa7bdff72175__spatial_hash__bounded HIST_ADAPT virtual_s=5083.049 penalized_s=5083.049 complete=16/16 audit=True wall_s=0.069
+RUN edge_9498d797101ef141__negative__bounded WINDOW virtual_s=9370.096 penalized_s=9370.096 complete=12/12 audit=True wall_s=0.028
+RUN edge_9498d797101ef141__smooth__bounded WINDOW virtual_s=9301.979 penalized_s=9301.979 complete=12/12 audit=True wall_s=0.027
+PROGRESS scenarios=47/96 runs=141/288 failed=0 elapsed_s=2.1
+PROGRESS scenarios=48/96 runs=144/288 failed=0 elapsed_s=2.1
+RUN uniform_145daa7bdff72175__spatial_hash__bounded WINDOW virtual_s=4482.741 penalized_s=4482.741 complete=16/16 audit=True wall_s=0.025
+RUN uniform_145daa7bdff72175__positive__bounded HIST_ADAPT virtual_s=4947.521 penalized_s=4947.521 complete=16/16 audit=True wall_s=0.088
+RUN uniform_145daa7bdff72175__positive__bounded WINDOW virtual_s=5039.926 penalized_s=5039.926 complete=16/16 audit=True wall_s=0.027
+RUN uniform_145daa7bdff72175__smooth__bounded HIST_ADAPT virtual_s=5921.373 penalized_s=5921.373 complete=16/16 audit=True wall_s=0.093
+RUN uniform_145daa7bdff72175__negative__bounded HIST_ADAPT virtual_s=5163.440 penalized_s=5163.440 complete=16/16 audit=True wall_s=0.100
+RUN uniform_145daa7bdff72175__spatial_hash__bounded BASE25 virtual_s=5167.569 penalized_s=5167.569 complete=16/16 audit=True wall_s=0.095
+PROGRESS scenarios=49/96 runs=147/288 failed=0 elapsed_s=2.3
+RUN uniform_145daa7bdff72175__smooth__bounded WINDOW virtual_s=5050.733 penalized_s=5050.733 complete=16/16 audit=True wall_s=0.024
+RUN uniform_145daa7bdff72175__negative__bounded WINDOW virtual_s=4512.631 penalized_s=4512.631 complete=16/16 audit=True wall_s=0.024
+RUN uniform_145daa7bdff72175__positive__bounded BASE25 virtual_s=5056.831 penalized_s=5056.831 complete=16/16 audit=True wall_s=0.076
+PROGRESS scenarios=50/96 runs=150/288 failed=0 elapsed_s=2.3
+RUN uniform_145daa7bdff72175__smooth__bounded BASE25 virtual_s=5209.219 penalized_s=5209.219 complete=16/16 audit=True wall_s=0.066
+PROGRESS scenarios=51/96 runs=153/288 failed=0 elapsed_s=2.3
+RUN outward_3b514d2d38d2a25c__spatial_hash__bounded HIST_ADAPT virtual_s=9508.892 penalized_s=9508.892 complete=15/15 audit=True wall_s=0.076
+RUN uniform_145daa7bdff72175__negative__bounded BASE25 virtual_s=5310.045 penalized_s=5310.045 complete=16/16 audit=True wall_s=0.075
+PROGRESS scenarios=52/96 runs=156/288 failed=0 elapsed_s=2.4
+RUN outward_3b514d2d38d2a25c__spatial_hash__bounded WINDOW virtual_s=10249.844 penalized_s=10249.844 complete=15/15 audit=True wall_s=0.031
+RUN outward_3b514d2d38d2a25c__positive__bounded HIST_ADAPT virtual_s=10483.349 penalized_s=10483.349 complete=15/15 audit=True wall_s=0.109
+RUN outward_3b514d2d38d2a25c__negative__bounded HIST_ADAPT virtual_s=9622.321 penalized_s=9622.321 complete=15/15 audit=True wall_s=0.065
+RUN outward_3b514d2d38d2a25c__spatial_hash__bounded BASE25 virtual_s=9902.615 penalized_s=9902.615 complete=15/15 audit=True wall_s=0.048
+PROGRESS scenarios=53/96 runs=159/288 failed=0 elapsed_s=2.5
+RUN outward_3b514d2d38d2a25c__negative__bounded WINDOW virtual_s=10312.534 penalized_s=10312.534 complete=15/15 audit=True wall_s=0.032
+RUN outward_3b514d2d38d2a25c__positive__bounded WINDOW virtual_s=10927.960 penalized_s=10927.960 complete=15/15 audit=True wall_s=0.036
+RUN outward_3b514d2d38d2a25c__smooth__bounded HIST_ADAPT virtual_s=10273.990 penalized_s=10273.990 complete=15/15 audit=True wall_s=0.104
+RUN inward_6b56c17ef359ca39__spatial_hash__bounded WINDOW virtual_s=7572.629 penalized_s=7572.629 complete=13/13 audit=True wall_s=0.022
+RUN outward_3b514d2d38d2a25c__negative__bounded BASE25 virtual_s=9973.453 penalized_s=9973.453 complete=15/15 audit=True wall_s=0.034
+PROGRESS scenarios=54/96 runs=162/288 failed=0 elapsed_s=2.5
+RUN outward_3b514d2d38d2a25c__smooth__bounded WINDOW virtual_s=11091.228 penalized_s=11091.228 complete=15/15 audit=True wall_s=0.035
+RUN inward_6b56c17ef359ca39__spatial_hash__bounded BASE25 virtual_s=5367.856 penalized_s=5367.856 complete=13/13 audit=True wall_s=0.043
+RUN inward_6b56c17ef359ca39__positive__bounded WINDOW virtual_s=7641.135 penalized_s=7641.135 complete=13/13 audit=True wall_s=0.020
+RUN outward_3b514d2d38d2a25c__positive__bounded BASE25 virtual_s=10626.164 penalized_s=10626.164 complete=15/15 audit=True wall_s=0.051
+PROGRESS scenarios=55/96 runs=165/288 failed=0 elapsed_s=2.5
+RUN inward_6b56c17ef359ca39__negative__bounded WINDOW virtual_s=7850.734 penalized_s=7850.734 complete=13/13 audit=True wall_s=0.030
+RUN outward_3b514d2d38d2a25c__smooth__bounded BASE25 virtual_s=10744.017 penalized_s=10744.017 complete=15/15 audit=True wall_s=0.040
+PROGRESS scenarios=56/96 runs=168/288 failed=0 elapsed_s=2.6
+RUN inward_6b56c17ef359ca39__positive__bounded BASE25 virtual_s=5421.353 penalized_s=5421.353 complete=13/13 audit=True wall_s=0.048
+RUN inward_6b56c17ef359ca39__spatial_hash__bounded HIST_ADAPT virtual_s=5404.353 penalized_s=5404.353 complete=13/13 audit=True wall_s=0.067
+PROGRESS scenarios=57/96 runs=171/288 failed=0 elapsed_s=2.6
+RUN inward_6b56c17ef359ca39__smooth__bounded WINDOW virtual_s=7623.326 penalized_s=7623.326 complete=13/13 audit=True wall_s=0.029
+RUN tangent_15102aee79377728__spatial_hash__bounded WINDOW virtual_s=8778.842 penalized_s=8778.842 complete=13/13 audit=True wall_s=0.031
+RUN inward_6b56c17ef359ca39__positive__bounded HIST_ADAPT virtual_s=5401.111 penalized_s=5401.111 complete=13/13 audit=True wall_s=0.056
+PROGRESS scenarios=58/96 runs=174/288 failed=0 elapsed_s=2.7
+RUN inward_6b56c17ef359ca39__negative__bounded BASE25 virtual_s=5401.620 penalized_s=5401.620 complete=13/13 audit=True wall_s=0.076
+RUN inward_6b56c17ef359ca39__smooth__bounded BASE25 virtual_s=5360.314 penalized_s=5360.314 complete=13/13 audit=True wall_s=0.058
+RUN tangent_15102aee79377728__positive__bounded WINDOW virtual_s=8824.311 penalized_s=8824.311 complete=13/13 audit=True wall_s=0.022
+RUN tangent_15102aee79377728__spatial_hash__bounded BASE25 virtual_s=7134.491 penalized_s=7134.491 complete=13/13 audit=True wall_s=0.051
+RUN tangent_15102aee79377728__positive__bounded BASE25 virtual_s=7176.196 penalized_s=7176.196 complete=13/13 audit=True wall_s=0.053
+RUN inward_6b56c17ef359ca39__smooth__bounded HIST_ADAPT virtual_s=5368.184 penalized_s=5368.184 complete=13/13 audit=True wall_s=0.067
+RUN inward_6b56c17ef359ca39__negative__bounded HIST_ADAPT virtual_s=5418.359 penalized_s=5418.359 complete=13/13 audit=True wall_s=0.093
+PROGRESS scenarios=59/96 runs=177/288 failed=0 elapsed_s=2.8
+PROGRESS scenarios=60/96 runs=180/288 failed=0 elapsed_s=2.8
+RUN tangent_15102aee79377728__spatial_hash__bounded HIST_ADAPT virtual_s=6887.719 penalized_s=6887.719 complete=13/13 audit=True wall_s=0.078
+PROGRESS scenarios=61/96 runs=183/288 failed=0 elapsed_s=2.8
+RUN tangent_15102aee79377728__smooth__bounded WINDOW virtual_s=9500.802 penalized_s=9500.802 complete=13/13 audit=True wall_s=0.038
+RUN tangent_15102aee79377728__negative__bounded WINDOW virtual_s=10118.619 penalized_s=10118.619 complete=13/13 audit=True wall_s=0.044
+RUN tangent_15102aee79377728__positive__bounded HIST_ADAPT virtual_s=6907.355 penalized_s=6907.355 complete=13/13 audit=True wall_s=0.077
+PROGRESS scenarios=62/96 runs=186/288 failed=0 elapsed_s=2.8
+RUN cluster_3b1f102032c8ee68__spatial_hash__bounded BASE25 virtual_s=7042.377 penalized_s=7042.377 complete=10/10 audit=True wall_s=0.043
+RUN tangent_15102aee79377728__smooth__bounded BASE25 virtual_s=7142.473 penalized_s=7142.473 complete=13/13 audit=True wall_s=0.061
+RUN cluster_3b1f102032c8ee68__positive__bounded BASE25 virtual_s=7917.833 penalized_s=7917.833 complete=10/10 audit=True wall_s=0.042
+RUN tangent_15102aee79377728__negative__bounded BASE25 virtual_s=7162.389 penalized_s=7162.389 complete=13/13 audit=True wall_s=0.093
+RUN cluster_3b1f102032c8ee68__spatial_hash__bounded HIST_ADAPT virtual_s=6960.854 penalized_s=6960.854 complete=10/10 audit=True wall_s=0.065
+RUN cluster_3b1f102032c8ee68__positive__bounded HIST_ADAPT virtual_s=7648.060 penalized_s=7648.060 complete=10/10 audit=True wall_s=0.070
+RUN cluster_3b1f102032c8ee68__spatial_hash__bounded WINDOW virtual_s=8364.909 penalized_s=8364.909 complete=10/10 audit=True wall_s=0.026
+PROGRESS scenarios=63/96 runs=189/288 failed=0 elapsed_s=3.0
+RUN tangent_15102aee79377728__smooth__bounded HIST_ADAPT virtual_s=6901.493 penalized_s=6901.493 complete=13/13 audit=True wall_s=0.096
+RUN cluster_3b1f102032c8ee68__positive__bounded WINDOW virtual_s=8959.096 penalized_s=8959.096 complete=10/10 audit=True wall_s=0.023
+PROGRESS scenarios=64/96 runs=192/288 failed=0 elapsed_s=3.0
+PROGRESS scenarios=65/96 runs=195/288 failed=0 elapsed_s=3.0
+RUN edge_a2840c26883d61e1__spatial_hash__bounded WINDOW virtual_s=8911.817 penalized_s=8911.817 complete=15/15 audit=True wall_s=0.024
+RUN tangent_15102aee79377728__negative__bounded HIST_ADAPT virtual_s=6914.021 penalized_s=6914.021 complete=13/13 audit=True wall_s=0.089
+RUN cluster_3b1f102032c8ee68__negative__bounded BASE25 virtual_s=7063.903 penalized_s=7063.903 complete=10/10 audit=True wall_s=0.052
+PROGRESS scenarios=66/96 runs=198/288 failed=0 elapsed_s=3.0
+RUN cluster_3b1f102032c8ee68__smooth__bounded BASE25 virtual_s=7606.989 penalized_s=7606.989 complete=10/10 audit=True wall_s=0.052
+RUN edge_a2840c26883d61e1__positive__bounded WINDOW virtual_s=9090.289 penalized_s=9090.289 complete=15/15 audit=True wall_s=0.026
+RUN edge_a2840c26883d61e1__spatial_hash__bounded BASE25 virtual_s=7362.428 penalized_s=7362.428 complete=15/15 audit=True wall_s=0.046
+RUN cluster_3b1f102032c8ee68__negative__bounded HIST_ADAPT virtual_s=7509.457 penalized_s=7509.457 complete=10/10 audit=True wall_s=0.061
+RUN edge_a2840c26883d61e1__positive__bounded BASE25 virtual_s=8159.735 penalized_s=8159.735 complete=15/15 audit=True wall_s=0.047
+RUN cluster_3b1f102032c8ee68__smooth__bounded HIST_ADAPT virtual_s=7528.190 penalized_s=7528.190 complete=10/10 audit=True wall_s=0.066
+RUN cluster_3b1f102032c8ee68__negative__bounded WINDOW virtual_s=8332.172 penalized_s=8332.172 complete=10/10 audit=True wall_s=0.026
+PROGRESS scenarios=67/96 runs=201/288 failed=0 elapsed_s=3.2
+RUN edge_a2840c26883d61e1__spatial_hash__bounded HIST_ADAPT virtual_s=7314.827 penalized_s=7314.827 complete=15/15 audit=True wall_s=0.061
+PROGRESS scenarios=68/96 runs=204/288 failed=0 elapsed_s=3.2
+RUN edge_a2840c26883d61e1__negative__bounded WINDOW virtual_s=8978.249 penalized_s=8978.249 complete=15/15 audit=True wall_s=0.027
+RUN cluster_3b1f102032c8ee68__smooth__bounded WINDOW virtual_s=8918.096 penalized_s=8918.096 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=69/96 runs=207/288 failed=0 elapsed_s=3.2
+RUN edge_a2840c26883d61e1__smooth__bounded WINDOW virtual_s=8904.522 penalized_s=8904.522 complete=15/15 audit=True wall_s=0.048
+RUN edge_a2840c26883d61e1__positive__bounded HIST_ADAPT virtual_s=8735.617 penalized_s=8735.617 complete=15/15 audit=True wall_s=0.104
+PROGRESS scenarios=70/96 runs=210/288 failed=0 elapsed_s=3.3
+RUN edge_a2840c26883d61e1__negative__bounded BASE25 virtual_s=7520.926 penalized_s=7520.926 complete=15/15 audit=True wall_s=0.060
+RUN edge_a2840c26883d61e1__smooth__bounded BASE25 virtual_s=7361.618 penalized_s=7361.618 complete=15/15 audit=True wall_s=0.049
+RUN uniform_af970b0b12b01d92__spatial_hash__bounded BASE25 virtual_s=5797.500 penalized_s=5797.500 complete=12/12 audit=True wall_s=0.090
+RUN uniform_af970b0b12b01d92__positive__bounded BASE25 virtual_s=5774.781 penalized_s=5774.781 complete=12/12 audit=True wall_s=0.069
+RUN edge_a2840c26883d61e1__negative__bounded HIST_ADAPT virtual_s=7499.627 penalized_s=7499.627 complete=15/15 audit=True wall_s=0.079
+RUN edge_a2840c26883d61e1__smooth__bounded HIST_ADAPT virtual_s=7307.362 penalized_s=7307.362 complete=15/15 audit=True wall_s=0.059
+PROGRESS scenarios=71/96 runs=213/288 failed=0 elapsed_s=3.4
+PROGRESS scenarios=72/96 runs=216/288 failed=0 elapsed_s=3.4
+RUN uniform_af970b0b12b01d92__spatial_hash__bounded HIST_ADAPT virtual_s=5794.942 penalized_s=5794.942 complete=12/12 audit=True wall_s=0.084
+RUN uniform_af970b0b12b01d92__positive__bounded HIST_ADAPT virtual_s=5791.950 penalized_s=5791.950 complete=12/12 audit=True wall_s=0.075
+RUN uniform_af970b0b12b01d92__spatial_hash__bounded WINDOW virtual_s=7503.431 penalized_s=7503.431 complete=12/12 audit=True wall_s=0.027
+RUN uniform_af970b0b12b01d92__smooth__bounded BASE25 virtual_s=5754.067 penalized_s=5754.067 complete=12/12 audit=True wall_s=0.070
+PROGRESS scenarios=73/96 runs=219/288 failed=0 elapsed_s=3.4
+RUN uniform_af970b0b12b01d92__positive__bounded WINDOW virtual_s=7534.540 penalized_s=7534.540 complete=12/12 audit=True wall_s=0.020
+PROGRESS scenarios=74/96 runs=222/288 failed=0 elapsed_s=3.4
+RUN uniform_af970b0b12b01d92__negative__bounded BASE25 virtual_s=5812.818 penalized_s=5812.818 complete=12/12 audit=True wall_s=0.098
+RUN outward_fbe869b0a4890c18__spatial_hash__bounded WINDOW virtual_s=10041.928 penalized_s=10041.928 complete=15/15 audit=True wall_s=0.031
+RUN outward_fbe869b0a4890c18__positive__bounded WINDOW virtual_s=10192.504 penalized_s=10192.504 complete=15/15 audit=True wall_s=0.027
+RUN outward_fbe869b0a4890c18__spatial_hash__bounded BASE25 virtual_s=10264.720 penalized_s=10264.720 complete=15/15 audit=True wall_s=0.044
+RUN uniform_af970b0b12b01d92__smooth__bounded HIST_ADAPT virtual_s=5780.268 penalized_s=5780.268 complete=12/12 audit=True wall_s=0.084
+RUN outward_fbe869b0a4890c18__positive__bounded BASE25 virtual_s=10101.847 penalized_s=10101.847 complete=15/15 audit=True wall_s=0.049
+RUN uniform_af970b0b12b01d92__smooth__bounded WINDOW virtual_s=7441.380 penalized_s=7441.380 complete=12/12 audit=True wall_s=0.021
+PROGRESS scenarios=75/96 runs=225/288 failed=0 elapsed_s=3.6
+RUN uniform_af970b0b12b01d92__negative__bounded HIST_ADAPT virtual_s=5795.571 penalized_s=5795.571 complete=12/12 audit=True wall_s=0.107
+RUN outward_fbe869b0a4890c18__spatial_hash__bounded HIST_ADAPT virtual_s=9752.046 penalized_s=9752.046 complete=15/15 audit=True wall_s=0.044
+PROGRESS scenarios=76/96 runs=228/288 failed=0 elapsed_s=3.6
+RUN outward_fbe869b0a4890c18__negative__bounded WINDOW virtual_s=10530.794 penalized_s=10530.794 complete=15/15 audit=True wall_s=0.028
+RUN uniform_af970b0b12b01d92__negative__bounded WINDOW virtual_s=7503.387 penalized_s=7503.387 complete=12/12 audit=True wall_s=0.020
+PROGRESS scenarios=77/96 runs=231/288 failed=0 elapsed_s=3.6
+RUN outward_fbe869b0a4890c18__positive__bounded HIST_ADAPT virtual_s=9594.414 penalized_s=9594.414 complete=15/15 audit=True wall_s=0.060
+RUN outward_fbe869b0a4890c18__smooth__bounded WINDOW virtual_s=10624.526 penalized_s=10624.526 complete=15/15 audit=True wall_s=0.036
+PROGRESS scenarios=78/96 runs=234/288 failed=0 elapsed_s=3.6
+RUN outward_fbe869b0a4890c18__negative__bounded BASE25 virtual_s=10590.209 penalized_s=10590.209 complete=15/15 audit=True wall_s=0.035
+RUN inward_da31b96edab12361__spatial_hash__bounded HIST_ADAPT virtual_s=5699.373 penalized_s=5699.373 complete=14/14 audit=True wall_s=0.056
+RUN outward_fbe869b0a4890c18__smooth__bounded BASE25 virtual_s=9885.275 penalized_s=9885.275 complete=15/15 audit=True wall_s=0.043
+RUN inward_da31b96edab12361__spatial_hash__bounded WINDOW virtual_s=8583.160 penalized_s=8583.160 complete=14/14 audit=True wall_s=0.020
+RUN outward_fbe869b0a4890c18__negative__bounded HIST_ADAPT virtual_s=10916.078 penalized_s=10916.078 complete=15/15 audit=True wall_s=0.052
+PROGRESS scenarios=79/96 runs=237/288 failed=0 elapsed_s=3.7
+RUN inward_da31b96edab12361__positive__bounded HIST_ADAPT virtual_s=5714.258 penalized_s=5714.258 complete=14/14 audit=True wall_s=0.087
+RUN inward_da31b96edab12361__spatial_hash__bounded BASE25 virtual_s=5586.599 penalized_s=5586.599 complete=14/14 audit=True wall_s=0.041
+PROGRESS scenarios=80/96 runs=240/288 failed=0 elapsed_s=3.7
+RUN inward_da31b96edab12361__positive__bounded WINDOW virtual_s=8460.168 penalized_s=8460.168 complete=14/14 audit=True wall_s=0.026
+RUN outward_fbe869b0a4890c18__smooth__bounded HIST_ADAPT virtual_s=10212.282 penalized_s=10212.282 complete=15/15 audit=True wall_s=0.069
+PROGRESS scenarios=81/96 runs=243/288 failed=0 elapsed_s=3.8
+RUN inward_da31b96edab12361__negative__bounded HIST_ADAPT virtual_s=5690.718 penalized_s=5690.718 complete=14/14 audit=True wall_s=0.073
+RUN inward_da31b96edab12361__smooth__bounded HIST_ADAPT virtual_s=5511.796 penalized_s=5511.796 complete=14/14 audit=True wall_s=0.052
+RUN inward_da31b96edab12361__negative__bounded WINDOW virtual_s=8609.459 penalized_s=8609.459 complete=14/14 audit=True wall_s=0.021
+RUN inward_da31b96edab12361__positive__bounded BASE25 virtual_s=5630.398 penalized_s=5630.398 complete=14/14 audit=True wall_s=0.058
+PROGRESS scenarios=82/96 runs=246/288 failed=0 elapsed_s=3.8
+RUN inward_da31b96edab12361__smooth__bounded WINDOW virtual_s=8569.943 penalized_s=8569.943 complete=14/14 audit=True wall_s=0.021
+RUN tangent_8a8b8c78ec4b47cc__spatial_hash__bounded BASE25 virtual_s=8073.353 penalized_s=8073.353 complete=11/11 audit=True wall_s=0.062
+RUN inward_da31b96edab12361__negative__bounded BASE25 virtual_s=5603.945 penalized_s=5603.945 complete=14/14 audit=True wall_s=0.043
+PROGRESS scenarios=83/96 runs=249/288 failed=0 elapsed_s=3.9
+RUN inward_da31b96edab12361__smooth__bounded BASE25 virtual_s=5498.494 penalized_s=5498.494 complete=14/14 audit=True wall_s=0.042
+PROGRESS scenarios=84/96 runs=252/288 failed=0 elapsed_s=3.9
+RUN tangent_8a8b8c78ec4b47cc__positive__bounded BASE25 virtual_s=7832.449 penalized_s=7832.449 complete=11/11 audit=True wall_s=0.056
+RUN tangent_8a8b8c78ec4b47cc__negative__bounded BASE25 virtual_s=8103.180 penalized_s=8103.180 complete=11/11 audit=True wall_s=0.044
+RUN tangent_8a8b8c78ec4b47cc__smooth__bounded BASE25 virtual_s=8084.625 penalized_s=8084.625 complete=11/11 audit=True wall_s=0.043
+RUN tangent_8a8b8c78ec4b47cc__spatial_hash__bounded HIST_ADAPT virtual_s=7620.295 penalized_s=7620.295 complete=11/11 audit=True wall_s=0.076
+RUN tangent_8a8b8c78ec4b47cc__positive__bounded HIST_ADAPT virtual_s=7367.804 penalized_s=7367.804 complete=11/11 audit=True wall_s=0.075
+RUN tangent_8a8b8c78ec4b47cc__negative__bounded HIST_ADAPT virtual_s=7613.209 penalized_s=7613.209 complete=11/11 audit=True wall_s=0.055
+RUN tangent_8a8b8c78ec4b47cc__smooth__bounded HIST_ADAPT virtual_s=7639.016 penalized_s=7639.016 complete=11/11 audit=True wall_s=0.054
+RUN tangent_8a8b8c78ec4b47cc__spatial_hash__bounded WINDOW virtual_s=9340.701 penalized_s=9340.701 complete=11/11 audit=True wall_s=0.059
+PROGRESS scenarios=85/96 runs=255/288 failed=0 elapsed_s=4.0
+RUN tangent_8a8b8c78ec4b47cc__negative__bounded WINDOW virtual_s=9316.991 penalized_s=9316.991 complete=11/11 audit=True wall_s=0.025
+PROGRESS scenarios=86/96 runs=258/288 failed=0 elapsed_s=4.0
+RUN tangent_8a8b8c78ec4b47cc__smooth__bounded WINDOW virtual_s=8888.205 penalized_s=8888.205 complete=11/11 audit=True wall_s=0.023
+PROGRESS scenarios=87/96 runs=261/288 failed=0 elapsed_s=4.0
+RUN cluster_8890e51e76ccce0a__spatial_hash__bounded WINDOW virtual_s=8812.474 penalized_s=8812.474 complete=11/11 audit=True wall_s=0.026
+RUN tangent_8a8b8c78ec4b47cc__positive__bounded WINDOW virtual_s=8993.652 penalized_s=8993.652 complete=11/11 audit=True wall_s=0.053
+RUN cluster_8890e51e76ccce0a__positive__bounded WINDOW virtual_s=8535.970 penalized_s=8535.970 complete=11/11 audit=True wall_s=0.021
+PROGRESS scenarios=88/96 runs=264/288 failed=0 elapsed_s=4.0
+RUN cluster_8890e51e76ccce0a__smooth__bounded WINDOW virtual_s=8808.099 penalized_s=8808.099 complete=11/11 audit=True wall_s=0.033
+RUN cluster_8890e51e76ccce0a__negative__bounded WINDOW virtual_s=9210.346 penalized_s=9210.346 complete=11/11 audit=True wall_s=0.053
+RUN cluster_8890e51e76ccce0a__spatial_hash__bounded BASE25 virtual_s=7642.171 penalized_s=7642.171 complete=11/11 audit=True wall_s=0.054
+RUN cluster_8890e51e76ccce0a__positive__bounded BASE25 virtual_s=7220.337 penalized_s=7220.337 complete=11/11 audit=True wall_s=0.049
+RUN cluster_8890e51e76ccce0a__smooth__bounded BASE25 virtual_s=7610.942 penalized_s=7610.942 complete=11/11 audit=True wall_s=0.048
+RUN cluster_8890e51e76ccce0a__negative__bounded BASE25 virtual_s=8067.574 penalized_s=8067.574 complete=11/11 audit=True wall_s=0.046
+RUN cluster_8890e51e76ccce0a__spatial_hash__bounded HIST_ADAPT virtual_s=6676.358 penalized_s=6676.358 complete=11/11 audit=True wall_s=0.063
+PROGRESS scenarios=89/96 runs=267/288 failed=0 elapsed_s=4.2
+RUN cluster_8890e51e76ccce0a__positive__bounded HIST_ADAPT virtual_s=6796.945 penalized_s=6796.945 complete=11/11 audit=True wall_s=0.072
+PROGRESS scenarios=90/96 runs=270/288 failed=0 elapsed_s=4.2
+RUN cluster_8890e51e76ccce0a__negative__bounded HIST_ADAPT virtual_s=7316.770 penalized_s=7316.770 complete=11/11 audit=True wall_s=0.059
+RUN edge_7c044f59c4b53ac3__spatial_hash__bounded WINDOW virtual_s=8217.475 penalized_s=8217.475 complete=11/11 audit=True wall_s=0.033
+RUN edge_7c044f59c4b53ac3__positive__bounded WINDOW virtual_s=8236.391 penalized_s=8236.391 complete=11/11 audit=True wall_s=0.027
+PROGRESS scenarios=91/96 runs=273/288 failed=0 elapsed_s=4.2
+RUN cluster_8890e51e76ccce0a__smooth__bounded HIST_ADAPT virtual_s=7290.660 penalized_s=7290.660 complete=11/11 audit=True wall_s=0.073
+PROGRESS scenarios=92/96 runs=276/288 failed=0 elapsed_s=4.2
+RUN edge_7c044f59c4b53ac3__negative__bounded WINDOW virtual_s=8211.965 penalized_s=8211.965 complete=11/11 audit=True wall_s=0.025
+RUN edge_7c044f59c4b53ac3__smooth__bounded WINDOW virtual_s=8234.113 penalized_s=8234.113 complete=11/11 audit=True wall_s=0.031
+RUN edge_7c044f59c4b53ac3__spatial_hash__bounded BASE25 virtual_s=6985.786 penalized_s=6985.786 complete=11/11 audit=True wall_s=0.041
+RUN edge_7c044f59c4b53ac3__positive__bounded BASE25 virtual_s=7016.638 penalized_s=7016.638 complete=11/11 audit=True wall_s=0.048
+RUN edge_7c044f59c4b53ac3__negative__bounded BASE25 virtual_s=6847.937 penalized_s=6847.937 complete=11/11 audit=True wall_s=0.046
+RUN edge_7c044f59c4b53ac3__smooth__bounded BASE25 virtual_s=6983.698 penalized_s=6983.698 complete=11/11 audit=True wall_s=0.055
+RUN edge_7c044f59c4b53ac3__spatial_hash__bounded HIST_ADAPT virtual_s=6844.756 penalized_s=6844.756 complete=11/11 audit=True wall_s=0.060
+PROGRESS scenarios=93/96 runs=279/288 failed=0 elapsed_s=4.4
+RUN edge_7c044f59c4b53ac3__positive__bounded HIST_ADAPT virtual_s=6819.258 penalized_s=6819.258 complete=11/11 audit=True wall_s=0.076
+PROGRESS scenarios=94/96 runs=282/288 failed=0 elapsed_s=4.4
+RUN edge_7c044f59c4b53ac3__negative__bounded HIST_ADAPT virtual_s=6943.944 penalized_s=6943.944 complete=11/11 audit=True wall_s=0.065
+PROGRESS scenarios=95/96 runs=285/288 failed=0 elapsed_s=4.4
+RUN edge_7c044f59c4b53ac3__smooth__bounded HIST_ADAPT virtual_s=6812.576 penalized_s=6812.576 complete=11/11 audit=True wall_s=0.069
+PROGRESS scenarios=96/96 runs=288/288 failed=0 elapsed_s=4.4
+{
+  "HIST_ADAPT": {
+    "complete": 96,
+    "runs": 96,
+    "mean_s": 6774.574163302083,
+    "p95_s": 9867.105371000001,
+    "max_s": 10916.077793,
+    "gain_ratio_of_means_pct": 1.2135142503025276
+  },
+  "WINDOW": {
+    "complete": 96,
+    "runs": 96,
+    "mean_s": 8055.9658546875,
+    "p95_s": 10265.5167805,
+    "max_s": 11091.227962,
+    "gain_ratio_of_means_pct": -17.47167230305069
+  },
+  "BASE25": {
+    "complete": 96,
+    "runs": 96,
+    "mean_s": 6857.7944765312495,
+    "p95_s": 10005.55130025,
+    "max_s": 10744.016689,
+    "gain_ratio_of_means_pct": 0.0
+  }
+}

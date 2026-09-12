@@ -1,0 +1,41 @@
+{
+  "REF": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true
+  },
+  "PROBE": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "centroid_probe": true
+  },
+  "RELOCATE": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "relocate_route": true
+  },
+  "INFO": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true
+  },
+  "COST": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "detection_cost_route": true
+  }
+}

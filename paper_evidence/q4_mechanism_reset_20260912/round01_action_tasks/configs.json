@@ -1,0 +1,13 @@
+{
+  "BASE25": {
+    "family": "baseline"
+  },
+  "HIST_ADAPT": {
+    "family": "historical"
+  },
+  "ACTUAL_TASK": {
+    "family": "scheduling",
+    "schedule": "actual_task",
+    "schedule_parent": "baseline"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "BASE25": {
+    "mean_s": 6744.3825541625,
+    "p95_s": 9497.47145145,
+    "max_s": 11986.288598,
+    "gain_ratio_of_means_pct": 0.0,
+    "failed": 0,
+    "timeouts": 0
+  },
+  "HIST_ADAPT": {
+    "mean_s": 6614.154428313542,
+    "p95_s": 9417.567148,
+    "max_s": 12592.282717,
+    "gain_ratio_of_means_pct": 1.93091250093137,
+    "failed": 0,
+    "timeouts": 0
+  },
+  "COVER_EXCHANGE": {
+    "mean_s": 6734.418436483334,
+    "p95_s": 9497.47145145,
+    "max_s": 11986.288598,
+    "gain_ratio_of_means_pct": 0.1477395091269984,
+    "failed": 0,
+    "timeouts": 0
+  },
+  "COVER_ELASTIC": {
+    "mean_s": 6740.980925438542,
+    "p95_s": 9460.057152649999,
+    "max_s": 11928.428123,
+    "gain_ratio_of_means_pct": 0.050436473563597595,
+    "failed": 0,
+    "timeouts": 0
+  },
+  "COVER_EXCHANGE_ELASTIC": {
+    "mean_s": 6719.669391391667,
+    "p95_s": 9460.057152649999,
+    "max_s": 11928.428123,
+    "gain_ratio_of_means_pct": 0.3664258747538063,
+    "failed": 0,
+    "timeouts": 0
+  }
+}

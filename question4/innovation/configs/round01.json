@@ -1,0 +1,27 @@
+{
+  "BASE": {
+    "mechanism": "baseline"
+  },
+  "CENTER": {
+    "mechanism": "center"
+  },
+  "PARALLAX": {
+    "mechanism": "parallax"
+  },
+  "PAIR_SHARED": {
+    "mechanism": "pair",
+    "sharing": "range"
+  },
+  "PAIR_GATED": {
+    "mechanism": "pair",
+    "sharing": "gated"
+  },
+  "ADAPT_SHARED": {
+    "mechanism": "parallax",
+    "sharing": "range"
+  },
+  "ADAPT_GATED": {
+    "mechanism": "parallax",
+    "sharing": "gated"
+  }
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "batch": "round1_dev",
+    "candidate": "OPTICAL",
+    "reference": "BASE",
+    "case_id": "uniform_41000_spatial_hash",
+    "slowdown_pct": 40.60971665098301,
+    "candidate_seconds": 11731.668722,
+    "reference_seconds": 8343.426757,
+    "candidate_counts": {
+      "measure": 164,
+      "clear": 754,
+      "clear_success": 16,
+      "clear_failure": 738,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 8470.668480866045,
+      "switch_s": 147.0,
+      "detection_s": 820.0,
+      "optical_s": 2262.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 7068.426752641493,
+      "switch_s": 167.0,
+      "detection_s": 920.0,
+      "optical_s": 156.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round1_dev/OPTICAL/uniform_41000_spatial_hash",
+    "fixture_path": "question4/results/round1_dev/fixtures.json"
+  },
+  {
+    "batch": "round3_validation",
+    "candidate": "ROUTE",
+    "reference": "BASE",
+    "case_id": "outward_51055_spatial_hash",
+    "slowdown_pct": 44.770435041622456,
+    "candidate_seconds": 8583.601555,
+    "reference_seconds": 5929.11222,
+    "candidate_counts": {
+      "measure": 309,
+      "clear": 20,
+      "clear_success": 16,
+      "clear_failure": 4,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 6656.601553115078,
+      "switch_s": 290.0,
+      "detection_s": 1545.0,
+      "optical_s": 60.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 4830.112218735748,
+      "switch_s": 161.0,
+      "detection_s": 840.0,
+      "optical_s": 66.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round3_validation/ROUTE/outward_51055_spatial_hash",
+    "fixture_path": "question4/results/round3_validation/fixtures.json"
+  },
+  {
+    "batch": "round4_dev",
+    "candidate": "NONE",
+    "reference": "REF",
+    "case_id": "inward_41008_spatial_hash",
+    "slowdown_pct": 37.300858473222306,
+    "candidate_seconds": 10048.156566,
+    "reference_seconds": 7318.34941,
+    "candidate_counts": {
+      "measure": 224,
+      "clear": 29,
+      "clear_success": 16,
+      "clear_failure": 13,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 8605.15656740304,
+      "switch_s": 204.0,
+      "detection_s": 1120.0,
+      "optical_s": 87.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 5756.349412633375,
+      "switch_s": 228.0,
+      "detection_s": 1215.0,
+      "optical_s": 87.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round4_dev/NONE/inward_41008_spatial_hash",
+    "fixture_path": "question4/results/round4_dev/fixtures.json"
+  },
+  {
+    "batch": "round6_validation",
+    "candidate": "COST",
+    "reference": "REF",
+    "case_id": "outward_71007_spatial_hash",
+    "slowdown_pct": 26.439137588233443,
+    "candidate_seconds": 9854.023892,
+    "reference_seconds": 7793.491857,
+    "candidate_counts": {
+      "measure": 315,
+      "clear": 127,
+      "clear_success": 16,
+      "clear_failure": 111,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 7569.023847510697,
+      "switch_s": 297.0,
+      "detection_s": 1575.0,
+      "optical_s": 381.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 5977.491858082407,
+      "switch_s": 270.0,
+      "detection_s": 1430.0,
+      "optical_s": 84.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round6_validation/COST/outward_71007_spatial_hash",
+    "fixture_path": "question4/results/round6_validation/fixtures.json"
+  },
+  {
+    "batch": "round9_main",
+    "candidate": "COMPACT22",
+    "reference": "FINAL",
+    "case_id": "inward_111008_positive",
+    "slowdown_pct": 67.12249459866611,
+    "candidate_seconds": 7855.045982,
+    "reference_seconds": 4700.172769,
+    "candidate_counts": {
+      "measure": 258,
+      "clear": 27,
+      "clear_success": 16,
+      "clear_failure": 11,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 6212.04598005275,
+      "switch_s": 240.0,
+      "detection_s": 1290.0,
+      "optical_s": 81.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 3341.172769181446,
+      "switch_s": 179.0,
+      "detection_s": 950.0,
+      "optical_s": 198.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round9_main/COMPACT22/inward_111008_positive",
+    "fixture_path": "question4/results/round9_main/fixtures.json"
+  },
+  {
+    "batch": "round9_rounding",
+    "candidate": "RELOCATE",
+    "reference": "FINAL",
+    "case_id": "cluster_121088_negative",
+    "slowdown_pct": 11.528527372032116,
+    "candidate_seconds": 8680.766818,
+    "reference_seconds": 7783.44969,
+    "candidate_counts": {
+      "measure": 370,
+      "clear": 109,
+      "clear_success": 12,
+      "clear_failure": 97,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 6134.76677435342,
+      "switch_s": 345.0,
+      "detection_s": 1850.0,
+      "optical_s": 327.0,
+      "laser_s": 24.0
+    },
+    "reference_components": {
+      "movement_s": 5551.449687960108,
+      "switch_s": 332.0,
+      "detection_s": 1795.0,
+      "optical_s": 81.0,
+      "laser_s": 24.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round9_rounding/RELOCATE/cluster_121088_negative",
+    "fixture_path": "question4/results/round9_rounding/fixtures.json"
+  },
+  {
+    "batch": "round9_main",
+    "candidate": "COST",
+    "reference": "FINAL",
+    "case_id": "inward_111008_positive",
+    "slowdown_pct": 71.69253094747252,
+    "candidate_seconds": 8069.845586,
+    "reference_seconds": 4700.172769,
+    "candidate_counts": {
+      "measure": 322,
+      "clear": 59,
+      "clear_success": 16,
+      "clear_failure": 43,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 5947.845584392974,
+      "switch_s": 303.0,
+      "detection_s": 1610.0,
+      "optical_s": 177.0,
+      "laser_s": 32.0
+    },
+    "reference_components": {
+      "movement_s": 3341.172769181446,
+      "switch_s": 179.0,
+      "detection_s": 950.0,
+      "optical_s": 198.0,
+      "laser_s": 32.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round9_main/COST/inward_111008_positive",
+    "fixture_path": "question4/results/round9_main/fixtures.json"
+  },
+  {
+    "batch": "round9_rounding",
+    "candidate": "PROBE",
+    "reference": "FINAL",
+    "case_id": "edge_121071_smooth",
+    "slowdown_pct": 13.272039820301917,
+    "candidate_seconds": 7228.892586,
+    "reference_seconds": 6381.886119,
+    "candidate_counts": {
+      "measure": 307,
+      "clear": 108,
+      "clear_success": 15,
+      "clear_failure": 93,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 5055.89257295532,
+      "switch_s": 284.0,
+      "detection_s": 1535.0,
+      "optical_s": 324.0,
+      "laser_s": 30.0
+    },
+    "reference_components": {
+      "movement_s": 4469.886117896338,
+      "switch_s": 284.0,
+      "detection_s": 1535.0,
+      "optical_s": 63.0,
+      "laser_s": 30.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round9_rounding/PROBE/edge_121071_smooth",
+    "fixture_path": "question4/results/round9_rounding/fixtures.json"
+  },
+  {
+    "batch": "round9_rounding",
+    "candidate": "REFINE",
+    "reference": "FINAL",
+    "case_id": "outward_121037_negative",
+    "slowdown_pct": 14.015953098245703,
+    "candidate_seconds": 11366.976036,
+    "reference_seconds": 9969.636465,
+    "candidate_counts": {
+      "measure": 473,
+      "clear": 122,
+      "clear_success": 12,
+      "clear_failure": 110,
+      "retries": 0
+    },
+    "candidate_components": {
+      "movement_s": 8179.9760719173655,
+      "switch_s": 432.0,
+      "detection_s": 2365.0,
+      "optical_s": 366.0,
+      "laser_s": 24.0
+    },
+    "reference_components": {
+      "movement_s": 7121.636462677579,
+      "switch_s": 428.0,
+      "detection_s": 2285.0,
+      "optical_s": 111.0,
+      "laser_s": 24.0
+    },
+    "status": "complete",
+    "raw_path": "question4/results/round9_rounding/REFINE/outward_121037_negative",
+    "fixture_path": "question4/results/round9_rounding/fixtures.json"
+  }
+]

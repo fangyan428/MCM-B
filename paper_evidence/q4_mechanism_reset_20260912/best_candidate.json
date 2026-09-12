@@ -1,0 +1,10 @@
+{
+  "name": "COVER_EXCHANGE_ELASTIC",
+  "config": {
+    "family": "coverage",
+    "mechanism": "exchange_elastic",
+    "certificate": "cells"
+  },
+  "selection_basis": "best mean development arm among new mechanisms, all complete and P95 nonworse; 2.328% below required 5%; fixed before final validation",
+  "replace_recommendation": false
+}

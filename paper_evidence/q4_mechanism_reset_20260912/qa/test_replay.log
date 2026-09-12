@@ -1,0 +1,10 @@
+test_exact_point_rejects_coordinate_change (paper_evidence.q4_mechanism_reset_20260912.qa.test_replay.Tests.test_exact_point_rejects_coordinate_change) ... ok
+test_no_extra_actions (paper_evidence.q4_mechanism_reset_20260912.qa.test_replay.Tests.test_no_extra_actions) ... ok
+test_policy_dependency_scan_passes_with_public_geometry_io_review (paper_evidence.q4_mechanism_reset_20260912.qa.test_replay.Tests.test_policy_dependency_scan_passes_with_public_geometry_io_review) ... ok
+test_request_id_can_change_but_retry_must_reuse (paper_evidence.q4_mechanism_reset_20260912.qa.test_replay.Tests.test_request_id_can_change_but_retry_must_reuse) ... ok
+test_static_scan_catches_evaluator_import_and_hidden_access (paper_evidence.q4_mechanism_reset_20260912.qa.test_replay.Tests.test_static_scan_catches_evaluator_import_and_hidden_access) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.049s
+
+OK

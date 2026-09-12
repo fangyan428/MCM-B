@@ -1,0 +1,18 @@
+{
+  "BASE25": {
+    "family": "baseline"
+  },
+  "HIST_ADAPT": {
+    "family": "historical"
+  },
+  "COVER_EXCHANGE": {
+    "family": "coverage",
+    "mechanism": "exchange",
+    "certificate": "cells"
+  },
+  "COVER_EXCHANGE_TRI": {
+    "family": "coverage",
+    "mechanism": "exchange",
+    "certificate": "triangles"
+  }
+}

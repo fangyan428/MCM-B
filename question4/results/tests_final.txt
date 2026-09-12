@@ -1,0 +1,21 @@
+test_clear_does_not_switch (test_contract.ContractTests.test_clear_does_not_switch) ... ok
+test_directional_backside_near_and_optical (test_contract.ContractTests.test_directional_backside_near_and_optical) ... ok
+test_fixed_location_fixed_error_and_idempotent (test_contract.ContractTests.test_fixed_location_fixed_error_and_idempotent) ... ok
+test_full_run_and_tampered_stop (test_contract.ContractTests.test_full_run_and_tampered_stop) ... ok
+test_grid_detection_for_boundary_and_orientations (test_contract.ContractTests.test_grid_detection_for_boundary_and_orientations) ... ok
+test_pure_optical_fallback_all_types_and_error_signs (test_contract.ContractTests.test_pure_optical_fallback_all_types_and_error_signs) ... ok
+test_sector_and_optical_certificate_error_extremes (test_contract.ContractTests.test_sector_and_optical_certificate_error_extremes) ... ok
+test_bad_witness_and_station (test_cover_http.CoverHttpTests.test_bad_witness_and_station) ... ok
+test_continuous_cover_and_missing_cell (test_cover_http.CoverHttpTests.test_continuous_cover_and_missing_cell) ... ok
+test_official_mode_requires_actual_operator_context (test_cover_http.CoverHttpTests.test_official_mode_requires_actual_operator_context) ... ok
+test_recommended_mechanisms_over_real_http (test_cover_http.CoverHttpTests.test_recommended_mechanisms_over_real_http) ... ok
+test_configuration_typo_rejected_before_enter (test_faults.FaultTests.test_configuration_typo_rejected_before_enter) ... ok
+test_exhausted_retries_cannot_claim_completion (test_faults.FaultTests.test_exhausted_retries_cannot_claim_completion) ... ok
+test_lost_accepted_response_is_retried_and_audited_once (test_faults.FaultTests.test_lost_accepted_response_is_retried_and_audited_once) ... ok
+test_numerically_inconsistent_bearing_rejected (test_faults.FaultTests.test_numerically_inconsistent_bearing_rejected) ... ok
+test_rejected_request_retains_clock_and_poisoned_state (test_faults.FaultTests.test_rejected_request_retains_clock_and_poisoned_state) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.730s
+
+OK

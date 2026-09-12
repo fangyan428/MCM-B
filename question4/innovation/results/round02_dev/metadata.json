@@ -1,0 +1,56 @@
+{
+  "stage": "development_reused_layouts",
+  "independent_new_layouts": false,
+  "independent_validation": false,
+  "reuse_label": "reproduction_not_independent",
+  "fixture_source": "/home/fangyan/projects/MCM-B/question4/innovation/results/round01_dev/fixtures.json",
+  "layouts": 24,
+  "scenarios": 48,
+  "algorithm_runs": 480,
+  "error_modes": [
+    "spatial_hash",
+    "positive"
+  ],
+  "roundings": [
+    "bounded"
+  ],
+  "family_layout_counts": {
+    "uniform": 4,
+    "outward": 4,
+    "inward": 4,
+    "tangent": 4,
+    "cluster": 4,
+    "edge": 4
+  },
+  "layout_sha256": [
+    "018e86aa17eb0acbdb44943d800d5e256e73b4beefbebc1f476607ceb4331704",
+    "0a848e55c830d314bd0b6ebfaa46bcd71109b30e3bd2dd16264433cb133e9757",
+    "0f9c56a5b42beb338c25ecc538e4469e8f0ad0b6869d2d8ae493f6e01ee82c09",
+    "217e19c1391995e9502768c8e2ffc744aa906f88ea81c657cbe9726eb3d6e029",
+    "27e1cd731f85646cfcdfef0bde63f215fb9ea5c9cb4347efe23a98d1e2de8dfa",
+    "3658eabf873e046fe5879451aaea7dab0441af20b7f64aebf11b996e5b585e6e",
+    "38ddb79636676a517dc23a4ddc68afc8b434a551dd91edd629b41e0e3f55fe85",
+    "45689d98bfe9a985816549569842696891d332a43700f758d07944349bda382d",
+    "4641abcc3135a211d07687137c6fd92a0952ea81a06e70adbb852981527dfef1",
+    "4908221106b4c94cd2fc5cf016f640fa4f3376e1cbfd110bc51de82f6bdaeef7",
+    "55d45b28a19ef6520c091c6ad81af73726adc3259d174191079c8134bcb08814",
+    "6a807fd2a1f0c963e18f686525ca469797e184b407ad48d3915a9feeab286ad6",
+    "74a0fbbdbf636edddd07e23f786c78a75d182ab5d8e8b7997e252477a1dcec44",
+    "78c1af8021d42ee504e305a032aa30a5747b189bdb9d3ac27b57dd2dc7a9c308",
+    "7d690c6e341e2f2800b4e47cd1cbb5c24064a4e8e6bd0f2d646f47784a2e472b",
+    "7fee46f136f92cfaafb47d7984e2ff1b2a1e4540f9dc7da3debc2a45270d6a40",
+    "8767e0ed2d1856aac9bcb28b7bc24896baf8fb2a6b845f5374bf0b52e5837335",
+    "9a4083d4971308d3704b034581dbfd7fd58a6dcc48c6714180d37bc3622ef547",
+    "a96119eedc85345f285106f81c0e61aba3b825b7d001e8675441ca0444a7e456",
+    "aa8bc2a2723c85c8fe3a05c6f6ea4c9a6b54e7d513e1fa95cf051ac1fd7d8368",
+    "be30076405d236b42076eafaba0e0ac4070ad347ce4c0ac8739ec8b2475d073d",
+    "bf9b2034c4016be21433b4936dd9252fdc7d1dc79b9184ad017c5d304e03933f",
+    "ddb99f99fb1ed864f1519de7debb6f5434b0d0c611a74833e49f6c22c29dda63",
+    "e435da00ca92a8594da9c2020cb29281278b51e459a7f3260008e17fc43f3288"
+  ],
+  "fixtures_sha256": "70b08ee14c5ebefe67223249f40640f43e197533b438988211ddf2204894123e",
+  "generated_after_snapshot_unix": 1789183352.2321165,
+  "official_runs": 0,
+  "http_runs": 0,
+  "lock_sha256": "cc84d407371385823834d4370ea4ce68c88e0e31b3aac4802f2e8cda9b868e60"
+}

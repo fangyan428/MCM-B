@@ -1,0 +1,61 @@
+{
+  "stage": "adversarial_development",
+  "independent_new_layouts": false,
+  "independent_validation": false,
+  "reuse_label": "reproduction_not_independent",
+  "fixture_source": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/stress/fixtures.json",
+  "layouts": 16,
+  "scenarios": 128,
+  "algorithm_runs": 640,
+  "error_modes": [
+    "spatial_hash",
+    "positive",
+    "negative",
+    "smooth"
+  ],
+  "roundings": [
+    "bounded",
+    "pre_round_stress"
+  ],
+  "family_layout_counts": {
+    "stress_boundary_outward_16": 1,
+    "stress_boundary_inward_10": 1,
+    "stress_boundary_tangent_16": 1,
+    "stress_boundary_alternating_12": 1,
+    "stress_halfplane_boundary": 1,
+    "stress_halfplane_sides": 1,
+    "stress_near_backside_16": 1,
+    "stress_near_threshold_10": 1,
+    "stress_single_cluster_16": 1,
+    "stress_opposite_clusters_16": 1,
+    "stress_three_clusters_10": 1,
+    "stress_sparse_extreme_ranges_10": 1,
+    "stress_radial_collinear_16": 1,
+    "stress_reception_threshold": 1,
+    "stress_rounding_half_ticks": 1,
+    "stress_mixed_boundary_16": 1
+  },
+  "layout_sha256": [
+    "0c4f1c8c9f8efd6e9afae4e10154b14e8e9ea8883fe9bdc3f449d4123a3cefa1",
+    "0c5cede1a45c5aad0e211c25ad143f36e3e4256ca4ec9bc8d4916b6408925b6f",
+    "1056c9963d9c003b5b532071f4268a67e0bebb6f0aae2b39c39e9536ddb4bf46",
+    "15607228201f0d0b94560bbe0781fdb4a03ed192a0bd32864c9afb8191e462ca",
+    "29f1760bc66ba8757bd167a64922f71537943111a2040cbb3c2c160cfe46963d",
+    "4064a4ecffc296525e9034d328e373291b9c76c5ef65f1b69476e9a20f2acb5b",
+    "5354b960dc3e4e8e7c96704e266d51a35bb47f20cf50ab436dd301ee96c48ce7",
+    "640a0434f462a80037d0e1e12e9a19ee91f1a0b2b636615409668a5984cd802c",
+    "65f9dc069dbfa78b2cceceba2242d9fe3b256b0c1ebd469d87883b84ffd54568",
+    "71ad6253cfb5fea6aa2c49dd4931cb97723ea1fe3ecde3cd3fc3e33bd53b322d",
+    "978611018ef158f9a3d943cd4539a05b001675cfe38b5d3239ce9ecdd8e632ea",
+    "af60d0e0f262371247f9bd9123a3ec535ca8c5415cb5a563f1f1bf68702ecd80",
+    "b3011dc086a4a7583552d3c6e9c613ff03cade8df9a615e0bf9e4f7d78892632",
+    "b866b5356d08504213b4edbe4d0c4476aadb0ad568f378df093864bbcfa5bb39",
+    "ce67e6c2366da5ab59119fa50b96f0379f1a45dbf4daae01d81745770d50e0c9",
+    "d3313b255d9320215c8a0bcffe006a5cae27ee7e0982d8e3c1d6502fff0d53f9"
+  ],
+  "fixtures_sha256": "3b4cef9e3c6c441edfd6a89884413744e082a73ea3af4283d6a5491bfc13ac81",
+  "generated_after_snapshot_unix": 1789185850.6657593,
+  "official_runs": 0,
+  "http_runs": 0,
+  "lock_sha256": "cc23a762d80e33ff5757b320e5c3c38ebb2ee5608f3700d1afb205060bad967b"
+}

@@ -1,0 +1,1834 @@
+[
+  {
+    "id": "boundary_outward_16_491000_spatial_hash",
+    "seed": 491000,
+    "family": "stress_boundary_outward_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1800.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 2,
+        "x": 1662.9831585203162,
+        "y": 688.8301782571616,
+        "radius": 1000.0,
+        "direction_deg": 22.5
+      },
+      {
+        "channel": 3,
+        "x": 1272.7922061357856,
+        "y": 1272.7922061357854,
+        "radius": 1000.0,
+        "direction_deg": 45.0
+      },
+      {
+        "channel": 4,
+        "x": 688.8301782571616,
+        "y": 1662.9831585203158,
+        "radius": 1000.0,
+        "direction_deg": 67.5
+      },
+      {
+        "channel": 5,
+        "x": 1.1021821192326178e-13,
+        "y": 1800.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 6,
+        "x": -688.8301782571615,
+        "y": 1662.9831585203162,
+        "radius": 1000.0,
+        "direction_deg": 112.5
+      },
+      {
+        "channel": 7,
+        "x": -1272.7922061357854,
+        "y": 1272.7922061357856,
+        "radius": 1000.0,
+        "direction_deg": 135.0
+      },
+      {
+        "channel": 8,
+        "x": -1662.9831585203158,
+        "y": 688.8301782571617,
+        "radius": 1000.0,
+        "direction_deg": 157.5
+      },
+      {
+        "channel": 9,
+        "x": -1800.0,
+        "y": 2.2043642384652357e-13,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 10,
+        "x": -1662.9831585203162,
+        "y": -688.8301782571614,
+        "radius": 1000.0,
+        "direction_deg": 202.5
+      },
+      {
+        "channel": 11,
+        "x": -1272.7922061357858,
+        "y": -1272.7922061357854,
+        "radius": 1000.0,
+        "direction_deg": 225.0
+      },
+      {
+        "channel": 12,
+        "x": -688.8301782571612,
+        "y": -1662.9831585203162,
+        "radius": 1000.0,
+        "direction_deg": 247.5
+      },
+      {
+        "channel": 13,
+        "x": -3.3065463576978535e-13,
+        "y": -1800.0,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 14,
+        "x": 688.8301782571621,
+        "y": -1662.983158520316,
+        "radius": 1000.0,
+        "direction_deg": 292.5
+      },
+      {
+        "channel": 15,
+        "x": 1272.7922061357851,
+        "y": -1272.7922061357858,
+        "radius": 1000.0,
+        "direction_deg": 315.0
+      },
+      {
+        "channel": 16,
+        "x": 1662.9831585203162,
+        "y": -688.8301782571612,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Maximal source count; 15 outward emitters on the source-domain boundary with minimum reception radius.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "boundary_inward_10_491001_spatial_hash",
+    "seed": 491001,
+    "family": "stress_boundary_inward_10",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1786.5830729543795,
+        "y": 219.36481812926544,
+        "radius": 1000.0,
+        "direction_deg": 187.0
+      },
+      {
+        "channel": 2,
+        "x": 1316.4366629145068,
+        "y": 1227.5970481124973,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 3,
+        "x": 343.4561916777808,
+        "y": 1766.9289302057948,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 4,
+        "x": -760.7128711332588,
+        "y": 1631.35401666597,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 5,
+        "x": -1574.3154728509123,
+        "y": 872.6573164434069,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 6,
+        "x": -1786.5830729543798,
+        "y": -219.36481812926516,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 7,
+        "x": -1316.436662914507,
+        "y": -1227.597048112497,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 8,
+        "x": -343.4561916777803,
+        "y": -1766.9289302057953,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 9,
+        "x": 760.7128711332592,
+        "y": -1631.3540166659695,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 10,
+        "x": 1574.3154728509126,
+        "y": -872.6573164434064,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Minimal count and one directional emitter; missing channels force a complete absence certificate.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "boundary_tangent_16_491002_spatial_hash",
+    "seed": 491002,
+    "family": "stress_boundary_tangent_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1797.5331625582328,
+        "y": 94.2047212372989,
+        "radius": 1000.0,
+        "direction_deg": 93.0
+      },
+      {
+        "channel": 2,
+        "x": 1624.653511829749,
+        "y": 774.9199742549313,
+        "radius": 1000.0,
+        "direction_deg": 115.5
+      },
+      {
+        "channel": 3,
+        "x": 1204.4350914459446,
+        "y": 1337.6606858593095,
+        "radius": 1000.0,
+        "direction_deg": 138.0
+      },
+      {
+        "channel": 4,
+        "x": 600.8523466207877,
+        "y": 1696.7546839659212,
+        "radius": 1000.0,
+        "direction_deg": 160.5
+      },
+      {
+        "channel": 5,
+        "x": -94.20472123729891,
+        "y": 1797.5331625582328,
+        "radius": 1000.0,
+        "direction_deg": 183.0
+      },
+      {
+        "channel": 6,
+        "x": -774.9199742549308,
+        "y": 1624.6535118297493,
+        "radius": 1000.0,
+        "direction_deg": 205.5
+      },
+      {
+        "channel": 7,
+        "x": -1337.6606858593093,
+        "y": 1204.435091445945,
+        "radius": 1000.0,
+        "direction_deg": 228.0
+      },
+      {
+        "channel": 8,
+        "x": -1696.754683965921,
+        "y": 600.8523466207881,
+        "radius": 1000.0,
+        "direction_deg": 250.5
+      },
+      {
+        "channel": 9,
+        "x": -1797.5331625582328,
+        "y": -94.20472123729841,
+        "radius": 1000.0,
+        "direction_deg": 273.0
+      },
+      {
+        "channel": 10,
+        "x": -1624.6535118297488,
+        "y": -774.9199742549315,
+        "radius": 1000.0,
+        "direction_deg": 295.5
+      },
+      {
+        "channel": 11,
+        "x": -1204.4350914459446,
+        "y": -1337.6606858593098,
+        "radius": 1000.0,
+        "direction_deg": 318.0
+      },
+      {
+        "channel": 12,
+        "x": -600.8523466207882,
+        "y": -1696.754683965921,
+        "radius": 1000.0,
+        "direction_deg": 340.5
+      },
+      {
+        "channel": 13,
+        "x": 94.2047212372991,
+        "y": -1797.5331625582328,
+        "radius": 1000.0,
+        "direction_deg": 3.0
+      },
+      {
+        "channel": 14,
+        "x": 774.9199742549306,
+        "y": -1624.6535118297493,
+        "radius": 1000.0,
+        "direction_deg": 25.5
+      },
+      {
+        "channel": 15,
+        "x": 1337.6606858593098,
+        "y": -1204.4350914459446,
+        "radius": 1000.0,
+        "direction_deg": 48.0
+      },
+      {
+        "channel": 16,
+        "x": 1696.7546839659205,
+        "y": -600.8523466207882,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Nearly all sources directional and tangent; localization transverse probes may hit the blind side.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "boundary_alternating_12_491003_spatial_hash",
+    "seed": 491003,
+    "family": "stress_boundary_alternating_12",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1738.6664873203229,
+        "y": 465.8742811845373,
+        "radius": 1000.0,
+        "direction_deg": 285.0
+      },
+      {
+        "channel": 2,
+        "x": 1272.7922061357856,
+        "y": 1272.7922061357854,
+        "radius": 1000.0,
+        "direction_deg": 135.0
+      },
+      {
+        "channel": 3,
+        "x": 465.8742811845373,
+        "y": 1738.6664873203229,
+        "radius": 1000.0,
+        "direction_deg": 345.0
+      },
+      {
+        "channel": 4,
+        "x": -465.87428118453755,
+        "y": 1738.6664873203229,
+        "radius": 1000.0,
+        "direction_deg": 195.0
+      },
+      {
+        "channel": 5,
+        "x": -1272.7922061357854,
+        "y": 1272.7922061357856,
+        "radius": 1000.0,
+        "direction_deg": 45.0
+      },
+      {
+        "channel": 6,
+        "x": -1738.6664873203229,
+        "y": 465.87428118453784,
+        "radius": 1000.0,
+        "direction_deg": 255.0
+      },
+      {
+        "channel": 7,
+        "x": -1738.6664873203229,
+        "y": -465.87428118453744,
+        "radius": 1000.0,
+        "direction_deg": 105.0
+      },
+      {
+        "channel": 8,
+        "x": -1272.7922061357858,
+        "y": -1272.7922061357854,
+        "radius": 1000.0,
+        "direction_deg": 315.0
+      },
+      {
+        "channel": 9,
+        "x": -465.87428118453715,
+        "y": -1738.6664873203229,
+        "radius": 1000.0,
+        "direction_deg": 165.0
+      },
+      {
+        "channel": 10,
+        "x": 465.8742811845365,
+        "y": -1738.666487320323,
+        "radius": 1000.0,
+        "direction_deg": 15.0
+      },
+      {
+        "channel": 11,
+        "x": 1272.7922061357851,
+        "y": -1272.7922061357858,
+        "radius": 1000.0,
+        "direction_deg": 225.0
+      },
+      {
+        "channel": 12,
+        "x": 1738.6664873203229,
+        "y": -465.8742811845372,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Alternating tangent orientation at angles aligned with the outer-station phase.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "halfplane_boundary_491004_spatial_hash",
+    "seed": 491004,
+    "family": "stress_halfplane_boundary",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 900.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 2,
+        "x": 779.4228634059948,
+        "y": 449.99999999999994,
+        "radius": 1000.0,
+        "direction_deg": 120.0
+      },
+      {
+        "channel": 3,
+        "x": 450.0000000000001,
+        "y": 779.4228634059947,
+        "radius": 1000.0,
+        "direction_deg": 150.0
+      },
+      {
+        "channel": 4,
+        "x": 5.510910596163089e-14,
+        "y": 900.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 5,
+        "x": -449.9999999999998,
+        "y": 779.4228634059948,
+        "radius": 1000.0,
+        "direction_deg": 210.0
+      },
+      {
+        "channel": 6,
+        "x": -779.4228634059948,
+        "y": 449.99999999999994,
+        "radius": 1000.0,
+        "direction_deg": 240.0
+      },
+      {
+        "channel": 7,
+        "x": -900.0,
+        "y": 1.1021821192326178e-13,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 8,
+        "x": -779.4228634059947,
+        "y": -450.0000000000001,
+        "radius": 1000.0,
+        "direction_deg": 300.0
+      },
+      {
+        "channel": 9,
+        "x": -450.0000000000004,
+        "y": -779.4228634059946,
+        "radius": 1000.0,
+        "direction_deg": 330.0
+      },
+      {
+        "channel": 10,
+        "x": -1.6532731788489268e-13,
+        "y": -900.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 11,
+        "x": 450.0000000000001,
+        "y": -779.4228634059947,
+        "radius": 1000.0,
+        "direction_deg": 30.0
+      },
+      {
+        "channel": 12,
+        "x": 779.4228634059946,
+        "y": -450.0000000000004,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Origin is mathematically on the closed emission-halfplane boundary for the 11 directional sources.",
+      "witnesses": [
+        {
+          "channel": 1,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "direction",
+          "reason": "Closed halfplane boundary at 900m."
+        }
+      ]
+    }
+  },
+  {
+    "id": "halfplane_sides_491005_spatial_hash",
+    "seed": 491005,
+    "family": "stress_halfplane_sides",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 900.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 90.000001
+      },
+      {
+        "channel": 2,
+        "x": 779.4228634059948,
+        "y": 449.99999999999994,
+        "radius": 1000.0,
+        "direction_deg": 119.999999
+      },
+      {
+        "channel": 3,
+        "x": 450.0000000000001,
+        "y": 779.4228634059947,
+        "radius": 1000.0,
+        "direction_deg": 150.000001
+      },
+      {
+        "channel": 4,
+        "x": 5.510910596163089e-14,
+        "y": 900.0,
+        "radius": 1000.0,
+        "direction_deg": 179.999999
+      },
+      {
+        "channel": 5,
+        "x": -449.9999999999998,
+        "y": 779.4228634059948,
+        "radius": 1000.0,
+        "direction_deg": 210.000001
+      },
+      {
+        "channel": 6,
+        "x": -779.4228634059948,
+        "y": 449.99999999999994,
+        "radius": 1000.0,
+        "direction_deg": 239.999999
+      },
+      {
+        "channel": 7,
+        "x": -900.0,
+        "y": 1.1021821192326178e-13,
+        "radius": 1000.0,
+        "direction_deg": 270.000001
+      },
+      {
+        "channel": 8,
+        "x": -779.4228634059947,
+        "y": -450.0000000000001,
+        "radius": 1000.0,
+        "direction_deg": 299.999999
+      },
+      {
+        "channel": 9,
+        "x": -450.0000000000004,
+        "y": -779.4228634059946,
+        "radius": 1000.0,
+        "direction_deg": 330.000001
+      },
+      {
+        "channel": 10,
+        "x": -1.6532731788489268e-13,
+        "y": -900.0,
+        "radius": 1000.0,
+        "direction_deg": 359.999999
+      },
+      {
+        "channel": 11,
+        "x": 450.0000000000001,
+        "y": -779.4228634059947,
+        "radius": 1000.0,
+        "direction_deg": 30.000001
+      },
+      {
+        "channel": 12,
+        "x": 779.4228634059946,
+        "y": -450.0000000000004,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Alternating 1e-6 degree perturbations put the origin just inside/outside the emission halfplane.",
+      "witnesses": [
+        {
+          "channel": 1,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "direction",
+          "reason": "Just inside angular boundary."
+        },
+        {
+          "channel": 2,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Just outside angular boundary."
+        }
+      ]
+    }
+  },
+  {
+    "id": "near_backside_16_491006_spatial_hash",
+    "seed": 491006,
+    "family": "stress_near_backside_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 3.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 2,
+        "x": -4.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 3,
+        "x": 0.0,
+        "y": 4.9,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 4,
+        "x": 0.0,
+        "y": -4.9,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 5,
+        "x": 1.0,
+        "y": 1.0,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 6,
+        "x": 1177.9526201371968,
+        "y": 228.97079445185378,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 7,
+        "x": 867.1658457122552,
+        "y": 829.4717572227213,
+        "radius": 1000.0,
+        "direction_deg": 43.72727272727273
+      },
+      {
+        "channel": 8,
+        "x": 281.0600423747507,
+        "y": 1166.6212978427504,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 9,
+        "x": -394.28033854137436,
+        "y": 1133.3768193499016,
+        "radius": 1000.0,
+        "direction_deg": 109.18181818181819
+      },
+      {
+        "channel": 10,
+        "x": -944.4394978223611,
+        "y": 740.2932087713938,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 11,
+        "x": -1194.7457896353617,
+        "y": 112.17173506983121,
+        "radius": 1000.0,
+        "direction_deg": 174.63636363636363
+      },
+      {
+        "channel": 12,
+        "x": -1065.7287349094931,
+        "y": -551.5634719487971,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 13,
+        "x": -598.3503369292715,
+        "y": -1040.1811737849457,
+        "radius": 1000.0,
+        "direction_deg": 240.0909090909091
+      },
+      {
+        "channel": 14,
+        "x": 59.00006528453834,
+        "y": -1198.5487025133439,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 15,
+        "x": 697.6183636450489,
+        "y": -976.3854867342121,
+        "radius": 1000.0,
+        "direction_deg": 305.54545454545456
+      },
+      {
+        "channel": 16,
+        "x": 1114.7477606840707,
+        "y": -444.2267777271532,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Four sources are strictly within 5m of origin but face away; an omnidirectional near source is present.",
+      "witnesses": [
+        {
+          "channel": 1,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Distance <5m does not override blind side."
+        },
+        {
+          "channel": 2,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Distance <5m does not override blind side."
+        },
+        {
+          "channel": 3,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Distance <5m does not override blind side."
+        },
+        {
+          "channel": 4,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Distance <5m does not override blind side."
+        },
+        {
+          "channel": 5,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "near",
+          "reason": "Omnidirectional control within 5m."
+        }
+      ]
+    }
+  },
+  {
+    "id": "near_threshold_10_491007_spatial_hash",
+    "seed": 491007,
+    "family": "stress_near_threshold_10",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 5.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 2,
+        "x": 0.0,
+        "y": 5.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 3,
+        "x": -4.999999,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 4,
+        "x": 0.0,
+        "y": -5.000001,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 5,
+        "x": 1607.7106068956382,
+        "y": 371.16923966737727,
+        "radius": 1000.0,
+        "direction_deg": 13.0
+      },
+      {
+        "channel": 6,
+        "x": 482.4133127925157,
+        "y": 1577.9028473390085,
+        "radius": 1000.0,
+        "direction_deg": 73.0
+      },
+      {
+        "channel": 7,
+        "x": -1125.2972941031223,
+        "y": 1206.7336076716315,
+        "radius": 1000.0,
+        "direction_deg": 133.0
+      },
+      {
+        "channel": 8,
+        "x": -1607.7106068956382,
+        "y": -371.1692396673772,
+        "radius": 1000.0,
+        "direction_deg": 193.0
+      },
+      {
+        "channel": 9,
+        "x": -482.4133127925162,
+        "y": -1577.9028473390083,
+        "radius": 1000.0,
+        "direction_deg": 253.0
+      },
+      {
+        "channel": 10,
+        "x": 1125.2972941031226,
+        "y": -1206.733607671631,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Front/back examples at exactly 5m, just below 5m and just above 5m, plus distant minimum-radius sources.",
+      "witnesses": [
+        {
+          "channel": 1,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "near",
+          "reason": "Exactly 5m and facing origin."
+        },
+        {
+          "channel": 2,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Exactly 5m on blind side."
+        },
+        {
+          "channel": 3,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "near",
+          "reason": "Just below 5m and facing origin."
+        },
+        {
+          "channel": 4,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "direction",
+          "reason": "Just above 5m, omnidirectional."
+        }
+      ]
+    }
+  },
+  {
+    "id": "single_cluster_16_491008_spatial_hash",
+    "seed": 491008,
+    "family": "stress_single_cluster_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1107.0,
+        "y": 200.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 2,
+        "x": 1092.9949956638602,
+        "y": 206.41715780160212,
+        "radius": 1000.0,
+        "direction_deg": 137.507764
+      },
+      {
+        "channel": 3,
+        "x": 1101.049108675724,
+        "y": 188.04594750778963,
+        "radius": 1000.0,
+        "direction_deg": 275.015528
+      },
+      {
+        "channel": 4,
+        "x": 1108.8223635143422,
+        "y": 211.5072108706152,
+        "radius": 1000.0,
+        "direction_deg": 52.523292000000026
+      },
+      {
+        "channel": 5,
+        "x": 1083.2598707392938,
+        "y": 197.03890690203,
+        "radius": 1000.0,
+        "direction_deg": 190.03105600000004
+      },
+      {
+        "channel": 6,
+        "x": 1116.4532282031398,
+        "y": 189.5338029019416,
+        "radius": 1000.0,
+        "direction_deg": 327.53882
+      },
+      {
+        "channel": 7,
+        "x": 1094.2887054034939,
+        "y": 221.24573166619402,
+        "radius": 1000.0,
+        "direction_deg": 105.04658400000005
+      },
+      {
+        "channel": 8,
+        "x": 1088.7077777616046,
+        "y": 178.25751355252373,
+        "radius": 1000.0,
+        "direction_deg": 242.55434800000012
+      },
+      {
+        "channel": 9,
+        "x": 1125.3616750654614,
+        "y": 209.26204285640887,
+        "radius": 1000.0,
+        "direction_deg": 20.06211200000007
+      },
+      {
+        "channel": 10,
+        "x": 1072.7318061824053,
+        "y": 211.25591426433655,
+        "radius": 1000.0,
+        "direction_deg": 157.56987600000002
+      },
+      {
+        "channel": 11,
+        "x": 1113.5630715884129,
+        "y": 171.01650315977065,
+        "radius": 1000.0,
+        "direction_deg": 295.07764
+      },
+      {
+        "channel": 12,
+        "x": 1110.3252936395836,
+        "y": 232.91866205143177,
+        "radius": 1000.0,
+        "direction_deg": 72.58540400000015
+      },
+      {
+        "channel": 13,
+        "x": 1067.9871850447066,
+        "y": 181.44791982989125,
+        "radius": 1000.0,
+        "direction_deg": 210.0931680000001
+      },
+      {
+        "channel": 14,
+        "x": 1138.5786929620215,
+        "y": 191.5185821148777,
+        "radius": 1000.0,
+        "direction_deg": 347.60093200000006
+      },
+      {
+        "channel": 15,
+        "x": 1075.8445643962184,
+        "y": 234.35862236457626,
+        "radius": 1000.0,
+        "direction_deg": 125.10869600000024
+      },
+      {
+        "channel": 16,
+        "x": 1094.2812737258341,
+        "y": 155.86898857038096,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Tight 16-source cluster with varying directions; source service and early known-count stop compete with station routing.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "opposite_clusters_16_491009_spatial_hash",
+    "seed": 491009,
+    "family": "stress_opposite_clusters_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1259.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 2,
+        "x": 1241.1515734701393,
+        "y": 8.105883538865838,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 3,
+        "x": 1251.311385844655,
+        "y": -14.942565615262948,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 4,
+        "x": 1260.9518995350454,
+        "y": 14.28481349455683,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 5,
+        "x": 1229.321016795598,
+        "y": -3.657820885727655,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 6,
+        "x": 1270.250127019249,
+        "y": -12.88147335145648,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 7,
+        "x": 1242.9906839042878,
+        "y": 26.07430704487447,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 8,
+        "x": 1236.1727890958425,
+        "y": -26.623452792828093,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 9,
+        "x": -1241.5461083115129,
+        "y": 3.087347618802961,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 10,
+        "x": -1261.0921466376656,
+        "y": 4.578676988882668,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 11,
+        "x": -1243.6423101929315,
+        "y": -13.586014143857513,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 12,
+        "x": -1244.612890275,
+        "y": 17.174954113790484,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 13,
+        "x": -1268.1694355151665,
+        "y": -10.529559015467129,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 14,
+        "x": -1226.55978149143,
+        "y": -5.153266563112284,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 15,
+        "x": -1265.5284943167167,
+        "y": 22.087685805799016,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 16,
+        "x": -1253.8553210837072,
+        "y": -29.751243660417327,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Two dense antipodal clusters face outward; information-triggered routing can force expensive cross-domain revisits.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "three_clusters_10_491010_spatial_hash",
+    "seed": 491010,
+    "family": "stress_three_clusters_10",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1412.5389311788626,
+        "y": 513.0302149885031,
+        "radius": 1000.0,
+        "direction_deg": 20.0
+      },
+      {
+        "channel": 2,
+        "x": -1150.3689372962954,
+        "y": 967.9634888322065,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 3,
+        "x": -264.41232026842914,
+        "y": -1480.2899368949404,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 4,
+        "x": 1414.5709545865352,
+        "y": 509.76238077841293,
+        "radius": 1000.0,
+        "direction_deg": 20.0
+      },
+      {
+        "channel": 5,
+        "x": -1147.373211409269,
+        "y": 970.9734846137412,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 6,
+        "x": -268.4418240851295,
+        "y": -1477.9088754602933,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 7,
+        "x": 1413.1995609665448,
+        "y": 504.8083058697197,
+        "radius": 1000.0,
+        "direction_deg": 20.0
+      },
+      {
+        "channel": 8,
+        "x": -1141.7531276622751,
+        "y": 971.0013981304342,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 9,
+        "x": -270.1846900218437,
+        "y": -1472.0474423276673,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 10,
+        "x": 1407.66171759838,
+        "y": 501.17795490136143,
+        "radius": 1000.0,
+        "direction_deg": 20.0
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Ten sources in three separated compact groups; many absent channels prevent a count16 stop.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "sparse_extreme_ranges_10_491011_spatial_hash",
+    "seed": 491011,
+    "family": "stress_sparse_extreme_ranges_10",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1701.9334351332516,
+        "y": 586.0226776973138,
+        "radius": 1500.0,
+        "direction_deg": 289.0
+      },
+      {
+        "channel": 2,
+        "x": 1032.4375848583065,
+        "y": 1474.473678901033,
+        "radius": 1000.0,
+        "direction_deg": 145.0
+      },
+      {
+        "channel": 3,
+        "x": -31.41433156965785,
+        "y": 1799.7258502816564,
+        "radius": 1500.0,
+        "direction_deg": 1.0
+      },
+      {
+        "channel": 4,
+        "x": -1083.267041071872,
+        "y": 1437.5439172864913,
+        "radius": 1000.0,
+        "direction_deg": 217.0
+      },
+      {
+        "channel": 5,
+        "x": -1721.3485597771592,
+        "y": 526.2690682085541,
+        "radius": 1500.0,
+        "direction_deg": 73.0
+      },
+      {
+        "channel": 6,
+        "x": -1701.9334351332514,
+        "y": -586.022677697314,
+        "radius": 1000.0,
+        "direction_deg": 289.0
+      },
+      {
+        "channel": 7,
+        "x": -1032.437584858307,
+        "y": -1474.4736789010326,
+        "radius": 1500.0,
+        "direction_deg": 145.0
+      },
+      {
+        "channel": 8,
+        "x": 31.414331569657225,
+        "y": -1799.7258502816564,
+        "radius": 1000.0,
+        "direction_deg": 1.0
+      },
+      {
+        "channel": 9,
+        "x": 1083.2670410718713,
+        "y": -1437.543917286492,
+        "radius": 1500.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 10,
+        "x": 1721.3485597771587,
+        "y": -526.2690682085552,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Sparse boundary sources alternate minimum and maximum reception radii; near tangency and absent channels coexist.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "radial_collinear_16_491012_spatial_hash",
+    "seed": 491012,
+    "family": "stress_radial_collinear_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 100.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 2,
+        "x": 700.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 3,
+        "x": 1300.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 4,
+        "x": 1800.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 5,
+        "x": 6.123233995736766e-15,
+        "y": 100.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 6,
+        "x": 4.2862637970157365e-14,
+        "y": 700.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 7,
+        "x": 7.960204194457796e-14,
+        "y": 1300.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 8,
+        "x": 1.1021821192326178e-13,
+        "y": 1800.0,
+        "radius": 1000.0,
+        "direction_deg": 90.0
+      },
+      {
+        "channel": 9,
+        "x": -100.0,
+        "y": 1.2246467991473532e-14,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 10,
+        "x": -700.0,
+        "y": 8.572527594031473e-14,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 11,
+        "x": -1300.0,
+        "y": 1.5920408388915592e-13,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 12,
+        "x": -1800.0,
+        "y": 2.2043642384652357e-13,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 13,
+        "x": -1.8369701987210297e-14,
+        "y": -100.0,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 14,
+        "x": -1.2858791391047208e-13,
+        "y": -700.0,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 15,
+        "x": -2.3880612583373384e-13,
+        "y": -1300.0,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 16,
+        "x": -3.3065463576978535e-13,
+        "y": -1800.0,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Four radial chains with repeated bearing angles; second radio observations can be geometrically redundant.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "reception_threshold_491013_spatial_hash",
+    "seed": 491013,
+    "family": "stress_reception_threshold",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1000.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 2,
+        "x": 0.0,
+        "y": 1000.0,
+        "radius": 1000.0,
+        "direction_deg": 270.0
+      },
+      {
+        "channel": 3,
+        "x": -1000.0,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 0.0
+      },
+      {
+        "channel": 4,
+        "x": 0.0,
+        "y": -1000.0,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 5,
+        "x": 999.999999,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 6,
+        "x": 1000.000001,
+        "y": 0.0,
+        "radius": 1000.0,
+        "direction_deg": 180.0
+      },
+      {
+        "channel": 7,
+        "x": 1285.7509510531686,
+        "y": 772.5571123650813,
+        "radius": 1000.0,
+        "direction_deg": 121.0
+      },
+      {
+        "channel": 8,
+        "x": -26.178609655925214,
+        "y": 1499.771542734587,
+        "radius": 1000.0,
+        "direction_deg": 181.0
+      },
+      {
+        "channel": 9,
+        "x": -1311.9295607090937,
+        "y": 727.2144303695057,
+        "radius": 1000.0,
+        "direction_deg": 241.0
+      },
+      {
+        "channel": 10,
+        "x": -1285.7509510531686,
+        "y": -772.5571123650813,
+        "radius": 1000.0,
+        "direction_deg": 301.0
+      },
+      {
+        "channel": 11,
+        "x": 26.178609655924696,
+        "y": -1499.771542734587,
+        "radius": 1000.0,
+        "direction_deg": 1.0
+      },
+      {
+        "channel": 12,
+        "x": 1311.9295607090937,
+        "y": -727.2144303695053,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Exact minimum-radius boundary and points immediately inside/outside it, with visible directions.",
+      "witnesses": [
+        {
+          "channel": 1,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "direction",
+          "reason": "Exactly minimum reception radius."
+        },
+        {
+          "channel": 5,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "direction",
+          "reason": "Just inside reception radius."
+        },
+        {
+          "channel": 6,
+          "point": [
+            0.0,
+            0.0
+          ],
+          "expected": "no_signal",
+          "reason": "Just outside reception radius."
+        }
+      ]
+    }
+  },
+  {
+    "id": "rounding_half_ticks_491014_spatial_hash",
+    "seed": 491014,
+    "family": "stress_rounding_half_ticks",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1499.9999932884234,
+        "y": 0.13089969364616522,
+        "radius": 1500.0,
+        "direction_deg": 180.005
+      },
+      {
+        "channel": 2,
+        "x": 1298.9726513266337,
+        "y": 750.1133568371218,
+        "radius": 1500.0,
+        "direction_deg": 210.0049999
+      },
+      {
+        "channel": 3,
+        "x": 749.8866319168033,
+        "y": 1299.103551019884,
+        "radius": 1500.0,
+        "direction_deg": 240.0050001
+      },
+      {
+        "channel": 4,
+        "x": -0.1308996936460652,
+        "y": 1499.9999932884234,
+        "radius": 1500.0,
+        "direction_deg": 270.005
+      },
+      {
+        "channel": 5,
+        "x": -750.1133568371215,
+        "y": 1298.972651326634,
+        "radius": 1500.0,
+        "direction_deg": 300.00499990000003
+      },
+      {
+        "channel": 6,
+        "x": -1299.103551019884,
+        "y": 749.8866319168036,
+        "radius": 1500.0,
+        "direction_deg": 330.00500009999996
+      },
+      {
+        "channel": 7,
+        "x": -1499.9999932884234,
+        "y": -0.13089969364597337,
+        "radius": 1500.0,
+        "direction_deg": 0.0049999999999954525
+      },
+      {
+        "channel": 8,
+        "x": -1298.972651326634,
+        "y": -750.1133568371215,
+        "radius": 1500.0,
+        "direction_deg": 30.00499990000003
+      },
+      {
+        "channel": 9,
+        "x": -749.8866319168031,
+        "y": -1299.1035510198842,
+        "radius": 1500.0,
+        "direction_deg": 60.00500009999996
+      },
+      {
+        "channel": 10,
+        "x": 0.13089969364654766,
+        "y": -1499.9999932884234,
+        "radius": 1500.0,
+        "direction_deg": 90.005
+      },
+      {
+        "channel": 11,
+        "x": 750.1133568371215,
+        "y": -1298.972651326634,
+        "radius": 1500.0,
+        "direction_deg": 120.00499989999997
+      },
+      {
+        "channel": 12,
+        "x": 1299.103551019884,
+        "y": -749.8866319168031,
+        "radius": 1500.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Origin bearings lie at or immediately around half-centidegree rounding ticks; cross global +/-1 errors and both rounding modes.",
+      "witnesses": []
+    }
+  },
+  {
+    "id": "mixed_boundary_16_491015_spatial_hash",
+    "seed": 491015,
+    "family": "stress_mixed_boundary_16",
+    "error_mode": "spatial_hash",
+    "sources": [
+      {
+        "channel": 1,
+        "x": 1766.9289302057948,
+        "y": 343.45619167778057,
+        "radius": 1500.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 2,
+        "x": 1500.9944797209027,
+        "y": 993.4865735617046,
+        "radius": 1000.0,
+        "direction_deg": 123.5
+      },
+      {
+        "channel": 3,
+        "x": 1006.5472262473443,
+        "y": 1492.2676305990751,
+        "radius": 1500.0,
+        "direction_deg": 326.0
+      },
+      {
+        "channel": 4,
+        "x": 358.8622819509549,
+        "y": 1763.8644683174932,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 5,
+        "x": -343.45619167778057,
+        "y": 1766.9289302057948,
+        "radius": 1500.0,
+        "direction_deg": 11.0
+      },
+      {
+        "channel": 6,
+        "x": -993.4865735617046,
+        "y": 1500.9944797209027,
+        "radius": 1000.0,
+        "direction_deg": 213.5
+      },
+      {
+        "channel": 7,
+        "x": -1492.267630599075,
+        "y": 1006.5472262473444,
+        "radius": 1500.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 8,
+        "x": -1763.8644683174932,
+        "y": 358.86228195095504,
+        "radius": 1000.0,
+        "direction_deg": 258.5
+      },
+      {
+        "channel": 9,
+        "x": -1766.9289302057948,
+        "y": -343.45619167778045,
+        "radius": 1500.0,
+        "direction_deg": 101.0
+      },
+      {
+        "channel": 10,
+        "x": -1500.9944797209027,
+        "y": -993.4865735617046,
+        "radius": 1000.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 11,
+        "x": -1006.5472262473438,
+        "y": -1492.2676305990753,
+        "radius": 1500.0,
+        "direction_deg": 146.0
+      },
+      {
+        "channel": 12,
+        "x": -358.86228195095515,
+        "y": -1763.8644683174932,
+        "radius": 1000.0,
+        "direction_deg": 348.5
+      },
+      {
+        "channel": 13,
+        "x": 343.4561916777812,
+        "y": -1766.928930205795,
+        "radius": 1500.0,
+        "direction_deg": null
+      },
+      {
+        "channel": 14,
+        "x": 993.4865735617045,
+        "y": -1500.994479720903,
+        "radius": 1000.0,
+        "direction_deg": 33.5
+      },
+      {
+        "channel": 15,
+        "x": 1492.2676305990753,
+        "y": -1006.5472262473438,
+        "radius": 1500.0,
+        "direction_deg": 236.0
+      },
+      {
+        "channel": 16,
+        "x": 1763.8644683174932,
+        "y": -358.86228195095526,
+        "radius": 1000.0,
+        "direction_deg": null
+      }
+    ],
+    "stress_metadata": {
+      "stage": "development_adversarial_not_validation",
+      "rationale": "Mixed directional/omnidirectional sources at the domain boundary with alternating extreme reception radii.",
+      "witnesses": []
+    }
+  }
+]

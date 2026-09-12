@@ -1,0 +1,18 @@
+{
+  "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/BASE25/uniform_4c920b65f2c8599c__positive__bounded",
+  "source_actions_sha256": "e7aea3b02ed86cefd6c8837b822e8dc23b4bb469efbd1999906311921fb48156",
+  "source_result_sha256": "800e4734f9f204b83105be437e9348e92f5379785b501057ab17ec78dc05c487",
+  "config": {
+    "family": "baseline"
+  },
+  "source_truth_or_simulator_provided": false,
+  "hidden_case_file_read": false,
+  "static_scan_passed": true,
+  "passed": true,
+  "actions": 216,
+  "all_positions_channels_exact": true,
+  "cleared_equal": true,
+  "metrics_equal": true,
+  "stop_certificate_equal": true,
+  "phases_equal": true
+}

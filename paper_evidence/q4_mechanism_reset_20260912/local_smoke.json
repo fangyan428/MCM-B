@@ -1,0 +1,272 @@
+[
+  {
+    "config": "CELL_OPTICAL",
+    "family": "uniform",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 323,
+      "cleared": 16,
+      "virtual_time_s": 6917.221394079462
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 11
+    }
+  },
+  {
+    "config": "CELL_OPTICAL",
+    "family": "outward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 404,
+      "cleared": 14,
+      "virtual_time_s": 8358.600008965808
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 8
+    }
+  },
+  {
+    "config": "CELL_OPTICAL",
+    "family": "inward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 344,
+      "cleared": 10,
+      "virtual_time_s": 5671.405898214971
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 2
+    }
+  },
+  {
+    "config": "CELL_OPTICAL",
+    "family": "tangent",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 491,
+      "cleared": 15,
+      "virtual_time_s": 8990.687604110168
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 9
+    }
+  },
+  {
+    "config": "CELL_OPTICAL",
+    "family": "cluster",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 416,
+      "cleared": 10,
+      "virtual_time_s": 6511.313845454219
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 5
+    }
+  },
+  {
+    "config": "CELL_OPTICAL",
+    "family": "edge",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 369,
+      "cleared": 15,
+      "virtual_time_s": 6857.189254635362
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 6
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "uniform",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 423,
+      "cleared": 16,
+      "virtual_time_s": 7338.937335356722
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "outward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 529,
+      "cleared": 14,
+      "virtual_time_s": 9097.985671491653
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "inward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 443,
+      "cleared": 10,
+      "virtual_time_s": 6271.420932092858
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "tangent",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 553,
+      "cleared": 15,
+      "virtual_time_s": 8765.1688117912
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "cluster",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 471,
+      "cleared": 10,
+      "virtual_time_s": 6977.251819674523
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "CLEAR_DISCOVERY",
+    "family": "edge",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 488,
+      "cleared": 15,
+      "virtual_time_s": 7122.267136638748
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "uniform",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 328,
+      "cleared": 16,
+      "virtual_time_s": 6944.1386008483205
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "outward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 407,
+      "cleared": 14,
+      "virtual_time_s": 8368.985671491655
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "inward",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 343,
+      "cleared": 10,
+      "virtual_time_s": 5672.420932092858
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "tangent",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 500,
+      "cleared": 15,
+      "virtual_time_s": 9012.32678761101
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "cluster",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 396,
+      "cleared": 10,
+      "virtual_time_s": 6543.840622261807
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  },
+  {
+    "config": "NEGATIVE_REGION",
+    "family": "edge",
+    "passed": true,
+    "audit": {
+      "passed": true,
+      "accepted_actions": 374,
+      "cleared": 15,
+      "virtual_time_s": 6894.195911309237
+    },
+    "optical": {
+      "passed": true,
+      "checked_cell_covers": 0
+    }
+  }
+]

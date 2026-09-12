@@ -1,0 +1,35 @@
+{
+  "BASE": {
+    "mechanism": "baseline"
+  },
+  "PARALLAX": {
+    "mechanism": "parallax"
+  },
+  "ADAPT_SHARED": {
+    "mechanism": "parallax",
+    "sharing": "range"
+  },
+  "ADAPT_GATED": {
+    "mechanism": "parallax",
+    "sharing": "gated"
+  },
+  "PAIR_GATED": {
+    "mechanism": "pair",
+    "sharing": "gated"
+  },
+  "ADAPT_SHADOW": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "shadow_skip": true
+  },
+  "ADAPT_VALUE_GATE": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "adaptive_gate": true
+  },
+  "ADAPT_ENTRY": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "optical_order": "nearest_branch"
+  }
+}

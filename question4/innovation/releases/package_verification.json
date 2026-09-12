@@ -1,0 +1,39 @@
+{
+  "isolated_archive": "q4_directional_candidate.zip",
+  "runs": 6,
+  "all_metrics_exact": true,
+  "all_audited": true,
+  "stage": "existing_fixture_reproduction_not_new_validation",
+  "rows": [
+    {
+      "case_id": "cluster_37a7f070473c076e__spatial_hash__bounded",
+      "config": "BASE",
+      "virtual_s": 3568.654528
+    },
+    {
+      "case_id": "cluster_37a7f070473c076e__spatial_hash__bounded",
+      "config": "ADAPT_GATED",
+      "virtual_s": 5021.466305
+    },
+    {
+      "case_id": "outward_b614b4503aa2dd12__spatial_hash__bounded",
+      "config": "BASE",
+      "virtual_s": 9680.055924
+    },
+    {
+      "case_id": "outward_b614b4503aa2dd12__spatial_hash__bounded",
+      "config": "ADAPT_GATED",
+      "virtual_s": 10022.141582
+    },
+    {
+      "case_id": "tangent_02646fbae14219ac__spatial_hash__bounded",
+      "config": "BASE",
+      "virtual_s": 10336.664796
+    },
+    {
+      "case_id": "tangent_02646fbae14219ac__spatial_hash__bounded",
+      "config": "ADAPT_GATED",
+      "virtual_s": 9352.014077
+    }
+  ]
+}

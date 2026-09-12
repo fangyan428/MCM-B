@@ -1,0 +1,4230 @@
+{
+  "round9_main": {
+    "total_runs": 864,
+    "all_complete": true,
+    "vs_baseline": {
+      "BASE": {
+        "n": 96,
+        "mean_s": 11416.2361426875,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 0.0,
+        "bootstrap95_pct": [
+          0.0,
+          0.0
+        ],
+        "p95_s": 13465.02335025,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 0.0,
+        "wins": 0,
+        "ties": 96,
+        "worst": [
+          {
+            "case_id": "uniform_111000_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 10945.959068,
+            "reference_s": 10945.959068,
+            "components": {
+              "movement_s": 8930.959069058883,
+              "switch_s": 299.0,
+              "detection_s": 1640.0,
+              "optical_s": 54.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "outward_111001_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 13258.750278,
+            "reference_s": 13258.750278,
+            "components": {
+              "movement_s": 10229.750284379457,
+              "switch_s": 458.0,
+              "detection_s": 2450.0,
+              "optical_s": 99.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "inward_111002_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 10896.776395,
+            "reference_s": 10896.776395,
+            "components": {
+              "movement_s": 8529.776396083553,
+              "switch_s": 359.0,
+              "detection_s": 1935.0,
+              "optical_s": 51.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "tangent_111003_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 10944.487009,
+            "reference_s": 10944.487009,
+            "components": {
+              "movement_s": 8868.48700876603,
+              "switch_s": 309.0,
+              "detection_s": 1675.0,
+              "optical_s": 66.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "cluster_111004_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 11481.798917,
+            "reference_s": 11481.798917,
+            "components": {
+              "movement_s": 9234.79891785372,
+              "switch_s": 334.0,
+              "detection_s": 1825.0,
+              "optical_s": 66.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.0
+          }
+        },
+        "components": {
+          "movement_s": 9163.350719501312,
+          "switch_s": 319.1979166666667,
+          "detection_s": 1730.1041666666667,
+          "optical_s": 177.4375,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.04507845299667679
+      },
+      "FINAL": {
+        "n": 96,
+        "mean_s": 6640.8617843125,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 41.82967397213305,
+        "bootstrap95_pct": [
+          40.35180463502092,
+          43.238172774537034
+        ],
+        "p95_s": 8694.623295500001,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 43.645545639948374,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": 7.9654746134641075,
+            "candidate_s": 5283.419215,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 3903.41922363312,
+              "switch_s": 177.0,
+              "detection_s": 940.0,
+              "optical_s": 231.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": 20.127309864066632,
+            "candidate_s": 6350.041489,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 4701.041493628021,
+              "switch_s": 233.0,
+              "detection_s": 1255.0,
+              "optical_s": 129.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 20.241592874259375,
+            "candidate_s": 6414.601483,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 4883.601480711841,
+              "switch_s": 223.0,
+              "detection_s": 1210.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 21.313884677179594,
+            "candidate_s": 8833.895213,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 6453.895207361432,
+              "switch_s": 348.0,
+              "detection_s": 1855.0,
+              "optical_s": 147.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "outward_111067_smooth",
+            "gain_pct": 25.310569856356558,
+            "candidate_s": 9931.570814,
+            "reference_s": 13297.157034,
+            "components": {
+              "movement_s": 7097.570809701825,
+              "switch_s": 431.0,
+              "detection_s": 2300.0,
+              "optical_s": 81.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 43.63861485520103
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 45.01333929616346
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 46.80514151946063
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 37.50460565828136
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 41.15325426185342
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 37.71439478340493
+          }
+        },
+        "components": {
+          "movement_s": 4588.986785329814,
+          "switch_s": 302.59375,
+          "detection_s": 1627.7604166666667,
+          "optical_s": 95.375,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.07971245999942767
+      },
+      "COMPACT22": {
+        "n": 96,
+        "mean_s": 6988.972097666668,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 38.780417553439015,
+        "bootstrap95_pct": [
+          36.94699696648471,
+          40.479693885635555
+        ],
+        "p95_s": 9280.72112975,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 40.09376340880724,
+        "wins": 95,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": -1.5197311306875738,
+            "candidate_s": 5827.935722,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 4367.935724380876,
+              "switch_s": 207.0,
+              "detection_s": 1080.0,
+              "optical_s": 141.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": 9.529858275842084,
+            "candidate_s": 7855.045982,
+            "reference_s": 8682.473391,
+            "components": {
+              "movement_s": 6212.04598005275,
+              "switch_s": 240.0,
+              "detection_s": 1290.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": 10.11469053064954,
+            "candidate_s": 7146.065112,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 5418.065118663018,
+              "switch_s": 252.0,
+              "detection_s": 1345.0,
+              "optical_s": 99.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111057_positive",
+            "gain_pct": 15.806749544313703,
+            "candidate_s": 10433.023656,
+            "reference_s": 12391.757771,
+            "components": {
+              "movement_s": 8176.023661348289,
+              "switch_s": 305.0,
+              "detection_s": 1640.0,
+              "optical_s": 282.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "tangent_111009_positive",
+            "gain_pct": 16.459510012818836,
+            "candidate_s": 10217.399579,
+            "reference_s": 12230.476001,
+            "components": {
+              "movement_s": 7494.399536350301,
+              "switch_s": 339.0,
+              "detection_s": 1805.0,
+              "optical_s": 555.0,
+              "laser_s": 24.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 44.33832712311935
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 39.68797511996014
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 35.52715700495271
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 43.49234723599871
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 29.356238266334856
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 40.18451767819151
+          }
+        },
+        "components": {
+          "movement_s": 5127.45126771129,
+          "switch_s": 268.0,
+          "detection_s": 1435.625,
+          "optical_s": 131.75,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.10044736800045939
+      },
+      "NO_CENTROID": {
+        "n": 96,
+        "mean_s": 7510.553964072916,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 34.21164497474336,
+        "bootstrap95_pct": [
+          32.38131433091371,
+          35.9181810845715
+        ],
+        "p95_s": 9781.14929375,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 36.01518684725862,
+        "wins": 93,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": -15.721947861145447,
+            "candidate_s": 6643.241331,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 5478.241332946043,
+              "switch_s": 160.0,
+              "detection_s": 880.0,
+              "optical_s": 93.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": -7.6275668433343435,
+            "candidate_s": 8556.610697,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 6399.61066681578,
+              "switch_s": 284.0,
+              "detection_s": 1475.0,
+              "optical_s": 366.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": -0.6186797768442442,
+            "candidate_s": 8736.190098,
+            "reference_s": 8682.473391,
+            "components": {
+              "movement_s": 6776.190094515612,
+              "switch_s": 285.0,
+              "detection_s": 1505.0,
+              "optical_s": 138.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_111086_negative",
+            "gain_pct": 4.605309896128562,
+            "candidate_s": 6118.371997,
+            "reference_s": 6413.744822,
+            "components": {
+              "movement_s": 4451.371997900351,
+              "switch_s": 244.0,
+              "detection_s": 1295.0,
+              "optical_s": 96.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111012_negative",
+            "gain_pct": 9.181156401334167,
+            "candidate_s": 11161.955804,
+            "reference_s": 12290.352268,
+            "components": {
+              "movement_s": 8411.955774964024,
+              "switch_s": 252.0,
+              "detection_s": 1385.0,
+              "optical_s": 1083.0,
+              "laser_s": 30.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 41.04927328541067
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 35.402989473455385
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 30.835411149359448
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 34.21271101502541
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 28.969145401197103
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 34.927702629535375
+          }
+        },
+        "components": {
+          "movement_s": 5481.095631349051,
+          "switch_s": 292.3854166666667,
+          "detection_s": 1567.3958333333333,
+          "optical_s": 143.53125,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06492655899637612
+      },
+      "NO_INFO": {
+        "n": 96,
+        "mean_s": 6947.042012072917,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 39.1477022265106,
+        "bootstrap95_pct": [
+          37.79347909688355,
+          40.443007924271505
+        ],
+        "p95_s": 9001.23342575,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 41.303824103842075,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": 4.181526211442799,
+            "candidate_s": 5500.644062,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 3895.6440690895042,
+              "switch_s": 215.0,
+              "detection_s": 1130.0,
+              "optical_s": 228.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 17.11223127582914,
+            "candidate_s": 6666.281629,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 4884.281626462714,
+              "switch_s": 264.0,
+              "detection_s": 1420.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 18.071629105101117,
+            "candidate_s": 9197.895213,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 6453.895207361432,
+              "switch_s": 407.0,
+              "detection_s": 2160.0,
+              "optical_s": 147.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": 18.404083556399453,
+            "candidate_s": 6487.041489,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 4701.041493628021,
+              "switch_s": 255.0,
+              "detection_s": 1370.0,
+              "optical_s": 129.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_111086_negative",
+            "gain_pct": 23.446910077271543,
+            "candidate_s": 4909.919841,
+            "reference_s": 6413.744822,
+            "components": {
+              "movement_s": 3466.919844975765,
+              "switch_s": 211.0,
+              "detection_s": 1110.0,
+              "optical_s": 90.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 43.12684265698788
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 40.62786029350103
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 41.66872746358764
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 35.01840180219888
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 38.89383923038549
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 36.20065204015405
+          }
+        },
+        "components": {
+          "movement_s": 4586.64617968943,
+          "switch_s": 353.3020833333333,
+          "detection_s": 1885.8854166666667,
+          "optical_s": 95.0625,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.08417912000004435
+      },
+      "RELOCATE": {
+        "n": 96,
+        "mean_s": 6584.025065145834,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 42.32753262235966,
+        "bootstrap95_pct": [
+          40.95339147125826,
+          43.67073574706658
+        ],
+        "p95_s": 8452.59457775,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 44.59054320089403,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": 7.9654746134641075,
+            "candidate_s": 5283.419215,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 3903.41922363312,
+              "switch_s": 177.0,
+              "detection_s": 940.0,
+              "optical_s": 231.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 19.471196904482944,
+            "candidate_s": 6476.560884,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 4933.56088166921,
+              "switch_s": 224.0,
+              "detection_s": 1215.0,
+              "optical_s": 72.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": 20.127309864066632,
+            "candidate_s": 6350.041489,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 4701.041493628021,
+              "switch_s": 233.0,
+              "detection_s": 1255.0,
+              "optical_s": 129.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 25.65942288500337,
+            "candidate_s": 8346.032405,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 6008.03240030603,
+              "switch_s": 341.0,
+              "detection_s": 1820.0,
+              "optical_s": 147.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "inward_111086_negative",
+            "gain_pct": 26.698928949063195,
+            "candidate_s": 4701.343649,
+            "reference_s": 6413.744822,
+            "components": {
+              "movement_s": 3477.343651734666,
+              "switch_s": 172.0,
+              "detection_s": 915.0,
+              "optical_s": 105.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 43.9052001681283
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 45.82122611354295
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 46.856625072909885
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 38.9377143383929
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 41.3405020539346
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 37.82969054880424
+          }
+        },
+        "components": {
+          "movement_s": 4532.45215031927,
+          "switch_s": 302.65625,
+          "detection_s": 1627.5520833333333,
+          "optical_s": 95.21875,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.18425910099904286
+      },
+      "COST": {
+        "n": 96,
+        "mean_s": 7353.572323395834,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 35.58671849910835,
+        "bootstrap95_pct": [
+          33.8570194777187,
+          37.20018701079358
+        ],
+        "p95_s": 9517.0135105,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 36.854855852137774,
+        "wins": 94,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": -9.866215030200308,
+            "candidate_s": 6307.081708,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 5043.081709671683,
+              "switch_s": 177.0,
+              "detection_s": 965.0,
+              "optical_s": 90.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": -2.1082437931118303,
+            "candidate_s": 8117.813277,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 5874.8132447777,
+              "switch_s": 295.0,
+              "detection_s": 1550.0,
+              "optical_s": 366.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": 7.055913417886561,
+            "candidate_s": 8069.845586,
+            "reference_s": 8682.473391,
+            "components": {
+              "movement_s": 5947.845584392974,
+              "switch_s": 303.0,
+              "detection_s": 1610.0,
+              "optical_s": 177.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 15.59431117642519,
+            "candidate_s": 9476.017559,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 7204.017595352905,
+              "switch_s": 283.0,
+              "detection_s": 1530.0,
+              "optical_s": 429.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 17.102909120929866,
+            "candidate_s": 6667.031367,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 5083.031364937686,
+              "switch_s": 221.0,
+              "detection_s": 1205.0,
+              "optical_s": 126.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 42.17527515726248
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 34.67000925031803
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 32.14986830685548
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 35.97624952306631
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 30.67023670506197
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 37.973036177416496
+          }
+        },
+        "components": {
+          "movement_s": 5322.749406034123,
+          "switch_s": 292.9479166666667,
+          "detection_s": 1576.9791666666667,
+          "optical_s": 134.75,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06272868999803904
+      },
+      "PROBE": {
+        "n": 96,
+        "mean_s": 6661.442671572917,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 41.649396628504356,
+        "bootstrap95_pct": [
+          40.10350745278828,
+          43.16375187989211
+        ],
+        "p95_s": 8944.494252,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 44.23029285637982,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": 14.020954142953478,
+            "candidate_s": 4935.792748,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 3576.7927575812773,
+              "switch_s": 177.0,
+              "detection_s": 940.0,
+              "optical_s": 210.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 20.10934696040969,
+            "candidate_s": 6425.237413,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 4897.237410532862,
+              "switch_s": 223.0,
+              "detection_s": 1210.0,
+              "optical_s": 63.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 21.850207424164225,
+            "candidate_s": 8773.683587,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 6399.68358641708,
+              "switch_s": 348.0,
+              "detection_s": 1855.0,
+              "optical_s": 141.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "outward_111067_smooth",
+            "gain_pct": 22.138788039223822,
+            "candidate_s": 10353.327623,
+            "reference_s": 13297.157034,
+            "components": {
+              "movement_s": 7519.32762421427,
+              "switch_s": 431.0,
+              "detection_s": 2300.0,
+              "optical_s": 81.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "outward_111013_negative",
+            "gain_pct": 22.60343742208023,
+            "candidate_s": 9746.065787,
+            "reference_s": 12592.375504,
+            "components": {
+              "movement_s": 7223.065810470814,
+              "switch_s": 330.0,
+              "detection_s": 1790.0,
+              "optical_s": 375.0,
+              "laser_s": 28.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 42.53041906595567
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 44.93380557096626
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 47.10942155325986
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 36.01147210670075
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 42.52896054277328
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 37.705794850326434
+          }
+        },
+        "components": {
+          "movement_s": 4609.0572560787905,
+          "switch_s": 302.6041666666667,
+          "detection_s": 1628.2291666666667,
+          "optical_s": 95.40625,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.07833752199803712
+      },
+      "REFINE": {
+        "n": 96,
+        "mean_s": 6729.725558229166,
+        "reference_mean_s": 11416.2361426875,
+        "gain_pct": 41.05127579600924,
+        "bootstrap95_pct": [
+          39.41463443316308,
+          42.617771383530844
+        ],
+        "p95_s": 9195.22241075,
+        "reference_p95_s": 13465.02335025,
+        "median_paired_gain_pct": 44.02497892425821,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111032_positive",
+            "gain_pct": 10.694137740430488,
+            "candidate_s": 5126.775052,
+            "reference_s": 5740.692629,
+            "components": {
+              "movement_s": 3815.7750520195304,
+              "switch_s": 187.0,
+              "detection_s": 1035.0,
+              "optical_s": 57.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111021_smooth",
+            "gain_pct": 18.659860889325163,
+            "candidate_s": 9131.855888,
+            "reference_s": 11226.752238,
+            "components": {
+              "movement_s": 6723.855883918625,
+              "switch_s": 348.0,
+              "detection_s": 1895.0,
+              "optical_s": 135.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "uniform_111084_negative",
+            "gain_pct": 19.47931896582079,
+            "candidate_s": 6475.907664,
+            "reference_s": 8042.539607,
+            "components": {
+              "movement_s": 4924.907660526196,
+              "switch_s": 224.0,
+              "detection_s": 1220.0,
+              "optical_s": 75.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111063_negative",
+            "gain_pct": 20.049882953922125,
+            "candidate_s": 6356.197086,
+            "reference_s": 7950.203603,
+            "components": {
+              "movement_s": 4703.197090514851,
+              "switch_s": 239.0,
+              "detection_s": 1295.0,
+              "optical_s": 87.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_111061_negative",
+            "gain_pct": 20.486817984686002,
+            "candidate_s": 9690.693087,
+            "reference_s": 12187.53022,
+            "components": {
+              "movement_s": 6955.693068736139,
+              "switch_s": 363.0,
+              "detection_s": 1980.0,
+              "optical_s": 360.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 42.937906244380855
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 44.55481584256302
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 46.70943630792562
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 35.77154584585257
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 40.8131632618913
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 36.494012861469805
+          }
+        },
+        "components": {
+          "movement_s": 4663.308891826994,
+          "switch_s": 305.5729166666667,
+          "detection_s": 1650.7291666666667,
+          "optical_s": 83.96875,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06699185699835652
+      }
+    },
+    "vs_final": {
+      "BASE": {
+        "n": 96,
+        "mean_s": 11416.2361426875,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -71.90895569692049,
+        "bootstrap95_pct": [
+          -76.17473729951121,
+          -67.64966549106734
+        ],
+        "p95_s": 13465.02335025,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -77.44833063006351,
+        "wins": 0,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111026_spatial_hash",
+            "gain_pct": -115.29669403911073,
+            "candidate_s": 12046.849372,
+            "reference_s": 5595.464169,
+            "components": {
+              "movement_s": 9628.849373351464,
+              "switch_s": 363.0,
+              "detection_s": 1955.0,
+              "optical_s": 72.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_111014_negative",
+            "gain_pct": -106.89760803018258,
+            "candidate_s": 11600.361752,
+            "reference_s": 5606.812888,
+            "components": {
+              "movement_s": 9483.361755757789,
+              "switch_s": 308.0,
+              "detection_s": 1680.0,
+              "optical_s": 105.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "inward_111092_smooth",
+            "gain_pct": -104.08691008603128,
+            "candidate_s": 11014.87848,
+            "reference_s": 5397.150888,
+            "components": {
+              "movement_s": 9403.878482203349,
+              "switch_s": 222.0,
+              "detection_s": 1260.0,
+              "optical_s": 99.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "inward_111056_positive",
+            "gain_pct": -103.95365714443105,
+            "candidate_s": 11469.299217,
+            "reference_s": 5623.48299,
+            "components": {
+              "movement_s": 9370.299214649038,
+              "switch_s": 303.0,
+              "detection_s": 1645.0,
+              "optical_s": 123.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_111080_positive",
+            "gain_pct": -103.61509959736716,
+            "candidate_s": 11295.862602,
+            "reference_s": 5547.65468,
+            "components": {
+              "movement_s": 9144.862598781061,
+              "switch_s": 311.0,
+              "detection_s": 1695.0,
+              "optical_s": 117.0,
+              "laser_s": 28.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -77.42644142454687
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -81.86228936252309
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -87.98809294056807
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -60.01179135411145
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -69.93293128727151
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -60.55073985755617
+          }
+        },
+        "components": {
+          "movement_s": 9163.350719501312,
+          "switch_s": 319.1979166666667,
+          "detection_s": 1730.1041666666667,
+          "optical_s": 177.4375,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.04507845299667679
+      },
+      "FINAL": {
+        "n": 96,
+        "mean_s": 6640.8617843125,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": 0.0,
+        "bootstrap95_pct": [
+          0.0,
+          0.0
+        ],
+        "p95_s": 8694.623295500001,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": 0.0,
+        "wins": 0,
+        "ties": 96,
+        "worst": [
+          {
+            "case_id": "uniform_111000_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 7400.210495,
+            "reference_s": 7400.210495,
+            "components": {
+              "movement_s": 5036.210495269863,
+              "switch_s": 319.0,
+              "detection_s": 1720.0,
+              "optical_s": 303.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "outward_111001_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 9010.335734,
+            "reference_s": 9010.335734,
+            "components": {
+              "movement_s": 6198.335736389513,
+              "switch_s": 432.0,
+              "detection_s": 2295.0,
+              "optical_s": 63.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "inward_111002_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 6018.615794,
+            "reference_s": 6018.615794,
+            "components": {
+              "movement_s": 3862.6157954288756,
+              "switch_s": 325.0,
+              "detection_s": 1725.0,
+              "optical_s": 84.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "tangent_111003_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 6025.26632,
+            "reference_s": 6025.26632,
+            "components": {
+              "movement_s": 3952.2663214163576,
+              "switch_s": 315.0,
+              "detection_s": 1690.0,
+              "optical_s": 42.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "cluster_111004_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 7062.911504,
+            "reference_s": 7062.911504,
+            "components": {
+              "movement_s": 4882.9115081564705,
+              "switch_s": 324.0,
+              "detection_s": 1735.0,
+              "optical_s": 99.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.0
+          }
+        },
+        "components": {
+          "movement_s": 4588.986785329814,
+          "switch_s": 302.59375,
+          "detection_s": 1627.7604166666667,
+          "optical_s": 95.375,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.07971245999942767
+      },
+      "COMPACT22": {
+        "n": 96,
+        "mean_s": 6988.972097666668,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -5.24194486589824,
+        "bootstrap95_pct": [
+          -8.702434866833332,
+          -1.991828055278099
+        ],
+        "p95_s": 9280.72112975,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -4.956137867368482,
+        "wins": 37,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": -67.12249459866611,
+            "candidate_s": 7855.045982,
+            "reference_s": 4700.172769,
+            "components": {
+              "movement_s": 6212.04598005275,
+              "switch_s": 240.0,
+              "detection_s": 1290.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111057_positive",
+            "gain_pct": -61.26974929982894,
+            "candidate_s": 10433.023656,
+            "reference_s": 6469.299854,
+            "components": {
+              "movement_s": 8176.023661348289,
+              "switch_s": 305.0,
+              "detection_s": 1640.0,
+              "optical_s": 282.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "tangent_111027_spatial_hash",
+            "gain_pct": -47.60670869166243,
+            "candidate_s": 9113.787389,
+            "reference_s": 6174.372066,
+            "components": {
+              "movement_s": 6771.78742329202,
+              "switch_s": 273.0,
+              "detection_s": 1450.0,
+              "optical_s": 591.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "tangent_111087_negative",
+            "gain_pct": -44.827158976142265,
+            "candidate_s": 10905.101683,
+            "reference_s": 7529.735279,
+            "components": {
+              "movement_s": 8316.101735080762,
+              "switch_s": 292.0,
+              "detection_s": 1575.0,
+              "optical_s": 690.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_111029_spatial_hash",
+            "gain_pct": -34.90918964690335,
+            "candidate_s": 7910.344693,
+            "reference_s": 5863.458756,
+            "components": {
+              "movement_s": 6032.344694611722,
+              "switch_s": 275.0,
+              "detection_s": 1475.0,
+              "optical_s": 102.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 1.2414745771784585
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -9.684829207735014
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -21.20126801095601
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 9.581092560160464
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -20.04701508561302
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 3.9658005829707577
+          }
+        },
+        "components": {
+          "movement_s": 5127.45126771129,
+          "switch_s": 268.0,
+          "detection_s": 1435.625,
+          "optical_s": 131.75,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.10044736800045939
+      },
+      "NO_CENTROID": {
+        "n": 96,
+        "mean_s": 7510.553964072916,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -13.096074094101184,
+        "bootstrap95_pct": [
+          -16.04143906722561,
+          -10.25998419124734
+        ],
+        "p95_s": 9781.14929375,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -11.496012908869224,
+        "wins": 14,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": -85.8695526177157,
+            "candidate_s": 8736.190098,
+            "reference_s": 4700.172769,
+            "components": {
+              "movement_s": 6776.190094515612,
+              "switch_s": 285.0,
+              "detection_s": 1505.0,
+              "optical_s": 138.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111057_positive",
+            "gain_pct": -52.14848676266044,
+            "candidate_s": 9842.941832,
+            "reference_s": 6469.299854,
+            "components": {
+              "movement_s": 7202.941814315855,
+              "switch_s": 357.0,
+              "detection_s": 1890.0,
+              "optical_s": 363.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "inward_111026_spatial_hash",
+            "gain_pct": -48.67367141923344,
+            "candidate_s": 8318.982013,
+            "reference_s": 5595.464169,
+            "components": {
+              "movement_s": 6268.982013564067,
+              "switch_s": 310.0,
+              "detection_s": 1655.0,
+              "optical_s": 57.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_111014_negative",
+            "gain_pct": -41.04284633655495,
+            "candidate_s": 7908.008486,
+            "reference_s": 5606.812888,
+            "components": {
+              "movement_s": 5864.008484160334,
+              "switch_s": 300.0,
+              "detection_s": 1615.0,
+              "optical_s": 105.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "edge_111029_spatial_hash",
+            "gain_pct": -40.95660735299968,
+            "candidate_s": 8264.932536,
+            "reference_s": 5863.458756,
+            "components": {
+              "movement_s": 6081.9325439156855,
+              "switch_s": 323.0,
+              "detection_s": 1720.0,
+              "optical_s": 114.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -4.594176603605549
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -17.477602203324082
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -30.021191570503937
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -5.26741958816388
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -20.704813338145467
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -4.474054870590027
+          }
+        },
+        "components": {
+          "movement_s": 5481.095631349051,
+          "switch_s": 292.3854166666667,
+          "detection_s": 1567.3958333333333,
+          "optical_s": 143.53125,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06492655899637612
+      },
+      "NO_INFO": {
+        "n": 96,
+        "mean_s": 6947.042012072917,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -4.610549619986015,
+        "bootstrap95_pct": [
+          -5.42398374836088,
+          -3.8400248098405996
+        ],
+        "p95_s": 9001.23342575,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -4.0703021306819025,
+        "wins": 1,
+        "ties": 3,
+        "worst": [
+          {
+            "case_id": "edge_111005_spatial_hash",
+            "gain_pct": -14.828992257763307,
+            "candidate_s": 6389.603194,
+            "reference_s": 5564.451162,
+            "components": {
+              "movement_s": 3751.603193205143,
+              "switch_s": 405.0,
+              "detection_s": 2150.0,
+              "optical_s": 57.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "edge_111017_negative",
+            "gain_pct": -14.329703038250475,
+            "candidate_s": 6455.508839,
+            "reference_s": 5646.396927,
+            "components": {
+              "movement_s": 3828.5088397509967,
+              "switch_s": 404.0,
+              "detection_s": 2145.0,
+              "optical_s": 48.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "inward_111026_spatial_hash",
+            "gain_pct": -14.15432171629012,
+            "candidate_s": 6387.464169,
+            "reference_s": 5595.464169,
+            "components": {
+              "movement_s": 3824.4641709071,
+              "switch_s": 394.0,
+              "detection_s": 2090.0,
+              "optical_s": 51.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_111080_positive",
+            "gain_pct": -13.447103163962627,
+            "candidate_s": 6293.653528,
+            "reference_s": 5547.65468,
+            "components": {
+              "movement_s": 3766.653527051276,
+              "switch_s": 384.0,
+              "detection_s": 2040.0,
+              "optical_s": 75.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_111056_positive",
+            "gain_pct": -13.057365040593805,
+            "candidate_s": 6357.761692,
+            "reference_s": 5623.48299,
+            "components": {
+              "movement_s": 3699.7616909227977,
+              "switch_s": 401.0,
+              "detection_s": 2130.0,
+              "optical_s": 99.0,
+              "laser_s": 28.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -0.9080191994897735
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -7.975532513754646
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -9.655846829166936
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -3.978219326832577
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -3.839490192918693
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -2.4303251738293508
+          }
+        },
+        "components": {
+          "movement_s": 4586.64617968943,
+          "switch_s": 353.3020833333333,
+          "detection_s": 1885.8854166666667,
+          "optical_s": 95.0625,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.08417912000004435
+      },
+      "RELOCATE": {
+        "n": 96,
+        "mean_s": 6584.025065145834,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": 0.855863606451357,
+        "bootstrap95_pct": [
+          0.2946250720385474,
+          1.4048731361209792
+        ],
+        "p95_s": 8452.59457775,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": 0.0,
+        "wins": 25,
+        "ties": 59,
+        "worst": [
+          {
+            "case_id": "uniform_111036_negative",
+            "gain_pct": -9.60391251207746,
+            "candidate_s": 8415.701335,
+            "reference_s": 7678.285512,
+            "components": {
+              "movement_s": 6311.701326998404,
+              "switch_s": 293.0,
+              "detection_s": 1595.0,
+              "optical_s": 186.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "tangent_111057_positive",
+            "gain_pct": -5.383313231101305,
+            "candidate_s": 6817.562529,
+            "reference_s": 6469.299854,
+            "components": {
+              "movement_s": 4445.562530637059,
+              "switch_s": 355.0,
+              "detection_s": 1900.0,
+              "optical_s": 87.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "edge_111083_positive",
+            "gain_pct": -1.7730925054103563,
+            "candidate_s": 6920.606086,
+            "reference_s": 6800.035172,
+            "components": {
+              "movement_s": 4624.6061175060995,
+              "switch_s": 312.0,
+              "detection_s": 1680.0,
+              "optical_s": 282.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "uniform_111012_negative",
+            "gain_pct": -1.7566907899142281,
+            "candidate_s": 8533.01432,
+            "reference_s": 8385.70344,
+            "components": {
+              "movement_s": 5989.014352894884,
+              "switch_s": 304.0,
+              "detection_s": 1640.0,
+              "optical_s": 570.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "cluster_111004_spatial_hash",
+            "gain_pct": -1.5416895417468046,
+            "candidate_s": 7171.799672,
+            "reference_s": 7062.911504,
+            "components": {
+              "movement_s": 5042.79967291269,
+              "switch_s": 317.0,
+              "detection_s": 1700.0,
+              "optical_s": 90.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.47299283408733794
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 1.4692414615443794
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.09678295030729478
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 2.293142871097731
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.3181956618542481
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.1851082043730301
+          }
+        },
+        "components": {
+          "movement_s": 4532.45215031927,
+          "switch_s": 302.65625,
+          "detection_s": 1627.5520833333333,
+          "optical_s": 95.21875,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.18425910099904286
+      },
+      "COST": {
+        "n": 96,
+        "mean_s": 7353.572323395834,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -10.732199558300515,
+        "bootstrap95_pct": [
+          -13.589866486450951,
+          -7.938283144065888
+        ],
+        "p95_s": 9517.0135105,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -9.610516845634422,
+        "wins": 21,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_111008_positive",
+            "gain_pct": -71.69253094747252,
+            "candidate_s": 8069.845586,
+            "reference_s": 4700.172769,
+            "components": {
+              "movement_s": 5947.845584392974,
+              "switch_s": 303.0,
+              "detection_s": 1610.0,
+              "optical_s": 177.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_111057_positive",
+            "gain_pct": -51.5257950972696,
+            "candidate_s": 9802.658041,
+            "reference_s": 6469.299854,
+            "components": {
+              "movement_s": 7547.657988879809,
+              "switch_s": 254.0,
+              "detection_s": 1365.0,
+              "optical_s": 606.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "inward_111026_spatial_hash",
+            "gain_pct": -47.69713727747757,
+            "candidate_s": 8264.340395,
+            "reference_s": 5595.464169,
+            "components": {
+              "movement_s": 6281.340391662832,
+              "switch_s": 297.0,
+              "detection_s": 1580.0,
+              "optical_s": 78.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "edge_111065_negative",
+            "gain_pct": -46.32642353318099,
+            "candidate_s": 8849.918381,
+            "reference_s": 6048.065802,
+            "components": {
+              "movement_s": 6927.918359908387,
+              "switch_s": 236.0,
+              "detection_s": 1295.0,
+              "optical_s": 363.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "tangent_111045_smooth",
+            "gain_pct": -42.352816036310735,
+            "candidate_s": 10887.582983,
+            "reference_s": 7648.308819,
+            "components": {
+              "movement_s": 7906.583027385568,
+              "switch_s": 329.0,
+              "detection_s": 1760.0,
+              "optical_s": 870.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -2.596351552005083
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -18.8106168176962
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -27.550168627606354
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -2.445550030228083
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -17.814099021615036
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.41525067166348073
+          }
+        },
+        "components": {
+          "movement_s": 5322.749406034123,
+          "switch_s": 292.9479166666667,
+          "detection_s": 1576.9791666666667,
+          "optical_s": 134.75,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06272868999803904
+      },
+      "PROBE": {
+        "n": 96,
+        "mean_s": 6661.442671572917,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -0.3099128987902544,
+        "bootstrap95_pct": [
+          -1.0100929884512282,
+          0.3503617965350394
+        ],
+        "p95_s": 8944.494252,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": 0.0,
+        "wins": 33,
+        "ties": 23,
+        "worst": [
+          {
+            "case_id": "cluster_111028_spatial_hash",
+            "gain_pct": -13.236112322213401,
+            "candidate_s": 7716.201315,
+            "reference_s": 6814.258417,
+            "components": {
+              "movement_s": 5906.201329595373,
+              "switch_s": 216.0,
+              "detection_s": 1210.0,
+              "optical_s": 354.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "outward_111013_negative",
+            "gain_pct": -12.694740523385128,
+            "candidate_s": 9746.065787,
+            "reference_s": 8648.199323,
+            "components": {
+              "movement_s": 7223.065810470814,
+              "switch_s": 330.0,
+              "detection_s": 1790.0,
+              "optical_s": 375.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "outward_111049_spatial_hash",
+            "gain_pct": -5.429696404551065,
+            "candidate_s": 9730.626516,
+            "reference_s": 9229.493063,
+            "components": {
+              "movement_s": 6975.626513777209,
+              "switch_s": 420.0,
+              "detection_s": 2220.0,
+              "optical_s": 87.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "cluster_111046_smooth",
+            "gain_pct": -5.171027640895409,
+            "candidate_s": 6094.222578,
+            "reference_s": 5794.583085,
+            "components": {
+              "movement_s": 4366.222579981974,
+              "switch_s": 242.0,
+              "detection_s": 1325.0,
+              "optical_s": 129.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_111073_spatial_hash",
+            "gain_pct": -5.050372311189322,
+            "candidate_s": 8851.321661,
+            "reference_s": 8425.787997,
+            "components": {
+              "movement_s": 6237.321664208904,
+              "switch_s": 400.0,
+              "detection_s": 2135.0,
+              "optical_s": 57.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -1.9662323528747194
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -0.14464185345892666
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.5720102327380849
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -2.3891897431933984
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 2.3377780090702016
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -0.013807256184761307
+          }
+        },
+        "components": {
+          "movement_s": 4609.0572560787905,
+          "switch_s": 302.6041666666667,
+          "detection_s": 1628.2291666666667,
+          "optical_s": 95.40625,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.07833752199803712
+      },
+      "REFINE": {
+        "n": 96,
+        "mean_s": 6729.725558229166,
+        "reference_mean_s": 6640.8617843125,
+        "gain_pct": -1.3381361757383026,
+        "bootstrap95_pct": [
+          -2.190687842577186,
+          -0.5177041345870781
+        ],
+        "p95_s": 9195.22241075,
+        "reference_p95_s": 8694.623295500001,
+        "median_paired_gain_pct": -0.3801949484785516,
+        "wins": 26,
+        "ties": 9,
+        "worst": [
+          {
+            "case_id": "outward_111061_negative",
+            "gain_pct": -13.585862866900268,
+            "candidate_s": 9690.693087,
+            "reference_s": 8531.601418,
+            "components": {
+              "movement_s": 6955.693068736139,
+              "switch_s": 363.0,
+              "detection_s": 1980.0,
+              "optical_s": 360.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_111060_negative",
+            "gain_pct": -13.446037552048939,
+            "candidate_s": 7553.25072,
+            "reference_s": 6658.011935,
+            "components": {
+              "movement_s": 5348.250673690752,
+              "switch_s": 286.0,
+              "detection_s": 1565.0,
+              "optical_s": 330.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "uniform_111036_negative",
+            "gain_pct": -11.827013759526883,
+            "candidate_s": 8586.397396,
+            "reference_s": 7678.285512,
+            "components": {
+              "movement_s": 6252.3973916104605,
+              "switch_s": 301.0,
+              "detection_s": 1640.0,
+              "optical_s": 363.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "outward_111013_negative",
+            "gain_pct": -11.418373826951168,
+            "candidate_s": 9635.683051,
+            "reference_s": 8648.199323,
+            "components": {
+              "movement_s": 7104.68307642044,
+              "switch_s": 330.0,
+              "detection_s": 1810.0,
+              "optical_s": 363.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "edge_111083_positive",
+            "gain_pct": -9.519311071586923,
+            "candidate_s": 7447.351673,
+            "reference_s": 6800.035172,
+            "components": {
+              "movement_s": 5123.351704710743,
+              "switch_s": 315.0,
+              "detection_s": 1705.0,
+              "optical_s": 282.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -1.2432423529336267
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -0.8338812499818493
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -0.17991440200939568
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -2.773100051105515
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -0.5779266052798437
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -1.9593322047547046
+          }
+        },
+        "components": {
+          "movement_s": 4663.308891826994,
+          "switch_s": 305.5729166666667,
+          "detection_s": 1650.7291666666667,
+          "optical_s": 83.96875,
+          "laser_s": 26.145833333333332
+        },
+        "complete": 96,
+        "max_wall_s": 0.06699185699835652
+      }
+    }
+  },
+  "round9_rounding": {
+    "total_runs": 864,
+    "all_complete": true,
+    "vs_baseline": {
+      "BASE": {
+        "n": 96,
+        "mean_s": 11393.930733572915,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 0.0,
+        "bootstrap95_pct": [
+          0.0,
+          0.0
+        ],
+        "p95_s": 14367.42140525,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 0.0,
+        "wins": 0,
+        "ties": 96,
+        "worst": [
+          {
+            "case_id": "uniform_121000_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 11443.227538,
+            "reference_s": 11443.227538,
+            "components": {
+              "movement_s": 8978.227535654463,
+              "switch_s": 373.0,
+              "detection_s": 2010.0,
+              "optical_s": 60.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "outward_121001_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 11537.843214,
+            "reference_s": 11537.843214,
+            "components": {
+              "movement_s": 9524.843213250642,
+              "switch_s": 300.0,
+              "detection_s": 1625.0,
+              "optical_s": 60.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_121002_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 11914.574363,
+            "reference_s": 11914.574363,
+            "components": {
+              "movement_s": 9375.574360139874,
+              "switch_s": 380.0,
+              "detection_s": 2045.0,
+              "optical_s": 90.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "tangent_121003_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 10973.813389,
+            "reference_s": 10973.813389,
+            "components": {
+              "movement_s": 8771.813381110971,
+              "switch_s": 321.0,
+              "detection_s": 1740.0,
+              "optical_s": 117.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "cluster_121004_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 12280.589531,
+            "reference_s": 12280.589531,
+            "components": {
+              "movement_s": 10137.5894833987,
+              "switch_s": 265.0,
+              "detection_s": 1480.0,
+              "optical_s": 372.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.0
+          }
+        },
+        "components": {
+          "movement_s": 9098.37864791505,
+          "switch_s": 325.0104166666667,
+          "detection_s": 1757.4479166666667,
+          "optical_s": 187.34375,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.03682992100220872
+      },
+      "FINAL": {
+        "n": 96,
+        "mean_s": 6694.691184020833,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 41.24335718230658,
+        "bootstrap95_pct": [
+          39.695614704577764,
+          42.78885714969842
+        ],
+        "p95_s": 9598.3337395,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 42.80564875017721,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": 6.601987275746857,
+            "candidate_s": 5445.101508,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 3807.101506869961,
+              "switch_s": 240.0,
+              "detection_s": 1285.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 11.124519650544496,
+            "candidate_s": 5443.470454,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 3593.4704529772557,
+              "switch_s": 277.0,
+              "detection_s": 1475.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 17.7450631045765,
+            "candidate_s": 6552.635507,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 4719.6355128646555,
+              "switch_s": 269.0,
+              "detection_s": 1445.0,
+              "optical_s": 87.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": 18.895280493972756,
+            "candidate_s": 8278.968681,
+            "reference_s": 10207.752066,
+            "components": {
+              "movement_s": 5952.968682828542,
+              "switch_s": 342.0,
+              "detection_s": 1835.0,
+              "optical_s": 117.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 20.120467798991903,
+            "candidate_s": 4910.013291,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 3564.013295765572,
+              "switch_s": 173.0,
+              "detection_s": 925.0,
+              "optical_s": 216.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 43.110990758693305
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 41.79808321430993
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 48.84551508772847
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 34.87444558322695
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 38.635166175137044
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 41.01158418124997
+          }
+        },
+        "components": {
+          "movement_s": 4609.639100586907,
+          "switch_s": 308.5625,
+          "detection_s": 1657.3958333333333,
+          "optical_s": 93.34375,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.07014015299500898
+      },
+      "COMPACT22": {
+        "n": 96,
+        "mean_s": 6921.949935072917,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 39.248797478845766,
+        "bootstrap95_pct": [
+          37.484295498939204,
+          40.96349616920726
+        ],
+        "p95_s": 9202.955084000001,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 40.76821025071773,
+        "wins": 95,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": -3.3958974916691087,
+            "candidate_s": 6027.977908,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 4222.977907228378,
+              "switch_s": 274.0,
+              "detection_s": 1445.0,
+              "optical_s": 54.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 0.9752777281465952,
+            "candidate_s": 6065.094082,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 4231.094085449543,
+              "switch_s": 274.0,
+              "detection_s": 1465.0,
+              "optical_s": 63.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 1.5595777073466266,
+            "candidate_s": 6050.909019,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 4364.909022368954,
+              "switch_s": 252.0,
+              "detection_s": 1345.0,
+              "optical_s": 57.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 8.722953117056086,
+            "candidate_s": 7271.359519,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 5366.359548008969,
+              "switch_s": 248.0,
+              "detection_s": 1310.0,
+              "optical_s": 315.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121039_negative",
+            "gain_pct": 15.92439306354867,
+            "candidate_s": 9464.599334,
+            "reference_s": 11257.247707,
+            "components": {
+              "movement_s": 6782.599369081932,
+              "switch_s": 303.0,
+              "detection_s": 1615.0,
+              "optical_s": 744.0,
+              "laser_s": 20.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 46.05966388995961
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 39.426564364303964
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 39.18852061655218
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 37.363062141798395
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 32.05640104312165
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 41.45534441067288
+          }
+        },
+        "components": {
+          "movement_s": 5020.42910323777,
+          "switch_s": 276.9375,
+          "detection_s": 1481.9270833333333,
+          "optical_s": 116.90625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.09720815400214633
+      },
+      "NO_CENTROID": {
+        "n": 96,
+        "mean_s": 7491.546799218749,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 34.24967226503802,
+        "bootstrap95_pct": [
+          32.39379693824989,
+          36.07604399121797
+        ],
+        "p95_s": 10240.7702985,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 34.67048177738536,
+        "wins": 94,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": -8.164716419296791,
+            "candidate_s": 6305.999917,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 4645.999918629804,
+              "switch_s": 250.0,
+              "detection_s": 1315.0,
+              "optical_s": 63.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": -0.35291412935407607,
+            "candidate_s": 6146.443551,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 4449.443552397491,
+              "switch_s": 256.0,
+              "detection_s": 1340.0,
+              "optical_s": 69.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_121086_negative",
+            "gain_pct": 6.334835301803022,
+            "candidate_s": 8547.481163,
+            "reference_s": 9125.57106,
+            "components": {
+              "movement_s": 6498.481161997552,
+              "switch_s": 298.0,
+              "detection_s": 1575.0,
+              "optical_s": 144.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121033_positive",
+            "gain_pct": 7.700502796294407,
+            "candidate_s": 12359.261776,
+            "reference_s": 13390.38906,
+            "components": {
+              "movement_s": 9196.26180490738,
+              "switch_s": 307.0,
+              "detection_s": 1660.0,
+              "optical_s": 1170.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 8.406909379533346,
+            "candidate_s": 5630.019104,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 4206.01910349283,
+              "switch_s": 209.0,
+              "detection_s": 1090.0,
+              "optical_s": 93.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 41.1775674440072
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 34.27730611016864
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 32.68777862452698
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 30.456315330408856
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 30.00844595018498
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 37.01486471876936
+          }
+        },
+        "components": {
+          "movement_s": 5426.661383030571,
+          "switch_s": 300.0625,
+          "detection_s": 1603.8541666666667,
+          "optical_s": 135.21875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.05135647299903212
+      },
+      "NO_INFO": {
+        "n": 96,
+        "mean_s": 7000.254325927082,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 38.56155097291926,
+        "bootstrap95_pct": [
+          37.06602744191386,
+          39.99048278004411
+        ],
+        "p95_s": 9648.781875249999,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 40.035372852343116,
+        "wins": 95,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": -4.152734907497835,
+            "candidate_s": 6072.101508,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 3807.101506869961,
+              "switch_s": 342.0,
+              "detection_s": 1810.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 2.7651014588863543,
+            "candidate_s": 5955.470454,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 3593.4704529772557,
+              "switch_s": 359.0,
+              "detection_s": 1905.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 11.343941676624414,
+            "candidate_s": 7062.564967,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 4719.564972657945,
+              "switch_s": 354.0,
+              "detection_s": 1870.0,
+              "optical_s": 87.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 14.08478017653777,
+            "candidate_s": 5281.013291,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 3564.013295765572,
+              "switch_s": 234.0,
+              "detection_s": 1235.0,
+              "optical_s": 216.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": 16.132674210271112,
+            "candidate_s": 8560.968681,
+            "reference_s": 10207.752066,
+            "components": {
+              "movement_s": 5952.968682828542,
+              "switch_s": 389.0,
+              "detection_s": 2070.0,
+              "optical_s": 117.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 41.76241897939876
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 37.953194645420695
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 44.023669743433125
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 32.75259039006334
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 35.98612986738271
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 39.54456355915875
+          }
+        },
+        "components": {
+          "movement_s": 4611.723075695539,
+          "switch_s": 358.2708333333333,
+          "detection_s": 1909.6354166666667,
+          "optical_s": 94.875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.0563330059958389
+      },
+      "RELOCATE": {
+        "n": 96,
+        "mean_s": 6684.769384947916,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 41.33043686801753,
+        "bootstrap95_pct": [
+          39.70836098343674,
+          42.922432621274126
+        ],
+        "p95_s": 9737.920445,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 43.150690168885575,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": 6.601987275746857,
+            "candidate_s": 5445.101508,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 3807.101506869961,
+              "switch_s": 240.0,
+              "detection_s": 1285.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 11.124519650544496,
+            "candidate_s": 5443.470454,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 3593.4704529772557,
+              "switch_s": 277.0,
+              "detection_s": 1475.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": 18.895280493972756,
+            "candidate_s": 8278.968681,
+            "reference_s": 10207.752066,
+            "components": {
+              "movement_s": 5952.968682828542,
+              "switch_s": 342.0,
+              "detection_s": 1835.0,
+              "optical_s": 117.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 19.69971431512375,
+            "candidate_s": 6396.923067,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 4554.9230734672765,
+              "switch_s": 270.0,
+              "detection_s": 1450.0,
+              "optical_s": 90.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 20.120467798991903,
+            "candidate_s": 4910.013291,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 3564.013295765572,
+              "switch_s": 173.0,
+              "detection_s": 925.0,
+              "optical_s": 216.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 43.37741080205959
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 42.44799390359517
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 48.89011908665712
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 34.839488909441776
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 38.635166175137044
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 40.611920906841206
+          }
+        },
+        "components": {
+          "movement_s": 4589.623551390273,
+          "switch_s": 309.09375,
+          "detection_s": 1659.4270833333333,
+          "optical_s": 100.875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.17807258300308604
+      },
+      "COST": {
+        "n": 96,
+        "mean_s": 7331.651703156251,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 35.65300795139039,
+        "bootstrap95_pct": [
+          33.66372352022266,
+          37.62637555854155
+        ],
+        "p95_s": 10038.847389,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 37.14982199450007,
+        "wins": 95,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "uniform_121090_smooth",
+            "gain_pct": -2.8914694548618725,
+            "candidate_s": 5703.759315,
+            "reference_s": 5543.471529,
+            "components": {
+              "movement_s": 4433.759316418656,
+              "switch_s": 184.0,
+              "detection_s": 1000.0,
+              "optical_s": 54.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121045_smooth",
+            "gain_pct": 1.5015936431955423,
+            "candidate_s": 11664.795506,
+            "reference_s": 11842.623589,
+            "components": {
+              "movement_s": 8708.7955408216,
+              "switch_s": 308.0,
+              "detection_s": 1665.0,
+              "optical_s": 957.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 2.75606714829163,
+            "candidate_s": 5956.02379,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 4124.0237877152695,
+              "switch_s": 275.0,
+              "detection_s": 1465.0,
+              "optical_s": 60.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": 4.4841251020982575,
+            "candidate_s": 5568.572813,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 4188.5728127416405,
+              "switch_s": 202.0,
+              "detection_s": 1080.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121009_positive",
+            "gain_pct": 7.6278826900421866,
+            "candidate_s": 5677.904104,
+            "reference_s": 6146.772716,
+            "components": {
+              "movement_s": 4237.904100589424,
+              "switch_s": 207.0,
+              "detection_s": 1105.0,
+              "optical_s": 96.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 44.722054291116955
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 34.18500813395976
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 34.00010396755357
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 32.70767460466537
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 29.853791511061388
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 38.46948474662809
+          }
+        },
+        "components": {
+          "movement_s": 5274.172536300963,
+          "switch_s": 296.6666666666667,
+          "detection_s": 1593.4375,
+          "optical_s": 141.625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.058237331999407616
+      },
+      "PROBE": {
+        "n": 96,
+        "mean_s": 6763.110947020832,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 40.642864125082745,
+        "bootstrap95_pct": [
+          38.96058971218073,
+          42.2960368298519
+        ],
+        "p95_s": 10093.419568,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 42.950467433924224,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": 6.1847814478702805,
+            "candidate_s": 5469.424596,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 3825.424595456179,
+              "switch_s": 240.0,
+              "detection_s": 1285.0,
+              "optical_s": 87.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 10.605136459169495,
+            "candidate_s": 5475.281782,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 3625.281781479085,
+              "switch_s": 277.0,
+              "detection_s": 1475.0,
+              "optical_s": 66.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": 11.240339386981347,
+            "candidate_s": 9060.36609,
+            "reference_s": 10207.752066,
+            "components": {
+              "movement_s": 6546.366065668825,
+              "switch_s": 342.0,
+              "detection_s": 1840.0,
+              "optical_s": 300.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 17.616038576151784,
+            "candidate_s": 6562.913926,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 4735.913930720824,
+              "switch_s": 269.0,
+              "detection_s": 1445.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121033_positive",
+            "gain_pct": 22.13067258704431,
+            "candidate_s": 10427.005899,
+            "reference_s": 13390.38906,
+            "components": {
+              "movement_s": 7259.005906041074,
+              "switch_s": 387.0,
+              "detection_s": 2065.0,
+              "optical_s": 690.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 42.260075342855444
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 40.871508649617674
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 48.92502546577864
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 33.062087639760804
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 39.65900188736098
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 40.01625910355623
+          }
+        },
+        "components": {
+          "movement_s": 4668.1421965223135,
+          "switch_s": 308.5625,
+          "detection_s": 1657.65625,
+          "optical_s": 103.0,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.062166661002265755
+      },
+      "REFINE": {
+        "n": 96,
+        "mean_s": 6782.177446531251,
+        "reference_mean_s": 11393.930733572915,
+        "gain_pct": 40.475525039421655,
+        "bootstrap95_pct": [
+          38.708179455116046,
+          42.22963843468529
+        ],
+        "p95_s": 10210.93451725,
+        "reference_p95_s": 14367.42140525,
+        "median_paired_gain_pct": 42.972201556633415,
+        "wins": 96,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": 6.539120795938369,
+            "candidate_s": 5448.766622,
+            "reference_s": 5829.99718,
+            "components": {
+              "movement_s": 3807.7666237358144,
+              "switch_s": 245.0,
+              "detection_s": 1310.0,
+              "optical_s": 54.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121091_smooth",
+            "gain_pct": 11.256645447046054,
+            "candidate_s": 5435.377976,
+            "reference_s": 6124.828167,
+            "components": {
+              "movement_s": 3590.3779756133545,
+              "switch_s": 279.0,
+              "detection_s": 1480.0,
+              "optical_s": 54.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "outward_121055_positive",
+            "gain_pct": 16.640079108814565,
+            "candidate_s": 10668.469602,
+            "reference_s": 12798.080286,
+            "components": {
+              "movement_s": 7488.46956574856,
+              "switch_s": 443.0,
+              "detection_s": 2370.0,
+              "optical_s": 345.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "edge_121065_negative",
+            "gain_pct": 16.999938126862723,
+            "candidate_s": 6611.99404,
+            "reference_s": 7966.251941,
+            "components": {
+              "movement_s": 4750.99404389155,
+              "switch_s": 275.0,
+              "detection_s": 1485.0,
+              "optical_s": 69.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": 17.61975353996612,
+            "candidate_s": 8409.17131,
+            "reference_s": 10207.752066,
+            "components": {
+              "movement_s": 6050.171312059459,
+              "switch_s": 345.0,
+              "detection_s": 1880.0,
+              "optical_s": 102.0,
+              "laser_s": 32.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 42.82638775491927
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 41.51513048891273
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 48.75913535929559
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 32.07946335400466
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 38.747214776511726
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 39.91694863299233
+          }
+        },
+        "components": {
+          "movement_s": 4686.375363241628,
+          "switch_s": 311.7708333333333,
+          "detection_s": 1681.71875,
+          "optical_s": 76.5625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.06091821999871172
+      }
+    },
+    "vs_final": {
+      "BASE": {
+        "n": 96,
+        "mean_s": 11393.930733572915,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -70.19352230568039,
+        "bootstrap95_pct": [
+          -74.79112462726576,
+          -65.8254196775598
+        ],
+        "p95_s": 14367.42140525,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -74.84274820900285,
+        "wins": 0,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_121002_spatial_hash",
+            "gain_pct": -112.91815000453624,
+            "candidate_s": 11914.574363,
+            "reference_s": 5595.847213,
+            "components": {
+              "movement_s": 9375.574360139874,
+              "switch_s": 380.0,
+              "detection_s": 2045.0,
+              "optical_s": 90.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "inward_121014_negative",
+            "gain_pct": -112.4856903329345,
+            "candidate_s": 11817.775757,
+            "reference_s": 5561.68076,
+            "components": {
+              "movement_s": 9952.775757641517,
+              "switch_s": 262.0,
+              "detection_s": 1470.0,
+              "optical_s": 105.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "edge_121047_smooth",
+            "gain_pct": -108.99362154433146,
+            "candidate_s": 11812.366856,
+            "reference_s": 5652.022664,
+            "components": {
+              "movement_s": 9198.36685566133,
+              "switch_s": 398.0,
+              "detection_s": 2125.0,
+              "optical_s": 69.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "inward_121032_positive",
+            "gain_pct": -108.93210556557608,
+            "candidate_s": 11606.936029,
+            "reference_s": 5555.362589,
+            "components": {
+              "movement_s": 8676.936030374369,
+              "switch_s": 450.0,
+              "detection_s": 2380.0,
+              "optical_s": 78.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "inward_121050_spatial_hash",
+            "gain_pct": -104.41394971071762,
+            "candidate_s": 11306.003503,
+            "reference_s": 5530.935398,
+            "components": {
+              "movement_s": 9160.003502051668,
+              "switch_s": 317.0,
+              "detection_s": 1740.0,
+              "optical_s": 63.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -75.78087812327503
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -71.81564718601624
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -95.48628076599176
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -53.54955653820133
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -62.95978293594497
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -69.52481027336566
+          }
+        },
+        "components": {
+          "movement_s": 9098.37864791505,
+          "switch_s": 325.0104166666667,
+          "detection_s": 1757.4479166666667,
+          "optical_s": 187.34375,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.03682992100220872
+      },
+      "FINAL": {
+        "n": 96,
+        "mean_s": 6694.691184020833,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": 0.0,
+        "bootstrap95_pct": [
+          0.0,
+          0.0
+        ],
+        "p95_s": 9598.3337395,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": 0.0,
+        "wins": 0,
+        "ties": 96,
+        "worst": [
+          {
+            "case_id": "uniform_121000_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 7365.149525,
+            "reference_s": 7365.149525,
+            "components": {
+              "movement_s": 5078.149525825466,
+              "switch_s": 347.0,
+              "detection_s": 1855.0,
+              "optical_s": 63.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "outward_121001_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 5895.673656,
+            "reference_s": 5895.673656,
+            "components": {
+              "movement_s": 4007.6736551128074,
+              "switch_s": 284.0,
+              "detection_s": 1525.0,
+              "optical_s": 51.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_121002_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 5595.847213,
+            "reference_s": 5595.847213,
+            "components": {
+              "movement_s": 3704.847212861876,
+              "switch_s": 283.0,
+              "detection_s": 1530.0,
+              "optical_s": 54.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "tangent_121003_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 7412.26379,
+            "reference_s": 7412.26379,
+            "components": {
+              "movement_s": 4908.2637864939525,
+              "switch_s": 376.0,
+              "detection_s": 2005.0,
+              "optical_s": 99.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "cluster_121004_spatial_hash",
+            "gain_pct": 0.0,
+            "candidate_s": 6919.170324,
+            "reference_s": 6919.170324,
+            "components": {
+              "movement_s": 5098.170322641292,
+              "switch_s": 267.0,
+              "detection_s": 1450.0,
+              "optical_s": 78.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.0
+          }
+        },
+        "components": {
+          "movement_s": 4609.639100586907,
+          "switch_s": 308.5625,
+          "detection_s": 1657.3958333333333,
+          "optical_s": 93.34375,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.07014015299500898
+      },
+      "COMPACT22": {
+        "n": 96,
+        "mean_s": 6921.949935072917,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -3.3946114138097006,
+        "bootstrap95_pct": [
+          -6.03840038985414,
+          -0.9452151843025801
+        ],
+        "p95_s": 9202.955084000001,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -2.5026647106352162,
+        "wins": 40,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_121086_negative",
+            "gain_pct": -44.41401987449283,
+            "candidate_s": 6784.1199,
+            "reference_s": 4697.687874,
+            "components": {
+              "movement_s": 5157.11989522665,
+              "switch_s": 236.0,
+              "detection_s": 1260.0,
+              "optical_s": 99.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_121014_negative",
+            "gain_pct": -41.211900159476244,
+            "candidate_s": 7853.755082,
+            "reference_s": 5561.68076,
+            "components": {
+              "movement_s": 5858.75508227943,
+              "switch_s": 289.0,
+              "detection_s": 1540.0,
+              "optical_s": 138.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "tangent_121045_smooth",
+            "gain_pct": -36.57733898499511,
+            "candidate_s": 9871.836312,
+            "reference_s": 7228.01922,
+            "components": {
+              "movement_s": 7230.83630316607,
+              "switch_s": 322.0,
+              "detection_s": 1720.0,
+              "optical_s": 573.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "edge_121017_negative",
+            "gain_pct": -31.68555613142301,
+            "candidate_s": 7604.284158,
+            "reference_s": 5774.577244,
+            "components": {
+              "movement_s": 5496.284156125625,
+              "switch_s": 318.0,
+              "detection_s": 1690.0,
+              "optical_s": 78.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "inward_121050_spatial_hash",
+            "gain_pct": -31.02502496450239,
+            "candidate_s": 7246.909486,
+            "reference_s": 5530.935398,
+            "components": {
+              "movement_s": 5468.909486934603,
+              "switch_s": 264.0,
+              "detection_s": 1425.0,
+              "optical_s": 63.0,
+              "laser_s": 26.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 5.183203523124991
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -4.074640460276147
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -18.87809932547999
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": 3.8212596896226914
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -10.720741378997921
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": 0.7522836869978455
+          }
+        },
+        "components": {
+          "movement_s": 5020.42910323777,
+          "switch_s": 276.9375,
+          "detection_s": 1481.9270833333333,
+          "optical_s": 116.90625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.09720815400214633
+      },
+      "NO_CENTROID": {
+        "n": 96,
+        "mean_s": 7491.546799218749,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -11.902798699660465,
+        "bootstrap95_pct": [
+          -14.96145440896594,
+          -9.045369631440437
+        ],
+        "p95_s": 10240.7702985,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -11.212376944448554,
+        "wins": 12,
+        "ties": 0,
+        "worst": [
+          {
+            "case_id": "inward_121086_negative",
+            "gain_pct": -81.95081053186209,
+            "candidate_s": 8547.481163,
+            "reference_s": 4697.687874,
+            "components": {
+              "movement_s": 6498.481161997552,
+              "switch_s": 298.0,
+              "detection_s": 1575.0,
+              "optical_s": 144.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "edge_121089_negative",
+            "gain_pct": -54.62536735732475,
+            "candidate_s": 9876.964569,
+            "reference_s": 6387.674117,
+            "components": {
+              "movement_s": 7437.964593483239,
+              "switch_s": 290.0,
+              "detection_s": 1550.0,
+              "optical_s": 573.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "inward_121050_spatial_hash",
+            "gain_pct": -48.672348532102696,
+            "candidate_s": 8222.971552,
+            "reference_s": 5530.935398,
+            "components": {
+              "movement_s": 6113.971553474934,
+              "switch_s": 310.0,
+              "detection_s": 1650.0,
+              "optical_s": 123.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "inward_121020_smooth",
+            "gain_pct": -47.7790713639616,
+            "candidate_s": 6305.409268,
+            "reference_s": 4266.780952,
+            "components": {
+              "movement_s": 4678.409268152679,
+              "switch_s": 239.0,
+              "detection_s": 1275.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_121092_smooth",
+            "gain_pct": -46.99748883862351,
+            "candidate_s": 8438.743898,
+            "reference_s": 5740.740175,
+            "components": {
+              "movement_s": 6260.7438958049515,
+              "switch_s": 327.0,
+              "detection_s": 1755.0,
+              "optical_s": 72.0,
+              "laser_s": 24.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -3.398588480395359
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -12.921871854898104
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -31.58615806788312
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -6.784019410482323
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -14.058084553073158
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -6.775431085928929
+          }
+        },
+        "components": {
+          "movement_s": 5426.661383030571,
+          "switch_s": 300.0625,
+          "detection_s": 1603.8541666666667,
+          "optical_s": 135.21875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.05135647299903212
+      },
+      "NO_INFO": {
+        "n": 96,
+        "mean_s": 7000.254325927082,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -4.564260449168733,
+        "bootstrap95_pct": [
+          -5.371153372968601,
+          -3.8369113818724627
+        ],
+        "p95_s": 9648.781875249999,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -4.223116485188195,
+        "wins": 1,
+        "ties": 4,
+        "worst": [
+          {
+            "case_id": "inward_121002_spatial_hash",
+            "gain_pct": -13.168071606532617,
+            "candidate_s": 6332.712381,
+            "reference_s": 5595.847213,
+            "components": {
+              "movement_s": 3702.7123816497374,
+              "switch_s": 405.0,
+              "detection_s": 2150.0,
+              "optical_s": 51.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "inward_121062_negative",
+            "gain_pct": -12.621866946922689,
+            "candidate_s": 6198.330385,
+            "reference_s": 5503.665099,
+            "components": {
+              "movement_s": 3715.3303858720096,
+              "switch_s": 381.0,
+              "detection_s": 2020.0,
+              "optical_s": 54.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_121014_negative",
+            "gain_pct": -12.615059121084826,
+            "candidate_s": 6263.290076,
+            "reference_s": 5561.68076,
+            "components": {
+              "movement_s": 3743.290077945473,
+              "switch_s": 387.0,
+              "detection_s": 2045.0,
+              "optical_s": 60.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "outward_121073_spatial_hash",
+            "gain_pct": -11.514936848813662,
+            "candidate_s": 6072.101508,
+            "reference_s": 5445.101508,
+            "components": {
+              "movement_s": 3807.101506869961,
+              "switch_s": 342.0,
+              "detection_s": 1810.0,
+              "optical_s": 81.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "inward_121074_spatial_hash",
+            "gain_pct": -11.501687369589032,
+            "candidate_s": 6171.068493,
+            "reference_s": 5534.506821,
+            "components": {
+              "movement_s": 3676.0684939237076,
+              "switch_s": 385.0,
+              "detection_s": 2050.0,
+              "optical_s": 36.0,
+              "laser_s": 24.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -2.370531315766611
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -6.6061201782182
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -9.426046127851118
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -3.2580992394855235
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -4.316863817010863
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -2.4869639262712795
+          }
+        },
+        "components": {
+          "movement_s": 4611.723075695539,
+          "switch_s": 358.2708333333333,
+          "detection_s": 1909.6354166666667,
+          "optical_s": 94.875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.0563330059958389
+      },
+      "RELOCATE": {
+        "n": 96,
+        "mean_s": 6684.769384947916,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": 0.14820398432416892,
+        "bootstrap95_pct": [
+          -0.45054647019386607,
+          0.7463325223944137
+        ],
+        "p95_s": 9737.920445,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": 0.0,
+        "wins": 26,
+        "ties": 56,
+        "worst": [
+          {
+            "case_id": "cluster_121088_negative",
+            "gain_pct": -11.528527372032116,
+            "candidate_s": 8680.766818,
+            "reference_s": 7783.44969,
+            "components": {
+              "movement_s": 6134.76677435342,
+              "switch_s": 345.0,
+              "detection_s": 1850.0,
+              "optical_s": 327.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "uniform_121084_negative",
+            "gain_pct": -9.990924071688445,
+            "candidate_s": 8042.94989,
+            "reference_s": 7312.37596,
+            "components": {
+              "movement_s": 5897.949929197445,
+              "switch_s": 275.0,
+              "detection_s": 1475.0,
+              "optical_s": 363.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "cluster_121064_negative",
+            "gain_pct": -5.116599516382436,
+            "candidate_s": 6209.162723,
+            "reference_s": 5906.928831,
+            "components": {
+              "movement_s": 4395.162720902657,
+              "switch_s": 265.0,
+              "detection_s": 1440.0,
+              "optical_s": 81.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "outward_121043_smooth",
+            "gain_pct": -4.806861679956298,
+            "candidate_s": 9923.111552,
+            "reference_s": 9467.997985,
+            "components": {
+              "movement_s": 7002.1115476305995,
+              "switch_s": 446.0,
+              "detection_s": 2365.0,
+              "optical_s": 84.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "outward_121007_positive",
+            "gain_pct": -4.4265112215223335,
+            "candidate_s": 10443.020674,
+            "reference_s": 10000.353887,
+            "components": {
+              "movement_s": 7175.020744674091,
+              "switch_s": 413.0,
+              "detection_s": 2185.0,
+              "optical_s": 648.0,
+              "laser_s": 22.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 0.4683154917256682
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": 1.1166482569265224
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.0871946985784966
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -0.0536758175776475
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.0
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -0.6775284076737886
+          }
+        },
+        "components": {
+          "movement_s": 4589.623551390273,
+          "switch_s": 309.09375,
+          "detection_s": 1659.4270833333333,
+          "optical_s": 100.875,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.17807258300308604
+      },
+      "COST": {
+        "n": 96,
+        "mean_s": 7331.651703156251,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -9.5144122652848,
+        "bootstrap95_pct": [
+          -12.647902990194268,
+          -6.670748811988043
+        ],
+        "p95_s": 10038.847389,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -8.139657296215852,
+        "wins": 22,
+        "ties": 1,
+        "worst": [
+          {
+            "case_id": "inward_121086_negative",
+            "gain_pct": -72.77273636932992,
+            "candidate_s": 8116.323886,
+            "reference_s": 4697.687874,
+            "components": {
+              "movement_s": 6087.32389398376,
+              "switch_s": 290.0,
+              "detection_s": 1545.0,
+              "optical_s": 162.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "tangent_121045_smooth",
+            "gain_pct": -61.38301726873383,
+            "candidate_s": 11664.795506,
+            "reference_s": 7228.01922,
+            "components": {
+              "movement_s": 8708.7955408216,
+              "switch_s": 308.0,
+              "detection_s": 1665.0,
+              "optical_s": 957.0,
+              "laser_s": 26.0
+            }
+          },
+          {
+            "case_id": "inward_121014_negative",
+            "gain_pct": -46.272237531303404,
+            "candidate_s": 8135.194892,
+            "reference_s": 5561.68076,
+            "components": {
+              "movement_s": 6383.1948937582765,
+              "switch_s": 257.0,
+              "detection_s": 1395.0,
+              "optical_s": 72.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "inward_121044_smooth",
+            "gain_pct": -41.92697506611025,
+            "candidate_s": 8146.56459,
+            "reference_s": 5739.969154,
+            "components": {
+              "movement_s": 5925.564590608531,
+              "switch_s": 336.0,
+              "detection_s": 1795.0,
+              "optical_s": 66.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "inward_121062_negative",
+            "gain_pct": -39.87338112921756,
+            "candidate_s": 7698.16246,
+            "reference_s": 5503.665099,
+            "components": {
+              "movement_s": 5775.162464651174,
+              "switch_s": 286.0,
+              "detection_s": 1540.0,
+              "optical_s": 69.0,
+              "laser_s": 28.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": 2.831941624418144
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -13.08045422006099
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -29.02074206325087
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -3.3270672287797565
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": -14.31010909136976
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -4.3094892435030285
+          }
+        },
+        "components": {
+          "movement_s": 5274.172536300963,
+          "switch_s": 296.6666666666667,
+          "detection_s": 1593.4375,
+          "optical_s": 141.625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.058237331999407616
+      },
+      "PROBE": {
+        "n": 96,
+        "mean_s": 6763.110947020832,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -1.0220002852903143,
+        "bootstrap95_pct": [
+          -1.6604435776712216,
+          -0.4063602310810993
+        ],
+        "p95_s": 10093.419568,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": 0.0,
+        "wins": 28,
+        "ties": 24,
+        "worst": [
+          {
+            "case_id": "edge_121071_smooth",
+            "gain_pct": -13.272039820301917,
+            "candidate_s": 7228.892586,
+            "reference_s": 6381.886119,
+            "components": {
+              "movement_s": 5055.89257295532,
+              "switch_s": 284.0,
+              "detection_s": 1535.0,
+              "optical_s": 324.0,
+              "laser_s": 30.0
+            }
+          },
+          {
+            "case_id": "cluster_121094_smooth",
+            "gain_pct": -10.773347970983615,
+            "candidate_s": 7407.987361,
+            "reference_s": 6687.517798,
+            "components": {
+              "movement_s": 5236.98739418887,
+              "switch_s": 290.0,
+              "detection_s": 1565.0,
+              "optical_s": 288.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "edge_121011_positive",
+            "gain_pct": -9.438342372200115,
+            "candidate_s": 9060.36609,
+            "reference_s": 8278.968681,
+            "components": {
+              "movement_s": 6546.366065668825,
+              "switch_s": 342.0,
+              "detection_s": 1840.0,
+              "optical_s": 300.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_121072_spatial_hash",
+            "gain_pct": -8.788861153196393,
+            "candidate_s": 7731.608244,
+            "reference_s": 7106.985184,
+            "components": {
+              "movement_s": 5553.6082345809145,
+              "switch_s": 308.0,
+              "detection_s": 1665.0,
+              "optical_s": 177.0,
+              "laser_s": 28.0
+            }
+          },
+          {
+            "case_id": "uniform_121018_smooth",
+            "gain_pct": -7.446717949164383,
+            "candidate_s": 7126.592426,
+            "reference_s": 6632.675769,
+            "components": {
+              "movement_s": 4930.592412534378,
+              "switch_s": 317.0,
+              "detection_s": 1705.0,
+              "optical_s": 150.0,
+              "laser_s": 24.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -1.4957465900460987
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -1.592000084987033
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": 0.15543188087324689
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -2.782867585077131
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 1.6684404542608
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -1.68732294956353
+          }
+        },
+        "components": {
+          "movement_s": 4668.1421965223135,
+          "switch_s": 308.5625,
+          "detection_s": 1657.65625,
+          "optical_s": 103.0,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.062166661002265755
+      },
+      "REFINE": {
+        "n": 96,
+        "mean_s": 6782.177446531251,
+        "reference_mean_s": 6694.691184020833,
+        "gain_pct": -1.3068005693710472,
+        "bootstrap95_pct": [
+          -2.041149882508202,
+          -0.6370060200414467
+        ],
+        "p95_s": 10210.93451725,
+        "reference_p95_s": 9598.3337395,
+        "median_paired_gain_pct": -0.22751113855399296,
+        "wins": 31,
+        "ties": 8,
+        "worst": [
+          {
+            "case_id": "outward_121037_negative",
+            "gain_pct": -14.015953098245703,
+            "candidate_s": 11366.976036,
+            "reference_s": 9969.636465,
+            "components": {
+              "movement_s": 8179.9760719173655,
+              "switch_s": 432.0,
+              "detection_s": 2365.0,
+              "optical_s": 366.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "outward_121055_positive",
+            "gain_pct": -11.653617507017522,
+            "candidate_s": 10668.469602,
+            "reference_s": 9554.969951,
+            "components": {
+              "movement_s": 7488.46956574856,
+              "switch_s": 443.0,
+              "detection_s": 2370.0,
+              "optical_s": 345.0,
+              "laser_s": 22.0
+            }
+          },
+          {
+            "case_id": "cluster_121016_negative",
+            "gain_pct": -9.68873140467943,
+            "candidate_s": 7856.995062,
+            "reference_s": 7162.992006,
+            "components": {
+              "movement_s": 5704.995057324129,
+              "switch_s": 283.0,
+              "detection_s": 1560.0,
+              "optical_s": 285.0,
+              "laser_s": 24.0
+            }
+          },
+          {
+            "case_id": "uniform_121084_negative",
+            "gain_pct": -9.242661532955431,
+            "candidate_s": 7988.23412,
+            "reference_s": 7312.37596,
+            "components": {
+              "movement_s": 5780.234156374669,
+              "switch_s": 290.0,
+              "detection_s": 1580.0,
+              "optical_s": 306.0,
+              "laser_s": 32.0
+            }
+          },
+          {
+            "case_id": "uniform_121012_negative",
+            "gain_pct": -8.127069407141875,
+            "candidate_s": 7841.08902,
+            "reference_s": 7251.735447,
+            "components": {
+              "movement_s": 5717.088985115247,
+              "switch_s": 282.0,
+              "detection_s": 1545.0,
+              "optical_s": 273.0,
+              "laser_s": 24.0
+            }
+          }
+        ],
+        "by_family": {
+          "cluster": {
+            "n": 16,
+            "gain_pct": -0.500277659199222
+          },
+          "edge": {
+            "n": 16,
+            "gain_pct": -0.48615705637167217
+          },
+          "inward": {
+            "n": 16,
+            "gain_pct": -0.1688605184491987
+          },
+          "outward": {
+            "n": 16,
+            "gain_pct": -4.291682818292375
+          },
+          "tangent": {
+            "n": 16,
+            "gain_pct": 0.18259415758293818
+          },
+          "uniform": {
+            "n": 16,
+            "gain_pct": -1.8556788363685683
+          }
+        },
+        "components": {
+          "movement_s": 4686.375363241628,
+          "switch_s": 311.7708333333333,
+          "detection_s": 1681.71875,
+          "optical_s": 76.5625,
+          "laser_s": 25.75
+        },
+        "complete": 96,
+        "max_wall_s": 0.06091821999871172
+      }
+    }
+  }
+}

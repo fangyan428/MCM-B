@@ -1,0 +1,31 @@
+{
+  "test": "thin_region_missing_cells_tamper",
+  "policy_changed": false,
+  "interpretation": "Auditor blind spot only: real cell_cover retains all cells; all source truth alone cannot establish whole-region coverage",
+  "poly": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      100.0,
+      0.0
+    ],
+    [
+      100.0,
+      1e-09
+    ],
+    [
+      0.0,
+      1e-09
+    ]
+  ],
+  "original_cells": 3,
+  "tampered_cells": 1,
+  "tampered_audit_accepted": true,
+  "result": {
+    "passed": true,
+    "checked_cell_covers": 1
+  },
+  "uncovered_vertex_min_distance": 83.3333334
+}

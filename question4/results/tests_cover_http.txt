@@ -1,0 +1,35 @@
+test_clear_does_not_switch (test_contract.ContractTests.test_clear_does_not_switch) ... ok
+test_directional_backside_near_and_optical (test_contract.ContractTests.test_directional_backside_near_and_optical) ... ok
+test_fixed_location_fixed_error_and_idempotent (test_contract.ContractTests.test_fixed_location_fixed_error_and_idempotent) ... ok
+test_full_run_and_tampered_stop (test_contract.ContractTests.test_full_run_and_tampered_stop) ... ok
+test_grid_detection_for_boundary_and_orientations (test_contract.ContractTests.test_grid_detection_for_boundary_and_orientations) ... ok
+test_pure_optical_fallback_all_types_and_error_signs (test_contract.ContractTests.test_pure_optical_fallback_all_types_and_error_signs) ... ok
+test_sector_and_optical_certificate_error_extremes (test_contract.ContractTests.test_sector_and_optical_certificate_error_extremes) ... ok
+test_bad_witness_and_station (test_cover_http.CoverHttpTests.test_bad_witness_and_station) ... ok
+test_continuous_cover_and_missing_cell (test_cover_http.CoverHttpTests.test_continuous_cover_and_missing_cell) ... ok
+test_official_mode_requires_actual_operator_context (test_cover_http.CoverHttpTests.test_official_mode_requires_actual_operator_context) ... ok
+test_recommended_mechanisms_over_real_http (test_cover_http.CoverHttpTests.test_recommended_mechanisms_over_real_http) ... ERROR
+
+======================================================================
+ERROR: test_recommended_mechanisms_over_real_http (test_cover_http.CoverHttpTests.test_recommended_mechanisms_over_real_http)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/fangyan/projects/MCM-B/question4/tests/test_cover_http.py", line 30, in test_recommended_mechanisms_over_real_http
+    env=Simulator(make_case(81001,'outward'));server=make_server(env)
+                                                     ~~~~~~~~~~~^^^^^
+  File "/home/fangyan/projects/MCM-B/question3/self_server.py", line 35, in make_server
+    return HTTPServer(('127.0.0.1',port),Handler)
+  File "/home/fangyan/miniconda3/lib/python3.13/socketserver.py", line 453, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+                                self.socket_type)
+                                ^^^^^^^^^^^^^^^^^
+  File "/home/fangyan/miniconda3/lib/python3.13/socket.py", line 233, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.611s
+
+FAILED (errors=1)

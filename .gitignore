@@ -17,3 +17,30 @@ __pycache__/
 /question3/results/**/result.json
 /question3/results/**/evaluator_hidden_case.json
 /question3/releases/*.zip
+
+# Q4 raw paired traces and distributable archives stay local; retain summaries and locks.
+/question4/results/**/actions.jsonl
+/question4/results/**/strategy.jsonl
+/question4/results/**/result.json
+/question4/releases/*.zip
+/question4/releases/*.tar.gz
+
+# Apply the same local-only raw-evidence policy to nested Q4 experiments.
+/question4/**/results/**/actions.jsonl
+/question4/**/results/**/strategy.jsonl
+/question4/**/results/**/result.json
+/question4/**/results/**/evaluator_hidden_case.json
+/question4/results/**/evaluator_hidden_case.json
+/question4/**/releases/*.zip
+/question4/**/releases/*.tar.gz
+
+# Publish only the Q4 mechanism-reset code and reproducible aggregate evidence.
+!/paper_evidence/
+/paper_evidence/*
+!/paper_evidence/q4_mechanism_reset_20260912/
+/paper_evidence/q4_mechanism_reset_20260912/**/actions.jsonl
+/paper_evidence/q4_mechanism_reset_20260912/**/strategy.jsonl
+/paper_evidence/q4_mechanism_reset_20260912/**/result.json
+/paper_evidence/q4_mechanism_reset_20260912/**/evaluator_hidden_case.json
+/paper_evidence/q4_mechanism_reset_20260912/*.zip
+/paper_evidence/q4_mechanism_reset_20260912/frozen/B题/

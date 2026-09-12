@@ -1,0 +1,17 @@
+{
+  "new_core_mechanisms": 10,
+  "consecutive_without_significant_gain": 10,
+  "parameter_tuning_rounds": 0,
+  "meaningful_combinations": 2,
+  "certificate_ablations": 1,
+  "all_development_primary_and_extra_arms_below_5pct": true,
+  "stopped_before_final_validation": true,
+  "final_candidate_fixed": "COVER_EXCHANGE_ELASTIC",
+  "final_mean_gain_pct": 0.3664258747538063,
+  "final_ci95_pct": [
+    -0.18266837395263857,
+    0.9210450527142252
+  ],
+  "replacement_recommended": false,
+  "interpretation": "Tested mechanisms did not meet requested gate; no global optimality claim."
+}

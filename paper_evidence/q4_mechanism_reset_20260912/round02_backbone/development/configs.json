@@ -1,0 +1,18 @@
+{
+  "BASE25": {
+    "family": "baseline"
+  },
+  "HIST_ADAPT": {
+    "family": "historical"
+  },
+  "BACKBONE": {
+    "family": "scheduling",
+    "schedule": "backbone",
+    "schedule_parent": "baseline"
+  },
+  "BACKBONE_ADAPT": {
+    "family": "scheduling",
+    "schedule": "backbone",
+    "schedule_parent": "adapt"
+  }
+}

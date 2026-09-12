@@ -1,0 +1,443 @@
+START stage=development layouts=24 scenarios=48 configs=7 runs=336 workers=4
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded PAIR_SHARED virtual_s=5383.650 penalized_s=5383.650 complete=16/16 audit=True wall_s=0.054
+RUN uniform_9a4083d4971308d3__positive__bounded PAIR_SHARED virtual_s=5298.743 penalized_s=5298.743 complete=16/16 audit=True wall_s=0.059
+RUN outward_217e19c1391995e9__spatial_hash__bounded PAIR_GATED virtual_s=6276.281 penalized_s=6276.281 complete=11/11 audit=True wall_s=0.108
+RUN outward_217e19c1391995e9__positive__bounded PAIR_GATED virtual_s=6334.215 penalized_s=6334.215 complete=11/11 audit=True wall_s=0.123
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded PAIR_GATED virtual_s=5364.009 penalized_s=5364.009 complete=16/16 audit=True wall_s=0.074
+RUN uniform_9a4083d4971308d3__positive__bounded PAIR_GATED virtual_s=5349.857 penalized_s=5349.857 complete=16/16 audit=True wall_s=0.077
+RUN outward_217e19c1391995e9__spatial_hash__bounded ADAPT_SHARED virtual_s=6395.783 penalized_s=6395.783 complete=11/11 audit=True wall_s=0.043
+RUN outward_217e19c1391995e9__positive__bounded ADAPT_SHARED virtual_s=6395.582 penalized_s=6395.582 complete=11/11 audit=True wall_s=0.038
+RUN uniform_9a4083d4971308d3__positive__bounded ADAPT_SHARED virtual_s=5188.233 penalized_s=5188.233 complete=16/16 audit=True wall_s=0.058
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded ADAPT_SHARED virtual_s=5395.808 penalized_s=5395.808 complete=16/16 audit=True wall_s=0.070
+RUN outward_217e19c1391995e9__spatial_hash__bounded ADAPT_GATED virtual_s=6401.766 penalized_s=6401.766 complete=11/11 audit=True wall_s=0.058
+RUN outward_217e19c1391995e9__positive__bounded ADAPT_GATED virtual_s=6390.567 penalized_s=6390.567 complete=11/11 audit=True wall_s=0.052
+RUN outward_217e19c1391995e9__positive__bounded BASE virtual_s=6337.511 penalized_s=6337.511 complete=11/11 audit=True wall_s=0.037
+RUN outward_217e19c1391995e9__spatial_hash__bounded BASE virtual_s=6251.902 penalized_s=6251.902 complete=11/11 audit=True wall_s=0.050
+RUN uniform_9a4083d4971308d3__positive__bounded ADAPT_GATED virtual_s=5177.042 penalized_s=5177.042 complete=16/16 audit=True wall_s=0.077
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded ADAPT_GATED virtual_s=5282.288 penalized_s=5282.288 complete=16/16 audit=True wall_s=0.077
+RUN outward_217e19c1391995e9__positive__bounded CENTER virtual_s=7106.143 penalized_s=7106.143 complete=11/11 audit=True wall_s=0.039
+RUN outward_217e19c1391995e9__spatial_hash__bounded CENTER virtual_s=6380.287 penalized_s=6380.287 complete=11/11 audit=True wall_s=0.044
+RUN uniform_9a4083d4971308d3__positive__bounded BASE virtual_s=5339.014 penalized_s=5339.014 complete=16/16 audit=True wall_s=0.053
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded BASE virtual_s=5353.335 penalized_s=5353.335 complete=16/16 audit=True wall_s=0.057
+RUN outward_217e19c1391995e9__positive__bounded PARALLAX virtual_s=6408.158 penalized_s=6408.158 complete=11/11 audit=True wall_s=0.050
+RUN outward_217e19c1391995e9__spatial_hash__bounded PARALLAX virtual_s=6404.572 penalized_s=6404.572 complete=11/11 audit=True wall_s=0.046
+RUN uniform_9a4083d4971308d3__positive__bounded CENTER virtual_s=5495.658 penalized_s=5495.658 complete=16/16 audit=True wall_s=0.063
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded CENTER virtual_s=5253.424 penalized_s=5253.424 complete=16/16 audit=True wall_s=0.056
+RUN outward_217e19c1391995e9__positive__bounded PAIR_SHARED virtual_s=6361.215 penalized_s=6361.215 complete=11/11 audit=True wall_s=0.045
+PROGRESS scenarios=1/48 runs=7/336 failed=0 elapsed_s=0.5
+RUN outward_217e19c1391995e9__spatial_hash__bounded PAIR_SHARED virtual_s=6282.456 penalized_s=6282.456 complete=11/11 audit=True wall_s=0.052
+PROGRESS scenarios=2/48 runs=14/336 failed=0 elapsed_s=0.5
+RUN uniform_9a4083d4971308d3__positive__bounded PARALLAX virtual_s=5227.283 penalized_s=5227.283 complete=16/16 audit=True wall_s=0.053
+PROGRESS scenarios=3/48 runs=21/336 failed=0 elapsed_s=0.5
+RUN uniform_9a4083d4971308d3__spatial_hash__bounded PARALLAX virtual_s=5327.463 penalized_s=5327.463 complete=16/16 audit=True wall_s=0.058
+PROGRESS scenarios=4/48 runs=28/336 failed=0 elapsed_s=0.5
+RUN inward_45689d98bfe9a985__spatial_hash__bounded BASE virtual_s=5637.436 penalized_s=5637.436 complete=14/14 audit=True wall_s=0.060
+RUN inward_45689d98bfe9a985__positive__bounded BASE virtual_s=5797.949 penalized_s=5797.949 complete=14/14 audit=True wall_s=0.054
+RUN tangent_38ddb79636676a51__spatial_hash__bounded CENTER virtual_s=6684.875 penalized_s=6684.875 complete=13/13 audit=True wall_s=0.041
+RUN tangent_38ddb79636676a51__positive__bounded CENTER virtual_s=6743.913 penalized_s=6743.913 complete=13/13 audit=True wall_s=0.044
+RUN inward_45689d98bfe9a985__spatial_hash__bounded CENTER virtual_s=5691.676 penalized_s=5691.676 complete=14/14 audit=True wall_s=0.059
+RUN tangent_38ddb79636676a51__spatial_hash__bounded PARALLAX virtual_s=6720.151 penalized_s=6720.151 complete=13/13 audit=True wall_s=0.040
+RUN tangent_38ddb79636676a51__positive__bounded PARALLAX virtual_s=6734.267 penalized_s=6734.267 complete=13/13 audit=True wall_s=0.039
+RUN inward_45689d98bfe9a985__positive__bounded CENTER virtual_s=5740.971 penalized_s=5740.971 complete=14/14 audit=True wall_s=0.086
+RUN tangent_38ddb79636676a51__positive__bounded PAIR_SHARED virtual_s=6840.965 penalized_s=6840.965 complete=13/13 audit=True wall_s=0.043
+RUN inward_45689d98bfe9a985__spatial_hash__bounded PARALLAX virtual_s=5709.747 penalized_s=5709.747 complete=14/14 audit=True wall_s=0.061
+RUN tangent_38ddb79636676a51__spatial_hash__bounded PAIR_SHARED virtual_s=6778.489 penalized_s=6778.489 complete=13/13 audit=True wall_s=0.068
+RUN tangent_38ddb79636676a51__positive__bounded PAIR_GATED virtual_s=6824.165 penalized_s=6824.165 complete=13/13 audit=True wall_s=0.047
+RUN inward_45689d98bfe9a985__spatial_hash__bounded PAIR_SHARED virtual_s=5631.482 penalized_s=5631.482 complete=14/14 audit=True wall_s=0.062
+RUN tangent_38ddb79636676a51__spatial_hash__bounded PAIR_GATED virtual_s=6763.162 penalized_s=6763.162 complete=13/13 audit=True wall_s=0.045
+RUN inward_45689d98bfe9a985__positive__bounded PARALLAX virtual_s=5744.783 penalized_s=5744.783 complete=14/14 audit=True wall_s=0.086
+RUN tangent_38ddb79636676a51__positive__bounded ADAPT_SHARED virtual_s=6611.286 penalized_s=6611.286 complete=13/13 audit=True wall_s=0.042
+RUN tangent_38ddb79636676a51__spatial_hash__bounded ADAPT_SHARED virtual_s=6602.171 penalized_s=6602.171 complete=13/13 audit=True wall_s=0.040
+RUN inward_45689d98bfe9a985__spatial_hash__bounded PAIR_GATED virtual_s=5634.964 penalized_s=5634.964 complete=14/14 audit=True wall_s=0.072
+RUN tangent_38ddb79636676a51__positive__bounded ADAPT_GATED virtual_s=6607.971 penalized_s=6607.971 complete=13/13 audit=True wall_s=0.049
+RUN inward_45689d98bfe9a985__positive__bounded PAIR_SHARED virtual_s=5737.604 penalized_s=5737.604 complete=14/14 audit=True wall_s=0.087
+RUN tangent_38ddb79636676a51__spatial_hash__bounded ADAPT_GATED virtual_s=6584.233 penalized_s=6584.233 complete=13/13 audit=True wall_s=0.056
+RUN tangent_38ddb79636676a51__positive__bounded BASE virtual_s=7037.045 penalized_s=7037.045 complete=13/13 audit=True wall_s=0.038
+PROGRESS scenarios=5/48 runs=35/336 failed=0 elapsed_s=0.9
+RUN inward_45689d98bfe9a985__spatial_hash__bounded ADAPT_SHARED virtual_s=5694.794 penalized_s=5694.794 complete=14/14 audit=True wall_s=0.065
+RUN tangent_38ddb79636676a51__spatial_hash__bounded BASE virtual_s=6988.986 penalized_s=6988.986 complete=13/13 audit=True wall_s=0.055
+RUN inward_45689d98bfe9a985__positive__bounded PAIR_GATED virtual_s=5732.120 penalized_s=5732.120 complete=14/14 audit=True wall_s=0.066
+PROGRESS scenarios=6/48 runs=42/336 failed=0 elapsed_s=0.9
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded PAIR_SHARED virtual_s=6551.694 penalized_s=6551.694 complete=10/10 audit=True wall_s=0.037
+RUN cluster_7d690c6e341e2f28__positive__bounded PAIR_SHARED virtual_s=6753.994 penalized_s=6753.994 complete=10/10 audit=True wall_s=0.042
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded PAIR_GATED virtual_s=6551.502 penalized_s=6551.502 complete=10/10 audit=True wall_s=0.040
+RUN inward_45689d98bfe9a985__spatial_hash__bounded ADAPT_GATED virtual_s=5682.032 penalized_s=5682.032 complete=14/14 audit=True wall_s=0.080
+PROGRESS scenarios=7/48 runs=49/336 failed=0 elapsed_s=1.0
+RUN inward_45689d98bfe9a985__positive__bounded ADAPT_SHARED virtual_s=5722.007 penalized_s=5722.007 complete=14/14 audit=True wall_s=0.064
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded ADAPT_SHARED virtual_s=6494.166 penalized_s=6494.166 complete=10/10 audit=True wall_s=0.037
+RUN cluster_7d690c6e341e2f28__positive__bounded PAIR_GATED virtual_s=6710.703 penalized_s=6710.703 complete=10/10 audit=True wall_s=0.054
+RUN edge_3658eabf873e046f__spatial_hash__bounded ADAPT_GATED virtual_s=6791.067 penalized_s=6791.067 complete=14/14 audit=True wall_s=0.050
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded ADAPT_GATED virtual_s=6493.974 penalized_s=6493.974 complete=10/10 audit=True wall_s=0.040
+RUN cluster_7d690c6e341e2f28__positive__bounded ADAPT_SHARED virtual_s=6725.757 penalized_s=6725.757 complete=10/10 audit=True wall_s=0.039
+RUN inward_45689d98bfe9a985__positive__bounded ADAPT_GATED virtual_s=5714.678 penalized_s=5714.678 complete=14/14 audit=True wall_s=0.087
+RUN edge_3658eabf873e046f__spatial_hash__bounded BASE virtual_s=6864.419 penalized_s=6864.419 complete=14/14 audit=True wall_s=0.053
+PROGRESS scenarios=8/48 runs=56/336 failed=0 elapsed_s=1.1
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded BASE virtual_s=6538.972 penalized_s=6538.972 complete=10/10 audit=True wall_s=0.038
+RUN cluster_7d690c6e341e2f28__positive__bounded ADAPT_GATED virtual_s=6710.809 penalized_s=6710.809 complete=10/10 audit=True wall_s=0.048
+RUN edge_3658eabf873e046f__spatial_hash__bounded CENTER virtual_s=6796.919 penalized_s=6796.919 complete=14/14 audit=True wall_s=0.048
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded CENTER virtual_s=6491.085 penalized_s=6491.085 complete=10/10 audit=True wall_s=0.038
+RUN edge_3658eabf873e046f__positive__bounded ADAPT_GATED virtual_s=6727.389 penalized_s=6727.389 complete=14/14 audit=True wall_s=0.073
+RUN cluster_7d690c6e341e2f28__positive__bounded BASE virtual_s=6929.289 penalized_s=6929.289 complete=10/10 audit=True wall_s=0.036
+RUN cluster_7d690c6e341e2f28__spatial_hash__bounded PARALLAX virtual_s=6495.352 penalized_s=6495.352 complete=10/10 audit=True wall_s=0.036
+PROGRESS scenarios=9/48 runs=63/336 failed=0 elapsed_s=1.2
+RUN edge_3658eabf873e046f__spatial_hash__bounded PARALLAX virtual_s=6805.681 penalized_s=6805.681 complete=14/14 audit=True wall_s=0.059
+RUN cluster_7d690c6e341e2f28__positive__bounded CENTER virtual_s=6912.768 penalized_s=6912.768 complete=10/10 audit=True wall_s=0.041
+RUN edge_3658eabf873e046f__positive__bounded BASE virtual_s=6952.805 penalized_s=6952.805 complete=14/14 audit=True wall_s=0.057
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded PARALLAX virtual_s=6623.039 penalized_s=6623.039 complete=10/10 audit=True wall_s=0.033
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded PAIR_SHARED virtual_s=6501.023 penalized_s=6501.023 complete=10/10 audit=True wall_s=0.035
+RUN cluster_7d690c6e341e2f28__positive__bounded PARALLAX virtual_s=6832.016 penalized_s=6832.016 complete=10/10 audit=True wall_s=0.042
+RUN edge_3658eabf873e046f__spatial_hash__bounded PAIR_SHARED virtual_s=6848.081 penalized_s=6848.081 complete=14/14 audit=True wall_s=0.051
+PROGRESS scenarios=10/48 runs=70/336 failed=0 elapsed_s=1.3
+RUN edge_3658eabf873e046f__positive__bounded CENTER virtual_s=7251.271 penalized_s=7251.271 complete=14/14 audit=True wall_s=0.051
+RUN uniform_bf9b2034c4016be2__positive__bounded PARALLAX virtual_s=6579.628 penalized_s=6579.628 complete=10/10 audit=True wall_s=0.028
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded PAIR_GATED virtual_s=6498.273 penalized_s=6498.273 complete=10/10 audit=True wall_s=0.035
+RUN edge_3658eabf873e046f__spatial_hash__bounded PAIR_GATED virtual_s=6865.014 penalized_s=6865.014 complete=14/14 audit=True wall_s=0.053
+RUN uniform_bf9b2034c4016be2__positive__bounded PAIR_SHARED virtual_s=6514.949 penalized_s=6514.949 complete=10/10 audit=True wall_s=0.029
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded ADAPT_SHARED virtual_s=6616.534 penalized_s=6616.534 complete=10/10 audit=True wall_s=0.034
+RUN edge_3658eabf873e046f__positive__bounded PARALLAX virtual_s=6739.967 penalized_s=6739.967 complete=14/14 audit=True wall_s=0.063
+RUN uniform_bf9b2034c4016be2__positive__bounded PAIR_GATED virtual_s=6501.844 penalized_s=6501.844 complete=10/10 audit=True wall_s=0.030
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded ADAPT_GATED virtual_s=6623.039 penalized_s=6623.039 complete=10/10 audit=True wall_s=0.038
+RUN edge_3658eabf873e046f__spatial_hash__bounded ADAPT_SHARED virtual_s=6781.926 penalized_s=6781.926 complete=14/14 audit=True wall_s=0.063
+PROGRESS scenarios=11/48 runs=77/336 failed=0 elapsed_s=1.4
+RUN uniform_bf9b2034c4016be2__positive__bounded ADAPT_SHARED virtual_s=6603.138 penalized_s=6603.138 complete=10/10 audit=True wall_s=0.030
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded BASE virtual_s=6498.273 penalized_s=6498.273 complete=10/10 audit=True wall_s=0.030
+RUN edge_3658eabf873e046f__positive__bounded PAIR_SHARED virtual_s=6988.613 penalized_s=6988.613 complete=14/14 audit=True wall_s=0.063
+RUN uniform_bf9b2034c4016be2__positive__bounded ADAPT_GATED virtual_s=6579.628 penalized_s=6579.628 complete=10/10 audit=True wall_s=0.033
+RUN uniform_bf9b2034c4016be2__spatial_hash__bounded CENTER virtual_s=6580.621 penalized_s=6580.621 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=12/48 runs=84/336 failed=0 elapsed_s=1.5
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded BASE virtual_s=6662.359 penalized_s=6662.359 complete=14/14 audit=True wall_s=0.061
+RUN uniform_bf9b2034c4016be2__positive__bounded BASE virtual_s=6501.844 penalized_s=6501.844 complete=10/10 audit=True wall_s=0.027
+RUN edge_3658eabf873e046f__positive__bounded PAIR_GATED virtual_s=6927.535 penalized_s=6927.535 complete=14/14 audit=True wall_s=0.064
+RUN outward_aa8bc2a2723c85c8__positive__bounded BASE virtual_s=6735.166 penalized_s=6735.166 complete=14/14 audit=True wall_s=0.041
+RUN uniform_bf9b2034c4016be2__positive__bounded CENTER virtual_s=6563.018 penalized_s=6563.018 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=13/48 runs=91/336 failed=0 elapsed_s=1.6
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded CENTER virtual_s=6559.752 penalized_s=6559.752 complete=14/14 audit=True wall_s=0.048
+RUN outward_aa8bc2a2723c85c8__positive__bounded CENTER virtual_s=6587.335 penalized_s=6587.335 complete=14/14 audit=True wall_s=0.043
+RUN edge_3658eabf873e046f__positive__bounded ADAPT_SHARED virtual_s=6759.307 penalized_s=6759.307 complete=14/14 audit=True wall_s=0.057
+RUN inward_4641abcc3135a211__spatial_hash__bounded PAIR_SHARED virtual_s=5579.084 penalized_s=5579.084 complete=13/13 audit=True wall_s=0.042
+PROGRESS scenarios=14/48 runs=98/336 failed=0 elapsed_s=1.6
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded PARALLAX virtual_s=6584.371 penalized_s=6584.371 complete=14/14 audit=True wall_s=0.060
+RUN outward_aa8bc2a2723c85c8__positive__bounded PARALLAX virtual_s=6612.442 penalized_s=6612.442 complete=14/14 audit=True wall_s=0.043
+RUN inward_4641abcc3135a211__spatial_hash__bounded PAIR_GATED virtual_s=5575.975 penalized_s=5575.975 complete=13/13 audit=True wall_s=0.045
+RUN inward_4641abcc3135a211__positive__bounded PAIR_SHARED virtual_s=5746.026 penalized_s=5746.026 complete=13/13 audit=True wall_s=0.053
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded PAIR_SHARED virtual_s=6621.813 penalized_s=6621.813 complete=14/14 audit=True wall_s=0.044
+RUN outward_aa8bc2a2723c85c8__positive__bounded PAIR_SHARED virtual_s=6661.868 penalized_s=6661.868 complete=14/14 audit=True wall_s=0.044
+RUN inward_4641abcc3135a211__spatial_hash__bounded ADAPT_SHARED virtual_s=5605.803 penalized_s=5605.803 complete=13/13 audit=True wall_s=0.041
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded PAIR_GATED virtual_s=6596.282 penalized_s=6596.282 complete=14/14 audit=True wall_s=0.050
+RUN inward_4641abcc3135a211__positive__bounded PAIR_GATED virtual_s=5737.816 penalized_s=5737.816 complete=13/13 audit=True wall_s=0.070
+RUN inward_4641abcc3135a211__spatial_hash__bounded ADAPT_GATED virtual_s=5613.760 penalized_s=5613.760 complete=13/13 audit=True wall_s=0.046
+RUN outward_aa8bc2a2723c85c8__positive__bounded PAIR_GATED virtual_s=6624.672 penalized_s=6624.672 complete=14/14 audit=True wall_s=0.052
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded ADAPT_SHARED virtual_s=6558.997 penalized_s=6558.997 complete=14/14 audit=True wall_s=0.044
+RUN inward_4641abcc3135a211__spatial_hash__bounded BASE virtual_s=5560.716 penalized_s=5560.716 complete=13/13 audit=True wall_s=0.040
+RUN inward_4641abcc3135a211__positive__bounded ADAPT_SHARED virtual_s=5756.188 penalized_s=5756.188 complete=13/13 audit=True wall_s=0.055
+RUN outward_aa8bc2a2723c85c8__positive__bounded ADAPT_SHARED virtual_s=6614.582 penalized_s=6614.582 complete=14/14 audit=True wall_s=0.045
+RUN inward_4641abcc3135a211__spatial_hash__bounded CENTER virtual_s=5621.157 penalized_s=5621.157 complete=13/13 audit=True wall_s=0.041
+RUN outward_aa8bc2a2723c85c8__spatial_hash__bounded ADAPT_GATED virtual_s=6516.224 penalized_s=6516.224 complete=14/14 audit=True wall_s=0.054
+PROGRESS scenarios=15/48 runs=105/336 failed=0 elapsed_s=1.9
+RUN inward_4641abcc3135a211__positive__bounded ADAPT_GATED virtual_s=5704.187 penalized_s=5704.187 complete=13/13 audit=True wall_s=0.060
+RUN outward_aa8bc2a2723c85c8__positive__bounded ADAPT_GATED virtual_s=6543.319 penalized_s=6543.319 complete=14/14 audit=True wall_s=0.058
+PROGRESS scenarios=16/48 runs=112/336 failed=0 elapsed_s=1.9
+RUN inward_4641abcc3135a211__spatial_hash__bounded PARALLAX virtual_s=5624.476 penalized_s=5624.476 complete=13/13 audit=True wall_s=0.042
+PROGRESS scenarios=17/48 runs=119/336 failed=0 elapsed_s=1.9
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded CENTER virtual_s=6915.059 penalized_s=6915.059 complete=10/10 audit=True wall_s=0.052
+RUN inward_4641abcc3135a211__positive__bounded BASE virtual_s=5719.195 penalized_s=5719.195 complete=13/13 audit=True wall_s=0.060
+RUN tangent_ddb99f99fb1ed864__positive__bounded CENTER virtual_s=7107.999 penalized_s=7107.999 complete=10/10 audit=True wall_s=0.054
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded PAIR_SHARED virtual_s=6951.515 penalized_s=6951.515 complete=13/13 audit=True wall_s=0.039
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded PARALLAX virtual_s=6879.499 penalized_s=6879.499 complete=10/10 audit=True wall_s=0.050
+RUN inward_4641abcc3135a211__positive__bounded CENTER virtual_s=5730.498 penalized_s=5730.498 complete=13/13 audit=True wall_s=0.046
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded PAIR_GATED virtual_s=7171.601 penalized_s=7171.601 complete=13/13 audit=True wall_s=0.050
+RUN tangent_ddb99f99fb1ed864__positive__bounded PARALLAX virtual_s=6887.845 penalized_s=6887.845 complete=10/10 audit=True wall_s=0.053
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded PAIR_SHARED virtual_s=7305.751 penalized_s=7305.751 complete=10/10 audit=True wall_s=0.054
+RUN inward_4641abcc3135a211__positive__bounded PARALLAX virtual_s=5696.493 penalized_s=5696.493 complete=13/13 audit=True wall_s=0.042
+PROGRESS scenarios=18/48 runs=126/336 failed=0 elapsed_s=2.0
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded ADAPT_SHARED virtual_s=6766.964 penalized_s=6766.964 complete=13/13 audit=True wall_s=0.046
+RUN tangent_ddb99f99fb1ed864__positive__bounded PAIR_SHARED virtual_s=7338.727 penalized_s=7338.727 complete=10/10 audit=True wall_s=0.053
+RUN cluster_27e1cd731f85646c__positive__bounded PAIR_SHARED virtual_s=7016.798 penalized_s=7016.798 complete=13/13 audit=True wall_s=0.044
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded PAIR_GATED virtual_s=7290.091 penalized_s=7290.091 complete=10/10 audit=True wall_s=0.063
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded ADAPT_GATED virtual_s=6848.702 penalized_s=6848.702 complete=13/13 audit=True wall_s=0.057
+RUN tangent_ddb99f99fb1ed864__positive__bounded PAIR_GATED virtual_s=7274.752 penalized_s=7274.752 complete=10/10 audit=True wall_s=0.063
+RUN cluster_27e1cd731f85646c__positive__bounded PAIR_GATED virtual_s=7176.569 penalized_s=7176.569 complete=13/13 audit=True wall_s=0.058
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded BASE virtual_s=7338.506 penalized_s=7338.506 complete=13/13 audit=True wall_s=0.045
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded ADAPT_SHARED virtual_s=6971.502 penalized_s=6971.502 complete=10/10 audit=True wall_s=0.060
+RUN tangent_ddb99f99fb1ed864__positive__bounded ADAPT_SHARED virtual_s=6974.882 penalized_s=6974.882 complete=10/10 audit=True wall_s=0.058
+RUN cluster_27e1cd731f85646c__positive__bounded ADAPT_SHARED virtual_s=6769.109 penalized_s=6769.109 complete=13/13 audit=True wall_s=0.046
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded CENTER virtual_s=7054.640 penalized_s=7054.640 complete=13/13 audit=True wall_s=0.072
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded ADAPT_GATED virtual_s=6924.888 penalized_s=6924.888 complete=10/10 audit=True wall_s=0.076
+RUN tangent_ddb99f99fb1ed864__positive__bounded ADAPT_GATED virtual_s=6937.249 penalized_s=6937.249 complete=10/10 audit=True wall_s=0.064
+RUN cluster_27e1cd731f85646c__positive__bounded ADAPT_GATED virtual_s=6869.599 penalized_s=6869.599 complete=13/13 audit=True wall_s=0.063
+RUN tangent_ddb99f99fb1ed864__spatial_hash__bounded BASE virtual_s=7193.730 penalized_s=7193.730 complete=10/10 audit=True wall_s=0.054
+PROGRESS scenarios=19/48 runs=133/336 failed=0 elapsed_s=2.3
+RUN cluster_27e1cd731f85646c__positive__bounded BASE virtual_s=7332.374 penalized_s=7332.374 complete=13/13 audit=True wall_s=0.041
+RUN cluster_27e1cd731f85646c__spatial_hash__bounded PARALLAX virtual_s=6830.475 penalized_s=6830.475 complete=13/13 audit=True wall_s=0.065
+PROGRESS scenarios=20/48 runs=140/336 failed=0 elapsed_s=2.4
+RUN tangent_ddb99f99fb1ed864__positive__bounded BASE virtual_s=7221.886 penalized_s=7221.886 complete=10/10 audit=True wall_s=0.052
+PROGRESS scenarios=21/48 runs=147/336 failed=0 elapsed_s=2.4
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded PARALLAX virtual_s=7059.548 penalized_s=7059.548 complete=14/14 audit=True wall_s=0.047
+RUN cluster_27e1cd731f85646c__positive__bounded CENTER virtual_s=7405.142 penalized_s=7405.142 complete=13/13 audit=True wall_s=0.045
+RUN edge_6a807fd2a1f0c963__positive__bounded PARALLAX virtual_s=6829.465 penalized_s=6829.465 complete=14/14 audit=True wall_s=0.056
+RUN uniform_0a848e55c830d314__spatial_hash__bounded PAIR_SHARED virtual_s=7292.931 penalized_s=7292.931 complete=11/11 audit=True wall_s=0.050
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded PAIR_SHARED virtual_s=7051.593 penalized_s=7051.593 complete=14/14 audit=True wall_s=0.044
+RUN cluster_27e1cd731f85646c__positive__bounded PARALLAX virtual_s=6821.675 penalized_s=6821.675 complete=13/13 audit=True wall_s=0.045
+PROGRESS scenarios=22/48 runs=154/336 failed=0 elapsed_s=2.5
+RUN uniform_0a848e55c830d314__spatial_hash__bounded PAIR_GATED virtual_s=6843.777 penalized_s=6843.777 complete=11/11 audit=True wall_s=0.040
+RUN edge_6a807fd2a1f0c963__positive__bounded PAIR_SHARED virtual_s=7122.108 penalized_s=7122.108 complete=14/14 audit=True wall_s=0.054
+RUN uniform_0a848e55c830d314__positive__bounded PAIR_SHARED virtual_s=6764.911 penalized_s=6764.911 complete=11/11 audit=True wall_s=0.038
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded PAIR_GATED virtual_s=7118.548 penalized_s=7118.548 complete=14/14 audit=True wall_s=0.064
+RUN uniform_0a848e55c830d314__spatial_hash__bounded ADAPT_SHARED virtual_s=7403.099 penalized_s=7403.099 complete=11/11 audit=True wall_s=0.051
+RUN edge_6a807fd2a1f0c963__positive__bounded PAIR_GATED virtual_s=7079.206 penalized_s=7079.206 complete=14/14 audit=True wall_s=0.053
+RUN uniform_0a848e55c830d314__positive__bounded PAIR_GATED virtual_s=6626.552 penalized_s=6626.552 complete=11/11 audit=True wall_s=0.049
+RUN uniform_0a848e55c830d314__spatial_hash__bounded ADAPT_GATED virtual_s=6437.301 penalized_s=6437.301 complete=11/11 audit=True wall_s=0.036
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded ADAPT_SHARED virtual_s=7409.485 penalized_s=7409.485 complete=14/14 audit=True wall_s=0.068
+RUN edge_6a807fd2a1f0c963__positive__bounded ADAPT_SHARED virtual_s=8188.374 penalized_s=8188.374 complete=14/14 audit=True wall_s=0.055
+RUN uniform_0a848e55c830d314__spatial_hash__bounded BASE virtual_s=6759.861 penalized_s=6759.861 complete=11/11 audit=True wall_s=0.031
+RUN uniform_0a848e55c830d314__positive__bounded ADAPT_SHARED virtual_s=7532.234 penalized_s=7532.234 complete=11/11 audit=True wall_s=0.050
+RUN uniform_0a848e55c830d314__spatial_hash__bounded CENTER virtual_s=6476.697 penalized_s=6476.697 complete=11/11 audit=True wall_s=0.033
+RUN uniform_0a848e55c830d314__positive__bounded ADAPT_GATED virtual_s=6455.382 penalized_s=6455.382 complete=11/11 audit=True wall_s=0.044
+RUN uniform_0a848e55c830d314__spatial_hash__bounded PARALLAX virtual_s=6588.559 penalized_s=6588.559 complete=11/11 audit=True wall_s=0.033
+PROGRESS scenarios=23/48 runs=161/336 failed=0 elapsed_s=2.7
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded ADAPT_GATED virtual_s=7409.386 penalized_s=7409.386 complete=14/14 audit=True wall_s=0.092
+RUN edge_6a807fd2a1f0c963__positive__bounded ADAPT_GATED virtual_s=7925.843 penalized_s=7925.843 complete=14/14 audit=True wall_s=0.097
+RUN uniform_0a848e55c830d314__positive__bounded BASE virtual_s=6873.234 penalized_s=6873.234 complete=11/11 audit=True wall_s=0.038
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded BASE virtual_s=7083.935 penalized_s=7083.935 complete=14/14 audit=True wall_s=0.037
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded ADAPT_SHARED virtual_s=6360.778 penalized_s=6360.778 complete=12/12 audit=True wall_s=0.056
+RUN edge_6a807fd2a1f0c963__positive__bounded BASE virtual_s=7183.146 penalized_s=7183.146 complete=14/14 audit=True wall_s=0.042
+RUN uniform_0a848e55c830d314__positive__bounded CENTER virtual_s=6722.831 penalized_s=6722.831 complete=11/11 audit=True wall_s=0.048
+RUN edge_6a807fd2a1f0c963__spatial_hash__bounded CENTER virtual_s=7351.654 penalized_s=7351.654 complete=14/14 audit=True wall_s=0.050
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded ADAPT_GATED virtual_s=6363.088 penalized_s=6363.088 complete=12/12 audit=True wall_s=0.037
+PROGRESS scenarios=24/48 runs=168/336 failed=0 elapsed_s=2.8
+RUN edge_6a807fd2a1f0c963__positive__bounded CENTER virtual_s=7011.524 penalized_s=7011.524 complete=14/14 audit=True wall_s=0.037
+PROGRESS scenarios=25/48 runs=175/336 failed=0 elapsed_s=2.8
+RUN uniform_0a848e55c830d314__positive__bounded PARALLAX virtual_s=6586.539 penalized_s=6586.539 complete=11/11 audit=True wall_s=0.036
+PROGRESS scenarios=26/48 runs=182/336 failed=0 elapsed_s=2.8
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded BASE virtual_s=6407.355 penalized_s=6407.355 complete=12/12 audit=True wall_s=0.033
+RUN outward_74a0fbbdbf636edd__positive__bounded ADAPT_SHARED virtual_s=6432.983 penalized_s=6432.983 complete=12/12 audit=True wall_s=0.037
+RUN inward_55d45b28a19ef652__spatial_hash__bounded PAIR_SHARED virtual_s=5625.210 penalized_s=5625.210 complete=13/13 audit=True wall_s=0.037
+RUN inward_55d45b28a19ef652__positive__bounded PAIR_SHARED virtual_s=5753.584 penalized_s=5753.584 complete=13/13 audit=True wall_s=0.048
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded CENTER virtual_s=6328.822 penalized_s=6328.822 complete=12/12 audit=True wall_s=0.034
+RUN outward_74a0fbbdbf636edd__positive__bounded ADAPT_GATED virtual_s=6403.985 penalized_s=6403.985 complete=12/12 audit=True wall_s=0.044
+RUN inward_55d45b28a19ef652__spatial_hash__bounded PAIR_GATED virtual_s=5629.904 penalized_s=5629.904 complete=13/13 audit=True wall_s=0.042
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded PARALLAX virtual_s=6368.781 penalized_s=6368.781 complete=12/12 audit=True wall_s=0.032
+RUN inward_55d45b28a19ef652__positive__bounded PAIR_GATED virtual_s=5752.125 penalized_s=5752.125 complete=13/13 audit=True wall_s=0.059
+RUN outward_74a0fbbdbf636edd__positive__bounded BASE virtual_s=6447.118 penalized_s=6447.118 complete=12/12 audit=True wall_s=0.043
+RUN inward_55d45b28a19ef652__spatial_hash__bounded ADAPT_SHARED virtual_s=5678.476 penalized_s=5678.476 complete=13/13 audit=True wall_s=0.042
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded PAIR_SHARED virtual_s=6413.920 penalized_s=6413.920 complete=12/12 audit=True wall_s=0.033
+RUN inward_55d45b28a19ef652__positive__bounded ADAPT_SHARED virtual_s=5761.001 penalized_s=5761.001 complete=13/13 audit=True wall_s=0.042
+RUN outward_74a0fbbdbf636edd__positive__bounded CENTER virtual_s=6381.962 penalized_s=6381.962 complete=12/12 audit=True wall_s=0.039
+RUN outward_74a0fbbdbf636edd__spatial_hash__bounded PAIR_GATED virtual_s=6413.938 penalized_s=6413.938 complete=12/12 audit=True wall_s=0.037
+PROGRESS scenarios=27/48 runs=189/336 failed=0 elapsed_s=3.0
+RUN inward_55d45b28a19ef652__spatial_hash__bounded ADAPT_GATED virtual_s=5697.936 penalized_s=5697.936 complete=13/13 audit=True wall_s=0.057
+RUN outward_74a0fbbdbf636edd__positive__bounded PARALLAX virtual_s=6417.983 penalized_s=6417.983 complete=12/12 audit=True wall_s=0.041
+RUN inward_55d45b28a19ef652__positive__bounded ADAPT_GATED virtual_s=5748.248 penalized_s=5748.248 complete=13/13 audit=True wall_s=0.055
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded PAIR_GATED virtual_s=4718.311 penalized_s=4718.311 complete=16/16 audit=True wall_s=0.069
+RUN inward_55d45b28a19ef652__spatial_hash__bounded BASE virtual_s=5623.787 penalized_s=5623.787 complete=13/13 audit=True wall_s=0.058
+RUN outward_74a0fbbdbf636edd__positive__bounded PAIR_SHARED virtual_s=6481.213 penalized_s=6481.213 complete=12/12 audit=True wall_s=0.041
+RUN inward_55d45b28a19ef652__positive__bounded BASE virtual_s=5804.624 penalized_s=5804.624 complete=13/13 audit=True wall_s=0.068
+RUN inward_55d45b28a19ef652__spatial_hash__bounded CENTER virtual_s=5714.941 penalized_s=5714.941 complete=13/13 audit=True wall_s=0.048
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded ADAPT_SHARED virtual_s=4761.913 penalized_s=4761.913 complete=16/16 audit=True wall_s=0.059
+RUN outward_74a0fbbdbf636edd__positive__bounded PAIR_GATED virtual_s=6452.219 penalized_s=6452.219 complete=12/12 audit=True wall_s=0.067
+PROGRESS scenarios=28/48 runs=196/336 failed=0 elapsed_s=3.2
+RUN inward_55d45b28a19ef652__positive__bounded CENTER virtual_s=5821.612 penalized_s=5821.612 complete=13/13 audit=True wall_s=0.039
+RUN inward_55d45b28a19ef652__spatial_hash__bounded PARALLAX virtual_s=5797.401 penalized_s=5797.401 complete=13/13 audit=True wall_s=0.058
+PROGRESS scenarios=29/48 runs=203/336 failed=0 elapsed_s=3.2
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded ADAPT_GATED virtual_s=4726.922 penalized_s=4726.922 complete=16/16 audit=True wall_s=0.076
+RUN inward_55d45b28a19ef652__positive__bounded PARALLAX virtual_s=5788.953 penalized_s=5788.953 complete=13/13 audit=True wall_s=0.046
+PROGRESS scenarios=30/48 runs=210/336 failed=0 elapsed_s=3.2
+RUN cluster_be30076405d236b4__spatial_hash__bounded CENTER virtual_s=7115.666 penalized_s=7115.666 complete=12/12 audit=True wall_s=0.037
+RUN tangent_8767e0ed2d1856aa__positive__bounded PAIR_GATED virtual_s=4807.292 penalized_s=4807.292 complete=16/16 audit=True wall_s=0.093
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded BASE virtual_s=5357.465 penalized_s=5357.465 complete=16/16 audit=True wall_s=0.041
+RUN cluster_be30076405d236b4__positive__bounded CENTER virtual_s=7875.824 penalized_s=7875.824 complete=12/12 audit=True wall_s=0.038
+RUN cluster_be30076405d236b4__spatial_hash__bounded PARALLAX virtual_s=6346.877 penalized_s=6346.877 complete=12/12 audit=True wall_s=0.059
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded CENTER virtual_s=5473.691 penalized_s=5473.691 complete=16/16 audit=True wall_s=0.044
+RUN tangent_8767e0ed2d1856aa__positive__bounded ADAPT_SHARED virtual_s=4772.357 penalized_s=4772.357 complete=16/16 audit=True wall_s=0.053
+RUN cluster_be30076405d236b4__positive__bounded PARALLAX virtual_s=7831.236 penalized_s=7831.236 complete=12/12 audit=True wall_s=0.039
+RUN cluster_be30076405d236b4__spatial_hash__bounded PAIR_SHARED virtual_s=6523.704 penalized_s=6523.704 complete=12/12 audit=True wall_s=0.036
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded PARALLAX virtual_s=5315.062 penalized_s=5315.062 complete=16/16 audit=True wall_s=0.038
+RUN cluster_be30076405d236b4__positive__bounded PAIR_SHARED virtual_s=6578.182 penalized_s=6578.182 complete=12/12 audit=True wall_s=0.039
+RUN tangent_8767e0ed2d1856aa__positive__bounded ADAPT_GATED virtual_s=4718.660 penalized_s=4718.660 complete=16/16 audit=True wall_s=0.055
+RUN cluster_be30076405d236b4__spatial_hash__bounded PAIR_GATED virtual_s=6525.787 penalized_s=6525.787 complete=12/12 audit=True wall_s=0.042
+RUN tangent_8767e0ed2d1856aa__spatial_hash__bounded PAIR_SHARED virtual_s=4751.817 penalized_s=4751.817 complete=16/16 audit=True wall_s=0.041
+PROGRESS scenarios=31/48 runs=217/336 failed=0 elapsed_s=3.4
+RUN tangent_8767e0ed2d1856aa__positive__bounded BASE virtual_s=5628.033 penalized_s=5628.033 complete=16/16 audit=True wall_s=0.036
+RUN cluster_be30076405d236b4__positive__bounded PAIR_GATED virtual_s=6571.399 penalized_s=6571.399 complete=12/12 audit=True wall_s=0.045
+RUN cluster_be30076405d236b4__spatial_hash__bounded ADAPT_SHARED virtual_s=6362.082 penalized_s=6362.082 complete=12/12 audit=True wall_s=0.036
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded PAIR_GATED virtual_s=7675.076 penalized_s=7675.076 complete=14/14 audit=True wall_s=0.041
+RUN tangent_8767e0ed2d1856aa__positive__bounded CENTER virtual_s=5457.705 penalized_s=5457.705 complete=16/16 audit=True wall_s=0.038
+RUN cluster_be30076405d236b4__positive__bounded ADAPT_SHARED virtual_s=8318.319 penalized_s=8318.319 complete=12/12 audit=True wall_s=0.048
+RUN cluster_be30076405d236b4__spatial_hash__bounded ADAPT_GATED virtual_s=6363.287 penalized_s=6363.287 complete=12/12 audit=True wall_s=0.038
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded ADAPT_SHARED virtual_s=7747.526 penalized_s=7747.526 complete=14/14 audit=True wall_s=0.041
+RUN tangent_8767e0ed2d1856aa__positive__bounded PARALLAX virtual_s=5284.979 penalized_s=5284.979 complete=16/16 audit=True wall_s=0.036
+RUN cluster_be30076405d236b4__spatial_hash__bounded BASE virtual_s=6503.736 penalized_s=6503.736 complete=12/12 audit=True wall_s=0.032
+PROGRESS scenarios=32/48 runs=224/336 failed=0 elapsed_s=3.6
+RUN tangent_8767e0ed2d1856aa__positive__bounded PAIR_SHARED virtual_s=4844.659 penalized_s=4844.659 complete=16/16 audit=True wall_s=0.041
+PROGRESS scenarios=33/48 runs=231/336 failed=0 elapsed_s=3.6
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded ADAPT_GATED virtual_s=7754.269 penalized_s=7754.269 complete=14/14 audit=True wall_s=0.046
+RUN cluster_be30076405d236b4__positive__bounded ADAPT_GATED virtual_s=7853.304 penalized_s=7853.304 complete=12/12 audit=True wall_s=0.106
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded BASE virtual_s=7674.281 penalized_s=7674.281 complete=14/14 audit=True wall_s=0.034
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded PAIR_SHARED virtual_s=6504.135 penalized_s=6504.135 complete=13/13 audit=True wall_s=0.054
+RUN edge_7fee46f136f92cfa__positive__bounded PAIR_GATED virtual_s=9847.599 penalized_s=9847.599 complete=14/14 audit=True wall_s=0.083
+RUN cluster_be30076405d236b4__positive__bounded BASE virtual_s=7374.580 penalized_s=7374.580 complete=12/12 audit=True wall_s=0.032
+PROGRESS scenarios=34/48 runs=238/336 failed=0 elapsed_s=3.7
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded CENTER virtual_s=7678.802 penalized_s=7678.802 complete=14/14 audit=True wall_s=0.036
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded PAIR_GATED virtual_s=6496.304 penalized_s=6496.304 complete=13/13 audit=True wall_s=0.058
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded PARALLAX virtual_s=7752.608 penalized_s=7752.608 complete=14/14 audit=True wall_s=0.037
+RUN uniform_0f9c56a5b42beb33__positive__bounded PAIR_SHARED virtual_s=6606.633 penalized_s=6606.633 complete=13/13 audit=True wall_s=0.049
+RUN edge_7fee46f136f92cfa__positive__bounded ADAPT_SHARED virtual_s=9289.877 penalized_s=9289.877 complete=14/14 audit=True wall_s=0.055
+RUN edge_7fee46f136f92cfa__spatial_hash__bounded PAIR_SHARED virtual_s=7623.475 penalized_s=7623.475 complete=14/14 audit=True wall_s=0.037
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded ADAPT_SHARED virtual_s=6570.243 penalized_s=6570.243 complete=13/13 audit=True wall_s=0.051
+PROGRESS scenarios=35/48 runs=245/336 failed=0 elapsed_s=3.8
+RUN uniform_0f9c56a5b42beb33__positive__bounded PAIR_GATED virtual_s=6573.974 penalized_s=6573.974 complete=13/13 audit=True wall_s=0.059
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded PAIR_GATED virtual_s=6043.312 penalized_s=6043.312 complete=10/10 audit=True wall_s=0.033
+RUN edge_7fee46f136f92cfa__positive__bounded ADAPT_GATED virtual_s=9703.167 penalized_s=9703.167 complete=14/14 audit=True wall_s=0.086
+RUN uniform_0f9c56a5b42beb33__positive__bounded ADAPT_SHARED virtual_s=6558.747 penalized_s=6558.747 complete=13/13 audit=True wall_s=0.049
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded ADAPT_SHARED virtual_s=6048.765 penalized_s=6048.765 complete=10/10 audit=True wall_s=0.032
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded ADAPT_GATED virtual_s=6533.254 penalized_s=6533.254 complete=13/13 audit=True wall_s=0.070
+RUN edge_7fee46f136f92cfa__positive__bounded BASE virtual_s=9654.599 penalized_s=9654.599 complete=14/14 audit=True wall_s=0.047
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded ADAPT_GATED virtual_s=6051.357 penalized_s=6051.357 complete=10/10 audit=True wall_s=0.038
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded BASE virtual_s=6543.388 penalized_s=6543.388 complete=13/13 audit=True wall_s=0.051
+RUN uniform_0f9c56a5b42beb33__positive__bounded ADAPT_GATED virtual_s=6520.878 penalized_s=6520.878 complete=13/13 audit=True wall_s=0.057
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded BASE virtual_s=6031.678 penalized_s=6031.678 complete=10/10 audit=True wall_s=0.033
+RUN edge_7fee46f136f92cfa__positive__bounded CENTER virtual_s=8635.384 penalized_s=8635.384 complete=14/14 audit=True wall_s=0.061
+RUN uniform_0f9c56a5b42beb33__positive__bounded BASE virtual_s=6610.625 penalized_s=6610.625 complete=13/13 audit=True wall_s=0.049
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded CENTER virtual_s=6044.879 penalized_s=6044.879 complete=10/10 audit=True wall_s=0.032
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded CENTER virtual_s=7390.255 penalized_s=7390.255 complete=13/13 audit=True wall_s=0.064
+RUN edge_7fee46f136f92cfa__positive__bounded PARALLAX virtual_s=9527.911 penalized_s=9527.911 complete=14/14 audit=True wall_s=0.050
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded PARALLAX virtual_s=6039.723 penalized_s=6039.723 complete=10/10 audit=True wall_s=0.033
+RUN uniform_0f9c56a5b42beb33__positive__bounded CENTER virtual_s=6646.721 penalized_s=6646.721 complete=13/13 audit=True wall_s=0.050
+RUN outward_78c1af8021d42ee5__spatial_hash__bounded PAIR_SHARED virtual_s=6048.765 penalized_s=6048.765 complete=10/10 audit=True wall_s=0.033
+PROGRESS scenarios=36/48 runs=252/336 failed=0 elapsed_s=4.1
+RUN uniform_0f9c56a5b42beb33__spatial_hash__bounded PARALLAX virtual_s=6533.509 penalized_s=6533.509 complete=13/13 audit=True wall_s=0.069
+PROGRESS scenarios=37/48 runs=259/336 failed=0 elapsed_s=4.1
+RUN edge_7fee46f136f92cfa__positive__bounded PAIR_SHARED virtual_s=8882.892 penalized_s=8882.892 complete=14/14 audit=True wall_s=0.058
+RUN uniform_0f9c56a5b42beb33__positive__bounded PARALLAX virtual_s=6524.790 penalized_s=6524.790 complete=13/13 audit=True wall_s=0.052
+PROGRESS scenarios=38/48 runs=266/336 failed=0 elapsed_s=4.1
+PROGRESS scenarios=39/48 runs=273/336 failed=0 elapsed_s=4.1
+RUN outward_78c1af8021d42ee5__positive__bounded PAIR_GATED virtual_s=6059.285 penalized_s=6059.285 complete=10/10 audit=True wall_s=0.037
+RUN inward_4908221106b4c94c__spatial_hash__bounded PAIR_GATED virtual_s=5469.144 penalized_s=5469.144 complete=14/14 audit=True wall_s=0.072
+RUN outward_78c1af8021d42ee5__positive__bounded ADAPT_SHARED virtual_s=6063.598 penalized_s=6063.598 complete=10/10 audit=True wall_s=0.036
+RUN inward_4908221106b4c94c__positive__bounded PAIR_GATED virtual_s=5562.824 penalized_s=5562.824 complete=14/14 audit=True wall_s=0.065
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded PAIR_GATED virtual_s=7867.043 penalized_s=7867.043 complete=14/14 audit=True wall_s=0.066
+RUN outward_78c1af8021d42ee5__positive__bounded ADAPT_GATED virtual_s=6066.599 penalized_s=6066.599 complete=10/10 audit=True wall_s=0.034
+RUN inward_4908221106b4c94c__spatial_hash__bounded ADAPT_SHARED virtual_s=5493.302 penalized_s=5493.302 complete=14/14 audit=True wall_s=0.070
+RUN outward_78c1af8021d42ee5__positive__bounded BASE virtual_s=6047.947 penalized_s=6047.947 complete=10/10 audit=True wall_s=0.032
+RUN inward_4908221106b4c94c__positive__bounded ADAPT_SHARED virtual_s=5566.684 penalized_s=5566.684 complete=14/14 audit=True wall_s=0.067
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded ADAPT_SHARED virtual_s=7408.967 penalized_s=7408.967 complete=14/14 audit=True wall_s=0.056
+RUN outward_78c1af8021d42ee5__positive__bounded CENTER virtual_s=6057.841 penalized_s=6057.841 complete=10/10 audit=True wall_s=0.033
+RUN inward_4908221106b4c94c__spatial_hash__bounded ADAPT_GATED virtual_s=5484.683 penalized_s=5484.683 complete=14/14 audit=True wall_s=0.059
+RUN inward_4908221106b4c94c__positive__bounded ADAPT_GATED virtual_s=5555.737 penalized_s=5555.737 complete=14/14 audit=True wall_s=0.062
+RUN outward_78c1af8021d42ee5__positive__bounded PARALLAX virtual_s=6055.261 penalized_s=6055.261 complete=10/10 audit=True wall_s=0.030
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded ADAPT_GATED virtual_s=7381.522 penalized_s=7381.522 complete=14/14 audit=True wall_s=0.062
+RUN inward_4908221106b4c94c__spatial_hash__bounded BASE virtual_s=5458.232 penalized_s=5458.232 complete=14/14 audit=True wall_s=0.050
+RUN outward_78c1af8021d42ee5__positive__bounded PAIR_SHARED virtual_s=6063.598 penalized_s=6063.598 complete=10/10 audit=True wall_s=0.032
+PROGRESS scenarios=40/48 runs=280/336 failed=0 elapsed_s=4.4
+RUN inward_4908221106b4c94c__positive__bounded BASE virtual_s=5573.805 penalized_s=5573.805 complete=14/14 audit=True wall_s=0.046
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded BASE virtual_s=7803.410 penalized_s=7803.410 complete=14/14 audit=True wall_s=0.049
+RUN inward_4908221106b4c94c__positive__bounded CENTER virtual_s=5635.838 penalized_s=5635.838 complete=14/14 audit=True wall_s=0.047
+RUN inward_4908221106b4c94c__spatial_hash__bounded CENTER virtual_s=5469.026 penalized_s=5469.026 complete=14/14 audit=True wall_s=0.061
+RUN tangent_018e86aa17eb0acb__positive__bounded PAIR_GATED virtual_s=7905.290 penalized_s=7905.290 complete=14/14 audit=True wall_s=0.063
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded CENTER virtual_s=7284.784 penalized_s=7284.784 complete=14/14 audit=True wall_s=0.051
+RUN inward_4908221106b4c94c__positive__bounded PARALLAX virtual_s=5558.657 penalized_s=5558.657 complete=14/14 audit=True wall_s=0.046
+RUN inward_4908221106b4c94c__spatial_hash__bounded PARALLAX virtual_s=5518.169 penalized_s=5518.169 complete=14/14 audit=True wall_s=0.056
+RUN tangent_018e86aa17eb0acb__positive__bounded ADAPT_SHARED virtual_s=7444.490 penalized_s=7444.490 complete=14/14 audit=True wall_s=0.056
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded PARALLAX virtual_s=7316.414 penalized_s=7316.414 complete=14/14 audit=True wall_s=0.049
+RUN inward_4908221106b4c94c__positive__bounded PAIR_SHARED virtual_s=5581.965 penalized_s=5581.965 complete=14/14 audit=True wall_s=0.047
+PROGRESS scenarios=41/48 runs=287/336 failed=0 elapsed_s=4.5
+RUN inward_4908221106b4c94c__spatial_hash__bounded PAIR_SHARED virtual_s=5471.168 penalized_s=5471.168 complete=14/14 audit=True wall_s=0.050
+PROGRESS scenarios=42/48 runs=294/336 failed=0 elapsed_s=4.5
+RUN cluster_e435da00ca92a859__spatial_hash__bounded PARALLAX virtual_s=6670.495 penalized_s=6670.495 complete=10/10 audit=True wall_s=0.030
+RUN tangent_018e86aa17eb0acb__spatial_hash__bounded PAIR_SHARED virtual_s=7873.149 penalized_s=7873.149 complete=14/14 audit=True wall_s=0.056
+PROGRESS scenarios=43/48 runs=301/336 failed=0 elapsed_s=4.6
+RUN tangent_018e86aa17eb0acb__positive__bounded ADAPT_GATED virtual_s=7417.499 penalized_s=7417.499 complete=14/14 audit=True wall_s=0.065
+RUN cluster_e435da00ca92a859__positive__bounded PARALLAX virtual_s=6811.219 penalized_s=6811.219 complete=10/10 audit=True wall_s=0.027
+RUN cluster_e435da00ca92a859__spatial_hash__bounded PAIR_SHARED virtual_s=6414.937 penalized_s=6414.937 complete=10/10 audit=True wall_s=0.037
+RUN cluster_e435da00ca92a859__positive__bounded PAIR_SHARED virtual_s=6966.437 penalized_s=6966.437 complete=10/10 audit=True wall_s=0.032
+RUN edge_a96119eedc85345f__spatial_hash__bounded CENTER virtual_s=5465.649 penalized_s=5465.649 complete=14/14 audit=True wall_s=0.051
+RUN tangent_018e86aa17eb0acb__positive__bounded BASE virtual_s=7883.282 penalized_s=7883.282 complete=14/14 audit=True wall_s=0.053
+RUN cluster_e435da00ca92a859__spatial_hash__bounded PAIR_GATED virtual_s=6560.942 penalized_s=6560.942 complete=10/10 audit=True wall_s=0.035
+RUN cluster_e435da00ca92a859__positive__bounded PAIR_GATED virtual_s=6986.833 penalized_s=6986.833 complete=10/10 audit=True wall_s=0.038
+RUN edge_a96119eedc85345f__spatial_hash__bounded PARALLAX virtual_s=5455.568 penalized_s=5455.568 complete=14/14 audit=True wall_s=0.050
+RUN cluster_e435da00ca92a859__spatial_hash__bounded ADAPT_SHARED virtual_s=6375.235 penalized_s=6375.235 complete=10/10 audit=True wall_s=0.029
+RUN cluster_e435da00ca92a859__positive__bounded ADAPT_SHARED virtual_s=6759.474 penalized_s=6759.474 complete=10/10 audit=True wall_s=0.032
+RUN tangent_018e86aa17eb0acb__positive__bounded CENTER virtual_s=7645.371 penalized_s=7645.371 complete=14/14 audit=True wall_s=0.059
+RUN cluster_e435da00ca92a859__spatial_hash__bounded ADAPT_GATED virtual_s=6480.025 penalized_s=6480.025 complete=10/10 audit=True wall_s=0.041
+RUN edge_a96119eedc85345f__spatial_hash__bounded PAIR_SHARED virtual_s=5477.029 penalized_s=5477.029 complete=14/14 audit=True wall_s=0.051
+RUN cluster_e435da00ca92a859__positive__bounded ADAPT_GATED virtual_s=6783.791 penalized_s=6783.791 complete=10/10 audit=True wall_s=0.034
+RUN cluster_e435da00ca92a859__spatial_hash__bounded BASE virtual_s=6600.850 penalized_s=6600.850 complete=10/10 audit=True wall_s=0.028
+RUN cluster_e435da00ca92a859__positive__bounded BASE virtual_s=7009.683 penalized_s=7009.683 complete=10/10 audit=True wall_s=0.028
+RUN tangent_018e86aa17eb0acb__positive__bounded PARALLAX virtual_s=7352.496 penalized_s=7352.496 complete=14/14 audit=True wall_s=0.072
+RUN edge_a96119eedc85345f__spatial_hash__bounded PAIR_GATED virtual_s=5455.178 penalized_s=5455.178 complete=14/14 audit=True wall_s=0.060
+RUN cluster_e435da00ca92a859__spatial_hash__bounded CENTER virtual_s=6816.433 penalized_s=6816.433 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=44/48 runs=308/336 failed=0 elapsed_s=4.8
+RUN cluster_e435da00ca92a859__positive__bounded CENTER virtual_s=6798.737 penalized_s=6798.737 complete=10/10 audit=True wall_s=0.036
+PROGRESS scenarios=45/48 runs=315/336 failed=0 elapsed_s=4.8
+RUN tangent_018e86aa17eb0acb__positive__bounded PAIR_SHARED virtual_s=7935.628 penalized_s=7935.628 complete=14/14 audit=True wall_s=0.057
+PROGRESS scenarios=46/48 runs=322/336 failed=0 elapsed_s=4.9
+RUN edge_a96119eedc85345f__spatial_hash__bounded ADAPT_SHARED virtual_s=5471.836 penalized_s=5471.836 complete=14/14 audit=True wall_s=0.053
+RUN edge_a96119eedc85345f__positive__bounded CENTER virtual_s=5526.543 penalized_s=5526.543 complete=14/14 audit=True wall_s=0.055
+RUN edge_a96119eedc85345f__positive__bounded PARALLAX virtual_s=5490.085 penalized_s=5490.085 complete=14/14 audit=True wall_s=0.060
+RUN edge_a96119eedc85345f__spatial_hash__bounded ADAPT_GATED virtual_s=5461.582 penalized_s=5461.582 complete=14/14 audit=True wall_s=0.065
+RUN edge_a96119eedc85345f__spatial_hash__bounded BASE virtual_s=5456.036 penalized_s=5456.036 complete=14/14 audit=True wall_s=0.047
+PROGRESS scenarios=47/48 runs=329/336 failed=0 elapsed_s=5.0
+RUN edge_a96119eedc85345f__positive__bounded PAIR_SHARED virtual_s=5557.542 penalized_s=5557.542 complete=14/14 audit=True wall_s=0.051
+RUN edge_a96119eedc85345f__positive__bounded PAIR_GATED virtual_s=5523.530 penalized_s=5523.530 complete=14/14 audit=True wall_s=0.064
+RUN edge_a96119eedc85345f__positive__bounded ADAPT_SHARED virtual_s=5531.862 penalized_s=5531.862 complete=14/14 audit=True wall_s=0.049
+RUN edge_a96119eedc85345f__positive__bounded ADAPT_GATED virtual_s=5489.655 penalized_s=5489.655 complete=14/14 audit=True wall_s=0.057
+RUN edge_a96119eedc85345f__positive__bounded BASE virtual_s=5513.924 penalized_s=5513.924 complete=14/14 audit=True wall_s=0.048
+PROGRESS scenarios=48/48 runs=336/336 failed=0 elapsed_s=5.3
+{
+  "PAIR_GATED": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6465.5582253125,
+    "p95_s": 7799.85469575,
+    "max_s": 9847.599246,
+    "gain_ratio_of_means_pct": 1.0693381957055048
+  },
+  "ADAPT_SHARED": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6485.754766458333,
+    "p95_s": 8034.0773223999995,
+    "max_s": 9289.876789,
+    "gain_ratio_of_means_pct": 0.7603073105001856
+  },
+  "ADAPT_GATED": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6427.328552395833,
+    "p95_s": 7818.64193225,
+    "max_s": 9703.167233,
+    "gain_ratio_of_means_pct": 1.6542972526668809
+  },
+  "BASE": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6535.4442266875,
+    "p95_s": 7758.2146895999995,
+    "max_s": 9654.599246,
+    "gain_ratio_of_means_pct": 0.0
+  },
+  "CENTER": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6531.320953583334,
+    "p95_s": 7667.1008016000005,
+    "max_s": 8635.384403,
+    "gain_ratio_of_means_pct": 0.0630909385980094
+  },
+  "PARALLAX": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6439.826508625,
+    "p95_s": 7612.56898895,
+    "max_s": 9527.911113,
+    "gain_ratio_of_means_pct": 1.4630637910127753
+  },
+  "PAIR_SHARED": {
+    "complete": 48,
+    "runs": 48,
+    "mean_s": 6456.3692885833325,
+    "p95_s": 7785.763370649999,
+    "max_s": 8882.89234,
+    "gain_ratio_of_means_pct": 1.2099397586665228
+  }
+}

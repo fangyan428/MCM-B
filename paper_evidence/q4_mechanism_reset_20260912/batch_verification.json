@@ -1,0 +1,114 @@
+{
+  "batches": [
+    {
+      "batch": "round07_elastic/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 384,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round08_optical_cells/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round06_exchange/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 384,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round03_window/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round10_negative_region/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round04_search_first/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round02_backbone/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 384,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round05_sector/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round09_clear_discovery/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "round01_action_tasks/development",
+      "passed": true,
+      "expected_scenarios": 96,
+      "expected_runs": 288,
+      "layouts": 24,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "stress/results",
+      "passed": true,
+      "expected_scenarios": 128,
+      "expected_runs": 640,
+      "layouts": 16,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    },
+    {
+      "batch": "final_validation",
+      "passed": true,
+      "expected_scenarios": 960,
+      "expected_runs": 4800,
+      "layouts": 120,
+      "source_files_checked": 60,
+      "source_basis": "batch code_snapshot, not current working tree"
+    }
+  ],
+  "algorithm_runs": 8608,
+  "failed": 0
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "label": "final_worst_relative",
+    "batch": "final_validation",
+    "config": "ADAPT_GATED",
+    "case_id": "cluster_37a7f070473c076e__spatial_hash__bounded",
+    "layout_id": "cluster_37a7f070473c076e",
+    "family": "cluster",
+    "error_mode": "spatial_hash",
+    "rounding": "bounded",
+    "baseline_s": 3568.654528,
+    "candidate_s": 5021.466305,
+    "gain_pct": -40.710350794707125,
+    "regression_s": 1452.811777
+  },
+  {
+    "label": "final_absolute_slowest",
+    "batch": "final_validation",
+    "config": "ADAPT_GATED",
+    "case_id": "outward_b614b4503aa2dd12__positive__bounded"
+  },
+  {
+    "label": "mechanism_negative",
+    "batch": "round02_validation",
+    "config": "ADAPT_ENTRY",
+    "parent": "ADAPT_GATED",
+    "case_id": "outward_c999920bb2a7840b__positive__bounded",
+    "layout_id": "outward_c999920bb2a7840b",
+    "family": "outward",
+    "error_mode": "positive",
+    "rounding": "bounded",
+    "baseline_s": 8034.387853,
+    "candidate_s": 9749.748551,
+    "gain_pct": -21.350235131597405,
+    "regression_s": 1715.3606980000004
+  },
+  {
+    "label": "mechanism_negative",
+    "batch": "round02_validation",
+    "config": "CENTER_BLIND",
+    "parent": "CENTER",
+    "case_id": "cluster_8f991fc8afc51704__positive__bounded",
+    "layout_id": "cluster_8f991fc8afc51704",
+    "family": "cluster",
+    "error_mode": "positive",
+    "rounding": "bounded",
+    "baseline_s": 6547.086599,
+    "candidate_s": 6716.719288,
+    "gain_pct": -2.590964491380176,
+    "regression_s": 169.63268900000003
+  }
+]

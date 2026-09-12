@@ -1,0 +1,111 @@
+uniform_41000_spatial_hash BASE:8343.4/complete JOINT:9121.3/complete REFINE:8387.1/complete CENTER:8362.9/complete COMBO:9112.2/complete
+outward_41001_spatial_hash BASE:13867.8/complete JOINT:13576.2/complete REFINE:14457.9/complete CENTER:14141.8/complete COMBO:14493.3/complete
+inward_41002_spatial_hash BASE:8055.6/complete JOINT:7331.4/complete REFINE:7991.8/complete CENTER:8051.9/complete COMBO:7273.8/complete
+tangent_41003_spatial_hash BASE:11476.1/complete JOINT:11300.3/complete REFINE:11571.3/complete CENTER:11500.4/complete COMBO:11401.0/complete
+cluster_41004_spatial_hash BASE:11529.8/complete JOINT:11371.3/complete REFINE:11793.3/complete CENTER:11675.5/complete COMBO:11563.4/complete
+edge_41005_spatial_hash BASE:10950.9/complete JOINT:10950.9/complete REFINE:10964.5/complete CENTER:10956.0/complete COMBO:10974.6/complete
+uniform_41006_spatial_hash BASE:11136.7/complete JOINT:10479.1/complete REFINE:11178.8/complete CENTER:11196.4/complete COMBO:10491.6/complete
+outward_41007_spatial_hash BASE:13662.1/complete JOINT:13662.1/complete REFINE:15138.7/complete CENTER:14006.3/complete COMBO:15398.8/complete
+inward_41008_spatial_hash BASE:8400.0/complete JOINT:7899.7/complete REFINE:8438.2/complete CENTER:8440.9/complete COMBO:7919.3/complete
+tangent_41009_spatial_hash BASE:11494.0/complete JOINT:8513.9/complete REFINE:11216.8/complete CENTER:11637.9/complete COMBO:8354.3/complete
+cluster_41010_spatial_hash BASE:10544.2/complete JOINT:10705.1/complete REFINE:11328.2/complete CENTER:10644.6/complete COMBO:12154.5/complete
+edge_41011_spatial_hash BASE:11959.3/complete JOINT:10348.1/complete REFINE:11846.2/complete CENTER:12083.3/complete COMBO:10360.4/complete
+uniform_41012_spatial_hash BASE:9281.6/complete JOINT:8539.6/complete REFINE:9381.3/complete CENTER:9291.4/complete COMBO:8772.2/complete
+outward_41013_spatial_hash BASE:12928.1/complete JOINT:13009.8/complete REFINE:13191.4/complete CENTER:13196.2/complete COMBO:13620.1/complete
+inward_41014_spatial_hash BASE:11529.5/complete JOINT:11529.5/complete REFINE:11487.3/complete CENTER:11603.9/complete COMBO:11500.5/complete
+tangent_41015_spatial_hash BASE:11114.6/complete JOINT:11114.6/complete REFINE:11721.3/complete CENTER:11206.3/complete COMBO:11758.1/complete
+cluster_41016_spatial_hash BASE:11384.6/complete JOINT:11543.2/complete REFINE:11526.6/complete CENTER:11411.3/complete COMBO:11932.4/complete
+edge_41017_spatial_hash BASE:10639.7/complete JOINT:10528.3/complete REFINE:10743.4/complete CENTER:10669.9/complete COMBO:10667.4/complete
+uniform_41018_spatial_hash BASE:11915.2/complete JOINT:11607.8/complete REFINE:12064.3/complete CENTER:11962.3/complete COMBO:11788.3/complete
+outward_41019_spatial_hash BASE:15143.8/complete JOINT:15423.6/complete REFINE:14991.5/complete CENTER:15467.6/complete COMBO:15309.0/complete
+inward_41020_spatial_hash BASE:10803.2/complete JOINT:10803.2/complete REFINE:10855.0/complete CENTER:10851.4/complete COMBO:10845.3/complete
+tangent_41021_spatial_hash BASE:10763.2/complete JOINT:11532.2/complete REFINE:10846.8/complete CENTER:10786.1/complete COMBO:11768.4/complete
+cluster_41022_spatial_hash BASE:11828.3/complete JOINT:12254.6/complete REFINE:12775.3/complete CENTER:12094.0/complete COMBO:13339.7/complete
+edge_41023_spatial_hash BASE:11168.4/complete JOINT:11168.4/complete REFINE:11197.0/complete CENTER:11184.0/complete COMBO:11210.7/complete
+{
+  "BASE": {
+    "mean_s": 11246.670717916668,
+    "p95_s": 13836.90815615,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9123.420713643443,
+      "switch_s": 301.9166666666667,
+      "detection_s": 1641.0416666666667,
+      "optical_s": 153.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "JOINT": {
+    "mean_s": 11013.092727458332,
+    "p95_s": 13649.19702775,
+    "gain_ratio_of_means_pct": 2.076863423112685,
+    "mean_paired_gain_pct": 2.1420836757045323,
+    "worst_gain_pct": -9.323000592620895,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 8808.051055938999,
+      "switch_s": 315.0833333333333,
+      "detection_s": 1702.9166666666667,
+      "optical_s": 159.875,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "REFINE": {
+    "mean_s": 11462.259712333334,
+    "p95_s": 14911.499474749999,
+    "gain_ratio_of_means_pct": -1.916913901224282,
+    "mean_paired_gain_pct": -1.7973342184203016,
+    "worst_gain_pct": -10.808349983585202,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9302.759705637014,
+      "switch_s": 302.4166666666667,
+      "detection_s": 1681.0416666666667,
+      "optical_s": 148.875,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "CENTER": {
+    "mean_s": 11350.935149583333,
+    "p95_s": 14121.46297465,
+    "gain_ratio_of_means_pct": -0.927069301500616,
+    "mean_paired_gain_pct": -0.8423636475375518,
+    "worst_gain_pct": -2.519677750071832,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9231.060145621517,
+      "switch_s": 301.9166666666667,
+      "detection_s": 1641.0416666666667,
+      "optical_s": 149.75,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COMBO": {
+    "mean_s": 11333.722338375,
+    "p95_s": 15186.646777599997,
+    "gain_ratio_of_means_pct": -0.7740212427456816,
+    "mean_paired_gain_pct": -0.5434477301706835,
+    "worst_gain_pct": -15.272628954008741,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9099.347331127583,
+      "switch_s": 314.3333333333333,
+      "detection_s": 1733.75,
+      "optical_s": 159.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

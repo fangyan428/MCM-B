@@ -1,0 +1,89 @@
+[
+  {
+    "test": "BASE_historical_valid",
+    "result": {
+      "passed": true,
+      "stop": {
+        "kind": "rebuilt_planar_delaunay",
+        "stations": 31,
+        "relevant_triangles": 42,
+        "full_hull_triangles": 48,
+        "min_hull_edge_distance_m": 2474.9999999999995,
+        "max_relevant_triangle_diameter_m": 990.0
+      },
+      "repeated_direction_observations_checked": 0,
+      "unique_direction_points": 22,
+      "actual_unresolved_channel_station_pairs_checked": 279,
+      "accepted_actions_checked": 348
+    }
+  },
+  {
+    "test": "FINAL_historical_valid",
+    "result": {
+      "passed": true,
+      "stop": {
+        "kind": "rebuilt_planar_delaunay",
+        "stations": 25,
+        "relevant_triangles": 36,
+        "full_hull_triangles": 36,
+        "min_hull_edge_distance_m": 1806.2812951605576,
+        "max_relevant_triangle_diameter_m": 983.5982610776318
+      },
+      "repeated_direction_observations_checked": 0,
+      "unique_direction_points": 30,
+      "actual_unresolved_channel_station_pairs_checked": 225,
+      "accepted_actions_checked": 447
+    }
+  },
+  {
+    "test": "degenerate_fake_cover",
+    "result": {
+      "rejected": true,
+      "error": "Duplicate/coincident coverage stations"
+    }
+  },
+  {
+    "test": "same_point_bearing_changed",
+    "result": {
+      "rejected": true,
+      "error": "Same-point bearing changed: channel=1, point=(0.0, 0.0)"
+    }
+  },
+  {
+    "test": "COMPACT22_historical_valid",
+    "result": {
+      "passed": true,
+      "stop": {
+        "kind": "independent_legacy_continuous_cell_cover",
+        "stations": 22
+      },
+      "repeated_direction_observations_checked": 0,
+      "unique_direction_points": 27,
+      "actual_unresolved_channel_station_pairs_checked": 198,
+      "accepted_actions_checked": 407
+    }
+  },
+  {
+    "test": "dynamic_continuous_valid",
+    "result": {
+      "passed": true,
+      "stop": {
+        "kind": "independent_legacy_continuous_cell_cover",
+        "stations": 22,
+        "dynamic": true,
+        "cover_sha256": "db21847f4ca5304071886b0510dbcecdefa3bc1ec35a3ce8d0c00c45232d60fd"
+      },
+      "repeated_direction_observations_checked": 0,
+      "unique_direction_points": 27,
+      "actual_unresolved_channel_station_pairs_checked": 198,
+      "accepted_actions_checked": 407
+    }
+  },
+  {
+    "test": "dynamic_missing_leaf",
+    "result": {
+      "rejected": true,
+      "error_type": "AssertionError"
+    }
+  }
+]

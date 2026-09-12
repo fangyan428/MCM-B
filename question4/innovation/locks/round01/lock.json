@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "stage": "mechanism_selection_lock",
+  "created_unix": 1789182921.052541,
+  "code_sha256": {
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question4/__init__.py": "6fa0336b7cf9f3f07f811ee2ba39cc1d7f2edf13efba3511a87d3df313a17da0",
+    "question4/audit.py": "00a03544213f3d3817a76492ef243e10dbca5ae242d9cee3ace4091259e13a8b",
+    "question4/build_cover.py": "7dfc8a1f19448f5e75c0941adbf6653a66f4cf4058a2bd218599a553e6c81455",
+    "question4/cases.py": "6ffac7272734cd5fedb987865e6e0977ded3f8639358b5d1a8752c05bbe0ed96",
+    "question4/certificates/compact22.json": "0623f57deaf4f6f5762a5ef2fb09c22b73a66f9c0247316216863198691148f8",
+    "question4/experiment.py": "b8eb9de5efdbeeedc77c1c8ae64c6296ddcb63f0ae64fda07a7e285536dc602b",
+    "question4/geometry.py": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+    "question4/innovation/__init__.py": "d79d0cb20597e9dbe2f2c1a8a9484842ee99573389fc1c571f67ac171fda3a3c",
+    "question4/innovation/analysis.py": "5e48ef3807be5e926b4171da83f7d00631c75a6127f31f519ed4ec18ff4abbc7",
+    "question4/innovation/audit.py": "e7519f089eacc053e7188443426d236da72291709a75faf000c63352b83b4801",
+    "question4/innovation/baseline_config.json": "bf7e46d8f993d3a6d0d9005c60a5ba2a004f42405d905cb65b77b4b36fe537f1",
+    "question4/innovation/baseline_reproduction.json": "f767470c2b53813946954ca4c1567ed4fd25f09347b8c56673ee0cace2bddb0a",
+    "question4/innovation/experiment.py": "cfd9529012c166331c96de3fb2da5d7ad6a0d695d3def4134af505581b494aef",
+    "question4/innovation/frozen_baseline/question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question4/innovation/frozen_baseline/question4/__init__.py": "6fa0336b7cf9f3f07f811ee2ba39cc1d7f2edf13efba3511a87d3df313a17da0",
+    "question4/innovation/frozen_baseline/question4/audit.py": "00a03544213f3d3817a76492ef243e10dbca5ae242d9cee3ace4091259e13a8b",
+    "question4/innovation/frozen_baseline/question4/build_cover.py": "7dfc8a1f19448f5e75c0941adbf6653a66f4cf4058a2bd218599a553e6c81455",
+    "question4/innovation/frozen_baseline/question4/cases.py": "6ffac7272734cd5fedb987865e6e0977ded3f8639358b5d1a8752c05bbe0ed96",
+    "question4/innovation/frozen_baseline/question4/certificates/compact22.json": "0623f57deaf4f6f5762a5ef2fb09c22b73a66f9c0247316216863198691148f8",
+    "question4/innovation/frozen_baseline/question4/configs/final_validation.json": "4d160af02d7347e0d1211e8ca19a77dfe4b4dde7579f6c6f9c126eb42531f541",
+    "question4/innovation/frozen_baseline/question4/configs/recommended.json": "bf7e46d8f993d3a6d0d9005c60a5ba2a004f42405d905cb65b77b4b36fe537f1",
+    "question4/innovation/frozen_baseline/question4/configs/round1.json": "191070e17b30161269a6fdf81e5077b65f723fc5daf85b390630c8bdbcc5ef4c",
+    "question4/innovation/frozen_baseline/question4/configs/round2.json": "cfcdbfc520761a50415b07f91dfb5442908030af9402f90a2177518830eacbe4",
+    "question4/innovation/frozen_baseline/question4/configs/round3.json": "4ee46f18fa736885bfdc793371e93fc2bfe7731e54e87c8a678aa8c6de65195c",
+    "question4/innovation/frozen_baseline/question4/configs/round3_validation.json": "2ac8d508313413025deab26754ee6d269c2b0e5171453a661a92e65e03760b53",
+    "question4/innovation/frozen_baseline/question4/configs/round4.json": "1d7cac1db33be6f85d5e42f2850b000c11f3159ccc80071b66ce5e25a3c998e8",
+    "question4/innovation/frozen_baseline/question4/configs/round5.json": "3a8cd6a8073c75ab2da605a23bfac45df5b15aaa26c89ff411507b3b2d6ee6e9",
+    "question4/innovation/frozen_baseline/question4/configs/round5_validation.json": "395c5e45526acb0763aff80903e9c8af6621833d54c6136864af829542e2bdbf",
+    "question4/innovation/frozen_baseline/question4/configs/round6.json": "8795d2d9c3800160126fd43680f0a053229ab852060dba67c2c16956d21e7df1",
+    "question4/innovation/frozen_baseline/question4/configs/round6_validation.json": "675389bec25d917a0ab593847d0d3842b025e13a5993fb5aa7718570580e0a70",
+    "question4/innovation/frozen_baseline/question4/configs/round7.json": "ff5cc2abdd890567985cf281a6be9199f43d57248d42ea5e3b5268d167bc16a4",
+    "question4/innovation/frozen_baseline/question4/configs/round9_validation.json": "cf0581f4a2d0f5cae4d6e5ea4040bedef87d25d6e018e26d673a9521fc2a179d",
+    "question4/innovation/frozen_baseline/question4/experiment.py": "b8eb9de5efdbeeedc77c1c8ae64c6296ddcb63f0ae64fda07a7e285536dc602b",
+    "question4/innovation/frozen_baseline/question4/geometry.py": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+    "question4/innovation/frozen_baseline/question4/routing.py": "dcaa8c8ed826c737135879662f41a2f26c43101443dc32dd4a3e9fcef56178c6",
+    "question4/innovation/frozen_baseline/question4/run_http.py": "5bb64dff295892103d1749f29e1e16a440e0032ae39d8e0bb978450659f5639f",
+    "question4/innovation/frozen_baseline/question4/self_server.py": "0201b4395153b2e248bbebf4f52e72cbb6d86feb31702648bc3005254432800e",
+    "question4/innovation/frozen_baseline/question4/simulator.py": "e8521b114fc864619e50410b44e1abf1b497c86648775dc0c3d5c5f5a1a72dd8",
+    "question4/innovation/frozen_baseline/question4/strategy.py": "0e609ed47df61ee2197c08682c6cf2b419c282a9adf07d9f7c17f70deb91a3ea",
+    "question4/innovation/frozen_baseline/question4/summarize.py": "eee3a0a9b922d743ceaf115cead11ec6d64d261e8cc136f32d7b57dca2d66016",
+    "question4/innovation/frozen_manifest.json": "f12b6a018462257b053d58e9f2e54f1374646818af80dd5d3d8e1f908392386d",
+    "question4/innovation/geometry.py": "33ea6fe354c5a866c32517a956b493935bca390537b8bf66e883c34650df860f",
+    "question4/innovation/strategy.py": "846a10cdb0badb1a9de2e32a35e63a16640d7848c6484938dbb23ac4976843e2",
+    "question4/innovation/test_mechanisms.py": "10a2a8d43f170e558484626da968a82db323beffc6d5c9e67c1400ea10cad0b5",
+    "question4/routing.py": "dcaa8c8ed826c737135879662f41a2f26c43101443dc32dd4a3e9fcef56178c6",
+    "question4/run_http.py": "5bb64dff295892103d1749f29e1e16a440e0032ae39d8e0bb978450659f5639f",
+    "question4/self_server.py": "0201b4395153b2e248bbebf4f52e72cbb6d86feb31702648bc3005254432800e",
+    "question4/simulator.py": "e8521b114fc864619e50410b44e1abf1b497c86648775dc0c3d5c5f5a1a72dd8",
+    "question4/strategy.py": "0e609ed47df61ee2197c08682c6cf2b419c282a9adf07d9f7c17f70deb91a3ea",
+    "question4/summarize.py": "eee3a0a9b922d743ceaf115cead11ec6d64d261e8cc136f32d7b57dca2d66016"
+  },
+  "code_bundle_sha256": "137abbfb939a5ffd990f0fdadfc329250a8eaf506bee6804b700da00a1483c96",
+  "configs": {
+    "BASE": {
+      "mechanism": "baseline"
+    },
+    "CENTER": {
+      "mechanism": "center"
+    },
+    "PARALLAX": {
+      "mechanism": "parallax"
+    },
+    "PAIR_SHARED": {
+      "mechanism": "pair",
+      "sharing": "range"
+    },
+    "PAIR_GATED": {
+      "mechanism": "pair",
+      "sharing": "gated"
+    },
+    "ADAPT_SHARED": {
+      "mechanism": "parallax",
+      "sharing": "range"
+    },
+    "ADAPT_GATED": {
+      "mechanism": "parallax",
+      "sharing": "gated"
+    }
+  },
+  "configs_sha256": "15105647a955f715902ee2c1ec6baf6bff52ee37edf5e083e3a81a920901a048",
+  "selection_sha256": "b6369121f19c8add310f4cac9d2e022a5ed84fd87492dda2923ea04d91a04602",
+  "reference": "BASE",
+  "prior_lock": null,
+  "prior_lock_sha256": null,
+  "generator_seed": 151000,
+  "generator_count": 48,
+  "families": [
+    "uniform",
+    "outward",
+    "inward",
+    "tangent",
+    "cluster",
+    "edge"
+  ],
+  "error_modes": [
+    "spatial_hash",
+    "positive"
+  ],
+  "roundings": [
+    "bounded"
+  ],
+  "fixture_source": null,
+  "statistical_unit": "physical layout",
+  "failure_penalty_s": 360000.0
+}

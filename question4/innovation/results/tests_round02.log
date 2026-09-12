@@ -1,0 +1,29 @@
+test_complete_ten_and_sixteen_sources_late_channel_boundaries (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_complete_ten_and_sixteen_sources_late_channel_boundaries) ... ok
+test_conditional_gate_covers_serialized_positive_outputs (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_conditional_gate_covers_serialized_positive_outputs) ... ok
+test_conditional_positive_gate_can_receive_no_signal (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_conditional_positive_gate_can_receive_no_signal) ... ok
+test_directional_shadow_random_physics_and_independent_audit (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_directional_shadow_random_physics_and_independent_audit) ... ok
+test_directional_shadow_rejects_range_cone_boundary_and_degeneracy (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_directional_shadow_rejects_range_cone_boundary_and_degeneracy) ... ok
+test_extreme_bearing_error_keeps_true_source (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_extreme_bearing_error_keeps_true_source) ... ok
+test_independent_audit_rejects_tampered_region_and_circles (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_independent_audit_rejects_tampered_region_and_circles) ... ok
+test_independent_shadow_audit_rejects_forward_skip_and_fake_witness (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_independent_shadow_audit_rejects_forward_skip_and_fake_witness) ... ok
+test_near_and_exact_direction_range_boundaries (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_near_and_exact_direction_range_boundaries) ... ok
+test_no_signal_preserves_region_and_finite_fallback (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_no_signal_preserves_region_and_finite_fallback) ... ok
+test_positive_station_convex_hull_reception (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_positive_station_convex_hull_reception) ... ok
+test_shared_near_clears_multiple_pending_channels (question4.innovation.test_mechanisms.DirectionalMechanismTests.test_shared_near_clears_multiple_pending_channels) ... ok
+test_clear_does_not_switch (question4.tests.test_contract.ContractTests.test_clear_does_not_switch) ... ok
+test_directional_backside_near_and_optical (question4.tests.test_contract.ContractTests.test_directional_backside_near_and_optical) ... ok
+test_fixed_location_fixed_error_and_idempotent (question4.tests.test_contract.ContractTests.test_fixed_location_fixed_error_and_idempotent) ... ok
+test_full_run_and_tampered_stop (question4.tests.test_contract.ContractTests.test_full_run_and_tampered_stop) ... ok
+test_grid_detection_for_boundary_and_orientations (question4.tests.test_contract.ContractTests.test_grid_detection_for_boundary_and_orientations) ... ok
+test_pure_optical_fallback_all_types_and_error_signs (question4.tests.test_contract.ContractTests.test_pure_optical_fallback_all_types_and_error_signs) ... ok
+test_sector_and_optical_certificate_error_extremes (question4.tests.test_contract.ContractTests.test_sector_and_optical_certificate_error_extremes) ... ok
+test_configuration_typo_rejected_before_enter (question4.tests.test_faults.FaultTests.test_configuration_typo_rejected_before_enter) ... ok
+test_exhausted_retries_cannot_claim_completion (question4.tests.test_faults.FaultTests.test_exhausted_retries_cannot_claim_completion) ... ok
+test_lost_accepted_response_is_retried_and_audited_once (question4.tests.test_faults.FaultTests.test_lost_accepted_response_is_retried_and_audited_once) ... ok
+test_numerically_inconsistent_bearing_rejected (question4.tests.test_faults.FaultTests.test_numerically_inconsistent_bearing_rejected) ... ok
+test_rejected_request_retains_clock_and_poisoned_state (question4.tests.test_faults.FaultTests.test_rejected_request_retains_clock_and_poisoned_state) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.639s
+
+OK

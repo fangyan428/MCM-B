@@ -1,0 +1,36 @@
+{
+  "BASE": {
+    "mean_s": 11073.357089513887,
+    "p95_s": 12812.4701609,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 8848.051532923235,
+      "switch_s": 326.5138888888889,
+      "detection_s": 1762.361111111111,
+      "optical_s": 111.04166666666667,
+      "laser_s": 25.38888888888889
+    },
+    "failures": []
+  },
+  "ROUTE": {
+    "mean_s": 9976.276139916668,
+    "p95_s": 11615.185007400001,
+    "gain_ratio_of_means_pct": 9.907392498306766,
+    "mean_paired_gain_pct": 9.103587294052964,
+    "worst_gain_pct": -44.770435041622456,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 7489.581694748254,
+      "switch_s": 373.1388888888889,
+      "detection_s": 1997.9166666666667,
+      "optical_s": 90.25,
+      "laser_s": 25.38888888888889
+    },
+    "failures": []
+  }
+}

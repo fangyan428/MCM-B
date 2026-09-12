@@ -1,0 +1,24 @@
+{
+  "code_sha256": {
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question4/__init__.py": "6fa0336b7cf9f3f07f811ee2ba39cc1d7f2edf13efba3511a87d3df313a17da0",
+    "question4/audit.py": "cfa19cc3119ca7871f20211c72946f165a596edce6bae14bc5a4c1ad7519e2ab",
+    "question4/cases.py": "e05df7b24f293ccf46ba529370c6c6a13e3289f01b220c098170eb98d8bfeac6",
+    "question4/experiment.py": "f36a549b15d464eb33ab8dc41d46702c9474b02d2d49cd2dcb7e27d2adf1ef8d",
+    "question4/geometry.py": "3edcf1d994ed921e8464bfe003507936939761702f1cd6e9055e1d284eb96400",
+    "question4/routing.py": "267e8be6a8bbc48ce9befaed308bf3fc96421ee81ce05b7185659be81c7b9a92",
+    "question4/simulator.py": "e8521b114fc864619e50410b44e1abf1b497c86648775dc0c3d5c5f5a1a72dd8",
+    "question4/strategy.py": "3fde04a16efe189710f8f0d6bfe6011e216c61ec1e3fd57e66f404bb3d7844df"
+  },
+  "configs": {
+    "BASE": {},
+    "ROUTE": {
+      "scheduling": "route"
+    }
+  },
+  "created_unix": 1789147588.4005294,
+  "stage": "independent_validation",
+  "generator_seed": 51000,
+  "generator_count": 72,
+  "rounding": "bounded"
+}

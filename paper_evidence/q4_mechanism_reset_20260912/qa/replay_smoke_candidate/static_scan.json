@@ -1,0 +1,200 @@
+{
+  "entry": "paper_evidence.q4_mechanism_reset_20260912.strategy",
+  "passed": true,
+  "modules": [
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.coverage",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/coverage.py",
+      "sha256": "fa0000fcf8fd721f9ce666db1083ec319a10a31e52d988b276edffe48e6b17c8",
+      "imports": [
+        "functools",
+        "math",
+        "numpy",
+        "question4.geometry",
+        "question4.routing",
+        "question4.strategy",
+        "scipy.optimize",
+        "scipy.spatial"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.geometry",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/frozen/question4/geometry.py",
+      "sha256": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+      "imports": [
+        "functools",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "scipy.spatial"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.routing",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/frozen/question4/routing.py",
+      "sha256": "dcaa8c8ed826c737135879662f41a2f26c43101443dc32dd4a3e9fcef56178c6",
+      "imports": [
+        "numpy"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.strategy",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/frozen/question4/strategy.py",
+      "sha256": "0e609ed47df61ee2197c08682c6cf2b419c282a9adf07d9f7c17f70deb91a3ea",
+      "imports": [
+        "math",
+        "numpy",
+        "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.geometry",
+        "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.routing"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.local_mechanisms",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/local_mechanisms.py",
+      "sha256": "92d6a1858c98f9d22935706f3349155a6e3cf7b8055d0f6afd66981ab198b9ec",
+      "imports": [
+        "itertools",
+        "math",
+        "numpy",
+        "question4.geometry",
+        "question4.strategy",
+        "scipy.spatial"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.scheduling",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/scheduling.py",
+      "sha256": "2ab8fae553d7f8574e9dc82926df7045472d760880efd67bee68296ff9ecb7e7",
+      "imports": [
+        "math",
+        "numpy",
+        "question4.geometry",
+        "question4.innovation.geometry",
+        "question4.innovation.strategy",
+        "question4.routing",
+        "question4.strategy"
+      ]
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.strategy",
+      "path": "paper_evidence/q4_mechanism_reset_20260912/strategy.py",
+      "sha256": "8fc5105a5bb387d508b3d7bd293b55fdae0e97f2b44aa64139b36c91530387dc",
+      "imports": [
+        "paper_evidence.q4_mechanism_reset_20260912.coverage",
+        "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.strategy",
+        "paper_evidence.q4_mechanism_reset_20260912.local_mechanisms",
+        "paper_evidence.q4_mechanism_reset_20260912.scheduling",
+        "question4.innovation.strategy"
+      ]
+    },
+    {
+      "module": "question4.geometry",
+      "path": "question4/geometry.py",
+      "sha256": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+      "imports": [
+        "functools",
+        "hashlib",
+        "json",
+        "math",
+        "numpy",
+        "pathlib",
+        "scipy.spatial"
+      ]
+    },
+    {
+      "module": "question4.innovation.geometry",
+      "path": "question4/innovation/geometry.py",
+      "sha256": "cc93e25c77352056102785c39d4e53fb6afe7b50e32c39802b902cb39d79dbf9",
+      "imports": [
+        "math",
+        "numpy",
+        "question4.geometry"
+      ]
+    },
+    {
+      "module": "question4.innovation.reception",
+      "path": "question4/innovation/reception.py",
+      "sha256": "f4af276806d0e99d0a5b7676a289446aca1cb83ab05b21c240bb8c24ea178771",
+      "imports": [
+        "itertools",
+        "math",
+        "numpy"
+      ]
+    },
+    {
+      "module": "question4.innovation.strategy",
+      "path": "question4/innovation/strategy.py",
+      "sha256": "73c444bd2e155e13dcfede8ca6824fb90e6ebde6a7234aa7fd37ae35391c7829",
+      "imports": [
+        "math",
+        "numpy",
+        "question4.geometry",
+        "question4.innovation.geometry",
+        "question4.innovation.reception",
+        "question4.strategy"
+      ]
+    },
+    {
+      "module": "question4.routing",
+      "path": "question4/routing.py",
+      "sha256": "dcaa8c8ed826c737135879662f41a2f26c43101443dc32dd4a3e9fcef56178c6",
+      "imports": [
+        "numpy"
+      ]
+    },
+    {
+      "module": "question4.strategy",
+      "path": "question4/strategy.py",
+      "sha256": "0e609ed47df61ee2197c08682c6cf2b419c282a9adf07d9f7c17f70deb91a3ea",
+      "imports": [
+        "math",
+        "numpy",
+        "question4.geometry",
+        "question4.routing"
+      ]
+    }
+  ],
+  "violations": [],
+  "manual_review_findings": [
+    {
+      "module": "question4.geometry",
+      "line": 110,
+      "kind": "file_or_decoder_review",
+      "value": "loads"
+    },
+    {
+      "module": "question4.geometry",
+      "line": 110,
+      "kind": "file_or_decoder_review",
+      "value": "read_text"
+    },
+    {
+      "module": "question4.geometry",
+      "line": 115,
+      "kind": "file_or_decoder_review",
+      "value": "read_bytes"
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.geometry",
+      "line": 110,
+      "kind": "file_or_decoder_review",
+      "value": "loads"
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.geometry",
+      "line": 110,
+      "kind": "file_or_decoder_review",
+      "value": "read_text"
+    },
+    {
+      "module": "paper_evidence.q4_mechanism_reset_20260912.frozen.question4.geometry",
+      "line": 115,
+      "kind": "file_or_decoder_review",
+      "value": "read_bytes"
+    }
+  ],
+  "scope": "Recursively follows repository Python imports from policy dispatcher; external libraries are not analyzed.",
+  "limitation": "AST checks are evidence of inspected code and do not prove absence of arbitrary dynamic behavior or constitute a security sandbox."
+}

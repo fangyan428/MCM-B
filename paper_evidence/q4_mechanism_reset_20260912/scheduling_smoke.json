@@ -1,0 +1,161 @@
+{
+  "stage": "historical_self_regression_not_selection",
+  "cases_note": "Six historical seed-range layouts, one fixed spatial error field, bounded rounding.",
+  "performance_used_for_selection": false,
+  "checks": [
+    {
+      "case": "uniform_71000_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "uniform_71000_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "uniform_71000_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "uniform_71000_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "outward_71001_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "outward_71001_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "outward_71001_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "outward_71001_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "inward_71002_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "inward_71002_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "inward_71002_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "inward_71002_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "tangent_71003_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "tangent_71003_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "tangent_71003_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "tangent_71003_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "cluster_71004_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "cluster_71004_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "cluster_71004_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "cluster_71004_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "edge_71005_spatial_hash",
+      "candidate": "ACTUAL_TASK",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "edge_71005_spatial_hash",
+      "candidate": "BACKBONE",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "edge_71005_spatial_hash",
+      "candidate": "WINDOW",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "case": "edge_71005_spatial_hash",
+      "candidate": "BACKBONE_ADAPT",
+      "check": "complete_physical_audit",
+      "passed": true
+    },
+    {
+      "check": "parent_ablation_action_and_result_identity",
+      "parent": "baseline",
+      "passed": true
+    },
+    {
+      "check": "parent_ablation_action_and_result_identity",
+      "parent": "adapt",
+      "passed": true
+    }
+  ]
+}

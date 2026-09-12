@@ -1,0 +1,111 @@
+uniform_41000_spatial_hash REF:6325.7/complete CENTROID:6446.4/complete COST:5873.3/complete COUNT:5872.7/complete COST_COUNT:5731.0/complete
+outward_41001_spatial_hash REF:7643.2/complete CENTROID:7266.4/complete COST:8451.8/complete COUNT:7643.2/complete COST_COUNT:8451.8/complete
+inward_41002_spatial_hash REF:5896.9/complete CENTROID:5599.5/complete COST:5709.5/complete COUNT:5761.4/complete COST_COUNT:5651.6/complete
+tangent_41003_spatial_hash REF:7904.4/complete CENTROID:7759.4/complete COST:8126.7/complete COUNT:7904.4/complete COST_COUNT:8126.7/complete
+cluster_41004_spatial_hash REF:6935.0/complete CENTROID:6593.3/complete COST:7352.3/complete COUNT:6935.0/complete COST_COUNT:7352.3/complete
+edge_41005_spatial_hash REF:6492.0/complete CENTROID:5875.9/complete COST:6744.4/complete COUNT:6492.0/complete COST_COUNT:6744.4/complete
+uniform_41006_spatial_hash REF:7229.0/complete CENTROID:6132.5/complete COST:6857.6/complete COUNT:7229.0/complete COST_COUNT:6857.6/complete
+outward_41007_spatial_hash REF:8567.7/complete CENTROID:8067.4/complete COST:9057.0/complete COUNT:8567.7/complete COST_COUNT:9057.0/complete
+inward_41008_spatial_hash REF:5080.6/complete CENTROID:5746.6/complete COST:5080.6/complete COUNT:4971.6/complete COST_COUNT:4971.6/complete
+tangent_41009_spatial_hash REF:9053.3/complete CENTROID:8440.3/complete COST:8843.0/complete COUNT:9268.2/complete COST_COUNT:8811.5/complete
+cluster_41010_spatial_hash REF:6355.5/complete CENTROID:6255.1/complete COST:7981.6/complete COUNT:6262.8/complete COST_COUNT:7981.6/complete
+edge_41011_spatial_hash REF:6326.9/complete CENTROID:6036.3/complete COST:6829.0/complete COUNT:6326.9/complete COST_COUNT:6829.0/complete
+uniform_41012_spatial_hash REF:7785.4/complete CENTROID:6520.4/complete COST:6995.4/complete COUNT:7717.5/complete COST_COUNT:6995.4/complete
+outward_41013_spatial_hash REF:8709.6/complete CENTROID:8254.4/complete COST:8910.7/complete COUNT:8709.6/complete COST_COUNT:8910.7/complete
+inward_41014_spatial_hash REF:6198.8/complete CENTROID:6122.5/complete COST:6425.2/complete COUNT:6198.8/complete COST_COUNT:6425.2/complete
+tangent_41015_spatial_hash REF:6968.9/complete CENTROID:6927.1/complete COST:6968.9/complete COUNT:6968.9/complete COST_COUNT:6968.9/complete
+cluster_41016_spatial_hash REF:7381.5/complete CENTROID:7018.6/complete COST:9103.0/complete COUNT:7381.5/complete COST_COUNT:9103.0/complete
+edge_41017_spatial_hash REF:6745.8/complete CENTROID:6622.2/complete COST:6949.3/complete COUNT:6745.8/complete COST_COUNT:6949.3/complete
+uniform_41018_spatial_hash REF:7216.3/complete CENTROID:7438.0/complete COST:6411.5/complete COUNT:7216.3/complete COST_COUNT:6411.5/complete
+outward_41019_spatial_hash REF:10745.1/complete CENTROID:9624.3/complete COST:10998.3/complete COUNT:10745.1/complete COST_COUNT:10998.3/complete
+inward_41020_spatial_hash REF:6806.1/complete CENTROID:6152.2/complete COST:6822.6/complete COUNT:6806.1/complete COST_COUNT:6822.6/complete
+tangent_41021_spatial_hash REF:9124.4/complete CENTROID:8724.8/complete COST:9239.2/complete COUNT:9124.4/complete COST_COUNT:9239.2/complete
+cluster_41022_spatial_hash REF:7787.0/complete CENTROID:7508.7/complete COST:8044.8/complete COUNT:7787.0/complete COST_COUNT:8044.8/complete
+edge_41023_spatial_hash REF:6705.4/complete CENTROID:5845.9/complete COST:6623.7/complete COUNT:6705.4/complete COST_COUNT:6623.7/complete
+{
+  "REF": {
+    "mean_s": 7332.689801791666,
+    "p95_s": 9113.7013762,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5485.731470794922,
+      "switch_s": 270.625,
+      "detection_s": 1441.0416666666667,
+      "optical_s": 108.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "CENTROID": {
+    "mean_s": 6957.423830916666,
+    "p95_s": 8682.153003849999,
+    "gain_ratio_of_means_pct": 5.117712340474401,
+    "mean_paired_gain_pct": 4.70635543427944,
+    "worst_gain_pct": -13.107611756600168,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5014.67383287104,
+      "switch_s": 284.875,
+      "detection_s": 1521.4583333333333,
+      "optical_s": 109.25,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COST": {
+    "mean_s": 7516.648309083333,
+    "p95_s": 9218.7875306,
+    "gain_ratio_of_means_pct": -2.508745252618194,
+    "mean_paired_gain_pct": -2.570416053898115,
+    "worst_gain_pct": -25.586252030571394,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5717.439977836405,
+      "switch_s": 259.7083333333333,
+      "detection_s": 1382.0833333333333,
+      "optical_s": 130.25,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COUNT": {
+    "mean_s": 7305.880711875,
+    "p95_s": 9246.60136495,
+    "gain_ratio_of_means_pct": 0.3656105827647971,
+    "mean_paired_gain_pct": 0.4818801999784515,
+    "worst_gain_pct": -2.3731823037593287,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5475.2973809168325,
+      "switch_s": 267.7083333333333,
+      "detection_s": 1424.5833333333333,
+      "optical_s": 111.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COST_COUNT": {
+    "mean_s": 7502.446547750001,
+    "p95_s": 9218.7875306,
+    "gain_ratio_of_means_pct": -2.315067874777088,
+    "mean_paired_gain_pct": -2.331787179993598,
+    "worst_gain_pct": -25.586252030571394,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5715.029883147531,
+      "switch_s": 257.8333333333333,
+      "detection_s": 1371.6666666666667,
+      "optical_s": 130.75,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

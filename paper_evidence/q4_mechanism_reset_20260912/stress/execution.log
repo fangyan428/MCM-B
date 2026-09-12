@@ -1,0 +1,811 @@
+START stage=adversarial_development layouts=16 scenarios=128 configs=5 runs=640 workers=4
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__bounded HIST_ADAPT virtual_s=10085.143 penalized_s=10085.143 complete=16/16 audit=True wall_s=0.050
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__pre_round_stress HIST_ADAPT virtual_s=10089.068 penalized_s=10089.068 complete=16/16 audit=True wall_s=0.049
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__bounded HIST_ADAPT virtual_s=10088.140 penalized_s=10088.140 complete=16/16 audit=True wall_s=0.052
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=10085.143 penalized_s=10085.143 complete=16/16 audit=True wall_s=0.095
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__pre_round_stress COVER_EXCHANGE virtual_s=10630.568 penalized_s=10630.568 complete=16/16 audit=True wall_s=0.081
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__bounded COVER_EXCHANGE virtual_s=10316.767 penalized_s=10316.767 complete=16/16 audit=True wall_s=0.081
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__bounded COVER_EXCHANGE virtual_s=10629.827 penalized_s=10629.827 complete=16/16 audit=True wall_s=0.085
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__pre_round_stress COVER_ELASTIC virtual_s=10619.884 penalized_s=10619.884 complete=16/16 audit=True wall_s=0.155
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=10316.767 penalized_s=10316.767 complete=16/16 audit=True wall_s=0.225
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__bounded COVER_ELASTIC virtual_s=10312.596 penalized_s=10312.596 complete=16/16 audit=True wall_s=0.217
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__bounded COVER_ELASTIC virtual_s=10619.150 penalized_s=10619.150 complete=16/16 audit=True wall_s=0.233
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=10619.884 penalized_s=10619.884 complete=16/16 audit=True wall_s=0.102
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__pre_round_stress BASE25 virtual_s=10630.568 penalized_s=10630.568 complete=16/16 audit=True wall_s=0.044
+PROGRESS scenarios=1/128 runs=5/640 failed=0 elapsed_s=0.5
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=10312.596 penalized_s=10312.596 complete=16/16 audit=True wall_s=0.122
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__bounded HIST_ADAPT virtual_s=9984.038 penalized_s=9984.038 complete=16/16 audit=True wall_s=0.045
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=10312.596 penalized_s=10312.596 complete=16/16 audit=True wall_s=0.185
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=10619.150 penalized_s=10619.150 complete=16/16 audit=True wall_s=0.138
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__bounded BASE25 virtual_s=10316.767 penalized_s=10316.767 complete=16/16 audit=True wall_s=0.036
+PROGRESS scenarios=2/128 runs=10/640 failed=0 elapsed_s=0.6
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__bounded COVER_EXCHANGE virtual_s=10534.875 penalized_s=10534.875 complete=16/16 audit=True wall_s=0.037
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__positive__bounded BASE25 virtual_s=10629.827 penalized_s=10629.827 complete=16/16 audit=True wall_s=0.040
+PROGRESS scenarios=3/128 runs=15/640 failed=0 elapsed_s=0.6
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__pre_round_stress HIST_ADAPT virtual_s=9987.118 penalized_s=9987.118 complete=16/16 audit=True wall_s=0.049
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__bounded HIST_ADAPT virtual_s=10072.764 penalized_s=10072.764 complete=16/16 audit=True wall_s=0.045
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__pre_round_stress COVER_EXCHANGE virtual_s=10536.818 penalized_s=10536.818 complete=16/16 audit=True wall_s=0.043
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=10312.596 penalized_s=10312.596 complete=16/16 audit=True wall_s=0.109
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__bounded COVER_EXCHANGE virtual_s=10577.147 penalized_s=10577.147 complete=16/16 audit=True wall_s=0.039
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__bounded COVER_ELASTIC virtual_s=10530.679 penalized_s=10530.679 complete=16/16 audit=True wall_s=0.109
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__spatial_hash__pre_round_stress BASE25 virtual_s=10316.767 penalized_s=10316.767 complete=16/16 audit=True wall_s=0.066
+PROGRESS scenarios=4/128 runs=20/640 failed=0 elapsed_s=0.8
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__pre_round_stress COVER_ELASTIC virtual_s=10532.623 penalized_s=10532.623 complete=16/16 audit=True wall_s=0.111
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=10530.679 penalized_s=10530.679 complete=16/16 audit=True wall_s=0.099
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__bounded COVER_ELASTIC virtual_s=10572.833 penalized_s=10572.833 complete=16/16 audit=True wall_s=0.105
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__pre_round_stress HIST_ADAPT virtual_s=10072.752 penalized_s=10072.752 complete=16/16 audit=True wall_s=0.068
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__bounded BASE25 virtual_s=10534.875 penalized_s=10534.875 complete=16/16 audit=True wall_s=0.038
+PROGRESS scenarios=5/128 runs=25/640 failed=0 elapsed_s=0.9
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__pre_round_stress COVER_EXCHANGE virtual_s=10577.147 penalized_s=10577.147 complete=16/16 audit=True wall_s=0.053
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=10532.623 penalized_s=10532.623 complete=16/16 audit=True wall_s=0.115
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__bounded HIST_ADAPT virtual_s=5918.987 penalized_s=5918.987 complete=10/10 audit=True wall_s=0.041
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=10572.833 penalized_s=10572.833 complete=16/16 audit=True wall_s=0.115
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__negative__pre_round_stress BASE25 virtual_s=10536.818 penalized_s=10536.818 complete=16/16 audit=True wall_s=0.035
+PROGRESS scenarios=6/128 runs=30/640 failed=0 elapsed_s=1.0
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__bounded COVER_EXCHANGE virtual_s=5987.521 penalized_s=5987.521 complete=10/10 audit=True wall_s=0.038
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__bounded BASE25 virtual_s=10577.147 penalized_s=10577.147 complete=16/16 audit=True wall_s=0.041
+PROGRESS scenarios=7/128 runs=35/640 failed=0 elapsed_s=1.0
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=5918.987 penalized_s=5918.987 complete=10/10 audit=True wall_s=0.042
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__pre_round_stress COVER_ELASTIC virtual_s=10572.833 penalized_s=10572.833 complete=16/16 audit=True wall_s=0.135
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__bounded HIST_ADAPT virtual_s=5961.272 penalized_s=5961.272 complete=10/10 audit=True wall_s=0.043
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=5987.521 penalized_s=5987.521 complete=10/10 audit=True wall_s=0.042
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__bounded COVER_ELASTIC virtual_s=6017.503 penalized_s=6017.503 complete=10/10 audit=True wall_s=0.096
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__bounded COVER_EXCHANGE virtual_s=6023.407 penalized_s=6023.407 complete=10/10 audit=True wall_s=0.045
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=10572.833 penalized_s=10572.833 complete=16/16 audit=True wall_s=0.113
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6017.503 penalized_s=6017.503 complete=10/10 audit=True wall_s=0.099
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6017.503 penalized_s=6017.503 complete=10/10 audit=True wall_s=0.133
+RUN stress_boundary_outward_16_0c5cede1a45c5aad__smooth__pre_round_stress BASE25 virtual_s=10577.147 penalized_s=10577.147 complete=16/16 audit=True wall_s=0.037
+PROGRESS scenarios=8/128 runs=40/640 failed=0 elapsed_s=1.2
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__bounded BASE25 virtual_s=5987.521 penalized_s=5987.521 complete=10/10 audit=True wall_s=0.041
+PROGRESS scenarios=9/128 runs=45/640 failed=0 elapsed_s=1.2
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__bounded COVER_ELASTIC virtual_s=6054.343 penalized_s=6054.343 complete=10/10 audit=True wall_s=0.126
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__pre_round_stress HIST_ADAPT virtual_s=5961.342 penalized_s=5961.342 complete=10/10 audit=True wall_s=0.045
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__bounded HIST_ADAPT virtual_s=5967.052 penalized_s=5967.052 complete=10/10 audit=True wall_s=0.046
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__pre_round_stress COVER_EXCHANGE virtual_s=6023.397 penalized_s=6023.397 complete=10/10 audit=True wall_s=0.040
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__bounded COVER_EXCHANGE virtual_s=5994.664 penalized_s=5994.664 complete=10/10 audit=True wall_s=0.039
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6017.503 penalized_s=6017.503 complete=10/10 audit=True wall_s=0.132
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6054.343 penalized_s=6054.343 complete=10/10 audit=True wall_s=0.132
+RUN stress_boundary_inward_10_15607228201f0d0b__spatial_hash__pre_round_stress BASE25 virtual_s=5987.521 penalized_s=5987.521 complete=10/10 audit=True wall_s=0.046
+PROGRESS scenarios=10/128 runs=50/640 failed=0 elapsed_s=1.4
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__pre_round_stress COVER_ELASTIC virtual_s=6054.349 penalized_s=6054.349 complete=10/10 audit=True wall_s=0.115
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__bounded BASE25 virtual_s=6023.407 penalized_s=6023.407 complete=10/10 audit=True wall_s=0.050
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__bounded COVER_ELASTIC virtual_s=6019.288 penalized_s=6019.288 complete=10/10 audit=True wall_s=0.097
+PROGRESS scenarios=11/128 runs=55/640 failed=0 elapsed_s=1.5
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__pre_round_stress HIST_ADAPT virtual_s=5966.968 penalized_s=5966.968 complete=10/10 audit=True wall_s=0.049
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__pre_round_stress COVER_EXCHANGE virtual_s=5994.591 penalized_s=5994.591 complete=10/10 audit=True wall_s=0.036
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__bounded HIST_ADAPT virtual_s=5967.734 penalized_s=5967.734 complete=10/10 audit=True wall_s=0.048
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6019.288 penalized_s=6019.288 complete=10/10 audit=True wall_s=0.103
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__bounded COVER_EXCHANGE virtual_s=5984.152 penalized_s=5984.152 complete=10/10 audit=True wall_s=0.045
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6054.349 penalized_s=6054.349 complete=10/10 audit=True wall_s=0.134
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__bounded BASE25 virtual_s=5994.664 penalized_s=5994.664 complete=10/10 audit=True wall_s=0.042
+PROGRESS scenarios=12/128 runs=60/640 failed=0 elapsed_s=1.6
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__pre_round_stress COVER_ELASTIC virtual_s=6019.322 penalized_s=6019.322 complete=10/10 audit=True wall_s=0.106
+RUN stress_boundary_inward_10_15607228201f0d0b__positive__pre_round_stress BASE25 virtual_s=6023.397 penalized_s=6023.397 complete=10/10 audit=True wall_s=0.044
+PROGRESS scenarios=13/128 runs=65/640 failed=0 elapsed_s=1.7
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__pre_round_stress HIST_ADAPT virtual_s=5967.730 penalized_s=5967.730 complete=10/10 audit=True wall_s=0.039
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__pre_round_stress COVER_EXCHANGE virtual_s=5984.148 penalized_s=5984.148 complete=10/10 audit=True wall_s=0.034
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__bounded COVER_ELASTIC virtual_s=6034.349 penalized_s=6034.349 complete=10/10 audit=True wall_s=0.135
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6019.322 penalized_s=6019.322 complete=10/10 audit=True wall_s=0.118
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__bounded COVER_ELASTIC virtual_s=6980.544 penalized_s=6980.544 complete=16/16 audit=True wall_s=0.149
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__pre_round_stress COVER_ELASTIC virtual_s=6034.345 penalized_s=6034.345 complete=10/10 audit=True wall_s=0.094
+RUN stress_boundary_inward_10_15607228201f0d0b__negative__pre_round_stress BASE25 virtual_s=5994.591 penalized_s=5994.591 complete=10/10 audit=True wall_s=0.043
+PROGRESS scenarios=14/128 runs=70/640 failed=0 elapsed_s=1.8
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6034.349 penalized_s=6034.349 complete=10/10 audit=True wall_s=0.103
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__bounded BASE25 virtual_s=5984.152 penalized_s=5984.152 complete=10/10 audit=True wall_s=0.040
+PROGRESS scenarios=15/128 runs=75/640 failed=0 elapsed_s=1.9
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6034.345 penalized_s=6034.345 complete=10/10 audit=True wall_s=0.113
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6980.544 penalized_s=6980.544 complete=16/16 audit=True wall_s=0.136
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6980.544 penalized_s=6980.544 complete=16/16 audit=True wall_s=0.155
+RUN stress_boundary_inward_10_15607228201f0d0b__smooth__pre_round_stress BASE25 virtual_s=5984.148 penalized_s=5984.148 complete=10/10 audit=True wall_s=0.038
+PROGRESS scenarios=16/128 runs=80/640 failed=0 elapsed_s=2.0
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__bounded BASE25 virtual_s=7147.736 penalized_s=7147.736 complete=16/16 audit=True wall_s=0.058
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__bounded COVER_ELASTIC virtual_s=7032.659 penalized_s=7032.659 complete=16/16 audit=True wall_s=0.157
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6980.544 penalized_s=6980.544 complete=16/16 audit=True wall_s=0.142
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__pre_round_stress COVER_ELASTIC virtual_s=7032.627 penalized_s=7032.627 complete=16/16 audit=True wall_s=0.127
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__bounded HIST_ADAPT virtual_s=6550.647 penalized_s=6550.647 complete=16/16 audit=True wall_s=0.074
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__pre_round_stress BASE25 virtual_s=7147.736 penalized_s=7147.736 complete=16/16 audit=True wall_s=0.067
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=7032.659 penalized_s=7032.659 complete=16/16 audit=True wall_s=0.150
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__bounded COVER_EXCHANGE virtual_s=7147.736 penalized_s=7147.736 complete=16/16 audit=True wall_s=0.076
+PROGRESS scenarios=17/128 runs=85/640 failed=0 elapsed_s=2.2
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7032.627 penalized_s=7032.627 complete=16/16 audit=True wall_s=0.140
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6550.647 penalized_s=6550.647 complete=16/16 audit=True wall_s=0.081
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__bounded BASE25 virtual_s=7263.313 penalized_s=7263.313 complete=16/16 audit=True wall_s=0.083
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__pre_round_stress BASE25 virtual_s=7263.290 penalized_s=7263.290 complete=16/16 audit=True wall_s=0.064
+RUN stress_boundary_tangent_16_1056c9963d9c003b__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=7147.736 penalized_s=7147.736 complete=16/16 audit=True wall_s=0.071
+PROGRESS scenarios=18/128 runs=90/640 failed=0 elapsed_s=2.4
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__bounded COVER_ELASTIC virtual_s=7059.390 penalized_s=7059.390 complete=16/16 audit=True wall_s=0.150
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__bounded HIST_ADAPT virtual_s=6599.345 penalized_s=6599.345 complete=16/16 audit=True wall_s=0.109
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__pre_round_stress HIST_ADAPT virtual_s=6599.311 penalized_s=6599.311 complete=16/16 audit=True wall_s=0.078
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__bounded COVER_EXCHANGE virtual_s=7263.313 penalized_s=7263.313 complete=16/16 audit=True wall_s=0.066
+PROGRESS scenarios=19/128 runs=95/640 failed=0 elapsed_s=2.5
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__pre_round_stress COVER_ELASTIC virtual_s=7186.497 penalized_s=7186.497 complete=16/16 audit=True wall_s=0.130
+RUN stress_boundary_tangent_16_1056c9963d9c003b__positive__pre_round_stress COVER_EXCHANGE virtual_s=7263.290 penalized_s=7263.290 complete=16/16 audit=True wall_s=0.072
+PROGRESS scenarios=20/128 runs=100/640 failed=0 elapsed_s=2.5
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=7059.390 penalized_s=7059.390 complete=16/16 audit=True wall_s=0.184
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__bounded BASE25 virtual_s=7381.700 penalized_s=7381.700 complete=16/16 audit=True wall_s=0.066
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7186.497 penalized_s=7186.497 complete=16/16 audit=True wall_s=0.134
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__pre_round_stress COVER_ELASTIC virtual_s=7023.498 penalized_s=7023.498 complete=16/16 audit=True wall_s=0.130
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__bounded COVER_ELASTIC virtual_s=7023.498 penalized_s=7023.498 complete=16/16 audit=True wall_s=0.157
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__pre_round_stress BASE25 virtual_s=7509.204 penalized_s=7509.204 complete=16/16 audit=True wall_s=0.064
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7023.498 penalized_s=7023.498 complete=16/16 audit=True wall_s=0.140
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__bounded HIST_ADAPT virtual_s=6870.493 penalized_s=6870.493 complete=16/16 audit=True wall_s=0.138
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=7023.498 penalized_s=7023.498 complete=16/16 audit=True wall_s=0.165
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__pre_round_stress HIST_ADAPT virtual_s=7124.863 penalized_s=7124.863 complete=16/16 audit=True wall_s=0.125
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__pre_round_stress BASE25 virtual_s=7211.730 penalized_s=7211.730 complete=16/16 audit=True wall_s=0.066
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__bounded COVER_EXCHANGE virtual_s=7381.700 penalized_s=7381.700 complete=16/16 audit=True wall_s=0.081
+PROGRESS scenarios=21/128 runs=105/640 failed=0 elapsed_s=2.9
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__bounded BASE25 virtual_s=7211.733 penalized_s=7211.733 complete=16/16 audit=True wall_s=0.078
+RUN stress_boundary_tangent_16_1056c9963d9c003b__negative__pre_round_stress COVER_EXCHANGE virtual_s=7509.204 penalized_s=7509.204 complete=16/16 audit=True wall_s=0.065
+PROGRESS scenarios=22/128 runs=110/640 failed=0 elapsed_s=2.9
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__bounded HIST_ADAPT virtual_s=6331.284 penalized_s=6331.284 complete=12/12 audit=True wall_s=0.057
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__pre_round_stress HIST_ADAPT virtual_s=6651.160 penalized_s=6651.160 complete=16/16 audit=True wall_s=0.079
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6331.284 penalized_s=6331.284 complete=12/12 audit=True wall_s=0.053
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__bounded COVER_EXCHANGE virtual_s=6452.207 penalized_s=6452.207 complete=12/12 audit=True wall_s=0.042
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__pre_round_stress COVER_EXCHANGE virtual_s=7211.730 penalized_s=7211.730 complete=16/16 audit=True wall_s=0.062
+PROGRESS scenarios=23/128 runs=115/640 failed=0 elapsed_s=3.0
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__bounded HIST_ADAPT virtual_s=6651.163 penalized_s=6651.163 complete=16/16 audit=True wall_s=0.100
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6452.207 penalized_s=6452.207 complete=12/12 audit=True wall_s=0.046
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__bounded HIST_ADAPT virtual_s=6376.148 penalized_s=6376.148 complete=12/12 audit=True wall_s=0.052
+RUN stress_boundary_tangent_16_1056c9963d9c003b__smooth__bounded COVER_EXCHANGE virtual_s=7211.733 penalized_s=7211.733 complete=16/16 audit=True wall_s=0.090
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__bounded COVER_ELASTIC virtual_s=6381.264 penalized_s=6381.264 complete=12/12 audit=True wall_s=0.126
+PROGRESS scenarios=24/128 runs=120/640 failed=0 elapsed_s=3.2
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__bounded COVER_EXCHANGE virtual_s=6574.060 penalized_s=6574.060 complete=12/12 audit=True wall_s=0.048
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6381.264 penalized_s=6381.264 complete=12/12 audit=True wall_s=0.121
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__pre_round_stress HIST_ADAPT virtual_s=6375.996 penalized_s=6375.996 complete=12/12 audit=True wall_s=0.059
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__bounded COVER_ELASTIC virtual_s=6320.419 penalized_s=6320.419 complete=12/12 audit=True wall_s=0.116
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__pre_round_stress COVER_EXCHANGE virtual_s=6573.935 penalized_s=6573.935 complete=12/12 audit=True wall_s=0.067
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6381.264 penalized_s=6381.264 complete=12/12 audit=True wall_s=0.110
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6381.264 penalized_s=6381.264 complete=12/12 audit=True wall_s=0.157
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__pre_round_stress BASE25 virtual_s=6452.207 penalized_s=6452.207 complete=12/12 audit=True wall_s=0.050
+PROGRESS scenarios=25/128 runs=125/640 failed=0 elapsed_s=3.4
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__spatial_hash__bounded BASE25 virtual_s=6452.207 penalized_s=6452.207 complete=12/12 audit=True wall_s=0.074
+PROGRESS scenarios=26/128 runs=130/640 failed=0 elapsed_s=3.4
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6320.419 penalized_s=6320.419 complete=12/12 audit=True wall_s=0.132
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__bounded HIST_ADAPT virtual_s=6326.864 penalized_s=6326.864 complete=12/12 audit=True wall_s=0.059
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__bounded BASE25 virtual_s=6574.060 penalized_s=6574.060 complete=12/12 audit=True wall_s=0.042
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__pre_round_stress COVER_ELASTIC virtual_s=6320.180 penalized_s=6320.180 complete=12/12 audit=True wall_s=0.171
+PROGRESS scenarios=27/128 runs=135/640 failed=0 elapsed_s=3.5
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__pre_round_stress HIST_ADAPT virtual_s=6326.668 penalized_s=6326.668 complete=12/12 audit=True wall_s=0.070
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__bounded COVER_EXCHANGE virtual_s=6500.123 penalized_s=6500.123 complete=12/12 audit=True wall_s=0.044
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__bounded HIST_ADAPT virtual_s=6305.547 penalized_s=6305.547 complete=12/12 audit=True wall_s=0.054
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__pre_round_stress COVER_EXCHANGE virtual_s=6499.960 penalized_s=6499.960 complete=12/12 audit=True wall_s=0.056
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__bounded COVER_EXCHANGE virtual_s=6394.354 penalized_s=6394.354 complete=12/12 audit=True wall_s=0.048
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__bounded COVER_ELASTIC virtual_s=6463.668 penalized_s=6463.668 complete=12/12 audit=True wall_s=0.122
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6320.180 penalized_s=6320.180 complete=12/12 audit=True wall_s=0.152
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__pre_round_stress COVER_ELASTIC virtual_s=6463.566 penalized_s=6463.566 complete=12/12 audit=True wall_s=0.122
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__positive__pre_round_stress BASE25 virtual_s=6573.935 penalized_s=6573.935 complete=12/12 audit=True wall_s=0.061
+PROGRESS scenarios=28/128 runs=140/640 failed=0 elapsed_s=3.7
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__bounded COVER_ELASTIC virtual_s=6315.168 penalized_s=6315.168 complete=12/12 audit=True wall_s=0.127
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6463.668 penalized_s=6463.668 complete=12/12 audit=True wall_s=0.136
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__pre_round_stress HIST_ADAPT virtual_s=6305.547 penalized_s=6305.547 complete=12/12 audit=True wall_s=0.072
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6463.566 penalized_s=6463.566 complete=12/12 audit=True wall_s=0.130
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__bounded BASE25 virtual_s=6500.123 penalized_s=6500.123 complete=12/12 audit=True wall_s=0.052
+PROGRESS scenarios=29/128 runs=145/640 failed=0 elapsed_s=3.9
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__pre_round_stress COVER_EXCHANGE virtual_s=6394.354 penalized_s=6394.354 complete=12/12 audit=True wall_s=0.056
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6315.168 penalized_s=6315.168 complete=12/12 audit=True wall_s=0.130
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__negative__pre_round_stress BASE25 virtual_s=6499.960 penalized_s=6499.960 complete=12/12 audit=True wall_s=0.063
+PROGRESS scenarios=30/128 runs=150/640 failed=0 elapsed_s=3.9
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__bounded BASE25 virtual_s=6394.354 penalized_s=6394.354 complete=12/12 audit=True wall_s=0.044
+PROGRESS scenarios=31/128 runs=155/640 failed=0 elapsed_s=4.0
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__pre_round_stress COVER_ELASTIC virtual_s=6315.168 penalized_s=6315.168 complete=12/12 audit=True wall_s=0.152
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__bounded COVER_EXCHANGE virtual_s=5351.008 penalized_s=5351.008 complete=12/12 audit=True wall_s=0.347
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6315.168 penalized_s=6315.168 complete=12/12 audit=True wall_s=0.158
+RUN stress_boundary_alternating_12_65f9dc069dbfa78b__smooth__pre_round_stress BASE25 virtual_s=6394.354 penalized_s=6394.354 complete=12/12 audit=True wall_s=0.048
+PROGRESS scenarios=32/128 runs=160/640 failed=0 elapsed_s=4.3
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=5351.008 penalized_s=5351.008 complete=12/12 audit=True wall_s=0.407
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__bounded COVER_ELASTIC virtual_s=5428.947 penalized_s=5428.947 complete=12/12 audit=True wall_s=0.152
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__bounded COVER_EXCHANGE virtual_s=5329.933 penalized_s=5329.933 complete=12/12 audit=True wall_s=0.561
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=5428.947 penalized_s=5428.947 complete=12/12 audit=True wall_s=0.184
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=5428.947 penalized_s=5428.947 complete=12/12 audit=True wall_s=0.247
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__bounded COVER_ELASTIC virtual_s=5280.218 penalized_s=5280.218 complete=12/12 audit=True wall_s=0.146
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__bounded BASE25 virtual_s=5351.008 penalized_s=5351.008 complete=12/12 audit=True wall_s=0.070
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__bounded HIST_ADAPT virtual_s=5550.317 penalized_s=5550.317 complete=12/12 audit=True wall_s=0.077
+PROGRESS scenarios=33/128 runs=165/640 failed=0 elapsed_s=4.8
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__bounded COVER_EXCHANGE virtual_s=5352.863 penalized_s=5352.863 complete=12/12 audit=True wall_s=0.105
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__pre_round_stress COVER_EXCHANGE virtual_s=5329.875 penalized_s=5329.875 complete=12/12 audit=True wall_s=0.640
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5428.947 penalized_s=5428.947 complete=12/12 audit=True wall_s=0.439
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=5280.218 penalized_s=5280.218 complete=12/12 audit=True wall_s=0.314
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__bounded COVER_ELASTIC virtual_s=5429.910 penalized_s=5429.910 complete=12/12 audit=True wall_s=0.129
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__pre_round_stress BASE25 virtual_s=5351.008 penalized_s=5351.008 complete=12/12 audit=True wall_s=0.083
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__bounded BASE25 virtual_s=5329.933 penalized_s=5329.933 complete=12/12 audit=True wall_s=0.074
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__pre_round_stress COVER_ELASTIC virtual_s=5280.126 penalized_s=5280.126 complete=12/12 audit=True wall_s=0.152
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__bounded HIST_ADAPT virtual_s=5576.916 penalized_s=5576.916 complete=12/12 audit=True wall_s=0.062
+PROGRESS scenarios=34/128 runs=170/640 failed=0 elapsed_s=5.1
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=5550.317 penalized_s=5550.317 complete=12/12 audit=True wall_s=0.088
+PROGRESS scenarios=35/128 runs=175/640 failed=0 elapsed_s=5.2
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=5429.910 penalized_s=5429.910 complete=12/12 audit=True wall_s=0.147
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__pre_round_stress COVER_EXCHANGE virtual_s=5352.991 penalized_s=5352.991 complete=12/12 audit=True wall_s=0.089
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__bounded BASE25 virtual_s=5352.863 penalized_s=5352.863 complete=12/12 audit=True wall_s=0.072
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__bounded HIST_ADAPT virtual_s=5548.492 penalized_s=5548.492 complete=12/12 audit=True wall_s=0.050
+PROGRESS scenarios=36/128 runs=180/640 failed=0 elapsed_s=5.3
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__pre_round_stress COVER_ELASTIC virtual_s=5430.004 penalized_s=5430.004 complete=12/12 audit=True wall_s=0.143
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__bounded COVER_EXCHANGE virtual_s=5502.337 penalized_s=5502.337 complete=12/12 audit=True wall_s=0.275
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5280.126 penalized_s=5280.126 complete=12/12 audit=True wall_s=0.350
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__pre_round_stress BASE25 virtual_s=5329.875 penalized_s=5329.875 complete=12/12 audit=True wall_s=0.046
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__positive__pre_round_stress HIST_ADAPT virtual_s=5576.886 penalized_s=5576.886 complete=12/12 audit=True wall_s=0.056
+PROGRESS scenarios=37/128 runs=185/640 failed=0 elapsed_s=5.6
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5430.004 penalized_s=5430.004 complete=12/12 audit=True wall_s=0.170
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__pre_round_stress COVER_EXCHANGE virtual_s=5502.337 penalized_s=5502.337 complete=12/12 audit=True wall_s=0.256
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__bounded COVER_ELASTIC virtual_s=5566.867 penalized_s=5566.867 complete=12/12 audit=True wall_s=0.172
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__bounded HIST_ADAPT virtual_s=5512.427 penalized_s=5512.427 complete=12/12 audit=True wall_s=0.060
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__pre_round_stress BASE25 virtual_s=5352.991 penalized_s=5352.991 complete=12/12 audit=True wall_s=0.067
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__negative__pre_round_stress HIST_ADAPT virtual_s=5548.620 penalized_s=5548.620 complete=12/12 audit=True wall_s=0.070
+PROGRESS scenarios=38/128 runs=190/640 failed=0 elapsed_s=5.7
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__pre_round_stress COVER_ELASTIC virtual_s=5566.867 penalized_s=5566.867 complete=12/12 audit=True wall_s=0.156
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=5512.427 penalized_s=5512.427 complete=12/12 audit=True wall_s=0.066
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__bounded COVER_EXCHANGE virtual_s=6273.716 penalized_s=6273.716 complete=12/12 audit=True wall_s=0.213
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=5566.867 penalized_s=5566.867 complete=12/12 audit=True wall_s=0.246
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__bounded BASE25 virtual_s=5502.337 penalized_s=5502.337 complete=12/12 audit=True wall_s=0.100
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6273.716 penalized_s=6273.716 complete=12/12 audit=True wall_s=0.207
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5566.867 penalized_s=5566.867 complete=12/12 audit=True wall_s=0.244
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__bounded COVER_ELASTIC virtual_s=5366.777 penalized_s=5366.777 complete=12/12 audit=True wall_s=0.166
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__pre_round_stress BASE25 virtual_s=5502.337 penalized_s=5502.337 complete=12/12 audit=True wall_s=0.087
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__bounded HIST_ADAPT virtual_s=5514.337 penalized_s=5514.337 complete=12/12 audit=True wall_s=0.121
+PROGRESS scenarios=39/128 runs=195/640 failed=0 elapsed_s=6.1
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=5366.777 penalized_s=5366.777 complete=12/12 audit=True wall_s=0.136
+RUN stress_halfplane_sides_640a0434f462a800__positive__bounded HIST_ADAPT virtual_s=6179.485 penalized_s=6179.485 complete=12/12 audit=True wall_s=0.041
+RUN stress_halfplane_boundary_71ad6253cfb5fea6__smooth__pre_round_stress HIST_ADAPT virtual_s=5514.337 penalized_s=5514.337 complete=12/12 audit=True wall_s=0.091
+RUN stress_halfplane_sides_640a0434f462a800__positive__bounded COVER_EXCHANGE virtual_s=7736.126 penalized_s=7736.126 complete=12/12 audit=True wall_s=0.039
+PROGRESS scenarios=40/128 runs=200/640 failed=0 elapsed_s=6.2
+RUN stress_halfplane_sides_640a0434f462a800__positive__pre_round_stress HIST_ADAPT virtual_s=6179.188 penalized_s=6179.188 complete=12/12 audit=True wall_s=0.046
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=5366.777 penalized_s=5366.777 complete=12/12 audit=True wall_s=0.259
+RUN stress_halfplane_sides_640a0434f462a800__positive__pre_round_stress COVER_EXCHANGE virtual_s=7735.952 penalized_s=7735.952 complete=12/12 audit=True wall_s=0.041
+RUN stress_halfplane_sides_640a0434f462a800__positive__bounded COVER_ELASTIC virtual_s=7422.794 penalized_s=7422.794 complete=12/12 audit=True wall_s=0.101
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__bounded BASE25 virtual_s=6273.716 penalized_s=6273.716 complete=12/12 audit=True wall_s=0.074
+PROGRESS scenarios=41/128 runs=205/640 failed=0 elapsed_s=6.4
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5366.777 penalized_s=5366.777 complete=12/12 audit=True wall_s=0.261
+RUN stress_halfplane_sides_640a0434f462a800__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=7422.794 penalized_s=7422.794 complete=12/12 audit=True wall_s=0.115
+RUN stress_halfplane_sides_640a0434f462a800__negative__bounded HIST_ADAPT virtual_s=5625.324 penalized_s=5625.324 complete=12/12 audit=True wall_s=0.054
+RUN stress_halfplane_sides_640a0434f462a800__positive__pre_round_stress COVER_ELASTIC virtual_s=7422.653 penalized_s=7422.653 complete=12/12 audit=True wall_s=0.135
+RUN stress_halfplane_sides_640a0434f462a800__positive__bounded BASE25 virtual_s=7736.126 penalized_s=7736.126 complete=12/12 audit=True wall_s=0.044
+RUN stress_halfplane_sides_640a0434f462a800__spatial_hash__pre_round_stress BASE25 virtual_s=6273.716 penalized_s=6273.716 complete=12/12 audit=True wall_s=0.067
+PROGRESS scenarios=42/128 runs=210/640 failed=0 elapsed_s=6.5
+PROGRESS scenarios=43/128 runs=215/640 failed=0 elapsed_s=6.5
+RUN stress_halfplane_sides_640a0434f462a800__negative__bounded COVER_EXCHANGE virtual_s=5532.990 penalized_s=5532.990 complete=12/12 audit=True wall_s=0.102
+RUN stress_halfplane_sides_640a0434f462a800__negative__pre_round_stress HIST_ADAPT virtual_s=5615.312 penalized_s=5615.312 complete=12/12 audit=True wall_s=0.065
+RUN stress_halfplane_sides_640a0434f462a800__smooth__bounded HIST_ADAPT virtual_s=5502.284 penalized_s=5502.284 complete=12/12 audit=True wall_s=0.067
+RUN stress_halfplane_sides_640a0434f462a800__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7422.653 penalized_s=7422.653 complete=12/12 audit=True wall_s=0.144
+RUN stress_halfplane_sides_640a0434f462a800__negative__pre_round_stress COVER_EXCHANGE virtual_s=5533.068 penalized_s=5533.068 complete=12/12 audit=True wall_s=0.081
+RUN stress_halfplane_sides_640a0434f462a800__positive__pre_round_stress BASE25 virtual_s=7735.952 penalized_s=7735.952 complete=12/12 audit=True wall_s=0.054
+PROGRESS scenarios=44/128 runs=220/640 failed=0 elapsed_s=6.7
+RUN stress_halfplane_sides_640a0434f462a800__negative__bounded COVER_ELASTIC virtual_s=5481.585 penalized_s=5481.585 complete=12/12 audit=True wall_s=0.129
+RUN stress_halfplane_sides_640a0434f462a800__smooth__pre_round_stress HIST_ADAPT virtual_s=5502.282 penalized_s=5502.282 complete=12/12 audit=True wall_s=0.047
+RUN stress_halfplane_sides_640a0434f462a800__smooth__bounded COVER_EXCHANGE virtual_s=5540.825 penalized_s=5540.825 complete=12/12 audit=True wall_s=0.218
+RUN stress_halfplane_sides_640a0434f462a800__negative__pre_round_stress COVER_ELASTIC virtual_s=5481.620 penalized_s=5481.620 complete=12/12 audit=True wall_s=0.167
+RUN stress_halfplane_sides_640a0434f462a800__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=5481.585 penalized_s=5481.585 complete=12/12 audit=True wall_s=0.171
+RUN stress_halfplane_sides_640a0434f462a800__negative__bounded BASE25 virtual_s=5532.990 penalized_s=5532.990 complete=12/12 audit=True wall_s=0.044
+PROGRESS scenarios=45/128 runs=225/640 failed=0 elapsed_s=6.9
+RUN stress_halfplane_sides_640a0434f462a800__smooth__pre_round_stress COVER_EXCHANGE virtual_s=5540.823 penalized_s=5540.823 complete=12/12 audit=True wall_s=0.211
+RUN stress_halfplane_sides_640a0434f462a800__smooth__bounded COVER_ELASTIC virtual_s=5497.373 penalized_s=5497.373 complete=12/12 audit=True wall_s=0.142
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__bounded HIST_ADAPT virtual_s=7629.848 penalized_s=7629.848 complete=16/16 audit=True wall_s=0.077
+RUN stress_halfplane_sides_640a0434f462a800__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5481.620 penalized_s=5481.620 complete=12/12 audit=True wall_s=0.197
+RUN stress_halfplane_sides_640a0434f462a800__smooth__pre_round_stress COVER_ELASTIC virtual_s=5497.373 penalized_s=5497.373 complete=12/12 audit=True wall_s=0.122
+RUN stress_halfplane_sides_640a0434f462a800__negative__pre_round_stress BASE25 virtual_s=5533.068 penalized_s=5533.068 complete=12/12 audit=True wall_s=0.048
+PROGRESS scenarios=46/128 runs=230/640 failed=0 elapsed_s=7.1
+RUN stress_halfplane_sides_640a0434f462a800__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=5497.373 penalized_s=5497.373 complete=12/12 audit=True wall_s=0.225
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=7629.848 penalized_s=7629.848 complete=16/16 audit=True wall_s=0.088
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__bounded COVER_EXCHANGE virtual_s=8012.756 penalized_s=8012.756 complete=16/16 audit=True wall_s=0.204
+RUN stress_halfplane_sides_640a0434f462a800__smooth__bounded BASE25 virtual_s=5540.825 penalized_s=5540.825 complete=12/12 audit=True wall_s=0.043
+PROGRESS scenarios=47/128 runs=235/640 failed=0 elapsed_s=7.3
+RUN stress_halfplane_sides_640a0434f462a800__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5497.373 penalized_s=5497.373 complete=12/12 audit=True wall_s=0.184
+RUN stress_halfplane_sides_640a0434f462a800__smooth__pre_round_stress BASE25 virtual_s=5540.823 penalized_s=5540.823 complete=12/12 audit=True wall_s=0.046
+PROGRESS scenarios=48/128 runs=240/640 failed=0 elapsed_s=7.3
+RUN stress_near_backside_16_29f1760bc66ba875__positive__bounded HIST_ADAPT virtual_s=8652.732 penalized_s=8652.732 complete=16/16 audit=True wall_s=0.085
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__bounded COVER_ELASTIC virtual_s=7622.984 penalized_s=7622.984 complete=16/16 audit=True wall_s=0.148
+RUN stress_near_backside_16_29f1760bc66ba875__positive__pre_round_stress HIST_ADAPT virtual_s=8652.938 penalized_s=8652.938 complete=16/16 audit=True wall_s=0.055
+RUN stress_near_backside_16_29f1760bc66ba875__positive__bounded COVER_EXCHANGE virtual_s=8151.626 penalized_s=8151.626 complete=16/16 audit=True wall_s=0.047
+RUN stress_near_backside_16_29f1760bc66ba875__positive__pre_round_stress COVER_EXCHANGE virtual_s=8151.711 penalized_s=8151.711 complete=16/16 audit=True wall_s=0.054
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=8012.756 penalized_s=8012.756 complete=16/16 audit=True wall_s=0.264
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=7616.726 penalized_s=7616.726 complete=16/16 audit=True wall_s=0.142
+RUN stress_near_backside_16_29f1760bc66ba875__positive__bounded COVER_ELASTIC virtual_s=8264.670 penalized_s=8264.670 complete=16/16 audit=True wall_s=0.181
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__bounded BASE25 virtual_s=7652.741 penalized_s=7652.741 complete=16/16 audit=True wall_s=0.074
+RUN stress_near_backside_16_29f1760bc66ba875__positive__pre_round_stress COVER_ELASTIC virtual_s=8264.707 penalized_s=8264.707 complete=16/16 audit=True wall_s=0.162
+PROGRESS scenarios=49/128 runs=245/640 failed=0 elapsed_s=7.6
+RUN stress_near_backside_16_29f1760bc66ba875__negative__bounded HIST_ADAPT virtual_s=8081.776 penalized_s=8081.776 complete=16/16 audit=True wall_s=0.062
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=7622.984 penalized_s=7622.984 complete=16/16 audit=True wall_s=0.217
+RUN stress_near_backside_16_29f1760bc66ba875__negative__bounded COVER_EXCHANGE virtual_s=8925.797 penalized_s=8925.797 complete=16/16 audit=True wall_s=0.050
+RUN stress_near_backside_16_29f1760bc66ba875__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=8306.094 penalized_s=8306.094 complete=16/16 audit=True wall_s=0.172
+RUN stress_near_backside_16_29f1760bc66ba875__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8175.932 penalized_s=8175.932 complete=16/16 audit=True wall_s=0.157
+RUN stress_near_backside_16_29f1760bc66ba875__positive__bounded BASE25 virtual_s=8160.970 penalized_s=8160.970 complete=16/16 audit=True wall_s=0.048
+PROGRESS scenarios=50/128 runs=250/640 failed=0 elapsed_s=7.8
+RUN stress_near_backside_16_29f1760bc66ba875__positive__pre_round_stress BASE25 virtual_s=8161.088 penalized_s=8161.088 complete=16/16 audit=True wall_s=0.052
+PROGRESS scenarios=51/128 runs=255/640 failed=0 elapsed_s=7.9
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7616.726 penalized_s=7616.726 complete=16/16 audit=True wall_s=0.176
+RUN stress_near_backside_16_29f1760bc66ba875__negative__pre_round_stress HIST_ADAPT virtual_s=8081.556 penalized_s=8081.556 complete=16/16 audit=True wall_s=0.071
+RUN stress_near_backside_16_29f1760bc66ba875__negative__bounded COVER_ELASTIC virtual_s=8476.288 penalized_s=8476.288 complete=16/16 audit=True wall_s=0.161
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__bounded HIST_ADAPT virtual_s=7840.064 penalized_s=7840.064 complete=16/16 audit=True wall_s=0.077
+RUN stress_near_backside_16_29f1760bc66ba875__spatial_hash__pre_round_stress BASE25 virtual_s=7652.741 penalized_s=7652.741 complete=16/16 audit=True wall_s=0.075
+PROGRESS scenarios=52/128 runs=260/640 failed=0 elapsed_s=8.0
+RUN stress_near_backside_16_29f1760bc66ba875__negative__pre_round_stress COVER_EXCHANGE virtual_s=8925.175 penalized_s=8925.175 complete=16/16 audit=True wall_s=0.061
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__pre_round_stress HIST_ADAPT virtual_s=7840.059 penalized_s=7840.059 complete=16/16 audit=True wall_s=0.072
+RUN stress_near_backside_16_29f1760bc66ba875__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=8484.190 penalized_s=8484.190 complete=16/16 audit=True wall_s=0.135
+RUN stress_near_backside_16_29f1760bc66ba875__negative__bounded BASE25 virtual_s=8424.744 penalized_s=8424.744 complete=16/16 audit=True wall_s=0.057
+PROGRESS scenarios=53/128 runs=265/640 failed=0 elapsed_s=8.1
+RUN stress_near_backside_16_29f1760bc66ba875__negative__pre_round_stress COVER_ELASTIC virtual_s=8476.179 penalized_s=8476.179 complete=16/16 audit=True wall_s=0.175
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__bounded COVER_EXCHANGE virtual_s=7853.518 penalized_s=7853.518 complete=16/16 audit=True wall_s=0.231
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__bounded COVER_ELASTIC virtual_s=6335.124 penalized_s=6335.124 complete=10/10 audit=True wall_s=0.104
+RUN stress_near_backside_16_29f1760bc66ba875__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8484.068 penalized_s=8484.068 complete=16/16 audit=True wall_s=0.132
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__pre_round_stress COVER_EXCHANGE virtual_s=7853.526 penalized_s=7853.526 complete=16/16 audit=True wall_s=0.248
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6335.124 penalized_s=6335.124 complete=10/10 audit=True wall_s=0.101
+RUN stress_near_backside_16_29f1760bc66ba875__negative__pre_round_stress BASE25 virtual_s=8424.255 penalized_s=8424.255 complete=16/16 audit=True wall_s=0.051
+PROGRESS scenarios=54/128 runs=270/640 failed=0 elapsed_s=8.4
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__bounded BASE25 virtual_s=6402.723 penalized_s=6402.723 complete=10/10 audit=True wall_s=0.029
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__bounded COVER_ELASTIC virtual_s=7813.068 penalized_s=7813.068 complete=16/16 audit=True wall_s=0.215
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__bounded HIST_ADAPT virtual_s=6446.131 penalized_s=6446.131 complete=10/10 audit=True wall_s=0.033
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__bounded COVER_EXCHANGE virtual_s=6402.723 penalized_s=6402.723 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=55/128 runs=275/640 failed=0 elapsed_s=8.5
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__pre_round_stress COVER_ELASTIC virtual_s=7813.080 penalized_s=7813.080 complete=16/16 audit=True wall_s=0.165
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6335.124 penalized_s=6335.124 complete=10/10 audit=True wall_s=0.142
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__bounded COVER_ELASTIC virtual_s=6444.997 penalized_s=6444.997 complete=10/10 audit=True wall_s=0.105
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=7813.068 penalized_s=7813.068 complete=16/16 audit=True wall_s=0.198
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6335.124 penalized_s=6335.124 complete=10/10 audit=True wall_s=0.114
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__bounded BASE25 virtual_s=8058.308 penalized_s=8058.308 complete=16/16 audit=True wall_s=0.058
+PROGRESS scenarios=56/128 runs=280/640 failed=0 elapsed_s=8.7
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__pre_round_stress BASE25 virtual_s=6402.723 penalized_s=6402.723 complete=10/10 audit=True wall_s=0.039
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6444.997 penalized_s=6444.997 complete=10/10 audit=True wall_s=0.108
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7813.080 penalized_s=7813.080 complete=16/16 audit=True wall_s=0.212
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__bounded BASE25 virtual_s=6437.633 penalized_s=6437.633 complete=10/10 audit=True wall_s=0.029
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6446.131 penalized_s=6446.131 complete=10/10 audit=True wall_s=0.038
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__bounded HIST_ADAPT virtual_s=6435.720 penalized_s=6435.720 complete=10/10 audit=True wall_s=0.031
+RUN stress_near_backside_16_29f1760bc66ba875__smooth__pre_round_stress BASE25 virtual_s=8058.308 penalized_s=8058.308 complete=16/16 audit=True wall_s=0.069
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__pre_round_stress COVER_ELASTIC virtual_s=6445.029 penalized_s=6445.029 complete=10/10 audit=True wall_s=0.102
+PROGRESS scenarios=57/128 runs=285/640 failed=0 elapsed_s=8.8
+RUN stress_near_threshold_10_ce67e6c2366da5ab__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6402.723 penalized_s=6402.723 complete=10/10 audit=True wall_s=0.038
+PROGRESS scenarios=58/128 runs=290/640 failed=0 elapsed_s=8.8
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__bounded COVER_EXCHANGE virtual_s=6437.633 penalized_s=6437.633 complete=10/10 audit=True wall_s=0.029
+PROGRESS scenarios=59/128 runs=295/640 failed=0 elapsed_s=8.8
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__bounded COVER_ELASTIC virtual_s=6360.830 penalized_s=6360.830 complete=10/10 audit=True wall_s=0.113
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__pre_round_stress COVER_ELASTIC virtual_s=6360.595 penalized_s=6360.595 complete=10/10 audit=True wall_s=0.108
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__bounded COVER_ELASTIC virtual_s=6358.576 penalized_s=6358.576 complete=10/10 audit=True wall_s=0.096
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6445.029 penalized_s=6445.029 complete=10/10 audit=True wall_s=0.139
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__pre_round_stress BASE25 virtual_s=6437.647 penalized_s=6437.647 complete=10/10 audit=True wall_s=0.035
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6360.830 penalized_s=6360.830 complete=10/10 audit=True wall_s=0.104
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__pre_round_stress HIST_ADAPT virtual_s=6435.722 penalized_s=6435.722 complete=10/10 audit=True wall_s=0.038
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6360.595 penalized_s=6360.595 complete=10/10 audit=True wall_s=0.116
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6358.576 penalized_s=6358.576 complete=10/10 audit=True wall_s=0.113
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__bounded BASE25 virtual_s=6407.132 penalized_s=6407.132 complete=10/10 audit=True wall_s=0.029
+RUN stress_near_threshold_10_ce67e6c2366da5ab__positive__pre_round_stress COVER_EXCHANGE virtual_s=6437.647 penalized_s=6437.647 complete=10/10 audit=True wall_s=0.028
+PROGRESS scenarios=60/128 runs=300/640 failed=0 elapsed_s=9.1
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__bounded BASE25 virtual_s=6403.262 penalized_s=6403.262 complete=10/10 audit=True wall_s=0.030
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__pre_round_stress BASE25 virtual_s=6406.872 penalized_s=6406.872 complete=10/10 audit=True wall_s=0.034
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__bounded HIST_ADAPT virtual_s=6401.581 penalized_s=6401.581 complete=10/10 audit=True wall_s=0.030
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__pre_round_stress HIST_ADAPT virtual_s=6401.387 penalized_s=6401.387 complete=10/10 audit=True wall_s=0.029
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__bounded HIST_ADAPT virtual_s=6424.852 penalized_s=6424.852 complete=10/10 audit=True wall_s=0.033
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__bounded COVER_EXCHANGE virtual_s=6407.132 penalized_s=6407.132 complete=10/10 audit=True wall_s=0.029
+PROGRESS scenarios=61/128 runs=305/640 failed=0 elapsed_s=9.1
+RUN stress_near_threshold_10_ce67e6c2366da5ab__negative__pre_round_stress COVER_EXCHANGE virtual_s=6406.872 penalized_s=6406.872 complete=10/10 audit=True wall_s=0.031
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__bounded COVER_EXCHANGE virtual_s=6403.262 penalized_s=6403.262 complete=10/10 audit=True wall_s=0.031
+PROGRESS scenarios=62/128 runs=310/640 failed=0 elapsed_s=9.2
+PROGRESS scenarios=63/128 runs=315/640 failed=0 elapsed_s=9.2
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__pre_round_stress COVER_ELASTIC virtual_s=6358.576 penalized_s=6358.576 complete=10/10 audit=True wall_s=0.115
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__bounded COVER_ELASTIC virtual_s=6264.044 penalized_s=6264.044 complete=16/16 audit=True wall_s=0.118
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6264.044 penalized_s=6264.044 complete=16/16 audit=True wall_s=0.107
+RUN stress_single_cluster_16_978611018ef158f9__positive__bounded COVER_ELASTIC virtual_s=6633.238 penalized_s=6633.238 complete=16/16 audit=True wall_s=0.121
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6358.576 penalized_s=6358.576 complete=10/10 audit=True wall_s=0.116
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__pre_round_stress BASE25 virtual_s=6403.262 penalized_s=6403.262 complete=10/10 audit=True wall_s=0.029
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6264.044 penalized_s=6264.044 complete=16/16 audit=True wall_s=0.127
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__pre_round_stress HIST_ADAPT virtual_s=6424.852 penalized_s=6424.852 complete=10/10 audit=True wall_s=0.042
+RUN stress_single_cluster_16_978611018ef158f9__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6633.238 penalized_s=6633.238 complete=16/16 audit=True wall_s=0.112
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6264.044 penalized_s=6264.044 complete=16/16 audit=True wall_s=0.134
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__bounded BASE25 virtual_s=6842.110 penalized_s=6842.110 complete=16/16 audit=True wall_s=0.044
+RUN stress_near_threshold_10_ce67e6c2366da5ab__smooth__pre_round_stress COVER_EXCHANGE virtual_s=6403.262 penalized_s=6403.262 complete=10/10 audit=True wall_s=0.032
+PROGRESS scenarios=64/128 runs=320/640 failed=0 elapsed_s=9.5
+RUN stress_single_cluster_16_978611018ef158f9__positive__bounded BASE25 virtual_s=6752.354 penalized_s=6752.354 complete=16/16 audit=True wall_s=0.047
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__pre_round_stress BASE25 virtual_s=6842.110 penalized_s=6842.110 complete=16/16 audit=True wall_s=0.055
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__bounded HIST_ADAPT virtual_s=2751.828 penalized_s=2751.828 complete=16/16 audit=True wall_s=0.077
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__bounded COVER_EXCHANGE virtual_s=6842.110 penalized_s=6842.110 complete=16/16 audit=True wall_s=0.039
+PROGRESS scenarios=65/128 runs=325/640 failed=0 elapsed_s=9.6
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=2751.828 penalized_s=2751.828 complete=16/16 audit=True wall_s=0.093
+RUN stress_single_cluster_16_978611018ef158f9__positive__pre_round_stress COVER_ELASTIC virtual_s=6632.948 penalized_s=6632.948 complete=16/16 audit=True wall_s=0.148
+RUN stress_single_cluster_16_978611018ef158f9__positive__bounded HIST_ADAPT virtual_s=4406.255 penalized_s=4406.255 complete=16/16 audit=True wall_s=0.130
+RUN stress_single_cluster_16_978611018ef158f9__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6842.110 penalized_s=6842.110 complete=16/16 audit=True wall_s=0.056
+PROGRESS scenarios=66/128 runs=330/640 failed=0 elapsed_s=9.7
+RUN stress_single_cluster_16_978611018ef158f9__positive__bounded COVER_EXCHANGE virtual_s=6752.354 penalized_s=6752.354 complete=16/16 audit=True wall_s=0.044
+PROGRESS scenarios=67/128 runs=335/640 failed=0 elapsed_s=9.7
+RUN stress_single_cluster_16_978611018ef158f9__negative__bounded COVER_ELASTIC virtual_s=6785.272 penalized_s=6785.272 complete=16/16 audit=True wall_s=0.137
+RUN stress_single_cluster_16_978611018ef158f9__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6632.948 penalized_s=6632.948 complete=16/16 audit=True wall_s=0.117
+RUN stress_single_cluster_16_978611018ef158f9__positive__pre_round_stress BASE25 virtual_s=6737.802 penalized_s=6737.802 complete=16/16 audit=True wall_s=0.044
+RUN stress_single_cluster_16_978611018ef158f9__smooth__bounded COVER_ELASTIC virtual_s=6813.508 penalized_s=6813.508 complete=16/16 audit=True wall_s=0.119
+RUN stress_single_cluster_16_978611018ef158f9__negative__pre_round_stress COVER_ELASTIC virtual_s=6571.026 penalized_s=6571.026 complete=16/16 audit=True wall_s=0.137
+RUN stress_single_cluster_16_978611018ef158f9__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6211.134 penalized_s=6211.134 complete=16/16 audit=True wall_s=0.093
+RUN stress_single_cluster_16_978611018ef158f9__negative__bounded BASE25 virtual_s=6964.442 penalized_s=6964.442 complete=16/16 audit=True wall_s=0.044
+RUN stress_single_cluster_16_978611018ef158f9__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6823.651 penalized_s=6823.651 complete=16/16 audit=True wall_s=0.109
+RUN stress_single_cluster_16_978611018ef158f9__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6571.399 penalized_s=6571.399 complete=16/16 audit=True wall_s=0.130
+RUN stress_single_cluster_16_978611018ef158f9__smooth__bounded BASE25 virtual_s=6871.254 penalized_s=6871.254 complete=16/16 audit=True wall_s=0.046
+RUN stress_single_cluster_16_978611018ef158f9__negative__pre_round_stress BASE25 virtual_s=6964.365 penalized_s=6964.365 complete=16/16 audit=True wall_s=0.043
+RUN stress_single_cluster_16_978611018ef158f9__positive__pre_round_stress HIST_ADAPT virtual_s=4405.336 penalized_s=4405.336 complete=16/16 audit=True wall_s=0.193
+RUN stress_single_cluster_16_978611018ef158f9__negative__bounded HIST_ADAPT virtual_s=5893.495 penalized_s=5893.495 complete=16/16 audit=True wall_s=0.140
+RUN stress_single_cluster_16_978611018ef158f9__positive__pre_round_stress COVER_EXCHANGE virtual_s=6737.802 penalized_s=6737.802 complete=16/16 audit=True wall_s=0.062
+PROGRESS scenarios=68/128 runs=340/640 failed=0 elapsed_s=10.1
+RUN stress_single_cluster_16_978611018ef158f9__negative__bounded COVER_EXCHANGE virtual_s=6964.442 penalized_s=6964.442 complete=16/16 audit=True wall_s=0.048
+PROGRESS scenarios=69/128 runs=345/640 failed=0 elapsed_s=10.1
+RUN stress_single_cluster_16_978611018ef158f9__smooth__bounded HIST_ADAPT virtual_s=3962.296 penalized_s=3962.296 complete=16/16 audit=True wall_s=0.172
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__bounded HIST_ADAPT virtual_s=5823.611 penalized_s=5823.611 complete=16/16 audit=True wall_s=0.056
+RUN stress_single_cluster_16_978611018ef158f9__negative__pre_round_stress HIST_ADAPT virtual_s=5893.675 penalized_s=5893.675 complete=16/16 audit=True wall_s=0.168
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__bounded COVER_EXCHANGE virtual_s=8599.821 penalized_s=8599.821 complete=16/16 audit=True wall_s=0.034
+RUN stress_single_cluster_16_978611018ef158f9__smooth__pre_round_stress COVER_ELASTIC virtual_s=6813.508 penalized_s=6813.508 complete=16/16 audit=True wall_s=0.152
+RUN stress_single_cluster_16_978611018ef158f9__negative__pre_round_stress COVER_EXCHANGE virtual_s=6964.365 penalized_s=6964.365 complete=16/16 audit=True wall_s=0.057
+PROGRESS scenarios=70/128 runs=350/640 failed=0 elapsed_s=10.2
+RUN stress_single_cluster_16_978611018ef158f9__smooth__bounded COVER_EXCHANGE virtual_s=5830.202 penalized_s=5830.202 complete=16/16 audit=True wall_s=0.129
+PROGRESS scenarios=71/128 runs=355/640 failed=0 elapsed_s=10.3
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=5823.611 penalized_s=5823.611 complete=16/16 audit=True wall_s=0.073
+RUN stress_single_cluster_16_978611018ef158f9__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6823.651 penalized_s=6823.651 complete=16/16 audit=True wall_s=0.105
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__bounded COVER_ELASTIC virtual_s=8551.267 penalized_s=8551.267 complete=16/16 audit=True wall_s=0.130
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__bounded HIST_ADAPT virtual_s=5827.052 penalized_s=5827.052 complete=16/16 audit=True wall_s=0.056
+RUN stress_single_cluster_16_978611018ef158f9__smooth__pre_round_stress BASE25 virtual_s=6871.254 penalized_s=6871.254 complete=16/16 audit=True wall_s=0.043
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=8599.821 penalized_s=8599.821 complete=16/16 audit=True wall_s=0.047
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__bounded COVER_EXCHANGE virtual_s=8859.831 penalized_s=8859.831 complete=16/16 audit=True wall_s=0.037
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=8551.267 penalized_s=8551.267 complete=16/16 audit=True wall_s=0.133
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__bounded COVER_ELASTIC virtual_s=8810.516 penalized_s=8810.516 complete=16/16 audit=True wall_s=0.101
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=8551.267 penalized_s=8551.267 complete=16/16 audit=True wall_s=0.138
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__bounded BASE25 virtual_s=8599.821 penalized_s=8599.821 complete=16/16 audit=True wall_s=0.044
+PROGRESS scenarios=72/128 runs=360/640 failed=0 elapsed_s=10.5
+RUN stress_single_cluster_16_978611018ef158f9__smooth__pre_round_stress HIST_ADAPT virtual_s=3962.324 penalized_s=3962.324 complete=16/16 audit=True wall_s=0.155
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__pre_round_stress HIST_ADAPT virtual_s=5827.037 penalized_s=5827.037 complete=16/16 audit=True wall_s=0.059
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=8810.516 penalized_s=8810.516 complete=16/16 audit=True wall_s=0.101
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__pre_round_stress COVER_EXCHANGE virtual_s=8859.921 penalized_s=8859.921 complete=16/16 audit=True wall_s=0.040
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__bounded BASE25 virtual_s=8859.831 penalized_s=8859.831 complete=16/16 audit=True wall_s=0.034
+PROGRESS scenarios=73/128 runs=365/640 failed=0 elapsed_s=10.7
+RUN stress_single_cluster_16_978611018ef158f9__smooth__pre_round_stress COVER_EXCHANGE virtual_s=5830.234 penalized_s=5830.234 complete=16/16 audit=True wall_s=0.135
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8551.267 penalized_s=8551.267 complete=16/16 audit=True wall_s=0.155
+PROGRESS scenarios=74/128 runs=370/640 failed=0 elapsed_s=10.7
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__bounded HIST_ADAPT virtual_s=5821.402 penalized_s=5821.402 complete=16/16 audit=True wall_s=0.054
+RUN stress_opposite_clusters_16_b3011dc086a4a758__spatial_hash__pre_round_stress BASE25 virtual_s=8599.821 penalized_s=8599.821 complete=16/16 audit=True wall_s=0.039
+PROGRESS scenarios=75/128 runs=375/640 failed=0 elapsed_s=10.7
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__pre_round_stress HIST_ADAPT virtual_s=5821.362 penalized_s=5821.362 complete=16/16 audit=True wall_s=0.055
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__bounded COVER_EXCHANGE virtual_s=8852.136 penalized_s=8852.136 complete=16/16 audit=True wall_s=0.037
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__pre_round_stress COVER_ELASTIC virtual_s=8810.559 penalized_s=8810.559 complete=16/16 audit=True wall_s=0.147
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__bounded HIST_ADAPT virtual_s=5822.011 penalized_s=5822.011 complete=16/16 audit=True wall_s=0.061
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__pre_round_stress COVER_EXCHANGE virtual_s=8852.182 penalized_s=8852.182 complete=16/16 audit=True wall_s=0.052
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__bounded COVER_EXCHANGE virtual_s=8853.348 penalized_s=8853.348 complete=16/16 audit=True wall_s=0.039
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__bounded COVER_ELASTIC virtual_s=8796.255 penalized_s=8796.255 complete=16/16 audit=True wall_s=0.108
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8810.559 penalized_s=8810.559 complete=16/16 audit=True wall_s=0.116
+RUN stress_opposite_clusters_16_b3011dc086a4a758__positive__pre_round_stress BASE25 virtual_s=8859.921 penalized_s=8859.921 complete=16/16 audit=True wall_s=0.050
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__pre_round_stress COVER_ELASTIC virtual_s=8796.254 penalized_s=8796.254 complete=16/16 audit=True wall_s=0.173
+PROGRESS scenarios=76/128 runs=380/640 failed=0 elapsed_s=11.0
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=8796.255 penalized_s=8796.255 complete=16/16 audit=True wall_s=0.133
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__bounded BASE25 virtual_s=8852.136 penalized_s=8852.136 complete=16/16 audit=True wall_s=0.039
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__pre_round_stress HIST_ADAPT virtual_s=5822.011 penalized_s=5822.011 complete=16/16 audit=True wall_s=0.066
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__bounded COVER_ELASTIC virtual_s=8797.138 penalized_s=8797.138 complete=16/16 audit=True wall_s=0.201
+PROGRESS scenarios=77/128 runs=385/640 failed=0 elapsed_s=11.1
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__pre_round_stress COVER_EXCHANGE virtual_s=8853.350 penalized_s=8853.350 complete=16/16 audit=True wall_s=0.040
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8796.254 penalized_s=8796.254 complete=16/16 audit=True wall_s=0.143
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__bounded COVER_ELASTIC virtual_s=6086.144 penalized_s=6086.144 complete=10/10 audit=True wall_s=0.101
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=8797.138 penalized_s=8797.138 complete=16/16 audit=True wall_s=0.102
+RUN stress_opposite_clusters_16_b3011dc086a4a758__negative__pre_round_stress BASE25 virtual_s=8852.182 penalized_s=8852.182 complete=16/16 audit=True wall_s=0.045
+PROGRESS scenarios=78/128 runs=390/640 failed=0 elapsed_s=11.2
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__bounded BASE25 virtual_s=8853.348 penalized_s=8853.348 complete=16/16 audit=True wall_s=0.035
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__pre_round_stress COVER_ELASTIC virtual_s=8797.140 penalized_s=8797.140 complete=16/16 audit=True wall_s=0.108
+PROGRESS scenarios=79/128 runs=395/640 failed=0 elapsed_s=11.2
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6086.144 penalized_s=6086.144 complete=10/10 audit=True wall_s=0.103
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__bounded BASE25 virtual_s=6120.856 penalized_s=6120.856 complete=10/10 audit=True wall_s=0.039
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__bounded COVER_ELASTIC virtual_s=6075.766 penalized_s=6075.766 complete=10/10 audit=True wall_s=0.108
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=8797.140 penalized_s=8797.140 complete=16/16 audit=True wall_s=0.130
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6086.144 penalized_s=6086.144 complete=10/10 audit=True wall_s=0.151
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__bounded HIST_ADAPT virtual_s=6129.770 penalized_s=6129.770 complete=10/10 audit=True wall_s=0.051
+RUN stress_opposite_clusters_16_b3011dc086a4a758__smooth__pre_round_stress BASE25 virtual_s=8853.350 penalized_s=8853.350 complete=16/16 audit=True wall_s=0.049
+PROGRESS scenarios=80/128 runs=400/640 failed=0 elapsed_s=11.4
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__bounded COVER_EXCHANGE virtual_s=6120.856 penalized_s=6120.856 complete=10/10 audit=True wall_s=0.078
+PROGRESS scenarios=81/128 runs=405/640 failed=0 elapsed_s=11.5
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6075.766 penalized_s=6075.766 complete=10/10 audit=True wall_s=0.184
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6086.144 penalized_s=6086.144 complete=10/10 audit=True wall_s=0.185
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__bounded BASE25 virtual_s=6114.039 penalized_s=6114.039 complete=10/10 audit=True wall_s=0.035
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__pre_round_stress COVER_ELASTIC virtual_s=6075.783 penalized_s=6075.783 complete=10/10 audit=True wall_s=0.140
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__pre_round_stress BASE25 virtual_s=6120.856 penalized_s=6120.856 complete=10/10 audit=True wall_s=0.039
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__bounded HIST_ADAPT virtual_s=6135.813 penalized_s=6135.813 complete=10/10 audit=True wall_s=0.042
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__bounded COVER_ELASTIC virtual_s=6112.291 penalized_s=6112.291 complete=10/10 audit=True wall_s=0.131
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6129.770 penalized_s=6129.770 complete=10/10 audit=True wall_s=0.048
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__bounded COVER_EXCHANGE virtual_s=6114.039 penalized_s=6114.039 complete=10/10 audit=True wall_s=0.048
+PROGRESS scenarios=82/128 runs=410/640 failed=0 elapsed_s=11.7
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6075.783 penalized_s=6075.783 complete=10/10 audit=True wall_s=0.127
+RUN stress_three_clusters_10_af60d0e0f2623712__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6120.856 penalized_s=6120.856 complete=10/10 audit=True wall_s=0.037
+PROGRESS scenarios=83/128 runs=415/640 failed=0 elapsed_s=11.7
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6112.291 penalized_s=6112.291 complete=10/10 audit=True wall_s=0.109
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__pre_round_stress BASE25 virtual_s=6113.993 penalized_s=6113.993 complete=10/10 audit=True wall_s=0.042
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__bounded BASE25 virtual_s=6137.027 penalized_s=6137.027 complete=10/10 audit=True wall_s=0.036
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__pre_round_stress HIST_ADAPT virtual_s=6135.773 penalized_s=6135.773 complete=10/10 audit=True wall_s=0.041
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__pre_round_stress COVER_ELASTIC virtual_s=6112.402 penalized_s=6112.402 complete=10/10 audit=True wall_s=0.126
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__bounded COVER_ELASTIC virtual_s=6090.520 penalized_s=6090.520 complete=10/10 audit=True wall_s=0.119
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__bounded HIST_ADAPT virtual_s=6152.181 penalized_s=6152.181 complete=10/10 audit=True wall_s=0.042
+RUN stress_three_clusters_10_af60d0e0f2623712__positive__pre_round_stress COVER_EXCHANGE virtual_s=6113.993 penalized_s=6113.993 complete=10/10 audit=True wall_s=0.040
+PROGRESS scenarios=84/128 runs=420/640 failed=0 elapsed_s=11.9
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__bounded COVER_EXCHANGE virtual_s=6137.027 penalized_s=6137.027 complete=10/10 audit=True wall_s=0.040
+PROGRESS scenarios=85/128 runs=425/640 failed=0 elapsed_s=11.9
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__bounded BASE25 virtual_s=7076.316 penalized_s=7076.316 complete=10/10 audit=True wall_s=0.041
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6112.402 penalized_s=6112.402 complete=10/10 audit=True wall_s=0.133
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6090.520 penalized_s=6090.520 complete=10/10 audit=True wall_s=0.122
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__pre_round_stress COVER_ELASTIC virtual_s=6090.520 penalized_s=6090.520 complete=10/10 audit=True wall_s=0.113
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__pre_round_stress BASE25 virtual_s=6137.060 penalized_s=6137.060 complete=10/10 audit=True wall_s=0.036
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__bounded HIST_ADAPT virtual_s=6708.734 penalized_s=6708.734 complete=10/10 audit=True wall_s=0.050
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__bounded BASE25 virtual_s=6128.398 penalized_s=6128.398 complete=10/10 audit=True wall_s=0.037
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__pre_round_stress HIST_ADAPT virtual_s=6152.159 penalized_s=6152.159 complete=10/10 audit=True wall_s=0.042
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__bounded COVER_EXCHANGE virtual_s=7076.316 penalized_s=7076.316 complete=10/10 audit=True wall_s=0.039
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__bounded HIST_ADAPT virtual_s=6150.879 penalized_s=6150.879 complete=10/10 audit=True wall_s=0.044
+RUN stress_three_clusters_10_af60d0e0f2623712__negative__pre_round_stress COVER_EXCHANGE virtual_s=6137.060 penalized_s=6137.060 complete=10/10 audit=True wall_s=0.040
+PROGRESS scenarios=86/128 runs=430/640 failed=0 elapsed_s=12.1
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__bounded COVER_EXCHANGE virtual_s=6128.398 penalized_s=6128.398 complete=10/10 audit=True wall_s=0.051
+PROGRESS scenarios=87/128 runs=435/640 failed=0 elapsed_s=12.2
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6090.520 penalized_s=6090.520 complete=10/10 audit=True wall_s=0.156
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__pre_round_stress BASE25 virtual_s=7076.316 penalized_s=7076.316 complete=10/10 audit=True wall_s=0.045
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__bounded COVER_ELASTIC virtual_s=7319.742 penalized_s=7319.742 complete=10/10 audit=True wall_s=0.115
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__bounded BASE25 virtual_s=7081.398 penalized_s=7081.398 complete=10/10 audit=True wall_s=0.048
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__pre_round_stress BASE25 virtual_s=6128.398 penalized_s=6128.398 complete=10/10 audit=True wall_s=0.044
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6708.734 penalized_s=6708.734 complete=10/10 audit=True wall_s=0.046
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__bounded HIST_ADAPT virtual_s=6711.165 penalized_s=6711.165 complete=10/10 audit=True wall_s=0.042
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=7076.316 penalized_s=7076.316 complete=10/10 audit=True wall_s=0.040
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__pre_round_stress HIST_ADAPT virtual_s=6150.879 penalized_s=6150.879 complete=10/10 audit=True wall_s=0.052
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=7319.742 penalized_s=7319.742 complete=10/10 audit=True wall_s=0.104
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__bounded COVER_EXCHANGE virtual_s=7081.398 penalized_s=7081.398 complete=10/10 audit=True wall_s=0.046
+PROGRESS scenarios=88/128 runs=440/640 failed=0 elapsed_s=12.3
+RUN stress_three_clusters_10_af60d0e0f2623712__smooth__pre_round_stress COVER_EXCHANGE virtual_s=6128.398 penalized_s=6128.398 complete=10/10 audit=True wall_s=0.048
+PROGRESS scenarios=89/128 runs=445/640 failed=0 elapsed_s=12.4
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__pre_round_stress BASE25 virtual_s=7081.262 penalized_s=7081.262 complete=10/10 audit=True wall_s=0.040
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__bounded BASE25 virtual_s=7062.309 penalized_s=7062.309 complete=10/10 audit=True wall_s=0.044
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__pre_round_stress HIST_ADAPT virtual_s=6711.231 penalized_s=6711.231 complete=10/10 audit=True wall_s=0.044
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=7319.742 penalized_s=7319.742 complete=10/10 audit=True wall_s=0.141
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__bounded HIST_ADAPT virtual_s=6707.369 penalized_s=6707.369 complete=10/10 audit=True wall_s=0.040
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__pre_round_stress COVER_EXCHANGE virtual_s=7081.262 penalized_s=7081.262 complete=10/10 audit=True wall_s=0.040
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__bounded COVER_ELASTIC virtual_s=7338.860 penalized_s=7338.860 complete=10/10 audit=True wall_s=0.149
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__bounded COVER_EXCHANGE virtual_s=7062.309 penalized_s=7062.309 complete=10/10 audit=True wall_s=0.038
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7319.742 penalized_s=7319.742 complete=10/10 audit=True wall_s=0.110
+PROGRESS scenarios=90/128 runs=450/640 failed=0 elapsed_s=12.6
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__pre_round_stress COVER_ELASTIC virtual_s=7338.833 penalized_s=7338.833 complete=10/10 audit=True wall_s=0.114
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__pre_round_stress BASE25 virtual_s=7059.786 penalized_s=7059.786 complete=10/10 audit=True wall_s=0.040
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__bounded COVER_ELASTIC virtual_s=7367.336 penalized_s=7367.336 complete=10/10 audit=True wall_s=0.123
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=7338.860 penalized_s=7338.860 complete=10/10 audit=True wall_s=0.161
+PROGRESS scenarios=91/128 runs=455/640 failed=0 elapsed_s=12.7
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__pre_round_stress HIST_ADAPT virtual_s=6704.930 penalized_s=6704.930 complete=10/10 audit=True wall_s=0.048
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7338.833 penalized_s=7338.833 complete=10/10 audit=True wall_s=0.112
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__bounded BASE25 virtual_s=7026.213 penalized_s=7026.213 complete=10/10 audit=True wall_s=0.052
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__pre_round_stress COVER_EXCHANGE virtual_s=7059.786 penalized_s=7059.786 complete=10/10 audit=True wall_s=0.041
+PROGRESS scenarios=92/128 runs=460/640 failed=0 elapsed_s=12.7
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__pre_round_stress BASE25 virtual_s=7026.213 penalized_s=7026.213 complete=10/10 audit=True wall_s=0.038
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__bounded HIST_ADAPT virtual_s=6699.119 penalized_s=6699.119 complete=10/10 audit=True wall_s=0.063
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=7367.336 penalized_s=7367.336 complete=10/10 audit=True wall_s=0.143
+PROGRESS scenarios=93/128 runs=465/640 failed=0 elapsed_s=12.8
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__pre_round_stress HIST_ADAPT virtual_s=6699.119 penalized_s=6699.119 complete=10/10 audit=True wall_s=0.044
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__bounded COVER_EXCHANGE virtual_s=7026.213 penalized_s=7026.213 complete=10/10 audit=True wall_s=0.037
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__pre_round_stress COVER_ELASTIC virtual_s=7365.012 penalized_s=7365.012 complete=10/10 audit=True wall_s=0.114
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__bounded HIST_ADAPT virtual_s=6636.653 penalized_s=6636.653 complete=16/16 audit=True wall_s=0.059
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__pre_round_stress COVER_EXCHANGE virtual_s=7026.213 penalized_s=7026.213 complete=10/10 audit=True wall_s=0.044
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__bounded COVER_EXCHANGE virtual_s=6959.629 penalized_s=6959.629 complete=16/16 audit=True wall_s=0.046
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__bounded COVER_ELASTIC virtual_s=7288.100 penalized_s=7288.100 complete=10/10 audit=True wall_s=0.121
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7365.012 penalized_s=7365.012 complete=10/10 audit=True wall_s=0.124
+PROGRESS scenarios=94/128 runs=470/640 failed=0 elapsed_s=13.0
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__pre_round_stress COVER_ELASTIC virtual_s=7288.100 penalized_s=7288.100 complete=10/10 audit=True wall_s=0.123
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6636.648 penalized_s=6636.648 complete=16/16 audit=True wall_s=0.052
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__bounded COVER_ELASTIC virtual_s=7170.069 penalized_s=7170.069 complete=16/16 audit=True wall_s=0.164
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6959.623 penalized_s=6959.623 complete=16/16 audit=True wall_s=0.050
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=7288.100 penalized_s=7288.100 complete=10/10 audit=True wall_s=0.119
+PROGRESS scenarios=95/128 runs=475/640 failed=0 elapsed_s=13.1
+RUN stress_sparse_extreme_ranges_10_b866b5356d085042__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7288.100 penalized_s=7288.100 complete=10/10 audit=True wall_s=0.117
+PROGRESS scenarios=96/128 runs=480/640 failed=0 elapsed_s=13.2
+RUN stress_radial_collinear_16_d3313b255d932021__positive__bounded HIST_ADAPT virtual_s=6745.333 penalized_s=6745.333 complete=16/16 audit=True wall_s=0.060
+RUN stress_radial_collinear_16_d3313b255d932021__positive__pre_round_stress HIST_ADAPT virtual_s=6747.287 penalized_s=6747.287 complete=16/16 audit=True wall_s=0.058
+RUN stress_radial_collinear_16_d3313b255d932021__positive__bounded COVER_EXCHANGE virtual_s=6995.812 penalized_s=6995.812 complete=16/16 audit=True wall_s=0.042
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=7170.069 penalized_s=7170.069 complete=16/16 audit=True wall_s=0.143
+RUN stress_radial_collinear_16_d3313b255d932021__positive__pre_round_stress COVER_EXCHANGE virtual_s=6997.055 penalized_s=6997.055 complete=16/16 audit=True wall_s=0.041
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__bounded BASE25 virtual_s=6959.629 penalized_s=6959.629 complete=16/16 audit=True wall_s=0.036
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=7170.069 penalized_s=7170.069 complete=16/16 audit=True wall_s=0.176
+PROGRESS scenarios=97/128 runs=485/640 failed=0 elapsed_s=13.3
+RUN stress_radial_collinear_16_d3313b255d932021__negative__bounded HIST_ADAPT virtual_s=6705.499 penalized_s=6705.499 complete=16/16 audit=True wall_s=0.055
+RUN stress_radial_collinear_16_d3313b255d932021__positive__bounded COVER_ELASTIC virtual_s=7146.468 penalized_s=7146.468 complete=16/16 audit=True wall_s=0.117
+RUN stress_radial_collinear_16_d3313b255d932021__positive__pre_round_stress COVER_ELASTIC virtual_s=7147.459 penalized_s=7147.459 complete=16/16 audit=True wall_s=0.126
+RUN stress_radial_collinear_16_d3313b255d932021__negative__bounded COVER_EXCHANGE virtual_s=7197.810 penalized_s=7197.810 complete=16/16 audit=True wall_s=0.051
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7170.069 penalized_s=7170.069 complete=16/16 audit=True wall_s=0.168
+RUN stress_radial_collinear_16_d3313b255d932021__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=7146.468 penalized_s=7146.468 complete=16/16 audit=True wall_s=0.133
+RUN stress_radial_collinear_16_d3313b255d932021__spatial_hash__pre_round_stress BASE25 virtual_s=6959.623 penalized_s=6959.623 complete=16/16 audit=True wall_s=0.044
+PROGRESS scenarios=98/128 runs=490/640 failed=0 elapsed_s=13.5
+RUN stress_radial_collinear_16_d3313b255d932021__negative__bounded COVER_ELASTIC virtual_s=7155.104 penalized_s=7155.104 complete=16/16 audit=True wall_s=0.128
+RUN stress_radial_collinear_16_d3313b255d932021__positive__bounded BASE25 virtual_s=6995.812 penalized_s=6995.812 complete=16/16 audit=True wall_s=0.040
+PROGRESS scenarios=99/128 runs=495/640 failed=0 elapsed_s=13.6
+RUN stress_radial_collinear_16_d3313b255d932021__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7147.459 penalized_s=7147.459 complete=16/16 audit=True wall_s=0.171
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__bounded HIST_ADAPT virtual_s=6880.474 penalized_s=6880.474 complete=16/16 audit=True wall_s=0.051
+RUN stress_radial_collinear_16_d3313b255d932021__negative__pre_round_stress HIST_ADAPT virtual_s=6707.795 penalized_s=6707.795 complete=16/16 audit=True wall_s=0.083
+RUN stress_radial_collinear_16_d3313b255d932021__positive__pre_round_stress BASE25 virtual_s=6997.055 penalized_s=6997.055 complete=16/16 audit=True wall_s=0.040
+PROGRESS scenarios=100/128 runs=500/640 failed=0 elapsed_s=13.6
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__bounded COVER_EXCHANGE virtual_s=7113.798 penalized_s=7113.798 complete=16/16 audit=True wall_s=0.041
+RUN stress_radial_collinear_16_d3313b255d932021__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=7155.104 penalized_s=7155.104 complete=16/16 audit=True wall_s=0.111
+RUN stress_radial_collinear_16_d3313b255d932021__negative__pre_round_stress COVER_EXCHANGE virtual_s=7198.027 penalized_s=7198.027 complete=16/16 audit=True wall_s=0.048
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__pre_round_stress HIST_ADAPT virtual_s=6880.474 penalized_s=6880.474 complete=16/16 audit=True wall_s=0.049
+RUN stress_radial_collinear_16_d3313b255d932021__negative__bounded BASE25 virtual_s=7197.810 penalized_s=7197.810 complete=16/16 audit=True wall_s=0.037
+PROGRESS scenarios=101/128 runs=505/640 failed=0 elapsed_s=13.7
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__pre_round_stress COVER_EXCHANGE virtual_s=7113.798 penalized_s=7113.798 complete=16/16 audit=True wall_s=0.046
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__bounded COVER_ELASTIC virtual_s=7137.018 penalized_s=7137.018 complete=16/16 audit=True wall_s=0.138
+RUN stress_radial_collinear_16_d3313b255d932021__negative__pre_round_stress COVER_ELASTIC virtual_s=7155.205 penalized_s=7155.205 complete=16/16 audit=True wall_s=0.127
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__bounded COVER_ELASTIC virtual_s=6009.575 penalized_s=6009.575 complete=12/12 audit=True wall_s=0.123
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__pre_round_stress COVER_ELASTIC virtual_s=7137.018 penalized_s=7137.018 complete=16/16 audit=True wall_s=0.123
+RUN stress_radial_collinear_16_d3313b255d932021__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7155.205 penalized_s=7155.205 complete=16/16 audit=True wall_s=0.114
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6056.931 penalized_s=6056.931 complete=12/12 audit=True wall_s=0.113
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=7137.018 penalized_s=7137.018 complete=16/16 audit=True wall_s=0.153
+RUN stress_radial_collinear_16_d3313b255d932021__negative__pre_round_stress BASE25 virtual_s=7198.027 penalized_s=7198.027 complete=16/16 audit=True wall_s=0.036
+PROGRESS scenarios=102/128 runs=510/640 failed=0 elapsed_s=14.0
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7137.018 penalized_s=7137.018 complete=16/16 audit=True wall_s=0.119
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__bounded BASE25 virtual_s=6062.142 penalized_s=6062.142 complete=12/12 audit=True wall_s=0.051
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__bounded BASE25 virtual_s=7113.798 penalized_s=7113.798 complete=16/16 audit=True wall_s=0.054
+PROGRESS scenarios=103/128 runs=515/640 failed=0 elapsed_s=14.0
+RUN stress_radial_collinear_16_d3313b255d932021__smooth__pre_round_stress BASE25 virtual_s=7113.798 penalized_s=7113.798 complete=16/16 audit=True wall_s=0.039
+PROGRESS scenarios=104/128 runs=520/640 failed=0 elapsed_s=14.1
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__bounded HIST_ADAPT virtual_s=6028.289 penalized_s=6028.289 complete=12/12 audit=True wall_s=0.069
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6009.575 penalized_s=6009.575 complete=12/12 audit=True wall_s=0.131
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__bounded COVER_ELASTIC virtual_s=6521.833 penalized_s=6521.833 complete=12/12 audit=True wall_s=0.165
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__pre_round_stress COVER_ELASTIC virtual_s=6521.717 penalized_s=6521.717 complete=12/12 audit=True wall_s=0.160
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6056.931 penalized_s=6056.931 complete=12/12 audit=True wall_s=0.146
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__pre_round_stress BASE25 virtual_s=6062.142 penalized_s=6062.142 complete=12/12 audit=True wall_s=0.054
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__bounded COVER_EXCHANGE virtual_s=6066.259 penalized_s=6066.259 complete=12/12 audit=True wall_s=0.159
+PROGRESS scenarios=105/128 runs=525/640 failed=0 elapsed_s=14.4
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6028.289 penalized_s=6028.289 complete=12/12 audit=True wall_s=0.068
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__bounded COVER_ELASTIC virtual_s=6094.095 penalized_s=6094.095 complete=12/12 audit=True wall_s=0.138
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6719.296 penalized_s=6719.296 complete=12/12 audit=True wall_s=0.368
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6719.397 penalized_s=6719.397 complete=12/12 audit=True wall_s=0.352
+RUN stress_reception_threshold_5354b960dc3e4e8e__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6066.259 penalized_s=6066.259 complete=12/12 audit=True wall_s=0.151
+PROGRESS scenarios=106/128 runs=530/640 failed=0 elapsed_s=14.7
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__bounded BASE25 virtual_s=6067.555 penalized_s=6067.555 complete=12/12 audit=True wall_s=0.043
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__pre_round_stress BASE25 virtual_s=6067.366 penalized_s=6067.366 complete=12/12 audit=True wall_s=0.049
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6100.838 penalized_s=6100.838 complete=12/12 audit=True wall_s=0.248
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__bounded HIST_ADAPT virtual_s=5960.798 penalized_s=5960.798 complete=12/12 audit=True wall_s=0.060
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__pre_round_stress HIST_ADAPT virtual_s=5960.751 penalized_s=5960.751 complete=12/12 audit=True wall_s=0.055
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__bounded BASE25 virtual_s=6182.142 penalized_s=6182.142 complete=12/12 audit=True wall_s=0.061
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__bounded COVER_EXCHANGE virtual_s=6067.555 penalized_s=6067.555 complete=12/12 audit=True wall_s=0.054
+PROGRESS scenarios=107/128 runs=535/640 failed=0 elapsed_s=14.9
+RUN stress_reception_threshold_5354b960dc3e4e8e__positive__pre_round_stress COVER_EXCHANGE virtual_s=6067.366 penalized_s=6067.366 complete=12/12 audit=True wall_s=0.054
+PROGRESS scenarios=108/128 runs=540/640 failed=0 elapsed_s=14.9
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__pre_round_stress COVER_ELASTIC virtual_s=6094.143 penalized_s=6094.143 complete=12/12 audit=True wall_s=0.198
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__bounded HIST_ADAPT virtual_s=6065.516 penalized_s=6065.516 complete=12/12 audit=True wall_s=0.069
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__bounded COVER_ELASTIC virtual_s=6039.268 penalized_s=6039.268 complete=12/12 audit=True wall_s=0.121
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__pre_round_stress COVER_ELASTIC virtual_s=6039.268 penalized_s=6039.268 complete=12/12 audit=True wall_s=0.121
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=6039.255 penalized_s=6039.255 complete=12/12 audit=True wall_s=0.158
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6100.907 penalized_s=6100.907 complete=12/12 audit=True wall_s=0.291
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__bounded BASE25 virtual_s=6092.198 penalized_s=6092.198 complete=12/12 audit=True wall_s=0.046
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6039.255 penalized_s=6039.255 complete=12/12 audit=True wall_s=0.213
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__pre_round_stress BASE25 virtual_s=6182.405 penalized_s=6182.405 complete=12/12 audit=True wall_s=0.075
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__bounded HIST_ADAPT virtual_s=5990.576 penalized_s=5990.576 complete=12/12 audit=True wall_s=0.058
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__pre_round_stress BASE25 virtual_s=6092.198 penalized_s=6092.198 complete=12/12 audit=True wall_s=0.065
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__pre_round_stress HIST_ADAPT virtual_s=6065.639 penalized_s=6065.639 complete=12/12 audit=True wall_s=0.067
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__pre_round_stress HIST_ADAPT virtual_s=5990.576 penalized_s=5990.576 complete=12/12 audit=True wall_s=0.068
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__bounded COVER_EXCHANGE virtual_s=6151.126 penalized_s=6151.126 complete=12/12 audit=True wall_s=0.373
+PROGRESS scenarios=109/128 runs=545/640 failed=0 elapsed_s=15.5
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__bounded COVER_EXCHANGE virtual_s=6079.899 penalized_s=6079.899 complete=12/12 audit=True wall_s=0.124
+PROGRESS scenarios=110/128 runs=550/640 failed=0 elapsed_s=15.6
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=5804.573 penalized_s=5804.573 complete=12/12 audit=True wall_s=0.148
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__bounded BASE25 virtual_s=5872.382 penalized_s=5872.382 complete=12/12 audit=True wall_s=0.065
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5804.573 penalized_s=5804.573 complete=12/12 audit=True wall_s=0.140
+RUN stress_reception_threshold_5354b960dc3e4e8e__smooth__pre_round_stress COVER_EXCHANGE virtual_s=6079.899 penalized_s=6079.899 complete=12/12 audit=True wall_s=0.150
+PROGRESS scenarios=111/128 runs=555/640 failed=0 elapsed_s=15.7
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__bounded HIST_ADAPT virtual_s=5810.612 penalized_s=5810.612 complete=12/12 audit=True wall_s=0.081
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__pre_round_stress BASE25 virtual_s=5872.382 penalized_s=5872.382 complete=12/12 audit=True wall_s=0.095
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=5872.685 penalized_s=5872.685 complete=12/12 audit=True wall_s=0.118
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__bounded COVER_EXCHANGE virtual_s=5872.382 penalized_s=5872.382 complete=12/12 audit=True wall_s=0.059
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__bounded BASE25 virtual_s=5933.477 penalized_s=5933.477 complete=12/12 audit=True wall_s=0.064
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=5810.612 penalized_s=5810.612 complete=12/12 audit=True wall_s=0.093
+RUN stress_reception_threshold_5354b960dc3e4e8e__negative__pre_round_stress COVER_EXCHANGE virtual_s=6151.365 penalized_s=6151.365 complete=12/12 audit=True wall_s=0.386
+PROGRESS scenarios=112/128 runs=560/640 failed=0 elapsed_s=16.0
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=5872.382 penalized_s=5872.382 complete=12/12 audit=True wall_s=0.059
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__bounded HIST_ADAPT virtual_s=5889.076 penalized_s=5889.076 complete=12/12 audit=True wall_s=0.077
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__bounded COVER_ELASTIC virtual_s=5804.573 penalized_s=5804.573 complete=12/12 audit=True wall_s=0.148
+PROGRESS scenarios=113/128 runs=565/640 failed=0 elapsed_s=16.0
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__bounded COVER_EXCHANGE virtual_s=5933.477 penalized_s=5933.477 complete=12/12 audit=True wall_s=0.065
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5872.693 penalized_s=5872.693 complete=12/12 audit=True wall_s=0.142
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__pre_round_stress BASE25 virtual_s=5933.509 penalized_s=5933.509 complete=12/12 audit=True wall_s=0.043
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=5804.573 penalized_s=5804.573 complete=12/12 audit=True wall_s=0.174
+PROGRESS scenarios=114/128 runs=570/640 failed=0 elapsed_s=16.2
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=5872.720 penalized_s=5872.720 complete=12/12 audit=True wall_s=0.157
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__bounded BASE25 virtual_s=5933.496 penalized_s=5933.496 complete=12/12 audit=True wall_s=0.046
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__pre_round_stress HIST_ADAPT virtual_s=5889.248 penalized_s=5889.248 complete=12/12 audit=True wall_s=0.065
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__bounded COVER_ELASTIC virtual_s=5872.685 penalized_s=5872.685 complete=12/12 audit=True wall_s=0.149
+PROGRESS scenarios=115/128 runs=575/640 failed=0 elapsed_s=16.3
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__pre_round_stress COVER_EXCHANGE virtual_s=5933.509 penalized_s=5933.509 complete=12/12 audit=True wall_s=0.053
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__bounded HIST_ADAPT virtual_s=5896.645 penalized_s=5896.645 complete=12/12 audit=True wall_s=0.064
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5872.687 penalized_s=5872.687 complete=12/12 audit=True wall_s=0.146
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__bounded COVER_EXCHANGE virtual_s=5933.496 penalized_s=5933.496 complete=12/12 audit=True wall_s=0.054
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__pre_round_stress BASE25 virtual_s=5933.507 penalized_s=5933.507 complete=12/12 audit=True wall_s=0.056
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=5996.418 penalized_s=5996.418 complete=12/12 audit=True wall_s=0.144
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__positive__pre_round_stress COVER_ELASTIC virtual_s=5872.693 penalized_s=5872.693 complete=12/12 audit=True wall_s=0.139
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__bounded BASE25 virtual_s=6051.304 penalized_s=6051.304 complete=12/12 audit=True wall_s=0.053
+PROGRESS scenarios=116/128 runs=580/640 failed=0 elapsed_s=16.5
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__pre_round_stress HIST_ADAPT virtual_s=5896.795 penalized_s=5896.795 complete=12/12 audit=True wall_s=0.063
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__bounded HIST_ADAPT virtual_s=6024.555 penalized_s=6024.555 complete=12/12 audit=True wall_s=0.063
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__pre_round_stress COVER_EXCHANGE virtual_s=5933.507 penalized_s=5933.507 complete=12/12 audit=True wall_s=0.065
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__bounded COVER_ELASTIC virtual_s=5872.720 penalized_s=5872.720 complete=12/12 audit=True wall_s=0.167
+PROGRESS scenarios=117/128 runs=585/640 failed=0 elapsed_s=16.6
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=5996.418 penalized_s=5996.418 complete=12/12 audit=True wall_s=0.137
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__bounded COVER_EXCHANGE virtual_s=6051.304 penalized_s=6051.304 complete=12/12 audit=True wall_s=0.056
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__pre_round_stress BASE25 virtual_s=6051.304 penalized_s=6051.304 complete=12/12 audit=True wall_s=0.065
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__bounded COVER_EXCHANGE_ELASTIC virtual_s=6730.762 penalized_s=6730.762 complete=16/16 audit=True wall_s=0.138
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__negative__pre_round_stress COVER_ELASTIC virtual_s=5872.687 penalized_s=5872.687 complete=12/12 audit=True wall_s=0.145
+PROGRESS scenarios=118/128 runs=590/640 failed=0 elapsed_s=16.7
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__bounded COVER_ELASTIC virtual_s=5996.418 penalized_s=5996.418 complete=12/12 audit=True wall_s=0.141
+PROGRESS scenarios=119/128 runs=595/640 failed=0 elapsed_s=16.8
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__pre_round_stress HIST_ADAPT virtual_s=6024.555 penalized_s=6024.555 complete=12/12 audit=True wall_s=0.081
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__bounded BASE25 virtual_s=6772.912 penalized_s=6772.912 complete=16/16 audit=True wall_s=0.064
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__pre_round_stress COVER_EXCHANGE virtual_s=6051.304 penalized_s=6051.304 complete=12/12 audit=True wall_s=0.067
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6730.762 penalized_s=6730.762 complete=16/16 audit=True wall_s=0.134
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__bounded COVER_EXCHANGE_ELASTIC virtual_s=6884.546 penalized_s=6884.546 complete=16/16 audit=True wall_s=0.136
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__bounded HIST_ADAPT virtual_s=6193.634 penalized_s=6193.634 complete=16/16 audit=True wall_s=0.107
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__pre_round_stress BASE25 virtual_s=6772.912 penalized_s=6772.912 complete=16/16 audit=True wall_s=0.050
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__bounded BASE25 virtual_s=6931.110 penalized_s=6931.110 complete=16/16 audit=True wall_s=0.060
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__bounded COVER_EXCHANGE virtual_s=6772.912 penalized_s=6772.912 complete=16/16 audit=True wall_s=0.065
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__pre_round_stress HIST_ADAPT virtual_s=6193.634 penalized_s=6193.634 complete=16/16 audit=True wall_s=0.079
+RUN stress_rounding_half_ticks_0c4f1c8c9f8efd6e__smooth__pre_round_stress COVER_ELASTIC virtual_s=5996.418 penalized_s=5996.418 complete=12/12 audit=True wall_s=0.172
+PROGRESS scenarios=120/128 runs=600/640 failed=0 elapsed_s=17.0
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__bounded HIST_ADAPT virtual_s=6103.782 penalized_s=6103.782 complete=16/16 audit=True wall_s=0.071
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__pre_round_stress COVER_EXCHANGE virtual_s=6772.912 penalized_s=6772.912 complete=16/16 audit=True wall_s=0.060
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__bounded COVER_EXCHANGE virtual_s=6931.110 penalized_s=6931.110 complete=16/16 audit=True wall_s=0.054
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=6885.803 penalized_s=6885.803 complete=16/16 audit=True wall_s=0.134
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__bounded COVER_ELASTIC virtual_s=6730.762 penalized_s=6730.762 complete=16/16 audit=True wall_s=0.196
+PROGRESS scenarios=121/128 runs=605/640 failed=0 elapsed_s=17.2
+RUN stress_mixed_boundary_16_4064a4ecffc29652__spatial_hash__pre_round_stress COVER_ELASTIC virtual_s=6730.762 penalized_s=6730.762 complete=16/16 audit=True wall_s=0.142
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__pre_round_stress BASE25 virtual_s=6931.863 penalized_s=6931.863 complete=16/16 audit=True wall_s=0.056
+PROGRESS scenarios=122/128 runs=610/640 failed=0 elapsed_s=17.2
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__bounded COVER_ELASTIC virtual_s=6884.546 penalized_s=6884.546 complete=16/16 audit=True wall_s=0.138
+PROGRESS scenarios=123/128 runs=615/640 failed=0 elapsed_s=17.3
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__pre_round_stress HIST_ADAPT virtual_s=6104.249 penalized_s=6104.249 complete=16/16 audit=True wall_s=0.096
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__bounded COVER_EXCHANGE_ELASTIC virtual_s=6801.329 penalized_s=6801.329 complete=16/16 audit=True wall_s=0.182
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7072.845 penalized_s=7072.845 complete=16/16 audit=True wall_s=0.185
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__pre_round_stress COVER_EXCHANGE virtual_s=6931.863 penalized_s=6931.863 complete=16/16 audit=True wall_s=0.070
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__bounded COVER_EXCHANGE_ELASTIC virtual_s=7089.619 penalized_s=7089.619 complete=16/16 audit=True wall_s=0.177
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__bounded BASE25 virtual_s=6847.433 penalized_s=6847.433 complete=16/16 audit=True wall_s=0.067
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__pre_round_stress BASE25 virtual_s=7118.380 penalized_s=7118.380 complete=16/16 audit=True wall_s=0.053
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__bounded BASE25 virtual_s=7146.325 penalized_s=7146.325 complete=16/16 audit=True wall_s=0.047
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__bounded HIST_ADAPT virtual_s=6262.491 penalized_s=6262.491 complete=16/16 audit=True wall_s=0.078
+RUN stress_mixed_boundary_16_4064a4ecffc29652__positive__pre_round_stress COVER_ELASTIC virtual_s=6885.803 penalized_s=6885.803 complete=16/16 audit=True wall_s=0.131
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__bounded HIST_ADAPT virtual_s=6482.478 penalized_s=6482.478 complete=16/16 audit=True wall_s=0.065
+PROGRESS scenarios=124/128 runs=620/640 failed=0 elapsed_s=17.6
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__pre_round_stress HIST_ADAPT virtual_s=6398.737 penalized_s=6398.737 complete=16/16 audit=True wall_s=0.092
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__bounded COVER_EXCHANGE virtual_s=6847.433 penalized_s=6847.433 complete=16/16 audit=True wall_s=0.048
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__bounded COVER_EXCHANGE virtual_s=7146.325 penalized_s=7146.325 complete=16/16 audit=True wall_s=0.050
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__pre_round_stress COVER_EXCHANGE virtual_s=7118.380 penalized_s=7118.380 complete=16/16 audit=True wall_s=0.056
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__bounded COVER_ELASTIC virtual_s=6801.329 penalized_s=6801.329 complete=16/16 audit=True wall_s=0.114
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__pre_round_stress COVER_EXCHANGE_ELASTIC virtual_s=7089.909 penalized_s=7089.909 complete=16/16 audit=True wall_s=0.140
+PROGRESS scenarios=125/128 runs=625/640 failed=0 elapsed_s=17.7
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__bounded COVER_ELASTIC virtual_s=7089.619 penalized_s=7089.619 complete=16/16 audit=True wall_s=0.113
+PROGRESS scenarios=126/128 runs=630/640 failed=0 elapsed_s=17.8
+RUN stress_mixed_boundary_16_4064a4ecffc29652__negative__pre_round_stress COVER_ELASTIC virtual_s=7072.845 penalized_s=7072.845 complete=16/16 audit=True wall_s=0.125
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__pre_round_stress BASE25 virtual_s=7146.617 penalized_s=7146.617 complete=16/16 audit=True wall_s=0.056
+PROGRESS scenarios=127/128 runs=635/640 failed=0 elapsed_s=17.8
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__pre_round_stress HIST_ADAPT virtual_s=6482.612 penalized_s=6482.612 complete=16/16 audit=True wall_s=0.074
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__pre_round_stress COVER_EXCHANGE virtual_s=7146.617 penalized_s=7146.617 complete=16/16 audit=True wall_s=0.047
+RUN stress_mixed_boundary_16_4064a4ecffc29652__smooth__pre_round_stress COVER_ELASTIC virtual_s=7089.909 penalized_s=7089.909 complete=16/16 audit=True wall_s=0.110
+PROGRESS scenarios=128/128 runs=640/640 failed=0 elapsed_s=18.1
+{
+  "HIST_ADAPT": {
+    "complete": 128,
+    "runs": 128,
+    "mean_s": 6414.862601859375,
+    "p95_s": 9986.0395927,
+    "max_s": 10089.067855,
+    "gain_ratio_of_means_pct": 7.790006430093488
+  },
+  "COVER_EXCHANGE": {
+    "complete": 128,
+    "runs": 128,
+    "mean_s": 6950.0258482656245,
+    "p95_s": 10316.767382,
+    "max_s": 10630.568421,
+    "gain_ratio_of_means_pct": 0.09733979438611984
+  },
+  "COVER_ELASTIC": {
+    "complete": 128,
+    "runs": 128,
+    "mean_s": 6913.08830115625,
+    "p95_s": 10312.596355,
+    "max_s": 10619.884268,
+    "gain_ratio_of_means_pct": 0.6282959804868593
+  },
+  "COVER_EXCHANGE_ELASTIC": {
+    "complete": 128,
+    "runs": 128,
+    "mean_s": 6912.352195023437,
+    "p95_s": 10312.596355,
+    "max_s": 10619.884268,
+    "gain_ratio_of_means_pct": 0.6388770865816018
+  },
+  "BASE25": {
+    "complete": 128,
+    "runs": 128,
+    "mean_s": 6956.797580726562,
+    "p95_s": 10316.767382,
+    "max_s": 10630.568421,
+    "gain_ratio_of_means_pct": 0.0
+  }
+}

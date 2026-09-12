@@ -1,0 +1,126 @@
+{
+  "created_unix": 1789182603.2355008,
+  "stage": "historical_reproduction_not_new_validation",
+  "rows": [
+    {
+      "case": "uniform_111000_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 447,
+        "cleared": 11,
+        "virtual_time_s": 7400.210495269853
+      }
+    },
+    {
+      "case": "outward_111001_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 482,
+        "cleared": 11,
+        "virtual_time_s": 9010.335736389512
+      }
+    },
+    {
+      "case": "inward_111002_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 375,
+        "cleared": 11,
+        "virtual_time_s": 6018.615795428878
+      }
+    },
+    {
+      "case": "tangent_111003_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 354,
+        "cleared": 13,
+        "virtual_time_s": 6025.266321416358
+      }
+    },
+    {
+      "case": "cluster_111004_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 382,
+        "cleared": 11,
+        "virtual_time_s": 7062.9115081564705
+      }
+    },
+    {
+      "case": "edge_111005_spatial_hash",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 313,
+        "cleared": 13,
+        "virtual_time_s": 5564.451161400126
+      }
+    },
+    {
+      "case": "uniform_111006_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 316,
+        "cleared": 13,
+        "virtual_time_s": 6783.633065361421
+      }
+    },
+    {
+      "case": "outward_111007_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 292,
+        "cleared": 16,
+        "virtual_time_s": 5817.172927640041
+      }
+    },
+    {
+      "case": "inward_111008_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 258,
+        "cleared": 16,
+        "virtual_time_s": 4700.172769181447
+      }
+    },
+    {
+      "case": "tangent_111009_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 461,
+        "cleared": 12,
+        "virtual_time_s": 8348.360143984322
+      }
+    },
+    {
+      "case": "cluster_111010_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 345,
+        "cleared": 11,
+        "virtual_time_s": 6055.636182498854
+      }
+    },
+    {
+      "case": "edge_111011_positive",
+      "metrics_equal": true,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 366,
+        "cleared": 11,
+        "virtual_time_s": 5798.910689764409
+      }
+    }
+  ]
+}

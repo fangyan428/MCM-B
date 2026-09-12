@@ -1,0 +1,45 @@
+[
+  {
+    "error": "zero",
+    "complete": true,
+    "audit_passed": true,
+    "regions_passed": true,
+    "discovery_responses": 100,
+    "discovery_near": 0,
+    "discovery_direction": 0,
+    "clear_success": 10,
+    "accepted_actions": 420
+  },
+  {
+    "error": "positive",
+    "complete": true,
+    "audit_passed": true,
+    "regions_passed": true,
+    "discovery_responses": 100,
+    "discovery_near": 0,
+    "discovery_direction": 0,
+    "clear_success": 10,
+    "accepted_actions": 420
+  },
+  {
+    "error": "negative",
+    "complete": true,
+    "audit_passed": true,
+    "regions_passed": true,
+    "discovery_responses": 100,
+    "discovery_near": 0,
+    "discovery_direction": 0,
+    "clear_success": 10,
+    "accepted_actions": 420
+  },
+  {
+    "test": "targeted_moved_clear_discovers_nine_near_sources",
+    "interpretation": "Evaluator-directed branch/unit probe, not an autonomous performance result or completion certificate",
+    "cleared": 10,
+    "max_clear_stack_depth": 2,
+    "guard_released": true,
+    "discovery_near": 9,
+    "measures": 19,
+    "clear_success": 10
+  }
+]

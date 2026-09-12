@@ -1,0 +1,16 @@
+{
+  "random_seed": 412099,
+  "policy_sources_modified": false,
+  "official_runs": 0,
+  "prune": {
+    "cases": 798,
+    "actual_shrink_steps": 2374,
+    "failures": []
+  },
+  "cell_optical": {
+    "cases": 100,
+    "cells": 2793,
+    "boundary_samples_per_case": 164,
+    "failures": []
+  }
+}

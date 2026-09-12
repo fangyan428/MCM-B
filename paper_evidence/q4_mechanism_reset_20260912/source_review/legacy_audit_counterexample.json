@@ -1,0 +1,55 @@
+{
+  "case_id": "uniform_111000_spatial_hash",
+  "original_result_path": "question4/results/round9_main/FINAL/uniform_111000_spatial_hash/result.json",
+  "purpose": "Tampered certificate audit-only check; original files unchanged",
+  "forged_certificate": {
+    "kind": "triangular_halfplane_cover",
+    "stations": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "audit_accepted": {
+    "passed": true,
+    "accepted_actions": 447,
+    "cleared": 11,
+    "virtual_time_s": 7400.210495269853
+  },
+  "interpretation": "The old auditor permits degenerate coincident station tetrahedron; this does not show baseline policy incomplete but limits auditor claims."
+}

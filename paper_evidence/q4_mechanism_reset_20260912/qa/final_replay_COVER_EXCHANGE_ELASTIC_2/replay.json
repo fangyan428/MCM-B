@@ -1,0 +1,20 @@
+{
+  "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/COVER_EXCHANGE_ELASTIC/uniform_4c920b65f2c8599c__smooth__pre_round_stress",
+  "source_actions_sha256": "5f5156c9a88bf2aff58c7531c441aa3e15fc27343c336089294a386cfb917f0a",
+  "source_result_sha256": "70ca0b8bde2519b9bd85a18e3d899b08dd82fb9261064d5933dd136caa8733b2",
+  "config": {
+    "family": "coverage",
+    "mechanism": "exchange_elastic",
+    "certificate": "cells"
+  },
+  "source_truth_or_simulator_provided": false,
+  "hidden_case_file_read": false,
+  "static_scan_passed": true,
+  "passed": true,
+  "actions": 244,
+  "all_positions_channels_exact": true,
+  "cleared_equal": true,
+  "metrics_equal": true,
+  "stop_certificate_equal": true,
+  "phases_equal": true
+}

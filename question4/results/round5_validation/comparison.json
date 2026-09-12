@@ -1,0 +1,70 @@
+{
+  "BASE": {
+    "mean_s": 11062.874218402778,
+    "p95_s": 12737.794079000001,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 8936.263104539823,
+      "switch_s": 308.65277777777777,
+      "detection_s": 1674.9305555555557,
+      "optical_s": 117.0,
+      "laser_s": 26.02777777777778
+    },
+    "failures": []
+  },
+  "ROUTE31": {
+    "mean_s": 10081.117558194446,
+    "p95_s": 11764.7973586,
+    "gain_ratio_of_means_pct": 8.874336278498108,
+    "mean_paired_gain_pct": 8.14751824172878,
+    "worst_gain_pct": -37.24657517622846,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 7692.478668331987,
+      "switch_s": 355.97222222222223,
+      "detection_s": 1913.0555555555557,
+      "optical_s": 93.58333333333333,
+      "laser_s": 26.02777777777778
+    },
+    "failures": []
+  },
+  "RADIAL25": {
+    "mean_s": 7349.795628847221,
+    "p95_s": 8629.1130385,
+    "gain_ratio_of_means_pct": 33.56341685037832,
+    "mean_paired_gain_pct": 32.7674784018851,
+    "worst_gain_pct": -28.248384199787274,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 5325.406740484701,
+      "switch_s": 300.2083333333333,
+      "detection_s": 1607.7777777777778,
+      "optical_s": 90.375,
+      "laser_s": 26.02777777777778
+    },
+    "failures": []
+  },
+  "COMPACT22": {
+    "mean_s": 7172.973794,
+    "p95_s": 8235.21532895,
+    "gain_ratio_of_means_pct": 35.161752249989775,
+    "mean_paired_gain_pct": 34.39578714556291,
+    "worst_gain_pct": -14.299064539558215,
+    "complete": 72,
+    "cases": 72,
+    "components": {
+      "movement_s": 5331.932127845227,
+      "switch_s": 273.7083333333333,
+      "detection_s": 1458.4722222222222,
+      "optical_s": 82.83333333333333,
+      "laser_s": 26.02777777777778
+    },
+    "failures": []
+  }
+}

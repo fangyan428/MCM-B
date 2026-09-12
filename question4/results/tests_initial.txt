@@ -1,0 +1,12 @@
+test_clear_does_not_switch (test_contract.ContractTests.test_clear_does_not_switch) ... ok
+test_directional_backside_near_and_optical (test_contract.ContractTests.test_directional_backside_near_and_optical) ... ok
+test_fixed_location_fixed_error_and_idempotent (test_contract.ContractTests.test_fixed_location_fixed_error_and_idempotent) ... ok
+test_full_run_and_tampered_stop (test_contract.ContractTests.test_full_run_and_tampered_stop) ... ok
+test_grid_detection_for_boundary_and_orientations (test_contract.ContractTests.test_grid_detection_for_boundary_and_orientations) ... ok
+test_pure_optical_fallback_all_types_and_error_signs (test_contract.ContractTests.test_pure_optical_fallback_all_types_and_error_signs) ... ok
+test_sector_and_optical_certificate_error_extremes (test_contract.ContractTests.test_sector_and_optical_certificate_error_extremes) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.181s
+
+OK

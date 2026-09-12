@@ -1,0 +1,87 @@
+{
+  "REF": {
+    "mean_s": 7332.689801791666,
+    "p95_s": 9113.7013762,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5485.731470794922,
+      "switch_s": 270.625,
+      "detection_s": 1441.0416666666667,
+      "optical_s": 108.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "CENTROID": {
+    "mean_s": 6957.423830916666,
+    "p95_s": 8682.153003849999,
+    "gain_ratio_of_means_pct": 5.117712340474401,
+    "mean_paired_gain_pct": 4.70635543427944,
+    "worst_gain_pct": -13.107611756600168,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5014.67383287104,
+      "switch_s": 284.875,
+      "detection_s": 1521.4583333333333,
+      "optical_s": 109.25,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COST": {
+    "mean_s": 7516.648309083333,
+    "p95_s": 9218.7875306,
+    "gain_ratio_of_means_pct": -2.508745252618194,
+    "mean_paired_gain_pct": -2.570416053898115,
+    "worst_gain_pct": -25.586252030571394,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5717.439977836405,
+      "switch_s": 259.7083333333333,
+      "detection_s": 1382.0833333333333,
+      "optical_s": 130.25,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COUNT": {
+    "mean_s": 7305.880711875,
+    "p95_s": 9246.60136495,
+    "gain_ratio_of_means_pct": 0.3656105827647971,
+    "mean_paired_gain_pct": 0.4818801999784515,
+    "worst_gain_pct": -2.3731823037593287,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5475.2973809168325,
+      "switch_s": 267.7083333333333,
+      "detection_s": 1424.5833333333333,
+      "optical_s": 111.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COST_COUNT": {
+    "mean_s": 7502.446547750001,
+    "p95_s": 9218.7875306,
+    "gain_ratio_of_means_pct": -2.315067874777088,
+    "mean_paired_gain_pct": -2.331787179993598,
+    "worst_gain_pct": -25.586252030571394,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5715.029883147531,
+      "switch_s": 257.8333333333333,
+      "detection_s": 1371.6666666666667,
+      "optical_s": 130.75,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

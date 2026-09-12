@@ -1,0 +1,191 @@
+[
+  {
+    "round": "round01_action_tasks",
+    "primary": "ACTUAL_TASK",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "ACTUAL_TASK": {
+        "family": "scheduling",
+        "schedule": "actual_task",
+        "schedule_parent": "baseline"
+      }
+    },
+    "motivation": "将源任务建模为入口测量→清除出口的非对称路线；对照点重心近似是否造成长绕行。"
+  },
+  {
+    "round": "round02_backbone",
+    "primary": "BACKBONE",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "BACKBONE": {
+        "family": "scheduling",
+        "schedule": "backbone",
+        "schedule_parent": "baseline"
+      },
+      "BACKBONE_ADAPT": {
+        "family": "scheduling",
+        "schedule": "backbone",
+        "schedule_parent": "adapt"
+      }
+    },
+    "motivation": "冻结发现骨架并做源任务最小插入，保护发现顺序；与历史自适应共享组合。"
+  },
+  {
+    "round": "round03_window",
+    "primary": "WINDOW",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "WINDOW": {
+        "family": "scheduling",
+        "schedule": "window",
+        "schedule_parent": "baseline"
+      }
+    },
+    "motivation": "两站发现后批量清除，利用自然视差减少专用测量。"
+  },
+  {
+    "round": "round04_search_first",
+    "primary": "COVER_SEARCH_FIRST",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "COVER_SEARCH_FIRST": {
+        "family": "coverage",
+        "mechanism": "search_first"
+      }
+    },
+    "motivation": "完整巡检后集中定位，测试信息采集与执行解耦。"
+  },
+  {
+    "round": "round05_sector",
+    "primary": "COVER_SECTOR",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "COVER_SECTOR": {
+        "family": "coverage",
+        "mechanism": "sector"
+      }
+    },
+    "motivation": "四个空间扇区承诺，降低跨区往返。"
+  },
+  {
+    "round": "round06_exchange",
+    "primary": "COVER_EXCHANGE",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "COVER_EXCHANGE": {
+        "family": "coverage",
+        "mechanism": "exchange",
+        "certificate": "cells"
+      },
+      "COVER_EXCHANGE_TRI": {
+        "family": "coverage",
+        "mechanism": "exchange",
+        "certificate": "triangles"
+      }
+    },
+    "motivation": "真实到达点替代未访站，整域连续证书保底；三角证书作为收紧的消融。"
+  },
+  {
+    "round": "round07_elastic",
+    "primary": "COVER_ELASTIC",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "COVER_ELASTIC": {
+        "family": "coverage",
+        "mechanism": "elastic"
+      },
+      "COVER_EXCHANGE_ELASTIC": {
+        "family": "coverage",
+        "mechanism": "exchange_elastic",
+        "certificate": "cells"
+      }
+    },
+    "motivation": "联合优化未访内站位置与路径；与到达点替站组合。"
+  },
+  {
+    "round": "round08_optical_cells",
+    "primary": "CELL_OPTICAL",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "CELL_OPTICAL": {
+        "family": "local",
+        "local_mechanism": "cell_optical"
+      }
+    },
+    "motivation": "将定位多边形分为圆盘可覆盖的长矩形单元，减少光学点与蛇形绕行。"
+  },
+  {
+    "round": "round09_clear_discovery",
+    "primary": "CLEAR_DISCOVERY",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "CLEAR_DISCOVERY": {
+        "family": "local",
+        "local_mechanism": "clear_discovery"
+      }
+    },
+    "motivation": "在成功清除后的实际到达点发现未知频道，扩大搜索机会，费用完整计入。"
+  },
+  {
+    "round": "round10_negative_region",
+    "primary": "NEGATIVE_REGION",
+    "configs": {
+      "BASE25": {
+        "family": "baseline"
+      },
+      "HIST_ADAPT": {
+        "family": "historical"
+      },
+      "NEGATIVE_REGION": {
+        "family": "local",
+        "local_mechanism": "negative_region"
+      }
+    },
+    "motivation": "利用两正测点和近场阴性见证排除不可能的位置锥，剩余区域凸化保持保守。"
+  }
+]

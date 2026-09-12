@@ -1,0 +1,94 @@
+uniform_41000_spatial_hash BASE:8343.4/complete ROUTE:9327.3/complete ROUTE_R:9310.9/complete ROUTE_RC:9293.1/complete
+outward_41001_spatial_hash BASE:13867.8/complete ROUTE:11627.8/complete ROUTE_R:11274.3/complete ROUTE_RC:11394.5/complete
+inward_41002_spatial_hash BASE:8055.6/complete ROUTE:7790.3/complete ROUTE_R:7768.9/complete ROUTE_RC:7763.1/complete
+tangent_41003_spatial_hash BASE:11476.1/complete ROUTE:10387.0/complete ROUTE_R:10476.2/complete ROUTE_RC:10505.8/complete
+cluster_41004_spatial_hash BASE:11529.8/complete ROUTE:10315.0/complete ROUTE_R:11152.4/complete ROUTE_RC:11227.1/complete
+edge_41005_spatial_hash BASE:10950.9/complete ROUTE:9180.9/complete ROUTE_R:9179.4/complete ROUTE_RC:9155.8/complete
+uniform_41006_spatial_hash BASE:11136.7/complete ROUTE:10286.1/complete ROUTE_R:10286.1/complete ROUTE_RC:10290.5/complete
+outward_41007_spatial_hash BASE:13662.1/complete ROUTE:12041.6/complete ROUTE_R:13518.2/complete ROUTE_RC:13649.6/complete
+inward_41008_spatial_hash BASE:8400.0/complete ROUTE:7318.3/complete ROUTE_R:7372.7/complete ROUTE_RC:7377.3/complete
+tangent_41009_spatial_hash BASE:11494.0/complete ROUTE:9756.8/complete ROUTE_R:9856.8/complete ROUTE_RC:9863.9/complete
+cluster_41010_spatial_hash BASE:10544.2/complete ROUTE:10430.1/complete ROUTE_R:11240.4/complete ROUTE_RC:11318.3/complete
+edge_41011_spatial_hash BASE:11959.3/complete ROUTE:9659.4/complete ROUTE_R:9664.3/complete ROUTE_RC:9672.8/complete
+uniform_41012_spatial_hash BASE:9281.6/complete ROUTE:9494.7/complete ROUTE_R:9659.5/complete ROUTE_RC:9698.5/complete
+outward_41013_spatial_hash BASE:12928.1/complete ROUTE:12006.8/complete ROUTE_R:13249.7/complete ROUTE_RC:13459.8/complete
+inward_41014_spatial_hash BASE:11529.5/complete ROUTE:9585.6/complete ROUTE_R:9600.2/complete ROUTE_RC:9617.4/complete
+tangent_41015_spatial_hash BASE:11114.6/complete ROUTE:9796.3/complete ROUTE_R:9924.2/complete ROUTE_RC:9952.1/complete
+cluster_41016_spatial_hash BASE:11384.6/complete ROUTE:10791.1/complete ROUTE_R:10930.7/complete ROUTE_RC:10965.5/complete
+edge_41017_spatial_hash BASE:10639.7/complete ROUTE:9739.6/complete ROUTE_R:9854.4/complete ROUTE_RC:10442.1/complete
+uniform_41018_spatial_hash BASE:11915.2/complete ROUTE:9273.9/complete ROUTE_R:9418.5/complete ROUTE_RC:9450.8/complete
+outward_41019_spatial_hash BASE:15143.8/complete ROUTE:14139.5/complete ROUTE_R:14019.7/complete ROUTE_RC:14268.5/complete
+inward_41020_spatial_hash BASE:10803.2/complete ROUTE:10079.9/complete ROUTE_R:10086.6/complete ROUTE_RC:10084.8/complete
+tangent_41021_spatial_hash BASE:10763.2/complete ROUTE:9554.4/complete ROUTE_R:9640.6/complete ROUTE_RC:9666.7/complete
+cluster_41022_spatial_hash BASE:11828.3/complete ROUTE:11766.9/complete ROUTE_R:12730.1/complete ROUTE_RC:12870.6/complete
+edge_41023_spatial_hash BASE:11168.4/complete ROUTE:9390.8/complete ROUTE_R:9427.6/complete ROUTE_RC:9413.7/complete
+{
+  "BASE": {
+    "mean_s": 11246.670717916668,
+    "p95_s": 13836.90815615,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9123.420713643443,
+      "switch_s": 301.9166666666667,
+      "detection_s": 1641.0416666666667,
+      "optical_s": 153.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "ROUTE": {
+    "mean_s": 10155.841366416667,
+    "p95_s": 12036.42019665,
+    "gain_ratio_of_means_pct": 9.699131226116897,
+    "mean_paired_gain_pct": 9.251281117832182,
+    "worst_gain_pct": -11.79259005509361,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 7733.008029608644,
+      "switch_s": 355.5,
+      "detection_s": 1914.1666666666667,
+      "optical_s": 126.0,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "ROUTE_R": {
+    "mean_s": 10401.776992166668,
+    "p95_s": 13477.90982775,
+    "gain_ratio_of_means_pct": 7.5123896390425156,
+    "mean_paired_gain_pct": 7.176377790902801,
+    "worst_gain_pct": -11.595561274488468,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 7939.151986125468,
+      "switch_s": 356.9583333333333,
+      "detection_s": 1943.125,
+      "optical_s": 135.375,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "ROUTE_RC": {
+    "mean_s": 10475.102559708334,
+    "p95_s": 13621.097810449999,
+    "gain_ratio_of_means_pct": 6.860413873228966,
+    "mean_paired_gain_pct": 6.564836770023412,
+    "worst_gain_pct": -11.382758759201767,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 8018.8525537560445,
+      "switch_s": 355.875,
+      "detection_s": 1937.7083333333333,
+      "optical_s": 135.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

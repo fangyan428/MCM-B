@@ -1,0 +1,18 @@
+{
+  "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/BASE25/uniform_4c920b65f2c8599c__smooth__pre_round_stress",
+  "source_actions_sha256": "053d622c85310c5113c22a13cd98877c791d3d2ff0f639abc8734cb623eb5e8e",
+  "source_result_sha256": "6ac4216038d3eb58eb96e1289b7352e533978273ee2998d506bcb055d5abceef",
+  "config": {
+    "family": "baseline"
+  },
+  "source_truth_or_simulator_provided": false,
+  "hidden_case_file_read": false,
+  "static_scan_passed": true,
+  "passed": true,
+  "actions": 216,
+  "all_positions_channels_exact": true,
+  "cleared_equal": true,
+  "metrics_equal": true,
+  "stop_certificate_equal": true,
+  "phases_equal": true
+}

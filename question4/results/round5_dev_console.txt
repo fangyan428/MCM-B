@@ -1,0 +1,60 @@
+uniform_41000_spatial_hash REF25:7156.0/complete COMPACT22:6325.7/complete
+outward_41001_spatial_hash REF25:9300.0/complete COMPACT22:7643.2/complete
+inward_41002_spatial_hash REF25:5076.0/complete COMPACT22:5896.9/complete
+tangent_41003_spatial_hash REF25:8817.9/complete COMPACT22:7904.4/complete
+cluster_41004_spatial_hash REF25:6947.2/complete COMPACT22:6935.0/complete
+edge_41005_spatial_hash REF25:6325.0/complete COMPACT22:6492.0/complete
+uniform_41006_spatial_hash REF25:7013.0/complete COMPACT22:7229.0/complete
+outward_41007_spatial_hash REF25:10218.0/complete COMPACT22:8567.7/complete
+inward_41008_spatial_hash REF25:6942.7/complete COMPACT22:5080.6/complete
+tangent_41009_spatial_hash REF25:7636.0/complete COMPACT22:9053.3/complete
+cluster_41010_spatial_hash REF25:6906.7/complete COMPACT22:6355.5/complete
+edge_41011_spatial_hash REF25:7221.2/complete COMPACT22:6326.9/complete
+uniform_41012_spatial_hash REF25:6455.7/complete COMPACT22:7785.4/complete
+outward_41013_spatial_hash REF25:8842.7/complete COMPACT22:8709.6/complete
+inward_41014_spatial_hash REF25:6514.9/complete COMPACT22:6198.8/complete
+tangent_41015_spatial_hash REF25:7954.8/complete COMPACT22:6968.9/complete
+cluster_41016_spatial_hash REF25:6686.1/complete COMPACT22:7381.5/complete
+edge_41017_spatial_hash REF25:6934.8/complete COMPACT22:6745.8/complete
+uniform_41018_spatial_hash REF25:7311.0/complete COMPACT22:7216.3/complete
+outward_41019_spatial_hash REF25:10502.8/complete COMPACT22:10745.1/complete
+inward_41020_spatial_hash REF25:7127.2/complete COMPACT22:6806.1/complete
+tangent_41021_spatial_hash REF25:8580.3/complete COMPACT22:9124.4/complete
+cluster_41022_spatial_hash REF25:6871.1/complete COMPACT22:7787.0/complete
+edge_41023_spatial_hash REF25:6679.9/complete COMPACT22:6705.4/complete
+{
+  "REF25": {
+    "mean_s": 7500.867084791668,
+    "p95_s": 10080.299865699999,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5409.783751856127,
+      "switch_s": 312.2083333333333,
+      "detection_s": 1665.2083333333333,
+      "optical_s": 86.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COMPACT22": {
+    "mean_s": 7332.689801791666,
+    "p95_s": 9113.7013762,
+    "gain_ratio_of_means_pct": 2.2421045606979106,
+    "mean_paired_gain_pct": 1.5313345554632898,
+    "worst_gain_pct": -20.597427364731452,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5485.731470794922,
+      "switch_s": 270.625,
+      "detection_s": 1441.0416666666667,
+      "optical_s": 108.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

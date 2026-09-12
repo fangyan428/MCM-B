@@ -1,0 +1,183 @@
+{
+  "matrix_audit": {
+    "passed": true,
+    "expected_scenarios": 960,
+    "expected_runs": 4800,
+    "layouts": 120,
+    "source_files_checked": 60,
+    "source_basis": "batch code_snapshot, not current working tree"
+  },
+  "independent_statistics": {
+    "BASE25": {
+      "runs": 960,
+      "layouts": 120,
+      "success": 960,
+      "failure": 0,
+      "false_complete": 0,
+      "timeout": 0,
+      "mean_s": 6744.3825541625,
+      "p95_s": 9497.47145145,
+      "max_s": 11986.288598,
+      "gain_pct": 0.0,
+      "raw_equals_penalized": true,
+      "worst_paired_gain_pct": 0.0,
+      "wall_max_s": 0.12447962899932463,
+      "max_component_accounting_discrepancy_s": 6.0727314121322706e-05
+    },
+    "HIST_ADAPT": {
+      "runs": 960,
+      "layouts": 120,
+      "success": 960,
+      "failure": 0,
+      "false_complete": 0,
+      "timeout": 0,
+      "mean_s": 6614.154428313542,
+      "p95_s": 9417.567148,
+      "max_s": 12592.282717,
+      "gain_pct": 1.93091250093137,
+      "raw_equals_penalized": true,
+      "worst_paired_gain_pct": -21.367047964981634,
+      "wall_max_s": 0.23450793899974087,
+      "max_component_accounting_discrepancy_s": 6.542328992509283e-05
+    },
+    "COVER_EXCHANGE": {
+      "runs": 960,
+      "layouts": 120,
+      "success": 960,
+      "failure": 0,
+      "false_complete": 0,
+      "timeout": 0,
+      "mean_s": 6734.418436483334,
+      "p95_s": 9497.47145145,
+      "max_s": 11986.288598,
+      "gain_pct": 0.1477395091269984,
+      "raw_equals_penalized": true,
+      "worst_paired_gain_pct": -21.397749604076832,
+      "wall_max_s": 0.5853022299997974,
+      "max_component_accounting_discrepancy_s": 6.0727314121322706e-05
+    },
+    "COVER_ELASTIC": {
+      "runs": 960,
+      "layouts": 120,
+      "success": 960,
+      "failure": 0,
+      "false_complete": 0,
+      "timeout": 0,
+      "mean_s": 6740.980925438542,
+      "p95_s": 9460.057152649999,
+      "max_s": 11928.428123,
+      "gain_pct": 0.050436473563597595,
+      "raw_equals_penalized": true,
+      "worst_paired_gain_pct": -33.69131737184081,
+      "wall_max_s": 0.39247997799975565,
+      "max_component_accounting_discrepancy_s": 6.803843825764488e-05
+    },
+    "COVER_EXCHANGE_ELASTIC": {
+      "runs": 960,
+      "layouts": 120,
+      "success": 960,
+      "failure": 0,
+      "false_complete": 0,
+      "timeout": 0,
+      "mean_s": 6719.669391391667,
+      "p95_s": 9460.057152649999,
+      "max_s": 11928.428123,
+      "gain_pct": 0.3664258747538063,
+      "raw_equals_penalized": true,
+      "worst_paired_gain_pct": -33.69131737184081,
+      "wall_max_s": 0.49575240000012855,
+      "max_component_accounting_discrepancy_s": 6.803843825764488e-05,
+      "worst_case": "uniform_4c920b65f2c8599c__positive__bounded",
+      "worst_base_s": 4228.694403,
+      "worst_candidate_s": 5653.397255,
+      "worst_details": {
+        "BASE25": {
+          "total": 16,
+          "cleared": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            16,
+            18,
+            19,
+            20
+          ],
+          "stop": "count16",
+          "station_count": 7,
+          "components": {
+            "movement_s": 3202.694418362376,
+            "switch_s": 114.0,
+            "detection_s": 595.0,
+            "optical_s": 285.0,
+            "laser_s": 32.0
+          },
+          "counts": {
+            "measure": 119,
+            "clear": 95,
+            "clear_success": 16,
+            "clear_failure": 79,
+            "retries": 0
+          }
+        },
+        "COVER_EXCHANGE_ELASTIC": {
+          "total": 16,
+          "cleared": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            16,
+            18,
+            19,
+            20
+          ],
+          "stop": "count16",
+          "station_count": 19,
+          "components": {
+            "movement_s": 3962.397262325306,
+            "switch_s": 224.0,
+            "detection_s": 1210.0,
+            "optical_s": 225.0,
+            "laser_s": 32.0
+          },
+          "counts": {
+            "measure": 242,
+            "clear": 75,
+            "clear_success": 16,
+            "clear_failure": 59,
+            "retries": 0
+          }
+        }
+      },
+      "independent_bootstrap_ci95": [
+        -0.18266837395266022,
+        0.9210450527142254
+      ]
+    }
+  },
+  "reported_statistics_mismatches": [],
+  "total_runs": 4800,
+  "total_success": 4800,
+  "total_accepted_actions": 1747830,
+  "whole_batch_integrity": {
+    "source_unchanged_during_run": true,
+    "finished_unix": 1789186048.987539
+  }
+}

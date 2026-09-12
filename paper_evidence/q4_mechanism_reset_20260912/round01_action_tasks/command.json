@@ -1,0 +1,23 @@
+[
+  "/home/fangyan/miniconda3/bin/python",
+  "-m",
+  "paper_evidence.q4_mechanism_reset_20260912.experiment",
+  "--configs",
+  "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/round01_action_tasks/configs.json",
+  "--output",
+  "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/round01_action_tasks/development",
+  "--seed",
+  "291000",
+  "--count",
+  "24",
+  "--error-modes",
+  "spatial_hash,positive,negative,smooth",
+  "--roundings",
+  "bounded",
+  "--workers",
+  "4",
+  "--stage",
+  "development",
+  "--reference",
+  "BASE25"
+]

@@ -1,0 +1,111 @@
+{
+  "total_runs": 5376,
+  "failed_runs": 0,
+  "batches": [
+    {
+      "batch": "final_main",
+      "runs": 864,
+      "cases": 96,
+      "all_complete": true,
+      "stage": "sealed_final_independent"
+    },
+    {
+      "batch": "final_rounding",
+      "runs": 864,
+      "cases": 96,
+      "all_complete": true,
+      "stage": "sealed_final_independent_rounding"
+    },
+    {
+      "batch": "round1_dev",
+      "runs": 48,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development"
+    },
+    {
+      "batch": "round2_dev",
+      "runs": 120,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development"
+    },
+    {
+      "batch": "round3_dev",
+      "runs": 96,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development"
+    },
+    {
+      "batch": "round3_validation",
+      "runs": 144,
+      "cases": 72,
+      "all_complete": true,
+      "stage": "independent_validation"
+    },
+    {
+      "batch": "round4_dev",
+      "runs": 120,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development"
+    },
+    {
+      "batch": "round5_dev",
+      "runs": 48,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development"
+    },
+    {
+      "batch": "round5_validation",
+      "runs": 288,
+      "cases": 72,
+      "all_complete": true,
+      "stage": "independent_validation"
+    },
+    {
+      "batch": "round6_dev",
+      "runs": 120,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development_reused_layouts"
+    },
+    {
+      "batch": "round6_validation",
+      "runs": 336,
+      "cases": 84,
+      "all_complete": true,
+      "stage": "independent_validation"
+    },
+    {
+      "batch": "round7_dev",
+      "runs": 120,
+      "cases": 24,
+      "all_complete": true,
+      "stage": "development_reused_layouts"
+    },
+    {
+      "batch": "round7_validation",
+      "runs": 480,
+      "cases": 96,
+      "all_complete": true,
+      "stage": "independent_validation"
+    },
+    {
+      "batch": "round9_main",
+      "runs": 864,
+      "cases": 96,
+      "all_complete": true,
+      "stage": "sealed_revalidation_after_mesh_interaction"
+    },
+    {
+      "batch": "round9_rounding",
+      "runs": 864,
+      "cases": 96,
+      "all_complete": true,
+      "stage": "sealed_revalidation_independent_rounding"
+    }
+  ]
+}

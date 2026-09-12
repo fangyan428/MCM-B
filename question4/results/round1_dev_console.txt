@@ -1,0 +1,60 @@
+uniform_41000_spatial_hash BASE:8343.4/complete OPTICAL:11731.7/complete
+outward_41001_spatial_hash BASE:13867.8/complete OPTICAL:10912.1/complete
+inward_41002_spatial_hash BASE:8055.6/complete OPTICAL:10692.1/complete
+tangent_41003_spatial_hash BASE:11476.1/complete OPTICAL:11119.2/complete
+cluster_41004_spatial_hash BASE:11529.8/complete OPTICAL:13145.8/complete
+edge_41005_spatial_hash BASE:10950.9/complete OPTICAL:12705.0/complete
+uniform_41006_spatial_hash BASE:11136.7/complete OPTICAL:12231.6/complete
+outward_41007_spatial_hash BASE:13662.1/complete OPTICAL:11992.6/complete
+inward_41008_spatial_hash BASE:8400.0/complete OPTICAL:10261.4/complete
+tangent_41009_spatial_hash BASE:11494.0/complete OPTICAL:7551.9/complete
+cluster_41010_spatial_hash BASE:10544.2/complete OPTICAL:12724.1/complete
+edge_41011_spatial_hash BASE:11959.3/complete OPTICAL:12318.6/complete
+uniform_41012_spatial_hash BASE:9281.6/complete OPTICAL:10998.9/complete
+outward_41013_spatial_hash BASE:12928.1/complete OPTICAL:11104.2/complete
+inward_41014_spatial_hash BASE:11529.5/complete OPTICAL:12568.3/complete
+tangent_41015_spatial_hash BASE:11114.6/complete OPTICAL:12834.4/complete
+cluster_41016_spatial_hash BASE:11384.6/complete OPTICAL:12110.5/complete
+edge_41017_spatial_hash BASE:10639.7/complete OPTICAL:11308.3/complete
+uniform_41018_spatial_hash BASE:11915.2/complete OPTICAL:12872.7/complete
+outward_41019_spatial_hash BASE:15143.8/complete OPTICAL:10944.5/complete
+inward_41020_spatial_hash BASE:10803.2/complete OPTICAL:11634.4/complete
+tangent_41021_spatial_hash BASE:10763.2/complete OPTICAL:11379.0/complete
+cluster_41022_spatial_hash BASE:11828.3/complete OPTICAL:13576.8/complete
+edge_41023_spatial_hash BASE:11168.4/complete OPTICAL:12597.4/complete
+{
+  "BASE": {
+    "mean_s": 11246.670717916668,
+    "p95_s": 13836.90815615,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 9123.420713643443,
+      "switch_s": 301.9166666666667,
+      "detection_s": 1641.0416666666667,
+      "optical_s": 153.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "OPTICAL": {
+    "mean_s": 11721.471035583332,
+    "p95_s": 13104.8041975,
+    "gain_ratio_of_means_pct": -4.22169662094114,
+    "mean_paired_gain_pct": -6.289038783933614,
+    "worst_gain_pct": -40.60971665098302,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 8667.345980458098,
+      "switch_s": 281.8333333333333,
+      "detection_s": 1545.625,
+      "optical_s": 1199.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

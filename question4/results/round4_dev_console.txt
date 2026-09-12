@@ -1,0 +1,111 @@
+uniform_41000_spatial_hash REF:9327.3/complete SKIP:9327.3/complete NONE:10046.1/complete RADIAL:7294.2/complete RADIAL_SKIP:7156.0/complete
+outward_41001_spatial_hash REF:11627.8/complete SKIP:11627.8/complete NONE:12801.1/complete RADIAL:9300.0/complete RADIAL_SKIP:9300.0/complete
+inward_41002_spatial_hash REF:7790.3/complete SKIP:7736.5/complete NONE:7877.5/complete RADIAL:5076.0/complete RADIAL_SKIP:5076.0/complete
+tangent_41003_spatial_hash REF:10387.0/complete SKIP:10387.0/complete NONE:10835.7/complete RADIAL:8877.9/complete RADIAL_SKIP:8817.9/complete
+cluster_41004_spatial_hash REF:10315.0/complete SKIP:10315.0/complete NONE:10559.9/complete RADIAL:6947.2/complete RADIAL_SKIP:6947.2/complete
+edge_41005_spatial_hash REF:9180.9/complete SKIP:9180.9/complete NONE:10032.8/complete RADIAL:6325.0/complete RADIAL_SKIP:6325.0/complete
+uniform_41006_spatial_hash REF:10286.1/complete SKIP:10136.2/complete NONE:10660.3/complete RADIAL:7175.7/complete RADIAL_SKIP:7013.0/complete
+outward_41007_spatial_hash REF:12041.6/complete SKIP:12041.6/complete NONE:12983.7/complete RADIAL:10218.0/complete RADIAL_SKIP:10218.0/complete
+inward_41008_spatial_hash REF:7318.3/complete SKIP:7318.3/complete NONE:10048.2/complete RADIAL:6954.7/complete RADIAL_SKIP:6942.7/complete
+tangent_41009_spatial_hash REF:9756.8/complete SKIP:9691.9/complete NONE:10712.7/complete RADIAL:7690.0/complete RADIAL_SKIP:7636.0/complete
+cluster_41010_spatial_hash REF:10430.1/complete SKIP:10430.1/complete NONE:10334.7/complete RADIAL:6906.7/complete RADIAL_SKIP:6906.7/complete
+edge_41011_spatial_hash REF:9659.4/complete SKIP:9473.2/complete NONE:10335.7/complete RADIAL:7221.2/complete RADIAL_SKIP:7221.2/complete
+uniform_41012_spatial_hash REF:9494.7/complete SKIP:9428.3/complete NONE:9687.2/complete RADIAL:6541.0/complete RADIAL_SKIP:6455.7/complete
+outward_41013_spatial_hash REF:12006.8/complete SKIP:12006.8/complete NONE:11967.6/complete RADIAL:8842.7/complete RADIAL_SKIP:8842.7/complete
+inward_41014_spatial_hash REF:9585.6/complete SKIP:9585.6/complete NONE:10050.6/complete RADIAL:6514.9/complete RADIAL_SKIP:6514.9/complete
+tangent_41015_spatial_hash REF:9796.3/complete SKIP:9771.2/complete NONE:10233.4/complete RADIAL:7954.8/complete RADIAL_SKIP:7954.8/complete
+cluster_41016_spatial_hash REF:10791.1/complete SKIP:10791.1/complete NONE:11104.8/complete RADIAL:6734.2/complete RADIAL_SKIP:6686.1/complete
+edge_41017_spatial_hash REF:9739.6/complete SKIP:9727.0/complete NONE:10182.2/complete RADIAL:7042.9/complete RADIAL_SKIP:6934.8/complete
+uniform_41018_spatial_hash REF:9273.9/complete SKIP:9273.9/complete NONE:11285.9/complete RADIAL:7337.3/complete RADIAL_SKIP:7311.0/complete
+outward_41019_spatial_hash REF:14139.5/complete SKIP:14139.5/complete NONE:14568.0/complete RADIAL:10502.8/complete RADIAL_SKIP:10502.8/complete
+inward_41020_spatial_hash REF:10079.9/complete SKIP:9922.1/complete NONE:10304.4/complete RADIAL:7127.2/complete RADIAL_SKIP:7127.2/complete
+tangent_41021_spatial_hash REF:9554.4/complete SKIP:9554.4/complete NONE:10519.8/complete RADIAL:8580.3/complete RADIAL_SKIP:8580.3/complete
+cluster_41022_spatial_hash REF:11766.9/complete SKIP:11766.9/complete NONE:11955.8/complete RADIAL:6926.1/complete RADIAL_SKIP:6871.1/complete
+edge_41023_spatial_hash REF:9390.8/complete SKIP:9390.8/complete NONE:9935.3/complete RADIAL:6679.9/complete RADIAL_SKIP:6679.9/complete
+{
+  "REF": {
+    "mean_s": 10155.841366416667,
+    "p95_s": 12036.42019665,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 7733.008029608644,
+      "switch_s": 355.5,
+      "detection_s": 1914.1666666666667,
+      "optical_s": 126.0,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "SKIP": {
+    "mean_s": 10125.976095666667,
+    "p95_s": 12036.42019665,
+    "gain_ratio_of_means_pct": 0.2940698822724741,
+    "mean_paired_gain_pct": 0.3079999856550791,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 7732.892758905627,
+      "switch_s": 350.5416666666667,
+      "detection_s": 1889.375,
+      "optical_s": 126.0,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "NONE": {
+    "mean_s": 10792.637149208333,
+    "p95_s": 12956.328987,
+    "gain_ratio_of_means_pct": -6.270241527180809,
+    "mean_paired_gain_pct": -6.769186776518818,
+    "worst_gain_pct": -37.300858473222306,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 8536.303811377931,
+      "switch_s": 321.7916666666667,
+      "detection_s": 1737.5,
+      "optical_s": 169.875,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "RADIAL": {
+    "mean_s": 7532.100630083333,
+    "p95_s": 10080.299865699999,
+    "gain_ratio_of_means_pct": 25.83479439733589,
+    "mean_paired_gain_pct": 25.632470420538528,
+    "worst_gain_pct": 4.968553052456676,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5410.017297205359,
+      "switch_s": 317.375,
+      "detection_s": 1691.0416666666667,
+      "optical_s": 86.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "RADIAL_SKIP": {
+    "mean_s": 7500.867084791668,
+    "p95_s": 10080.299865699999,
+    "gain_ratio_of_means_pct": 26.142337063322664,
+    "mean_paired_gain_pct": 25.947578999969682,
+    "worst_gain_pct": 5.1325244526689,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5409.783751856127,
+      "switch_s": 312.2083333333333,
+      "detection_s": 1665.2083333333333,
+      "optical_s": 86.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

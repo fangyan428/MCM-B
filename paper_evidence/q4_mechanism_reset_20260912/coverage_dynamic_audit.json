@@ -1,0 +1,14 @@
+{
+  "case_id": "cluster_918204_spatial_hash",
+  "candidate": "COVER_EXCHANGE",
+  "certificate": "dynamic_cell_halfplane_cover",
+  "auditor": "paper_evidence.q4_mechanism_reset_20260912.audit.audit",
+  "audit_result": {
+    "passed": true,
+    "accepted_actions": 374,
+    "cleared": 10,
+    "virtual_time_s": 6208.867846648759
+  },
+  "coverage_py_sha256": "fa0000fcf8fd721f9ce666db1083ec319a10a31e52d988b276edffe48e6b17c8",
+  "purpose": "Repeat the one dynamic-cell smoke case under the main experiment auditor before locking performance candidates; no parameter changes."
+}

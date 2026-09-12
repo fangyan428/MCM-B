@@ -1,0 +1,365 @@
+{
+  "geometry_checks": "passed",
+  "rows": [
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 7156.04021,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 7156.04021,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 6920.939356,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 7121.828498,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 7824.421344,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "uniform_918200_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 6920.939356,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 6212.362883,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 6212.362883,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 6178.811526,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 7386.845352,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 7335.394848,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "outward_918201_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 6178.811526,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 5624.933777,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 5624.933777,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 5597.403543,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 7519.54174,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 6749.623995,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "inward_918202_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 5597.403543,
+      "cleared": 13,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 7612.781723,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 7612.781723,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 7583.524218,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 8336.029237,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 10028.620638,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "tangent_918203_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 7583.524218,
+      "cleared": 12,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 6208.867847,
+      "cleared": 10,
+      "certificate": "dynamic_cell_halfplane_cover",
+      "exchanges": 1,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 6230.293908,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 6293.786895,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 6937.506364,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 7630.475046,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "cluster_918204_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 6293.786895,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_EXCHANGE",
+      "time_s": 7669.11198,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_EXCHANGE_TRI",
+      "time_s": 7669.11198,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_ELASTIC",
+      "time_s": 7618.733048,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_SEARCH_FIRST",
+      "time_s": 8621.527678,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_SECTOR",
+      "time_s": 7638.379013,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 0,
+      "status": "complete"
+    },
+    {
+      "case": "edge_918205_spatial_hash",
+      "name": "COVER_EXCHANGE_ELASTIC",
+      "time_s": 7618.733048,
+      "cleared": 10,
+      "certificate": "triangular_halfplane_cover",
+      "exchanges": 0,
+      "elastic": 12,
+      "status": "complete"
+    }
+  ]
+}

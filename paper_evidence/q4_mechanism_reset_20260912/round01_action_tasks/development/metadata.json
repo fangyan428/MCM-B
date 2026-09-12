@@ -1,0 +1,58 @@
+{
+  "stage": "development",
+  "independent_new_layouts": true,
+  "independent_validation": false,
+  "reuse_label": "new_generated_layouts",
+  "fixture_source": null,
+  "layouts": 24,
+  "scenarios": 96,
+  "algorithm_runs": 288,
+  "error_modes": [
+    "spatial_hash",
+    "positive",
+    "negative",
+    "smooth"
+  ],
+  "roundings": [
+    "bounded"
+  ],
+  "family_layout_counts": {
+    "uniform": 4,
+    "outward": 4,
+    "inward": 4,
+    "tangent": 4,
+    "cluster": 4,
+    "edge": 4
+  },
+  "layout_sha256": [
+    "145daa7bdff72175c5a30f3d0369948baeb928571bba539a53812cee74d716fa",
+    "15102aee793777282425aefdb6748ea2f1cd6c7b75b725bfcff835eba76ebe44",
+    "21c99444fea8e45f3816edec7ad1ca0ab7bb8e44774d5729ea53e2966617fe6c",
+    "3b1f102032c8ee680095a97972c53772917b6b570405b0e9045b659513dce888",
+    "3b514d2d38d2a25ca79dff4f74f9af2261adcff2fc74d4b82eb369775369241f",
+    "60fe3bae936f12626b85f7af64325a7ed93d40ef4cd096e2c61bcaa98c504271",
+    "66d6380dc7940f96fde651b6e6d573d30c4a749493b4357cf8987a906b6fbe74",
+    "6b56c17ef359ca39b240958cd660d78fa9dd61f7b83cdff652cf07b12c0b7f79",
+    "7c044f59c4b53ac3f16732f842786c40b874fe179fb7edb11b66065160dad130",
+    "8890e51e76ccce0abd05cc29d0768020e2d64d749a5b93d166eb748dd7161909",
+    "88ba52c10251115cc39bf42050da8fd4c757940d2c30d931aa47baf706624292",
+    "8a8b8c78ec4b47cc641136cb74a58dcc738d802ba8b7dd6cd42c8d8e2ef46e70",
+    "8b29502470c08538ba60ec12ae79bc29df4c6c7c123895358d15f93028f4e0c9",
+    "9498d797101ef14181ca0ab24913b6fd2ac0526e5d992c4e9085cbf485992b58",
+    "a2840c26883d61e12de3a779dd241a8f4da4d328aedeec3fbf509fbbb0d05106",
+    "a7e8790646ac1c869605a91f95ac8dbda413869fd7df7affa626f4c2a63a22c5",
+    "af970b0b12b01d92b189d5030794dd8a6ad1392b7e820c13d445b2181c3ab31b",
+    "b93ab5cfcfc9c055ab338f23cfc80434583922009ead7b5db5cbd92ed25475e5",
+    "c499ac156f7ec58057741642712d63f0de5f66115d930dd07448dc69734e2301",
+    "d2849646f83f5b6cfcea51a98c5856160588166a93d6897bca043701ffa4fefd",
+    "da31b96edab12361883dfe65b2b32d469a9cce0ae76d0a0cd03bf6a8fc630916",
+    "e5ca39cddadc51f152b9b22bdf077cd821960c9b75fa2c89a73637de2348098a",
+    "f492a7cb51638a1a55fedfe3899a47bf6f4c4a39f76b6ca5fd37d15a8cde6842",
+    "fbe869b0a4890c18666322ac3f24662177fcc92beee60d58212c302f95a8ed35"
+  ],
+  "fixtures_sha256": "32a976ef7966a2b537e6c850a0cddb2f31ff3ed972011c6cecaf63f5355cefb4",
+  "generated_after_snapshot_unix": 1789185709.5847087,
+  "official_runs": 0,
+  "http_runs": 0,
+  "lock_sha256": "657013424dc8de13e7bcef22a44b7c11c0b2800185e32d84b3f485a0e0a6ec67"
+}

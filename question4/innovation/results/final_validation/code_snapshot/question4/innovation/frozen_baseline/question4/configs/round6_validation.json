@@ -1,0 +1,26 @@
+{
+  "REF": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified"
+  },
+  "CENTROID": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true
+  },
+  "CENTROID_COUNT": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true
+  },
+  "COST": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "detection_cost_route": true
+  }
+}

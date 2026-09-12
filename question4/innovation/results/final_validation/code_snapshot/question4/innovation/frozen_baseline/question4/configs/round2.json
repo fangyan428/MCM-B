@@ -1,0 +1,17 @@
+{
+  "BASE": {},
+  "JOINT": {
+    "scheduling": "joint"
+  },
+  "REFINE": {
+    "refinement": true
+  },
+  "CENTER": {
+    "opportunistic_clear": true
+  },
+  "COMBO": {
+    "scheduling": "joint",
+    "refinement": true,
+    "opportunistic_clear": true
+  }
+}

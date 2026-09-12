@@ -1,0 +1,87 @@
+{
+  "REF": {
+    "mean_s": 6908.3180543020835,
+    "p95_s": 9189.35792825,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 96,
+    "cases": 96,
+    "components": {
+      "movement_s": 4986.245136608195,
+      "switch_s": 280.84375,
+      "detection_s": 1501.1979166666667,
+      "optical_s": 114.03125,
+      "laser_s": 26.0
+    },
+    "failures": []
+  },
+  "PROBE": {
+    "mean_s": 7032.9957355,
+    "p95_s": 9427.30229825,
+    "gain_ratio_of_means_pct": -1.8047472658019093,
+    "mean_paired_gain_pct": -1.7032686958879555,
+    "worst_gain_pct": -16.962220147429036,
+    "complete": 96,
+    "cases": 96,
+    "components": {
+      "movement_s": 5102.1207353727295,
+      "switch_s": 280.8958333333333,
+      "detection_s": 1502.2916666666667,
+      "optical_s": 121.6875,
+      "laser_s": 26.0
+    },
+    "failures": []
+  },
+  "RELOCATE": {
+    "mean_s": 6849.136877885416,
+    "p95_s": 9129.76361,
+    "gain_ratio_of_means_pct": 0.8566654857445899,
+    "mean_paired_gain_pct": 0.7779718355416242,
+    "worst_gain_pct": -12.17450528448129,
+    "complete": 96,
+    "cases": 96,
+    "components": {
+      "movement_s": 4924.813959883678,
+      "switch_s": 281.96875,
+      "detection_s": 1506.3541666666667,
+      "optical_s": 110.0,
+      "laser_s": 26.0
+    },
+    "failures": []
+  },
+  "INFO": {
+    "mean_s": 6847.042258010417,
+    "p95_s": 9166.85792825,
+    "gain_ratio_of_means_pct": 0.8869857439975259,
+    "mean_paired_gain_pct": 0.9318257422437594,
+    "worst_gain_pct": 0.0,
+    "complete": 96,
+    "cases": 96,
+    "components": {
+      "movement_s": 4986.969340303078,
+      "switch_s": 270.5416666666667,
+      "detection_s": 1449.21875,
+      "optical_s": 114.3125,
+      "laser_s": 26.0
+    },
+    "failures": []
+  },
+  "COST": {
+    "mean_s": 6902.182429687501,
+    "p95_s": 8894.75853725,
+    "gain_ratio_of_means_pct": 0.08881502800470731,
+    "mean_paired_gain_pct": -0.10548832333955449,
+    "worst_gain_pct": -28.53391616525976,
+    "complete": 96,
+    "cases": 96,
+    "components": {
+      "movement_s": 5083.713679735804,
+      "switch_s": 262.7291666666667,
+      "detection_s": 1407.7083333333333,
+      "optical_s": 122.03125,
+      "laser_s": 26.0
+    },
+    "failures": []
+  }
+}

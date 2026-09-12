@@ -1,0 +1,71 @@
+{
+  "BASE": {},
+  "FINAL": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true
+  },
+  "COMPACT22": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true
+  },
+  "NO_CENTROID": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": false,
+    "known_count_stop": true,
+    "scan_information": true
+  },
+  "NO_INFO": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": false
+  },
+  "RELOCATE": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true,
+    "relocate_route": true
+  },
+  "COST": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true,
+    "detection_cost_route": true
+  },
+  "PROBE": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true,
+    "centroid_probe": true
+  },
+  "REFINE": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified",
+    "centroid_route": true,
+    "known_count_stop": true,
+    "scan_information": true,
+    "refinement": true
+  }
+}

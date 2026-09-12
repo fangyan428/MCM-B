@@ -1,0 +1,1879 @@
+{
+  "stage": "development",
+  "rows": [
+    {
+      "case_id": "uniform_41000_spatial_hash",
+      "family": "uniform",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 8343.426757,
+        "components": {
+          "movement_s": 7068.426752641493,
+          "switch_s": 167.0,
+          "detection_s": 920.0,
+          "optical_s": 156.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 3637.868091234178,
+          "localize": 2968.9635987303795,
+          "optical_fallback": 1531.8886815452665,
+          "certified_clear": 204.7063811316625
+        },
+        "counts": {
+          "measure": 184,
+          "clear": 52,
+          "clear_success": 16,
+          "clear_failure": 36,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02954105499520665,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 238,
+        "cleared": 16,
+        "virtual_time_s": 8343.42675264148
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41000_spatial_hash",
+      "family": "uniform",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 11731.668722,
+        "components": {
+          "movement_s": 8470.668480866045,
+          "switch_s": 147.0,
+          "detection_s": 820.0,
+          "optical_s": 2262.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 3631.1999108139316,
+          "optical_fallback": 8100.468570052118
+        },
+        "counts": {
+          "measure": 164,
+          "clear": 754,
+          "clear_success": 16,
+          "clear_failure": 738,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.04040311599965207,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 920,
+        "cleared": 16,
+        "virtual_time_s": 11731.668480866121
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41001_spatial_hash",
+      "family": "outward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 13867.761311,
+        "components": {
+          "movement_s": 10723.761319252639,
+          "switch_s": 438.0,
+          "detection_s": 2350.0,
+          "optical_s": 336.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8751.60065729027,
+          "localize": 3197.860178496157,
+          "certified_clear": 66.9484207202531,
+          "optical_fallback": 1851.352062745887
+        },
+        "counts": {
+          "measure": 470,
+          "clear": 112,
+          "clear_success": 10,
+          "clear_failure": 102,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.020161151995125692,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 584,
+        "cleared": 10,
+        "virtual_time_s": 13867.761319252642
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41001_spatial_hash",
+      "family": "outward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 10912.076403,
+        "components": {
+          "movement_s": 7811.076419628507,
+          "switch_s": 421.0,
+          "detection_s": 2255.0,
+          "optical_s": 405.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8748.202382592444,
+          "optical_fallback": 2163.8740370360797
+        },
+        "counts": {
+          "measure": 451,
+          "clear": 135,
+          "clear_success": 10,
+          "clear_failure": 125,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.0199299859959865,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 588,
+        "cleared": 10,
+        "virtual_time_s": 10912.076419628513
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41002_spatial_hash",
+      "family": "inward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 8055.603923,
+        "components": {
+          "movement_s": 6461.603919452633,
+          "switch_s": 223.0,
+          "detection_s": 1195.0,
+          "optical_s": 144.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 4503.367642187326,
+          "localize": 1672.8015623080507,
+          "optical_fallback": 1714.560014439358,
+          "certified_clear": 164.87470051789612
+        },
+        "counts": {
+          "measure": 239,
+          "clear": 48,
+          "clear_success": 16,
+          "clear_failure": 32,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.01515611499780789,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 289,
+        "cleared": 16,
+        "virtual_time_s": 8055.603919452632
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41002_spatial_hash",
+      "family": "inward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 10692.141299,
+        "components": {
+          "movement_s": 7717.141341256906,
+          "switch_s": 205.0,
+          "detection_s": 1115.0,
+          "optical_s": 1623.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 4493.098803882065,
+          "optical_fallback": 6199.042537374836
+        },
+        "counts": {
+          "measure": 223,
+          "clear": 541,
+          "clear_success": 16,
+          "clear_failure": 525,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.03335515299841063,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 766,
+        "cleared": 16,
+        "virtual_time_s": 10692.141341256844
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41003_spatial_hash",
+      "family": "tangent",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11476.109111,
+        "components": {
+          "movement_s": 9296.10911658802,
+          "switch_s": 315.0,
+          "detection_s": 1700.0,
+          "optical_s": 135.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8202.129010034772,
+          "localize": 1750.7194431439889,
+          "optical_fallback": 1094.16205682489,
+          "certified_clear": 429.09860658437424
+        },
+        "counts": {
+          "measure": 340,
+          "clear": 45,
+          "clear_success": 15,
+          "clear_failure": 30,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.01962102200195659,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 387,
+        "cleared": 15,
+        "virtual_time_s": 11476.109116588039
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41003_spatial_hash",
+      "family": "tangent",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11119.225776,
+        "components": {
+          "movement_s": 8370.22578021578,
+          "switch_s": 295.0,
+          "detection_s": 1620.0,
+          "optical_s": 804.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8202.500949203239,
+          "optical_fallback": 2916.7248310125615
+        },
+        "counts": {
+          "measure": 324,
+          "clear": 268,
+          "clear_success": 15,
+          "clear_failure": 253,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02414704400143819,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 594,
+        "cleared": 15,
+        "virtual_time_s": 11119.225780215786
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41004_spatial_hash",
+      "family": "cluster",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 11529.795185,
+        "components": {
+          "movement_s": 9443.795182598433,
+          "switch_s": 292.0,
+          "detection_s": 1605.0,
+          "optical_s": 165.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7472.801109045338,
+          "localize": 2451.1921613881796,
+          "optical_fallback": 1533.8842373095022,
+          "certified_clear": 71.91767485541668
+        },
+        "counts": {
+          "measure": 321,
+          "clear": 55,
+          "clear_success": 12,
+          "clear_failure": 43,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.018008819002716336,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 378,
+        "cleared": 12,
+        "virtual_time_s": 11529.795182598444
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41004_spatial_hash",
+      "family": "cluster",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 13145.768143,
+        "components": {
+          "movement_s": 9812.76795784563,
+          "switch_s": 275.0,
+          "detection_s": 1525.0,
+          "optical_s": 1509.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7473.525654628375,
+          "optical_fallback": 5672.242303217281
+        },
+        "counts": {
+          "measure": 305,
+          "clear": 503,
+          "clear_success": 12,
+          "clear_failure": 491,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.04750855599559145,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 810,
+        "cleared": 12,
+        "virtual_time_s": 13145.76795784567
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41005_spatial_hash",
+      "family": "edge",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 10950.930116,
+        "components": {
+          "movement_s": 8852.930116442973,
+          "switch_s": 313.0,
+          "detection_s": 1695.0,
+          "optical_s": 66.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8479.587540278699,
+          "localize": 1294.7843599897049,
+          "optical_fallback": 803.9390017662838,
+          "certified_clear": 372.6192144082839
+        },
+        "counts": {
+          "measure": 339,
+          "clear": 22,
+          "clear_success": 12,
+          "clear_failure": 10,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.018408023002848495,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 363,
+        "cleared": 12,
+        "virtual_time_s": 10950.93011644297
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41005_spatial_hash",
+      "family": "edge",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 12704.983543,
+        "components": {
+          "movement_s": 9541.983563609987,
+          "switch_s": 298.0,
+          "detection_s": 1635.0,
+          "optical_s": 1206.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8476.010325632342,
+          "optical_fallback": 4228.973237977611
+        },
+        "counts": {
+          "measure": 327,
+          "clear": 402,
+          "clear_success": 12,
+          "clear_failure": 390,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.03313804400386289,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 731,
+        "cleared": 12,
+        "virtual_time_s": 12704.983563609989
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41006_spatial_hash",
+      "family": "uniform",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 11136.704168,
+        "components": {
+          "movement_s": 8928.704166957601,
+          "switch_s": 335.0,
+          "detection_s": 1815.0,
+          "optical_s": 36.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8198.901604202943,
+          "localize": 1943.9858553937631,
+          "optical_fallback": 785.455874745896,
+          "certified_clear": 208.3608326149974
+        },
+        "counts": {
+          "measure": 363,
+          "clear": 12,
+          "clear_success": 11,
+          "clear_failure": 1,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.030070865999732632,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 377,
+        "cleared": 11,
+        "virtual_time_s": 11136.704166957601
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41006_spatial_hash",
+      "family": "uniform",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 12231.644366,
+        "components": {
+          "movement_s": 9038.64425864512,
+          "switch_s": 321.0,
+          "detection_s": 1755.0,
+          "optical_s": 1095.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8201.674900651087,
+          "optical_fallback": 4029.9693579940113
+        },
+        "counts": {
+          "measure": 351,
+          "clear": 365,
+          "clear_success": 11,
+          "clear_failure": 354,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.031780621997313574,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 718,
+        "cleared": 11,
+        "virtual_time_s": 12231.644258645118
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41007_spatial_hash",
+      "family": "outward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 13,
+      "total": 13,
+      "metrics": {
+        "virtual_time_s": 13662.073612,
+        "components": {
+          "movement_s": 10971.073598108194,
+          "switch_s": 361.0,
+          "detection_s": 1980.0,
+          "optical_s": 324.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7707.889034868591,
+          "localize": 3864.7557669353773,
+          "optical_fallback": 2026.6713595989152,
+          "certified_clear": 62.757436705320075
+        },
+        "counts": {
+          "measure": 396,
+          "clear": 108,
+          "clear_success": 13,
+          "clear_failure": 95,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.021605276997433975,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 506,
+        "cleared": 13,
+        "virtual_time_s": 13662.073598108194
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41007_spatial_hash",
+      "family": "outward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 13,
+      "total": 13,
+      "metrics": {
+        "virtual_time_s": 11992.606492,
+        "components": {
+          "movement_s": 8598.606486785528,
+          "switch_s": 340.0,
+          "detection_s": 1855.0,
+          "optical_s": 1173.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7707.471832854798,
+          "optical_fallback": 4285.134653930759
+        },
+        "counts": {
+          "measure": 371,
+          "clear": 391,
+          "clear_success": 13,
+          "clear_failure": 378,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.03036662399972556,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 764,
+        "cleared": 13,
+        "virtual_time_s": 11992.606486785535
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41008_spatial_hash",
+      "family": "inward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 8400.009738,
+        "components": {
+          "movement_s": 6724.009741810217,
+          "switch_s": 247.0,
+          "detection_s": 1310.0,
+          "optical_s": 87.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 4814.244454786636,
+          "localize": 1957.9163698476877,
+          "certified_clear": 240.51977696598297,
+          "optical_fallback": 1387.3291402099076
+        },
+        "counts": {
+          "measure": 262,
+          "clear": 29,
+          "clear_success": 16,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.01723353700072039,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 293,
+        "cleared": 16,
+        "virtual_time_s": 8400.009741810216
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41008_spatial_hash",
+      "family": "inward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 10261.368423,
+        "components": {
+          "movement_s": 7394.368364013249,
+          "switch_s": 228.0,
+          "detection_s": 1230.0,
+          "optical_s": 1377.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 4808.694875295524,
+          "optical_fallback": 5452.673488717724
+        },
+        "counts": {
+          "measure": 246,
+          "clear": 459,
+          "clear_success": 16,
+          "clear_failure": 443,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025774917005037423,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 707,
+        "cleared": 16,
+        "virtual_time_s": 10261.368364013251
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41009_spatial_hash",
+      "family": "tangent",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 11494.023806,
+        "components": {
+          "movement_s": 9300.02377898358,
+          "switch_s": 296.0,
+          "detection_s": 1590.0,
+          "optical_s": 276.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 6944.7210507152495,
+          "localize": 2460.470676105334,
+          "optical_fallback": 1513.2921247779998,
+          "certified_clear": 575.5399273849779
+        },
+        "counts": {
+          "measure": 318,
+          "clear": 92,
+          "clear_success": 16,
+          "clear_failure": 76,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.01889544300502166,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 412,
+        "cleared": 16,
+        "virtual_time_s": 11494.023778983577
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41009_spatial_hash",
+      "family": "tangent",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 7551.885841,
+        "components": {
+          "movement_s": 5119.885862949467,
+          "switch_s": 237.0,
+          "detection_s": 1275.0,
+          "optical_s": 888.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 4218.5111372139445,
+          "optical_fallback": 3333.3747257355303
+        },
+        "counts": {
+          "measure": 255,
+          "clear": 296,
+          "clear_success": 16,
+          "clear_failure": 280,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025321712004370056,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 553,
+        "cleared": 16,
+        "virtual_time_s": 7551.885862949476
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41010_spatial_hash",
+      "family": "cluster",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 10544.160654,
+        "components": {
+          "movement_s": 8904.160645866716,
+          "switch_s": 227.0,
+          "detection_s": 1270.0,
+          "optical_s": 111.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 5744.489369244407,
+          "localize": 3261.99268636547,
+          "optical_fallback": 975.914692798009,
+          "certified_clear": 561.7638974588308
+        },
+        "counts": {
+          "measure": 254,
+          "clear": 37,
+          "clear_success": 16,
+          "clear_failure": 21,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.016378542000893503,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 293,
+        "cleared": 16,
+        "virtual_time_s": 10544.160645866716
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41010_spatial_hash",
+      "family": "cluster",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 12724.09541,
+        "components": {
+          "movement_s": 9403.095178884687,
+          "switch_s": 207.0,
+          "detection_s": 1150.0,
+          "optical_s": 1932.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 5741.178999775756,
+          "optical_fallback": 6982.916179108942
+        },
+        "counts": {
+          "measure": 230,
+          "clear": 644,
+          "clear_success": 16,
+          "clear_failure": 628,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.03024448300129734,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 876,
+        "cleared": 16,
+        "virtual_time_s": 12724.095178884576
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41011_spatial_hash",
+      "family": "edge",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11959.253513,
+        "components": {
+          "movement_s": 10140.25351037455,
+          "switch_s": 256.0,
+          "detection_s": 1410.0,
+          "optical_s": 123.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8009.246889876392,
+          "localize": 2170.4342776653734,
+          "optical_fallback": 1641.3613261403073,
+          "certified_clear": 138.2110166924753
+        },
+        "counts": {
+          "measure": 282,
+          "clear": 41,
+          "clear_success": 15,
+          "clear_failure": 26,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.0207394229946658,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 325,
+        "cleared": 15,
+        "virtual_time_s": 11959.253510374554
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41011_spatial_hash",
+      "family": "edge",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 12318.599528,
+        "components": {
+          "movement_s": 9593.599510880727,
+          "switch_s": 244.0,
+          "detection_s": 1365.0,
+          "optical_s": 1086.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7841.486369372995,
+          "optical_fallback": 4477.113141507726
+        },
+        "counts": {
+          "measure": 273,
+          "clear": 362,
+          "clear_success": 15,
+          "clear_failure": 347,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.029550872997788247,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 637,
+        "cleared": 15,
+        "virtual_time_s": 12318.599510880684
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41012_spatial_hash",
+      "family": "uniform",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 9281.613622,
+        "components": {
+          "movement_s": 7886.613624968221,
+          "switch_s": 194.0,
+          "detection_s": 1085.0,
+          "optical_s": 84.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 5191.830203449186,
+          "localize": 2715.8065272885806,
+          "certified_clear": 606.1636317197572,
+          "optical_fallback": 767.8132625106975
+        },
+        "counts": {
+          "measure": 217,
+          "clear": 28,
+          "clear_success": 16,
+          "clear_failure": 12,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.0168064300014521,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 247,
+        "cleared": 16,
+        "virtual_time_s": 9281.61362496822
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41012_spatial_hash",
+      "family": "uniform",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 10998.897537,
+        "components": {
+          "movement_s": 8257.897379247152,
+          "switch_s": 172.0,
+          "detection_s": 980.0,
+          "optical_s": 1557.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 5188.459727399279,
+          "optical_fallback": 5810.437651847916
+        },
+        "counts": {
+          "measure": 196,
+          "clear": 519,
+          "clear_success": 16,
+          "clear_failure": 503,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.029431617993395776,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 717,
+        "cleared": 16,
+        "virtual_time_s": 10998.897379247159
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41013_spatial_hash",
+      "family": "outward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 12928.091929,
+        "components": {
+          "movement_s": 10187.091945036755,
+          "switch_s": 391.0,
+          "detection_s": 2130.0,
+          "optical_s": 198.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8180.046713612617,
+          "localize": 3189.1441698149183,
+          "optical_fallback": 1348.768034711318,
+          "certified_clear": 210.1330268978999
+        },
+        "counts": {
+          "measure": 426,
+          "clear": 66,
+          "clear_success": 11,
+          "clear_failure": 55,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.020166000998870004,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 494,
+        "cleared": 11,
+        "virtual_time_s": 12928.091945036755
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41013_spatial_hash",
+      "family": "outward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 11104.182577,
+        "components": {
+          "movement_s": 7978.182580840563,
+          "switch_s": 374.0,
+          "detection_s": 2025.0,
+          "optical_s": 705.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8178.121059655668,
+          "optical_fallback": 2926.061521184907
+        },
+        "counts": {
+          "measure": 405,
+          "clear": 235,
+          "clear_success": 11,
+          "clear_failure": 224,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025277938999352045,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 642,
+        "cleared": 11,
+        "virtual_time_s": 11104.18258084057
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41014_spatial_hash",
+      "family": "inward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 11529.51425,
+        "components": {
+          "movement_s": 9016.514250014114,
+          "switch_s": 379.0,
+          "detection_s": 2025.0,
+          "optical_s": 87.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 9040.715105385718,
+          "localize": 1320.7065876228967,
+          "optical_fallback": 1025.8364892472378,
+          "certified_clear": 142.2560677582581
+        },
+        "counts": {
+          "measure": 405,
+          "clear": 29,
+          "clear_success": 11,
+          "clear_failure": 18,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.021134118003828917,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 436,
+        "cleared": 11,
+        "virtual_time_s": 11529.514250014108
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41014_spatial_hash",
+      "family": "inward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 11,
+      "total": 11,
+      "metrics": {
+        "virtual_time_s": 12568.270241,
+        "components": {
+          "movement_s": 9270.27025079044,
+          "switch_s": 363.0,
+          "detection_s": 1965.0,
+          "optical_s": 948.0,
+          "laser_s": 22.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 9036.518468853526,
+          "optical_fallback": 3531.751781936901
+        },
+        "counts": {
+          "measure": 393,
+          "clear": 316,
+          "clear_success": 11,
+          "clear_failure": 305,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02461919599591056,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 711,
+        "cleared": 11,
+        "virtual_time_s": 12568.270250790441
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41015_spatial_hash",
+      "family": "tangent",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 14,
+      "total": 14,
+      "metrics": {
+        "virtual_time_s": 11114.642652,
+        "components": {
+          "movement_s": 8846.642653033647,
+          "switch_s": 334.0,
+          "detection_s": 1795.0,
+          "optical_s": 111.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7852.06849855517,
+          "localize": 1802.9442359726,
+          "optical_fallback": 1252.8650037408295,
+          "certified_clear": 206.76491476504566
+        },
+        "counts": {
+          "measure": 359,
+          "clear": 37,
+          "clear_success": 14,
+          "clear_failure": 23,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.017421580996597186,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 398,
+        "cleared": 14,
+        "virtual_time_s": 11114.642653033643
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41015_spatial_hash",
+      "family": "tangent",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 14,
+      "total": 14,
+      "metrics": {
+        "virtual_time_s": 12834.397214,
+        "components": {
+          "movement_s": 9413.397168421594,
+          "switch_s": 314.0,
+          "detection_s": 1720.0,
+          "optical_s": 1359.0,
+          "laser_s": 28.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7843.186984462203,
+          "optical_fallback": 4991.210183959388
+        },
+        "counts": {
+          "measure": 344,
+          "clear": 453,
+          "clear_success": 14,
+          "clear_failure": 439,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025979593003285117,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 799,
+        "cleared": 14,
+        "virtual_time_s": 12834.397168421565
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41016_spatial_hash",
+      "family": "cluster",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 11384.595528,
+        "components": {
+          "movement_s": 9258.595522771926,
+          "switch_s": 307.0,
+          "detection_s": 1690.0,
+          "optical_s": 105.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7803.079610196962,
+          "localize": 2347.190265170937,
+          "optical_fallback": 895.0851561287213,
+          "certified_clear": 339.2404912753086
+        },
+        "counts": {
+          "measure": 338,
+          "clear": 35,
+          "clear_success": 12,
+          "clear_failure": 23,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.016221284997300245,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 375,
+        "cleared": 12,
+        "virtual_time_s": 11384.595522771924
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41016_spatial_hash",
+      "family": "cluster",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 12,
+      "total": 12,
+      "metrics": {
+        "virtual_time_s": 12110.493956,
+        "components": {
+          "movement_s": 9134.49384752632,
+          "switch_s": 291.0,
+          "detection_s": 1605.0,
+          "optical_s": 1056.0,
+          "laser_s": 24.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7803.295553023719,
+          "optical_fallback": 4307.1982945025975
+        },
+        "counts": {
+          "measure": 321,
+          "clear": 352,
+          "clear_success": 12,
+          "clear_failure": 340,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02287912100291578,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 675,
+        "cleared": 12,
+        "virtual_time_s": 12110.493847526317
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41017_spatial_hash",
+      "family": "edge",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 10639.707812,
+        "components": {
+          "movement_s": 7945.707814321284,
+          "switch_s": 415.0,
+          "detection_s": 2205.0,
+          "optical_s": 54.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8299.97056705159,
+          "localize": 1337.4273072227932,
+          "optical_fallback": 788.3315016571604,
+          "certified_clear": 213.97843838974097
+        },
+        "counts": {
+          "measure": 441,
+          "clear": 18,
+          "clear_success": 10,
+          "clear_failure": 8,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.017054158000973985,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 461,
+        "cleared": 10,
+        "virtual_time_s": 10639.707814321286
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41017_spatial_hash",
+      "family": "edge",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 11308.253323,
+        "components": {
+          "movement_s": 7946.253277855892,
+          "switch_s": 400.0,
+          "detection_s": 2150.0,
+          "optical_s": 792.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8294.117288426094,
+          "optical_fallback": 3014.135989429773
+        },
+        "counts": {
+          "measure": 430,
+          "clear": 264,
+          "clear_success": 10,
+          "clear_failure": 254,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.022559908997209277,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 696,
+        "cleared": 10,
+        "virtual_time_s": 11308.253277855883
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41018_spatial_hash",
+      "family": "uniform",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 13,
+      "total": 13,
+      "metrics": {
+        "virtual_time_s": 11915.187909,
+        "components": {
+          "movement_s": 10059.187901363968,
+          "switch_s": 261.0,
+          "detection_s": 1455.0,
+          "optical_s": 114.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 8071.453137106268,
+          "localize": 2454.7097868281244,
+          "optical_fallback": 1240.5825339772384,
+          "certified_clear": 148.44244345233653
+        },
+        "counts": {
+          "measure": 291,
+          "clear": 38,
+          "clear_success": 13,
+          "clear_failure": 25,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.017989412997849286,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 331,
+        "cleared": 13,
+        "virtual_time_s": 11915.187901363966
+      },
+      "failure": null
+    },
+    {
+      "case_id": "uniform_41018_spatial_hash",
+      "family": "uniform",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 13,
+      "total": 13,
+      "metrics": {
+        "virtual_time_s": 12872.675173,
+        "components": {
+          "movement_s": 9936.675103022444,
+          "switch_s": 240.0,
+          "detection_s": 1350.0,
+          "optical_s": 1320.0,
+          "laser_s": 26.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7793.6847656992795,
+          "optical_fallback": 5078.990337323181
+        },
+        "counts": {
+          "measure": 270,
+          "clear": 440,
+          "clear_success": 13,
+          "clear_failure": 427,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.03370591600105399,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 712,
+        "cleared": 13,
+        "virtual_time_s": 12872.675103022484
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41019_spatial_hash",
+      "family": "outward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 15143.846014,
+        "components": {
+          "movement_s": 12560.845982292558,
+          "switch_s": 312.0,
+          "detection_s": 1735.0,
+          "optical_s": 504.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7410.301964485006,
+          "localize": 4716.238032306541,
+          "optical_fallback": 2950.693410706774,
+          "certified_clear": 66.61257479418444
+        },
+        "counts": {
+          "measure": 347,
+          "clear": 168,
+          "clear_success": 16,
+          "clear_failure": 152,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.022972598002525046,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 517,
+        "cleared": 16,
+        "virtual_time_s": 15143.845982292556
+      },
+      "failure": null
+    },
+    {
+      "case_id": "outward_41019_spatial_hash",
+      "family": "outward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 16,
+      "total": 16,
+      "metrics": {
+        "virtual_time_s": 10944.464044,
+        "components": {
+          "movement_s": 8235.46407093116,
+          "switch_s": 288.0,
+          "detection_s": 1585.0,
+          "optical_s": 804.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7411.639930732291,
+          "optical_fallback": 3532.8241401988885
+        },
+        "counts": {
+          "measure": 317,
+          "clear": 268,
+          "clear_success": 16,
+          "clear_failure": 252,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025258292000216898,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 587,
+        "cleared": 16,
+        "virtual_time_s": 10944.464070931166
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41020_spatial_hash",
+      "family": "inward",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 10803.230632,
+        "components": {
+          "movement_s": 8813.230631085895,
+          "switch_s": 298.0,
+          "detection_s": 1605.0,
+          "optical_s": 57.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7902.602815240325,
+          "localize": 1583.8637958781437,
+          "optical_fallback": 911.3339743457859,
+          "certified_clear": 405.4300456216395
+        },
+        "counts": {
+          "measure": 321,
+          "clear": 19,
+          "clear_success": 15,
+          "clear_failure": 4,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.017801729001803324,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 342,
+        "cleared": 15,
+        "virtual_time_s": 10803.230631085891
+      },
+      "failure": null
+    },
+    {
+      "case_id": "inward_41020_spatial_hash",
+      "family": "inward",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11634.446844,
+        "components": {
+          "movement_s": 8744.4468302034,
+          "switch_s": 276.0,
+          "detection_s": 1525.0,
+          "optical_s": 1059.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7895.921160356944,
+          "optical_fallback": 3738.5256698464755
+        },
+        "counts": {
+          "measure": 305,
+          "clear": 353,
+          "clear_success": 15,
+          "clear_failure": 338,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02691506900009699,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 660,
+        "cleared": 15,
+        "virtual_time_s": 11634.446830203422
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41021_spatial_hash",
+      "family": "tangent",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 10763.193687,
+        "components": {
+          "movement_s": 8961.19368328997,
+          "switch_s": 263.0,
+          "detection_s": 1425.0,
+          "optical_s": 84.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7299.765800269587,
+          "localize": 2144.197980942432,
+          "optical_fallback": 833.2479447233327,
+          "certified_clear": 485.9819573546197
+        },
+        "counts": {
+          "measure": 285,
+          "clear": 28,
+          "clear_success": 15,
+          "clear_failure": 13,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.017647327003942337,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 315,
+        "cleared": 15,
+        "virtual_time_s": 10763.193683289966
+      },
+      "failure": null
+    },
+    {
+      "case_id": "tangent_41021_spatial_hash",
+      "family": "tangent",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11379.005541,
+        "components": {
+          "movement_s": 8676.005522488676,
+          "switch_s": 239.0,
+          "detection_s": 1345.0,
+          "optical_s": 1089.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7291.630321549815,
+          "optical_fallback": 4087.375200938863
+        },
+        "counts": {
+          "measure": 269,
+          "clear": 363,
+          "clear_success": 15,
+          "clear_failure": 348,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.02478562900068937,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 634,
+        "cleared": 15,
+        "virtual_time_s": 11379.005522488676
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41022_spatial_hash",
+      "family": "cluster",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 11828.26166,
+        "components": {
+          "movement_s": 10044.26163191744,
+          "switch_s": 220.0,
+          "detection_s": 1255.0,
+          "optical_s": 279.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7153.754685937801,
+          "localize": 2472.2302319381115,
+          "optical_fallback": 1928.955122217614,
+          "certified_clear": 273.3215918239126
+        },
+        "counts": {
+          "measure": 251,
+          "clear": 93,
+          "clear_success": 15,
+          "clear_failure": 78,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.025340697000501677,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 346,
+        "cleared": 15,
+        "virtual_time_s": 11828.261631917449
+      },
+      "failure": null
+    },
+    {
+      "case_id": "cluster_41022_spatial_hash",
+      "family": "cluster",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 15,
+      "total": 15,
+      "metrics": {
+        "virtual_time_s": 13576.76324,
+        "components": {
+          "movement_s": 10507.763019158821,
+          "switch_s": 201.0,
+          "detection_s": 1155.0,
+          "optical_s": 1683.0,
+          "laser_s": 30.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 7146.588336187319,
+          "optical_fallback": 6430.174682971584
+        },
+        "counts": {
+          "measure": 231,
+          "clear": 561,
+          "clear_success": 15,
+          "clear_failure": 546,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.0273903560009785,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 794,
+        "cleared": 15,
+        "virtual_time_s": 13576.763019158847
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41023_spatial_hash",
+      "family": "edge",
+      "config": "BASE",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 11168.359641,
+        "components": {
+          "movement_s": 8567.359638269834,
+          "switch_s": 402.0,
+          "detection_s": 2140.0,
+          "optical_s": 39.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 9077.160784871649,
+          "localize": 1165.1767399413764,
+          "optical_fallback": 795.4477749704722,
+          "certified_clear": 130.57433848633312
+        },
+        "counts": {
+          "measure": 428,
+          "clear": 13,
+          "clear_success": 10,
+          "clear_failure": 3,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.016023261996451765,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 443,
+        "cleared": 10,
+        "virtual_time_s": 11168.359638269832
+      },
+      "failure": null
+    },
+    {
+      "case_id": "edge_41023_spatial_hash",
+      "family": "edge",
+      "config": "OPTICAL",
+      "status": "complete",
+      "cleared": 10,
+      "total": 10,
+      "metrics": {
+        "virtual_time_s": 12597.391218,
+        "components": {
+          "movement_s": 9043.391274926234,
+          "switch_s": 388.0,
+          "detection_s": 2090.0,
+          "optical_s": 1056.0,
+          "laser_s": 20.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 9073.551161760115,
+          "optical_fallback": 3523.840113166108
+        },
+        "counts": {
+          "measure": 418,
+          "clear": 352,
+          "clear_success": 10,
+          "clear_failure": 342,
+          "retries": 0
+        }
+      },
+      "elapsed_s": 0.04409935200237669,
+      "audit": {
+        "passed": true,
+        "accepted_actions": 772,
+        "cleared": 10,
+        "virtual_time_s": 12597.391274926229
+      },
+      "failure": null
+    }
+  ],
+  "platform": "Linux-6.17.0-40-generic-x86_64-with-glibc2.39",
+  "elapsed_s": 1.4417044630026794
+}

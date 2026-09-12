@@ -1,0 +1,22 @@
+{
+  "REF": {
+    "scheduling": "route"
+  },
+  "SKIP": {
+    "scheduling": "route",
+    "scan_known": "certified"
+  },
+  "NONE": {
+    "scheduling": "route",
+    "scan_known": "none"
+  },
+  "RADIAL": {
+    "scheduling": "route",
+    "mesh_kind": "radial"
+  },
+  "RADIAL_SKIP": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified"
+  }
+}

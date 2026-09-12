@@ -1,0 +1,116 @@
+[
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/BASE25/uniform_4c920b65f2c8599c__positive__bounded",
+    "source_actions_sha256": "e7aea3b02ed86cefd6c8837b822e8dc23b4bb469efbd1999906311921fb48156",
+    "source_result_sha256": "800e4734f9f204b83105be437e9348e92f5379785b501057ab17ec78dc05c487",
+    "config": {
+      "family": "baseline"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 216,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  },
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/BASE25/outward_6ae342c484d8ba19__positive__bounded",
+    "source_actions_sha256": "a8706758c2a0819279e0f51700fb3ae30da82790cd0d866692e13ac2227819e5",
+    "source_result_sha256": "0b607f20df01519170dc6b5e78b8978790398301a074cbeb222cfaf73f7bbf1f",
+    "config": {
+      "family": "baseline"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 597,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  },
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/BASE25/uniform_4c920b65f2c8599c__smooth__pre_round_stress",
+    "source_actions_sha256": "053d622c85310c5113c22a13cd98877c791d3d2ff0f639abc8734cb623eb5e8e",
+    "source_result_sha256": "6ac4216038d3eb58eb96e1289b7352e533978273ee2998d506bcb055d5abceef",
+    "config": {
+      "family": "baseline"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 216,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  },
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/COVER_EXCHANGE_ELASTIC/uniform_4c920b65f2c8599c__positive__bounded",
+    "source_actions_sha256": "4702e70aa350e81af8edd302b45b43738f315288a1ee7a76ee684069c71a4a15",
+    "source_result_sha256": "f75f7f1a2be93c46a96f3e95d9db9ff6d09f77e3eb9fb1bec7d3190ef31938ec",
+    "config": {
+      "family": "coverage",
+      "mechanism": "exchange_elastic",
+      "certificate": "cells"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 319,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  },
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/COVER_EXCHANGE_ELASTIC/outward_6ae342c484d8ba19__positive__bounded",
+    "source_actions_sha256": "2cbb7bea09bf51c111a56f30e5cdc869faf96002e2a313f06f6896a66d62c084",
+    "source_result_sha256": "820ddc189b34bab173903b60a388231f3fcdfc3fa1860f513de1c346ddc49ab1",
+    "config": {
+      "family": "coverage",
+      "mechanism": "exchange_elastic",
+      "certificate": "cells"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 597,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  },
+  {
+    "source_directory": "/home/fangyan/projects/MCM-B/paper_evidence/q4_mechanism_reset_20260912/final_validation/COVER_EXCHANGE_ELASTIC/uniform_4c920b65f2c8599c__smooth__pre_round_stress",
+    "source_actions_sha256": "5f5156c9a88bf2aff58c7531c441aa3e15fc27343c336089294a386cfb917f0a",
+    "source_result_sha256": "70ca0b8bde2519b9bd85a18e3d899b08dd82fb9261064d5933dd136caa8733b2",
+    "config": {
+      "family": "coverage",
+      "mechanism": "exchange_elastic",
+      "certificate": "cells"
+    },
+    "source_truth_or_simulator_provided": false,
+    "hidden_case_file_read": false,
+    "static_scan_passed": true,
+    "passed": true,
+    "actions": 244,
+    "all_positions_channels_exact": true,
+    "cleared_equal": true,
+    "metrics_equal": true,
+    "stop_certificate_equal": true,
+    "phases_equal": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "REF25": {
+    "mean_s": 7500.867084791668,
+    "p95_s": 10080.299865699999,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5409.783751856127,
+      "switch_s": 312.2083333333333,
+      "detection_s": 1665.2083333333333,
+      "optical_s": 86.5,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  },
+  "COMPACT22": {
+    "mean_s": 7332.689801791666,
+    "p95_s": 9113.7013762,
+    "gain_ratio_of_means_pct": 2.2421045606979106,
+    "mean_paired_gain_pct": 1.5313345554632898,
+    "worst_gain_pct": -20.597427364731452,
+    "complete": 24,
+    "cases": 24,
+    "components": {
+      "movement_s": 5485.731470794922,
+      "switch_s": 270.625,
+      "detection_s": 1441.0416666666667,
+      "optical_s": 108.125,
+      "laser_s": 27.166666666666668
+    },
+    "failures": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "REF": {
+    "mean_s": 7271.982699654762,
+    "p95_s": 9126.566254899999,
+    "gain_ratio_of_means_pct": 0.0,
+    "mean_paired_gain_pct": 0.0,
+    "worst_gain_pct": 0.0,
+    "complete": 84,
+    "cases": 84,
+    "components": {
+      "movement_s": 5414.53031874884,
+      "switch_s": 269.1190476190476,
+      "detection_s": 1433.8095238095239,
+      "optical_s": 128.0,
+      "laser_s": 26.523809523809526
+    },
+    "failures": []
+  },
+  "CENTROID": {
+    "mean_s": 6835.78713047619,
+    "p95_s": 8891.4404313,
+    "gain_ratio_of_means_pct": 5.998303175271302,
+    "mean_paired_gain_pct": 5.760964402267801,
+    "worst_gain_pct": -12.761903523788698,
+    "complete": 84,
+    "cases": 84,
+    "components": {
+      "movement_s": 4919.679987436897,
+      "switch_s": 280.67857142857144,
+      "detection_s": 1500.297619047619,
+      "optical_s": 108.60714285714286,
+      "laser_s": 26.523809523809526
+    },
+    "failures": []
+  },
+  "CENTROID_COUNT": {
+    "mean_s": 6795.801406869048,
+    "p95_s": 8891.4404313,
+    "gain_ratio_of_means_pct": 6.548163168874432,
+    "mean_paired_gain_pct": 6.389268948438162,
+    "worst_gain_pct": -9.34899981065705,
+    "complete": 84,
+    "cases": 84,
+    "components": {
+      "movement_s": 4899.063311416429,
+      "switch_s": 277.7738095238095,
+      "detection_s": 1483.8690476190477,
+      "optical_s": 108.57142857142857,
+      "laser_s": 26.523809523809526
+    },
+    "failures": []
+  },
+  "COST": {
+    "mean_s": 7321.786059642856,
+    "p95_s": 9596.035628049998,
+    "gain_ratio_of_means_pct": -0.6848663156261203,
+    "mean_paired_gain_pct": -0.986205388600967,
+    "worst_gain_pct": -26.439137588233443,
+    "complete": 84,
+    "cases": 84,
+    "components": {
+      "movement_s": 5559.202725959359,
+      "switch_s": 252.27380952380952,
+      "detection_s": 1348.5714285714287,
+      "optical_s": 135.21428571428572,
+      "laser_s": 26.523809523809526
+    },
+    "failures": []
+  }
+}

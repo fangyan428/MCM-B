@@ -1,0 +1,99 @@
+{
+  "code_sha256": {
+    "question3/interface.py": "5ada7419a9f5812c4f1553c99a2c7b8acc7aa1296ed2d2111a89b9c7756ad71d",
+    "question4/__init__.py": "6fa0336b7cf9f3f07f811ee2ba39cc1d7f2edf13efba3511a87d3df313a17da0",
+    "question4/audit.py": "00a03544213f3d3817a76492ef243e10dbca5ae242d9cee3ace4091259e13a8b",
+    "question4/build_cover.py": "7dfc8a1f19448f5e75c0941adbf6653a66f4cf4058a2bd218599a553e6c81455",
+    "question4/cases.py": "6ffac7272734cd5fedb987865e6e0977ded3f8639358b5d1a8752c05bbe0ed96",
+    "question4/certificates/compact22.json": "0623f57deaf4f6f5762a5ef2fb09c22b73a66f9c0247316216863198691148f8",
+    "question4/experiment.py": "b8eb9de5efdbeeedc77c1c8ae64c6296ddcb63f0ae64fda07a7e285536dc602b",
+    "question4/geometry.py": "cb89780e7efa5447a0f0999e45d36082090e27790214077db30af0e48be05243",
+    "question4/routing.py": "dcaa8c8ed826c737135879662f41a2f26c43101443dc32dd4a3e9fcef56178c6",
+    "question4/run_http.py": "5bb64dff295892103d1749f29e1e16a440e0032ae39d8e0bb978450659f5639f",
+    "question4/self_server.py": "0201b4395153b2e248bbebf4f52e72cbb6d86feb31702648bc3005254432800e",
+    "question4/simulator.py": "e8521b114fc864619e50410b44e1abf1b497c86648775dc0c3d5c5f5a1a72dd8",
+    "question4/strategy.py": "0e609ed47df61ee2197c08682c6cf2b419c282a9adf07d9f7c17f70deb91a3ea",
+    "question4/summarize.py": "eee3a0a9b922d743ceaf115cead11ec6d64d261e8cc136f32d7b57dca2d66016"
+  },
+  "configs": {
+    "BASE": {},
+    "FINAL": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true
+    },
+    "NO_COMPACT": {
+      "scheduling": "route",
+      "mesh_kind": "radial",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true
+    },
+    "NO_ROUTE": {
+      "scheduling": "immediate",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true
+    },
+    "NO_CENTROID": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": false,
+      "known_count_stop": true,
+      "scan_information": true
+    },
+    "NO_INFO": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": false
+    },
+    "RELOCATE": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true,
+      "relocate_route": true
+    },
+    "COST": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true,
+      "detection_cost_route": true
+    },
+    "PROBE": {
+      "scheduling": "route",
+      "mesh_kind": "compact",
+      "scan_known": "certified",
+      "centroid_route": true,
+      "known_count_stop": true,
+      "scan_information": true,
+      "centroid_probe": true
+    }
+  },
+  "created_unix": 1789148363.6022618,
+  "stage": "sealed_final_independent",
+  "generator_seed": 91000,
+  "generator_count": 96,
+  "rounding": "bounded",
+  "error_modes": [
+    "spatial_hash",
+    "positive",
+    "negative",
+    "smooth"
+  ]
+}

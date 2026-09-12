@@ -1,0 +1,46 @@
+{
+  "BASE": {
+    "mechanism": "baseline"
+  },
+  "ADAPT_GATED": {
+    "mechanism": "parallax",
+    "sharing": "gated"
+  },
+  "ADAPT_ENTRY": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "optical_order": "nearest_branch"
+  },
+  "ADAPT_SHADOW": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "shadow_skip": true
+  },
+  "ADAPT_ENTRY_SHADOW": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "optical_order": "nearest_branch",
+    "shadow_skip": true
+  },
+  "ADAPT_VALUE_GATE": {
+    "mechanism": "parallax",
+    "sharing": "gated",
+    "adaptive_gate": true
+  },
+  "PAIR_GATED": {
+    "mechanism": "pair",
+    "sharing": "gated"
+  },
+  "PAIR_ENTRY": {
+    "mechanism": "pair",
+    "sharing": "gated",
+    "optical_order": "nearest_branch"
+  },
+  "CENTER": {
+    "mechanism": "center"
+  },
+  "CENTER_BLIND": {
+    "mechanism": "center",
+    "blind_clear": true
+  }
+}

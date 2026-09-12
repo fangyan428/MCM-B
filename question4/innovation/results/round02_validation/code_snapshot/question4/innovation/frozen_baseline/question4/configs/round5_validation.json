@@ -1,0 +1,16 @@
+{
+  "BASE": {},
+  "ROUTE31": {
+    "scheduling": "route"
+  },
+  "RADIAL25": {
+    "scheduling": "route",
+    "mesh_kind": "radial",
+    "scan_known": "certified"
+  },
+  "COMPACT22": {
+    "scheduling": "route",
+    "mesh_kind": "compact",
+    "scan_known": "certified"
+  }
+}

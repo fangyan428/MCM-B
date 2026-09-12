@@ -1,0 +1,15 @@
+{
+  "BASE": {},
+  "ROUTE": {
+    "scheduling": "route"
+  },
+  "ROUTE_R": {
+    "scheduling": "route",
+    "refinement": true
+  },
+  "ROUTE_RC": {
+    "scheduling": "route",
+    "refinement": true,
+    "opportunistic_clear": true
+  }
+}

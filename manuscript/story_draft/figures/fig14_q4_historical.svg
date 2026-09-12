@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="489.6pt" height="252pt" viewBox="0 0 489.6 252" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="489.6pt" height="259.2pt" viewBox="0 0 489.6 259.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-09-12T15:24:57.256099</dc:date>
+    <dc:date>2026-09-12T16:52:27.111691</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,8 +21,8 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 252 
-L 489.6 252 
+   <path d="M 0 259.2 
+L 489.6 259.2 
 L 489.6 0 
 L 0 0 
 z
@@ -30,10 +30,10 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 117.504 206.64 
-L 470.016 206.64 
-L 470.016 17.64 
-L 117.504 17.64 
+    <path d="M 70.992 207.36 
+L 239.924231 207.36 
+L 239.924231 38.88 
+L 70.992 38.88 
 z
 " style="fill: #ffffff"/>
    </g>
@@ -41,231 +41,441 @@ z
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m22922996f7" d="M 0 0 
+       <path id="mf6758247c7" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m22922996f7" x="117.504" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf6758247c7" x="113.225058" y="207.36" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="117.504" y="222.14" transform="rotate(-0 117.504 222.14)">0</text>
+      <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="113.225058" y="221.16" transform="rotate(-0 113.225058 221.16)">31站初始基线</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m22922996f7" x="169.728" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#mf6758247c7" x="197.691174" y="207.36" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="169.728" y="222.14" transform="rotate(-0 169.728 222.14)">2000</text>
+      <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="197.691174" y="221.16" transform="rotate(-0 197.691174 221.16)">25站推荐</text>
      </g>
-    </g>
-    <g id="xtick_3">
-     <g id="line2d_3">
-      <g>
-       <use xlink:href="#m22922996f7" x="221.952" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_3">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="221.952" y="222.14" transform="rotate(-0 221.952 222.14)">4000</text>
-     </g>
-    </g>
-    <g id="xtick_4">
-     <g id="line2d_4">
-      <g>
-       <use xlink:href="#m22922996f7" x="274.176" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_4">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="274.176" y="222.14" transform="rotate(-0 274.176 222.14)">6000</text>
-     </g>
-    </g>
-    <g id="xtick_5">
-     <g id="line2d_5">
-      <g>
-       <use xlink:href="#m22922996f7" x="326.4" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_5">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="326.4" y="222.14" transform="rotate(-0 326.4 222.14)">8000</text>
-     </g>
-    </g>
-    <g id="xtick_6">
-     <g id="line2d_6">
-      <g>
-       <use xlink:href="#m22922996f7" x="378.624" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_6">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="378.624" y="222.14" transform="rotate(-0 378.624 222.14)">10000</text>
-     </g>
-    </g>
-    <g id="xtick_7">
-     <g id="line2d_7">
-      <g>
-       <use xlink:href="#m22922996f7" x="430.848" y="206.64" style="stroke: #000000; stroke-width: 0.8"/>
-      </g>
-     </g>
-     <g id="text_7">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="430.848" y="222.14" transform="rotate(-0 430.848 222.14)">12000</text>
-     </g>
-    </g>
-    <g id="text_8">
-     <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="293.76" y="236.14" transform="rotate(-0 293.76 236.14)">整局虚拟时间均值 (s)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
-     <g id="line2d_8">
+     <g id="line2d_3">
       <defs>
-       <path id="mca9eff3736" d="M 0 0 
+       <path id="m32ce17051d" d="M 0 0 
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mca9eff3736" x="117.504" y="29.930344" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m32ce17051d" x="70.992" y="195.325714" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_9">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="110.504" y="34.180344" transform="rotate(-0 110.504 34.180344)">31站初始基线</text>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="199.575714" transform="rotate(-0 63.992 199.575714)">4000</text>
      </g>
     </g>
     <g id="ytick_2">
-     <g id="line2d_9">
+     <g id="line2d_4">
       <g>
-       <use xlink:href="#mca9eff3736" x="117.504" y="71.035172" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m32ce17051d" x="70.992" y="171.257143" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_10">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="110.504" y="75.285172" transform="rotate(-0 110.504 75.285172)">25站推荐</text>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="175.507143" transform="rotate(-0 63.992 175.507143)">6000</text>
      </g>
     </g>
     <g id="ytick_3">
-     <g id="line2d_10">
+     <g id="line2d_5">
       <g>
-       <use xlink:href="#mca9eff3736" x="117.504" y="112.14" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m32ce17051d" x="70.992" y="147.188571" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_11">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="110.504" y="116.39" transform="rotate(-0 110.504 116.39)">改为22站</text>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="151.438571" transform="rotate(-0 63.992 151.438571)">8000</text>
      </g>
     </g>
     <g id="ytick_4">
-     <g id="line2d_11">
+     <g id="line2d_6">
       <g>
-       <use xlink:href="#mca9eff3736" x="117.504" y="153.244828" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m32ce17051d" x="70.992" y="123.12" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_12">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="110.504" y="157.494828" transform="rotate(-0 110.504 157.494828)">移除重心排序</text>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="127.37" transform="rotate(-0 63.992 127.37)">10000</text>
      </g>
     </g>
     <g id="ytick_5">
-     <g id="line2d_12">
+     <g id="line2d_7">
       <g>
-       <use xlink:href="#mca9eff3736" x="117.504" y="194.349656" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m32ce17051d" x="70.992" y="99.051429" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
-     <g id="text_13">
-      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="110.504" y="198.599656" transform="rotate(-0 110.504 198.599656)">移除信息删减</text>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="103.301429" transform="rotate(-0 63.992 103.301429)">12000</text>
      </g>
     </g>
-   </g>
-   <g id="line2d_13">
-    <path d="M 415.604758 26.230909 
-L 290.910183 67.335737 
-L 300.000039 108.440565 
-L 313.619585 149.545394 
-L 298.905161 190.650222 
-" clip-path="url(#pd91f95c6a6)" style="fill: none"/>
-    <defs>
-     <path id="m17e6b0593e" d="M 0 2.5 
-C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
-C 2.236584 1.29895 2.5 0.663008 2.5 0 
-C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
-C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
-C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
-C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
-C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
-C -1.29895 2.236584 -0.663008 2.5 0 2.5 
-z
-" style="stroke: #227d8d"/>
-    </defs>
-    <g clip-path="url(#pd91f95c6a6)">
-     <use xlink:href="#m17e6b0593e" x="415.604758" y="26.230909" style="fill: #227d8d; stroke: #227d8d"/>
-     <use xlink:href="#m17e6b0593e" x="290.910183" y="67.335737" style="fill: #227d8d; stroke: #227d8d"/>
-     <use xlink:href="#m17e6b0593e" x="300.000039" y="108.440565" style="fill: #227d8d; stroke: #227d8d"/>
-     <use xlink:href="#m17e6b0593e" x="313.619585" y="149.545394" style="fill: #227d8d; stroke: #227d8d"/>
-     <use xlink:href="#m17e6b0593e" x="298.905161" y="190.650222" style="fill: #227d8d; stroke: #227d8d"/>
+    <g id="ytick_6">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m32ce17051d" x="70.992" y="74.982857" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="79.232857" transform="rotate(-0 63.992 79.232857)">14000</text>
+     </g>
     </g>
-   </g>
-   <g id="line2d_14">
-    <path d="M 415.022319 33.629778 
-L 292.315776 74.734606 
-L 298.249957 115.839435 
-L 313.12327 156.944263 
-L 300.294641 198.049091 
-" clip-path="url(#pd91f95c6a6)" style="fill: none"/>
-    <defs>
-     <path id="mf2332df451" d="M -2.5 2.5 
-L 2.5 2.5 
-L 2.5 -2.5 
-L -2.5 -2.5 
-z
-" style="stroke: #b65f35; stroke-linejoin: miter"/>
-    </defs>
-    <g clip-path="url(#pd91f95c6a6)">
-     <use xlink:href="#mf2332df451" x="415.022319" y="33.629778" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
-     <use xlink:href="#mf2332df451" x="292.315776" y="74.734606" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
-     <use xlink:href="#mf2332df451" x="298.249957" y="115.839435" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
-     <use xlink:href="#mf2332df451" x="313.12327" y="156.944263" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
-     <use xlink:href="#mf2332df451" x="300.294641" y="198.049091" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
+    <g id="ytick_7">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m32ce17051d" x="70.992" y="50.914286" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="63.992" y="55.164286" transform="rotate(-0 63.992 55.164286)">16000</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="29.242" y="123.12" transform="rotate(-90 29.242 123.12)">总虚拟时间 (s)</text>
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 117.504 206.64 
-L 117.504 17.64 
-" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 94.220182 111.783968 
+L 132.229934 111.783968 
+L 132.229934 96.728392 
+L 94.220182 96.728392 
+L 94.220182 111.783968 
+z
+" clip-path="url(#pd1ad44af64)" style="fill: #becbd0; opacity: 0.6; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 113.225058 111.783968 
+L 113.225058 127.973521 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 113.225058 96.728392 
+L 113.225058 77.085589 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 103.72262 127.973521 
+L 122.727496 127.973521 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 103.72262 77.085589 
+L 122.727496 77.085589 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <defs>
+     <path id="m5f8af5e4d1" d="M 0 0.75 
+C 0.198902 0.75 0.389685 0.670975 0.53033 0.53033 
+C 0.670975 0.389685 0.75 0.198902 0.75 0 
+C 0.75 -0.198902 0.670975 -0.389685 0.53033 -0.53033 
+C 0.389685 -0.670975 0.198902 -0.75 0 -0.75 
+C -0.198902 -0.75 -0.389685 -0.670975 -0.53033 -0.53033 
+C -0.670975 -0.389685 -0.75 -0.198902 -0.75 0 
+C -0.75 0.198902 -0.670975 0.389685 -0.53033 0.53033 
+C -0.389685 0.670975 -0.198902 0.75 0 0.75 
+z
+" style="stroke: #000000"/>
+    </defs>
+    <g clip-path="url(#pd1ad44af64)">
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="141.172775" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="138.975492" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="174.377722" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="147.787835" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="146.676638" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="166.278019" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="138.909224" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="45.338015" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="113.225058" y="73.367872" style="fill-opacity: 0; stroke: #000000"/>
+    </g>
    </g>
    <g id="patch_4">
-    <path d="M 117.504 206.64 
-L 470.016 206.64 
+    <path d="M 178.686298 174.069083 
+L 216.69605 174.069083 
+L 216.69605 155.474029 
+L 178.686298 155.474029 
+L 178.686298 174.069083 
+z
+" clip-path="url(#pd1ad44af64)" style="fill: #227d8d; opacity: 0.6; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 197.691174 174.069083 
+L 197.691174 191.023207 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 197.691174 155.474029 
+L 197.691174 132.392501 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 188.188736 191.023207 
+L 207.193612 191.023207 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 188.188736 132.392501 
+L 207.193612 132.392501 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_19">
+    <g clip-path="url(#pd1ad44af64)">
+     <use xlink:href="#m5f8af5e4d1" x="197.691174" y="123.943496" style="fill-opacity: 0; stroke: #000000"/>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 94.220182 106.392455 
+L 132.229934 106.392455 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #ff7f0e"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 178.686298 166.836444 
+L 216.69605 166.836444 
+" clip-path="url(#pd1ad44af64)" style="fill: none; stroke: #ff7f0e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 70.992 207.36 
+L 70.992 38.88 
 " style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="legend_1">
-    <g id="line2d_15">
-     <path d="M 368.236 183.44 
-L 376.236 183.44 
-L 384.236 183.44 
-" style="fill: none"/>
-     <g>
-      <use xlink:href="#m17e6b0593e" x="376.236" y="183.44" style="fill: #227d8d; stroke: #227d8d"/>
+   <g id="patch_6">
+    <path d="M 70.992 207.36 
+L 239.924231 207.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="155.458116" y="32.88" transform="rotate(-0 155.458116 32.88)">有界读数：96布局</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 310.875769 207.36 
+L 479.808 207.36 
+L 479.808 38.88 
+L 310.875769 38.88 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_3">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mf6758247c7" x="353.108826" y="207.36" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="353.108826" y="221.16" transform="rotate(-0 353.108826 221.16)">31站初始基线</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: start" x="390.636" y="186.24" transform="rotate(-0 390.636 186.24)">读数包络：96布局</text>
-    </g>
-    <g id="line2d_16">
-     <path d="M 368.236 195.44 
-L 376.236 195.44 
-L 384.236 195.44 
-" style="fill: none"/>
-     <g>
-      <use xlink:href="#mf2332df451" x="376.236" y="195.44" style="fill: #b65f35; stroke: #b65f35; stroke-linejoin: miter"/>
+    <g id="xtick_4">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mf6758247c7" x="437.574942" y="207.36" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="437.574942" y="221.16" transform="rotate(-0 437.574942 221.16)">25站推荐</text>
      </g>
     </g>
-    <g id="text_15">
-     <text style="font-size: 8px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: start" x="390.636" y="198.24" transform="rotate(-0 390.636 198.24)">舍入压力：另96布局</text>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="195.325714" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="199.575714" transform="rotate(-0 303.875769 199.575714)">4000</text>
+     </g>
     </g>
+    <g id="ytick_9">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="171.257143" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="175.507143" transform="rotate(-0 303.875769 175.507143)">6000</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="147.188571" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="151.438571" transform="rotate(-0 303.875769 151.438571)">8000</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="123.12" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="127.37" transform="rotate(-0 303.875769 127.37)">10000</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="99.051429" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="103.301429" transform="rotate(-0 303.875769 103.301429)">12000</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="74.982857" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="79.232857" transform="rotate(-0 303.875769 79.232857)">14000</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m32ce17051d" x="310.875769" y="50.914286" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: end" x="303.875769" y="55.164286" transform="rotate(-0 303.875769 55.164286)">16000</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 334.10395 112.786592 
+L 372.113702 112.786592 
+L 372.113702 98.154475 
+L 334.10395 98.154475 
+L 334.10395 112.786592 
+z
+" clip-path="url(#p403210b0b4)" style="fill: #becbd0; opacity: 0.6; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 353.108826 112.786592 
+L 353.108826 133.643128 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 353.108826 98.154475 
+L 353.108826 79.111782 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 343.606388 133.643128 
+L 362.611264 133.643128 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 343.606388 79.111782 
+L 362.611264 79.111782 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_35">
+    <g clip-path="url(#p403210b0b4)">
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="169.490838" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="154.245579" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="147.32925" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="147.594705" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="173.303005" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="176.751137" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="169.754925" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="135.190835" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="62.404769" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="16.965508" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="70.76696" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="64.380425" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="69.943932" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="353.108826" y="59.756118" style="fill-opacity: 0; stroke: #000000"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 418.570066 173.97312 
+L 456.579818 173.97312 
+L 456.579818 155.430374 
+L 418.570066 155.430374 
+L 418.570066 173.97312 
+z
+" clip-path="url(#p403210b0b4)" style="fill: #227d8d; opacity: 0.6; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 437.574942 173.97312 
+L 437.574942 192.553663 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 437.574942 155.430374 
+L 437.574942 128.475619 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 428.072504 192.553663 
+L 447.07738 192.553663 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_39">
+    <path d="M 428.072504 128.475619 
+L 447.07738 128.475619 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <g clip-path="url(#p403210b0b4)">
+     <use xlink:href="#m5f8af5e4d1" x="437.574942" y="123.115741" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="437.574942" y="124.57989" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="437.574942" y="118.345169" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="437.574942" y="123.485403" style="fill-opacity: 0; stroke: #000000"/>
+     <use xlink:href="#m5f8af5e4d1" x="437.574942" y="126.38821" style="fill-opacity: 0; stroke: #000000"/>
+    </g>
+   </g>
+   <g id="line2d_41">
+    <path d="M 334.10395 105.719787 
+L 372.113702 105.719787 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #ff7f0e"/>
+   </g>
+   <g id="line2d_42">
+    <path d="M 418.570066 166.21931 
+L 456.579818 166.21931 
+" clip-path="url(#p403210b0b4)" style="fill: none; stroke: #ff7f0e"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 310.875769 207.36 
+L 310.875769 38.88 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 310.875769 207.36 
+L 479.808 207.36 
+" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10px; font-family: 'Alibaba PuHuiTi', 'DejaVu Sans', sans-serif; text-anchor: middle" x="395.341884" y="32.88" transform="rotate(-0 395.341884 32.88)">舍入压力：96布局</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pd91f95c6a6">
-   <rect x="117.504" y="17.64" width="352.512" height="189"/>
+  <clipPath id="pd1ad44af64">
+   <rect x="70.992" y="38.88" width="168.932231" height="168.48"/>
+  </clipPath>
+  <clipPath id="p403210b0b4">
+   <rect x="310.875769" y="38.88" width="168.932231" height="168.48"/>
   </clipPath>
  </defs>
 </svg>

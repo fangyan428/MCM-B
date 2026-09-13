@@ -37,7 +37,9 @@ with zipfile.ZipFile(D/'支撑材料.zip') as z:
     with tarfile.open(fileobj=io.BytesIO(files['evidence.tar.xz']),mode='r:xz') as tar:
         for item in tar:
             assert item.isfile() and not Path(item.name).is_absolute() and '..' not in Path(item.name).parts
-            assert item.name not in files
+            if item.name in files:
+                assert item.name in manifest.get('direct_file_overrides',[])
+                continue
             files[item.name]=tar.extractfile(item).read()
     for row in manifest['files']:
         assert hashlib.sha256(files[row['path']]).hexdigest()==row['sha256'],row['path']

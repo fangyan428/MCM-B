@@ -1,0 +1,2487 @@
+{
+  "stage": "development",
+  "selected": null,
+  "aggregates": {
+    "bounded": {
+      "COVERAGE_ORDER": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3139.4410169523812,
+        "p95": 4315.43690045,
+        "maximum": 4735.803407,
+        "mean_per_source": 247.06849174482423,
+        "wall_p95": 0.22089347019791603,
+        "saving_pct": -1.538138696994773
+      },
+      "COVERAGE_PRIORITY": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3607.011598107143,
+        "p95": 4852.9481559000005,
+        "maximum": 5042.019336,
+        "mean_per_source": 284.1938431672221,
+        "wall_p95": 0.23301830627024175,
+        "saving_pct": -16.660654540918586
+      },
+      "CURRENT": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3091.8835594583334,
+        "p95": 4102.98593075,
+        "maximum": 4211.04073,
+        "mean_per_source": 243.04161576663302,
+        "wall_p95": 0.21496814042329793,
+        "saving_pct": 0.0
+      },
+      "SERVICE_PAIR": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3316.331689196428,
+        "p95": 4578.27030835,
+        "maximum": 4921.616093,
+        "mean_per_source": 259.7558354187912,
+        "wall_p95": 0.11289381273090841,
+        "saving_pct": -7.259268514543149
+      },
+      "SERVICE_TOUR": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3084.4283891607142,
+        "p95": 4105.32000365,
+        "maximum": 4327.155652,
+        "mean_per_source": 242.32704472625804,
+        "wall_p95": 0.6164553141221404,
+        "saving_pct": 0.24112066817048028
+      }
+    },
+    "pre_round_stress": {
+      "COVERAGE_ORDER": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3139.4586836011913,
+        "p95": 4315.449066450001,
+        "maximum": 4735.803407,
+        "mean_per_source": 247.06994249206946,
+        "wall_p95": 0.22782215233892206,
+        "saving_pct": -1.3424203397326195
+      },
+      "COVERAGE_PRIORITY": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3607.945198589285,
+        "p95": 4853.1573693,
+        "maximum": 5041.967082,
+        "mean_per_source": 284.2556068965671,
+        "wall_p95": 0.23201113585382702,
+        "saving_pct": -16.465268610810856
+      },
+      "CURRENT": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3097.872216863095,
+        "p95": 4103.0643423500005,
+        "maximum": 4211.07549,
+        "mean_per_source": 243.35921313071447,
+        "wall_p95": 0.20435253344476226,
+        "saving_pct": 0.0
+      },
+      "SERVICE_PAIR": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3316.1126656369042,
+        "p95": 4578.1858831,
+        "maximum": 4921.987845,
+        "mean_per_source": 259.74065445220793,
+        "wall_p95": 0.10882987044751644,
+        "saving_pct": -7.044849932344821
+      },
+      "SERVICE_TOUR": {
+        "runs": 168,
+        "complete": 168,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3078.0446278988093,
+        "p95": 4105.3337215,
+        "maximum": 4327.120211,
+        "mean_per_source": 241.81563141506766,
+        "wall_p95": 0.6205479804426431,
+        "saving_pct": 0.640038955007749
+      }
+    }
+  },
+  "paired": {
+    "COVERAGE_ORDER": {
+      "bounded": {
+        "faster": 31,
+        "slower": 48,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091331_spatial_hash",
+          "seed": 2026091331,
+          "family": "radial",
+          "source_count": 13,
+          "error_mode": "spatial_hash",
+          "rounding": "bounded",
+          "variant": "COVERAGE_ORDER",
+          "current_s": 2626.491412,
+          "candidate_s": 3058.806734,
+          "change_s": 432.3153219999999,
+          "change_pct": 16.459803372088857,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -3.4410752851459834,
+          0.3336531153901887
+        ],
+        "independent_layouts": 42
+      },
+      "pre_round_stress": {
+        "faster": 29,
+        "slower": 45,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091331_spatial_hash",
+          "seed": 2026091331,
+          "family": "radial",
+          "source_count": 13,
+          "error_mode": "spatial_hash",
+          "rounding": "pre_round_stress",
+          "variant": "COVERAGE_ORDER",
+          "current_s": 2626.491412,
+          "candidate_s": 3058.806734,
+          "change_s": 432.3153219999999,
+          "change_pct": 16.459803372088857,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -3.2621632833119234,
+          0.518022254209235
+        ],
+        "independent_layouts": 42
+      }
+    },
+    "COVERAGE_PRIORITY": {
+      "bounded": {
+        "faster": 10,
+        "slower": 154,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091334_negative",
+          "seed": 2026091334,
+          "family": "radial",
+          "source_count": 16,
+          "error_mode": "negative",
+          "rounding": "bounded",
+          "variant": "COVERAGE_PRIORITY",
+          "current_s": 1733.643185,
+          "candidate_s": 3234.811625,
+          "change_s": 1501.16844,
+          "change_pct": 86.59039258992615,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -19.516869896231352,
+          -13.690995126094109
+        ],
+        "independent_layouts": 42
+      },
+      "pre_round_stress": {
+        "faster": 12,
+        "slower": 152,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091334_spatial_hash",
+          "seed": 2026091334,
+          "family": "radial",
+          "source_count": 16,
+          "error_mode": "spatial_hash",
+          "rounding": "pre_round_stress",
+          "variant": "COVERAGE_PRIORITY",
+          "current_s": 1820.653163,
+          "candidate_s": 3101.604496,
+          "change_s": 1280.951333,
+          "change_pct": 70.35669170998496,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -19.198945526567925,
+          -13.564145406589098
+        ],
+        "independent_layouts": 42
+      }
+    },
+    "SERVICE_PAIR": {
+      "bounded": {
+        "faster": 37,
+        "slower": 130,
+        "worst_relative": {
+          "case_id": "dispatch_development_uniform_2026091303_spatial_hash",
+          "seed": 2026091303,
+          "family": "uniform",
+          "source_count": 13,
+          "error_mode": "spatial_hash",
+          "rounding": "bounded",
+          "variant": "SERVICE_PAIR",
+          "current_s": 3189.318307,
+          "candidate_s": 4388.161005,
+          "change_s": 1198.842698,
+          "change_pct": 37.58930851676825,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -10.09450715112748,
+          -4.323698173906278
+        ],
+        "independent_layouts": 42
+      },
+      "pre_round_stress": {
+        "faster": 36,
+        "slower": 131,
+        "worst_relative": {
+          "case_id": "dispatch_development_uniform_2026091303_spatial_hash",
+          "seed": 2026091303,
+          "family": "uniform",
+          "source_count": 13,
+          "error_mode": "spatial_hash",
+          "rounding": "pre_round_stress",
+          "variant": "SERVICE_PAIR",
+          "current_s": 3189.318307,
+          "candidate_s": 4388.161005,
+          "change_s": 1198.842698,
+          "change_pct": 37.58930851676825,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -10.038346174110993,
+          -3.826637597724312
+        ],
+        "independent_layouts": 42
+      }
+    },
+    "SERVICE_TOUR": {
+      "bounded": {
+        "faster": 77,
+        "slower": 62,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091334_spatial_hash",
+          "seed": 2026091334,
+          "family": "radial",
+          "source_count": 16,
+          "error_mode": "spatial_hash",
+          "rounding": "bounded",
+          "variant": "SERVICE_TOUR",
+          "current_s": 1820.653163,
+          "candidate_s": 2745.603317,
+          "change_s": 924.9501540000001,
+          "change_pct": 50.80320473977065,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -1.0435327287787126,
+          1.5130051466887458
+        ],
+        "independent_layouts": 42
+      },
+      "pre_round_stress": {
+        "faster": 80,
+        "slower": 59,
+        "worst_relative": {
+          "case_id": "dispatch_development_radial_2026091334_spatial_hash",
+          "seed": 2026091334,
+          "family": "radial",
+          "source_count": 16,
+          "error_mode": "spatial_hash",
+          "rounding": "pre_round_stress",
+          "variant": "SERVICE_TOUR",
+          "current_s": 1820.653163,
+          "candidate_s": 2745.603317,
+          "change_s": 924.9501540000001,
+          "change_pct": 50.80320473977065,
+          "current_success": true,
+          "candidate_success": true
+        },
+        "saving_ci95_pct": [
+          -0.6714177150678674,
+          2.021043281592614
+        ],
+        "independent_layouts": 42
+      }
+    }
+  },
+  "breakdown": {
+    "family": {
+      "cluster": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2014.8949167499998,
+            "p95": 2345.98855825,
+            "maximum": 2389.059309,
+            "mean_per_source": 161.52646445902087,
+            "wall_p95": 0.23420373126864433,
+            "saving_pct": 2.0860823426851915
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2204.5269212142857,
+            "p95": 2655.19341725,
+            "maximum": 2722.457266,
+            "mean_per_source": 177.8770381481145,
+            "wall_p95": 0.2346660105511546,
+            "saving_pct": -7.129094248388346
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2057.8227947142855,
+            "p95": 2511.23059525,
+            "maximum": 2526.475948,
+            "mean_per_source": 164.91056388113628,
+            "wall_p95": 0.2315495431423187,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2044.3592838571428,
+            "p95": 2366.4571255,
+            "maximum": 2398.537029,
+            "mean_per_source": 163.92127483099554,
+            "wall_p95": 0.12861887123435736,
+            "saving_pct": 0.6542599728083909
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 1960.2394176071427,
+            "p95": 2278.50512415,
+            "maximum": 2335.80203,
+            "mean_per_source": 157.7388979315387,
+            "wall_p95": 1.083291308954358,
+            "saving_pct": 4.742069013804051
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2015.0682233928571,
+            "p95": 2344.1213745500004,
+            "maximum": 2389.457857,
+            "mean_per_source": 161.5414292769075,
+            "wall_p95": 0.23522705771028996,
+            "saving_pct": 1.3470235146929133
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2205.115594464286,
+            "p95": 2655.5320184999996,
+            "maximum": 2724.063582,
+            "mean_per_source": 177.92297208974045,
+            "wall_p95": 0.25933965090662237,
+            "saving_pct": -7.9572464905360185
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2042.5822871071427,
+            "p95": 2463.56771245,
+            "maximum": 2526.475948,
+            "mean_per_source": 163.6954187348745,
+            "wall_p95": 0.22993141710758208,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2044.4145716785715,
+            "p95": 2366.5815589,
+            "maximum": 2398.466161,
+            "mean_per_source": 163.92538385676127,
+            "wall_p95": 0.12858476303517818,
+            "saving_pct": -0.08970432099573156
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 1958.18537575,
+            "p95": 2263.32183915,
+            "maximum": 2336.01586,
+            "mean_per_source": 157.56182150442694,
+            "wall_p95": 1.0632205517962574,
+            "saving_pct": 4.1318732611096864
+          }
+        }
+      },
+      "min_radius": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3874.5648218214287,
+            "p95": 4723.43102415,
+            "maximum": 4735.803407,
+            "mean_per_source": 303.7539782625117,
+            "wall_p95": 0.0805616419762373,
+            "saving_pct": -7.123726979939327
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4142.129924821429,
+            "p95": 4658.8605876,
+            "maximum": 4668.592763,
+            "mean_per_source": 325.1186969919301,
+            "wall_p95": 0.17127075307071205,
+            "saving_pct": -14.521350290228185
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3616.9062924285713,
+            "p95": 4155.2512584999995,
+            "maximum": 4176.069137,
+            "mean_per_source": 282.64662846576664,
+            "wall_p95": 0.0786909144371748,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3861.637642785714,
+            "p95": 4400.4836438,
+            "maximum": 4431.852551,
+            "mean_per_source": 301.29907621128945,
+            "wall_p95": 0.09993078764528035,
+            "saving_pct": -6.766317138750577
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3593.412627428571,
+            "p95": 4175.1319966,
+            "maximum": 4327.155652,
+            "mean_per_source": 280.662722027854,
+            "wall_p95": 0.19372221678495402,
+            "saving_pct": 0.6495513873052472
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3874.5891771428574,
+            "p95": 4723.66820955,
+            "maximum": 4735.803407,
+            "mean_per_source": 303.75586253217546,
+            "wall_p95": 0.0787174429744482,
+            "saving_pct": -7.263162219956598
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4142.136527642858,
+            "p95": 4658.8385883500005,
+            "maximum": 4668.737756,
+            "mean_per_source": 325.11894582680634,
+            "wall_p95": 0.1704036710783839,
+            "saving_pct": -14.669876466591436
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3612.2272520714287,
+            "p95": 4155.270199099999,
+            "maximum": 4176.240381,
+            "mean_per_source": 282.256491291129,
+            "wall_p95": 0.07736300192773342,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3861.636942535714,
+            "p95": 4400.4198980500005,
+            "maximum": 4431.852551,
+            "mean_per_source": 301.29942614500516,
+            "wall_p95": 0.09814779907464981,
+            "saving_pct": -6.904595781488032
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3586.9259228214282,
+            "p95": 4175.2095702,
+            "maximum": 4327.120211,
+            "mean_per_source": 280.073405840658,
+            "wall_p95": 0.1936614448204636,
+            "saving_pct": 0.7004357003145723
+          }
+        }
+      },
+      "outer": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3097.9058903571427,
+            "p95": 3691.3703407000003,
+            "maximum": 3734.55007,
+            "mean_per_source": 244.69684582530326,
+            "wall_p95": 0.2509903393685818,
+            "saving_pct": 1.9875682743543566
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3612.9817250000006,
+            "p95": 4613.7857048999995,
+            "maximum": 4636.631652,
+            "mean_per_source": 285.81426558487635,
+            "wall_p95": 0.25627221334725614,
+            "saving_pct": -14.308548155006573
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3160.727507535714,
+            "p95": 3936.09278875,
+            "maximum": 3981.396854,
+            "mean_per_source": 248.1728770213492,
+            "wall_p95": 0.1827322652563452,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3403.470378107143,
+            "p95": 4615.4589091,
+            "maximum": 4637.247524,
+            "mean_per_source": 265.26065819852215,
+            "wall_p95": 0.11375005841255187,
+            "saving_pct": -7.679968298206297
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3162.4168856428564,
+            "p95": 3932.7754923,
+            "maximum": 3981.396854,
+            "mean_per_source": 248.32958054370735,
+            "wall_p95": 0.49086280744522803,
+            "saving_pct": -0.053449027260810134
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3097.838022714285,
+            "p95": 3691.42041735,
+            "maximum": 3734.55007,
+            "mean_per_source": 244.69167349196263,
+            "wall_p95": 0.24341830145567653,
+            "saving_pct": 1.9990040167806922
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3612.9469659642855,
+            "p95": 4613.823963899999,
+            "maximum": 4636.631652,
+            "mean_per_source": 285.81150559682607,
+            "wall_p95": 0.24632378313690423,
+            "saving_pct": -14.296615414648661
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3161.0270810357147,
+            "p95": 3935.7854320499996,
+            "maximum": 3981.396854,
+            "mean_per_source": 248.19494207308705,
+            "wall_p95": 0.168617863766849,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3403.203140035714,
+            "p95": 4615.38467,
+            "maximum": 4636.70274,
+            "mean_per_source": 265.2432388819163,
+            "wall_p95": 0.10762275159358978,
+            "saving_pct": -7.661309213480383
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3162.7129987500007,
+            "p95": 3932.4928407999996,
+            "maximum": 3981.396854,
+            "mean_per_source": 248.35162210240847,
+            "wall_p95": 0.49122884850949045,
+            "saving_pct": -0.05333449132405299
+          }
+        }
+      },
+      "radial": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2620.3062217142856,
+            "p95": 3051.78930645,
+            "maximum": 3068.166546,
+            "mean_per_source": 208.36842249168402,
+            "wall_p95": 0.22036321721971033,
+            "saving_pct": -4.034091742823076
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2871.747850821429,
+            "p95": 3104.47749475,
+            "maximum": 3234.811625,
+            "mean_per_source": 225.95120814134526,
+            "wall_p95": 0.23425498325377703,
+            "saving_pct": -14.017085827149511
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2518.6995703214284,
+            "p95": 2869.5938829,
+            "maximum": 2981.274825,
+            "mean_per_source": 200.65388636067888,
+            "wall_p95": 0.23064685240387917,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2543.80302575,
+            "p95": 2993.0500330499995,
+            "maximum": 3062.872159,
+            "mean_per_source": 203.35178205973597,
+            "wall_p95": 0.10889738239347935,
+            "saving_pct": -0.9966831981222724
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2543.074747071429,
+            "p95": 2810.22956425,
+            "maximum": 2833.339194,
+            "mean_per_source": 202.11312652857487,
+            "wall_p95": 0.7227766040712594,
+            "saving_pct": -0.9677683292291128
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2620.305736571429,
+            "p95": 3051.3095943499998,
+            "maximum": 3068.31964,
+            "mean_per_source": 208.36675213170702,
+            "wall_p95": 0.22637781091034412,
+            "saving_pct": -1.7882909070270125
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2876.771415178571,
+            "p95": 3104.56111465,
+            "maximum": 3234.920025,
+            "mean_per_source": 226.27719394182125,
+            "wall_p95": 0.2253595672547817,
+            "saving_pct": -11.750946309174658
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2574.2702949642853,
+            "p95": 2876.03338475,
+            "maximum": 2969.712318,
+            "mean_per_source": 204.14365548095108,
+            "wall_p95": 0.2208574770018458,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2542.74202475,
+            "p95": 2993.0805813499996,
+            "maximum": 3062.872159,
+            "mean_per_source": 203.27659885041132,
+            "wall_p95": 0.10853328462690115,
+            "saving_pct": 1.2247459125003357
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2519.9746412500003,
+            "p95": 2821.16617385,
+            "maximum": 2833.339194,
+            "mean_per_source": 200.53455771394513,
+            "wall_p95": 0.747780306264758,
+            "saving_pct": 2.109166773221005
+          }
+        }
+      },
+      "reception_edge": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3775.396508857143,
+            "p95": 4206.5487129,
+            "maximum": 4211.04073,
+            "mean_per_source": 294.2580399380682,
+            "wall_p95": 0.14651370216161014,
+            "saving_pct": 0.0
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4635.567868642857,
+            "p95": 5025.2847179499995,
+            "maximum": 5042.019336,
+            "mean_per_source": 362.6206859718044,
+            "wall_p95": 0.18973457496613264,
+            "saving_pct": -22.78360319949806
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3775.396508857143,
+            "p95": 4206.5487129,
+            "maximum": 4211.04073,
+            "mean_per_source": 294.2580399380682,
+            "wall_p95": 0.14536302220076322,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4160.028412964287,
+            "p95": 4893.88745435,
+            "maximum": 4921.616093,
+            "mean_per_source": 323.0894986944585,
+            "wall_p95": 0.11427683010697365,
+            "saving_pct": -10.187854526134954
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3876.296726178571,
+            "p95": 4225.4608766,
+            "maximum": 4248.712245,
+            "mean_per_source": 302.597044238489,
+            "wall_p95": 0.4121232282370329,
+            "saving_pct": -2.672572724075861
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3775.3854313214283,
+            "p95": 4206.7689299,
+            "maximum": 4211.07549,
+            "mean_per_source": 294.2566753424984,
+            "wall_p95": 0.15215522274374962,
+            "saving_pct": 0.0
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4635.560711357143,
+            "p95": 5025.2351821,
+            "maximum": 5041.967082,
+            "mean_per_source": 362.6197308601813,
+            "wall_p95": 0.19092153552919627,
+            "saving_pct": -22.783773887018576
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3775.3854313214283,
+            "p95": 4206.7689299,
+            "maximum": 4211.07549,
+            "mean_per_source": 294.2566753424984,
+            "wall_p95": 0.15028540063649415,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4159.972317535715,
+            "p95": 4893.9009711,
+            "maximum": 4921.987845,
+            "mean_per_source": 323.08478232338683,
+            "wall_p95": 0.11598900258541106,
+            "saving_pct": -10.186692013580089
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3876.280412035714,
+            "p95": 4225.45971495,
+            "maximum": 4248.772841,
+            "mean_per_source": 302.59520132855585,
+            "wall_p95": 0.40920036546885963,
+            "saving_pct": -2.672441861888819
+          }
+        }
+      },
+      "uniform": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3453.5777422142855,
+            "p95": 3956.35714275,
+            "maximum": 4646.563464,
+            "mean_per_source": 269.8071994923572,
+            "wall_p95": 0.12879750933498144,
+            "saving_pct": -0.9301986285713992
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4175.115298142858,
+            "p95": 4551.9939535,
+            "maximum": 4590.310335,
+            "mean_per_source": 327.78116416526194,
+            "wall_p95": 0.15421128906309606,
+            "saving_pct": -22.01700607109114
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3421.7486828928563,
+            "p95": 3956.35714275,
+            "maximum": 4157.072183,
+            "mean_per_source": 267.607698932799,
+            "wall_p95": 0.1273581748828292,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3884.691391714286,
+            "p95": 4413.49382055,
+            "maximum": 4468.29734,
+            "mean_per_source": 301.6127225177456,
+            "wall_p95": 0.08294757939875126,
+            "saving_pct": -13.529418777478508
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3371.129931035714,
+            "p95": 3902.8725377,
+            "maximum": 3925.454032,
+            "mean_per_source": 262.52089708738464,
+            "wall_p95": 0.39708555322140454,
+            "saving_pct": 1.4793240693044551
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3453.565510464286,
+            "p95": 3956.04271555,
+            "maximum": 4646.563464,
+            "mean_per_source": 269.8072621771659,
+            "wall_p95": 0.1311279946938157,
+            "saving_pct": -0.9300691141508111
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 4175.139976928572,
+            "p95": 4551.984598,
+            "maximum": 4590.741047,
+            "mean_per_source": 327.78329306402713,
+            "wall_p95": 0.15437167286872863,
+            "saving_pct": -22.01800288884732
+          },
+          "CURRENT": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3421.7409546785716,
+            "p95": 3956.04271555,
+            "maximum": 4157.072183,
+            "mean_per_source": 267.6080958617469,
+            "wall_p95": 0.127162360586226,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3884.7069972857144,
+            "p95": 4413.30320155,
+            "maximum": 4468.29734,
+            "mean_per_source": 301.61449665576686,
+            "wall_p95": 0.08379767015576363,
+            "saving_pct": -13.530131261810618
+          },
+          "SERVICE_TOUR": {
+            "runs": 28,
+            "complete": 28,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3364.188416785714,
+            "p95": 3919.7587501000003,
+            "maximum": 3940.010978,
+            "mean_per_source": 261.77718000041165,
+            "wall_p95": 0.4000445712357759,
+            "saving_pct": 1.6819665385296223
+          }
+        }
+      }
+    },
+    "source_count": {
+      "10": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3134.2527076666665,
+            "p95": 3717.84196575,
+            "maximum": 3730.110717,
+            "mean_per_source": 313.42527076666664,
+            "wall_p95": 0.10745471455156802,
+            "saving_pct": -1.408074438271334
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3654.408370625,
+            "p95": 4415.22897935,
+            "maximum": 4423.406305,
+            "mean_per_source": 365.44083706249995,
+            "wall_p95": 0.12192752826958894,
+            "saving_pct": -18.23759940278382
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3090.7328879166666,
+            "p95": 3577.82547165,
+            "maximum": 3594.469725,
+            "mean_per_source": 309.0732887916667,
+            "wall_p95": 0.09797752313315868,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3075.5954829999996,
+            "p95": 3627.0000720499997,
+            "maximum": 3696.473969,
+            "mean_per_source": 307.5595483,
+            "wall_p95": 0.0680891077965498,
+            "saving_pct": 0.48976749093547767
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3060.6732800416667,
+            "p95": 3577.82547165,
+            "maximum": 3594.469725,
+            "mean_per_source": 306.06732800416665,
+            "wall_p95": 0.3291644418612122,
+            "saving_pct": 0.9725721686438593
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3134.1746652500005,
+            "p95": 3717.7440109,
+            "maximum": 3730.270543,
+            "mean_per_source": 313.417466525,
+            "wall_p95": 0.10646154936403036,
+            "saving_pct": -1.5051386898015107
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3654.394925416667,
+            "p95": 4415.22905315,
+            "maximum": 4423.421263,
+            "mean_per_source": 365.43949254166665,
+            "wall_p95": 0.1199606629088521,
+            "saving_pct": -18.353283830828637
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3087.7004905416666,
+            "p95": 3577.87040605,
+            "maximum": 3594.296047,
+            "mean_per_source": 308.7700490541667,
+            "wall_p95": 0.09962881822139025,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3075.5898894583333,
+            "p95": 3627.1168561,
+            "maximum": 3696.299565,
+            "mean_per_source": 307.55898894583333,
+            "wall_p95": 0.07050023023039102,
+            "saving_pct": 0.39222071960770544
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3063.225855416667,
+            "p95": 3577.87040605,
+            "maximum": 3594.296047,
+            "mean_per_source": 306.3225855416667,
+            "wall_p95": 0.30555332824587816,
+            "saving_pct": 0.7926492611563529
+          }
+        }
+      },
+      "11": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2997.129050791667,
+            "p95": 3718.9249574,
+            "maximum": 3739.757401,
+            "mean_per_source": 272.46627734469695,
+            "wall_p95": 0.12554478105157613,
+            "saving_pct": -4.31842214963527
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3432.4756735416668,
+            "p95": 4219.2140216,
+            "maximum": 4237.281567,
+            "mean_per_source": 312.04324304924245,
+            "wall_p95": 0.13071812205016614,
+            "saving_pct": -19.471147308886128
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2873.0582662499996,
+            "p95": 3701.9182124,
+            "maximum": 3739.757401,
+            "mean_per_source": 261.18711511363637,
+            "wall_p95": 0.12304374836385248,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3053.863950333334,
+            "p95": 3951.1701225499996,
+            "maximum": 4009.109219,
+            "mean_per_source": 277.62399548484854,
+            "wall_p95": 0.09365652427077294,
+            "saving_pct": -6.29314365835425
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2862.21653575,
+            "p95": 3512.71032905,
+            "maximum": 3543.064764,
+            "mean_per_source": 260.20150325000003,
+            "wall_p95": 0.36498966384679077,
+            "saving_pct": 0.3773585321035222
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2997.165326916667,
+            "p95": 3719.49851305,
+            "maximum": 3739.757401,
+            "mean_per_source": 272.46957517424244,
+            "wall_p95": 0.12609130367636678,
+            "saving_pct": -4.317956079040841
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3432.497126875,
+            "p95": 4219.21470075,
+            "maximum": 4237.897787,
+            "mean_per_source": 312.04519335227275,
+            "wall_p95": 0.13458439912647008,
+            "saving_pct": -19.469914224299977
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2873.105877041666,
+            "p95": 3702.3858503499996,
+            "maximum": 3739.757401,
+            "mean_per_source": 261.19144336742426,
+            "wall_p95": 0.12401596941053865,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3053.9100943333337,
+            "p95": 3951.39470955,
+            "maximum": 4009.109219,
+            "mean_per_source": 277.6281903939394,
+            "wall_p95": 0.09386883173137903,
+            "saving_pct": -6.292988320981574
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 2830.4908884166666,
+            "p95": 3484.0732073,
+            "maximum": 3516.161107,
+            "mean_per_source": 257.3173534924242,
+            "wall_p95": 0.3851694585755467,
+            "saving_pct": 1.4832376685289028
+          }
+        }
+      },
+      "12": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3094.5796390416667,
+            "p95": 3885.1657723999997,
+            "maximum": 3931.425931,
+            "mean_per_source": 257.8816365868056,
+            "wall_p95": 0.11838195733726024,
+            "saving_pct": -0.011843933252819738
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3742.6289071666665,
+            "p95": 4540.28863715,
+            "maximum": 4548.91337,
+            "mean_per_source": 311.88574226388886,
+            "wall_p95": 0.1364927064627409,
+            "saving_pct": -20.955755489798644
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3094.2131625,
+            "p95": 3869.1177141499993,
+            "maximum": 3931.425931,
+            "mean_per_source": 257.851096875,
+            "wall_p95": 0.1129529682919383,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3322.1422656249997,
+            "p95": 4461.492599,
+            "maximum": 4480.351527,
+            "mean_per_source": 276.8451888020833,
+            "wall_p95": 0.08262136541306972,
+            "saving_pct": -7.366302551077064
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3102.756454,
+            "p95": 3938.8945145,
+            "maximum": 3952.304253,
+            "mean_per_source": 258.56303783333334,
+            "wall_p95": 0.29888055585324763,
+            "saving_pct": -0.27610546046210604
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3094.8618228749997,
+            "p95": 3885.1540237,
+            "maximum": 3931.54251,
+            "mean_per_source": 257.90515190625,
+            "wall_p95": 0.12621167227625846,
+            "saving_pct": -0.22601609078660712
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3742.7148261250004,
+            "p95": 4540.28863715,
+            "maximum": 4548.950388,
+            "mean_per_source": 311.8929021770834,
+            "wall_p95": 0.1383466163650155,
+            "saving_pct": -21.206508676358695
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3087.8827110833336,
+            "p95": 3869.1059654499995,
+            "maximum": 3931.54251,
+            "mean_per_source": 257.32355925694446,
+            "wall_p95": 0.11271623913198708,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3322.125593166666,
+            "p95": 4461.46929545,
+            "maximum": 4480.376552,
+            "mean_per_source": 276.8437994305555,
+            "wall_p95": 0.08124169632792473,
+            "saving_pct": -7.585873687577727
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3101.275218166667,
+            "p95": 3938.80214665,
+            "maximum": 3952.286207,
+            "mean_per_source": 258.4396015138889,
+            "wall_p95": 0.3108309887349605,
+            "saving_pct": -0.4337116508753347
+          }
+        }
+      },
+      "13": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3268.188521,
+            "p95": 4723.82401835,
+            "maximum": 4735.803407,
+            "mean_per_source": 251.39911700000002,
+            "wall_p95": 0.1569666126742959,
+            "saving_pct": -4.444971537017617
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3554.583803208334,
+            "p95": 5015.333228299999,
+            "maximum": 5042.019336,
+            "mean_per_source": 273.42952332371794,
+            "wall_p95": 0.17950153034180402,
+            "saving_pct": -13.59760973594042
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3129.100877625,
+            "p95": 4164.649800499999,
+            "maximum": 4176.069137,
+            "mean_per_source": 240.70006750961542,
+            "wall_p95": 0.1917198395356535,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3498.030916166667,
+            "p95": 4479.1746013,
+            "maximum": 4494.384827,
+            "mean_per_source": 269.0793012435897,
+            "wall_p95": 0.09451332837343215,
+            "saving_pct": -11.79028906289803
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3106.507432,
+            "p95": 4176.1883934,
+            "maximum": 4327.155652,
+            "mean_per_source": 238.9621101538461,
+            "wall_p95": 0.49625721182674165,
+            "saving_pct": 0.7220427371503857
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3268.0674655833336,
+            "p95": 4724.116114949999,
+            "maximum": 4735.803407,
+            "mean_per_source": 251.3898050448718,
+            "wall_p95": 0.15857634767889978,
+            "saving_pct": -4.997835466823042
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3555.1920360416666,
+            "p95": 5015.2702001,
+            "maximum": 5041.967082,
+            "mean_per_source": 273.47631046474356,
+            "wall_p95": 0.1629200406372547,
+            "saving_pct": -14.222693498352413
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3112.5093684583335,
+            "p95": 4164.657917899999,
+            "maximum": 4176.240381,
+            "mean_per_source": 239.42379757371796,
+            "wall_p95": 0.1745163707062602,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3498.040037833334,
+            "p95": 4479.1746013,
+            "maximum": 4494.574695,
+            "mean_per_source": 269.0800029102564,
+            "wall_p95": 0.09718341752886772,
+            "saving_pct": -12.386490247448112
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3109.29232325,
+            "p95": 4176.2898358,
+            "maximum": 4327.120211,
+            "mean_per_source": 239.1763325576923,
+            "wall_p95": 0.4982909580692648,
+            "saving_pct": 0.1033585710916829
+          }
+        }
+      },
+      "14": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3178.242988916667,
+            "p95": 3909.1169053,
+            "maximum": 3923.446386,
+            "mean_per_source": 227.01735635119044,
+            "wall_p95": 0.20905707664787768,
+            "saving_pct": -0.30431828041193043
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3648.670748666667,
+            "p95": 4691.197125850001,
+            "maximum": 4696.769966,
+            "mean_per_source": 260.6193391904762,
+            "wall_p95": 0.22644636873155827,
+            "saving_pct": -15.15086585605494
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3168.600358791666,
+            "p95": 3909.1169053,
+            "maximum": 3923.446386,
+            "mean_per_source": 226.32859705654764,
+            "wall_p95": 0.20857117082923649,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3492.8480786666664,
+            "p95": 4252.0254678,
+            "maximum": 4259.850934,
+            "mean_per_source": 249.48914847619048,
+            "wall_p95": 0.09822856951504945,
+            "saving_pct": -10.233152911673947
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3159.8704324166665,
+            "p95": 3999.1010758,
+            "maximum": 4063.928807,
+            "mean_per_source": 225.70503088690475,
+            "wall_p95": 0.6134152416139841,
+            "saving_pct": 0.27551364597865335
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3178.257876541667,
+            "p95": 3908.9174273,
+            "maximum": 3923.446386,
+            "mean_per_source": 227.0184197529762,
+            "wall_p95": 0.22270315624773498,
+            "saving_pct": 0.001244342846895563
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3646.4077605,
+            "p95": 4691.2756468,
+            "maximum": 4696.769966,
+            "mean_per_source": 260.45769717857144,
+            "wall_p95": 0.22790606934577223,
+            "saving_pct": -14.728336350527726
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3178.2974254583337,
+            "p95": 3908.9174273,
+            "maximum": 3923.446386,
+            "mean_per_source": 227.02124467559523,
+            "wall_p95": 0.2049520891159773,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3491.75312875,
+            "p95": 4253.045465249999,
+            "maximum": 4259.850934,
+            "mean_per_source": 249.41093776785715,
+            "wall_p95": 0.09854558110237122,
+            "saving_pct": -9.862377912805442
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3161.0733431249996,
+            "p95": 3998.881701,
+            "maximum": 4063.928807,
+            "mean_per_source": 225.79095308035713,
+            "wall_p95": 0.620094426907599,
+            "saving_pct": 0.5419279578861347
+          }
+        }
+      },
+      "15": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3194.1350307083335,
+            "p95": 4406.0105994000005,
+            "maximum": 4427.095858,
+            "mean_per_source": 212.9423353805556,
+            "wall_p95": 0.25171066746115683,
+            "saving_pct": -0.9497430976035393
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3580.4668942499998,
+            "p95": 4866.9059157,
+            "maximum": 4912.806536,
+            "mean_per_source": 238.69779294999998,
+            "wall_p95": 0.26310088876634835,
+            "saving_pct": -13.15965344892045
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3164.0843579166667,
+            "p95": 4207.0386021,
+            "maximum": 4211.04073,
+            "mean_per_source": 210.93895719444444,
+            "wall_p95": 0.2329203814268112,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3468.8627912083334,
+            "p95": 4895.40417815,
+            "maximum": 4921.616093,
+            "mean_per_source": 231.2575194138889,
+            "wall_p95": 0.11341345999389886,
+            "saving_pct": -9.632437028080453
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3145.0538605833335,
+            "p95": 4068.72339265,
+            "maximum": 4090.963873,
+            "mean_per_source": 209.6702573722222,
+            "wall_p95": 1.0937865618616343,
+            "saving_pct": 0.6014535385479913
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3194.1485492499996,
+            "p95": 4405.9845741,
+            "maximum": 4427.066966,
+            "mean_per_source": 212.94323661666667,
+            "wall_p95": 0.2480294408276677,
+            "saving_pct": -0.9493256012296891
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3588.4908872916662,
+            "p95": 4866.9469616999995,
+            "maximum": 4912.577587,
+            "mean_per_source": 239.23272581944443,
+            "wall_p95": 0.2571892950683832,
+            "saving_pct": -13.41230046527151
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3164.1108350416666,
+            "p95": 4207.2703151000005,
+            "maximum": 4211.07549,
+            "mean_per_source": 210.9407223361111,
+            "wall_p95": 0.23079819679260252,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3468.490073333333,
+            "p95": 4895.4218539,
+            "maximum": 4921.987845,
+            "mean_per_source": 231.23267155555558,
+            "wall_p95": 0.10862771905958653,
+            "saving_pct": -9.6197400837148
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3144.700988916667,
+            "p95": 4068.73015555,
+            "maximum": 4091.227343,
+            "mean_per_source": 209.64673259444444,
+            "wall_p95": 1.0845027783885597,
+            "saving_pct": 0.6134376176093692
+          }
+        }
+      },
+      "16": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3109.5591805416666,
+            "p95": 4063.6467307999997,
+            "maximum": 4646.563464,
+            "mean_per_source": 194.34744878385416,
+            "wall_p95": 0.22090886645019053,
+            "saving_pct": 0.4429738999900734
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3635.846789291667,
+            "p95": 4880.0229761,
+            "maximum": 5021.239233,
+            "mean_per_source": 227.24042433072918,
+            "wall_p95": 0.2344214180484414,
+            "saving_pct": -16.40688363875873
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3123.3950052083333,
+            "p95": 4063.6467307999997,
+            "maximum": 4157.072183,
+            "mean_per_source": 195.21218782552083,
+            "wall_p95": 0.23076364770531654,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3302.978339375,
+            "p95": 4659.46749215,
+            "maximum": 4848.110518,
+            "mean_per_source": 206.4361462109375,
+            "wall_p95": 0.129715327732265,
+            "saving_pct": -5.7496196884226025
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3153.9207293333334,
+            "p95": 4227.8879854,
+            "maximum": 4248.712245,
+            "mean_per_source": 197.12004558333334,
+            "wall_p95": 0.7359716732054947,
+            "saving_pct": -0.9773251245551062
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3109.535078791667,
+            "p95": 4063.89130795,
+            "maximum": 4646.563464,
+            "mean_per_source": 194.34594242447918,
+            "wall_p95": 0.2174260791391134,
+            "saving_pct": 2.26194431974579
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3635.9188278750003,
+            "p95": 4880.1288074,
+            "maximum": 5021.239233,
+            "mean_per_source": 227.24492674218752,
+            "wall_p95": 0.22605982720851897,
+            "saving_pct": -14.283205637874197
+          },
+          "CURRENT": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3181.4988104166664,
+            "p95": 4063.89130795,
+            "maximum": 4157.072183,
+            "mean_per_source": 198.84367565104165,
+            "wall_p95": 0.22535901870578523,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3302.879842583334,
+            "p95": 4659.295949949999,
+            "maximum": 4848.110518,
+            "mean_per_source": 206.42999016145836,
+            "wall_p95": 0.12953349761664867,
+            "saving_pct": -3.81521538745353
+          },
+          "SERVICE_TOUR": {
+            "runs": 24,
+            "complete": 24,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3136.2537780000002,
+            "p95": 4227.88748755,
+            "maximum": 4248.772841,
+            "mean_per_source": 196.01586112500001,
+            "wall_p95": 0.7681329008191822,
+            "saving_pct": 1.4221294777331916
+          }
+        }
+      }
+    },
+    "error_mode": {
+      "negative": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3141.3054299285714,
+            "p95": 4200.5345068,
+            "maximum": 4724.118764,
+            "mean_per_source": 247.3759899613357,
+            "wall_p95": 0.21487091351300472,
+            "saving_pct": -1.5045730319175554
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3610.9803674999994,
+            "p95": 4829.415287599999,
+            "maximum": 5027.463056,
+            "mean_per_source": 284.28871557040065,
+            "wall_p95": 0.23129033744335173,
+            "saving_pct": -16.681115098718237
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3094.7427648809526,
+            "p95": 4064.8646170499997,
+            "maximum": 4207.406019,
+            "mean_per_source": 243.36804078135702,
+            "wall_p95": 0.19770216923207026,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3309.2452196190475,
+            "p95": 4490.315874649999,
+            "maximum": 4865.098365,
+            "mean_per_source": 259.38995144606395,
+            "wall_p95": 0.11902074571698902,
+            "saving_pct": -6.931188503686392
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3074.0625151190475,
+            "p95": 4101.8149991,
+            "maximum": 4327.155652,
+            "mean_per_source": 241.60942571517262,
+            "wall_p95": 0.6531039534136646,
+            "saving_pct": 0.6682380841659619
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3141.2470539761903,
+            "p95": 4200.77720205,
+            "maximum": 4724.452044,
+            "mean_per_source": 247.3711042207687,
+            "wall_p95": 0.21040380392223593,
+            "saving_pct": -1.6061595596141842
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3614.77956402381,
+            "p95": 4829.507623049999,
+            "maximum": 5027.386847,
+            "mean_per_source": 284.54002393501696,
+            "wall_p95": 0.23194660730659955,
+            "saving_pct": -16.9229490211946
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3091.591166904762,
+            "p95": 4065.1135342999996,
+            "maximum": 4207.646354,
+            "mean_per_source": 243.10808980944427,
+            "wall_p95": 0.2001282170414923,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3309.082675666667,
+            "p95": 4490.4924976,
+            "maximum": 4864.912566,
+            "mean_per_source": 259.3803049433951,
+            "wall_p95": 0.10669126603752374,
+            "saving_pct": -7.034937578103295
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3066.4656194285712,
+            "p95": 4101.84276745,
+            "maximum": 4327.120211,
+            "mean_per_source": 241.0983086003957,
+            "wall_p95": 0.6486757116392249,
+            "saving_pct": 0.8127060183493073
+          }
+        }
+      },
+      "positive": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3118.3750409761906,
+            "p95": 4192.297165499999,
+            "maximum": 4722.153793,
+            "mean_per_source": 245.55263950132743,
+            "wall_p95": 0.21783837862312788,
+            "saving_pct": -1.2249511439272442
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3589.8912310952383,
+            "p95": 4852.80482125,
+            "maximum": 5042.019336,
+            "mean_per_source": 283.34295601071324,
+            "wall_p95": 0.2177160756662487,
+            "saving_pct": -16.530744283366296
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3080.6387217142856,
+            "p95": 3951.5854512,
+            "maximum": 4204.956573,
+            "mean_per_source": 242.38420166119374,
+            "wall_p95": 0.21706648115068666,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3305.7978999761904,
+            "p95": 4629.40272415,
+            "maximum": 4921.616093,
+            "mean_per_source": 258.83423508260637,
+            "wall_p95": 0.1098127458244562,
+            "saving_pct": -7.3088472424513995
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3085.8196771904763,
+            "p95": 4104.1192812,
+            "maximum": 4217.572773,
+            "mean_per_source": 242.85967228192592,
+            "wall_p95": 0.6093199791386719,
+            "saving_pct": -0.16817796386419115
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3118.5097808095243,
+            "p95": 4192.468258249999,
+            "maximum": 4722.212517,
+            "mean_per_source": 245.56390274482123,
+            "wall_p95": 0.21128802765160795,
+            "saving_pct": -0.7165194296279154
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3589.8361695952376,
+            "p95": 4853.069989799999,
+            "maximum": 5041.967082,
+            "mean_per_source": 283.3394197665541,
+            "wall_p95": 0.21854677870869627,
+            "saving_pct": -15.938646897674523
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3096.324017619048,
+            "p95": 3951.5140766,
+            "maximum": 4205.139428,
+            "mean_per_source": 243.05219800565416,
+            "wall_p95": 0.1822342246770859,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3305.120467404762,
+            "p95": 4628.886430599999,
+            "maximum": 4921.987845,
+            "mean_per_source": 258.7861725912008,
+            "wall_p95": 0.10847476627677677,
+            "saving_pct": -6.743365636076759
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3073.0348715476193,
+            "p95": 4104.1345900999995,
+            "maximum": 4217.569454,
+            "mean_per_source": 241.78729022158373,
+            "wall_p95": 0.6207907833158969,
+            "saving_pct": 0.7521546820974168
+          }
+        }
+      },
+      "smooth": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3145.826419619048,
+            "p95": 4201.8778008499985,
+            "maximum": 4701.585066,
+            "mean_per_source": 247.72311444655492,
+            "wall_p95": 0.22075355313718314,
+            "saving_pct": -1.0542412116584021
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3609.625393904761,
+            "p95": 4859.378837349999,
+            "maximum": 5021.239233,
+            "mean_per_source": 284.3876229019925,
+            "wall_p95": 0.23100895024836057,
+            "saving_pct": -15.95298232747111
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3113.007808380952,
+            "p95": 4025.4628823499997,
+            "maximum": 4211.04073,
+            "mean_per_source": 244.55533968881554,
+            "wall_p95": 0.2050239974632859,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3305.039974309524,
+            "p95": 4467.62449625,
+            "maximum": 4896.541721,
+            "mean_per_source": 259.0035806824676,
+            "wall_p95": 0.11413226053118704,
+            "saving_pct": -6.168701710659885
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3082.015326833333,
+            "p95": 4063.8745277,
+            "maximum": 4120.76063,
+            "mean_per_source": 241.91567830499613,
+            "wall_p95": 0.5817332835867997,
+            "saving_pct": 0.9955799488899464
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3145.8215980238097,
+            "p95": 4201.910878899999,
+            "maximum": 4701.55087,
+            "mean_per_source": 247.72261954083427,
+            "wall_p95": 0.21801801845431323,
+            "saving_pct": -0.6846110688131901
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3609.616940404762,
+            "p95": 4859.378837349999,
+            "maximum": 5021.239233,
+            "mean_per_source": 284.38702234339587,
+            "wall_p95": 0.229971663840115,
+            "saving_pct": -15.528762972560095
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3124.431394857143,
+            "p95": 4025.4639472999997,
+            "maximum": 4211.07549,
+            "mean_per_source": 245.4179251167495,
+            "wall_p95": 0.20392109248787152,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3305.006511380953,
+            "p95": 4467.6167284,
+            "maximum": 4896.562516,
+            "mean_per_source": 259.0008071543649,
+            "wall_p95": 0.10884784795343876,
+            "saving_pct": -5.779455321727944
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3076.8619831190476,
+            "p95": 4063.876782,
+            "maximum": 4120.726434,
+            "mean_per_source": 241.45352423535357,
+            "wall_p95": 0.5875918338075276,
+            "saving_pct": 1.5224981997170817
+          }
+        }
+      },
+      "spatial_hash": {
+        "bounded": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3152.257177285714,
+            "p95": 4401.2961436,
+            "maximum": 4735.803407,
+            "mean_per_source": 247.62222307007875,
+            "wall_p95": 0.2291497668251395,
+            "saving_pct": -2.3744330255766055
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3617.549399928572,
+            "p95": 4763.908220699999,
+            "maximum": 4874.094126,
+            "mean_per_source": 284.756078185782,
+            "wall_p95": 0.23496531303972,
+            "saving_pct": -17.485518449542138
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3079.1449428571423,
+            "p95": 4149.767677999999,
+            "maximum": 4202.863157,
+            "mean_per_source": 241.85888093516587,
+            "wall_p95": 0.21778682973235836,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3345.243662880952,
+            "p95": 4578.559409799999,
+            "maximum": 4888.958102,
+            "mean_per_source": 261.7955744640269,
+            "wall_p95": 0.10637989696115253,
+            "saving_pct": -8.641967980139853
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3095.8160375,
+            "p95": 4069.6788761,
+            "maximum": 4229.708317,
+            "mean_per_source": 242.92340260293764,
+            "wall_p95": 0.6034111106768246,
+            "saving_pct": -0.5414196133095572
+          }
+        },
+        "pre_round_stress": {
+          "COVERAGE_ORDER": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3152.256301595238,
+            "p95": 4401.2961436,
+            "maximum": 4735.803407,
+            "mean_per_source": 247.6221434618536,
+            "wall_p95": 0.23059056606143713,
+            "saving_pct": -2.3744928516961528
+          },
+          "COVERAGE_PRIORITY": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3617.548120333334,
+            "p95": 4763.908220699999,
+            "maximum": 4874.094126,
+            "mean_per_source": 284.7559615413015,
+            "wall_p95": 0.23541468083858486,
+            "saving_pct": -17.48557818674652
+          },
+          "CURRENT": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3079.1422880714285,
+            "p95": 4149.767677999999,
+            "maximum": 4202.863157,
+            "mean_per_source": 241.85863959101002,
+            "wall_p95": 0.21930069606751196,
+            "saving_pct": 0.0
+          },
+          "SERVICE_PAIR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3345.2410080952372,
+            "p95": 4578.559409799999,
+            "maximum": 4888.958102,
+            "mean_per_source": 261.7953331198711,
+            "wall_p95": 0.10786498449742793,
+            "saving_pct": -8.641975431102122
+          },
+          "SERVICE_TOUR": {
+            "runs": 42,
+            "complete": 42,
+            "failures": 0,
+            "false_complete": 0,
+            "mean": 3095.8160375,
+            "p95": 4069.6788761,
+            "maximum": 4229.708317,
+            "mean_per_source": 242.92340260293764,
+            "wall_p95": 0.6047016430646178,
+            "saving_pct": -0.5415062984638785
+          }
+        }
+      }
+    }
+  },
+  "audited_actions": 199870,
+  "failures": 0,
+  "official_runs": 0,
+  "formal_runs": 0,
+  "replacement_passed": false
+}

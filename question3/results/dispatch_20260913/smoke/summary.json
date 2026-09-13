@@ -1,0 +1,664 @@
+{
+  "rows": [
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "COVERAGE_ORDER",
+      "rounding": "bounded",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.17960499972105026,
+      "metrics": {
+        "virtual_time_s": 3291.08933,
+        "components": {
+          "movement_s": 2691.089331092803,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4371726183023,
+          "adaptive_localization": 1742.785166362952,
+          "multi_target_refinement": 78.0,
+          "optical": 540.8669921115493
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3291.08933
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "COVERAGE_PRIORITY",
+      "rounding": "bounded",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.32166043296456337,
+      "metrics": {
+        "virtual_time_s": 4104.270979,
+        "components": {
+          "movement_s": 3449.2709763103267,
+          "switch_s": 90.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1573.7009289241403,
+          "adaptive_localization": 1986.1939989541077,
+          "optical": 473.37604843207737,
+          "multi_target_refinement": 66.0,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 113,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 34,
+        "certified_clear": 15,
+        "information_gate_skip": 3,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4104.270979
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "CURRENT",
+      "rounding": "bounded",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.26443595811724663,
+      "metrics": {
+        "virtual_time_s": 3291.08933,
+        "components": {
+          "movement_s": 2691.089331092803,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4371726183023,
+          "adaptive_localization": 1742.785166362952,
+          "multi_target_refinement": 78.0,
+          "optical": 540.8669921115493
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3291.08933
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "SERVICE_PAIR",
+      "rounding": "bounded",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.14472773298621178,
+      "metrics": {
+        "virtual_time_s": 3726.628627,
+        "components": {
+          "movement_s": 3167.628628755675,
+          "switch_s": 74.0,
+          "detection_s": 405.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 589.1438365116786,
+          "adaptive_localization": 2626.9294425284006,
+          "multi_target_refinement": 72.0,
+          "optical": 433.5553497155962,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 97,
+      "event_counts": {
+        "belief_route": 21,
+        "schedule": 21,
+        "feasible_update": 50,
+        "certified_measure": 35,
+        "information_gate_skip": 18,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3726.628627
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "SERVICE_TOUR",
+      "rounding": "bounded",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.47789211198687553,
+      "metrics": {
+        "virtual_time_s": 3253.454112,
+        "components": {
+          "movement_s": 2653.4541116027767,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4628136690474,
+          "adaptive_localization": 1660.4385812511332,
+          "multi_target_refinement": 78.0,
+          "optical": 585.5527166825965
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 10,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3253.454112
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "COVERAGE_ORDER",
+      "rounding": "pre_round_stress",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.1716417893767357,
+      "metrics": {
+        "virtual_time_s": 3291.08933,
+        "components": {
+          "movement_s": 2691.089331092803,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4371726183023,
+          "adaptive_localization": 1742.785166362952,
+          "multi_target_refinement": 78.0,
+          "optical": 540.8669921115493
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3291.08933
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "COVERAGE_PRIORITY",
+      "rounding": "pre_round_stress",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.22537754476070404,
+      "metrics": {
+        "virtual_time_s": 4104.270979,
+        "components": {
+          "movement_s": 3449.2709763103267,
+          "switch_s": 90.0,
+          "detection_s": 485.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 1573.7009289241403,
+          "adaptive_localization": 1986.1939989541077,
+          "optical": 473.37604843207737,
+          "multi_target_refinement": 66.0,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 97,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 113,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 34,
+        "certified_clear": 15,
+        "information_gate_skip": 3,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 4104.270979
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "CURRENT",
+      "rounding": "pre_round_stress",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.16711660847067833,
+      "metrics": {
+        "virtual_time_s": 3291.08933,
+        "components": {
+          "movement_s": 2691.089331092803,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4371726183023,
+          "adaptive_localization": 1742.785166362952,
+          "multi_target_refinement": 78.0,
+          "optical": 540.8669921115493
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 11,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3291.08933
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "SERVICE_PAIR",
+      "rounding": "pre_round_stress",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.13713975623250008,
+      "metrics": {
+        "virtual_time_s": 3726.628627,
+        "components": {
+          "movement_s": 3167.628628755675,
+          "switch_s": 74.0,
+          "detection_s": 405.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 589.1438365116786,
+          "adaptive_localization": 2626.9294425284006,
+          "multi_target_refinement": 72.0,
+          "optical": 433.5553497155962,
+          "near": 5.0
+        },
+        "counts": {
+          "measure": 81,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 97,
+      "event_counts": {
+        "belief_route": 21,
+        "schedule": 21,
+        "feasible_update": 50,
+        "certified_measure": 35,
+        "information_gate_skip": 18,
+        "certified_clear": 15,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3726.628627
+    },
+    {
+      "case_id": "dispatch_smoke_uniform_2026091206_spatial_hash",
+      "seed": 2026091206,
+      "family": "uniform",
+      "source_count": 16,
+      "error_mode": "spatial_hash",
+      "variant": "SERVICE_TOUR",
+      "rounding": "pre_round_stress",
+      "stage": "smoke",
+      "status": "complete",
+      "failure": null,
+      "success": true,
+      "false_complete": false,
+      "cleared": 16,
+      "total": 16,
+      "elapsed_wall_s": 0.4826434887945652,
+      "metrics": {
+        "virtual_time_s": 3253.454112,
+        "components": {
+          "movement_s": 2653.4541116027767,
+          "switch_s": 80.0,
+          "detection_s": 440.0,
+          "optical_s": 48.0,
+          "laser_s": 32.0
+        },
+        "phases": {
+          "control": 0.0,
+          "search": 929.4628136690474,
+          "adaptive_localization": 1660.4385812511332,
+          "multi_target_refinement": 78.0,
+          "optical": 585.5527166825965
+        },
+        "counts": {
+          "measure": 88,
+          "clear": 16,
+          "clear_success": 16,
+          "clear_failure": 0,
+          "retries": 0
+        }
+      },
+      "audited_actions": 104,
+      "event_counts": {
+        "belief_route": 22,
+        "schedule": 22,
+        "feasible_update": 49,
+        "certified_measure": 33,
+        "information_gate_skip": 10,
+        "certified_clear": 16,
+        "strategy_result": 1
+      },
+      "audit": "pass",
+      "penalized_virtual_s": 3253.454112
+    }
+  ],
+  "aggregates": {
+    "bounded": {
+      "COVERAGE_ORDER": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3291.08933,
+        "p95": 3291.08933,
+        "maximum": 3291.08933,
+        "mean_per_source": 205.693083125,
+        "wall_p95": 0.17960499972105026,
+        "saving_pct": 0.0
+      },
+      "COVERAGE_PRIORITY": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 4104.270979,
+        "p95": 4104.270979,
+        "maximum": 4104.270979,
+        "mean_per_source": 256.5169361875,
+        "wall_p95": 0.32166043296456337,
+        "saving_pct": -24.708586351255324
+      },
+      "CURRENT": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3291.08933,
+        "p95": 3291.08933,
+        "maximum": 3291.08933,
+        "mean_per_source": 205.693083125,
+        "wall_p95": 0.26443595811724663,
+        "saving_pct": 0.0
+      },
+      "SERVICE_PAIR": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3726.628627,
+        "p95": 3726.628627,
+        "maximum": 3726.628627,
+        "mean_per_source": 232.9142891875,
+        "wall_p95": 0.14472773298621178,
+        "saving_pct": -13.233894717771166
+      },
+      "SERVICE_TOUR": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3253.454112,
+        "p95": 3253.454112,
+        "maximum": 3253.454112,
+        "mean_per_source": 203.340882,
+        "wall_p95": 0.47789211198687553,
+        "saving_pct": 1.1435489658981668
+      }
+    },
+    "pre_round_stress": {
+      "COVERAGE_ORDER": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3291.08933,
+        "p95": 3291.08933,
+        "maximum": 3291.08933,
+        "mean_per_source": 205.693083125,
+        "wall_p95": 0.1716417893767357,
+        "saving_pct": 0.0
+      },
+      "COVERAGE_PRIORITY": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 4104.270979,
+        "p95": 4104.270979,
+        "maximum": 4104.270979,
+        "mean_per_source": 256.5169361875,
+        "wall_p95": 0.22537754476070404,
+        "saving_pct": -24.708586351255324
+      },
+      "CURRENT": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3291.08933,
+        "p95": 3291.08933,
+        "maximum": 3291.08933,
+        "mean_per_source": 205.693083125,
+        "wall_p95": 0.16711660847067833,
+        "saving_pct": 0.0
+      },
+      "SERVICE_PAIR": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3726.628627,
+        "p95": 3726.628627,
+        "maximum": 3726.628627,
+        "mean_per_source": 232.9142891875,
+        "wall_p95": 0.13713975623250008,
+        "saving_pct": -13.233894717771166
+      },
+      "SERVICE_TOUR": {
+        "runs": 1,
+        "complete": 1,
+        "failures": 0,
+        "false_complete": 0,
+        "mean": 3253.454112,
+        "p95": 3253.454112,
+        "maximum": 3253.454112,
+        "mean_per_source": 203.340882,
+        "wall_p95": 0.4826434887945652,
+        "saving_pct": 1.1435489658981668
+      }
+    }
+  }
+}

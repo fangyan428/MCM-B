@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 2,
+    "exemptions": 0
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220456,
+      "height_pt": 308.9763779527559
+    },
+    "panels": [
+      {
+        "id": "Q1",
+        "bbox_pt": [
+          17.0078740152,
+          93.54330708661418,
+          123.3070866102,
+          263.6220472440945
+        ]
+      },
+      {
+        "id": "Q2",
+        "bbox_pt": [
+          140.3149606254,
+          93.54330708661418,
+          246.61417322040003,
+          263.6220472440945
+        ]
+      },
+      {
+        "id": "Q3",
+        "bbox_pt": [
+          263.6220472356,
+          93.54330708661418,
+          369.92125983060004,
+          263.6220472440945
+        ]
+      },
+      {
+        "id": "Q4",
+        "bbox_pt": [
+          386.9291338458,
+          93.54330708661418,
+          493.2283464408,
+          263.6220472440945
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": []
+  },
+  "findings": []
+}

@@ -1,0 +1,228 @@
+{
+  "status": "complete",
+  "failure": null,
+  "exit_confirmed": true,
+  "cleared_channels": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "absent_channels": [],
+  "negative_station_ids": {
+    "1": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "2": [],
+    "3": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "4": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "5": [
+      0
+    ],
+    "6": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "7": [],
+    "8": [
+      0
+    ],
+    "9": [],
+    "10": [
+      0,
+      3,
+      4
+    ],
+    "11": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "12": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [
+      0,
+      3,
+      4
+    ],
+    "17": [
+      0,
+      4
+    ],
+    "18": [],
+    "19": [
+      0,
+      3,
+      4
+    ],
+    "20": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "station_positions": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1125.0,
+      0.0
+    ],
+    [
+      562.5000000000001,
+      974.2785792574934
+    ],
+    [
+      -562.4999999999998,
+      974.2785792574936
+    ],
+    [
+      -1125.0,
+      1.3777276490407724e-13
+    ],
+    [
+      -562.5000000000005,
+      -974.2785792574933
+    ],
+    [
+      562.5000000000001,
+      -974.2785792574934
+    ]
+  ],
+  "stopping_certificate": {
+    "method": "source_count_upper_bound",
+    "source_upper_bound": 16,
+    "successful_channels": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "inferred_absent_channels": [
+      1,
+      3,
+      12,
+      20
+    ]
+  },
+  "regions": [],
+  "metrics": {
+    "virtual_time_s": 3888.457566,
+    "components": {
+      "movement_s": 3245.4575692637336,
+      "switch_s": 83.0,
+      "detection_s": 480.0,
+      "optical_s": 48.0,
+      "laser_s": 32.0
+    },
+    "phases": {
+      "control": 0.0,
+      "search": 1075.9605270231464,
+      "adaptive_localization": 2487.7925282721394,
+      "multi_target_refinement": 24.0,
+      "optical": 290.7045139684478,
+      "near": 10.0
+    },
+    "counts": {
+      "measure": 96,
+      "clear": 16,
+      "clear_success": 16,
+      "clear_failure": 0,
+      "retries": 0
+    }
+  },
+  "kind": "official-rehearsal",
+  "config": {
+    "baseline_config": {
+      "name": "round19_BOTH",
+      "error_deg": 1.005,
+      "second_offset": [
+        800.0,
+        605.0
+      ],
+      "min_angle_deg": 20.0,
+      "optical_cell_m": 28.0,
+      "max_optical_points": 2000,
+      "real_time_reserve_s": 5.0,
+      "modules": {
+        "A": true,
+        "B": true,
+        "C": false,
+        "S": true
+      },
+      "search_radius_m": 1125,
+      "shared_batch_limit": 19,
+      "count_stop": "detected_16",
+      "second_point_opportunity": "current_if_certified",
+      "opportunity_timing": "after_schedule",
+      "clear_skip": "separating_halfplane",
+      "clear_radius_priors": "both",
+      "search_interleaving": "nearest_finite",
+      "second_range_prior": "domain",
+      "shared_range_prior": "domain"
+    },
+    "mechanism": "gated_tour_multi_parallax"
+  },
+  "elapsed_wall_s": 0.7397283999998763,
+  "official_total": null,
+  "clearance_ratio": null,
+  "note": "Official count must be read from rehearsal UI after exit; no hidden count in HTTP API."
+}

@@ -20,3 +20,5 @@
 ```bash
 XDG_CACHE_HOME="$PWD/manuscript/build/revision2-cache" manuscript/build/revision2-tools/tectonic manuscript/story_draft/中文论文初稿.tex
 ```
+
+后续尺寸调整：图10宽度由正文宽度的98%缩至76%，图13由98%缩至80%，均保持居中与原始宽高比；Markdown尺寸标注同步。重新编译并渲染核查两处版面。

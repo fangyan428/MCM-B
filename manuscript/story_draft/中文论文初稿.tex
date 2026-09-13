@@ -843,6 +843,15 @@ g\in\operatorname{conv}(W_g),\qquad
 
 则每个源所在三角形的三个顶点均可作为见证站。三角形内任一点到一个顶点的距离不超过最长边，故连续发现要求转化为三角网覆盖和有限边长核验。
 
+\begingroup
+\setlength{\intextsep}{6pt}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.86\linewidth]{figures/fig09_q4_cover.pdf}
+\caption{25站双环搜索构造。中心站与内、外环分别位于0、950和1870 m处，两环错开15°，连接形成36个三角形。最长边小于1000 m，外环正多边形包围目标圆域，从而对任意源位置和发射方向提供发现保证。}
+\end{figure}
+\endgroup
+
 \textbf{（2）双环构造及参数选择。} 采用中心站与两个等站数正环，内、外环半径分别为\(r_i,r_o\)，每环\(m\)站，两环相位差为\(\pi/m\)。外环正多边形须包围半径1800 m的源域，且外环相邻边作为三角网边应小于1000 m，因此
 
 \[
@@ -888,19 +897,18 @@ b_k&=1870(\cos(k\pi/6+\pi/12),\sin(k\pi/6+\pi/12)),
 
 按下标模12连接\((s_0,a_k,a_{k+1})\)、\((a_k,a_{k+1},b_k)\)和\((a_k,b_{k-1},b_k)\)，得到36个三角形。其最长边为983.60 m；外环内切圆半径为\(1870\cos15^\circ=1806.28\) m，大于1800 m，故满足全域覆盖及近距凸包条件，如图12所示。12站的下界仅针对上述构造族；25站及两个半径是经核验的可行选择，不构成一般连续发现方案的最少站数或最短行程证明。
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.86\linewidth]{figures/fig09_q4_cover.pdf}
-\caption{25站双环搜索构造。中心站与内、外环分别位于0、950和1870 m处，两环错开15°，连接形成36个三角形。最长边小于1000 m，外环正多边形包围目标圆域，从而对任意源位置和发射方向提供发现保证。}
-\end{figure}
+
 
 图13将发现保证分为局部与全局两部分：局部三角形内的源至少有一个近距顶点位于发射正面或边界；全局外环多边形包围整个源域。外环内切半径比源域半径多6.28 m，该余量按边到圆心的垂距计算。
 
-\begin{figure}[htbp]
+\begingroup
+\setlength{\intextsep}{6pt}
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.80\linewidth,trim={0 25bp 0 135bp},clip]{figures/fig20_q4_coverage_certificate.png}
+\includegraphics[width=0.80\linewidth,trim={0 25bp 0 170bp},clip]{figures/fig20_q4_coverage_certificate.png}
 \caption{定向源发现保证的局部与全局几何示意。（a）源位于近距站的凸包内，任意发射方向至少有一个站可见；（b）外环正十二边形包围半径1800 m的源域，内切半径为1806.28 m。图不按比例绘制；内切半径指圆心到边的垂距，顶点到圆心的外环半径为1870 m。}
 \end{figure}
+\endgroup
 
 \FloatBarrier
 \subsubsection{5.4.3 交会定位与光学清除}\label{sec-5-4-3}

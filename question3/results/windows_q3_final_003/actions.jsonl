@@ -1,0 +1,6 @@
+{"type": "request", "path": "/enter", "payload": {"arena_id": "default", "robot_id": "202609002003", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1"}, "attempt": 0, "phase": "control"}
+{"type": "transport_error", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1", "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>", "attempt": 0}
+{"type": "request", "path": "/enter", "payload": {"arena_id": "default", "robot_id": "202609002003", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1"}, "attempt": 1, "phase": "control"}
+{"type": "transport_error", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1", "error": "<urlopen error [WinError 10053] 你的主机中的软件中止了一个已建立的连接。>", "attempt": 1}
+{"type": "request", "path": "/enter", "payload": {"arena_id": "default", "robot_id": "202609002003", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1"}, "attempt": 2, "phase": "control"}
+{"type": "transport_error", "request_id": "d3059faa2f854defa6fdef7ba6a9b699-1", "error": "[WinError 10054] 远程主机强迫关闭了一个现有的连接。", "attempt": 2}

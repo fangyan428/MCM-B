@@ -4,12 +4,14 @@
 \setCJKsansfont{Noto Sans CJK SC}
 \setCJKmonofont{Noto Sans CJK SC}
 \setmainfont{Times New Roman}
-\usepackage{fancyvrb}
+\usepackage{fancyvrb,fvextra}
+\setmonofont{DejaVu Sans Mono}[Scale=0.85]
 \usepackage{needspace}
 \usepackage{cite}
 \usepackage[section]{placeins}
 \usepackage{amsmath,amssymb,booktabs,longtable,array,calc,graphicx,float,caption,xurl}
-\usepackage[unicode,hidelinks,pdfauthor={},pdftitle={从两次测向到完整清除：中文论文初稿}]{hyperref}
+\usepackage[unicode,hidelinks,pdfauthor={},pdftitle={从两次测向到完整清除：有界误差下无线电干扰源的鲁棒定位与在线调度}]{hyperref}
+\urlstyle{same}
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{3}
 \setlength{\parskip}{2pt}
@@ -32,11 +34,12 @@
 \setlength{\@fpbot}{0pt plus 1fil}
 \makeatother
 \begin{document}
+\pagestyle{plain}
 \setlength{\abovedisplayskip}{8pt plus 2pt minus 2pt}
 \setlength{\belowdisplayskip}{8pt plus 2pt minus 2pt}
 \begin{center}
 {\zihao{3}\bfseries 从两次测向到完整清除：\\有界误差下无线电干扰源的鲁棒定位与在线调度}\par
-\vspace{5pt}{\small 中文论文初稿}
+
 \end{center}
 \section{摘要}\label{ux6458ux8981}
 \begingroup
@@ -1032,6 +1035,10 @@ Q3配置及策略哈希对应联合方案；Q4配置与25站布设对应推荐�
 本文以测向楔形交建立位置区域，由顶点直径与覆盖半径区分定位精度和清除保证。第二问给出鲁棒接收、交会约束及\((800,\pm605)\) m推荐点；第三问以七站覆盖、观测共享和滚动排序完成全向搜索；第四问以25站近距凸包和有限光学覆盖处理定向失联。
 
 自建配对实验中，Q3、Q4相对各自冻结基线平均省时约10\%、41\%；正式测试各3次均满足停止判据并主动退出，累计清除38、36源。慢例及未采用的动态方案表明，局部精度、站数和代理路线长度均不能单独决定整局效率，后续应围绕发现顺序改进调度。
+\section{AI工具使用声明}
+
+本参赛队在竞赛过程中使用了AI工具，主要用于选题与研究思路讨论、论文草稿整理及代码初步草拟。核心建模与分析由参赛队主导，AI输出作为辅助参考，由参赛队负责取舍、修改与核验，详细使用情况见支撑材料。
+
 \renewcommand{\refname}{参考文献}
 \begin{thebibliography}{99}
 \label{references}
@@ -1680,4 +1687,8 @@ Q3三次总虚拟时间依次为2955.60、3888.46、3055.66 s，Q4依次为5755.
 
 Q3的38条正式源轨迹中，31源满足覆盖圆判据，7源通过近场反馈清除。相邻清除点之间包含搜索、补测、移动及光学耗时，不能单独归为清除动作。Q3正式3及Q4正式1、2在最后清除后，分别继续核验140.85、463.79、123.77 s，因此清除终点与任务退出分开计量。
 \endgroup
+\clearpage
+\section{附录F 支撑材料索引与完整源程序}
+\input{../build/submission_inventory.tex}
+\input{../build/submission_code.tex}
 \end{document}

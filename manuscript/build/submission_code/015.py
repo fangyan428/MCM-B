@@ -1,0 +1,51 @@
+"""Targeted display repairs; no new experiments and no observations excluded."""
+from pathlib import Path
+exec(Path(__file__).with_name('make_figures.py').read_text().split('# 1. The question')[0])
+import sys
+sys.path.insert(0,str(Path.home()/'.codex/skills/nature-figure/scripts'))
+from audit_panel_alignment import require_matplotlib_panel_alignment
+mpl.rcParams.update({'font.family':'sans-serif','font.sans-serif':['Alibaba PuHuiTi','DejaVu Sans'],'pdf.fonttype':42,'svg.fonttype':'none'})
+# Only changed statistical figure: retain the 18821s observation previously above the axis limit.
+q4=list(csv.DictReader((DATA/'q4_source_data.csv').open()))
+f,aa=plt.subplots(1,2,figsize=(6.8,3.6));f.subplots_adjust(left=.145,right=.98,bottom=.20,top=.85,wspace=.42)
+for ax,batch,label in zip(aa,['round9_main','round9_rounding'],['有界读数：96布局','舍入压力：96布局']):
+    vals=[[float(r['virtual_time_s']) for r in q4 if r['batch']==batch and r['config']==cf] for cf in ['BASE','FINAL']]
+    assert all(len(v)==96 for v in vals)
+    assert all(3000<min(v) and max(v)<20000 for v in vals)
+    bp=ax.boxplot(vals,tick_labels=['31站初始基线','25站推荐'],patch_artist=True,widths=.45,flierprops=dict(marker='.',markersize=3))
+    for patch,color in zip(bp['boxes'],[GRAY,TEAL]):patch.set(facecolor=color,alpha=.6)
+    ax.set(title=label,ylim=(3000,20000),ylabel='总虚拟时间 (s)' if ax==aa[0] else '')
+    ax.tick_params(axis='x',labelsize=8)
+require_matplotlib_panel_alignment(f,json_out=QA/'fig14_q4_historical.alignment.json')
+f.savefig(OUT/'fig14_q4_historical.pdf');f.savefig(OUT/'fig14_q4_historical.svg');f.savefig(OUT/'fig14_q4_historical.png',dpi=300);plt.close(f)
+# Disc fill explicitly shows what covers the domain.
+angs=np.arange(6)*np.pi/3;seven=np.vstack([[0,0],1125*np.c_[np.cos(angs),np.sin(angs)]])
+f,ax=canvas(4)
+for station in seven:ax.add_patch(Circle(station,1000,facecolor='#DFEEF0',edgecolor=GRAY,lw=.8,alpha=.48))
+ax.add_patch(Circle((0,0),1800,fill=False,color=DARK,lw=1.5))
+ax.scatter(seven[:,0],seven[:,1],color=TEAL,s=26,zorder=4)
+g=1800*np.array([np.cos(np.pi/6),np.sin(np.pi/6)])
+ax.plot([seven[1,0],g[0]],[seven[1,1],g[1]],color=DARK,lw=1.3);ax.scatter(*g,color=ORANGE,s=30,zorder=5)
+ax.text(-2050,2250,'全域最远近站距离约 999.11 m < 1000 m',fontsize=9)
+ax.set(xlim=(-2250,2250),ylim=(-2250,2480),xlabel='x (m)',ylabel='y (m)',aspect='equal')
+save(f,'fig07_q3_cover','连续七圆盘覆盖目标域','解析几何构造','seven fixed stations at radius1125m, guarantee radius1000m')
+# Task flow, preserving implementation hierarchy: station task and source service task.
+f,ax=canvas(4.2,.025,.035);ax.set(xlim=(0,10),ylim=(0,6.2));ax.axis('off')
+box(ax,.2,5.0,2.0,.7,'到达搜索站',fs=9);box(ax,2.7,5.0,2.0,.7,'扫描必要频道',fs=9);box(ax,5.2,5.0,2.0,.7,'发现新源？',fs=9);box(ax,7.7,5.0,2.0,.7,'建立源服务任务',fs=9)
+for x in [2.25,4.75,7.25]:arrow(ax,(x,5.35),(x+.4,5.35))
+ax.text(7.48,5.67,'是',fontsize=8,ha='center')
+box(ax,.2,2.85,2.8,1.05,'任务池与停止检查\n未访问搜索站 / 待清源',fs=8.5)
+box(ax,3.6,2.85,2.8,1.05,'最近邻与2-opt重排\n只执行首项任务',fs=9)
+box(ax,7.0,2.85,2.7,1.05,'源服务：依据当前区域\n测向 / 直接清除 / 回退',fs=8.5)
+arrow(ax,(3.05,3.38),(3.55,3.38));arrow(ax,(6.45,3.38),(6.95,3.38))
+arrow(ax,(8.7,4.95),(8.7,4.45));arrow(ax,(8.7,4.45),(1.6,4.45));arrow(ax,(1.6,4.45),(1.6,3.95))
+arrow(ax,(6.2,4.95),(6.2,4.5));ax.text(6.35,4.69,'否：记录后重排',fontsize=8)
+arrow(ax,(4.3,3.95),(4.3,4.1));arrow(ax,(4.3,4.1),(1.2,4.1));arrow(ax,(1.2,4.1),(1.2,4.95))
+box(ax,7.0,.6,2.7,1.05,'满足信息价值才共享检测\n按20 m覆盖方案执行清除',fs=8.5)
+arrow(ax,(8.35,2.8),(8.35,1.7))
+box(ax,3.6,.6,2.8,1.05,'更新集合、扫描与清除记录\n检查停止证书',fs=8.5)
+arrow(ax,(6.95,1.13),(6.45,1.13))
+box(ax,.2,.6,2.8,1.05,'证书成立：退出\n否则：保留未完成任务',fs=8.5)
+arrow(ax,(3.55,1.13),(3.05,1.13));arrow(ax,(1.6,1.7),(1.6,2.8))
+save(f,'fig06_q3_algorithm','搜索反馈与源服务共同改变下一任务','算法流程图','documented Q3 task hierarchy, not a real trajectory')
+print('Updated Q3 flow/coverage and Q4 full-range distribution; all 384 observations included')

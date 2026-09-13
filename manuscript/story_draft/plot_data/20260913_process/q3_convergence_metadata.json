@@ -1,0 +1,129 @@
+{
+  "export_script": "manuscript/story_draft/analysis/export_q3_convergence.py",
+  "geometric_example": {
+    "data_kind": "按论文明确参数复算的几何算例；不是正式测试或平均结果",
+    "source": "manuscript/story_draft/中文论文初稿.md, 5.3.2, fig17_shrink",
+    "original_figure_generator_found": false,
+    "precision": "float64 复算结果按 Python 最短往返表示保存，不补造原绘图程序的末位数值",
+    "match": "半径、直径保留两位小数与现论文完全一致",
+    "initial_region": "[-1500,1500]^2",
+    "centre_definition": "固定全局坐标轴包围盒中心",
+    "error_halfwidth_deg": 1.0,
+    "centreline_error_deg": 0.0,
+    "numeric_wedge_expansion_m": 0.0,
+    "independent_layouts": 1,
+    "formal_test": false
+  },
+  "units": {
+    "distance": "m",
+    "time": "simulator virtual seconds",
+    "angle": "degrees"
+  },
+  "csv_encoding": "UTF-8 with BOM",
+  "floating_point_export": "Python float repr, no decimal rounding",
+  "official": {
+    "provenance": "从正式策略日志 feasible_update.vertices 计算指标；另用动作响应和哈希一致源码独立重建核验",
+    "independent_official_runs": 3,
+    "new_runs_performed": 0,
+    "excluded_run": "windows_q3_final_003: enter connection interruption, no accepted arena entry",
+    "radius_definition": "q 为最新示向方向旋转包围盒中心；covering_radius_m=max_v||v-q||",
+    "algorithm_radius_definition": "algorithm_radius_with_slack_m=covering_radius_m+1e-7",
+    "count_definition": "每个频道的 direction 正常测向次数；不计 no_signal 或 near",
+    "interpretation": "每条线是一个源的真实运行轨迹；三个正式测试共38源，不是38独立布局",
+    "terminal_note": "near 后直接清除不产生新的多边形；7条此类轨迹不额外添加 R=5 或 R=0 点",
+    "region_nesting_note": "区域嵌套不自动保证旋转包围盒中心的覆盖半径严格单调，不平滑或修正数据",
+    "raw_logs_local_only": true,
+    "runs": [
+      {
+        "run_id": "windows_q3_final_001",
+        "case_code": "5ER6-BK3Y-KHDQ-MUQT",
+        "formal_index": 1,
+        "normal_bearing_states": 25,
+        "source_curves": 10,
+        "cleared_sources": 10,
+        "clear_methods": {
+          "certified_region_circle": 8,
+          "near_feedback": 2
+        },
+        "source_code_sha256": {
+          "innovation/geometry.py": "cb650beac2f7698c718919a2f0ec21fe0972262dd9dba69fb18378449daefe42",
+          "innovation/strategy.py": "c8e51f6d34ff11b4e55c9cbc713477d3b8b4a3759df076bee9c9bfb5dc2a9dd1"
+        },
+        "input_sha256": {
+          "actions.jsonl": "e4eeed876fb4af2edabb64462da73eeca8f20c3a545f134dbbd11fb4fa384f8d",
+          "strategy.jsonl": "66208d56af76edf65ddea13630afd3ad3f13f5f7baf62a3aab655a4f539fed92",
+          "config.json": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a",
+          "code_sha256.json": "74ff14b093f6777b3c478fa04233d122905e0f2955f3f9a177621cb023a94b6e",
+          "result.json": "ab822db720e9e883391d4375c4bc98b6079181c94322ea906d9d71f4f2f1da83"
+        },
+        "error_halfwidth_deg": 1.005,
+        "max_rebuilt_vertex_error_m": 1.1823431123048067e-11,
+        "checked_certificates": {
+          "certified_measure": 17,
+          "certified_clear": 8
+        },
+        "max_certificate_radius_error_m": 0.0
+      },
+      {
+        "run_id": "windows_q3_final_002",
+        "case_code": "VUK9-G6FH-ACSC-KFYG",
+        "formal_index": 2,
+        "normal_bearing_states": 45,
+        "source_curves": 16,
+        "cleared_sources": 16,
+        "clear_methods": {
+          "certified_region_circle": 14,
+          "near_feedback": 2
+        },
+        "source_code_sha256": {
+          "innovation/geometry.py": "cb650beac2f7698c718919a2f0ec21fe0972262dd9dba69fb18378449daefe42",
+          "innovation/strategy.py": "c8e51f6d34ff11b4e55c9cbc713477d3b8b4a3759df076bee9c9bfb5dc2a9dd1"
+        },
+        "input_sha256": {
+          "actions.jsonl": "e69bc8498c458e5f757dfe6344659ee0092f46166534418b2354f3a907c573e6",
+          "strategy.jsonl": "e03032a49e46d46fa638433b08d9731184712fee74f5d0bb46fb07a5c8558a7a",
+          "config.json": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a",
+          "code_sha256.json": "74ff14b093f6777b3c478fa04233d122905e0f2955f3f9a177621cb023a94b6e",
+          "result.json": "111f6ceebf81176dae408a05e53af517217d6ec4908ff83c304cc99bb4add89c"
+        },
+        "error_halfwidth_deg": 1.005,
+        "max_rebuilt_vertex_error_m": 1.2960299500264227e-11,
+        "checked_certificates": {
+          "certified_measure": 31,
+          "certified_clear": 14
+        },
+        "max_certificate_radius_error_m": 0.0
+      },
+      {
+        "run_id": "windows_q3_final_004",
+        "case_code": "3BEW-YK5X-AE2M-SJND",
+        "formal_index": 3,
+        "normal_bearing_states": 32,
+        "source_curves": 12,
+        "cleared_sources": 12,
+        "clear_methods": {
+          "certified_region_circle": 9,
+          "near_feedback": 3
+        },
+        "source_code_sha256": {
+          "innovation/geometry.py": "cb650beac2f7698c718919a2f0ec21fe0972262dd9dba69fb18378449daefe42",
+          "innovation/strategy.py": "c8e51f6d34ff11b4e55c9cbc713477d3b8b4a3759df076bee9c9bfb5dc2a9dd1"
+        },
+        "input_sha256": {
+          "actions.jsonl": "4f49a34fbc4f65d89be586becad99e2ae7b620e5baca45e5dd0176748972940b",
+          "strategy.jsonl": "63690f8d680cc52da57b90160bc13877222790d80567ebf29290d763b5fd129c",
+          "config.json": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a",
+          "code_sha256.json": "74ff14b093f6777b3c478fa04233d122905e0f2955f3f9a177621cb023a94b6e",
+          "result.json": "c0baa80327ea5f32e9765263e313eaee2702e567c00da349f42fccec1c894e7f"
+        },
+        "error_halfwidth_deg": 1.005,
+        "max_rebuilt_vertex_error_m": 9.549694368615746e-12,
+        "checked_certificates": {
+          "certified_measure": 23,
+          "certified_clear": 9
+        },
+        "max_certificate_radius_error_m": 0.0
+      }
+    ]
+  }
+}

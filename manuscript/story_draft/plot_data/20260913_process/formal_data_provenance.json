@@ -1,0 +1,187 @@
+{
+  "time_definition": "Simulator response.virtual_time_s, measured from successful /enter; never wall time.",
+  "curve_definition": "Entry (0,0) and cumulative virtual time at each unique successful /clear response.",
+  "exit_definition": "The exit time can exceed the last clear time; it is not another successful clear.",
+  "event_definition": "No-signal and clear events use response end time. Fallback starts use the preceding response time, before the first fallback action.",
+  "formal_directory_correction": "Q3 formal test 3 is windows_q3_final_004. Directory 003 failed before entry.",
+  "sources": [
+    {
+      "problem": "Q3",
+      "formal_index": 1,
+      "case_code": "5ER6-BK3Y-KHDQ-MUQT",
+      "series_id": "Q3-正式1",
+      "inputs": [
+        {
+          "path": "question3/results/windows_q3_final_001/actions.jsonl",
+          "sha256": "e4eeed876fb4af2edabb64462da73eeca8f20c3a545f134dbbd11fb4fa384f8d"
+        },
+        {
+          "path": "question3/results/windows_q3_final_001/strategy.jsonl",
+          "sha256": "66208d56af76edf65ddea13630afd3ad3f13f5f7baf62a3aab655a4f539fed92"
+        },
+        {
+          "path": "question3/results/windows_q3_final_001/result.json",
+          "sha256": "ab822db720e9e883391d4375c4bc98b6079181c94322ea906d9d71f4f2f1da83"
+        },
+        {
+          "path": "question3/results/windows_q3_final_001/config.json",
+          "sha256": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a"
+        },
+        {
+          "path": "question3/results/jlog_question3/formal-p3-1-5ER6-BK3Y-KHDQ-MUQT.jlog",
+          "sha256": "ece54eb9b591bbcabfa86d9fb9f4bab7c6725650d16c5028580d40fb734e54b6"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    },
+    {
+      "problem": "Q3",
+      "formal_index": 2,
+      "case_code": "VUK9-G6FH-ACSC-KFYG",
+      "series_id": "Q3-正式2",
+      "inputs": [
+        {
+          "path": "question3/results/windows_q3_final_002/actions.jsonl",
+          "sha256": "e69bc8498c458e5f757dfe6344659ee0092f46166534418b2354f3a907c573e6"
+        },
+        {
+          "path": "question3/results/windows_q3_final_002/strategy.jsonl",
+          "sha256": "e03032a49e46d46fa638433b08d9731184712fee74f5d0bb46fb07a5c8558a7a"
+        },
+        {
+          "path": "question3/results/windows_q3_final_002/result.json",
+          "sha256": "111f6ceebf81176dae408a05e53af517217d6ec4908ff83c304cc99bb4add89c"
+        },
+        {
+          "path": "question3/results/windows_q3_final_002/config.json",
+          "sha256": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a"
+        },
+        {
+          "path": "question3/results/jlog_question3/formal-p3-2-VUK9-G6FH-ACSC-KFYG.jlog",
+          "sha256": "758610cae2606202f1f18e4e8d55a64eb61c5a7f6c3d76eddbea35d4cb92e028"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    },
+    {
+      "problem": "Q3",
+      "formal_index": 3,
+      "case_code": "3BEW-YK5X-AE2M-SJND",
+      "series_id": "Q3-正式3",
+      "inputs": [
+        {
+          "path": "question3/results/windows_q3_final_004/actions.jsonl",
+          "sha256": "4f49a34fbc4f65d89be586becad99e2ae7b620e5baca45e5dd0176748972940b"
+        },
+        {
+          "path": "question3/results/windows_q3_final_004/strategy.jsonl",
+          "sha256": "63690f8d680cc52da57b90160bc13877222790d80567ebf29290d763b5fd129c"
+        },
+        {
+          "path": "question3/results/windows_q3_final_004/result.json",
+          "sha256": "c0baa80327ea5f32e9765263e313eaee2702e567c00da349f42fccec1c894e7f"
+        },
+        {
+          "path": "question3/results/windows_q3_final_004/config.json",
+          "sha256": "65ad3a1a82fc11cd045c83606a07f391ff1bbfca9e2b741dfb547e823f740c8a"
+        },
+        {
+          "path": "question3/results/jlog_question3/formal-p3-3-3BEW-YK5X-AE2M-SJND.jlog",
+          "sha256": "43d7b723c8fd55eda8bbf0aa1a8ffefb23bb66b4d241c29574a743588a4ca3a1"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    },
+    {
+      "problem": "Q4",
+      "formal_index": 1,
+      "case_code": "JHQ9-ZVTT-CGAR-GVTX",
+      "series_id": "Q4-正式1",
+      "inputs": [
+        {
+          "path": "question4/results/windows_q4_final_001/actions.jsonl",
+          "sha256": "ec1c6a17028e6f52b9129126fb7d8ec264dfb093231e4c9c6a0dfdc3bb271d56"
+        },
+        {
+          "path": "question4/results/windows_q4_final_001/strategy.jsonl",
+          "sha256": "920c1424d1a67a30c4b90e04e146679ecc56bfcd5b7841670c70acb51825054a"
+        },
+        {
+          "path": "question4/results/windows_q4_final_001/result.json",
+          "sha256": "e3a67be92bbef600c3578bdeb34faaa378977c193f15f1b2079cb248d2dcb6f0"
+        },
+        {
+          "path": "question4/results/windows_q4_final_001/config.json",
+          "sha256": "bf7e46d8f993d3a6d0d9005c60a5ba2a004f42405d905cb65b77b4b36fe537f1"
+        },
+        {
+          "path": "question4/results/jlog_question4/formal-p4-1-JHQ9-ZVTT-CGAR-GVTX.jlog",
+          "sha256": "74b984874145ef1938aea41092ee6c9cc1eac390a7c248a15633b692b9530d56"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    },
+    {
+      "problem": "Q4",
+      "formal_index": 2,
+      "case_code": "SXAN-9UWV-2X8Z-GZ58",
+      "series_id": "Q4-正式2",
+      "inputs": [
+        {
+          "path": "question4/results/windows_q4_final_002/actions.jsonl",
+          "sha256": "cdb3d846de3cec835c82dc24ac442bbaa7f37a96dad8e70e99f1c3361fe67bd7"
+        },
+        {
+          "path": "question4/results/windows_q4_final_002/strategy.jsonl",
+          "sha256": "ab38ea8c3eeec8c47ffa99b0f702ecef04592a40d7b4a92c4d836b919818d3e8"
+        },
+        {
+          "path": "question4/results/windows_q4_final_002/result.json",
+          "sha256": "4867a50ee98644c1c131b8d6c576661d4873e15cabf2d6a4a0a52f3fd89169c2"
+        },
+        {
+          "path": "question4/results/windows_q4_final_002/config.json",
+          "sha256": "bf7e46d8f993d3a6d0d9005c60a5ba2a004f42405d905cb65b77b4b36fe537f1"
+        },
+        {
+          "path": "question4/results/jlog_question4/formal-p4-2-SXAN-9UWV-2X8Z-GZ58.jlog",
+          "sha256": "1d3d7e61102bbbac049320cf74c14353c18bb36976f2273f347ff9787a679c86"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    },
+    {
+      "problem": "Q4",
+      "formal_index": 3,
+      "case_code": "CEBG-3EHE-MGUQ-H96W",
+      "series_id": "Q4-正式3",
+      "inputs": [
+        {
+          "path": "question4/results/windows_q4_final_003/actions.jsonl",
+          "sha256": "285734a033f1daf015b49219c6229ec95e6756172a6ddae1ddf2e365506e5389"
+        },
+        {
+          "path": "question4/results/windows_q4_final_003/strategy.jsonl",
+          "sha256": "82084202d6ad20d0c491fae89a6cfb4727717b4dc8db671050e8312f385f6d34"
+        },
+        {
+          "path": "question4/results/windows_q4_final_003/result.json",
+          "sha256": "6d312e75ef1c7759a61ed1a0bf7c2e814151bce761e83c077256c4e242d3c083"
+        },
+        {
+          "path": "question4/results/windows_q4_final_003/config.json",
+          "sha256": "bf7e46d8f993d3a6d0d9005c60a5ba2a004f42405d905cb65b77b4b36fe537f1"
+        },
+        {
+          "path": "question4/results/jlog_question4/formal-p4-3-CEBG-3EHE-MGUQ-H96W.jlog",
+          "sha256": "60ac7acbe4ac647376df38c0f3ba02a05f560fa02609d2c935d9e00cd82374f5"
+        }
+      ],
+      "validation": "accepted request/response pairing; unique clear channels; final result metrics; public formal header and exit timing"
+    }
+  ],
+  "outputs": {
+    "clear_rows_including_origins": 80,
+    "q4_event_rows": 809
+  }
+}

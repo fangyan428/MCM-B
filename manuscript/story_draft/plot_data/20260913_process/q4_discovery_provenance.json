@@ -1,0 +1,89 @@
+{
+  "provenance": "offline reconstruction with individually SHA256-verified frozen historical source; not new validation or official testing",
+  "original_action_logs_available": false,
+  "batches": {
+    "round9_main": {
+      "source_directory": "question4/results/round9_main",
+      "source_sha256": {
+        "fixtures.json": "c2467459ca25caa7a249ed796ee78d34d4eb3143240043162f1d4618f000956d",
+        "summary.json": "0c0aba8c87cd7216c10aac0197bbcc8c141f8e273aa5c75c5afec8fc8e58f6c6",
+        "lock.json": "ef16472b63a4c886f76d81dd3210e72acc27e71ce5ad9df12738bd74f86e6f64"
+      },
+      "independent_layouts": 96,
+      "source_count_distribution": {
+        "10": 9,
+        "11": 18,
+        "12": 12,
+        "13": 12,
+        "14": 20,
+        "15": 13,
+        "16": 12
+      },
+      "error_mode_distribution": {
+        "spatial_hash": 24,
+        "positive": 24,
+        "negative": 24,
+        "smooth": 24
+      },
+      "original_environment": {
+        "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1"
+      }
+    },
+    "round9_rounding": {
+      "source_directory": "question4/results/round9_rounding",
+      "source_sha256": {
+        "fixtures.json": "9b79fc8c42fae1d76dc6f8d23c5dfcbf8126fdc25c319d59190db5f22ee3a0ea",
+        "summary.json": "2f6c0c4fc8915a2909b60e2e0966aa4affaa0c0958713f77f29133eb3981b13b",
+        "lock.json": "6d53383e1dd4431bd7286b1a2e936c24b25c271140139015a73deeac01d7dcd3"
+      },
+      "independent_layouts": 96,
+      "source_count_distribution": {
+        "10": 10,
+        "11": 14,
+        "12": 23,
+        "13": 15,
+        "14": 11,
+        "15": 11,
+        "16": 12
+      },
+      "error_mode_distribution": {
+        "spatial_hash": 24,
+        "positive": 24,
+        "negative": 24,
+        "smooth": 24
+      },
+      "original_environment": {
+        "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+        "numpy": "2.4.4",
+        "scipy": "1.17.1"
+      }
+    }
+  },
+  "original_arms": {
+    "BASE": "baseline31",
+    "FINAL": "recommended25"
+  },
+  "independent_layouts_total": 192,
+  "paired_runs_total": 384,
+  "matched_historical_runs": 384,
+  "station_endpoint_definition": "after original Strategy.run completes its station channel loop and calls done.add(i)",
+  "discovered_definition": "cardinality of known union cleared; includes earlier discoveries after clearing",
+  "extension_definition": "hold last discovery count after actual final scan through display index31; no unperformed measurements inferred",
+  "quartile_method": "numpy.quantile(method='linear'); distribution quartiles, not confidence intervals",
+  "output_rows": {
+    "runs": 384,
+    "observed_stations": 10696,
+    "layout_curves": 12288,
+    "summary": 1024,
+    "paired_first_all": 192
+  },
+  "output_sha256": {
+    "q4_discovery_layout_curves.csv": "5f519fe5777996ab4523f537a6c425d2f7bad792a7abe6de2f58917aaa4a1ac0",
+    "q4_discovery_observed_stations.csv": "5cf95f5514c270d681e8d2413f122ed7a31523ffa983fd6ebd0b5d45e864d185",
+    "q4_discovery_paired_first_all.csv": "b7d650188cc103f7ff6ec1d41a196502924f20f95cfd97ff1d59c2ff809538a6",
+    "q4_discovery_runs.csv": "69d6f8d722197618c09dcd9a1af7d8800c409816aff641d2d14eb4832e7256d5",
+    "q4_discovery_summary.csv": "8246ba454ae2de262d9d72d2e57b45aa907bc020d2f7497c455ab35868b31b08"
+  }
+}
